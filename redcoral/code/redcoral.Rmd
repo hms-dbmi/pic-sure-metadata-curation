@@ -174,7 +174,6 @@ my_json <- toJSON(df4, pretty=FALSE)
 Using the `write_json` function outputs quotations with escape characters ("/"). This causes problems with the JSON file format. This can be dealt with by converting the JSON object into a string and writing this to a text file.
 
 ```{r}
-# Emily additions to code to deal with pesky "/" characters
 test_string_json <- as.character(my_json) # Convert to character/string
 fileConn <- file("variable_level.json")
 writeLines(test_string_json, fileConn)
