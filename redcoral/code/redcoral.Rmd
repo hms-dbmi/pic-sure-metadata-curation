@@ -1,7 +1,5 @@
 ---
-title: "redcoral"
-author: "Simran Makwana"
-date: "1/11/2022"
+title: "RED CORAL Curation"
 output: html_document
 ---
 
@@ -9,20 +7,21 @@ output: html_document
 Libraries
 ```{r}
 library(tidyverse)
-#library(pdftools)
-
+library(pdftools)
+library(jsonlite)
+# Set working directory to pic-sure-metadata-curation/redcoral/
 ```
 
 We get the following from redcoral:
 ```{r}
 # csv data dictionary from redcap
-raw_datadict <- read.csv('CORAL data dictionary v2.16.csv')
+raw_datadict <- read.csv('../input/CORAL data dictionary v2.16.csv')
 
-#pdf_datadict <- pdf_text("Data Dictionary.pdf")
+pdf_datadict <- pdf_text("../input/Data Dictionary.pdf")
 
-#consolidated_doc <- pdf_text("RED CORAL Study Documents_consolidated.pdf")
+consolidated_doc <- pdf_text("../input/RED CORAL Study Documents_consolidated.pdf")
 
-sas_file <- read.csv('redcoral_decode_usable.csv')
+sas_file <- read.csv('../input/redcoral_decode_usable.csv')
 
 ```
 
@@ -36,10 +35,9 @@ df <- data.frame('level_0' = raw_datadict$Variable...Field.Name,
                  'level_2' = raw_datadict$Section.Header,
                  'level_3' = raw_datadict$Form.Name)
 
-
 ```
 
-Let's strip the HTML from level 2 and level 1and fill in the blanks
+Let's strip the HTML from level 2 and level 1 and fill in the blanks. Here, we also get rid of the variables that are not included in the final dataframe ("notes")
 ```{r}
 df <- df %>%
   mutate(level_2 = str_trim(str_replace_all(level_2, '<.*?>', ' ')),
@@ -54,7 +52,7 @@ The free text found in the consolidated PDF for the 'broader categories' has bee
 Some of the previous descriptions of sub-headings of others. These are noted by the relationship column.
 We are not sure which of our "levels" these categories correspond to.
 ```{r}
-desc_consolidated <- read.csv('cat_desc_from_consolidated.csv')
+desc_consolidated <- read.csv('../input/cat_desc_from_consolidated.csv')
 head(desc_consolidated)
 
 ```
@@ -83,9 +81,7 @@ df <- df %>%
 Still, the "names" from the consolidated PDF do not perfectly match 'level_3' in the data dictionary. 
 We manually created the mapping so that we can add the descriptions.
 ```{r}
-level_3_mapping <- read.csv('level_3_mapping.csv')
-
-
+level_3_mapping <- read.csv('../input/level_3_mapping.csv')
 ```
 
 Let's rename our level 3 variables and merge in the descriptions for level 3 and level 4 variables.
@@ -108,8 +104,6 @@ df2 <- df %>%
            level_4, level_4_desc) %>%
   mutate(level_1 = gsub('—', '-', level_1)) # remove strange characters from output
 
-
-
 ```
 
 
@@ -117,7 +111,7 @@ Let's merge our dataframe with the information provided through sas.
 Sas provides us with the following information:
 - some variable IDs and names which are not in data dictionary csv
 - variable types
-Our goal is that eachh variable ID will have a variable name which may come from the data dictionary csv or from sas.
+Our goal is that each variable ID will have a variable name which may come from the data dictionary csv or from sas.
 This will be specified in the metadata.
 ```{r}
 df3 <- full_join(df2, 
@@ -132,7 +126,7 @@ Example json output
 
 {
   "var_name": "gender",
-  “var_desc”: “desc gender”,
+  "var_desc": "desc gender",
   "var_id": "gndr"
   "study_id":"phsXXX"
   "metadata": { 
@@ -140,10 +134,8 @@ Example json output
 }
 
 The main goal will be to create a nested JSON file.
-
+First, we will add variable-level metadata information for each variable.
 ```{r}
-library(jsonlite)
-
 # we don't know the type for all variables, subbing '99'
 
 df4 <- df3 %>%
@@ -152,7 +144,6 @@ df4 <- df3 %>%
   rename('var_id' = 'level_0',
          'var_name' = 'varname',
          'var_type' = 'TYPE') 
-
 
 for (r in c(1:nrow(df4))) {
   res_df <- df3[r,] %>%
@@ -164,6 +155,51 @@ for (r in c(1:nrow(df4))) {
            'encounter_id' = 'level_4') 
   df4[r,'metadata'][[1]] <- list(res_df)
 }
+```
+
+***Begin Emily edits***
+
+```{r}
+df5 <- df3 %>% 
+  mutate(TYPE = ifelse(is.na(TYPE), 99, TYPE)) %>%
+  select(level_2) %>%
+  rename('var_group' = 'level_2') %>%
+  filter(!is.na(var_group)) %>%
+  unique()
+
+
+```
+
+```{r}
+level_2_var_mapping <- df3 %>%
+  select(level_0, level_2)
+```
+
+Note for Simran:
+Tricky thing that I can't figure out - in the above example, the metadata of each row of the dataframe is associated with a single list. Below, we need to link a list of lists (the metadata for multiple variables) to a single form or var_group. This would be super easy to accomplish with a Python dictionary, but I tried to use a list of lists in R. It's only saving the first list in the big list, so I can't figure out how to proceed.
+
+
+```{r}
+for (r in c(1:nrow(df5))) {
+ if (r == 2) {
+   temp_group <- df5[r, 'var_group']
+   temp_vars <- level_2_var_mapping %>%
+     filter(level_2 == temp_group) %>%
+     select(level_0)
+   result <- c()
+   temp_vars <- temp_vars[, 'level_0']
+   for (var in temp_vars) {
+     temp_var_data <- df4 %>%
+       filter(var_id == var)
+     result <- c(result, list(temp_var_data))
+   }
+   df5[r, 'var_info'][[1]] <- result
+ } 
+}
+```
+
+
+```{r}
 
 my_json <- toJSON(df4, pretty=FALSE)
 
