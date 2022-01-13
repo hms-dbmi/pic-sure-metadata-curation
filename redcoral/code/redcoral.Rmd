@@ -17,6 +17,8 @@ We get the following from redcoral:
 # csv data dictionary from redcap
 raw_datadict <- read.csv('../input/CORAL data dictionary v2.16.csv')
 
+clean_datadict <- read.csv('../input/clean_jan_coral_dict.csv')
+
 pdf_datadict <- pdf_text("../input/Data Dictionary.pdf")
 
 consolidated_doc <- pdf_text("../input/RED CORAL Study Documents_consolidated.pdf")
@@ -46,6 +48,15 @@ df <- df %>%
          fill(level_2) %>%
   filter(!grepl('notes', level_0)) %>%
   filter(!is.na(level_2))
+
+
+### because the raw_datadict does not have complete entries for some of the levels, let's try using the clean_datadict that Emily manually curated.
+# she has already stripped the HTML and filled the empty variables, so all we do is remove the notes variables
+#df <- data.frame('level_0' = clean_datadict$Variable...Field.Name,
+#                 'level_1' = clean_datadict$Field.Label, 
+#                 'level_2' = clean_datadict$Section.Header,
+#                 'level_3' = clean_datadict$Form.Name)
+
 ```
 
 The free text found in the consolidated PDF for the 'broader categories' has been manually recorded.
@@ -69,7 +80,7 @@ define_level_4 <- function(x){
   ifelse(grepl('inclusion', x), 'INCLUSION',
     ifelse(grepl('baseline', x), 'BASELINE DATA COLLECTION',
            ifelse(grepl('daily', x), 'DAILY ASSESSMENT',
-                  ifelse(grepl('summative', x), 'SUMATIVE/DISCHARGE DATA',
+                  ifelse(grepl('summative', x), 'SUMMATIVE/DISCHARGE DATA',
                          'PLACEHOLDER INSTRUMENTS'))))
 }
 
@@ -157,21 +168,13 @@ for (r in c(1:nrow(df4))) {
 }
 ```
 
-***Begin Emily edits***
-
 ```{r}
-df5 <- df3 %>% 
-  mutate(TYPE = ifelse(is.na(TYPE), 99, TYPE)) %>%
-  select(level_2) %>%
-  rename('var_group' = 'level_2') %>%
-  filter(!is.na(var_group)) %>%
-  unique()
 
+var_groups <- df3 %>% pull(level_2) %>% unique()
 
 
 vargroup_df <- data.frame('vargroup_name' = var_groups)
 
-var_groups <- df3 %>% pull(level_2) %>% unique()
 
 for (group in var_groups) {
   
@@ -202,53 +205,15 @@ for (encounter in encounters) {
   our_forms <- df3 %>% filter(level_4 == encounter) %>% pull(level_3)
   sub_formdf <- form_df %>% filter(form_name %in% our_forms)
   encounter_df[which(encounters == encounter),'encounter_desc'][[1]] <- ifelse(is_empty(df3 %>% filter(level_4 == encounter) %>% pull(level_4_desc) %>% unique), '', df3 %>% filter(level_4 == encounter) %>% pull(level_4_desc) %>% unique)
-  encounter_df[which(encounters == encounter),'form'][[1]] <- list(sub_formdf)
+  encounter_df[which(encounters == encounter),'form_data'][[1]] <- list(sub_formdf)
   
 }
 
 
 my_json <- toJSON(encounter_df, pretty=FALSE)
 
-print(my_json)
-
 ```
 
-```{r}
-level_2_var_mapping <- df3 %>%
-  select(level_0, level_2)
-```
-
-Note for Simran:
-Tricky thing that I can't figure out - in the above example, the metadata of each row of the dataframe is associated with a single list. Below, we need to link a list of lists (the metadata for multiple variables) to a single form or var_group. This would be super easy to accomplish with a Python dictionary, but I tried to use a list of lists in R. It's only saving the first list in the big list, so I can't figure out how to proceed.
-
-
-```{r}
-for (r in c(1:nrow(df5))) {
- if (r == 2) {
-   temp_group <- df5[r, 'var_group']
-   temp_vars <- level_2_var_mapping %>%
-     filter(level_2 == temp_group) %>%
-     select(level_0)
-   result <- c()
-   temp_vars <- temp_vars[, 'level_0']
-   for (var in temp_vars) {
-     temp_var_data <- df4 %>%
-       filter(var_id == var)
-     result <- c(result, list(temp_var_data))
-   }
-   df5[r, 'var_info'][[1]] <- result
- } 
-}
-```
-
-
-```{r}
-
-my_json <- toJSON(df4, pretty=FALSE)
-
-#write_json(my_json, 'test.json', pretty=FALSE) 
-#Setting pretty=FALSE does not work with escape character problem
-```
 
 Using the `write_json` function outputs quotations with escape characters ("/"). This causes problems with the JSON file format. This can be dealt with by converting the JSON object into a string and writing this to a text file.
 
@@ -261,14 +226,6 @@ close(fileConn)
 # This works for writing a JSON file without the escape characters
 ```
 
-```{r}
-
-write.csv(df3, '../test_summary_df.csv', row.names = FALSE)
-```
-
-```{r}
-
-```
 
 
 
