@@ -189,7 +189,7 @@ for (form in forms) {
   
   our_vargroups <- df3 %>% filter(level_3 == form) %>% pull(level_2)
   sub_vargroupdf <- vargroup_df %>% filter(vargroup_name %in% our_vargroups)
-  form_df[which(forms == form),'form_desc'][[1]] <- df3 %>% filter(level_3 == form) %>% pull(level_3_desc) %>% unique
+  form_df[which(forms == form),'form_desc'][[1]] <- ifelse(is_empty(df3 %>% filter(level_3 == form) %>% pull(level_3_desc) %>% unique), '', df3 %>% filter(level_3 == form) %>% pull(level_3_desc) %>% unique)
   form_df[which(forms == form),'var_group'][[1]] <- list(sub_vargroupdf)
   
 }
