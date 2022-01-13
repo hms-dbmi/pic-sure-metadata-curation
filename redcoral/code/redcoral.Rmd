@@ -168,6 +168,33 @@ df5 <- df3 %>%
   unique()
 
 
+
+vargroup_df <- data.frame('vargroup_name' = var_groups)
+
+var_groups <- df3 %>% pull(level_2) %>% unique()
+
+for (group in var_groups) {
+  
+  
+  our_ids <- df3 %>% filter(level_2 == group) %>% pull(level_0)
+  subdf3 <- df4 %>% filter(var_id %in% our_ids)
+  vargroup_df[which(var_groups == group),'var_data'][[1]] <- list(subdf3)
+
+}
+
+
+
+forms <- df3 %>% pull(level_3) %>% unique()
+
+for (form in )
+
+
+
+
+my_json <- toJSON(vargroup_df, pretty=FALSE)
+
+print(my_json)
+
 ```
 
 ```{r}
@@ -211,7 +238,7 @@ Using the `write_json` function outputs quotations with escape characters ("/").
 
 ```{r}
 test_string_json <- as.character(my_json) # Convert to character/string
-fileConn <- file("variable_level.json")
+fileConn <- file("../output/variable_level.json")
 writeLines(test_string_json, fileConn)
 close(fileConn)
 
