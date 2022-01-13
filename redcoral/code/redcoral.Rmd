@@ -221,7 +221,7 @@ Using the `write_json` function outputs quotations with escape characters ("/").
 
 ```{r}
 test_string_json <- as.character(my_json) # Convert to character/string
-fileConn <- file("../output/test.json")
+fileConn <- file("../output/redcoral_metadata.json")
 writeLines(test_string_json, fileConn)
 close(fileConn)
 
