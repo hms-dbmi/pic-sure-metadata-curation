@@ -175,23 +175,38 @@ var_groups <- df3 %>% pull(level_2) %>% unique()
 
 for (group in var_groups) {
   
-  
   our_ids <- df3 %>% filter(level_2 == group) %>% pull(level_0)
-  subdf3 <- df4 %>% filter(var_id %in% our_ids)
-  vargroup_df[which(var_groups == group),'var_data'][[1]] <- list(subdf3)
+  subdf4 <- df4 %>% filter(var_id %in% our_ids)
+  vargroup_df[which(var_groups == group),'var_data'][[1]] <- list(subdf4)
 
 }
 
 
-
 forms <- df3 %>% pull(level_3) %>% unique()
+form_df <- data.frame('form_name' = forms)
 
-for (form in )
+for (form in forms) {
+  
+  our_vargroups <- df3 %>% filter(level_3 == form) %>% pull(level_2)
+  sub_vargroupdf <- vargroup_df %>% filter(vargroup_name %in% our_vargroups)
+  form_df[which(forms == form),'form_desc'][[1]] <- df3 %>% filter(level_3 == form) %>% pull(level_3_desc) %>% unique
+  form_df[which(forms == form),'var_group'][[1]] <- list(sub_vargroupdf)
+  
+}
+
+encounters <- df3 %>% pull(level_4) %>% unique()
+encounter_df <- data.frame('encounter_name' = forms)
+
+for (encounter in encounters) {
+  
+  our_forms <- df3 %>% filter(level_4 == encounter) %>% pull(level_3)
+  sub_formdf <- form_df %>% filter(form_name %in% our_forms)
+  encounter_df[which(encounters == encounter),'form'][[1]] <- list(sub_formdf)
+  
+}
 
 
-
-
-my_json <- toJSON(vargroup_df, pretty=FALSE)
+my_json <- toJSON(encounter_df, pretty=FALSE)
 
 print(my_json)
 
@@ -238,7 +253,7 @@ Using the `write_json` function outputs quotations with escape characters ("/").
 
 ```{r}
 test_string_json <- as.character(my_json) # Convert to character/string
-fileConn <- file("../output/variable_level.json")
+fileConn <- file("../output/test.json")
 writeLines(test_string_json, fileConn)
 close(fileConn)
 
