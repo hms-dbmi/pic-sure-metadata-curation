@@ -195,12 +195,13 @@ for (form in forms) {
 }
 
 encounters <- df3 %>% pull(level_4) %>% unique()
-encounter_df <- data.frame('encounter_name' = forms)
+encounter_df <- data.frame('encounter_name' = encounters)
 
 for (encounter in encounters) {
   
   our_forms <- df3 %>% filter(level_4 == encounter) %>% pull(level_3)
   sub_formdf <- form_df %>% filter(form_name %in% our_forms)
+  encounter_df[which(encounters == encounter),'encounter_desc'][[1]] <- ifelse(is_empty(df3 %>% filter(level_4 == encounter) %>% pull(level_4_desc) %>% unique), '', df3 %>% filter(level_4 == encounter) %>% pull(level_4_desc) %>% unique)
   encounter_df[which(encounters == encounter),'form'][[1]] <- list(sub_formdf)
   
 }
