@@ -1,0 +1,150 @@
+---
+title: "BABY HUG Curation"
+output: html_document
+---
+
+
+Note:
+The following code is buggy and still under development. This is being developed for FUS I and can be applied to FUS II and pHase II RCT with some modifications. 
+
+
+
+Libraries
+```{r}
+library(tidyverse)
+library(textreadr)
+```
+
+We get the following from BABY HUG:
+```{r}
+read_in_rtfs <- function(directory, number_columns, columns_names, col_indices_to_remove=c(), row_indices_to_remove=c()){
+  list_of_files <- list.files(directory)
+  full_rtf_df <- data.frame(matrix(nrow=0, ncol=number_columns))
+  colnames(full_rtf_df) <- columns_names
+  for(infile in list_of_files){
+    form <- str_split(infile, '\\.')[[1]][1]
+    raw_rtf <- read_rtf(paste(directory, infile, sep=''))
+    rtf_df <- data.frame(matrix(nrow=0, ncol=number_columns))
+    for (i in 1:length(raw_rtf)) {
+      parsed_line <- str_split(raw_rtf[i], '\\*\\| | \\| | \\|')[[1]]
+      rtf_df <- rbind(rtf_df, parsed_line)
+    }
+    no_empty <- rtf_df[-row_indices_to_remove, -col_indices_to_remove]
+    colnames(no_empty) <- columns_names
+    clean_df <- no_empty[!apply(no_empty == "", 1, all),]
+    clean_df$file_name <- form
+    full_rtf_df <- rbind(full_rtf_df, clean_df)
+  }
+  rownames(full_rtf_df) <- NULL
+  return(full_rtf_df)
+}
+```
+
+```{r}
+fus_i_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_FUS_I_Codebook/", 
+                         10, 
+                         c("Variable_Label_VAR", "Variable_Name", "Category",
+                           "N_percent", "N_Missing", "Mean_SD", "Median_Q1_Q3",
+                           "Range_of_Values"),
+                         c(1, 10),
+                         c(1))
+```
+
+```{r}
+fus_ii_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_FUS_II_Codebook/", 
+                         10, 
+                         c("Variable_Label_VAR", "Variable_Name", "Category",
+                           "N_percent", "N_Missing", "Mean_SD", "Median_Q1_Q3",
+                           "Range_of_Values"),
+                         c(1, 10),
+                         c(1))
+```
+
+```{r}
+phase_iii_rct_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_PhaseIII_RCT_Codebook/", 
+                         10, 
+                         c("Variable_Label_VAR", "Variable_Name", "Category",
+                           "N_percent", "N_Missing", "Mean_SD", "Median_Q1_Q3",
+                           "Range_of_Values"),
+                         c(1, 10),
+                         c(1))
+```
+
+Something weird is going on with the FUS II and Phase III RCT data. Skipping for now but will investigate later.
+
+
+```{r}
+while(length(ind <- which(fus_i_df$Variable_Label_VAR == "")) > 1) {
+  fus_i_df$Variable_Label_VAR[ind] <- fus_i_df$Variable_Label_VAR[ind-1]
+}
+while(length(ind <- which(fus_i_df$Variable_Name == "")) > 1) {
+  fus_i_df$Variable_Name[ind] <- fus_i_df$Variable_Name[ind-1]
+}
+
+#while(length(ind <- which(fus_ii_df$Variable_Level_VAR == "")) > 1) {
+#  fus_ii_df$Variable_Level_VAR[ind] <- fus_ii_df$Variable_Level_VAR[ind-1]
+#}
+#while(length(ind <- which(fus_ii_df$Variable_Name == "")) > 1) {
+#  fus_ii_df$Variable_Name[ind] <- fus_ii_df$Variable_Name[ind-1]
+#}
+
+#while(length(ind <- which(phase_iii_rct_df$Variable_Level_VAR == "")) > 1) {
+#  phase_iii_rct_df$Variable_Level_VAR[ind] <- phase_iii_rct_df$Variable_Level_VAR[ind-1]
+#}
+#while(length(ind <- which(phase_iii_rct_df$Variable_Name == "")) > 1) {
+#  phase_iii_rct_df$Variable_Name[ind] <- phase_iii_rct_df$Variable_Name[ind-1]
+#}
+```
+
+
+```{r}
+save_var_metadata <- function(df) {
+  var_groups <- df %>%
+    select(Variable_Name) %>%
+    unique()
+  
+  final_df <- data.frame(df %>%
+                           select(Variable_Name, Variable_Label_VAR) %>%
+                           unique())
+  
+  for (ind in 1:nrow(var_groups)) {
+    var_df <- df %>%
+      filter(Variable_Name == var_groups[ind, "Variable_Name"]) %>%
+      select(Category, N_percent, N_Missing)
+    final_df[ind, 'var_data'][[1]] <- list(var_df)
+  }
+  
+  return(final_df)
+}
+```
+
+
+```{r}
+test <- save_var_metadata(fus_i_df)
+```
+
+
+
+```{r}
+var_groups <- test_df2 %>%
+  select(Variable_Name) %>%
+  unique()
+
+test_df3 <- data.frame(test_df2 %>%
+                         select(Variable_Name, Variable_Label__VAR) %>%
+                         unique())
+rownames(test_df3) <- NULL
+rownames(var_groups) <- NULL
+
+
+
+
+
+for (group in 1:nrow(var_groups)) {
+  var_df <- test_df2 %>% 
+    filter(Variable_Name == var_groups[group, "Variable_Name"]) %>%
+    select(Category, N_percent, N_Missing)
+  test_df3[group,'var_data'][[1]] <- list(var_df)
+}
+```
+
