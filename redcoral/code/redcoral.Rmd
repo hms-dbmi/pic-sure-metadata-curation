@@ -25,6 +25,8 @@ consolidated_doc <- pdf_text("../input/RED CORAL Study Documents_consolidated.pd
 
 sas_file <- read.csv('../input/redcoral_decode_usable.csv')
 
+variable_level_metadata <- read.csv('../intermediates/variable_level_metadata.csv')
+
 ```
 
 Although the pdf_datadict appears to have ~1500 variables, the raw_datadict only contains 914. 
@@ -135,6 +137,19 @@ df3[!df3$level_0 %in% df2$level_0,c('level_1', 'level_2', 'level_3', 'level_4')]
 
 ```
 
+
+We have additional metadata for some of the variables, which we manually pull from the combined PDF and entered into the variable_level_metadata.csv.
+```{r}
+df3 <- left_join(df3 %>% 
+                    mutate(varname = str_trim(varname)),
+                  variable_level_metadata %>%
+                    mutate(SELECT_VARIABLES_FIELDS = str_trim(SELECT_VARIABLES_FIELDS)),
+                  by = c('varname' = 'SELECT_VARIABLES_FIELDS')) %>%
+  select(-level_1_desc) %>%
+  rename(level_1_desc = 'COMMENT_INSTRUCTION')
+
+```
+
 Example json output 
 
 {
@@ -160,12 +175,13 @@ df4 <- df3 %>%
 
 for (r in c(1:nrow(df4))) {
   res_df <- df3[r,] %>%
-    select(level_1, level_2, level_3, level_4, varname)  %>%
+    select(level_1, level_1_desc, varname) %>% #level_2, level_3, level_4)  %>%
     rename('datadict_varname' = 'level_1',
            'sas_varname' = 'varname',
-           'var_group' = 'level_2',
-           'form_id' = 'level_3',
-           'encounter_id' = 'level_4') 
+           'var_desc' = 'level_1_desc')#,
+           #'var_group' = 'level_2', # repetitive
+           #'form_id' = 'level_3', # repetitive
+           #'encounter_id' = 'level_4') # repetitive
   df4[r,'metadata'][[1]] <- list(res_df)
 }
 ```
