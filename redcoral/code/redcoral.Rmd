@@ -1,0 +1,253 @@
+---
+title: "RED CORAL Curation"
+output: html_document
+---
+
+
+Libraries
+```{r}
+library(tidyverse)
+library(pdftools)
+library(jsonlite)
+# Set working directory to pic-sure-metadata-curation/redcoral/
+```
+
+We get the following from redcoral:
+```{r}
+# csv data dictionary from redcap
+raw_datadict <- read.csv('../input/CORAL data dictionary v2.16.csv')
+
+clean_datadict <- read.csv('../input/clean_jan_coral_dict.csv')
+
+pdf_datadict <- pdf_text("../input/Data Dictionary.pdf")
+
+consolidated_doc <- pdf_text("../input/RED CORAL Study Documents_consolidated.pdf")
+
+sas_file <- read.csv('../input/redcoral_decode_usable.csv')
+
+variable_level_metadata <- read.csv('../intermediates/variable_level_metadata.csv')
+
+```
+
+Although the pdf_datadict appears to have ~1500 variables, the raw_datadict only contains 914. 
+We will use the 914 variables in raw_datadict as a starting point.
+We use the terminology "level 0", "level 1", etc. to avoid getting confused with "variable name", "section name", "table name".
+Levels start at most specific (0) and become more general. 
+```{r}
+df <- data.frame('level_0' = raw_datadict$Variable...Field.Name,
+                 'level_1' = raw_datadict$Field.Label, 
+                 'level_2' = raw_datadict$Section.Header,
+                 'level_3' = raw_datadict$Form.Name)
+
+```
+
+Let's strip the HTML from level 2 and level 1 and fill in the blanks. Here, we also get rid of the variables that are not included in the final dataframe ("notes")
+```{r}
+df <- df %>%
+  mutate(level_2 = str_trim(str_replace_all(level_2, '<.*?>', ' ')),
+         level_1 = str_trim(str_replace_all(level_1, '<.*?>', ' ')),
+         level_2 = na_if(level_2, '')) %>%
+         fill(level_2) %>%
+  filter(!grepl('notes', level_0)) %>%
+  filter(!is.na(level_2))
+
+
+### because the raw_datadict does not have complete entries for some of the levels, let's try using the clean_datadict that Emily manually curated.
+# she has already stripped the HTML and filled the empty variables, so all we do is remove the notes variables
+#df <- data.frame('level_0' = clean_datadict$Variable...Field.Name,
+#                 'level_1' = clean_datadict$Field.Label, 
+#                 'level_2' = clean_datadict$Section.Header,
+#                 'level_3' = clean_datadict$Form.Name)
+
+```
+
+The free text found in the consolidated PDF for the 'broader categories' has been manually recorded.
+Some of the previous descriptions of sub-headings of others. These are noted by the relationship column.
+We are not sure which of our "levels" these categories correspond to.
+```{r}
+desc_consolidated <- read.csv('../input/cat_desc_from_consolidated.csv')
+head(desc_consolidated)
+
+```
+
+In the consolidated PDF, 
+If we look at our "level_3" variables, we see a similar pattern.
+```{r}
+table(df$level_3)
+
+```
+We will create another, broader level to account for the additional descriptions found in the consolidated PDF.
+```{r}
+define_level_4 <- function(x){
+  ifelse(grepl('inclusion', x), 'INCLUSION',
+    ifelse(grepl('baseline', x), 'BASELINE DATA COLLECTION',
+           ifelse(grepl('daily', x), 'DAILY ASSESSMENT',
+                  ifelse(grepl('summative', x), 'SUMMATIVE/DISCHARGE DATA',
+                         'PLACEHOLDER INSTRUMENTS'))))
+}
+
+df <- df %>% 
+  mutate(level_4 = define_level_4(level_3))
+
+```
+
+Still, the "names" from the consolidated PDF do not perfectly match 'level_3' in the data dictionary. 
+We manually created the mapping so that we can add the descriptions.
+```{r}
+level_3_mapping <- read.csv('../input/level_3_mapping.csv')
+```
+
+Let's rename our level 3 variables and merge in the descriptions for level 3 and level 4 variables.
+```{r}
+df2 <- df %>%
+  left_join(level_3_mapping, by = c('level_3' = 'datadict_name')) %>%
+  select(-level_3) %>%
+  rename('level_3' = 'combined_pdf_name') %>%
+  left_join(desc_consolidated %>% select(name, desc), by = c('level_3' = 'name')) %>%
+  rename('level_3_desc' = 'desc') %>%
+  left_join(desc_consolidated %>% select(name, desc), by = c('level_4' = 'name')) %>%
+  rename('level_4_desc' = 'desc') %>%
+  mutate('level_2_desc' = '', 
+         'level_1_desc' = '', 
+         'level_0_desc' = '') %>%
+  relocate(level_0, level_0_desc,
+           level_1, level_1_desc,
+           level_2, level_2_desc,
+           level_3, level_3_desc,
+           level_4, level_4_desc) %>%
+  mutate(level_1 = gsub('—', '-', level_1)) # remove strange characters from output
+
+```
+
+
+Let's merge our dataframe with the information provided through sas.
+Sas provides us with the following information:
+- some variable IDs and names which are not in data dictionary csv
+- variable types
+Our goal is that each variable ID will have a variable name which may come from the data dictionary csv or from sas.
+This will be specified in the metadata.
+```{r}
+df3 <- full_join(df2, 
+                 sas_file %>% select(NAME, TYPE, LABEL), 
+                 by = c('level_0' = 'NAME')) %>%
+  mutate(varname = ifelse(!is.na(level_1), level_1, LABEL))
+
+# mark 'unknown' for metadata for variables which are only present in the sass file
+df3[!df3$level_0 %in% df2$level_0,c('level_1', 'level_2', 'level_3', 'level_4')] <- "UNKNOWN"
+
+```
+
+
+We have additional metadata for some of the variables, which we manually pull from the combined PDF and entered into the variable_level_metadata.csv.
+```{r}
+df3 <- left_join(df3 %>% 
+                    mutate(varname = str_trim(varname)),
+                  variable_level_metadata %>%
+                    mutate(SELECT_VARIABLES_FIELDS = str_trim(SELECT_VARIABLES_FIELDS)),
+                  by = c('varname' = 'SELECT_VARIABLES_FIELDS')) %>%
+  select(-level_1_desc) %>%
+  rename(level_1_desc = 'COMMENT_INSTRUCTION')
+
+```
+
+Example json output 
+
+{
+  "var_name": "gender",
+  "var_desc": "desc gender",
+  "var_id": "gndr"
+  "study_id":"phsXXX"
+  "metadata": { 
+    "encounter_name": "INCLUSION"
+}
+
+The main goal will be to create a nested JSON file.
+First, we will add variable-level metadata information for each variable.
+```{r}
+# we don't know the type for all variables, subbing '99'
+
+df4 <- df3 %>%
+  mutate(TYPE = ifelse(is.na(TYPE), 99, TYPE)) %>%
+  select(level_0, TYPE, varname) %>%
+  rename('var_id' = 'level_0',
+         'var_name' = 'varname',
+         'var_type' = 'TYPE') 
+
+for (r in c(1:nrow(df4))) {
+  res_df <- df3[r,] %>%
+    select(level_1, level_1_desc, varname) %>% #level_2, level_3, level_4)  %>%
+    rename('datadict_varname' = 'level_1',
+           'sas_varname' = 'varname',
+           'var_desc' = 'level_1_desc')#,
+           #'var_group' = 'level_2', # repetitive
+           #'form_id' = 'level_3', # repetitive
+           #'encounter_id' = 'level_4') # repetitive
+  df4[r,'metadata'][[1]] <- list(res_df)
+}
+```
+
+```{r}
+
+var_groups <- df3 %>% pull(level_2) %>% unique()
+
+
+vargroup_df <- data.frame('vargroup_name' = var_groups)
+
+
+for (group in var_groups) {
+  
+  our_ids <- df3 %>% filter(level_2 == group) %>% pull(level_0)
+  subdf4 <- df4 %>% filter(var_id %in% our_ids)
+  vargroup_df[which(var_groups == group),'var_data'][[1]] <- list(subdf4)
+
+}
+
+
+forms <- df3 %>% pull(level_3) %>% unique()
+form_df <- data.frame('form_name' = forms)
+
+for (form in forms) {
+  
+  our_vargroups <- df3 %>% filter(level_3 == form) %>% pull(level_2)
+  sub_vargroupdf <- vargroup_df %>% filter(vargroup_name %in% our_vargroups)
+  form_df[which(forms == form),'form_desc'][[1]] <- ifelse(is_empty(df3 %>% filter(level_3 == form) %>% pull(level_3_desc) %>% unique), '', df3 %>% filter(level_3 == form) %>% pull(level_3_desc) %>% unique)
+  form_df[which(forms == form),'var_group'][[1]] <- list(sub_vargroupdf)
+  
+}
+
+encounters <- df3 %>% pull(level_4) %>% unique()
+encounter_df <- data.frame('timepoint_name' = encounters)
+
+for (encounter in encounters) {
+  
+  our_forms <- df3 %>% filter(level_4 == encounter) %>% pull(level_3)
+  sub_formdf <- form_df %>% filter(form_name %in% our_forms)
+  encounter_df[which(encounters == encounter),'timepoint_desc'][[1]] <- ifelse(is_empty(df3 %>% filter(level_4 == encounter) %>% pull(level_4_desc) %>% unique), '', df3 %>% filter(level_4 == encounter) %>% pull(level_4_desc) %>% unique)
+  encounter_df[which(encounters == encounter),'form_data'][[1]] <- list(sub_formdf)
+  
+}
+
+
+my_json <- toJSON(encounter_df, pretty=FALSE)
+
+```
+
+
+Using the `write_json` function outputs quotations with escape characters ("/"). This causes problems with the JSON file format. This can be dealt with by converting the JSON object into a string and writing this to a text file.
+
+```{r}
+test_string_json <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/redcoral_metadata.json")
+writeLines(test_string_json, fileConn)
+close(fileConn)
+
+# This works for writing a JSON file without the escape characters
+```
+
+
+
+
+
+
+
+

@@ -1,0 +1,140 @@
+﻿SELECT_VARIABLES_FIELDS,COMMENT_INSTRUCTION
+REDCap subject ID ,"For most sites, this will be the PETAL subject ID. If electing to use a different number, this should be a code combining PETAL site ID with a UNIQUE number >/= 6 alpha-numeric digits. (Example: 'A03-00001' or 'U01-28453970'). "
+Medical record number (MRN),"Enter ""0"" if site is not submitting MRN"
+Total known number of COVID-19 tests completed,Number of times patient was known to have been tested for COVID-19 at study hospital
+Any positive COVID-19 test?,This will be YES for all CORAL subjects.
+Was positive COVID-19 test the first test? ,Answer based on their first test at study hospital
+Was COVID-19 associated with an admission to a study hospital? ,This will be YES for all CORAL subjects. 
+Did COVID-19 contribute to need for hospital admission?,"Answer ""Yes"" if COVID-19 symptoms (e.g. fever, shortness of breath), disease (e.g. pneumonia), or complications at least in part attributed to COVID-19 (e.g. hypoxemia, ARDS, encephalitis, renal failure) contributed to need for admission to hospital as documented by treating clinicians. "
+Date/time of admission to study hospital ,Use admit time associated with this acute illness 
+Eligibility symptoms ,"When evaluating symptom/history based elements:
+\n\tIf history able to be obtained and symptom noted, choose ""Yes""
+\n\tIf history was able to be obtained and symptom is either denied or
+was not specifically noted, choose ""No""
+\n\tIf clinicians unable to obtain any history, choose ""unknown"""
+"Clinical suspicion of acute respiratory infection (ARI) despite not meeting criteria above (e.g. hypoxemia, diagnosis of pneumonia, bilateral pulmonary opacities)","Answer ""YES"" if documented diagnosis of respiratory infection OR treatment specifically for a pneumonia OR new hypoxemia OR bilateral opacities on chest imaging. (AT LEAST ONE SYMPTOM OR “ACUTE RESPIRATORY INFECTION” SHOULD BE “YES” FOR ALL CORAL SUBJECTS)"
+ICU admit during hospitalization ,"Answer ""No"" if highest level of care was ""intermediate care"" or ""step down"" unit. "
+Comfort care ,"Comfort care includes patients who are on hospice, ""comfort-focused care,"" ""comfort measures, or have ""comfort measures only"" code status. Review admission and hospital progress note for days #1-2."
+PETAL subject ID ,Code combining site ID code with a sequential patient ID for all subjects site has enrolled in all PETAL studies (e.g. “A03-00232”). Obtain from PETAL website. 
+CORAL subject ID ,Will only be used for prospective CORAL patients
+Sex ,Enter sex at birth 
+Patient location/living situation prior to onset of current illness episode ,"Obtain data from brief review of ED note and admission note. If no suggestion of living in facility and no suggestion of baseline functional limitation, default to ""home independently."" If has limitation & lives at home, but no evidence of professional home services, default to ""Home with help (unskilled...)"" "
+Other situation ,Do not specify incarceration/legal custody in this free text field. 
+Healthcare worker ,"Choose ""Yes"" if patient works in any capacity in a healthcare situation. "
+Smoking/vaping status ,"Former smoker/vaper defined as having quit ≥4 weeks prior to presentation. Only answer “unknown” if patient’s history is completely unknown. Otherwise, If not specifically mentioned, assume “No.” "
+Transferred from another facility,"Include only acute care settings (ED, acute care hospital). Does not include nursing homes or long-term acute care hospitals (LTACHs)."
+External triage limitations on access to intensive care? ,"Examples include lack of ventilator availability and hospital policies limiting therapies available to that patient (e.g. intubation, ICU admission) based on age, comorbidities, or other factors. This does not include limitations based on patient’s expressed goals of care. "
+Goals of care include limitations ,This is independent of whether an advanced directive or POLST was in place before hospital admission. Applicable data includes decisions made by the patient/LAR up through the time of admission.
+Independent for ADLs,"ADLs include bathing, dressing, transferring, using the toilet, and eating. Obtain from review of ED, H&P, physical therapy notes, initial rehab admission note (if available after discharge)."
+Frailty scale,"Obtain from review of ED, H&P, physical therapy notes, initial rehab admission note (if available after discharge). For baseline healthy patients without detailed data, assume patient is “well.”
+\n\tVery fit: Robust, active, energetic, motivated; exercises regularly; they are the fittest for their age
+\n\tWell: No active disease symptoms; active or exercises occasionally
+\n\tManaging well: Medical problems are well controlled; not active beyond routine
+walking
+\n\tVulnerable: Slowed down; not dependent on others; symptoms limit activities
+\n\tMildly frail: Evident slowing, higher order IADL dependency, impaired shopping or
+walking outside and housework\
+\n\tModerately frail: Needs help with all outside activities, has trouble with stairs, may
+need help with bathing and dressing
+\n\tSeverely frail: Completely dependent for personal care, not at high risk of dying within
+6 months
+\n\tVery severely frail: Completely dependent, approaching end of life, typically would
+not recover from minor illness
+\n\tTerminally ill: Approaching end of life"
+Myocardial infarction*,"History of diagnosed or symptomatic MI, not ECG changes only"
+Congestive heart failure*,History of symptomatic heart failure
+Atrial arrhythmia,"Atrial fibrillation, atrial flutter, sick sinus syndrome"
+Other (non-atrial) arrhythmia ,"Ventricular tachycardia, ventricular fibrillation, long QT syndrome, supraventricular tachycardia (SVT)"
+Peripheral vascular disease*,"Claudication, arterial insufficiency, revascularization, AAA ≥6 cm"
+Cerebrovascular disease (with mild or no residual or TIA)*,Transient ischemic attack (TIA) or CVA/stroke with mild or no residual symptoms
+Hemiplegia*,Paraplegia or hemiplegia
+Dementia*,Chronic cognitive deficit
+Chronic pulmonary disease*,"Dyspnea at rest or with mild exertion, chronic O2 use, chronic hypercapnia"
+Interstitial lung disease,"Interstitial lung disease, pulmonary fibrosis, interstitial pneumonitis, cryptogenic or other non-infectious organizing pneumonia, asbestosis, pulmonary sarcoidosis"
+Asthma,Previously diagnosed by a physician
+Home respiratory support,"If patient uses >1 type, select the highest intensity item."
+Peptic ulcer disease*,History of treatment for ulcer disease
+Mild liver disease*,"Without portal hypertension, includes chronic hepatitis"
+Moderate or severe liver disease* ,Cirrhosis with portal hypertension
+Diabetes without end-organ damage*,Excludes diet-controlled diabetes
+Diabetes with end-organ damage,"Complicated by retinopathy, neuropathy, nephropathy"
+Connective tissue disease*,"Lupus, polymyositis, MCTD, PMR, mod/severe RA, or other significant autoimmune disease"
+Moderate or severe renal disease*,"Baseline Cr >3, dialysis, or kidney transplant"
+Tumor without metastases*,"Answer ""No"" if >5 years since diagnosis"
+Leukemia*,"AML, ALL, CLL, CML, and polycythemia vera"
+HIV,"Answer ""Yes"" if HIV or AIDS"
+Tuberculosis,"Active pulmonary or extra-pulmonary TB. Answer ""No"" if latent TB only."
+Alcohol abuse ,"Documentation of alcohol use disorder, withdrawal, or abuse"
+Drug abuse,"Use of ilicit drugs (do not include marijuana), or prescription medications (e.g. opiates) without prescription"
+Psychosis,Includes schizophrenia or other psychosis
+Depression,"Diagnosis of depression or on current use of an antidepressant including:
+\n\tSSRI: citalopram (Celexa), escitalopram (Lexapro), fluoxetine (Prozac),
+fluvoxamine (Luvox), paroxetine (Paxil), sertraline (Zoloft)
+\n\tSNRI: desvenlafaxine (Pristiq), duloxetine (Cymbalta), venlafaxine
+(Effexor)
+\n\tTricyclic antidepressant: amitriptyline (Elavil], desipramine (Norpramin),
+doxepine (Sinequan), Imipramine (Tofranil), nortriptyline (Pamelor)"
+Anxiety,"Diagnosis of anxiety disorder or chronically prescribed benzodiazepine (lorazepam [Ativan], clonazepam [Xanax], diazepam [Valium]"
+Participation in research study involving therapeutic drug.,"Includes trial participation as outpatient or at another hospital prior to transfer to study hospital. Answer ""No"" if patient received only ""usual care"" as part of the trial (no study drug) or never received any study medication."
+Was patient's treatment assignment blinded?,"A trial (may or may not be randomized) in which patient and their medical team knew which drug the patient received. Examples include trials that:
+\n\tGive all patients a single active drug.
+\n\tCompare active drug to ""usual care.""
+\n\tStudy arms use same active drug but compare durations or doses.
+\n\tCompare ≥2 different active drugs with known assignment.
+\nBlinded trial: A trial in which patient and their medical team did not know which drug the patient received or if they received an active study drug at all. Examples include trials that:
+\n\tCompare one or more drugs to a placebo (e.g. ORCHID)
+\n\tCompare ≥2 different active drugs with unknown assignment."
+Medication class members,Specific drugs within larger drug classes are provided within the REDCap instruments and in Appendix 1.
+Immunosuppressive medication,"Includes chemotherapy, immunosuppression for auto-immune disease, and immunosuppression after bone marrow or solid organ transplant."
+Aspirin,Daily use only
+All labs & vital signs,"Values do not need to be obtained from the same time. Enter ""-99"" for missing values (some fields may force 1-2 zeroes after a decimal place)."
+Was patient's treatment assignment blinded?,"If GCS is not explicitly recorded in structured documentation or as part of physical exam documented by physician, use description from HPI and physical exam in ED note or admission H&P to assign values.
+\n\tGCS 15 = Normal mental status, A&O x3
+\n\tGCS 14 = Confused, altered mental status
+\n\tGCS 13 = Somnolent, opens eyes to voiceGCS 10 = Obtunded, grimaces to pain
+\n\tGCS 3 = Unresponsive, comatose
+\n\tIf still unable to determine, enter ""-99"""
+Troponin I,"Only enter values for troponin I. If only available value is troponin T (normal or high-sensitivity), enter value as missing."
+ICU or ICU step-down/intermediate care unit admission,"If admitted to both IMCU and ICU (e.g. transferred from IMCU to ICU within 24 hours), select ICU. ""ICU"" can include surge, ad hoc, and temporary ICUs."
+"Non-invasive ventilation (NIPPV, BiPAP, CPAP) Inotropes/vasopressors
+Therapeutic neuromuscular blockade / therapeutic paralysis","Answer ""No"" if on home settings, at night only or if used only for sleep apnea.
+Includes norepinephrine (Levophed), epinephrine, vasopressin, phenylephrine (Neosynephrine), angiotensin-II (Giapreza), dopamine, dobutamine, milrinone
+Do not include paralytic given for intubation"
+"Selection and specification of ""other"" targeted treatment for COVID-19","Do not include medications for chronic illnesses, complications of acute illness (e.g. amiodarone for arrhythmia, heparin for cardiac ischemia or DVT), and hospital supportive care (e.g. nebulizers, sedatives, DVT prophylaxis)."
+Sedatives used for patient while on ventilator,"Do not include medications given only for initial intubation. Eligible benzodiazepine medications: midazolam (Versed), lorazepam (Ativan), diazepam (Valium)"
+"Urine output, daily net intake/output",Can use either calendar (as for all other daily data elements) or a can use a 24-hour period based on hospital's standard documentation/flowsheet (e.g. 6am on calendar day to 6 am on the next calendar day) to make abstraction easier. Choice should be applied consistently for each hospital.
+WHO ordinal outcome scale,Will auto-populate after all necessary treatments have been documented.
+Daily EKG & QTc,"If patient had an EKG performed, enter the ""QTc"" value recorded on the EKG form by the computer."
+Other fields,See instructions provided for baseline data elements.
+Date of last update,Enter date that data is being abstracted. This field should be updated each time the summative/discharge data is updated.
+Hospital disposition at discharge,"Aside from death, palliative discharge trumps other disposition statuses. For instance, a patient discharged on home hospice should be recorded as ""palliative discharge"" rather than ""discharge home with services."
+Care limitations,"Obtain data from review of discharge, interim, and transfer summaries. "
+Pulmonary infection,"Obtain info from discharge, interim, and transfer summaries as well as results of molecular testing for pulmonary pathogens and sputum and other respiratory cultures."
+Non-pulmonary infection ,"Obtain information from discharge, interim, and transfer summaries. Do not include initially suspected infections that are ultimately disproven (may be explicitly documented or may be indicated by decision to stop antibiotics before completing a full course (e.g. after just 1-2 days). "
+Discharged on new or increased non- invasive positive pressure ventilation (NIPPV/BiPAP/CPAP),"Answer ""No"" if NIPPV or CPAP only used to treat sleep apnea and not ongoing respiratory failure."
+New mechanical ventilation,"Answer ""No"" If a patient is (1) chronically vent-dependent and is discharged on their home support or (2) has a trach on around-the-clock trach collar"
+Days of therapies  ,Count calendar days where patient got any oxygen.
+ICU admit/discharge dates,"Record admission/discharge date for up to 4 ICU admission episodes. If ≥4 ICU admissions, enter the date of the FINAL ICU for the ""ICU discharge FINAL"" field or, if in the ICU at discharge, the date of hospital discharge."
+Intubation/extubation dates,"Record intubation and extubation date for up to 4 intubation episodes. If ≥4 intubations, enter the date of the FINAL extubation for the ""extubation #4"" field or, if intubated at discharge, the date of hospital discharge."
+Other fields ,See instructions provided for baseline data elements.
+Molecular testing,"Molecular tests of interest include:
+\n\tInfluenza
+\n\tNon-COVID coronaviruses
+\n\tStrep urine antigen
+\n\tLegionella urine antigen
+\n\tRSV \n\tMetapneumovirus
+\n\tParainfluenza
+\n\tAdenovirus
+\n\tRhinovirus
+\n\tMycoplasma
+\n\tChlamydia pneumoniae
+"
+"""True positive"" cultures","""True positive"" pulmonary, blood, urine, or other culture per clinical documentation in discharge summary, transfer notes, and/or interim summaries. True positive cultures will usually be matched by an appropriate course of antibiotic treatment.
+Culture results that are usually false positives include:
+\n\tRespiratory samples that read “oropharyngeal flora” can be ignored
+\n\tSamples that grew multiple bacterial types or “multiple colony types” or
+“mixed flora” can be ignored if antibiotic sensitivities not done
+\n\tCandida (a fungus/yeast) from urine or sputum (but not from other
+sources) is assumed to be a contaminant
+\n\tCoagulase negative staph” is usually, but not always, a contaminant. If
+only one bottle or one set of blood cultures is positive for this, can ignore if clinical notes indicate the team felt this was a contaminant."
