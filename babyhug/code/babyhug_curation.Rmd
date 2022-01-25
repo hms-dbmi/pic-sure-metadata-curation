@@ -3,19 +3,15 @@ title: "BABY HUG Curation"
 output: html_document
 ---
 
-
-Note:
-The following code is buggy and still under development. This is being developed for FUS I and can be applied to FUS II and pHase II RCT with some modifications. 
-
-
-
 Libraries
 ```{r}
 library(tidyverse)
 library(textreadr)
+library(jsonlite)
 ```
 
-We get the following from BABY HUG:
+The data dictionary files were provided in rich text file (RTF) format. The function below allows us to read in all of the rtfs in a given directory and converts them into a single dataframe.
+
 ```{r}
 read_in_rtfs <- function(directory, number_columns, columns_names, col_indices_to_remove=c(), row_indices_to_remove=c()){
   list_of_files <- list.files(directory)
@@ -61,6 +57,8 @@ fus_ii_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_FUS_II_Codebook/",
 ```
 
 ```{r}
+# Something is going on where the empty rows are not removed. 
+# Unsure what is causing it - bug fix below
 phase_iii_rct_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_PhaseIII_RCT_Codebook/", 
                          10, 
                          c("Variable_Label_VAR", "Variable_Name", "Category",
@@ -68,49 +66,84 @@ phase_iii_rct_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_PhaseIII_RCT_Codeb
                            "Range_of_Values"),
                          c(1, 10),
                          c(1))
+reference_row <- phase_iii_rct_df[17, -9] # Get an example of an empty row excluding the last column with the form name
+inds_to_drop <- c()
+for(i in 1:nrow(phase_iii_rct_df)){
+  test_vec <- phase_iii_rct_df[i, -9]
+  if(sum(test_vec == reference_row) == 8){
+    inds_to_drop <- c(inds_to_drop, i)
+  }
+}
+phase_iii_df <- phase_iii_rct_df[-inds_to_drop, ]
 ```
 
-Something weird is going on with the FUS II and Phase III RCT data. Skipping for now but will investigate later.
-
+Though the rtfs were read into the dataframe, there were some instances of data missing. This code fills in missing data.
 
 ```{r}
-while(length(ind <- which(fus_i_df$Variable_Label_VAR == "")) > 1) {
-  fus_i_df$Variable_Label_VAR[ind] <- fus_i_df$Variable_Label_VAR[ind-1]
-}
-while(length(ind <- which(fus_i_df$Variable_Name == "")) > 1) {
+#while(length(ind <- which(fus_i_df$Variable_Label_VAR == "")) > 0) {
+#  fus_i_df$Variable_Label_VAR[ind] <- fus_i_df$Variable_Label_VAR[ind-1]
+#}
+while(length(ind <- which(fus_i_df$Variable_Name == "")) > 0) {
   fus_i_df$Variable_Name[ind] <- fus_i_df$Variable_Name[ind-1]
 }
+for(i in 1:nrow(fus_i_df)){
+  if(i > 1) {
+    if (fus_i_df[i, "Variable_Label_VAR"] == '' & fus_i_df[i, "Variable_Name"] == fus_i_df[i-1, "Variable_Name"]){
+      fus_i_df[i, "Variable_Label_VAR"] <- fus_i_df[i-1, "Variable_Label_VAR"]
+    }
+  }
+}
 
-#while(length(ind <- which(fus_ii_df$Variable_Level_VAR == "")) > 1) {
+#while(length(ind <- which(fus_ii_df$Variable_Level_VAR == "")) > 0) {
 #  fus_ii_df$Variable_Level_VAR[ind] <- fus_ii_df$Variable_Level_VAR[ind-1]
 #}
-#while(length(ind <- which(fus_ii_df$Variable_Name == "")) > 1) {
-#  fus_ii_df$Variable_Name[ind] <- fus_ii_df$Variable_Name[ind-1]
-#}
 
-#while(length(ind <- which(phase_iii_rct_df$Variable_Level_VAR == "")) > 1) {
-#  phase_iii_rct_df$Variable_Level_VAR[ind] <- phase_iii_rct_df$Variable_Level_VAR[ind-1]
+while(length(ind <- which(fus_ii_df$Variable_Name == "")) > 0) {
+  fus_ii_df$Variable_Name[ind] <- fus_ii_df$Variable_Name[ind-1]
+}
+
+for(i in 1:nrow(fus_ii_df)){
+  if(i > 1) {
+    if (fus_ii_df[i, "Variable_Label_VAR"] == '' & fus_ii_df[i, "Variable_Name"] == fus_ii_df[i-1, "Variable_Name"]){
+      fus_ii_df[i, "Variable_Label_VAR"] <- fus_ii_df[i-1, "Variable_Label_VAR"]
+    }
+  }
+}
+
+#while(length(ind <- which(phase_iii_df$Variable_Level_VAR == "")) > 1) {
+#  phase_iii_df$Variable_Level_VAR[ind] <- phase_iii_df$Variable_Level_VAR[ind-1]
 #}
-#while(length(ind <- which(phase_iii_rct_df$Variable_Name == "")) > 1) {
-#  phase_iii_rct_df$Variable_Name[ind] <- phase_iii_rct_df$Variable_Name[ind-1]
-#}
+while(length(ind <- which(phase_iii_df$Variable_Name == reference_row$Variable_Name)) > 0) {
+  phase_iii_df$Variable_Name[ind] <- phase_iii_df$Variable_Name[ind-1]
+}
+
+for(i in 1:nrow(phase_iii_df)){
+  if(i > 1) {
+    if (phase_iii_df[i, "Variable_Label_VAR"] == reference_row$Variable_Label_VAR & phase_iii_df[i, "Variable_Name"] == phase_iii_df[i-1, "Variable_Name"]){
+      phase_iii_df[i, "Variable_Label_VAR"] <- phase_iii_df[i-1, "Variable_Label_VAR"]
+    }
+  }
+}
 ```
 
+Now that the dataframe is filled in, we can begin to set up the dataframe for JSON format. This involves saving the metadata into a single column. First, let's save the variable level metadata.
 
 ```{r}
 save_var_metadata <- function(df) {
-  var_groups <- df %>%
-    select(Variable_Name) %>%
-    unique()
   
   final_df <- data.frame(df %>%
-                           select(Variable_Name, Variable_Label_VAR) %>%
+                           select(Variable_Name, Variable_Label_VAR, file_name) %>%
                            unique())
   
-  for (ind in 1:nrow(var_groups)) {
+  rownames(final_df) <- NULL
+  
+  for (ind in c(1:nrow(final_df))) {
     var_df <- df %>%
-      filter(Variable_Name == var_groups[ind, "Variable_Name"]) %>%
+      filter(Variable_Name == final_df[ind, "Variable_Name"] &
+               Variable_Label_VAR == final_df[ind, "Variable_Label_VAR"] &
+               file_name == final_df[ind, "file_name"]) %>%
       select(Category, N_percent, N_Missing)
+    var_df <- data.frame(var_df)
     final_df[ind, 'var_data'][[1]] <- list(var_df)
   }
   
@@ -118,33 +151,101 @@ save_var_metadata <- function(df) {
 }
 ```
 
-
 ```{r}
-test <- save_var_metadata(fus_i_df)
+second_fus_i <- save_var_metadata(fus_i_df)
+second_fus_ii <- save_var_metadata(fus_ii_df)
+second_phase_iii <- save_var_metadata(phase_iii_df)
 ```
 
-
+Next let's save the file level metadata.
 
 ```{r}
-var_groups <- test_df2 %>%
-  select(Variable_Name) %>%
-  unique()
-
-test_df3 <- data.frame(test_df2 %>%
-                         select(Variable_Name, Variable_Label__VAR) %>%
-                         unique())
-rownames(test_df3) <- NULL
-rownames(var_groups) <- NULL
-
-
-
-
-
-for (group in 1:nrow(var_groups)) {
-  var_df <- test_df2 %>% 
-    filter(Variable_Name == var_groups[group, "Variable_Name"]) %>%
-    select(Category, N_percent, N_Missing)
-  test_df3[group,'var_data'][[1]] <- list(var_df)
+save_file_metadata <- function(df) {
+  
+  final_df <- data.frame(df %>% 
+                           select(file_name) %>%
+                           unique())
+  rownames(final_df) <- NULL
+  
+  for (ind in c(1:nrow(final_df))) {
+    file_df <- df %>%
+      filter(file_name == final_df[ind, "file_name"]) %>%
+      select(Variable_Name, Variable_Label_VAR, var_data)
+    file_df <- data.frame(file_df)
+    final_df[ind, 'file_data'][[1]] <- list(file_df)
+  }
+  
+  return(final_df)
 }
 ```
 
+```{r}
+third_fus_i <- save_file_metadata(second_fus_i)
+third_fus_ii <- save_file_metadata(second_fus_ii)
+third_phase_iii <- save_file_metadata(second_phase_iii)
+```
+
+Finally, we can save the study level metadata and combine the resultant dataframes into a single cohesive dataframe.
+
+```{r}
+save_final_level <- function(df, study_name){
+  final_df <- data.frame(study_name)
+  final_df[1, 'study_data'][[1]] <- list(df)
+  return(final_df)
+}
+```
+
+```{r}
+final_fus_i <- save_final_level(third_fus_i, "BABY HUG Follow-up Study I")
+final_fus_ii <- save_final_level(third_fus_ii, "BABY HUG Follow-up Study II")
+final_phase_iii <- save_final_level(third_phase_iii, "BABY HUG Phase III Randomized Clinical Trial")
+```
+
+```{r}
+compiled <- rbind(final_fus_i, final_fus_ii, final_phase_iii)
+```
+
+Writing out to JSON.
+
+```{r}
+my_json <- toJSON(compiled, pretty=FALSE)
+```
+
+
+Using the `write_json` function outputs quotations with escape characters ("/"). This causes problems with the JSON file format. This can be dealt with by converting the JSON object into a string and writing this to a text file.
+
+```{r}
+test_string_json <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/babyhug_metadata.json")
+writeLines(test_string_json, fileConn)
+close(fileConn)
+# This works for writing a JSON file without the escape characters
+```
+
+
+
+
+Attempted to compose a more general function that can be applied to any step in this process. Though the function below works, it take a long time to complete. Generally, curation should follow this format.
+
+```{r}
+#consolidate_levels <- function(df, levels_to_keep, levels_to_collapse, metadata_col_name) {
+#  groups <- data.frame(df %>% select(all_of(levels_to_keep)) %>% unique())
+#  rownames(groups) <- NULL
+#  
+#  #final_df <- data.frame(df %>% select(all_of(levels_to_keep)) %>% unique())
+#                         
+#  for (ind in 1:nrow(groups)) {
+#      info_vec <- groups[ind, levels_to_keep]
+#      inds_to_get <- c()
+#      for (df_ind in 1:nrow(df)){
+#        test_vec <- df[df_ind, levels_to_keep]
+#        if(sum(test_vec == info_vec) == length(levels_to_keep)) {
+#          inds_to_get <- c(inds_to_get, df_ind)
+#        }
+#      var_df <- data.frame(df[inds_to_get, levels_to_collapse])
+#      groups[ind, metadata_col_name][[1]] <- list(var_df)
+#    }
+#  }
+#  return(groups)
+#}
+```
