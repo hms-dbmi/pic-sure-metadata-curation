@@ -126,13 +126,36 @@ for(i in 1:nrow(phase_iii_df)){
 }
 ```
 
-Now that the dataframe is filled in, we can begin to set up the dataframe for JSON format. This involves saving the metadata into a single column. First, let's save the variable level metadata.
+Additionally, we have information on each variable from SAS. 
+```{r}
+sas_fus_i <- read.csv('../input/metadata_files/fus_i_metadata.csv')
+sas_fus_ii <- read.csv('../input/metadata_files/fus_ii_metadata.csv')
+sas_phase_iii <- read.csv('../input/metadata_files/phase_iii_metadata.csv')
+
+fus_i_df <- full_join(fus_i_df, 
+                  sas_fus_i %>% 
+                    select(NAME, TYPE, LABEL, MEMNAME) %>%
+                    mutate(MEMNAME = tolower(MEMNAME)),
+                  by = c("Variable_Name" = "NAME", "file_name" = "MEMNAME"))
+
+fus_ii_df <- full_join(fus_ii_df, 
+                  sas_fus_ii %>% 
+                    select(NAME, TYPE, LABEL, MEMNAME) %>%
+                    mutate(MEMNAME = tolower(MEMNAME)),
+                  by = c("Variable_Name" = "NAME", "file_name" = "MEMNAME"))
+
+phase_iii_df <- full_join(phase_iii_df, 
+                  sas_phase_iii %>% 
+                    select(NAME, TYPE, LABEL, MEMNAME) %>%
+                    mutate(MEMNAME = tolower(MEMNAME)),
+                  by = c("Variable_Name" = "NAME", "file_name" = "MEMNAME"))
+```
 
 ```{r}
 save_var_metadata <- function(df) {
   
   final_df <- data.frame(df %>%
-                           select(Variable_Name, Variable_Label_VAR, file_name) %>%
+                           select(Variable_Name, Variable_Label_VAR, LABEL, file_name) %>%
                            unique())
   
   rownames(final_df) <- NULL
@@ -140,11 +163,11 @@ save_var_metadata <- function(df) {
   for (ind in c(1:nrow(final_df))) {
     var_df <- df %>%
       filter(Variable_Name == final_df[ind, "Variable_Name"] &
-               Variable_Label_VAR == final_df[ind, "Variable_Label_VAR"] &
+               #Variable_Label_VAR == final_df[ind, "Variable_Label_VAR"] &
                file_name == final_df[ind, "file_name"]) %>%
-      select(Category, N_percent, N_Missing)
+      select(Category, N_percent, N_Missing) 
     var_df <- data.frame(var_df)
-    final_df[ind, 'var_data'][[1]] <- list(var_df)
+    final_df[ind, 'metadata'][[1]] <- list(var_df)
   }
   
   return(final_df)
@@ -158,23 +181,23 @@ second_phase_iii <- save_var_metadata(phase_iii_df)
 ```
 
 Next let's save the file level metadata.
-
 ```{r}
-save_file_metadata <- function(df) {
-  
-  final_df <- data.frame(df %>% 
-                           select(file_name) %>%
+save_file_metadata <- function(df){
+  final_df <- data.frame(df %>%
+                           select(Variable_Name,
+                                  Variable_Label_VAR,
+                                  LABEL) %>%
                            unique())
+  
   rownames(final_df) <- NULL
   
-  for (ind in c(1:nrow(final_df))) {
+  for (ind in c(1:nrow(final_df))){
     file_df <- df %>%
-      filter(file_name == final_df[ind, "file_name"]) %>%
-      select(Variable_Name, Variable_Label_VAR, var_data)
+      filter(Variable_Name == final_df[ind, "Variable_Name"]) %>%
+      select(file_name, metadata)
     file_df <- data.frame(file_df)
     final_df[ind, 'file_data'][[1]] <- list(file_df)
   }
-  
   return(final_df)
 }
 ```
@@ -184,6 +207,35 @@ third_fus_i <- save_file_metadata(second_fus_i)
 third_fus_ii <- save_file_metadata(second_fus_ii)
 third_phase_iii <- save_file_metadata(second_phase_iii)
 ```
+
+```{r}
+save_label_metadata <- function(df) {
+  
+  final_df <- data.frame(df %>% 
+                           select(Variable_Name) %>%
+                           unique())
+  rownames(final_df) <- NULL
+  
+  for (ind in c(1:nrow(final_df))) {
+    label_df <- df %>%
+      filter(Variable_Name == final_df[ind, "Variable_Name"]) %>%
+      select(Variable_Label_VAR, LABEL, file_data) %>%
+      rename(data_dict_label = Variable_Label_VAR,
+             sas_label = LABEL)
+    label_df <- data.frame(label_df)
+    final_df[ind, 'label_data'][[1]] <- list(label_df)
+  }
+  
+  return(final_df)
+}
+```
+
+```{r}
+fourth_fus_i <- save_label_metadata(third_fus_i)
+fourth_fus_ii <- save_label_metadata(third_fus_ii)
+fourth_phase_iii <- save_label_metadata(third_phase_iii)
+```
+
 
 Finally, we can save the study level metadata and combine the resultant dataframes into a single cohesive dataframe.
 
@@ -196,9 +248,9 @@ save_final_level <- function(df, study_name){
 ```
 
 ```{r}
-final_fus_i <- save_final_level(third_fus_i, "BABY HUG Follow-up Study I")
-final_fus_ii <- save_final_level(third_fus_ii, "BABY HUG Follow-up Study II")
-final_phase_iii <- save_final_level(third_phase_iii, "BABY HUG Phase III Randomized Clinical Trial")
+final_fus_i <- save_final_level(fourth_fus_i, "BABY HUG Follow-up Study I")
+final_fus_ii <- save_final_level(fourth_fus_ii, "BABY HUG Follow-up Study II")
+final_phase_iii <- save_final_level(fourth_phase_iii, "BABY HUG Phase III Randomized Clinical Trial")
 ```
 
 ```{r}
