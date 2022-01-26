@@ -113,13 +113,13 @@ for(i in 1:nrow(fus_ii_df)){
 #while(length(ind <- which(phase_iii_df$Variable_Level_VAR == "")) > 1) {
 #  phase_iii_df$Variable_Level_VAR[ind] <- phase_iii_df$Variable_Level_VAR[ind-1]
 #}
-while(length(ind <- which(phase_iii_df$Variable_Name == reference_row$Variable_Name)) > 0) {
+while(length(ind <- which((phase_iii_df$Variable_Name == reference_row$Variable_Name) | (phase_iii_df$Variable_Name == ''))) > 0) {
   phase_iii_df$Variable_Name[ind] <- phase_iii_df$Variable_Name[ind-1]
 }
 
 for(i in 1:nrow(phase_iii_df)){
   if(i > 1) {
-    if (phase_iii_df[i, "Variable_Label_VAR"] == reference_row$Variable_Label_VAR & phase_iii_df[i, "Variable_Name"] == phase_iii_df[i-1, "Variable_Name"]){
+    if ((phase_iii_df[i, "Variable_Label_VAR"] == reference_row$Variable_Label_VAR | phase_iii_df[i, "Variable_Label_VAR"] == '') & phase_iii_df[i, "Variable_Name"] == phase_iii_df[i-1, "Variable_Name"]){
       phase_iii_df[i, "Variable_Label_VAR"] <- phase_iii_df[i-1, "Variable_Label_VAR"]
     }
   }
@@ -151,6 +151,7 @@ phase_iii_df <- full_join(phase_iii_df,
                   by = c("Variable_Name" = "NAME", "file_name" = "MEMNAME"))
 ```
 
+The first level of information we will save is the variable-level information.
 ```{r}
 save_var_metadata <- function(df) {
   
@@ -180,23 +181,23 @@ second_fus_ii <- save_var_metadata(fus_ii_df)
 second_phase_iii <- save_var_metadata(phase_iii_df)
 ```
 
-Next let's save the file level metadata.
+Next let's save the variables as metadata for each of the files. 
 ```{r}
 save_file_metadata <- function(df){
   final_df <- data.frame(df %>%
-                           select(Variable_Name,
-                                  Variable_Label_VAR,
-                                  LABEL) %>%
+                           select(file_name) %>%
                            unique())
   
   rownames(final_df) <- NULL
   
   for (ind in c(1:nrow(final_df))){
-    file_df <- df %>%
-      filter(Variable_Name == final_df[ind, "Variable_Name"]) %>%
-      select(file_name, metadata)
-    file_df <- data.frame(file_df)
-    final_df[ind, 'file_data'][[1]] <- list(file_df)
+    var_df <- df %>%
+      filter(file_name == final_df[ind, "file_name"]) %>%
+      select(Variable_Name, Variable_Label_VAR, LABEL, metadata) %>%
+      rename(data_dict_label = Variable_Label_VAR,
+             sas_label = LABEL)
+    var_df <- data.frame(var_df)
+    final_df[ind, 'var_data'][[1]] <- list(var_df)
   }
   return(final_df)
 }
@@ -208,49 +209,46 @@ third_fus_ii <- save_file_metadata(second_fus_ii)
 third_phase_iii <- save_file_metadata(second_phase_iii)
 ```
 
+We will next save the file-level metadata. A manually curated file with form descriptions was created.
+Let's add these descriptions to the dataframe now.
 ```{r}
-save_label_metadata <- function(df) {
-  
-  final_df <- data.frame(df %>% 
-                           select(Variable_Name) %>%
-                           unique())
-  rownames(final_df) <- NULL
-  
-  for (ind in c(1:nrow(final_df))) {
-    label_df <- df %>%
-      filter(Variable_Name == final_df[ind, "Variable_Name"]) %>%
-      select(Variable_Label_VAR, LABEL, file_data) %>%
-      rename(data_dict_label = Variable_Label_VAR,
-             sas_label = LABEL)
-    label_df <- data.frame(label_df)
-    final_df[ind, 'label_data'][[1]] <- list(label_df)
-  }
-  
-  return(final_df)
-}
+file_info <- read.csv("../intermediates/babyhug_curated_form_info.csv")
+third_fus_i <- left_join(third_fus_i, 
+             file_info %>% 
+               filter(Study == "FUS_I") %>% 
+               select(Form, Info) %>%
+               mutate("form" = tolower(Form)),
+             by = c("file_name" = "form"))
+third_fus_ii <- left_join(third_fus_ii, 
+             file_info %>% 
+               filter(Study == "FUS_II") %>% 
+               select(Form, Info) %>%
+               mutate("form" = tolower(Form)),
+             by = c("file_name" = "form"))
+third_phase_iii <- left_join(third_phase_iii, 
+             file_info %>% 
+               filter(Study == "PHASE_III") %>% 
+               select(Form, Info) %>%
+               mutate("form" = tolower(Form)),
+             by = c("file_name" = "form"))
 ```
 
-```{r}
-fourth_fus_i <- save_label_metadata(third_fus_i)
-fourth_fus_ii <- save_label_metadata(third_fus_ii)
-fourth_phase_iii <- save_label_metadata(third_phase_iii)
-```
-
-
-Finally, we can save the study level metadata and combine the resultant dataframes into a single cohesive dataframe.
-
+Now we can save this information as file-level metadata for each study and combine into a single dataframe.
 ```{r}
 save_final_level <- function(df, study_name){
   final_df <- data.frame(study_name)
-  final_df[1, 'study_data'][[1]] <- list(df)
+  mini_df <- df %>% 
+    select(file_name, Info, var_data) %>% 
+    rename(file_label = Info)
+  final_df[1, 'study_data'][[1]] <- list(mini_df)
   return(final_df)
 }
 ```
 
 ```{r}
-final_fus_i <- save_final_level(fourth_fus_i, "BABY HUG Follow-up Study I")
-final_fus_ii <- save_final_level(fourth_fus_ii, "BABY HUG Follow-up Study II")
-final_phase_iii <- save_final_level(fourth_phase_iii, "BABY HUG Phase III Randomized Clinical Trial")
+final_fus_i <- save_final_level(third_fus_i, "BABY HUG Follow-up Study I")
+final_fus_ii <- save_final_level(third_fus_ii, "BABY HUG Follow-up Study II")
+final_phase_iii <- save_final_level(third_phase_iii, "BABY HUG Phase III Randomized Clinical Trial")
 ```
 
 ```{r}
