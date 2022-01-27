@@ -1,0 +1,68 @@
+---
+title: "STOP-II Metadata Curation"
+author: "Emily Hughes"
+date: "1/27/2022"
+output: html_document
+---
+
+Install libraries
+```{r}
+library(tidyverse)
+library(dplyr)
+library(jsonlite)
+```
+
+Read in files given for STOP-II study. This includes the SAS output about each variable and a manually curated file about the forms and their descriptions.
+```{r}
+sas_info <- read.csv("../input/METADATA.csv")
+file_info <- read.csv("../intermediates/stopii_file_info.csv")
+```
+
+Now we can combine this information and clean the dataframe to include only the information we are interested in.
+```{r}
+raw <- full_join(sas_info, 
+                 file_info %>%
+                   mutate(sas_file = toupper(sas_file)) %>%
+                   rename(form_label = label),
+                 by = c("MEMNAME" = "sas_file")) %>%
+  select(MEMNAME, NAME, TYPE, LABEL, form, form_label) %>% 
+  rename(sas_file = MEMNAME,
+         var_name = NAME,
+         var_type = TYPE,
+         var_label = LABEL,
+         form_number = form)
+```
+
+Save the variable-level data for each form
+```{r}
+save_var_metadata <- function(df) {
+  
+  final_df <- data.frame(df %>%
+                           select(form_number, sas_file, form_label) %>%
+                           unique())
+  
+  rownames(final_df) <- NULL
+  
+  for (ind in c(1:nrow(final_df))) {
+    var_df <- df %>%
+      filter(form_number == final_df[ind, "form_number"]) %>%
+      select(var_name, var_label, var_type) 
+    var_df <- data.frame(var_df)
+    final_df[ind, 'var_data'][[1]] <- list(var_df)
+  }
+  
+  return(final_df)
+}
+
+var_df <- save_var_metadata(raw)
+```
+
+Now we can  write out the information to JSON.
+```{r}
+my_json <- toJSON(var_df, pretty=FALSE)
+test_string_json <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/stopii_metadata.json")
+writeLines(test_string_json, fileConn)
+close(fileConn)
+```
+
