@@ -151,26 +151,51 @@ phase_iii_df <- full_join(phase_iii_df,
                   by = c("Variable_Name" = "NAME", "file_name" = "MEMNAME"))
 ```
 
+Now let's clean up the dataframes to be ready for JSON prepping.
+```{r}
+clean_up_df <- function(df) {
+  cleaned <- df %>% 
+    select(file_name, Variable_Name, Variable_Label_VAR, LABEL, TYPE, Category, N_percent, N_Missing) %>%
+    rename(form_name = file_name,
+           variable_id = Variable_Name,
+           variable_label_from_data_dictionary = Variable_Label_VAR,
+           variable_label_from_data_file = LABEL,
+           variable_type = TYPE) %>%
+    mutate(variable_name = ifelse(!is.na(variable_label_from_data_file), 
+                                  variable_label_from_data_file, variable_label_from_data_dictionary),
+           variable_type = ifelse(variable_type==1, "continuous",
+                                  ifelse(variable_type==2, "categorical", "unknown"))) %>%
+    mutate(variable_type = ifelse(is.na(variable_type), "unknown", variable_type))
+  
+  return(cleaned)
+}
+```
+
+```{r}
+fus_i_df <- clean_up_df(fus_i_df)
+fus_ii_df <- clean_up_df(fus_ii_df)
+phase_iii_df <- clean_up_df(phase_iii_df)
+```
+
 The first level of information we will save is the variable-level information.
 ```{r}
 save_var_metadata <- function(df) {
-  
   final_df <- data.frame(df %>%
-                           select(Variable_Name, Variable_Label_VAR, LABEL, file_name) %>%
+                           select(form_name, variable_id, variable_name, variable_type) %>%
                            unique())
   
   rownames(final_df) <- NULL
   
   for (ind in c(1:nrow(final_df))) {
     var_df <- df %>%
-      filter(Variable_Name == final_df[ind, "Variable_Name"] &
-               #Variable_Label_VAR == final_df[ind, "Variable_Label_VAR"] &
-               file_name == final_df[ind, "file_name"]) %>%
-      select(Category, N_percent, N_Missing) 
+      filter(form_name == final_df[ind, "form_name"] &
+               variable_id == final_df[ind, "variable_id"]) %>%
+      select(variable_label_from_data_dictionary,
+             variable_label_from_data_file,
+             Category, N_percent, N_Missing)
     var_df <- data.frame(var_df)
-    final_df[ind, 'metadata'][[1]] <- list(var_df)
+    final_df[ind, "variable_metadata"][[1]] <- list(var_df)
   }
-  
   return(final_df)
 }
 ```
@@ -181,78 +206,120 @@ second_fus_ii <- save_var_metadata(fus_ii_df)
 second_phase_iii <- save_var_metadata(phase_iii_df)
 ```
 
-Next let's save the variables as metadata for each of the files. 
+Next let's save the variables as groups as metadata for each of the files. 
+
 ```{r}
-save_file_metadata <- function(df){
-  final_df <- data.frame(df %>%
-                           select(file_name) %>%
-                           unique())
+save_vargroup_metadata <- function(df) {
   
+  final_df <- data.frame(df %>%
+                           select(form_name) %>%
+                           unique())
+  final_df$variable_group_name <- "All variables"
+  final_df$variable_group_description <- "All variables within the form"
   rownames(final_df) <- NULL
   
-  for (ind in c(1:nrow(final_df))){
+  for (ind in c(1:nrow(final_df))) {
     var_df <- df %>%
-      filter(file_name == final_df[ind, "file_name"]) %>%
-      select(Variable_Name, Variable_Label_VAR, LABEL, metadata) %>%
-      rename(data_dict_label = Variable_Label_VAR,
-             sas_label = LABEL)
+      filter(form_name == final_df[ind, "form_name"]) %>%
+      select(variable_id, variable_name, variable_type, variable_metadata)
     var_df <- data.frame(var_df)
-    final_df[ind, 'var_data'][[1]] <- list(var_df)
+    final_df[ind, "variable"][[1]] <- list(var_df)
   }
   return(final_df)
 }
 ```
 
 ```{r}
-third_fus_i <- save_file_metadata(second_fus_i)
-third_fus_ii <- save_file_metadata(second_fus_ii)
-third_phase_iii <- save_file_metadata(second_phase_iii)
+third_fus_i <- save_vargroup_metadata(second_fus_i)
+third_fus_ii <- save_vargroup_metadata(second_fus_ii)
+third_phase_iii <- save_vargroup_metadata(second_phase_iii)
+```
+
+Now let's save the vargroup information as file metadata.
+```{r}
+save_file_metadata <- function(df) {
+  final_df <- data.frame(df %>% 
+                           select(form_name) %>%
+                           unique())
+  rownames(final_df) <- NULL
+  
+  for (ind in c(1:nrow(final_df))) {
+    vargroup_df <- df %>%
+      filter(form_name == final_df[ind, "form_name"]) %>%
+      select(variable_group_name, variable_group_description, variable)
+    vargroup_df <- data.frame(vargroup_df)
+    final_df[ind, "variable_group"][[1]] <- list(vargroup_df)
+  }
+  return(final_df)
+}
+```
+
+```{r}
+fourth_fus_i <- save_file_metadata(third_fus_i)
+fourth_fus_ii <- save_file_metadata(third_fus_ii)
+fourth_phase_iii <- save_file_metadata(third_phase_iii)
 ```
 
 We will next save the file-level metadata. A manually curated file with form descriptions was created.
 Let's add these descriptions to the dataframe now.
 ```{r}
 file_info <- read.csv("../intermediates/babyhug_curated_form_info.csv")
-third_fus_i <- left_join(third_fus_i, 
+fourth_fus_i <- left_join(fourth_fus_i %>%
+                            mutate(data_file_name = paste(form_name, ".sas7bdat", sep='')), 
              file_info %>% 
                filter(Study == "FUS_I") %>% 
                select(Form, Info) %>%
-               mutate("form" = tolower(Form)),
-             by = c("file_name" = "form"))
-third_fus_ii <- left_join(third_fus_ii, 
+               mutate("form" = tolower(Form)) %>%
+               rename(form_description = Info),
+             by = c("form_name" = "form"))
+fourth_fus_ii <- left_join(fourth_fus_ii %>%
+                            mutate(data_file_name = paste(form_name, ".sas7bdat", sep='')), 
              file_info %>% 
                filter(Study == "FUS_II") %>% 
                select(Form, Info) %>%
-               mutate("form" = tolower(Form)),
-             by = c("file_name" = "form"))
-third_phase_iii <- left_join(third_phase_iii, 
+               mutate("form" = tolower(Form)) %>%
+               rename(form_description = Info),
+             by = c("form_name" = "form"))
+fourth_phase_iii <- left_join(fourth_phase_iii %>%
+                            mutate(data_file_name = paste(form_name, ".sas7bdat", sep='')), 
              file_info %>% 
                filter(Study == "PHASE_III") %>% 
                select(Form, Info) %>%
-               mutate("form" = tolower(Form)),
-             by = c("file_name" = "form"))
+               mutate("form" = tolower(Form)) %>%
+               rename(form_description = Info),
+             by = c("form_name" = "form"))
 ```
 
-Now we can save this information as file-level metadata for each study and combine into a single dataframe.
+Now let's save the groups of forms.
 ```{r}
-save_final_level <- function(df, study_name){
-  final_df <- data.frame(study_name)
-  mini_df <- df %>% 
-    select(file_name, Info, var_data) %>% 
-    rename(file_label = Info)
-  final_df[1, 'study_data'][[1]] <- list(mini_df)
+save_formgroup_level <- function(df, form_group_name) {
+  form_group_description <- "All forms within the study"
+  final_df <- data.frame(form_group_name, form_group_description)
+  
+  formgroup <- df %>% select(form_name, form_description, data_file_name, variable_group)
+  
+  final_df[1, "form"][[1]] <- list(formgroup) 
   return(final_df)
 }
 ```
 
 ```{r}
-final_fus_i <- save_final_level(third_fus_i, "BABY HUG Follow-up Study I")
-final_fus_ii <- save_final_level(third_fus_ii, "BABY HUG Follow-up Study II")
-final_phase_iii <- save_final_level(third_phase_iii, "BABY HUG Phase III Randomized Clinical Trial")
+fifth_fus_i <-     save_formgroup_level(fourth_fus_i, "BABY HUG Follow-up Study I")
+fifth_fus_ii <-    save_formgroup_level(fourth_fus_ii, "BABY HUG Follow-up Study II")
+fifth_phase_iii <- save_formgroup_level(fourth_phase_iii, "BABY HUG Phase III Randomized Clinical Trial")
 ```
 
+Now we can save this information as formgroup -level metadata for each study and combine into a single dataframe.
 ```{r}
-compiled <- rbind(final_fus_i, final_fus_ii, final_phase_iii)
+comp <- rbind(fifth_fus_i, fifth_fus_ii, fifth_phase_iii)
+
+study <- "BABY HUG"
+study_name <- "Hydroxyurea to Prevent Organ Damage in Children with Sickle Cell Anemia (BABY HUG) Phase III Clinical Trial and Follow-Up Observational Studies I and II"
+study_phs_number <- "phs002415"
+study_description <- "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002415.v1.p1"
+
+compiled <- data.frame(study, study_name, study_phs_number, study_description)
+compiled[1, "form_group"][[1]] <- list(comp)
 ```
 
 Writing out to JSON.
