@@ -19,6 +19,7 @@ file_info <- read.csv("../intermediates/stopii_file_info.csv")
 ```
 
 Now we can combine this information and clean the dataframe to include only the information we are interested in. Here we will also relabel the columns to be in the standard format.
+Note: the labels from the data dictionary were manually checked and match the variable labels from the data files.
 ```{r}
 raw <- full_join(sas_info, 
                  file_info %>%
@@ -31,34 +32,88 @@ raw <- full_join(sas_info,
          variable_type = TYPE,
          variable_name = LABEL,
          form_name = form) %>%
-  mutate(variable_type = ifelse(variable_type==1, "continuous", ifelse(variable_type==2, "categorical", "unknown")))
+  mutate(variable_type = ifelse(variable_type==1, "continuous", ifelse(variable_type==2, "categorical", "unknown")),
+         data_file_name = paste(tolower(data_file_name), ".sas7bdat", sep=''),
+         variable_label_from_data_dictionary = variable_name,
+         variable_label_from_data_file = variable_name)
 ```
 
-Save the variable-level data for each form
+Save the variable metadata.
 ```{r}
 save_var_metadata <- function(df) {
-  
   final_df <- data.frame(df %>%
-                           select(form_name, data_file_name, form_description) %>%
+                           select(form_name, form_description, data_file_name,
+                                  variable_id, variable_name, variable_type) %>%
                            unique())
-  
   rownames(final_df) <- NULL
   
-  for (ind in c(1:nrow(final_df))) {
+  for(ind in c(1:nrow(final_df))) {
     var_df <- df %>%
-      filter(form_name == final_df[ind, "form_name"]) %>%
-      select(variable_id, variable_name, variable_type) 
+      filter(variable_id == final_df[ind, 'variable_id'] &
+               form_name == final_df[ind, 'form_name']) %>%
+      select(variable_label_from_data_dictionary,
+             variable_label_from_data_file)
     var_df <- data.frame(var_df)
-    final_df[ind, 'variable'][[1]] <- list(var_df)
+    final_df[ind, "variable_metadata"][[1]] <- list(var_df)
   }
-  
   return(final_df)
 }
-
-var_df <- save_var_metadata(raw)
+variable <- save_var_metadata(raw)
 ```
 
-Now we can save the form level data with the study level data.
+Save the variable groups.
+```{r}
+save_var_group <- function(df) {
+  final_df <- data.frame(df %>% 
+                           select(form_name, form_description, data_file_name) %>%
+                           unique())
+  final_df$variable_group_name <- "All variables"
+  final_df$variable_group_description <- "All variables within the form"
+  rownames(final_df) <- NULL
+  
+  for(ind in c(1:nrow(final_df))){
+    vargroup_df <- df %>%
+      filter(form_name == final_df[ind, 'form_name']) %>%
+      select(variable_id, variable_name, variable_type, variable_metadata)
+    vargroup_df <- data.frame(vargroup_df)
+    final_df[ind, "variable"][[1]] <- list(vargroup_df)
+  }
+  return(final_df)
+}
+vargroup <- save_var_group(variable)
+```
+
+Save the variable group info.
+```{r}
+save_form <- function(df) {
+  final_df <- data.frame(df %>% 
+                           select(form_name, form_description, data_file_name) %>%
+                           unique())
+  rownames(final_df) <- NULL
+  
+  for(ind in c(1:nrow(final_df))){
+    vargroup_df <- df %>%
+      filter(form_name == final_df[ind, 'form_name']) %>%
+      select(variable_group_name, variable_group_description, variable)
+    vargroup_df <- data.frame(vargroup_df)
+    final_df[ind, "variable_group"][[1]] <- list(vargroup_df)
+  }
+  return(final_df)
+}
+form <- save_form(vargroup)
+```
+
+Save form group info.
+```{r}
+form_group_name <- "All forms"
+form_group_description <- "All forms within the study"
+
+form_group <- data.frame(form_group_name, form_group_description)
+
+form_group[1, "form"][[1]] <- list(form)
+```
+
+Save the study info.
 ```{r}
 study <- "STOP II"
 study_name <- "Optimizing Primary Stroke Prevention in Children with Sickle Cell Anemia (STOP II)"
@@ -67,17 +122,17 @@ study_description <- "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cg
 
 save_form_metadata <- function(df) {
   final_df <- data.frame(study, study_name, study_phs_number, study_description)
-  final_df[1, 'form'][[1]] <- list(df)
+  final_df[1, 'form_group'][[1]] <- list(df)
   return(final_df)
 }
 
-study_df <- save_form_metadata(var_df)
+study_df <- save_form_metadata(form_group)
 ```
 
 
 Now we can  write out the information to JSON.
 ```{r}
-my_json <- toJSON(var_df, pretty=FALSE)
+my_json <- toJSON(study_df, pretty=FALSE)
 test_string_json <- as.character(my_json) # Convert to character/string
 fileConn <- file("../output/stopii_metadata.json")
 writeLines(test_string_json, fileConn)
