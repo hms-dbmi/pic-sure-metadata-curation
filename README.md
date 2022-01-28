@@ -33,6 +33,7 @@ This repository contains files used to curate the metadata associated with BioLI
 
 
 For example, the JSON file could look like this:
+```
 [{
   "study":"STUDY ONE",
   "study_name":"Full Name of Study One (STUDY ONE)",
@@ -75,3 +76,4 @@ For example, the JSON file could look like this:
     }]
   }]
 }]
+```
