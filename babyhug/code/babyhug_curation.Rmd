@@ -1,0 +1,368 @@
+---
+title: "BABY HUG Curation"
+output: html_document
+---
+
+Libraries
+```{r}
+library(tidyverse)
+library(textreadr)
+library(jsonlite)
+```
+
+The data dictionary files were provided in rich text file (RTF) format. The function below allows us to read in all of the rtfs in a given directory and converts them into a single dataframe.
+
+```{r}
+read_in_rtfs <- function(directory, number_columns, columns_names, col_indices_to_remove=c(), row_indices_to_remove=c()){
+  list_of_files <- list.files(directory)
+  full_rtf_df <- data.frame(matrix(nrow=0, ncol=number_columns))
+  colnames(full_rtf_df) <- columns_names
+  for(infile in list_of_files){
+    form <- str_split(infile, '\\.')[[1]][1]
+    raw_rtf <- read_rtf(paste(directory, infile, sep=''))
+    rtf_df <- data.frame(matrix(nrow=0, ncol=number_columns))
+    for (i in 1:length(raw_rtf)) {
+      parsed_line <- str_split(raw_rtf[i], '\\*\\| | \\| | \\|')[[1]]
+      rtf_df <- rbind(rtf_df, parsed_line)
+    }
+    no_empty <- rtf_df[-row_indices_to_remove, -col_indices_to_remove]
+    colnames(no_empty) <- columns_names
+    clean_df <- no_empty[!apply(no_empty == "", 1, all),]
+    clean_df$file_name <- form
+    full_rtf_df <- rbind(full_rtf_df, clean_df)
+  }
+  rownames(full_rtf_df) <- NULL
+  return(full_rtf_df)
+}
+```
+
+```{r}
+fus_i_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_FUS_I_Codebook/", 
+                         10, 
+                         c("Variable_Label_VAR", "Variable_Name", "Category",
+                           "N_percent", "N_Missing", "Mean_SD", "Median_Q1_Q3",
+                           "Range_of_Values"),
+                         c(1, 10),
+                         c(1))
+```
+
+```{r}
+fus_ii_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_FUS_II_Codebook/", 
+                         10, 
+                         c("Variable_Label_VAR", "Variable_Name", "Category",
+                           "N_percent", "N_Missing", "Mean_SD", "Median_Q1_Q3",
+                           "Range_of_Values"),
+                         c(1, 10),
+                         c(1))
+```
+
+```{r}
+# Something is going on where the empty rows are not removed. 
+# Unsure what is causing it - bug fix below
+phase_iii_rct_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_PhaseIII_RCT_Codebook/", 
+                         10, 
+                         c("Variable_Label_VAR", "Variable_Name", "Category",
+                           "N_percent", "N_Missing", "Mean_SD", "Median_Q1_Q3",
+                           "Range_of_Values"),
+                         c(1, 10),
+                         c(1))
+reference_row <- phase_iii_rct_df[17, -9] # Get an example of an empty row excluding the last column with the form name
+inds_to_drop <- c()
+for(i in 1:nrow(phase_iii_rct_df)){
+  test_vec <- phase_iii_rct_df[i, -9]
+  if(sum(test_vec == reference_row) == 8){
+    inds_to_drop <- c(inds_to_drop, i)
+  }
+}
+phase_iii_df <- phase_iii_rct_df[-inds_to_drop, ]
+```
+
+Though the rtfs were read into the dataframe, there were some instances of data missing. This code fills in missing data.
+
+```{r}
+#while(length(ind <- which(fus_i_df$Variable_Label_VAR == "")) > 0) {
+#  fus_i_df$Variable_Label_VAR[ind] <- fus_i_df$Variable_Label_VAR[ind-1]
+#}
+while(length(ind <- which(fus_i_df$Variable_Name == "")) > 0) {
+  fus_i_df$Variable_Name[ind] <- fus_i_df$Variable_Name[ind-1]
+}
+for(i in 1:nrow(fus_i_df)){
+  if(i > 1) {
+    if (fus_i_df[i, "Variable_Label_VAR"] == '' & fus_i_df[i, "Variable_Name"] == fus_i_df[i-1, "Variable_Name"]){
+      fus_i_df[i, "Variable_Label_VAR"] <- fus_i_df[i-1, "Variable_Label_VAR"]
+    }
+  }
+}
+
+#while(length(ind <- which(fus_ii_df$Variable_Level_VAR == "")) > 0) {
+#  fus_ii_df$Variable_Level_VAR[ind] <- fus_ii_df$Variable_Level_VAR[ind-1]
+#}
+
+while(length(ind <- which(fus_ii_df$Variable_Name == "")) > 0) {
+  fus_ii_df$Variable_Name[ind] <- fus_ii_df$Variable_Name[ind-1]
+}
+
+for(i in 1:nrow(fus_ii_df)){
+  if(i > 1) {
+    if (fus_ii_df[i, "Variable_Label_VAR"] == '' & fus_ii_df[i, "Variable_Name"] == fus_ii_df[i-1, "Variable_Name"]){
+      fus_ii_df[i, "Variable_Label_VAR"] <- fus_ii_df[i-1, "Variable_Label_VAR"]
+    }
+  }
+}
+
+#while(length(ind <- which(phase_iii_df$Variable_Level_VAR == "")) > 1) {
+#  phase_iii_df$Variable_Level_VAR[ind] <- phase_iii_df$Variable_Level_VAR[ind-1]
+#}
+while(length(ind <- which((phase_iii_df$Variable_Name == reference_row$Variable_Name) | (phase_iii_df$Variable_Name == ''))) > 0) {
+  phase_iii_df$Variable_Name[ind] <- phase_iii_df$Variable_Name[ind-1]
+}
+
+for(i in 1:nrow(phase_iii_df)){
+  if(i > 1) {
+    if ((phase_iii_df[i, "Variable_Label_VAR"] == reference_row$Variable_Label_VAR | phase_iii_df[i, "Variable_Label_VAR"] == '') & phase_iii_df[i, "Variable_Name"] == phase_iii_df[i-1, "Variable_Name"]){
+      phase_iii_df[i, "Variable_Label_VAR"] <- phase_iii_df[i-1, "Variable_Label_VAR"]
+    }
+  }
+}
+```
+
+Additionally, we have information on each variable from SAS. 
+```{r}
+sas_fus_i <- read.csv('../input/metadata_files/fus_i_metadata.csv')
+sas_fus_ii <- read.csv('../input/metadata_files/fus_ii_metadata.csv')
+sas_phase_iii <- read.csv('../input/metadata_files/phase_iii_metadata.csv')
+
+fus_i_df <- full_join(fus_i_df, 
+                  sas_fus_i %>% 
+                    select(NAME, TYPE, LABEL, MEMNAME) %>%
+                    mutate(MEMNAME = tolower(MEMNAME)),
+                  by = c("Variable_Name" = "NAME", "file_name" = "MEMNAME"))
+
+fus_ii_df <- full_join(fus_ii_df, 
+                  sas_fus_ii %>% 
+                    select(NAME, TYPE, LABEL, MEMNAME) %>%
+                    mutate(MEMNAME = tolower(MEMNAME)),
+                  by = c("Variable_Name" = "NAME", "file_name" = "MEMNAME"))
+
+phase_iii_df <- full_join(phase_iii_df, 
+                  sas_phase_iii %>% 
+                    select(NAME, TYPE, LABEL, MEMNAME) %>%
+                    mutate(MEMNAME = tolower(MEMNAME)),
+                  by = c("Variable_Name" = "NAME", "file_name" = "MEMNAME"))
+```
+
+Now let's clean up the dataframes to be ready for JSON prepping.
+```{r}
+clean_up_df <- function(df) {
+  cleaned <- df %>% 
+    select(file_name, Variable_Name, Variable_Label_VAR, LABEL, TYPE, Category, N_percent, N_Missing) %>%
+    rename(form_name = file_name,
+           variable_id = Variable_Name,
+           variable_label_from_data_dictionary = Variable_Label_VAR,
+           variable_label_from_data_file = LABEL,
+           variable_type = TYPE) %>%
+    mutate(variable_name = ifelse(!is.na(variable_label_from_data_file), 
+                                  variable_label_from_data_file, variable_label_from_data_dictionary),
+           variable_type = ifelse(variable_type==1, "continuous",
+                                  ifelse(variable_type==2, "categorical", "unknown"))) %>%
+    mutate(variable_type = ifelse(is.na(variable_type), "unknown", variable_type))
+  
+  return(cleaned)
+}
+```
+
+```{r}
+fus_i_df <- clean_up_df(fus_i_df)
+fus_ii_df <- clean_up_df(fus_ii_df)
+phase_iii_df <- clean_up_df(phase_iii_df)
+```
+
+The first level of information we will save is the variable-level information.
+```{r}
+save_var_metadata <- function(df) {
+  final_df <- data.frame(df %>%
+                           select(form_name, variable_id, variable_name, variable_type) %>%
+                           unique())
+  
+  rownames(final_df) <- NULL
+  
+  for (ind in c(1:nrow(final_df))) {
+    var_df <- df %>%
+      filter(form_name == final_df[ind, "form_name"] &
+               variable_id == final_df[ind, "variable_id"]) %>%
+      select(variable_label_from_data_dictionary,
+             variable_label_from_data_file,
+             Category, N_percent, N_Missing)
+    var_df <- data.frame(var_df)
+    final_df[ind, "variable_metadata"][[1]] <- list(var_df)
+  }
+  return(final_df)
+}
+```
+
+```{r}
+second_fus_i <- save_var_metadata(fus_i_df)
+second_fus_ii <- save_var_metadata(fus_ii_df)
+second_phase_iii <- save_var_metadata(phase_iii_df)
+```
+
+Next let's save the variables as groups as metadata for each of the files. 
+
+```{r}
+save_vargroup_metadata <- function(df) {
+  
+  final_df <- data.frame(df %>%
+                           select(form_name) %>%
+                           unique())
+  final_df$variable_group_name <- "All variables"
+  final_df$variable_group_description <- "All variables within the form"
+  rownames(final_df) <- NULL
+  
+  for (ind in c(1:nrow(final_df))) {
+    var_df <- df %>%
+      filter(form_name == final_df[ind, "form_name"]) %>%
+      select(variable_id, variable_name, variable_type, variable_metadata)
+    var_df <- data.frame(var_df)
+    final_df[ind, "variable"][[1]] <- list(var_df)
+  }
+  return(final_df)
+}
+```
+
+```{r}
+third_fus_i <- save_vargroup_metadata(second_fus_i)
+third_fus_ii <- save_vargroup_metadata(second_fus_ii)
+third_phase_iii <- save_vargroup_metadata(second_phase_iii)
+```
+
+Now let's save the vargroup information as file metadata.
+```{r}
+save_file_metadata <- function(df) {
+  final_df <- data.frame(df %>% 
+                           select(form_name) %>%
+                           unique())
+  rownames(final_df) <- NULL
+  
+  for (ind in c(1:nrow(final_df))) {
+    vargroup_df <- df %>%
+      filter(form_name == final_df[ind, "form_name"]) %>%
+      select(variable_group_name, variable_group_description, variable)
+    vargroup_df <- data.frame(vargroup_df)
+    final_df[ind, "variable_group"][[1]] <- list(vargroup_df)
+  }
+  return(final_df)
+}
+```
+
+```{r}
+fourth_fus_i <- save_file_metadata(third_fus_i)
+fourth_fus_ii <- save_file_metadata(third_fus_ii)
+fourth_phase_iii <- save_file_metadata(third_phase_iii)
+```
+
+We will next save the file-level metadata. A manually curated file with form descriptions was created.
+Let's add these descriptions to the dataframe now.
+```{r}
+file_info <- read.csv("../intermediates/babyhug_curated_form_info.csv")
+fourth_fus_i <- left_join(fourth_fus_i %>%
+                            mutate(data_file_name = paste(form_name, ".sas7bdat", sep='')), 
+             file_info %>% 
+               filter(Study == "FUS_I") %>% 
+               select(Form, Info) %>%
+               mutate("form" = tolower(Form)) %>%
+               rename(form_description = Info),
+             by = c("form_name" = "form"))
+fourth_fus_ii <- left_join(fourth_fus_ii %>%
+                            mutate(data_file_name = paste(form_name, ".sas7bdat", sep='')), 
+             file_info %>% 
+               filter(Study == "FUS_II") %>% 
+               select(Form, Info) %>%
+               mutate("form" = tolower(Form)) %>%
+               rename(form_description = Info),
+             by = c("form_name" = "form"))
+fourth_phase_iii <- left_join(fourth_phase_iii %>%
+                            mutate(data_file_name = paste(form_name, ".sas7bdat", sep='')), 
+             file_info %>% 
+               filter(Study == "PHASE_III") %>% 
+               select(Form, Info) %>%
+               mutate("form" = tolower(Form)) %>%
+               rename(form_description = Info),
+             by = c("form_name" = "form"))
+```
+
+Now let's save the groups of forms.
+```{r}
+save_formgroup_level <- function(df, form_group_name) {
+  form_group_description <- "All forms within the study"
+  final_df <- data.frame(form_group_name, form_group_description)
+  
+  formgroup <- df %>% select(form_name, form_description, data_file_name, variable_group)
+  
+  final_df[1, "form"][[1]] <- list(formgroup) 
+  return(final_df)
+}
+```
+
+```{r}
+fifth_fus_i <-     save_formgroup_level(fourth_fus_i, "BABY HUG Follow-up Study I")
+fifth_fus_ii <-    save_formgroup_level(fourth_fus_ii, "BABY HUG Follow-up Study II")
+fifth_phase_iii <- save_formgroup_level(fourth_phase_iii, "BABY HUG Phase III Randomized Clinical Trial")
+```
+
+Now we can save this information as formgroup -level metadata for each study and combine into a single dataframe.
+```{r}
+comp <- rbind(fifth_fus_i, fifth_fus_ii, fifth_phase_iii)
+
+study <- "BABY HUG"
+study_name <- "Hydroxyurea to Prevent Organ Damage in Children with Sickle Cell Anemia (BABY HUG) Phase III Clinical Trial and Follow-Up Observational Studies I and II"
+study_phs_number <- "phs002415"
+study_url <- "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002415.v1.p1"
+
+compiled <- data.frame(study, study_name, study_phs_number, study_url)
+compiled[1, "form_group"][[1]] <- list(comp)
+```
+
+Writing out to JSON.
+
+```{r}
+my_json <- toJSON(compiled, pretty=FALSE)
+```
+
+
+Using the `write_json` function outputs quotations with escape characters ("/"). This causes problems with the JSON file format. This can be dealt with by converting the JSON object into a string and writing this to a text file.
+
+```{r}
+test_string_json <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/babyhug_metadata.json")
+writeLines(test_string_json, fileConn)
+close(fileConn)
+# This works for writing a JSON file without the escape characters
+```
+
+
+
+
+Attempted to compose a more general function that can be applied to any step in this process. Though the function below works, it take a long time to complete. Generally, curation should follow this format.
+
+```{r}
+#consolidate_levels <- function(df, levels_to_keep, levels_to_collapse, metadata_col_name) {
+#  groups <- data.frame(df %>% select(all_of(levels_to_keep)) %>% unique())
+#  rownames(groups) <- NULL
+#  
+#  #final_df <- data.frame(df %>% select(all_of(levels_to_keep)) %>% unique())
+#                         
+#  for (ind in 1:nrow(groups)) {
+#      info_vec <- groups[ind, levels_to_keep]
+#      inds_to_get <- c()
+#      for (df_ind in 1:nrow(df)){
+#        test_vec <- df[df_ind, levels_to_keep]
+#        if(sum(test_vec == info_vec) == length(levels_to_keep)) {
+#          inds_to_get <- c(inds_to_get, df_ind)
+#        }
+#      var_df <- data.frame(df[inds_to_get, levels_to_collapse])
+#      groups[ind, metadata_col_name][[1]] <- list(var_df)
+#    }
+#  }
+#  return(groups)
+#}
+```
