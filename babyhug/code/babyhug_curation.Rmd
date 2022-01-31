@@ -316,9 +316,9 @@ comp <- rbind(fifth_fus_i, fifth_fus_ii, fifth_phase_iii)
 study <- "BABY HUG"
 study_name <- "Hydroxyurea to Prevent Organ Damage in Children with Sickle Cell Anemia (BABY HUG) Phase III Clinical Trial and Follow-Up Observational Studies I and II"
 study_phs_number <- "phs002415"
-study_description <- "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002415.v1.p1"
+study_url <- "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002415.v1.p1"
 
-compiled <- data.frame(study, study_name, study_phs_number, study_description)
+compiled <- data.frame(study, study_name, study_phs_number, study_url)
 compiled[1, "form_group"][[1]] <- list(comp)
 ```
 
