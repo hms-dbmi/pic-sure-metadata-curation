@@ -225,6 +225,7 @@ form_df <- vargroup_df %>%
   select(!c(variable_group_name, variable_group_description, variable)) %>%
   unique()
 rownames(form_df) <- NULL
+form_df$data_file_name <- "redcoral.sas7bdat"
 
 for(ind in 1:nrow(form_df)) {
   fdf <- vargroup_df %>%
@@ -239,15 +240,15 @@ for(ind in 1:nrow(form_df)) {
 Now we will add form groups.
 ```{r}
 form_groups <- form_df %>%
-  select(!c(form_name, form_description, variable_group)) %>%
+  select(!c(form_name, form_description, data_file_name, variable_group)) %>%
   unique()
 rownames(form_groups) <- NULL
 
 for(ind in 1:nrow(form_groups)) {
   fgdf <- form_df %>%
     filter(form_group_name == form_groups[ind, 'form_group_name']) %>%
-    select(form_name, form_description, variable_group)
-  form_groups[ind, 'form_group'][[1]] <- list(fgdf)
+    select(form_name, form_description, data_file_name, variable_group)
+  form_groups[ind, 'form'][[1]] <- list(fgdf)
 }
 ```
 
@@ -256,9 +257,9 @@ Now we will add study information.
 study <- "RED CORAL"
 study_name <- "PETAL Repository of Electronic Data COVID-19 Observational Study (RED CORAL)"
 study_phs_number <- "phs002363"
-study_description <- "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002363.v1.p1"
+study_url <- "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002363.v1.p1"
 
-final_df <- data.frame(study, study_name, study_phs_number, study_description)
+final_df <- data.frame(study, study_name, study_phs_number, study_url)
 
 final_df[1, 'form_group'][[1]] <- list(form_groups)
 
