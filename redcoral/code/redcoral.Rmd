@@ -26,7 +26,6 @@ consolidated_doc <- pdf_text("../input/RED CORAL Study Documents_consolidated.pd
 sas_file <- read.csv('../input/redcoral_decode_usable.csv')
 
 variable_level_metadata <- read.csv('../intermediates/variable_level_metadata.csv')
-
 ```
 
 Although the pdf_datadict appears to have ~1500 variables, the raw_datadict only contains 914. 
@@ -128,9 +127,10 @@ Our goal is that each variable ID will have a variable name which may come from 
 This will be specified in the metadata.
 ```{r}
 df3 <- full_join(df2, 
-                 sas_file %>% select(NAME, TYPE, LABEL), 
+                 sas_file %>% select(MEMNAME, NAME, TYPE, LABEL), 
                  by = c('level_0' = 'NAME')) %>%
-  mutate(varname = ifelse(!is.na(level_1), level_1, LABEL))
+  mutate(varname = ifelse(!is.na(level_1), level_1, LABEL),
+         MEMNAME = ifelse(is.na(MEMNAME), "data dictionary", MEMNAME))
 
 # mark 'unknown' for metadata for variables which are only present in the sas file
 df3[!df3$level_0 %in% df2$level_0,c('level_1', 'level_2', 'level_3', 'level_4')] <- "UNKNOWN"
@@ -158,103 +158,111 @@ df3 <- left_join(df3 %>%
 
 ```
 
-Example json output 
-
-{
-  "var_name": "gender",
-  "var_desc": "desc gender",
-  "var_id": "gndr"
-  "study_id":"phsXXX"
-  "metadata": { 
-    "encounter_name": "INCLUSION"
-}
 
 The main goal will be to create a nested JSON file.
-First, we will add variable-level metadata information for each variable.
+First, we will clean up the dataframe to be in the previously defined schema.
 ```{r}
+raw <- df3 %>%
+  select(level_4, level_4_desc,
+         level_3, level_3_desc,
+         level_2, level_2_desc,
+         level_0, varname, variable_type,
+         LABEL, level_1, level_0_desc, level_1_desc) %>%
+  rename(variable_label_from_data_dictionary = level_1, #Variable level metdata
+         variable_label_from_data_file = LABEL,
+         variable_description = level_0_desc,
+         variable_additional_info = level_1_desc,
+         variable_id = level_0, #Variables
+         variable_name = varname,
+         #variable_type,
+         variable_group_name = level_2, #Variable group level
+         variable_group_description = level_2_desc,
+         form_name = level_3, # Form level
+         form_description = level_3_desc,
+         form_group_name = level_4,
+         form_group_description = level_4_desc)
+```
 
-df4 <- df3 %>%
-  select(level_0, varname, variable_type) %>%
-  rename('variable_id' = 'level_0',
-         'variable_name' = 'varname') %>%
+
+Now we will add variable-level metadata information for each variable.
+```{r}
+variable_df <- raw %>% 
+  select(!c(variable_label_from_data_dictionary, variable_label_from_data_file, variable_description, variable_additional_info)) %>%
   unique()
+rownames(variable_df) <- NULL
 
-rownames(df4) <- NULL
-
-for (r in c(1:nrow(df4))) {
-  res_df <- df3[r,] %>%
-    select(level_1, varname, level_1_desc) %>% #level_2, level_3, level_4)  %>%
-    rename('variable_label_from_data_dictionary' = 'level_1',
-           'variable_label_from_data_file' = 'varname',
-           'variable_description' = 'level_1_desc')#,
-           #'var_group' = 'level_2', # repetitive
-           #'form_id' = 'level_3', # repetitive
-           #'encounter_id' = 'level_4') # repetitive
-  df4[r,'variable_metadata'][[1]] <- list(res_df)
+for(ind in 1:nrow(variable_df)){
+  var_df <- raw %>% 
+    filter(form_group_name == variable_df[ind, 'form_group_name'] &
+             form_name == variable_df[ind, 'form_name'] &
+             variable_group_name == variable_df[ind, 'variable_group_name'] &
+             variable_id == variable_df[ind, 'variable_id']) %>%
+    select(variable_label_from_data_dictionary, variable_label_from_data_file, variable_description, variable_additional_info)
+  variable_df[ind, 'variable_metadata'] [[1]] <- list(var_df)
 }
 ```
 
-Now we can group the variables
+Now we will add variables to variable groups.
 ```{r}
-vargroups <- df3 %>%
-  select(level_2) %>%
-  unique() %>%
-  rename(variable_group_name = level_2)
-rownames(vargroups) <- NULL
+vargroup_df <- variable_df %>% 
+  select(!c(variable_id, variable_name, variable_type, variable_metadata)) %>%
+  unique()
+rownames(vargroup_df) <- NULL
 
-for (ind in 1:nrow(vargroups)) {
-  vars <- df3 %>% 
-    filter(level_2 == vargroups[ind, 'variable_group_name']) %>%
-    pull(level_0)
-  group <- df4 %>%
-    filter(variable_id %in% vars)
-  vargroups[ind, 'variable'][[1]] <- list(group)
-  vargroups[ind, "variable_group_description"] <- paste("All variables in ", vargroups[ind, 'variable_group_name'], sep='')
-}
-
-# Quick reordering
-vargroups <- vargroups %>% select(variable_group_name, variable_group_description, variable)
-```
-
-Now we can put the variable groups into form info.
-```{r}
-form_df <- df3 %>% select(level_3) %>% unique() %>% rename(form_name = level_3)
-rownames(form_df) <- NULL 
-
-for (ind in 1:nrow(form_df)) {
-  our_vargroups <- df3 %>% 
-    filter(level_3 == form_df[ind, "form_name"]) %>% 
-    pull(level_2)
-  sub_vargroupdf <- vargroups %>% 
-    filter(variable_group_name %in% our_vargroups)
-  form_df[ind, "form_description"] <- ''
-  form_df[ind, "variable_group"][[1]] <-list(sub_vargroupdf)
+for(ind in 1:nrow(vargroup_df)){
+  vargroup <- variable_df %>%
+    filter(form_group_name == vargroup_df[ind, 'form_group_name'] &
+             form_name == vargroup_df[ind, 'form_name'] &
+             variable_group_name == vargroup_df[ind, 'variable_group_name']) %>%
+    select(variable_id, variable_name, variable_type, variable_metadata)
+  vargroup_df[ind, "variable"][[1]] <- list(vargroup)
 }
 ```
 
-Now we can put the forms into form groups.
+Now we will add form information.
 ```{r}
-form_groups <- df3 %>% select(level_4) %>% unique() %>% rename(form_group_name = level_4)
+form_df <- vargroup_df %>%
+  select(!c(variable_group_name, variable_group_description, variable)) %>%
+  unique()
+rownames(form_df) <- NULL
+
+for(ind in 1:nrow(form_df)) {
+  fdf <- vargroup_df %>%
+    filter(form_group_name == form_df[ind, 'form_group_name'] &
+             form_name == form_df[ind, 'form_name']) %>%
+    select(variable_group_name, variable_group_description, variable)
+  form_df[ind, 'variable_group'][[1]] <- list(fdf)
+}
+```
+
+
+Now we will add form groups.
+```{r}
+form_groups <- form_df %>%
+  select(!c(form_name, form_description, variable_group)) %>%
+  unique()
 rownames(form_groups) <- NULL
 
-for (ind in 1:nrow(form_groups)) {
-  our_forms <- df3 %>%
-    fitler(level_4 == form_groups[ind, 'form_group_name']) %>%
-    pull(level_3)
-  sub_formdf <- form_df %>% filter(form_name %in% )
+for(ind in 1:nrow(form_groups)) {
+  fgdf <- form_df %>%
+    filter(form_group_name == form_groups[ind, 'form_group_name']) %>%
+    select(form_name, form_description, variable_group)
+  form_groups[ind, 'form_group'][[1]] <- list(fgdf)
 }
+```
 
-for (encounter in encounters) {
-  
-  our_forms <- df3 %>% filter(level_4 == encounter) %>% pull(level_3)
-  sub_formdf <- form_df %>% filter(form_name %in% our_forms)
-  encounter_df[which(encounters == encounter),'timepoint_desc'][[1]] <- ifelse(is_empty(df3 %>% filter(level_4 == encounter) %>% pull(level_4_desc) %>% unique), '', df3 %>% filter(level_4 == encounter) %>% pull(level_4_desc) %>% unique)
-  encounter_df[which(encounters == encounter),'form_data'][[1]] <- list(sub_formdf)
-  
-}
+Now we will add study information.
+```{r}
+study <- "RED CORAL"
+study_name <- "PETAL Repository of Electronic Data COVID-19 Observational Study (RED CORAL)"
+study_phs_number <- "phs002363"
+study_description <- "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002363.v1.p1"
 
+final_df <- data.frame(study, study_name, study_phs_number, study_description)
 
-my_json <- toJSON(encounter_df, pretty=FALSE)
+final_df[1, 'form_group'][[1]] <- list(form_groups)
+
+my_json <- toJSON(final_df, pretty=FALSE)
 
 ```
 
@@ -269,11 +277,3 @@ close(fileConn)
 
 # This works for writing a JSON file without the escape characters
 ```
-
-
-
-
-
-
-
-
