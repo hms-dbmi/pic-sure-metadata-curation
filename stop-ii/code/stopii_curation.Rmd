@@ -118,10 +118,10 @@ Save the study info.
 study <- "STOP II"
 study_name <- "Optimizing Primary Stroke Prevention in Children with Sickle Cell Anemia (STOP II)"
 study_phs_number <- "phs002386"
-study_description <- "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002386.v1.p1"
+study_url <- "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002386.v1.p1"
 
 save_form_metadata <- function(df) {
-  final_df <- data.frame(study, study_name, study_phs_number, study_description)
+  final_df <- data.frame(study, study_name, study_phs_number, study_url)
   final_df[1, 'form_group'][[1]] <- list(df)
   return(final_df)
 }
