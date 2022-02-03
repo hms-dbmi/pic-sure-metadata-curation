@@ -37,7 +37,7 @@ read_in_rtfs <- function(directory, number_columns, columns_names, col_indices_t
 ```
 
 ```{r}
-fus_i_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_FUS_I_Codebook/", 
+fus_i_df <- read_in_rtfs("../input/documentation/Codebooks/BABY_HUG_FUS_I_Codebook/", 
                          10, 
                          c("Variable_Label_VAR", "Variable_Name", "Category",
                            "N_percent", "N_Missing", "Mean_SD", "Median_Q1_Q3",
@@ -47,7 +47,7 @@ fus_i_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_FUS_I_Codebook/",
 ```
 
 ```{r}
-fus_ii_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_FUS_II_Codebook/", 
+fus_ii_df <- read_in_rtfs("../input/documentation/Codebooks/BABY_HUG_FUS_II_Codebook/", 
                          10, 
                          c("Variable_Label_VAR", "Variable_Name", "Category",
                            "N_percent", "N_Missing", "Mean_SD", "Median_Q1_Q3",
@@ -59,7 +59,7 @@ fus_ii_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_FUS_II_Codebook/",
 ```{r}
 # Something is going on where the empty rows are not removed. 
 # Unsure what is causing it - bug fix below
-phase_iii_rct_df <- read_in_rtfs("../input/Codebooks/BABY_HUG_PhaseIII_RCT_Codebook/", 
+phase_iii_rct_df <- read_in_rtfs("../input/documentation/Codebooks/BABY_HUG_PhaseIII_RCT_Codebook/", 
                          10, 
                          c("Variable_Label_VAR", "Variable_Name", "Category",
                            "N_percent", "N_Missing", "Mean_SD", "Median_Q1_Q3",
@@ -164,8 +164,8 @@ clean_up_df <- function(df) {
     mutate(variable_name = ifelse(!is.na(variable_label_from_data_file), 
                                   variable_label_from_data_file, variable_label_from_data_dictionary),
            variable_type = ifelse(variable_type==1, "continuous",
-                                  ifelse(variable_type==2, "categorical", "unknown"))) %>%
-    mutate(variable_type = ifelse(is.na(variable_type), "unknown", variable_type))
+                                  ifelse(variable_type==2, "categorical", "data missing"))) %>%
+    mutate(variable_type = ifelse(is.na(variable_type), "data missing", variable_type))
   
   return(cleaned)
 }
