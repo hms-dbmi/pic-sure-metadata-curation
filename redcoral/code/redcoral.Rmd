@@ -137,12 +137,12 @@ df3[!df3$level_0 %in% df2$level_0,c('level_1', 'level_2', 'level_3', 'level_4')]
 
 ```
 
-Add code to decode the TYPE column. 1=continuous, 2=categorical, NA=Unknown
+Add code to decode the TYPE column. 1=continuous, 2=categorical, NA=data missing
 ```{r}
 df3 <- df3 %>% 
   mutate(variable_type = ifelse(TYPE==1, "continuous", 
-                                ifelse(TYPE==2, "categorical", "unknown"))) %>%
-  mutate(variable_type = ifelse(is.na(variable_type), "unknown", variable_type))
+                                ifelse(TYPE==2, "categorical", "data missing"))) %>%
+  mutate(variable_type = ifelse(is.na(variable_type), "data missing", variable_type))
 ```
 
 
