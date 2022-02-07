@@ -1,0 +1,67 @@
+---
+title: "CSSCD Metadata Curation"
+author: "Emily Hughes"
+date: "2/7/2022"
+output: html_document
+---
+
+Library
+```{r}
+library(dplyr)
+library(jsonlite)
+```
+
+Read in files
+```{r}
+phase1_metadata <- read.csv("../input/PHASE1_METADATA.csv")
+phase2a_metadata <- read.csv("../input/PHASE2A_METADATA.csv")
+phase23_metadata <- read.csv("../input/PHASE23_METADATA.csv")
+
+file_info <- read.csv("../intermediates/csscd_fileinfo.csv")
+```
+
+Set up dataframe.
+```{r}
+phase1_metadata$raw_form_group_name <- "PHASE I"
+phase2a_metadata$raw_form_group_name <- "PHASE II"
+phase23_metadata$raw_form_group_name <- "PHASES 2 AND 3"
+
+
+clean_up_df <- function(df){
+  metadata <- df %>%
+    select(raw_form_group_name, MEMNAME, NAME, TYPE, LABEL) %>%
+    rename(data_file_name = MEMNAME, variable_id = NAME, variable_label_from_data_file = LABEL, variable_type = TYPE) %>%
+    mutate(data_file_name = paste(tolower(data_file_name), '.sas7bdat', sep=''),
+           variable_type = ifelse(variable_type==1, "continuous",
+                                    ifelse(variable_type==2, "categorical", "unknown"))) %>%
+    mutate(variable_type = ifelse(is.na(variable_type), "unknown", variable_type),
+           variable_name = variable_label_from_data_file)
+  #mini_file_info <- file_info %>% filter(form_group_name == metadata %>% pull(form_group_name) %>% unique())
+  #raw <- full_join(metadata, file_info,
+  #               by = c('form_group_name', 'data_file_name'))
+  return(metadata)
+}
+
+
+p1__metadata <- clean_up_df(phase1_metadata)
+p2a_metadata <- clean_up_df(phase2a_metadata)
+p23_metadata <- clean_up_df(phase23_metadata)
+```
+
+Connect cleaned dfs to file_info.
+```{r}
+add_file_info <- function(df, file_info){
+  rownames(df) <- NULL
+  for(ind in 1:nrow(df)) {
+    if (ind ==1) {
+      file_name <- df[ind, 'data_file_name']
+      study <- df[ind, 'raw_form_group_name']
+      mini <- file_info %>% filter(str_detect(study, 'form_group_name'))
+      return(mini)
+    }
+  }
+}
+
+test <- add_file_info(p1__metadata, file_info)
+```
+
