@@ -1,0 +1,136 @@
+﻿form_group_name_raw,form_group_description,form_name,form_description,data_file_name,form_group_name
+,,Acute Priapism Flow Sheet,Acute Priapism Flow Sheet - Form 51E,r81.sas7bdat,PHASE I
+,,Acute Chest Syndrome Summary,"Acute Chest Syndrome Summary - ""Form"" 63",r63.sas7bdat,PHASE I
+,,Patient Roster (Case) Information,,r09.sas7bdat,PHASE I
+Past Medical History Information,,Form 14,Form 14: Young Infant Form ,r14.sas7bdat,PHASE I: Past Medical History Information
+Past Medical History Information,,Form 15,Form 15: Infant Past Medical History Form,r15.sas7bdat,PHASE I: Past Medical History Information
+Past Medical History Information,,Form 10,Form 10: Past Medical History,r10.sas7bdat,PHASE I: Past Medical History Information
+Past Medical History Information,,Past Medical History (Part 2),,r29.sas7bdat,PHASE I: Past Medical History Information
+Demographic Data,,Form 01,Form 01: Household Enumeration Form,r01.sas7bdat,PHASE I: Demographic Data
+Demographic Data,,Form 02,Form 02: Patient Demographic Data Form,r02.sas7bdat,PHASE I: Demographic Data
+Demographic Data,,Form 03 & Form 04,Form 03: Head of Household Demographic Data Form & Form 04: Composite Household Demogrpahic Data Form,r03.sas7bdat,PHASE I: Demographic Data
+Demographic Data,,Household Composition Summary Record,,r59.sas7bdat,PHASE I: Demographic Data
+Demographic Data,,Form 05,Form 05: Annual Demographic Data Form,r05.sas7bdat,PHASE I: Demographic Data
+Demographic Data,,Form 06,Form 06: Patient Continuation Demographic Data Form,r86.sas7bdat,PHASE I: Demographic Data
+Demographic Data,,Form 07,Form 07: Head of Household Continuation Demographic Data Form,r87.sas7bdat,PHASE I: Demographic Data
+Routine Visit Information - Phase 1,,Form 16,Form 16: Infant Interim Clinic Visit,r16.sas7bdat,PHASE I: Routine Visit Information - Phase 1
+Routine Visit Information - Phase 1,,Form 16E,Form 16E: Extension Infant Interim Clinic Visit Form,r24.sas7bdat,PHASE I: Routine Visit Information - Phase 1
+Routine Visit Information - Phase 1,,Form 11,Form 11: Intake Physical Exam,r1121.sas7bdat,PHASE I: Routine Visit Information - Phase 1
+Routine Visit Information - Phase 1,,Form 12,Form 12: Intake Laboratory Sheet,r1222.sas7bdat,PHASE I: Routine Visit Information - Phase 1
+Routine Visit Information - Phase 1,,"Forms 17, 19, 20, 21, 22, 24","Forms 17, 19, 20, 21, 22, 24: Routine Follow-up Visit Forms Used Through 02/84",r1722.sas7bdat,PHASE I: Routine Visit Information - Phase 1
+Routine Visit Information - Phase 1,,Form 25,Form 25: Extension Annual Clinic Visit Form,r25.sas7bdat,PHASE I: Routine Visit Information - Phase 1
+Routine Visit Information - Phase 1,,Form 25A,Form 25A: Extension Annual Clinic Visit,r25a.sas7bdat,PHASE I: Routine Visit Information - Phase 1
+Special Laboratory Studies,,"Hemoglobin Electrophoresis, Betke-Kleihauer, G-6-PD, Globin Chain Synthesis",,r06.sas7bdat,PHASE I: Special Laboratory Studies
+Special Laboratory Studies,,"""Pocked"" RBC Counts",,r07.sas7bdat,PHASE I: Special Laboratory Studies
+Special Laboratory Studies,,Iron/Lead,,r08.sas7bdat,PHASE I: Special Laboratory Studies
+Special Laboratory Studies,,Alloantibodies,,r27.sas7bdat,PHASE I: Special Laboratory Studies
+Special Laboratory Studies,,Density Gradient,,r95.sas7bdat,PHASE I: Special Laboratory Studies
+Special Laboratory Studies,,alpha-Globin Gene Mapping & beta Haplotyping,,r04.sas7bdat,PHASE I: Special Laboratory Studies
+Special Studies,,Form 13,Form 13: Neurologic Evaluation Form,r13.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 13,Form 13: Neurologic Evaluation Form,r23.sas7bdat,PHASE I: Special Studies
+Special Studies,,Denver Developmental Screening Test (DDST),,r28.sas7bdat,PHASE I: Special Studies
+Special Studies,,"Forms 12, 16, 20, 22, 75","Forms 12, 16, 20, 22, 75: Chest & Shoulder X-Rays",r75.sas7bdat,PHASE I: Special Studies
+Special Studies,,"Forms 12, 22, 75","Forms 12, 22, 75: Hip X-Ray",r76.sas7bdat,PHASE I: Special Studies
+Special Studies,,Spleen Scan,,r26.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 77,"Form 77: Plain Film Report Form, Abdominal Imaging Studies",r77.sas7dat,PHASE I: Special Studies
+Special Studies,,Form 78,"Form 78: Sonogram Report Form, Abdominal Imaging Studies",r78.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 79,"Form 79: Oral Cholecystogram Report Form, Abdominal Imaging Studies",r79.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 18,"Form 18: Ocular Exam, Ocular Examination",r18.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 18E,"Form 18E: Ocular Exam, Ocular Examination",r19.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 94,"Form 94: Pulmonary Function Test (PFT) Report Form, Pulmonary Function Studies",r94.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 94E,"Form 94E: Pulmonary Function Test (PFT) Report Form (Extension), Pulmonary Function Studies",r96.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 98,"Form 98: Cardiac Evaluation - Part I: History and Physical, Cardiac Studies",r98.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 99,"Form 99: Cardiac Evaluation - Part II: Laboratory, Cardiac Studies",r99.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 99,"Form 99: Cardiac Evaluation - Part II: Exercise Testing, Cardiac Studies",r97.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 67,"Form 67: Psychosocial Questionnaire - Parents of SCD Patients 8-13 Years of Age, Psychosocial Studies",r67.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 68,"Form 68: Psychosocial Questionnaire - Parents of SCD Patients 14-19 Years of Age, Psychosocial Studies",r68.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 69,"Form 69: Psychosocial Questionnaire - Patients 8-13 Years of Age, Psychosocial Studies",r69.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 73,"Form 73: Psychosocial Questionnaire - Patients 14-19 Years of Age, Psychosocial Studies",r73.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 74,"Form 74: Psychosocial Questionnaire - Patients 20 and Older, Psychosocial Studies",r74.sas7bdat,PHASE I: Special Studies
+Special Studies,,Diaries,,r55.sas7bdat,PHASE I: Special Studies
+Special Studies,,Form 56,Form 56: Comfort Measures for Painful Episode Form,r56.sas7bdat,PHASE I: Special Studies
+Acute Events,,Form 30,"Form 30: Painful Episode, Pain/Skeletal & Joint",r30.sas7bdat,PHASE I: Acute Events
+Acute Events,,Painful Event Summary (Derived),Pain/Skeletal & Joint,r61.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 36,"Form 36: Skeletal & Joint Events, Pain/Skeletal & Joint",r36.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 31,"Form 31: Painful Episode/Skeletal & Joint Event Flow Sheet and Treatment Follow-up, Pain/Skeletal & Joint",r31.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 37,"Form 37: Skeletal & Joint Flow Sheet, Pain/Skeletal & Joint",r37.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 32,"Form 32: Acute Chest Syndrome, Acute Chest",r32.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 32E,"Form 32E: Acute Chest Syndrome II, Acute Chest",r43.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 33,"Form 33: Acute Chest Syndrome Flow Sheet, Acute Chest",r33.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 34,"Form 34: Right Upper Quadrant (RUQ) Syndrome, Right Upper Quadrant",r34.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 35,"Form 35: Right Upper Quadrant Flow Sheet, Right Upper Quadrant",r35.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 38,"Form 38: Hand-Foot Syndrome, Hand-Foot",r38.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 39,"Form 39: Hand and Foot Syndrome Flow Sheet, Hand-Foot",r39.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 40,"Form 40: Seizures, Neurologic Events",r40.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 42,"Form 42: Meningitis, Neurologic Events",r42.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 44,"Form 44: Cerebrovascular Accident (CVA), Neurologic Events",r44.sas7bdat,PHASE I: Acute Events
+Acute Events,,CSSCD Stroke Questionnaire,Neurologic Events,r41.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 45,"Form 45: Cerebrovascular Accident & Meningitis Flow Sheet, Neurologic Events",r45.sas7bdat,PHASE I: Acute Events
+Acute Events,,CVA Summary,Neurologic Events,r88.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 46,"Form 46: Acute Anemic Episode and Splenic Sequestration Form, Acute Anemic Episode",r46.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 47,"Form 47: Acute Anemic Episode Flow Sheet, Acute Anemic Episode",r47.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 48,"Form 48: Acute Febrile Illness, Acute Febrile Illness",r48.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 49,"Form 49: Septicemia and Acute Febrile Event Flow Sheet, Acute Febrile Illness",r49.sas7bdat,PHASE I: Acute Events
+Acute Events,,Bacteremia Summary,Acute Febrile Illness,r58.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 50,"Form 50: Priapism, Priapism",r50.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 50E,"Form 50E: Acute Priapism, Priapism",r80.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 51,"Form 51: Priapism Flow Sheet, Priapism",r51.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 57,Form 57: Priapism Follow-up,r57.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 53,Form 53: Comprehensive Special Event,r53.sas7bdat,PHASE I: Acute Events
+Acute Events,,Form 52,Form 52: Acute Event Treatment Follow-up,r52.sas7bdat,PHASE I: Acute Events
+Chronic Events,,Form 62,"Form 62: Renal Complications, Renal Complications",r62.sas7bdat,PHASE I: Chronic Events
+Chronic Events,,Form 70,"Form 70: Renal Complications Follow-up Form (Hematuria & UTI), Renal Complications",r70.sas7bdat,PHASE I: Chronic Events
+Chronic Events,,Form 71,"Form 71: Renal Complications Follow-up Form (Proteinuria and Renal Insufficiency), Renal Complications",r71.sas7bdat,PHASE I: Chronic Events
+Chronic Events,,Form 64,"Form 64: Aseptic Necrosis, Aseptic Necrosis",r64.sas7bdat,PHASE I: Chronic Events
+Chronic Events,,Aseptic Necrosis Central Review Results,Aseptic Necrosis,r65.sas7bdat,PHASE I: Chronic Events
+Chronic Events,,Form 60,Form 60: Leg Ulceration,r60.sas7bdat,PHASE I: Chronic Events
+Chronic Events,,Form 66,Form 66: Ocular Complications,r66.sas7bdat,PHASE I: Chronic Events
+Interactive Events,,Form 83,Form 83: Surgery and Anesthesia,r83.sas7bdat,PHASE I: Interactive Events
+Interactive Events,,Form 84,"Form 84: Transfusion, Transfusion",r84.sas7bdat,PHASE I: Interactive Events
+Interactive Events,,Chronic Transfusion Summary,Transfusion,r85.sas7bdat,PHASE I: Interactive Events
+Interactive Events,,Form 90,Form 90: Non-SCD Initiated Hospitalization,r90.sas7bdat,PHASE I: Interactive Events
+Interactive Events,,Form 82,"Form 82: Pregnancy Form, Pregnancy",r82.sas7bdat,PHASE I: Interactive Events
+Interactive Events,,Pregnancy Summary,Pregnancy Summary,r72.sas7bdat,PHASE I: Interactive Events
+Interactive Events,,Form 91,"Form 91: Cause of Death Form, Death",r91.sas7bdat,PHASE I: Interactive Events
+Interactive Events,,Cause of Death Summary,Death,r89.sas7bdat,PHASE I: Interactive Events
+Interactive Events,,Cause of Death Adjucations,Death,r93.sas7bdat,PHASE I: Interactive Events
+Other,,Form 26,Form 26: Supplement to Extension Annual,r20.sas7bdat,PHASE I: Other
+Other,,Form 27,Form 27: Life Status Form,r92.sas7bdat,PHASE I: Other
+Special Studies,Documentation for CSSCD Infant Cohort Datasets,Form 'ABG',Form 'ABG': Arterial Blood Gases (Steady-State) Form,abg_pubn.sas7bdat,PHASES 2 AND 3: Special Studies
+Special Studies,Documentation for CSSCD Infant Cohort Datasets,Form 'ACBC',Achenbach Child Behavior Checklist,acbcpubn.sas7bdat,PHASES 2 AND 3: Special Studies
+Special Studies,Documentation for CSSCD Infant Cohort Datasets,Form 'ACC',Form 'ACC': Accuracy of Assessment Form,acc_pubn.sas7bdat,PHASES 2 AND 3: Special Studies
+Clinical Events,Documentation for CSSCD Infant Cohort Datasets,Form 'CVA',Form 'CVA': Cerebrovascular Accident Event,cva_pubn.sas7bdat,PHASES 2 AND 3: Clinical Events
+Clinical Events,Documentation for CSSCD Infant Cohort Datasets,CVA Adjucation Summary,,cvaadpub.sas7bdat,PHASES 2 AND 3: Clinical Events
+Clinical Events,Documentation for CSSCD Infant Cohort Datasets,Form 'DEATH',Form 'DEATH': Cause of Death Form,dth_pubn.sas7bdat,PHASES 2 AND 3: Clinical Events
+Special Studies,Documentation for CSSCD Infant Cohort Datasets,Form 'FES',Form 'FES': Family Environment Scale,fes_pubn.sas7bdat,PHASES 2 AND 3: Special Studies
+Routine Visit Forms,Documentation for CSSCD Infant Cohort Datasets,Form 'HXP',Form 'HXP': History Form,hxp_pubn.sas7bdat,PHASES 2 AND 3: Routine Visit Forms
+Routine Visit Forms,Documentation for CSSCD Infant Cohort Datasets,Form 'INT',Form 'INT': Interim Status Report Form,int_pubn.sas7bdat,PHASES 2 AND 3: Routine Visit Forms
+Routine Visit Forms,Documentation for CSSCD Infant Cohort Datasets,Form 'LAB',Form 'LAB': Laboratory Test Results,lab_pubn.sas7bdat,PHASES 2 AND 3: Routine Visit Forms
+Special Studies,Documentation for CSSCD Infant Cohort Datasets,Form 'LISR',Form 'LISR': Life Stressors and Social Resources Inventory,lisrpubn.sas7bdat,PHASES 2 AND 3: Special Studies
+Special Studies,Documentation for CSSCD Infant Cohort Datasets,Form 'MRA',Form 'MRA': MRA Form,mra_pubn.sas7bdat,PHASES 2 AND 3: Special Studies
+Special Studies,Documentation for CSSCD Infant Cohort Datasets,Form 'MRI',Form 'MRI': Magnetic Resonance Imaging Form,mri_pubn.sas7bdat,PHASES 2 AND 3: Special Studies
+Clinical Events,Documentation for CSSCD Infant Cohort Datasets,Form 'NVCA',Form 'NVCA': Non-CVA Event Form,ncvapubn.sas7bdat,PHASES 2 AND 3: Clinical Events
+Routine Visit Forms,Documentation for CSSCD Infant Cohort Datasets,Form 'NE',Form 'NE': Neurological Evaluation Form,ne_pubn.sas7bdat,PHASES 2 AND 3: Routine Visit Forms
+Special Studies,Documentation for CSSCD Infant Cohort Datasets,Form 'NPC',Form 'NPC': Neuropsychological Data Form - Child,npc_pubn.sas7bdat,PHASES 2 AND 3: Special Studies
+Special Studies,Documentation for CSSCD Infant Cohort Datasets,Form 'NPP',Form 'NPP': Neuropsychological Data Form - Parent,npp_pubn.sas7bdat,PHASES 2 AND 3: Special Studies
+Routine Visit Forms,Documentation for CSSCD Infant Cohort Datasets,Form 'PEP',Form 'PEP': Physical Exam,pep_pubn.sas7bdat,PHASES 2 AND 3: Routine Visit Forms
+Special Studies,Documentation for CSSCD Infant Cohort Datasets,Form 'PFIF',Form 'PFIF': Pulmonary Function Intake Form,pfifpubn.sas7bdat,PHASES 2 AND 3: Special Studies
+Special Studies,Documentation for CSSCD Infant Cohort Datasets,Form 'PFTP',Form 'PFTP': Pulmonary Function Test Form,pftppubn.sas7bdat,PHASES 2 AND 3: Special Studies
+Special Studies,Documentation for CSSCD Infant Cohort Datasets,Form 'PRLN',Form 'PRLN': Pearlin Enhanced Self-Efficacy Scale,prlnpubn.sas7bdat,PHASES 2 AND 3: Special Studies
+Special Studies,Documentation for CSSCD Infant Cohort Datasets,Form 'PVTQ',Form 'PVTQ': Peabody Picture Vocabulary Test Questionnaire,pvtqpubn.sas7bdat,PHASES 2 AND 3: Special Studies
+,Documentation for CSSCD Infant Cohort Datasets,Roster,,rost2n3p.sas7bdat,PHASES 2 AND 3
+Clinical Events,Documentation for CSSCD Infant Cohort Datasets,Form 'TX',Form 'TX': Transfusion Form,tx_pubn.sas7bdat,PHASES 2 AND 3: Clinical Events
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Roster,,rost.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'HXA',Form 'HXA': Adult History,hxadata.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'PEA',Form 'PEA': Adult Physical Exam,peadata.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'NE',Form 'NE': Neurological Evaluation,neadata.sas7dat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'LAB',Form 'LAB': Adult Laboratory Test Results,labadata.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'STAT-A'/'STAT-E',Form 'STAT-A'/STAT-E': Adult Status Report,statdata.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'PFT',Form 'PFT': Pulmonary Function Test,pftdata.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'ECHO',Form 'ECHO': Echocardiography,echodata.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'MUGA',Form 'MUGA': MUGA - Nuclear Imaging,mugadata.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'EXERCISE',Form 'EXERCISE': Exercise Testing,exerdata.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,beta Haplotyping,,hapdata.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'EV',Form 'EV': Event Form,evtdata.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'DEATH',Form 'DEATH': Cause of Death,dthdata.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'DUA',Form 'DUA': Disposition Update Form - Adult,duadata.sas7bdat,PHASE II
