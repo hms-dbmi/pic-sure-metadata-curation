@@ -65,3 +65,84 @@ add_file_info <- function(df, file_info){
 test <- add_file_info(p1__metadata, file_info)
 ```
 
+
+# levels of organization(broad to narrow)
+- study
+- form group
+- form
+- variable group
+- variable
+
+First create the variable level metadata
+```{r}
+combined <- rbind(p1__metadata, p23_metadata, p2a_metadata) %>% left_join(file_info, by = 'data_file_name')
+variable_df <- combined %>% select(variable_id, variable_type, variable_name, data_file_name, form_group_name) %>% unique()
+  
+for(ind in 1:nrow(variable_df)){
+  var_metadata_df <- combined %>% 
+    filter(variable_id == variable_df[ind, 'variable_id'],
+           data_file_name == variable_df[ind, 'data_file_name'],
+           form_group_name == variable_df[ind, 'form_group_name']) %>%
+    select(variable_label_from_data_file)
+  variable_df[ind, 'variable_metadata'] [[1]] <- list(var_metadata_df) 
+}
+  
+```
+
+We don't have variable groups. Create the form level metadata
+```{r}
+form_df <- combined %>% select(form_name, form_description, data_file_name, form_group_name) %>% unique()
+
+for(ind in 1:nrow(form_df)) {
+  form_metadata_df <- variable_df %>%
+    filter(data_file_name == form_df[ind, 'data_file_name'],
+           form_group_name == form_df[ind, 'form_group_name']) %>%
+    select(variable_id, variable_name, variable_type, variable_metadata)
+  form_df[ind, 'variable'][[1]] <- list(form_metadata_df)
+}
+
+
+```
+
+Create form group level metadata
+```{r}
+form_group_df <- combined %>% select(form_group_name, form_group_description) %>% unique()
+
+for(ind in 1:nrow(form_group_df)) {
+  form_group_metadata_df <- form_df %>%
+    filter(form_group_name == form_group_df[ind, 'form_group_name']) %>%
+    select(form_name, form_description, data_file_name, variable)
+  form_group_df[ind, 'form'][[1]] <- list(form_group_metadata_df)
+}
+
+
+
+```
+
+Create study level metadata
+
+```{r}
+study_df <- data.frame('study_name' = 'Cooperative Study of Sickle Cell Disease (CSSCD)',
+                       'study' = 'CSSCD',
+                       'study_phs_number' = 'phs002362',
+                       'study_url' = 'https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002362.v1.p1')
+study_df$form_group <- list(form_group_df)
+
+```
+
+Write JSON file
+```{r}
+my_json <- toJSON(study_df, pretty=FALSE)
+
+json_string <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/csscd_metadata.json")
+writeLines(json_string, fileConn)
+close(fileConn)
+
+# This works for writing a JSON file without the escape characters
+```
+
+
+
+
+
