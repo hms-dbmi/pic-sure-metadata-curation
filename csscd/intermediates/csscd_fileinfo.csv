@@ -1,4 +1,4 @@
-﻿form_group_name_raw,form_group_description,form_name,form_description,data_file_name,form_group_name
+form_group_name_raw,form_group_description,form_name,form_description,data_file_name,form_group_name
 ,,Acute Priapism Flow Sheet,Acute Priapism Flow Sheet - Form 51E,r81.sas7bdat,PHASE I
 ,,Acute Chest Syndrome Summary,"Acute Chest Syndrome Summary - ""Form"" 63",r63.sas7bdat,PHASE I
 ,,Patient Roster (Case) Information,,r09.sas7bdat,PHASE I
@@ -32,7 +32,7 @@ Special Studies,,Denver Developmental Screening Test (DDST),,r28.sas7bdat,PHASE 
 Special Studies,,"Forms 12, 16, 20, 22, 75","Forms 12, 16, 20, 22, 75: Chest & Shoulder X-Rays",r75.sas7bdat,PHASE I: Special Studies
 Special Studies,,"Forms 12, 22, 75","Forms 12, 22, 75: Hip X-Ray",r76.sas7bdat,PHASE I: Special Studies
 Special Studies,,Spleen Scan,,r26.sas7bdat,PHASE I: Special Studies
-Special Studies,,Form 77,"Form 77: Plain Film Report Form, Abdominal Imaging Studies",r77.sas7dat,PHASE I: Special Studies
+Special Studies,,Form 77,"Form 77: Plain Film Report Form, Abdominal Imaging Studies",r77.sas7bdat,PHASE I: Special Studies
 Special Studies,,Form 78,"Form 78: Sonogram Report Form, Abdominal Imaging Studies",r78.sas7bdat,PHASE I: Special Studies
 Special Studies,,Form 79,"Form 79: Oral Cholecystogram Report Form, Abdominal Imaging Studies",r79.sas7bdat,PHASE I: Special Studies
 Special Studies,,Form 18,"Form 18: Ocular Exam, Ocular Examination",r18.sas7bdat,PHASE I: Special Studies
@@ -123,7 +123,7 @@ Clinical Events,Documentation for CSSCD Infant Cohort Datasets,Form 'TX',Form 'T
 ,Documentation for CSSCD Phase II Adult Cohort Datasets,Roster,,rost.sas7bdat,PHASE II
 ,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'HXA',Form 'HXA': Adult History,hxadata.sas7bdat,PHASE II
 ,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'PEA',Form 'PEA': Adult Physical Exam,peadata.sas7bdat,PHASE II
-,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'NE',Form 'NE': Neurological Evaluation,neadata.sas7dat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'NE',Form 'NE': Neurological Evaluation,neadata.sas7bdat,PHASE II
 ,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'LAB',Form 'LAB': Adult Laboratory Test Results,labadata.sas7bdat,PHASE II
 ,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'STAT-A'/'STAT-E',Form 'STAT-A'/STAT-E': Adult Status Report,statdata.sas7bdat,PHASE II
 ,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'PFT',Form 'PFT': Pulmonary Function Test,pftdata.sas7bdat,PHASE II
@@ -131,6 +131,6 @@ Clinical Events,Documentation for CSSCD Infant Cohort Datasets,Form 'TX',Form 'T
 ,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'MUGA',Form 'MUGA': MUGA - Nuclear Imaging,mugadata.sas7bdat,PHASE II
 ,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'EXERCISE',Form 'EXERCISE': Exercise Testing,exerdata.sas7bdat,PHASE II
 ,Documentation for CSSCD Phase II Adult Cohort Datasets,beta Haplotyping,,hapdata.sas7bdat,PHASE II
-,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'EV',Form 'EV': Event Form,evtdata.sas7bdat,PHASE II
-,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'DEATH',Form 'DEATH': Cause of Death,dthdata.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'EV',Form 'EV': Event Form,evtadata.sas7bdat,PHASE II
+,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'DEATH',Form 'DEATH': Cause of Death,dthadata.sas7bdat,PHASE II
 ,Documentation for CSSCD Phase II Adult Cohort Datasets,Form 'DUA',Form 'DUA': Disposition Update Form - Adult,duadata.sas7bdat,PHASE II
