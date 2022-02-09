@@ -32,10 +32,11 @@ raw <- full_join(sas_info,
          variable_type = TYPE,
          variable_name = LABEL,
          form_name = form) %>%
-  mutate(variable_type = ifelse(variable_type==1, "continuous", ifelse(variable_type==2, "categorical", "unknown")),
+  mutate(variable_type = ifelse(variable_type==1, "continuous", ifelse(variable_type==2, "categorical", "data missing")),
          data_file_name = paste(tolower(data_file_name), ".sas7bdat", sep=''),
          variable_label_from_data_dictionary = variable_name,
-         variable_label_from_data_file = variable_name)
+         variable_label_from_data_file = variable_name) %>%
+   mutate(variable_type = ifelse(is.na(variable_type), "data missing", variable_type))
 ```
 
 Save the variable metadata.
