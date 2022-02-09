@@ -1,0 +1,30 @@
+---
+title: "ORCHID Metadata curation"
+author: "Emily Hughes"
+date: "2/9/2022"
+output: html_document
+---
+
+Libraries
+```{r}
+library(tidyverse)
+library(jsonlite)
+```
+
+```{r}
+file_info <- read.csv("../input/ORCHID_METADATA.csv")
+file_info <- file_info %>% mutate(MEMNAME = ifelse(MEMNAME == "ALLDATA", 
+                                                   "alldata.csv", 
+                                                   paste(tolower(MEMNAME), ".sas7bdat", sep='')),
+                                  TYPE = ifelse(TYPE==1, 
+                                                "continuous", 
+                                                ifelse(TYPE==2, "categorical", "data missing"))) %>%
+  mutate(TYPE = ifelse(is.na(TYPE), "data missing", TYPE)) %>%
+  filter(!MEMNAME %in% c("alldata_dd.sas7bdat", "derived_vars_dd.sas7bdat")) %>% 
+  select(MEMNAME, NAME, TYPE, LABEL) %>%
+  rename(data_file_name = MEMNAME,
+         variable_id = NAME,
+         variable_type = TYPE,
+         variable_label_from_data_file = LABEL)
+```
+
