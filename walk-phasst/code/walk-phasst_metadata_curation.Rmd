@@ -1,0 +1,114 @@
+---
+title: "Walk-PHaSST Metadata curation"
+author: "Emily Hughes"
+date: "2/9/2022"
+output: html_document
+---
+
+Library
+```{r}
+library(tidyverse)
+library(jsonlite)
+```
+
+Read in SAS metadata file.
+```{r}
+file_info <- read.csv("../input/WALKPHASST_METADATA.CSV")
+
+file_info <- file_info %>% mutate(MEMNAME = paste(tolower(MEMNAME), ".sas7bdat", sep=''),
+                                  TYPE = ifelse(TYPE==1, "continuous",
+                                  ifelse(TYPE==2, "categorical", "data missing"))) %>%
+  mutate(TYPE = ifelse(is.na(TYPE), 
+                                "data missing", 
+                                TYPE)) %>%
+  rename(data_file_name = MEMNAME,
+         variable_id = NAME,
+         variable_type = TYPE,
+         variable_name = LABEL) %>%
+  select(data_file_name, variable_id, variable_type, variable_name) %>%
+  mutate(variable_label_from_data_file = variable_name)
+```
+
+Put into JSON format.
+```{r}
+save_var_metadata <- function(df) {
+  final_df <- data.frame(df %>%
+                           select(data_file_name, variable_id, variable_name, variable_type) %>%
+                           unique())
+  rownames(final_df) <- NULL
+  
+  for(ind in c(1:nrow(final_df))) {
+    var_df <- df %>%
+      filter(variable_id == final_df[ind, 'variable_id'] &
+               data_file_name == final_df[ind, 'data_file_name']) %>%
+      select(variable_label_from_data_file)
+    var_df <- data.frame(var_df)
+    final_df[ind, "variable_metadata"][[1]] <- list(var_df)
+  }
+  return(final_df)
+}
+variable <- save_var_metadata(file_info)
+
+save_var_group <- function(df) {
+  final_df <- data.frame(df %>% 
+                           select(data_file_name) %>%
+                           unique())
+  final_df$variable_group_name <- "All variables"
+  final_df$variable_group_description <- "All variables within the form"
+  rownames(final_df) <- NULL
+  
+  for(ind in c(1:nrow(final_df))){
+    vargroup_df <- df %>%
+      filter(data_file_name == final_df[ind, 'data_file_name']) %>%
+      select(variable_id, variable_name, variable_type, variable_metadata)
+    vargroup_df <- data.frame(vargroup_df)
+    final_df[ind, "variable"][[1]] <- list(vargroup_df)
+  }
+  return(final_df)
+}
+vargroup <- save_var_group(variable)
+
+save_form <- function(df) {
+  final_df <- data.frame(df %>% 
+                           mutate(form_name = paste("All variables in ", data_file_name, sep=''),
+                                  form_description = '') %>%
+                           select(form_name, form_description, data_file_name) %>%
+                           unique())
+  rownames(final_df) <- NULL
+  
+  for(ind in c(1:nrow(final_df))){
+    vargroup_df <- df %>%
+      filter(data_file_name == final_df[ind, 'data_file_name']) %>%
+      select(variable_group_name, variable_group_description, variable)
+    vargroup_df <- data.frame(vargroup_df)
+    final_df[ind, "variable_group"][[1]] <- list(vargroup_df)
+  }
+  return(final_df)
+}
+form <- save_form(vargroup)
+
+form_group_name <- "All forms"
+form_group_description <- "All forms within the study"
+form_group <- data.frame(form_group_name, form_group_description)
+form_group[1, "form"][[1]] <- list(form)
+
+study <- "Walk-PHaSST"
+study_name <- "Treatment of Pulmonary Hypertension and Sickle Cell Disease with Sildenafil Therapy (Walk-PHaSST)"
+study_phs_number <- "phs002383"
+study_url <- "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002383.v1.p1"
+save_form_metadata <- function(df) {
+  final_df <- data.frame(study, study_name, study_phs_number, study_url)
+  final_df[1, 'form_group'][[1]] <- list(df)
+  return(final_df)
+}
+study_df <- save_form_metadata(form_group)
+```
+
+Convert final df to JSON.
+```{r}
+my_json <- toJSON(study_df, pretty=FALSE)
+test_string_json <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/walkphasst_metadata.json")
+writeLines(test_string_json, fileConn)
+close(fileConn)
+```
