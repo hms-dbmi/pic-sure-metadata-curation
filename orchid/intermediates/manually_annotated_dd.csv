@@ -1,0 +1,812 @@
+variable_id,variable_label_from_data_file,label,derived_var_label,desc,form,form_id
+ae_desc,,Description of adverse event:,,,Adverse Events,adverse_events
+ae_dt,,Day of adverse event:,,,Adverse Events,adverse_events
+ae_id,,AE identifier,,,Adverse Events,adverse_events
+ae_outcome,,What was the final outcome of the adverse event?,,,Adverse Events,adverse_events
+ae_recdt,,Day of recovery:,,,Adverse Events,adverse_events
+ae_reldrug,,Was the adverse event related to study drug?,,,Adverse Events,adverse_events
+ae_serious,,Was the adverse event serious?,,,Adverse Events,adverse_events
+ae_status,,What was the status of the adverse event at the time of the initial AE report?,,,Adverse Events,adverse_events
+ae_tm,,Time of adverse event:,,,Adverse Events,adverse_events
+ae_unexpected,,Was the adverse event unexpected (not listed in the investigator brochure or protocol)?,,,Adverse Events,adverse_events
+ae_userterm,,COSTART term: [ lookup tool ],,,Adverse Events,adverse_events
+bl_age,,Age (patient must be at least 18 years of age),,,Demographics and Enrollment,demographics_and_enrollment
+bl_ekgdt,,What was the day of the EKG prior to randomization?,,,Demographics and Enrollment,demographics_and_enrollment
+bl_ekgqtc,,What was the QTc on the EKG prior to randomization? (ms),,,Demographics and Enrollment,demographics_and_enrollment
+bl_ekgtm,,What was the time of the EKG prior to randomization?,,,Demographics and Enrollment,demographics_and_enrollment
+bl_ethnic,,Ethnicity,,,Demographics and Enrollment,demographics_and_enrollment
+bl_height,,Height (cm),,,Demographics and Enrollment,demographics_and_enrollment
+bl_hospadmdt,,Day of presentation to the study hospital,,,Demographics and Enrollment,demographics_and_enrollment
+bl_hospadmtm,,Time of presentation to the study hospital,,,Demographics and Enrollment,demographics_and_enrollment
+bl_prehosp,,Source of presentation to study hospital (select one),,,Demographics and Enrollment,demographics_and_enrollment
+bl_race___1,,Race (Check all that apply) (choice=Black or African American),,,Demographics and Enrollment,demographics_and_enrollment
+bl_race___5,,Race (Check all that apply) (choice=White or Caucasian),,,Demographics and Enrollment,demographics_and_enrollment
+bl_race___6,,Race (Check all that apply) (choice=Other),,,Demographics and Enrollment,demographics_and_enrollment
+bl_race___othcat,,Race (Check all that apply) (choice=American Indian or Alaska Native/Asian/Native Hawaiian or Other Pacific Islander),,,Demographics and Enrollment,demographics_and_enrollment
+bl_randloc,,Location at randomization,,,Demographics and Enrollment,demographics_and_enrollment
+bl_sex,,Sex,,,Demographics and Enrollment,demographics_and_enrollment
+bl_symptomdt,,Day of symptom onset,,,Demographics and Enrollment,demographics_and_enrollment
+bl_weight,,Weight (kg),,,Demographics and Enrollment,demographics_and_enrollment
+charl_asthma,,Asthma,,,Demographics and Enrollment,demographics_and_enrollment
+charl_cad,,Coronary artery disease,,,Demographics and Enrollment,demographics_and_enrollment
+charl_cerebvasc,,Cerebrovascular disease,,,Demographics and Enrollment,demographics_and_enrollment
+charl_congheart,,Congestive heart failure,,,Demographics and Enrollment,demographics_and_enrollment
+charl_contis,,Connective tissue disease,,,Demographics and Enrollment,demographics_and_enrollment
+charl_copd,,COPD,,,Demographics and Enrollment,demographics_and_enrollment
+charl_dementia,,Dementia,,,Demographics and Enrollment,demographics_and_enrollment
+charl_diabetes,,Diabetes mellitus (DM),,,Demographics and Enrollment,demographics_and_enrollment
+charl_fatal,,Rapidly fatal disease,,,Demographics and Enrollment,demographics_and_enrollment
+charl_hemiplegia,,Hemiplegia,,,Demographics and Enrollment,demographics_and_enrollment
+charl_hypertension,,History of hypertension,,,Demographics and Enrollment,demographics_and_enrollment
+charl_kidney,,Moderate to severe kidney disease,,,Demographics and Enrollment,demographics_and_enrollment
+charl_leuk,,"Leukemia (AML, CML, ALL, multiple myeloma)",,,Demographics and Enrollment,demographics_and_enrollment
+charl_liver,,Liver disease,,,Demographics and Enrollment,demographics_and_enrollment
+charl_lymph,,Malignant lymphoma,,,Demographics and Enrollment,demographics_and_enrollment
+charl_myoinfarc,,A prior myocardial infarction,,,Demographics and Enrollment,demographics_and_enrollment
+charl_perivasc,,Peripheral vascular disease,,,Demographics and Enrollment,demographics_and_enrollment
+charl_tumor,,Solid tumor,,,Demographics and Enrollment,demographics_and_enrollment
+charl_ulcer,,Peptic ulcer disease,,,Demographics and Enrollment,demographics_and_enrollment
+chart_oxygen,,"Chronic receipt of supplemental oxygen prior to current illness Supplemental oxygen is defined as oxygen administered by nasal cannula, face mask, high-flow nasal cannula, non-invasive ventilation, or invasive ventilation.  Positive airway pressure (CPAP o",,,Demographics and Enrollment,demographics_and_enrollment
+cons_certify,,"Before randomization, the enrolling investigator must certify that that all of the following are true:  Patient met all inclusion criteria Patient met no exclusion criteria Study Informed Consent Document/Form (ICD/ICF) were explained and reviewed with the",,,Eligibility Criteria,eligibility_criteria
+covid_ooscale_1,,COVID Ordinal Outcomes Scale at randomization,,,Demographics and Enrollment,demographics_and_enrollment
+covid_ooscale_15,,COVID Ordinal Outcomes Scale on Day 15Select the lowest value that occurred on this study day,,,Day 15 Phone Call,day_15_phone_call
+covid_ooscale_2,,COVID Ordinal Outcomes Scale on Day 2Select the lowest value that occurred on this study day,,,Day 2 Assessment,day_2_assessment
+covid_ooscale_29,,COVID Ordinal Outcomes Scale on Day 29Select the lowest value that occurred on this study day,,,Day 29 Phone Call,day_29_phone_call
+covid_ooscale_3,,COVID Ordinal Outcomes Scale on Day 3Select the lowest value that occurred on this study day,,,Day 3 Assessment,day_3_assessment
+covid_ooscale_4,,COVID Ordinal Outcomes Scale on Day 4Select the lowest value that occurred on this study day,,,Day 4 Assessment,day_4_assessment
+covid_ooscale_5,,COVID Ordinal Outcomes Scale on Day 5Select the lowest value that occurred on this study day,,,Day 5 Assessment,day_5_assessment
+covid_ooscale_8,,COVID Ordinal Outcomes Scale on Day 8Select the lowest value that occurred on this study day,,,Day 8 Phone Call,day_8_phone_call
+d_bl_age_s,Standardized age at baseline,,Standardized age at baseline,,Form Unknown,form_unknown
+d_bl_icu,Baseline ICU,,Baseline ICU,,Form Unknown,form_unknown
+d_bmi,BMI,,BMI,,Form Unknown,form_unknown
+d_bstatus_No02,Not on oxygen baseline,,Not on oxygen baseline,,Form Unknown,form_unknown
+d_bstatus_sp02,On supplemental oxygen at baseline,,On supplemental oxygen at baseline,,Form Unknown,form_unknown
+d_covid15,COVID Ordinal Outcomes Scale on Day 15 (derived),,COVID Ordinal Outcomes Scale on Day 15 (derived),,Form Unknown,form_unknown
+d_covid2,COVID Ordinal Outcomes Scale on Day 2 (derived),,COVID Ordinal Outcomes Scale on Day 2 (derived),,Form Unknown,form_unknown
+d_covid29,COVID Ordinal Outcomes Scale on Day 29 (derived),,COVID Ordinal Outcomes Scale on Day 29 (derived),,Form Unknown,form_unknown
+d_covid3,COVID Ordinal Outcomes Scale on Day 3 (derived),,COVID Ordinal Outcomes Scale on Day 3 (derived),,Form Unknown,form_unknown
+d_covid4,COVID Ordinal Outcomes Scale on Day 4 (derived),,COVID Ordinal Outcomes Scale on Day 4 (derived),,Form Unknown,form_unknown
+d_covid5,COVID Ordinal Outcomes Scale on Day 5 (derived),,COVID Ordinal Outcomes Scale on Day 5 (derived),,Form Unknown,form_unknown
+d_covid8,COVID Ordinal Outcomes Scale on Day 8 (derived),,COVID Ordinal Outcomes Scale on Day 8 (derived),,Form Unknown,form_unknown
+d_deathday,Death day,,Death day,,Form Unknown,form_unknown
+d_doses,Number of Doses Administered,,Number of Doses Administered,,Form Unknown,form_unknown
+d_ecmo_death,Ecmo or Death,,Ecmo or Death,,Form Unknown,form_unknown
+d_fu_days,Follow-Up Days,,Follow-Up Days,,Form Unknown,form_unknown
+d_hospfreedays,Hospital Free Days,,Hospital Free Days,,Form Unknown,form_unknown
+d_icufreedays,ICU Free Days,,ICU Free Days,,Form Unknown,form_unknown
+d_lastalivedt,Last alive day,,Last alive day,,Form Unknown,form_unknown
+d_male_sex,Sex: Male,,Sex: Male,,Form Unknown,form_unknown
+d_mort15,Day 15 mortality,,Day 15 mortality,,Form Unknown,form_unknown
+d_mort29,Day 29 mortality,,Day 29 mortality,,Form Unknown,form_unknown
+d_onset_duration,Duration of sypmtoms prior to randomization (days),,Duration of sypmtoms prior to randomization (days),,Form Unknown,form_unknown
+d_oxyfreedays,Oxygen free days,,Oxygen free days,,Form Unknown,form_unknown
+d_pfratio,P/F ratio,,P/F ratio,,Form Unknown,form_unknown
+d_race,Race,,Race,,Form Unknown,form_unknown
+d_remd_ever,Remdesivir (ever/never),,Remdesivir (ever/never),,Form Unknown,form_unknown
+d_sfratio,S/F ratio,,S/F ratio,,Form Unknown,form_unknown
+d_sofa_cardio,SOFA Cardiovascular,,SOFA Cardiovascular,,Form Unknown,form_unknown
+d_sofa_coag,SOFA Coagulation,,SOFA Coagulation,,Form Unknown,form_unknown
+d_sofa_gcs,Total SOFA (with GCS),,Total SOFA (with GCS),,Form Unknown,form_unknown
+d_sofa_gcs_s,Standardized Total SOFA with GCS at baseline,,Standardized Total SOFA with GCS at baseline,,Form Unknown,form_unknown
+d_sofa_liver,SOFA Liver,,SOFA Liver,,Form Unknown,form_unknown
+d_sofa_nervous,SOFA Nervous System,,SOFA Nervous System,,Form Unknown,form_unknown
+d_sofa_nogcs,Total SOFA (without GCS),,Total SOFA (without GCS),,Form Unknown,form_unknown
+d_sofa_renal,SOFA Renal,,SOFA Renal,,Form Unknown,form_unknown
+d_sofa_resp,SOFA Respiratory,,SOFA Respiratory,,Form Unknown,form_unknown
+d_time_to_recovery,Time to recovery,,Time to recovery,,Form Unknown,form_unknown
+d_vasofreedays,Vasopressor Free Days,,Vasopressor Free Days,,Form Unknown,form_unknown
+d_ventfreedays,Ventilator Free Days,,Ventilator Free Days,,Form Unknown,form_unknown
+dose_dt_1,,Day dose 1 administered,,,Dose 1,dose_1
+dose_dt_10,,Day dose 10 administered,,,Dose 10,dose_10
+dose_dt_2,,Day dose 2 administered,,,Dose 2,dose_2
+dose_dt_3,,Day dose 3 administered,,,Dose 3,dose_3
+dose_dt_4,,Day dose 4 administered,,,Dose 4,dose_4
+dose_dt_5,,Day dose 5 administered,,,Dose 5,dose_5
+dose_dt_6,,Day dose 6 administered,,,Dose 6,dose_6
+dose_dt_7,,Day dose 7 administered,,,Dose 7,dose_7
+dose_dt_8,,Day dose 8 administered,,,Dose 8,dose_8
+dose_dt_9,,Day dose 9 administered,,,Dose 9,dose_9
+dose_int_1,,Hours since randomization,,,Dose 1,dose_1
+dose_int_10,,Hours since last dose:,,,Dose 10,dose_10
+dose_int_2,,Hours since last dose:,,,Dose 2,dose_2
+dose_int_3,,Hours since last dose:,,,Dose 3,dose_3
+dose_int_4,,Hours since last dose:,,,Dose 4,dose_4
+dose_int_5,,Hours since last dose:,,,Dose 5,dose_5
+dose_int_6,,Hours since last dose:,,,Dose 6,dose_6
+dose_int_7,,Hours since last dose:,,,Dose 7,dose_7
+dose_int_8,,Hours since last dose:,,,Dose 8,dose_8
+dose_int_9,,Hours since last dose:,,,Dose 9,dose_9
+dose_notadm_1,,Reason study drug dose 1 not administered,,,Dose 1,dose_1
+dose_notadm_10,,Reason study drug dose 10 not administered,,,Dose 10,dose_10
+dose_notadm_2,,Reason study drug dose 2 not administered,,,Dose 2,dose_2
+dose_notadm_3,,Reason study drug dose 3 not administered,,,Dose 3,dose_3
+dose_notadm_4,,Reason study drug dose 4 not administered,,,Dose 4,dose_4
+dose_notadm_5,,Reason study drug dose 5 not administered,,,Dose 5,dose_5
+dose_notadm_6,,Reason study drug dose 6 not administered,,,Dose 6,dose_6
+dose_notadm_7,,Reason study drug dose 7 not administered,,,Dose 7,dose_7
+dose_notadm_8,,Reason study drug dose 8 not administered,,,Dose 8,dose_8
+dose_notadm_9,,Reason study drug dose 9 not administered,,,Dose 9,dose_9
+dose_notadmoth_1,,Other reason study drug dose 1 not administered,,,Dose 1,dose_1
+dose_notadmoth_10,,Other reason study drug dose 10 not administered,,,Dose 10,dose_10
+dose_notadmoth_2,,Other reason study drug dose 2 not administered,,,Dose 2,dose_2
+dose_notadmoth_3,,Other reason study drug dose 3 not administered,,,Dose 3,dose_3
+dose_notadmoth_4,,Other reason study drug dose 4 not administered,,,Dose 4,dose_4
+dose_notadmoth_5,,Other reason study drug dose 5 not administered,,,Dose 5,dose_5
+dose_notadmoth_6,,Other reason study drug dose 6 not administered,,,Dose 6,dose_6
+dose_notadmoth_7,,Other reason study drug dose 7 not administered,,,Dose 7,dose_7
+dose_notadmoth_8,,Other reason study drug dose 8 not administered,,,Dose 8,dose_8
+dose_notadmoth_9,,Other reason study drug dose 9 not administered,,,Dose 9,dose_9
+dose_notadmspec_1,,Please give detailed description of why study drug dose 1 was not administered,,,Dose 1,dose_1
+dose_notadmspec_10,,Please give detailed description of why study drug dose 10 was not administered,,,Dose 10,dose_10
+dose_notadmspec_2,,Please give detailed description of why study drug dose 2 was not administered,,,Dose 2,dose_2
+dose_notadmspec_3,,Please give detailed description of why study drug dose 3 was not administered,,,Dose 3,dose_3
+dose_notadmspec_4,,Please give detailed description of why study drug dose 4 was not administered,,,Dose 4,dose_4
+dose_notadmspec_5,,Please give detailed description of why study drug dose 5 was not administered,,,Dose 5,dose_5
+dose_notadmspec_6,,Please give detailed description of why study drug dose 6 was not administered,,,Dose 6,dose_6
+dose_notadmspec_7,,Please give detailed description of why study drug dose 7 was not administered,,,Dose 7,dose_7
+dose_notadmspec_8,,Please give detailed description of why study drug dose 8 was not administered,,,Dose 8,dose_8
+dose_notadmspec_9,,Please give detailed description of why study drug dose 9 was not administered,,,Dose 9,dose_9
+dose_tm_1,,Time dose 1 administered,,,Dose 10,dose_10
+dose_tm_10,,Time dose 10 administered,,,Dose 2,dose_2
+dose_tm_2,,Time dose 2 administered,,,Dose 3,dose_3
+dose_tm_3,,Time dose 3 administered,,,Dose 4,dose_4
+dose_tm_4,,Time dose 4 administered,,,Dose 5,dose_5
+dose_tm_5,,Time dose 5 administered,,,Dose 6,dose_6
+dose_tm_6,,Time dose 6 administered,,,Dose 7,dose_7
+dose_tm_7,,Time dose 7 administered,,,Dose 8,dose_8
+dose_tm_8,,Time dose 8 administered,,,Dose 9,dose_9
+dose_tm_9,,Time dose 9 administered,,,Dose 9,dose_9
+dose_yn_1,,Was dose 1 of study medication given?Dose 1 is scheduled to be given 4 hours after randomization,,,Dose 1,dose_1
+dose_yn_10,,Was dose 10 of study medication given?Dose 10 is scheduled to be given between 8 and 16 hours after prior scheduled dose.,,,Dose 10,dose_19
+dose_yn_2,,Was dose 2 of study medication given?Dose 2 is scheduled to be given between 8 and 16 hours after prior scheduled dose,,,Dose 2,dose_2
+dose_yn_3,,Was dose 3 of study medication given?Dose 3 is scheduled to be given between 8 and 16 hours after prior scheduled dose.,,,Dose 3,dose_3
+dose_yn_4,,Was dose 4 of study medication given?Dose 4 is scheduled to be given between 8 and 16 hours after prior scheduled dose.,,,Dose 4,dose_4
+dose_yn_5,,Was dose 5 of study medication given?Dose 5 is scheduled to be given between 8 and 16 hours after prior scheduled dose.,,,Dose 5,dose_5
+dose_yn_6,,Was dose 6 of study medication given?Dose 6 is scheduled to be given between 8 and 16 hours after prior scheduled dose.,,,Dose 6,dose_6
+dose_yn_7,,Was dose 7 of study medication given?Dose 7 is scheduled to be given between 8 and 16 hours after prior scheduled dose.,,,Dose 7,dose_7
+dose_yn_8,,Was dose 8 of study medication given?Dose 8 is scheduled to be given between 8 and 16 hours after prior scheduled dose.,,,Dose 8,dose_8
+dose_yn_9,,Was dose 9 of study medication given?Dose 9 is scheduled to be given between 8 and 16 hours after prior scheduled dose.,,,Dose 9,dose_9
+ekg_clindt_2,,Day of EKG or rhythm strip from which QTc was assessed,,,Day 2 Assessment,day_2_assessment
+ekg_clindt_3,,Day of EKG or rhythm strip from which QTc was assessed,,,Day 3 Assessment,day_3_assessment
+ekg_clindt_4,,Day of EKG or rhythm strip from which QTc was assessed,,,Day 4 Assessment,day_4_assessment
+ekg_clindt_5,,Day of EKG or rhythm strip from which QTc was assessed,,,Day 5 Assessment,day_5_assessment
+ekg_clindtm_5,,Time of EKG or rhythm strip from which QTc was assessed,,,Day 5 Assessment,day_5_assessment
+ekg_clinobt_3,,Were any of the clinically obtained EKGs obtained between 24 and 48 hours after the first administration of the study drug?,,,Day 3 Assessment,day_3_assessment
+ekg_clinqtc_2,,"Value for QTc, ms",,,Day 2 Assessment,day_2_assessment
+ekg_clinqtc_3,,"Value for QTc, ms",,,Day 3 Assessment,day_3_assessment
+ekg_clinqtc_4,,"Value for QTc, ms",,,Day 4 Assessment,day_4_assessment
+ekg_clinqtc_5,,"Value for QTc, ms",,,Day 5 Assessment,day_5_assessment
+ekg_clintm_2,,Time of EKG or rhythm strip from which QTc was assessed,,,Day 2 Assessment,day_2_assessment
+ekg_clintm_3,,Time of EKG or rhythm strip from which QTc was assessed,,,Day 3 Assessment,day_3_assessment
+ekg_clintm_4,,Time of EKG or rhythm strip from which QTc was assessed,,,Day 4 Assessment,day_4_assessment
+ekg_clinyn_2,,Was a clinical EKG performed on this study day?,,,Day 2 Assessment,day_2_assessment
+ekg_clinyn_3,,Was a clinical EKG performed on this study day?,,,Day 3 Assessment,day_3_assessment
+ekg_clinyn_4,,Was a clinical EKG performed on this study day?,,,Day 4 Assessment,day_4_assessment
+ekg_clinyn_5,,Was a clinical EKG performed on this study day?,,,Day 5 Assessment,day_5_assessment
+ekg_studydt_3,,Day of EKG or rhythm strip from which QTc was assessed,,,Day 3 Assessment,day_3_assessment
+ekg_studyno_3,,Why was an assessment of QTc not performed 24-48 hours after first administration of study drug?,,,Day 3 Assessment,day_3_assessment
+ekg_studynoreas_3,,Describe why assessment of QTc was not performed at 24-48 hours after first dose of study drug,,,Day 3 Assessment,day_3_assessment
+ekg_studyqtc_3,,"Value for QTc, ms",,,Day 3 Assessment,day_3_assessment
+ekg_studytm_3,,Time of EKG or rhythm strip from which QTc was assessed,,,Day 3 Assessment,day_3_assessment
+ekg_studyyn_3,,Was an assessment of QTc with EKG or rhythm strip performed 24-48 hours after first administration of study drug?,,,Day 3 Assessment,day_3_assessment
+extract_dt,Extract day,,Extract day,,Form Unknown,form_unknown
+ie_approved,,Did the treating clinicians provide permission to approach patient/LAR for informed consent discussion,,,Eligibility Criteria,eligibility_criteria
+ie_arisymptoms___cou,,Which symptoms of acute respiratory infection does the patient present? (choice=Cough),,Which symptoms of acute respiratory infection does the patient present? Cough,Eligibility Criteria,eligibility_criteria
+ie_arisymptoms___fev,,Which symptoms of acute respiratory infection does the patient present? (choice=Fever (> 37.5° C / 99.5° F)),,Which symptoms of acute respiratory infection does the patient present? Fever (> 37.5¡ C / 99.5¡ F),Eligibility Criteria,eligibility_criteria
+ie_arisymptoms___sob,,Which symptoms of acute respiratory infection does the patient present? (choice=Shortness of breath),,Which symptoms of acute respiratory infection does the patient present? Shortness of breath,Eligibility Criteria,eligibility_criteria
+ie_arisymptoms___st,,Which symptoms of acute respiratory infection does the patient present? (choice=Sore throat),,Which symptoms of acute respiratory infection does the patient present? Sore throat,Eligibility Criteria,eligibility_criteria
+ie_eallergy,,"Known allergy to hydroxychloroquine, chloroquine, or amodiaquine",,,Eligibility Criteria,eligibility_criteria
+ie_eari,,Symptoms of acute respiratory infection for >10 days before randomization,,,Eligibility Criteria,eligibility_criteria
+ie_ebreast,,Breast feeding,,,Eligibility Criteria,eligibility_criteria
+ie_echlor,,Receipt of >1 dose of hydroxychloroquine or chloroquine in the 10 days prior to randomization,,,Eligibility Criteria,eligibility_criteria
+ie_econtra,,"Receipt in the 12 hours prior to randomization, or planned administration during the 5-day study period, of a contraindicated medication that treating clinicians feel cannot be substituted (any of the following):  Amiodarone Cimetidine Dofetilide Phenobarb",,,Eligibility Criteria,eligibility_criteria
+ie_elate,,More than 48 hours from hospitalization,,,Eligibility Criteria,eligibility_criteria
+ie_eligible,,"Patient is eligible (1=yes, 0=no)",,,Eligibility Criteria,eligibility_criteria
+ie_elongqt,,Diagnosis of Long QT syndrome,,,Eligibility Criteria,eligibility_criteria
+ie_enocontact,,Refusal or Iinability to be contacted on Day 15 for clinical outcome assessment if discharged prior to Day 15,,,Eligibility Criteria,eligibility_criteria
+ie_enpo,,Inability to receive enteral medications,,,Eligibility Criteria,eligibility_criteria
+ie_enrolled,,Was the patient enrolled?,,,Eligibility Criteria,eligibility_criteria
+ie_eporphyria,,Porphyria cutanea tarda,,,Eligibility Criteria,eligibility_criteria
+ie_epreg,,Pregnant,,,Eligibility Criteria,eligibility_criteria
+ie_epris,,Prisoner,,,Eligibility Criteria,eligibility_criteria
+ie_eqtc500,,QTc >500 ms on electrocardiogram within 72 hours prior to randomization,,,Eligibility Criteria,eligibility_criteria
+ie_equipoise,,The treating clinical team does not believe equipoise exists regarding the use of hydroxychloroquine for the treatment of this patient,,,Eligibility Criteria,eligibility_criteria
+ie_eseizure,,Seizure disorder,,,Eligibility Criteria,eligibility_criteria
+ie_iok,,"Did the patient meet all inclusion criteria?  Age 18 years Currently hospitalized or in an emergency department with anticipated hospitalization. Symptoms of acute respiratory infection, defined as one or more of the following:  cough fever (> 37.5° C / 9",,"Did the patient meet all inclusion criteria? Age ³18 years Currently hospitalized or in an emergency department with anticipated hospitalization. Symptoms of acute respiratory infection, defined as one or more of the following: cough fever (> 37.5¡ C / 99.5¡ F) shortness of breath sore throat Laboratory- confirmed SARS-CoV-2 infection within the past 10 days or SARS-CoV-2 infection within the past 10 days or SARS-CoV-2 laboratory test result pending plus a high clinical suspicion for COVID-19 as indicated by fulfilling all of the following: Cough with duration <= 10 days Bilateral pulmonary infiltrates on chest imaging (radiograph, computed tomography or ultrasound) or new hypoxemia defined as SpO2 <= 94% on room air No alternative explanation for symptoms of acute respiratory infection",Eligibility Criteria,eligibility_criteria
+ie_iok_v2,,"Did the patient meet all inclusion criteria?Age 18 yearsCurrently hospitalized or in an emergency department with anticipated hospitalization.Symptoms of acute respiratory infection, defined as one or more of the following: coughfever (> 37.5° C / 99.5° F",,"Did the patient meet all inclusion criteria?Age ³18 yearsCurrently hospitalized or in an emergency department with anticipated hospitalization.Symptoms of acute respiratory infection, dened as one or more of the following: coughfever (> 37.5¡ C / 99.5¡ F)shortness of breathsore throatLaboratory- conrmed SARS-CoV-2 infection within the past 10 days prior to randomization. ",Eligibility Criteria,eligibility_criteria
+ie_labstatus,,Specify the laboratory confirmation status:,,,Eligibility Criteria,eligibility_criteria
+ie_nene,,Not excluded but not enrolled,,,Eligibility Criteria,eligibility_criteria
+ie_nenespec,,Please explain why the patient was not enrolled:,,,Eligibility Criteria,eligibility_criteria
+ie_notenrolledreas,,Reason not enrolled?,,,Eligibility Criteria,eligibility_criteria
+ie_notenrolledreas_other,,If Other please describe:,,,Eligibility Criteria,eligibility_criteria
+ie_prevenroll,,Previous enrollment in this trial,,,Eligibility Criteria,eligibility_criteria
+ie_version,,IE form version,,,Eligibility Criteria,eligibility_criteria
+ih_aeassess_2,,"Adverse Event Assessment Study Day 2On this study day, study personnel assessed for Adverse Events (and if found recorded AE in AE CRF).",,,Day 2 Assessment,day_2_assessment
+ih_aeassess_3,,"Adverse Event Assessment Study Day 3On this study day, study personnel assessed for Adverse Events (and if found recorded AE in AE CRF).",,,Day 3 Assessment,day_3_assessment
+ih_aeassess_4,,"Adverse Event Assessment Study Day 4On this study day, study personnel assessed for Adverse Events (and if found recorded AE in AE CRF).",,,Day 4 Assessment,day_4_assessment
+ih_aeassess_5,,"Adverse Event Assessment Study Day 5On this study day, study personnel assessed for Adverse Events (and if found recorded AE in AE CRF).",,,Day 5 Assessment,day_5_assessment
+ih_aeassessreas_2,,Why were AEs not assessed?,,,Day 2 Assessment,day_2_assessment
+ih_aeassessreas_3,,Why were AEs not assessed?,,,Day 3 Assessment,day_3_assessment
+ih_aeassessreas_4,,Why were AEs not assessed?,,,Day 4 Assessment,day_4_assessment
+ih_aeassessreas_5,,Why were AEs not assessed?,,,Day 5 Assessment,day_5_assessment
+ih_contra_2,,Contraindicated Medications Day 2Review the electronic health record for orders or administration of the following medications that are considered CONTRAINDICATED:amiodaronechloroquinecimetidinedofetilidephenobarbitalphenytoinsotalol,,,Day 2 Assessment,day_2_assessment
+ih_contra_3,,Contraindicated Medications Day 3Review the electronic health record for orders or administration of the following medications that are considered CONTRAINDICATED:amiodaronechloroquinecimetidinedofetilidephenobarbitalphenytoinsotalol,,,Day 3 Assessment,day_3_assessment
+ih_contra_4,,Contraindicated Medications Day 4Review the electronic health record for orders or administration of the following medications that are considered CONTRAINDICATED:amiodaronechloroquinecimetidinedofetilidephenobarbitalphenytoinsotalol,,,Day 4 Assessment,day_4_assessment
+ih_contra_5,,Contraindicated Medications Day 5Review the electronic health record for orders or administration of the following medications that are considered CONTRAINDICATED:amiodaronechloroquinecimetidinedofetilidephenobarbitalphenytoinsotalol,,,Day 5 Assessment,day_5_assessment
+ih_contraoccur_2,,Describe what occurred when it was discovered that patient was receiving study drug and a CONTRAINDICATED medication,,,Day 2 Assessment,day_2_assessment
+ih_contraoccur_3,,Describe what occurred when it was discovered that patient was receiving study drug and a CONTRAINDICATED medication,,,Day 3 Assessment,day_3_assessment
+ih_contraoccur_4,,Describe what occurred when it was discovered that patient was receiving study drug and a CONTRAINDICATED medication,,,Day 4 Assessment,day_4_assessment
+ih_contraoccur_5,,Describe what occurred when it was discovered that patient was receiving study drug and a CONTRAINDICATED medication,,,Day 5 Assessment,day_5_assessment
+ih_interact_2,,"Medication Interaction Day 2On this study day, review the electronic health record for orders or administration of the following medications that are considered to have a potential interaction with study drug:ampicillinantacidscyclosporinedigoxinflecainide",,,Day 2 Assessment,day_2_assessment
+ih_interact_3,,"Medication Interaction Day 2On this study day, review the electronic health record for orders or administration of the following medications that are considered to have a potential interaction with study drug:ampicillinantacidscyclosporinedigoxinflecainide",,,Day 3 Assessment,day_3_assessment
+ih_interact_4,,"Medication Interaction Day 4On this study day, review the electronic health record for orders or administration of the following medications that are considered to have a potential interaction with study drug:ampicillinantacidscyclosporinedigoxinflecainide",,,Day 4 Assessment,day_4_assessment
+ih_interact_5,,"Medication Interaction Day 5On this study day, review the electronic health record for orders or administration of the following medications that are considered to have a potential interaction with study drug:ampicillinantacidscyclosporinedigoxinflecainide",,,Day 5 Assessment,day_5_assessment
+ih_interactoccur_2,,Describe what occurred when it was discovered that patient was receiving study drug and a medication with a potential interaction,,,Day 2 Assessment,day_2_assessment
+ih_interactoccur_3,,Describe what occurred when it was discovered that patient was receiving study drug and a medication with a potential interaction,,,Day 3 Assessment,day_3_assessment
+ih_interactoccur_4,,Describe what occurred when it was discovered that patient was receiving study drug and a medication with a potential interaction,,,Day 4 Assessment,day_4_assessment
+ih_interactoccur_5,,Describe what occurred when it was discovered that patient was receiving study drug and a medication with a potential interaction,,,Day 5 Assessment,day_5_assessment
+ih_safeassess_2,,"Safety Outcome Assessment Study Day 2On this study day, study personnel assessed for the occurrence of safety outcomes that might prompt discontinuation of the study drug (and if found recorded in Safety Outcomes CRF).",,,Day 2 Assessment,day_2_assessment
+ih_safeassess_3,,"Safety Outcome Assessment Study Day 3On this study day, study personnel assessed for the occurrence of safety outcomes that might prompt discontinuation of the study drug (and if found recorded in Safety Outcomes CRF).",,,Day 3 Assessment,day_3_assessment
+ih_safeassess_4,,"Safety Outcome Assessment Study Day 4On this study day, study personnel assessed for the occurrence of safety outcomes that might prompt discontinuation of the study drug (and if found recorded in Safety Outcomes CRF).",,,Day 4 Assessment,day_4_assessment
+ih_safeassess_5,,"Safety Outcome Assessment Study Day 5On this study day, study personnel assessed for the occurrence of safety outcomes that might prompt discontinuation of the study drug (and if found recorded in Safety Outcomes CRF).",,,Day 5 Assessment,day_5_assessment
+ih_safeassessreas_2,,Why were safety outcomes not assessed?,,,Day 2 Assessment,day_2_assessment
+ih_safeassessreas_3,,Why were safety outcomes not assessed?,,,Day 3 Assessment,day_3_assessment
+ih_safeassessreas_4,,Why were safety outcomes not assessed?,,,Day 4 Assessment,day_4_assessment
+ih_safeassessreas_5,,Why were safety outcomes not assessed?,,,Day 5 Assessment,day_5_assessment
+ih_yn_2,,"Was the patient located in the study hospital at any time on study day 2 (i.e., admitted, inpatient)?",,,Day 2 Assessment,day_2_assessment
+ih_yn_3,,"Was the patient located in the study hospital at any time on study day 3 (i.e., admitted, inpatient)?",,,Day 3 Assessment,day_3_assessment
+ih_yn_4,,"Was the patient located in the study hospital at any time on study day 4 (i.e., admitted, inpatient)?",,,Day 4 Assessment,day_4_assessment
+ih_yn_5,,"Was the patient located in the study hospital at any time on study day 5 (i.e., admitted, inpatient)?",,,Day 5 Assessment,day_5_assessment
+iho_aboth,,Did the patient receive any antibiotics (other than azithromycin) between randomization and day 8?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_abothdt,,Day of first dose of first other antibiotic after randomization,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_abothtm,,Time of first dose of first other antibiotic after randomization,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_adenovir,,Other acute viral infection: Adenovirus,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_adenovirsrc,,Adenovirus specimen source,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_avoth,,Did the patient receive any other antiviral between randomization and hospital discharge?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_avothdt,,Day of first dose of other antiviral,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_avothspec,,Name of first other antiviral,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_avothtm,,Time of first dose of other antiviral,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_azithro,,Did the patient receive Azithromycin between randomization and day 8?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_azithrodt,,Day of first dose of Azithromycin,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_azithrotm,,Time of first dose of Azithromycin,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultdt,,Day first positive blood culture collected:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___1,,Organisms identified in first positive blood culture (choice=Acinetobacter baumanii),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___10,,Organisms identified in first positive blood culture (choice=Lactobacillus),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___11,,Organisms identified in first positive blood culture (choice=Micrococcus),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___12,,Organisms identified in first positive blood culture (choice=Proteus mirabilis),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___13,,Organisms identified in first positive blood culture (choice=Pseudomonas aeruginosa),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___14,,Organisms identified in first positive blood culture (choice=Serratia marcenscens),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___15,,Organisms identified in first positive blood culture (choice=Staphylococcus aureus),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___16,,Organisms identified in first positive blood culture (choice=Stenotrophomonas maltophilia),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___17,,Organisms identified in first positive blood culture (choice=Streptococcus pneumoniae),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___18,,Organisms identified in first positive blood culture (choice=Viridans group streptococci),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___19,,Organisms identified in first positive blood culture (choice=Other),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___2,,Organisms identified in first positive blood culture (choice=Bacillus),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___3,,Organisms identified in first positive blood culture (choice=beta-hemolytic streptococci),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___4,,Organisms identified in first positive blood culture (choice=Coagulase-negative staphylococci),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___5,,Organisms identified in first positive blood culture (choice=Corynebacterium),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___6,,Organisms identified in first positive blood culture (choice=Enterobacter cloacae),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___7,,Organisms identified in first positive blood culture (choice=Enterococcus),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___8,,Organisms identified in first positive blood culture (choice=Escheria coli),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorg___9,,Organisms identified in first positive blood culture (choice=Klebsiella pneumoniae),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultorgspec,,Other organisms identified in first positive blood culture,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bculttm,,Time first positive blood culture collected:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_bcultyn,,Were any blood cultures drawn between hospital presentation and study day 7 positive?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_chlor,,Did the patient receive chloroquine between randomization and hospital discharge?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_chlordt,,Day of first chloroquine dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_chlortm,,Time of first chloroquine dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_conpasdt,,Day patient first received convalescent plasma:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_conpastm,,Time patient first received convalescent plasma:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_conplas,,Did the patient receive convalescent plasma between randomization and hospital discharge?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_coosptdisch,,Patient discharged home according to COVID OO Scale:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_coronaviroth,,"Other acute viral infection: Coronavirus OC43, NL63, 229E, and HKU1",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_coronavirothsrc,,"Coronavirus OC43, NL63, 229E, and HKU1 specimen source",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_corticoster,,Did the patient receive corticosteroids between randomization and hospital discharge?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_corticosterdt,,Day of first corticosteroid dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_corticostertm,,Time of first corticosteroid dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtodt_1,,Day collected (1),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtodt_2,,Day collected (2),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtodt_3,,Day collected (3),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtodt_4,,Day collected (4),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtotm_1,,Time collected (1),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtotm_2,,Time collected (2),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtotm_3,,Time collected (3),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtotm_4,,Time collected (4),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtrdt_1,,Day resulted (1),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtrdt_2,,Day resulted (2),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtrdt_3,,Day resulted (3),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtrdt_4,,Day resulted (4),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtres_1,,First SARS-CoV-2 result,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtres_2,,Second SARS-CoV-2 result,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtres_3,,Third SARS-CoV-2 result,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtres_4,,Fourth SARS-CoV-2 result,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtresspec_1,,Other SARS-CoV-2 result (1),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtresspec_2,,Other SARS-CoV-2 result (2),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtresspec_3,,Other SARS-CoV-2 result (3),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtresspec_4,,Other SARS-CoV-2 result (4),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtrtm_1,,Time resulted (1),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtrtm_2,,Time resulted (2),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtrtm_3,,Time resulted (3),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtrtm_4,,Time resulted (4),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtsrc_1,,Source of specimen (1),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtsrc_2,,Source of specimen (2),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtsrc_3,,Source of specimen (3),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtsrc_4,,Source of specimen (4),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtsrcspec_1,,Other specimen source (1),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtsrcspec_2,,Other specimen source (2),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtsrcspec_3,,Other specimen source (3),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtsrcspec_4,,Other specimen source (4),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidttype_1,,Type of first SARS-CoV-2 test,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidttype_2,,Type of second SARS-CoV-2 test,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidttype_3,,Type of third SARS-CoV-2 test,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidttype_4,,Type of fourth SARS-CoV-2 test,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidttypespec_1,,Other test type (1),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidttypespec_2,,Other test type (2),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidttypespec_3,,Other test type (3),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidttypespec_4,,Other test type (4),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtyn_2,,Was an additional SARS-CoV2 test performed?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtyn_3,,Was an additional SARS-CoV2 test performed?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_covidtyn_4,,Was an additional SARS-CoV2 test performed?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_dischdest,,Patient destination at discharge:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_dischdt,,Hospital Discharge Day,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_dischtm,,Hospital Discharge Time,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_dischyn,,Was the patient discharged alive from the hospital on or before study day 29?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_dvt,,"Was the patient diagnosed with a deep venous thrombosis (DVT) between randomization and the first of discharge, death, or study day 29?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_dvtdt,,Day of first study demonstrating DVT:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_dvttm,,Time of first study demonstrating DVT:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_ecmo,,"Did the patient receive extracorporeal membrane oxygenation (ECMO) between randomization and the first of discharge, death, or study day 29?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_ecmodiscon,,"Was the patient still receiving ECMO at the first of discharge, death, or study day 29?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_ecmodiscondt,,Day of final discontinuation of ECMO,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_ecmodiscontm,,Time of final discontinuation of ECMO,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_ecmodt,,Day ECMO first received,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_ecmotm,,Time ECMO first received,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_enterovir,,Other acute viral infection: Enterovirus,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_enterovirsrc,,Enterovirus specimen source,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_flua,,Other acute viral infection: Influenza A,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_fluasrc,,Influenza A specimen source,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_flub,,Other acute viral infection: Influenza B,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_flubsrc,,Influenza B specimen source,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_hfnc,,"Did the patient receive high flow nasal cannula between randomization and the first of discharge, death, or study day 29?High flow nasal cannula refers to devices that deliver oxygen at 30 to 60 liters per minute with a titratable FiO2. Brand names include",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_hfncdiscon,,"Was the patient still receiving high flow nasal cannula at the first of discharge, death, or study day 29?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_hfncdiscondt,,Day of final discontinuation of high flow nasal cannula,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_hfncdiscontm,,Time of final discontinuation of high flow nasal cannula,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_hfncdt,,Day high flow nasal cannula first received,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_hfnctm,,Time high flow nasal cannula first received,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_hydroxychlor,,Did the patient receive open label hydroxychloroquine between randomization and hospital discharge?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_hydroxychlordt,,Day of first hydroxychloroquine dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_hydroxychlortm,,Time of first hydroxychloroquine dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_icu,,"Was the patient ever located in an ICU between randomization and the first of discharge, death, or study day 29?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_icudisch,,"Was patient located in an ICU at the first of discharge, death, or study day 29?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_icudischdt,,Day of final ICU discharge,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_icudischtm,,Time of final ICU discharge,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_icudt,,Day of ICU admission,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_icutm,,Time of ICU admission,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_immglob,,Did the patient receive SARS-CoV-2 hyperimmune globulin between randomization and hospital discharge?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_immglobdt,,Day patient first received SARS-CoV-2 hyperimmune globulin:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_immglobtm,,Time patient first received SARS-CoV-2 hyperimmune globulin:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_immoth,,Did the patient receive any other immunomodulating medication between randomization and hospital discharge?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_immothdt,,Day of first other immunomodulating medications,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_immothspec,,Name of other immunomodulating medications,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_immothtm,,Time of first other immunomodulating medications,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_imv,,"Did the patient receive invasive mechanical ventilation between randomization and the first of discharge, death, or study day 29?Invasive mechanical ventilation refers to ventilation via endotracheal tube or tracheostomy",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_imvdiscon,,"Was the patient still receiving invasive mechanical ventilation at the first of discharge, death or study day 29?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_imvdiscondt,,Day of final discontinuation of invasive mechanical ventilation,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_imvdiscontm,,Time of final discontinuation of invasive mechanical ventilation,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_imvdt,,Day invasive mechanical ventilation received,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_imvtm,,Time invasive mechanical ventilation received,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_interferon,,Did the patient receive Interferon  between randomization and hospital discharge?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_interferondt,,Day of first Interferon ß dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_interferontm,,Time of first Interferon dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_lopinavir,,Did the patient receive lopinavir/ritonavir between randomization and hospital discharge?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_lopinavirdt,,Day of first lopinavir/ritonavir dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_lopinavirtm,,Time of first lopinavir/ritonavir dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_metapneumovir,,Other acute viral infection: Human metapneumovirus,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_metapneumovirsrc,,Human metapneumovirus specimen source,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_monocanti,,Did the patient receive monoclonal antibodies between randomization and hospital discharge?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_monocantidt,,Day patient first received monoclonal antibodies:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_monocantitm,,Time patient first received monoclonal antibodies:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_niv,,"Did the patient receive non-invasive ventilation (bipap) between randomization and the first of discharge, death, or study day 29?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_nivdiscon,,"Was the patient still receiving non-invasive ventilation at the first of discharge, death, or study day 29?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_nivdiscondt,,Day of final discontinuation,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_nivdiscontm,,Time of final discontinuation,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_nivdt,,Day non-invasive ventilation first received,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_nivtm,,Time non-invasive ventilation first received,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_oxy,,"Did the patient receive oxygen between randomization and the first of discharge, death, or study day 29?  Supplemental oxygen is defined as oxygen administered by nasal cannula, face mask, high-flow nasal cannula, non-invasive ventilation, or invasive vent",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_oxydiscon,,"Was the patient still receiving oxygen at the first of discharge, death, or study day 29?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_oxydiscondt,,Day of final discontinuation of oxygen,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_oxydiscontm,,Time of final discontinuation of oxygen,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_oxydt,,Day oxygen first received,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_oxytm,,Time oxygen first received,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_paraflu,,Other acute viral infection: Parainfluenza,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_paraflusrc,,Parainfluenza specimen source,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_pe,,"Was the patient diagnosed with a pulmonary embolism (PE) between randomization and the first of discharge, death, or study day 29?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_pedt,,Day of first study demonstrating PE:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_petm,,Time of first study demonstrating PE:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultdt,,Day first positive culture collected:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___1,,Organisms identified in first positive respiratory culture: (choice=Acinetobacter baumanii),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___10,,Organisms identified in first positive respiratory culture: (choice=Lactobacillus),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___11,,Organisms identified in first positive respiratory culture: (choice=Micrococcus),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___12,,Organisms identified in first positive respiratory culture: (choice=Proteus mirabilis),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___13,,Organisms identified in first positive respiratory culture: (choice=Pseudomonas aeruginosa),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___14,,Organisms identified in first positive respiratory culture: (choice=Serratia marcenscens),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___15,,Organisms identified in first positive respiratory culture: (choice=Staphylococcus aureus),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___16,,Organisms identified in first positive respiratory culture: (choice=Stenotrophomonas maltophilia),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___17,,Organisms identified in first positive respiratory culture: (choice=Streptococcus pneumoniae),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___18,,Organisms identified in first positive respiratory culture: (choice=Viridans group streptococci),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___19,,Organisms identified in first positive respiratory culture: (choice=Other),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___2,,Organisms identified in first positive respiratory culture: (choice=Bacillus),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___3,,Organisms identified in first positive respiratory culture: (choice=beta-hemolytic streptococci),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___4,,Organisms identified in first positive respiratory culture: (choice=Coagulase-negative staphylococci),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___5,,Organisms identified in first positive respiratory culture: (choice=Corynebacterium),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___6,,Organisms identified in first positive respiratory culture: (choice=Enterobacter cloacae),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___7,,Organisms identified in first positive respiratory culture: (choice=Enterococcus),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___8,,Organisms identified in first positive respiratory culture: (choice=Escheria coli),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultorg___9,,Organisms identified in first positive respiratory culture: (choice=Klebsiella pneumoniae),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultsrc,,Source of Culture,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rculttm,,Time first positive culture collected:,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rcultyn,,"Were any bacterial respiratory cultures (sputum, tracheal aspirate, or bronchoalveolar lavage) obtained between hospital presentation and study day 7 positive?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_remdesivir,,Did the patient receive remdesivir between randomization and hospital discharge?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_remdesivirdt,,Day of first remdesivir dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_remdesivirtm,,Time of first remdesivir dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rhinovir,,Other acute viral infection: Rhinovirus,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rhinovirsrc,,Rhinovirus specimen source,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rsv,,Other acute viral infection: Respiratory Syncytial Virus,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_rsvsrc,,Respiratory Syncytial Virus specimen source,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_sarilumab,,Did the patient receive sarilumab between randomization and hospital discharge?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_sarilumabdt,,Day of first sarilumab dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_sarilumabtm,,Time of first sarilumab dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_tocilizumab,,Did the patient receive tocilizumab between randomization and hospital discharge?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_tocilizumabdt,,Day of first tocilizumab dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_tocilizumabtm,,Time of first tocilizumab dose,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasop,,"Did the patient receive intravenous vasopressors or inotropes between randomization and the first of discharge, death, or study day 29?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasopdiscon,,"Was the patient still receiving vasopressors at the first of discharge, death, or study day 29?",,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasopdiscondt,,Day of final discontinuation of vasopressors/inotropes,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasopdiscontm,,Time of final discontinuation of vasopressors/inotropes,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasopdt,,Day of first receipt of vasopressors,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasoptm,,Time of first receipt of vasopressors,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasoptype___1,,Check all vasopressors and inotropes the patient received (choice=Norepinephrine),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasoptype___2,,Check all vasopressors and inotropes the patient received (choice=Epinephrine),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasoptype___3,,Check all vasopressors and inotropes the patient received (choice=Vasopressin),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasoptype___4,,Check all vasopressors and inotropes the patient received (choice=Phenylephrine),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasoptype___5,,Check all vasopressors and inotropes the patient received (choice=Angiotensin II),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasoptype___6,,Check all vasopressors and inotropes the patient received (choice=Dobutamine),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasoptype___7,,Check all vasopressors and inotropes the patient received (choice=Dopamine),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_vasoptype___8,,Check all vasopressors and inotropes the patient received (choice=Milrinone),,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+iho_virinfyn,,Was another acute viral infection identified by clinical testing OTHER THAN SARS-CoV-2?,,,Inhospital Medications Microbiology Outcomes,inhospital_medications_microbiology_outcomes
+img_ardsdt,,Day patient first documented as having bilateral opacities/infiltrates:,,,In-hospital Imaging,inhospital_imaging
+img_blards,,"Using all available imaging, was the patient noted to have bilateral opacities/infiltrates that were not fully explained by effusions, lobar/lung collapse, nodules, cardiac failure or fluid overload prior to randomization?",,,In-hospital Imaging,inhospital_imaging
+img_blardsclin,,"Did patient meet clinical criteria for ARDS at the time of randomization?(< 1 week of symptoms, not explained by cardiac failure, and P/F ratio < 300 or equivalent S/F ratio)",,,In-hospital Imaging,inhospital_imaging
+img_ih,,Was any chest imaging available between randomization and day 8?,,,In-hospital Imaging,inhospital_imaging
+img_ihards,,"Using all available imaging, was the patient noted to have bilateral opacities/infiltrates that were not fully explained by effusions, lobar/lung collapse, nodules, cardiac failure or fluid overload between randomization and day 8?",,,In-hospital Imaging,inhospital_imaging
+img_ihardsclin,,"Did patient meet clinical criteria for ARDS between randomization and day 8?(< 1 week of symptoms, not explained by cardiac failure, and P/F ratio < 300 or equivalent S/F ratio)",,,In-hospital Imaging,inhospital_imaging
+img_ihtype___1,,Type of chest imaging reviewed (choice=Chest radiogaph (X-ray)),,,In-hospital Imaging,inhospital_imaging
+img_ihtype___2,,Type of chest imaging reviewed (choice=Computed Tomography (CT Chest)),,,In-hospital Imaging,inhospital_imaging
+img_ihtype___3,,Type of chest imaging reviewed (choice=Other),,,In-hospital Imaging,inhospital_imaging
+img_ihtypespec,,Describe other type(s) of chest imaging that was obtained,,,In-hospital Imaging,inhospital_imaging
+img_prerand,,Was any chest imaging available in the 48 hours prior to randomization?,,,In-hospital Imaging,inhospital_imaging
+img_prerandtype___1,,Type of chest imaging reviewed (choice=Chest radiogaph (X-ray)),,,In-hospital Imaging,inhospital_imaging
+img_prerandtype___2,,Type of chest imaging reviewed (choice=Computed Tomography (CT Chest)),,,In-hospital Imaging,inhospital_imaging
+img_prerandtype___3,,Type of chest imaging reviewed (choice=Other),,,In-hospital Imaging,inhospital_imaging
+img_prerandtypespec,,Describe other type(s) of chest imaging that was obtained,,,In-hospital Imaging,inhospital_imaging
+intervalname,,,,,Form Unknown,form_unknown
+labs_albuminl_1,,Lowest albumin (g/dL) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_albuminl_2,,Lowest albumin (g/dL) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_albuminl_3,,Lowest albumin (g/dL) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_albuminl_4,,Lowest albumin (g/dL) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_albuminl_5,,Lowest albumin (g/dL) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_alph_1,,Highest ALP - Alkaline Phosphatase (IU/L) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_alph_2,,Highest ALP - Alkaline Phosphatase (IU/L) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_alph_3,,Highest ALP - Alkaline Phosphatase (IU/L) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_alph_4,,Highest ALP - Alkaline Phosphatase (IU/L) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_alph_5,,Highest ALP - Alkaline Phosphatase (IU/L) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_alth_1,,Highest ALT - Alanine aminotransferase (units per liter) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_alth_2,,Highest ALT - Alanine aminotransferase (units per liter) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_alth_3,,Highest ALT - Alanine aminotransferase (units per liter) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_alth_4,,Highest ALT - Alanine aminotransferase (units per liter) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_alth_5,,Highest ALT - Alanine aminotransferase (units per liter) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_asth_1,,Highest AST - Aspartate aminotransferase (units per liter) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_asth_2,,Highest AST - Aspartate aminotransferase (units per liter) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_asth_3,,Highest AST - Aspartate aminotransferase (units per liter) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_asth_4,,Highest AST - Aspartate aminotransferase (units per liter) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_asth_5,,Highest AST - Aspartate aminotransferase (units per liter) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_bicarbonateh_1,,Highest bicarbonate (mEq/L) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_bicarbonateh_2,,Highest bicarbonate (mEq/L) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_bicarbonateh_3,,Highest bicarbonate (mEq/L) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_bicarbonateh_4,,Highest bicarbonate (mEq/L) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_bicarbonateh_5,,Highest bicarbonate (mEq/L) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_bicarbonatel_1,,Lowest bicarbonate (mEq/L) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_bicarbonatel_2,,Lowest bicarbonate (mEq/L) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_bicarbonatel_3,,Lowest bicarbonate (mEq/L) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_bicarbonatel_4,,Lowest bicarbonate (mEq/L) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_bicarbonatel_5,,Lowest bicarbonate (mEq/L) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_bunh_1,,Highest BUN - Blood Urea Nitrogen (mg/dL) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_bunh_2,,Highest BUN - Blood Urea Nitrogen (mg/dL) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_bunh_3,,Highest BUN - Blood Urea Nitrogen (mg/dL) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_bunh_4,,Highest BUN - Blood Urea Nitrogen (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_bunh_5,,Highest BUN - Blood Urea Nitrogen (mg/dL) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_chlorideh_1,,Highest chloride (mEq/L) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_chlorideh_2,,Highest chloride (mEq/L) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_chlorideh_3,,Highest chloride (mEq/L) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_chlorideh_4,,Highest chloride (mEq/L) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_chlorideh_5,,Highest chloride (mEq/L) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_creath_2,,Highest creatinine (mg/dL) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_creath_4,,Highest creatinine (mg/dL) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_creath_5,,Highest creatinine (mg/dL) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_hemol_1,,Lowest hemoglobin (g/dl) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_hemol_2,,Lowest hemoglobin (g/dl) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_hemol_3,,Lowest hemoglobin (g/dl) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_hemol_4,,Lowest hemoglobin (g/dl) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_hemol_5,,Lowest hemoglobin (g/dl) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_inrh_2,,Highest INR - International Normalized Ratio (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_inrh_4,,Highest INR - International Normalized Ratio (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_inrh_5,,Highest INR - International Normalized Ratio (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_noreas_1,,"If no, why not? (Day 1)",,,Demographics and Enrollment,demographics_and_enrollment
+labs_noreas_2,,"If no, why? (Day 2)",,,Day 2 Assessment,day_2_assessment
+labs_noreas_3,,"If no, why? (Day 3)",,,Day 3 Assessment,day_3_assessment
+labs_noreas_4,,"If no, why? (Day 4)",,,Day 4 Assessment,day_4_assessment
+labs_noreas_5,,"If no, why? (Day 5)",,,Day 5 Assessment,day_5_assessment
+labs_plateletl_2,,Lowest platelet count (/mm3; in thousands) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_plateletl_4,,Lowest platelet count (/mm3; in thousands) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_plateletl_5,,Lowest platelet count (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_potassiumh_1,,Highest potassium (mEq/L) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_potassiumh_2,,Highest potassium (mEq/L) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_potassiumh_3,,Highest potassium (mEq/L) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_potassiumh_4,,Highest potassium (mEq/L) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_potassiumh_5,,Highest potassium (mEq/L) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_potassiuml_1,,Lowest potassium (mEq/L) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_potassiuml_2,,Lowest potassium (mEq/L) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_potassiuml_3,,Lowest potassium (mEq/L) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_potassiuml_4,,Lowest potassium (mEq/L) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_potassiuml_5,,Lowest potassium (mEq/L) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_ptth_1,,Highest PTT - Partial Thromboplastin Time (seconds) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_ptth_2,,Highest PTT - Partial Thromboplastin Time (seconds) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_ptth_3,,Highest PTT - Partial Thromboplastin Time (seconds) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_ptth_4,,Highest PTT - Partial Thromboplastin Time (seconds) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_ptth_5,,Highest PTT - Partial Thromboplastin Time (seconds) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_sodiumh_1,,Highest sodium (mEq/L) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_sodiumh_2,,Highest sodium (mEq/L) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_sodiumh_3,,Highest sodium (mEq/L) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_sodiumh_4,,Highest sodium (mEq/L) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_sodiumh_5,,Highest sodium (mEq/L) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_sodiuml_1,,Lowest sodium (mEq/L) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_sodiuml_2,,Lowest sodium (mEq/L) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_sodiuml_3,,Lowest sodium (mEq/L) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_sodiuml_4,,Lowest sodium (mEq/L) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_sodiuml_5,,Lowest sodium (mEq/L)  (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_totbilih_2,,Highest total bilirubin (mg/dL) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_totbilih_4,,Highest total bilirubin (mg/dL) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_totbilih_5,,Highest total bilirubin (mg/dL) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_troph_1,,Highest troponin (mg/dL) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_troph_2,,Highest troponin (mg/dL) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_troph_3,,Highest troponin (mg/dL) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_troph_4,,Highest troponin (mg/dL) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_troph_5,,Highest troponin (mg/dL) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_wbch_1,,Highest white blood cell count (/mm3) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_wbch_2,,Highest white blood cell count (/mm3) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_wbch_3,,Highest white blood cell count (/mm3) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_wbch_4,,Highest white blood cell count (/mm3) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_wbch_5,,Highest white blood cell count (/mm3) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_wbcl_1,,Lowest white blood cell count (/mm3) (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_wbcl_2,,Lowest white blood cell count (/mm3) (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_wbcl_3,,Lowest white blood cell count (/mm3) (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_wbcl_4,,Lowest white blood cell count (/mm3) (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_wbcl_5,,Lowest white blood cell count (/mm3) (Day 5),,,Day 5 Assessment,day_5_assessment
+labs_yn_1,,Were the daily labs available for this study day? (Day 1),,,Demographics and Enrollment,demographics_and_enrollment
+labs_yn_2,,Were the daily labs available for this study day? (Day 2),,,Day 2 Assessment,day_2_assessment
+labs_yn_3,,Were the daily labs available for this study day? (Day 3),,,Day 3 Assessment,day_3_assessment
+labs_yn_4,,Were the daily labs available for this study day? (Day 4),,,Day 4 Assessment,day_4_assessment
+labs_yn_5,,Were the daily labs available for this study day? (Day 5),,,Day 5 Assessment,day_5_assessment
+new_id,,,,,Form Unknown,form_unknown
+out_aeassess_15,,"Adverse Event Assessment Study Day 15On this study day, study personnel assessed for Adverse Events (and if found recorded AE in AE CRF).",,,Day 15 Phone Call,day_15_phone_call
+out_aeassess_29,,"Adverse Event Assessment Study Day 29On this study day, study personnel assessed for Adverse Events (and if found recorded AE in AE CRF).",,,Day 29 Phone Call,day_29_phone_call
+out_aeassess_8,,"Adverse Event Assessment Study Day 8On this study day, study personnel assessed for Adverse Events (and if found recorded AE in AE CRF).",,,Day 8 Phone Call,day_8_phone_call
+out_aeassessreas_15,,Why were AEs not assessed?,,,Day 15 Phone Call,day_15_phone_call
+out_aeassessreas_29,,Why were AEs not assessed?,,,Day 29 Phone Call,day_29_phone_call
+out_aeassessreas_8,,Why were AEs not assessed?,,,Day 8 Phone Call,day_8_phone_call
+out_dt_15,,Day that 15 day assessment was performed,,,Day 15 Phone Call,day_15_phone_call
+out_dt_29,,Day that 29 day assessment was performed,,,Day 29 Phone Call,day_29_phone_call
+out_dt_8,,Day that 8 day assessment was performed,,,Day 8 Phone Call,day_8_phone_call
+out_oosnospec_15,,Please describe other reason why,,,Day 15 Phone Call,day_15_phone_call
+out_oosnospec_29,,Please describe other reason why,,,Day 29 Phone Call,day_29_phone_call
+out_oosnospec_8,,Please describe other reason why,,,Day 8 Phone Call,day_8_phone_call
+out_oosyn_15,,Was information on the COVID Ordinal Outcome Scale available at 15 days?,,,Day 15 Phone Call,day_15_phone_call
+out_oosyn_29,,Was information on the COVID Ordinal Outcome Scale available at 29 days?,,,Day 29 Phone Call,day_29_phone_call
+out_oosyn_8,,Was information on the COVID Ordinal Outcome Scale available at 8 days?,,,Day 8 Phone Call,day_8_phone_call
+out_safeassess_15,,"Safety Outcome Assessment Study Day 15On this study day, study personnel assessed for the occurrence of safety outcomes (and if found recorded in Safety Outcomes CRF).",,,Day 15 Phone Call,day_15_phone_call
+out_safeassess_29,,"Safety Outcome Assessment Study Day 29On this study day, study personnel assessed for the occurrence of safety outcomes (and if found recorded in Safety Outcomes CRF).",,,Day 29 Phone Call,day_29_phone_call
+out_safeassess_8,,"Safety Outcome Assessment Study Day 8On this study day, study personnel assessed for the occurrence of safety outcomes (and if found recorded in Safety Outcomes CRF).",,,Day 8 Phone Call,day_8_phone_call
+out_safeassessreas_15,,Why were safety outcomes not assessed?,,,Day 15 Phone Call,day_15_phone_call
+out_safeassessreas_29,,Why were safety outcomes not assessed?,,,Day 29 Phone Call,day_29_phone_call
+out_safeassessreas_8,,Why were safety outcomes not assessed?,,,Day 8 Phone Call,day_8_phone_call
+out_src_15,,Primary source of of day 15 information,,,Day 15 Phone Call,day_15_phone_call
+out_src_29,,Primary source of of day 29 information,,,Day 29 Phone Call,day_29_phone_call
+out_src_8,,Primary source of of day 8 information,,,Day 8 Phone Call,day_8_phone_call
+out_srcspec_15,,Other source of day 15 information,,,Day 15 Phone Call,day_15_phone_call
+out_srcspec_29,,Other source of day 29 information,,,Day 29 Phone Call,day_29_phone_call
+out_srcspec_8,,Other source of day 8 information,,,Day 8 Phone Call,day_8_phone_call
+out_symp_15___cough,,Which symptoms did the patient report? (choice=Cough),,,Day 15 Phone Call,day_15_phone_call
+out_symp_15___ct,,Which symptoms did the patient report? (choice=Chest tightness),,,Day 15 Phone Call,day_15_phone_call
+out_symp_15___fever,,Which symptoms did the patient report? (choice=Fever (temperature > 99.5°F with a thermometer)),,,Day 15 Phone Call,day_15_phone_call
+out_symp_15___feverish,,Which symptoms did the patient report? (choice=Feeling feverish),,,Day 15 Phone Call,day_15_phone_call
+out_symp_15___oth,,Which symptoms did the patient report? (choice=Other),,,Day 15 Phone Call,day_15_phone_call
+out_symp_15___sob,,Which symptoms did the patient report? (choice=Shortness of breath),,,Day 15 Phone Call,day_15_phone_call
+out_symp_15___st,,Which symptoms did the patient report? (choice=Sore throat),,,Day 15 Phone Call,day_15_phone_call
+out_symp_15___weak,,Which symptoms did the patient report? (choice=Weakness or fatigue),,,Day 15 Phone Call,day_15_phone_call
+out_symp_29___cough,,Which symptoms did the patient report? (choice=Cough),,,Day 29 Phone Call,day_29_phone_call
+out_symp_29___ct,,Which symptoms did the patient report? (choice=Chest tightness),,,Day 29 Phone Call,day_29_phone_call
+out_symp_29___fever,,Which symptoms did the patient report? (choice=Fever (temperature > 99.5°F with a thermometer)),,,Day 29 Phone Call,day_29_phone_call
+out_symp_29___feverish,,Which symptoms did the patient report? (choice=Feeling feverish),,,Day 29 Phone Call,day_29_phone_call
+out_symp_29___oth,,Which symptoms did the patient report? (choice=Other),,,Day 29 Phone Call,day_29_phone_call
+out_symp_29___sob,,Which symptoms did the patient report? (choice=Shortness of breath),,,Day 29 Phone Call,day_29_phone_call
+out_symp_29___st,,Which symptoms did the patient report? (choice=Sore throat),,,Day 29 Phone Call,day_29_phone_call
+out_symp_29___weak,,Which symptoms did the patient report? (choice=Weakness or fatigue),,,Day 29 Phone Call,day_29_phone_call
+out_symp_8___cough,,Which symptoms did the patient report? (choice=Cough),,,Day 8 Phone Call,day_8_phone_call
+out_symp_8___ct,,Which symptoms did the patient report? (choice=Chest tightness),,,Day 8 Phone Call,day_8_phone_call
+out_symp_8___fever,,Which symptoms did the patient report? (choice=Fever (temperature > 99.5°F with a thermometer)),,,Day 8 Phone Call,day_8_phone_call
+out_symp_8___feverish,,Which symptoms did the patient report? (choice=Feeling feverish),,,Day 8 Phone Call,day_8_phone_call
+out_symp_8___oth,,Which symptoms did the patient report? (choice=Other),,,Day 8 Phone Call,day_8_phone_call
+out_symp_8___sob,,Which symptoms did the patient report? (choice=Shortness of breath),,,Day 8 Phone Call,day_8_phone_call
+out_symp_8___st,,Which symptoms did the patient report? (choice=Sore throat),,,Day 8 Phone Call,day_8_phone_call
+out_symp_8___weak,,Which symptoms did the patient report? (choice=Weakness or fatigue),,,Day 8 Phone Call,day_8_phone_call
+out_sympoth_15,,Please specify:,,,Day 15 Phone Call,day_15_phone_call
+out_sympoth_29,,Please specify:,,,Day 29 Phone Call,day_29_phone_call
+out_sympoth_8,,Please specify:,,,Day 8 Phone Call,day_8_phone_call
+out_sympyn_15,,Did the patient report any symptoms on day 15?,,,Day 15 Phone Call,day_15_phone_call
+out_sympyn_29,,Did the patient report any symptoms on day 29?,,,Day 29 Phone Call,day_29_phone_call
+out_sympyn_8,,Did the patient report any symptoms on day 8?,,,Day 8 Phone Call,day_8_phone_call
+out_tm_15,,Time that 15 day assessment was performed,,,Day 15 Phone Call,day_15_phone_call
+out_tm_29,,Time that 29 day assessment was performed,,,Day 29 Phone Call,day_29_phone_call
+out_tm_8,,Time that 8 day assessment was performed,,,Day 8 Phone Call,day_8_phone_call
+pd_ae,,Was an adverse event reported as a result of this deviation?,,,Protocol Deviations,protocol_deviations
+pd_desc,,Describe the deviation:,,,Protocol Deviations,protocol_deviations
+pd_devdt,,Day deviation occurred:,,,Protocol Deviations,protocol_deviations
+pd_devrepdt,,Day deviation discovered:,,,Protocol Deviations,protocol_deviations
+pd_devtype,,Type of deviation:,,,Protocol Deviations,protocol_deviations
+pd_drugstop,,Was study drug temporarily or permanently discontinued as a result of this deviation?,,,Protocol Deviations,protocol_deviations
+pd_drugtype,,Type of drug error:,,,Protocol Deviations,protocol_deviations
+pd_other,,Please specify:,,,Protocol Deviations,protocol_deviations
+pd_resolution,,Describe steps taken to resolve the deviation and prevent future occurrences:,,,Protocol Deviations,protocol_deviations
+pdo_ed,,Did the patient visit an emergency department between discharge from the initial hospitalization and 29 days after randomization?,,,Post-discharge outcomes,postdischarge_outcomes
+pdo_eddt,,Day of first emergency department visit:,,,Post-discharge outcomes,postdischarge_outcomes
+pdo_oxy,,"Did the patient receive supplemental oxygen between discharge from the initial hospitalization and 29 days after randomization?  Supplemental oxygen is defined as oxygen administered by nasal cannula, face mask, high-flow nasal cannula, non-invasive ventil",,,Post-discharge outcomes,postdischarge_outcomes
+pdo_oxydt,,<b><u><I>FINAL</I></u></b> Day receving oxygen between discharge and day 29:,,,Post-discharge outcomes,postdischarge_outcomes
+pdo_oxystartdt,,What was the first day on which the patient received oxygen following discharge from the index hospitalization?,,,Post-discharge outcomes,postdischarge_outcomes
+pdo_oxystill,,Is the patient still on oxygen at day 29?,,,Post-discharge outcomes,postdischarge_outcomes
+pdo_readm,,Did the patient experience hospital readmission between discharge from the initial hospitalization and 29 days after randomization?,,,Post-discharge outcomes,postdischarge_outcomes
+pdo_readmdt,,Day of first readmission:,,,Post-discharge outcomes,postdischarge_outcomes
+petal_id,Enter the PETAL ID Number,,,,Eligibility Criteria,eligibility_criteria
+prmed_azithro,,Azithromycin (up to randomization),,,Demographics and Enrollment,demographics_and_enrollment
+prmed_chlor,,Chloroquine (up to randomization),,,Demographics and Enrollment,demographics_and_enrollment
+prmed_corticoster,,Corticosteroids (up to randomization),,,Demographics and Enrollment,demographics_and_enrollment
+prmed_hydroxychlor,,Hydroxychloroquine (up to randomization),,,Demographics and Enrollment,demographics_and_enrollment
+prmed_interferon,,Interferon  (up to randomization),,,Demographics and Enrollment,demographics_and_enrollment
+prmed_lopinavir,,Lopinavir/ritonavir (up to randomization),,,Demographics and Enrollment,demographics_and_enrollment
+prmed_other,,Other medication(s) between hospital admission and randomization felt to be relevant to trial?,,,Demographics and Enrollment,demographics_and_enrollment
+prmed_otherspec,,"If other medication(s), which medication(s)?",,,Demographics and Enrollment,demographics_and_enrollment
+prmed_remdesivir,,Remdesivir (up to randomization),,,Demographics and Enrollment,demographics_and_enrollment
+prmed_sarilumab,,Sarilumab (up to randomization),,,Demographics and Enrollment,demographics_and_enrollment
+prmed_tocilizumab,,Tocilizumab (up to randomization),,,Demographics and Enrollment,demographics_and_enrollment
+prtrt_conplas,,Convalescent plasma (up to randomization)?,,,Demographics and Enrollment,demographics_and_enrollment
+prtrt_immglob,,SARS-CoV-2 hyperimmune globulin (up to randomization)?,,,Demographics and Enrollment,demographics_and_enrollment
+prtrt_monocanti,,Monoclonal antibodies (up to randomization)?,,,Demographics and Enrollment,demographics_and_enrollment
+r,,,,,Form Unknown,form_unknown
+rand_dt,Randomization day,Randomization day,Randomization day,,Randomization,randomization
+rand_dt,,Randomization day,Randomization day,,Randomization,randomization
+rand_dt,Randomization date and time,Randomization day,Randomization day,,Randomization,randomization
+rand_id,What was the patient's randomization number?,,,,Randomization,randomization
+rand_order,,,,,Form Unknown,form_unknown
+rand_tm,Randomization time,Randomization time,Randomization time,,Form Unknown,form_unknown
+rand_tm,,Randomization time,Randomization time,,Form Unknown,form_unknown
+rand_trt,Treatment arm,,Treatment arm,,Form Unknown,form_unknown
+rand_trt,,,Treatment arm,,Form Unknown,form_unknown
+record_id,Record ID,,,,Eligibility Criteria,eligibility_criteria
+redcap_data_access_group,Data Access Group,,,,Form Unknown,form_unknown
+redcap_repeat_instance,,Repeat Instance,,,Form Unknown,form_unknown
+redcap_repeat_instrument,,Repeat Instrument,,,Form Unknown,form_unknown
+rxhx_ace,,Does the patient take ACE inhibitors as a home medication?,,,Demographics and Enrollment,demographics_and_enrollment
+rxhx_arb,,Does the patient take angiotensin receptor blockers as a home medication?,,,Demographics and Enrollment,demographics_and_enrollment
+rxhx_cortico,,Does the patient take corticosteroids as a home medication?,,,Demographics and Enrollment,demographics_and_enrollment
+rxhx_nsaids,,Does the patient regularly take non-steroidal anti-inflammatory drugs as a home medication?,,,Demographics and Enrollment,demographics_and_enrollment
+safe_aki,,Did the patient have stage II or greater acute kidney injury by KDIGO Criteria between randomization and day 29?Defined as any of the following:Creatinine 2.0-2.9 times baselineIncrease in serum creatinine above 4.0 mg/dlUrine output less than 0.5 ml/kg/h,,,Safety Outcomes,safety_outcomes
+safe_akidt,,Day of first meeting criteria for stage II AKI,,,Safety Outcomes,safety_outcomes
+safe_anemia,,Did the patient experience hemoglobin < 12.0 g/dL between randomization and day 29?,,,Safety Outcomes,safety_outcomes
+safe_anemiadt,,What was the first day on which the patient experienced anemia?,,,Safety Outcomes,safety_outcomes
+safe_astalt,,Did the patient have an aspartate aminotransferase or alanine aminotransferase elevated to at least twice the local upper limit of normal between randomization and day 29?,,,Safety Outcomes,safety_outcomes
+safe_astaltdt,,Day of first elevation of AST or ALT at least twice the local upper limit of normal,,,Safety Outcomes,safety_outcomes
+safe_atach,,Did the patient experience atrial tachyarrhythmia between randomization and day 29?,,,Safety Outcomes,safety_outcomes
+safe_atachdt,,Day of first atrial tachyarrhythmia,,,Safety Outcomes,safety_outcomes
+safe_ca,,Did the patient experience cardiac arrest between randomization and day 29?,,,Safety Outcomes,safety_outcomes
+safe_cadt,,Day of first cardiac arrest,,,Safety Outcomes,safety_outcomes
+safe_caspec,,"Provide a summary of the clinical situation leading to cardiac arrest and the outcome of the cardiac arrest.  Use only deidentified information (i.e. do not provide medical record number or date of birth, and provide study days instead of exact dates).",,,Safety Outcomes,safety_outcomes
+safe_derm,,Did the patient experience a severe dermatologic reaction between randomization and day 29?,,,Safety Outcomes,safety_outcomes
+safe_dermdt,,Day dermatologic reaction was first noted?,,,Safety Outcomes,safety_outcomes
+safe_hypogly,,Did the patient experience symptomatic hypoglycemia between randomization and day 29?,,,Safety Outcomes,safety_outcomes
+safe_hypoglydt,,Day of first hypoglycemic episode,,,Safety Outcomes,safety_outcomes
+safe_lympho,,Did the patient experience absolute lymphocyte count < 1000 (cells/mm3) between randomization and day 29?,,,Safety Outcomes,safety_outcomes
+safe_lymphodt,,What was the first day on which the patient experienced lymphocytopenia?,,,Safety Outcomes,safety_outcomes
+safe_neutrop,,Did the patient experience absolute neutrophil count < 1000 (cells/mm3) between randomization and day 29?,,,Safety Outcomes,safety_outcomes
+safe_neutropdt,,What was the first day on which the patient experienced neutropenia?,,,Safety Outcomes,safety_outcomes
+safe_pancr,,Did the patient have acute pancreatitis (defined by a clinically obtained lipase level above the local upper limit of normal) between randomization and day 29?,,,Safety Outcomes,safety_outcomes
+safe_pancrdt,,Day of first meeting criteria for acute pancreatitis,,,Safety Outcomes,safety_outcomes
+safe_rrtnew,,Did the patient receive new renal replacement therapy between randomization and day 29?,,,Safety Outcomes,safety_outcomes
+safe_rrtnewdt,,Day of first receiving RRT,,,Safety Outcomes,safety_outcomes
+safe_seizure,,Did the patient experience seizures between randomization and day 29?,,,Safety Outcomes,safety_outcomes
+safe_seizuredt,,Day of first seizure,,,Safety Outcomes,safety_outcomes
+safe_thombo,,Did the patient experience a platelet count < 50 (cell/mm3; in thousands) between randomization and day 29?,,,Safety Outcomes,safety_outcomes
+safe_thombodt,,What was the first day on which the patient experienced thombocytopenia?,,,Safety Outcomes,safety_outcomes
+safe_vtach,,Did the patient experience ventricular tachyarrhythmia between randomization and day 29?,,,Safety Outcomes,safety_outcomes
+safe_vtachdt,,Day of first ventricular tachyarrhythmia,,,Safety Outcomes,safety_outcomes
+safe_vtachspec,,"Provide a summary of the type of ventricular tachycardia (e.g. specific mention of monomorphic or polymorphic ventricular tachycardia or torsades de points in the record), the outcome of event (e.g. did the event require chemical or electrical cardioversio",,,Safety Outcomes,safety_outcomes
+scr_m,,,,Month of Screening ,Eligibility Criteria,eligibility_criteria
+scr_y,,,,Year of Screening,Eligibility Criteria,eligibility_criteria
+site_abbrev,,,,,Form Unknown,form_unknown
+sofa_bilih_1,,"Highest bilirubin, mg/dL",,,Demographics and Enrollment,demographics_and_enrollment
+sofa_bilih_3,,"Highest bilirubin, mg/dL",,,Day 3 Assessment,day_3_assessment
+sofa_creath_1,,"Highest creatinine, mg/dL",,,Demographics and Enrollment,demographics_and_enrollment
+sofa_creath_3,,"Highest creatinine, mg/dL",,,Day 3 Assessment,day_3_assessment
+sofa_dobut_1,,Dobutamine dose: (mcg/kg/min),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_dobut_3,,Dobutamine dose: (mcg/kg/min),,,Day 3 Assessment,day_3_assessment
+sofa_dopa_1,,Dopamine dose: (mcg/kg/min),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_dopa_3,,Dopamine dose: (mcg/kg/min),,,Day 3 Assessment,day_3_assessment
+sofa_epi_1,,Epinephrine dose: (mcg/kg/min),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_epi_3,,Epinephrine dose: (mcg/kg/min),,,Day 3 Assessment,day_3_assessment
+sofa_gcs_1,,Lowest Glasgow Coma Scale score,,,Demographics and Enrollment,demographics_and_enrollment
+sofa_gcs_3,,Lowest Glasgow Coma Scale score,,,Day 3 Assessment,day_3_assessment
+sofa_inrh_1,,Highest international normalized ratio (INR),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_inrh_3,,Highest international normalized ratio (INR),,,Day 3 Assessment,day_3_assessment
+sofa_mapl_1,,"Lowest mean arterial pressure, mmHg",,,Demographics and Enrollment,demographics_and_enrollment
+sofa_mapl_3,,"Lowest mean arterial pressure, mmHg",,,Day 3 Assessment,day_3_assessment
+sofa_neosyn_1,,Neosynephrine dose: (mcg/kg/min),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_neosyn_3,,Neosynephrine dose: (mcg/kg/min),,,Day 3 Assessment,day_3_assessment
+sofa_norepi_1,,Norepinephrine dose: (mcg/kg/min),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_norepi_3,,Norepinephrine dose: (mcg/kg/min),,,Day 3 Assessment,day_3_assessment
+sofa_pao2l_1,,Lowest PaO2,,,Demographics and Enrollment,demographics_and_enrollment
+sofa_pao2l_3,,Lowest PaO2,,,Day 3 Assessment,day_3_assessment
+sofa_pao2lfio2_1,,"Value for FiO2 at the time of lowest PaO2For patients on nasal cannula, use estimation that FIO2 = 0.21 + 0.03*(LPM of NC O2)",,,Demographics and Enrollment,demographics_and_enrollment
+sofa_pao2lfio2_3,,"Value for FiO2 at the time of lowest PaO2For patients on nasal cannula, use estimation that FIO2 = 0.21 + 0.03*(LPM of NC O2)",,,Day 3 Assessment,day_3_assessment
+sofa_platl_1,,"Lowest platelet count, per mm3 (in thousands)",,,Demographics and Enrollment,demographics_and_enrollment
+sofa_platl_3,,"Lowest platelet count, per mm3 (in thousands)",,,Day 3 Assessment,day_3_assessment
+sofa_spo2l_1,,Lowest SpO2,,,Demographics and Enrollment,demographics_and_enrollment
+sofa_spo2l_3,,Lowest SpO2,,,Day 3 Assessment,day_3_assessment
+sofa_spo2lfio2_1,,"Value for FiO2 at the time of lowest SpO2For patients on nasal cannula, use estimation that FIO2 = 0.21 + 0.03*(LPM of NC O2)",,,Demographics and Enrollment,demographics_and_enrollment
+sofa_spo2lfio2_3,,"Value for FiO2 at the time of lowest SpO2For patients on nasal cannula, use estimation that FIO2 = 0.21 + 0.03*(LPM of NC O2)",,,Day 3 Assessment,day_3_assessment
+sofa_uout_1,,Urine output (estimated),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_uout_3,,Urine output (estimated),,,Day 3 Assessment,day_3_assessment
+sofa_vaso_1___dobut,,Which vasopressors did the patient receive in the last 24 hours? (choice=Dobutamine),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_vaso_1___dopa,,Which vasopressors did the patient receive in the last 24 hours? (choice=Dopamine),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_vaso_1___epi,,Which vasopressors did the patient receive in the last 24 hours? (choice=Epinephrine),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_vaso_1___neosyn,,Which vasopressors did the patient receive in the last 24 hours? (choice=Neosynephrine),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_vaso_1___norepi,,Which vasopressors did the patient receive in the last 24 hours? (choice=Norepinephrine),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_vaso_1___vasop,,Which vasopressors did the patient receive in the last 24 hours? (choice=Vasopressin),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_vaso_3___dobut,,Which vasopressors did the patient receive in the last 24 hours? (choice=Dobutamine),,,Day 3 Assessment,day_3_assessment
+sofa_vaso_3___dopa,,Which vasopressors did the patient receive in the last 24 hours? (choice=Dopamine),,,Day 3 Assessment,day_3_assessment
+sofa_vaso_3___epi,,Which vasopressors did the patient receive in the last 24 hours? (choice=Epinephrine),,,Day 3 Assessment,day_3_assessment
+sofa_vaso_3___neosyn,,Which vasopressors did the patient receive in the last 24 hours? (choice=Neosynephrine),,,Day 3 Assessment,day_3_assessment
+sofa_vaso_3___norepi,,Which vasopressors did the patient receive in the last 24 hours? (choice=Norepinephrine),,,Day 3 Assessment,day_3_assessment
+sofa_vaso_3___vasop,,Which vasopressors did the patient receive in the last 24 hours? (choice=Vasopressin),,,Day 3 Assessment,day_3_assessment
+sofa_vasop_1,,Vasopressin dose: (mcg/kg/min),,,Demographics and Enrollment,demographics_and_enrollment
+sofa_vasop_3,,Vasopressin dose: (mcg/kg/min),,,Day 3 Assessment,day_3_assessment
+sofa_vasoyn_1,,Receipt of vasopressors,,,Demographics and Enrollment,demographics_and_enrollment
+sofa_vasoyn_3,,Receipt of vasopressors,,,Day 3 Assessment,day_3_assessment
+subject_id,Subject ID,Subject ID,Subject ID,,Form Unknown,form_unknown
+subject_id,,Subject ID,Subject ID,,Form Unknown,form_unknown
+vit_fio2h_1,,"Highest FiO2For patients on nasal cannula, use estimation that FIO2 = 0.21 + 0.03*(LPM of NC O2)",,,Demographics and Enrollment,demographics_and_enrollment
+vit_hrh_1,,"Highest heart rate, bpm",,,Demographics and Enrollment,demographics_and_enrollment
+vit_respsup_1,,Respiratory support at enrollment (select one),,,Demographics and Enrollment,demographics_and_enrollment
+vit_rrh_1,,"Highest respiratory rate, breaths per minute",,,Demographics and Enrollment,demographics_and_enrollment
+vit_spbl_1,,"Lowest systolic blood pressure, mm Hg",,,Demographics and Enrollment,demographics_and_enrollment
+vit_spo2l_1,,Lowest SpO2,,,Demographics and Enrollment,demographics_and_enrollment
+vit_vasop_1,,Receipt of vasopressors,,,Demographics and Enrollment,demographics_and_enrollment
+vs_alivedt,,Last day known to be alive,,,Vital Status,vital_status
+vs_deathdt,Day of death,Day of death,Day of death,,Vital Status,vital_status
+vs_deathdt,,Day of death,Day of death,,Vital Status,vital_status
+vs_deathhosp,,Did the patient die prior to hospital discharge?,,,Vital Status,vital_status
+vs_died,,Did the patient die between randomization and study day 29?,,,Vital Status,vital_status
+vs_dt,,Day this form was completed,,,Vital Status,vital_status
+wd_details,,Details:,,,Patient withdrawal,patient_withdrawal
+wd_dt,,Day withdrawn:,,,Patient withdrawal,patient_withdrawal
+wd_reas,,Reason for patient withdrawal,,,Patient withdrawal,patient_withdrawal
+wd_reas_v2,,Type of study withdrawal:,,,Patient withdrawal,patient_withdrawal
+wd_reasspec,,Other reason for patient withdrawal,,,Patient withdrawal,patient_withdrawal
+wd_tm,,Time withdrawn:,,,Patient withdrawal,patient_withdrawal
+wd_yn,,Did patient withdraw from the study?,,,Patient withdrawal,patient_withdrawal
