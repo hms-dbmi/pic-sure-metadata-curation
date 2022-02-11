@@ -9,6 +9,7 @@ Library
 ```{r}
 library(dplyr)
 library(jsonlite)
+library(tidyverse)
 ```
 
 Read in files
@@ -33,8 +34,8 @@ clean_up_df <- function(df){
     rename(data_file_name = MEMNAME, variable_id = NAME, variable_label_from_data_file = LABEL, variable_type = TYPE) %>%
     mutate(data_file_name = paste(tolower(data_file_name), '.sas7bdat', sep=''),
            variable_type = ifelse(variable_type==1, "continuous",
-                                    ifelse(variable_type==2, "categorical", "unknown"))) %>%
-    mutate(variable_type = ifelse(is.na(variable_type), "unknown", variable_type),
+                                    ifelse(variable_type==2, "categorical", "data missing"))) %>%
+    mutate(variable_type = ifelse(is.na(variable_type), "data missing", variable_type),
            variable_name = variable_label_from_data_file)
   #mini_file_info <- file_info %>% filter(form_group_name == metadata %>% pull(form_group_name) %>% unique())
   #raw <- full_join(metadata, file_info,
