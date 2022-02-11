@@ -78,13 +78,14 @@ df4 <- df3 %>%
 Start with variable metadata
 ```{r}
 variable_df <- df4 %>% 
-  select(variable_id, variable_name, variable_type, data_file_name, form_name) %>%
+select(variable_id, variable_name, variable_type, data_file_name, form_name, study_name, study_phs_number, study_url, study) %>%
   unique()
 
 for(ind in 1:nrow(variable_df)){
   var_df <- df4 %>%
     filter(variable_id == variable_df[ind, 'variable_id'],
            variable_name == variable_df[ind, 'variable_name'],
+           form_name == variable_df[ind, 'form_name'],
            data_file_name == variable_df[ind, 'data_file_name']) %>%
     select(variable_label_from_data_dictionary, variable_label_from_data_file, variable_description)
   variable_df[ind, 'variable_metadata'] [[1]] <- list(var_df)
@@ -94,23 +95,40 @@ for(ind in 1:nrow(variable_df)){
 
 Group variables into forms
 ```{r}
-form_df <- df4 %>% select(form_name, data_file_name) %>% unique()
+form_df <- df4 %>% select(form_name, data_file_name, study_name, study_phs_number, study_url, study) %>% unique()
 
 for(ind in 1:nrow(form_df)){
   f_df <- variable_df %>%
-    filter(variable_id == variable_df[ind, 'variable_id'],
-           variable_name == variable_df[ind, 'variable_name'],
-           variable_type == variable_df[ind, 'variable_type']) %>%
-    select(variable_label_from_data_dictionary, variable_label_from_data_file, variable_description)
-  variable_df[ind, 'variable_metadata'] [[1]] <- list(var_df)
+    filter(form_name == variable_df[ind, 'form_name'],
+           data_file_name == variable_df[ind, 'data_file_name']) %>%
+    select(variable_id, variable_name, variable_type, variable_metadata)
+  form_df[ind, 'variable'] [[1]] <- list(f_df)
 }
 
 ```
 
+Group forms into study
+```{r}
 
+study_df <- df4 %>% select(study_name, study_phs_number, study_url, study) %>% unique()
 
+study_df[1, 'form'][[1]] <- list(form_df)
 
+```
 
+Write JSON
+
+```{r}
+
+my_json <- toJSON(study_df, pretty=FALSE)
+
+json_string <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/orchid_metadata.json")
+writeLines(json_string, fileConn)
+close(fileConn)
+
+# This works for writing a JSON file without the escape characters
+```
 
 
 
