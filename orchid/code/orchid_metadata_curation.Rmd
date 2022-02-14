@@ -1,0 +1,140 @@
+---
+title: "ORCHID Metadata curation"
+author: "Emily Hughes"
+date: "2/9/2022"
+output: html_document
+---
+
+Libraries
+```{r}
+library(tidyverse)
+library(jsonlite)
+```
+
+First we load the data from sas
+```{r}
+file_info <- read.csv("../input/ORCHID_METADATA.csv")
+file_info <- file_info %>% mutate(MEMNAME = ifelse(MEMNAME == "ALLDATA", 
+                                                   "alldata.csv", 
+                                                   paste(tolower(MEMNAME), ".sas7bdat", sep='')),
+                                  TYPE = ifelse(TYPE==1, 
+                                                "continuous", 
+                                                ifelse(TYPE==2, "categorical", "data missing"))) %>%
+  mutate(TYPE = ifelse(is.na(TYPE), "data missing", TYPE)) %>%
+  filter(!MEMNAME %in% c("alldata_dd.sas7bdat", "derived_vars_dd.sas7bdat")) %>% 
+  select(MEMNAME, NAME, TYPE, LABEL) %>%
+  rename(data_file_name = MEMNAME,
+         variable_id = NAME,
+         variable_type = TYPE,
+         variable_label_from_data_file = LABEL)
+```
+
+
+Files
+- the alldata_dd.csv file has variable descriptions
+- we have additional variable descriptions in the derived_vars_dd.csv file
+```{r}
+alldata_dd <- read.csv('../input/alldata_dd.csv')
+
+df <- left_join(file_info %>% select(variable_id, variable_label_from_data_file),
+                  alldata_dd %>% select(name, label),
+                  by = c('variable_id' = 'name'))
+
+derived_vars <- read.csv('../input/derived_vars_dd.csv')
+
+df2 <- left_join(df,
+                 derived_vars %>% select(name, label) %>% rename('derived_var_label' = 'label'),
+                 by = c('variable_id' = 'name'))
+
+write.csv(df2, '../intermediates/annotated_dd.csv', na = '', row.names = FALSE)
+
+```
+
+We manually annotate the variable IDs and names based on the ORCHID Dataset Documents_V2_20NOV2020.pdf file.
+We match the forms based on variable ID and save the form info in manually_annotated_dd.csv.
+We do not add additional variable descriptions at this time.
+```{r}
+df3 <- read.csv('../intermediates/manually_annotated_dd.csv')
+
+df4 <- df3 %>%
+  mutate(variable_label_from_data_dictionary = ifelse(label == '', derived_var_label,
+                                                      ifelse(label == derived_var_label, label, paste(label, derived_var_label)))) %>%
+  select(-c(label, derived_var_label)) %>%
+  rename(variable_description = desc) %>%
+  mutate(variable_name = ifelse(variable_label_from_data_file != '', variable_label_from_data_file, variable_label_from_data_dictionary)) %>%
+  left_join(file_info %>% select(variable_id, variable_type, data_file_name)) %>%
+  rename(form_name = form) %>%
+  mutate(study = 'ORCHID',
+         study_name = 'PETAL Network: Outcomes Related to COVID-19 Treated With Hydroxychloroquine Among Inpatients With Symptomatic Disease (ORCHID) Trial',
+         study_phs_number = 'phs002299',
+         study_url = 'https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002299.v1.p1'
+         )
+
+
+```
+
+## Create JSON file
+
+Start with variable metadata
+```{r}
+variable_df <- df4 %>% 
+select(variable_id, variable_name, variable_type, data_file_name, form_name, study_name, study_phs_number, study_url, study) %>%
+  unique()
+
+for(ind in 1:nrow(variable_df)){
+  var_df <- df4 %>%
+    filter(variable_id == variable_df[ind, 'variable_id'],
+           variable_name == variable_df[ind, 'variable_name'],
+           form_name == variable_df[ind, 'form_name'],
+           data_file_name == variable_df[ind, 'data_file_name']) %>%
+    select(variable_label_from_data_dictionary, variable_label_from_data_file, variable_description)
+  variable_df[ind, 'variable_metadata'] [[1]] <- list(var_df)
+}
+
+```
+
+Group variables into forms
+```{r}
+form_df <- df4 %>% select(form_name, data_file_name, study_name, study_phs_number, study_url, study) %>% unique()
+
+for(ind in 1:nrow(form_df)){
+  f_df <- variable_df %>%
+    filter(form_name == variable_df[ind, 'form_name'],
+           data_file_name == variable_df[ind, 'data_file_name']) %>%
+    select(variable_id, variable_name, variable_type, variable_metadata)
+  form_df[ind, 'variable'] [[1]] <- list(f_df)
+}
+
+```
+
+Group forms into study
+```{r}
+
+study_df <- df4 %>% select(study_name, study_phs_number, study_url, study) %>% unique()
+
+study_df[1, 'form'][[1]] <- list(form_df)
+
+```
+
+Write JSON
+
+```{r}
+
+my_json <- toJSON(study_df, pretty=FALSE)
+
+json_string <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/orchid_metadata.json")
+writeLines(json_string, fileConn)
+close(fileConn)
+
+# This works for writing a JSON file without the escape characters
+```
+
+
+
+
+
+
+
+
+
