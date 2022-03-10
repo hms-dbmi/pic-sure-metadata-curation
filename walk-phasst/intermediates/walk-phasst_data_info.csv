@@ -1,0 +1,2366 @@
+varname,LABEL,file,MEMNAME,picsure_type
+SPECIMENID,Specimen ID,adecho_r.csv,ADECHO_R,continuous
+PT_ID,Randomized ID,adecho_r.csv,ADECHO_R,continuous
+DAY,Day,adecho_r.csv,ADECHO_R,continuous
+AGE_TRUNC,"Age (yrs), truncated to 15-60",adecho_r.csv,ADECHO_R,continuous
+SEX,Sex,adecho_r.csv,ADECHO_R,categorical
+SBP,SBP (mmHg),adecho_r.csv,ADECHO_R,continuous
+DBP,DBP (mmHg),adecho_r.csv,ADECHO_R,continuous
+TRJ,TRJ (m/s),adecho_r.csv,ADECHO_R,continuous
+RAP,RAP (mmHg),adecho_r.csv,ADECHO_R,continuous
+LVF,LVF (N/Ab),adecho_r.csv,ADECHO_R,categorical
+LVEF,LVEF (%),adecho_r.csv,ADECHO_R,continuous
+AR,AR,adecho_r.csv,ADECHO_R,categorical
+MR,MR,adecho_r.csv,ADECHO_R,categorical
+TR,TR,adecho_r.csv,ADECHO_R,categorical
+SEPTUM,Septum (mm),adecho_r.csv,ADECHO_R,continuous
+LVED,LVED (mm),adecho_r.csv,ADECHO_R,continuous
+PW,PW (mm),adecho_r.csv,ADECHO_R,continuous
+LVES,LVES (mm),adecho_r.csv,ADECHO_R,continuous
+AO_SINUS,Ao sinus (mm),adecho_r.csv,ADECHO_R,continuous
+LA_DIAM,LA diam (mm),adecho_r.csv,ADECHO_R,continuous
+LVOT_DIAM,LVOT diam (mm),adecho_r.csv,ADECHO_R,continuous
+LVOT_DIAM1,LVOT Diam (cm),adecho_r.csv,ADECHO_R,continuous
+LV_MASS,LV Mass (g),adecho_r.csv,ADECHO_R,continuous
+LV_MASS_INDEX,LV Mass Index (g/m^2),adecho_r.csv,ADECHO_R,continuous
+PERICARDIAL_EFFUSION,Pericardial effusion (Y/N),adecho_r.csv,ADECHO_R,categorical
+RVOT_PW_ACC_TIME,RVOT PW acc time (msec),adecho_r.csv,ADECHO_R,continuous
+RV_PW_EJECTION_TIME,RV PW ejection time (msec),adecho_r.csv,ADECHO_R,continuous
+TVI_OF_RVOT,TVI of RVOT (cm),adecho_r.csv,ADECHO_R,continuous
+PVR,PVR (Wood Units),adecho_r.csv,ADECHO_R,continuous
+CW_PR_DOPPLER_END_DIASTOLIC_VEL,CW PR Doppler end-diastolic velocity (m/s),adecho_r.csv,ADECHO_R,continuous
+PA_DIASTOLIC_PRESSURE,PA Diastolic Pressure (mmHg),adecho_r.csv,ADECHO_R,continuous
+CW_PR_DOPPLER_PEAK_INITIAL_VEL,CW PR Doppler peak initial velocity (m/s),adecho_r.csv,ADECHO_R,continuous
+MEAN_PAP,Mean PAP (mmHg),adecho_r.csv,ADECHO_R,continuous
+DIASTOLIC_LV_DIMENSION_PARALLEL,Diastolic LV dimension parallel to septum: D2 (mm),adecho_r.csv,ADECHO_R,continuous
+DIASTOLIC_LV_DIMENSION_PERPENDIC,Diastolic LV dimension perpendicular to septum: D1 (mm),adecho_r.csv,ADECHO_R,continuous
+DIASTOLIC_ECCENTRICITY_INDEX,Diastolic Eccentricity Index (D2/D1),adecho_r.csv,ADECHO_R,continuous
+SYSTOLIC_LV_DIMENSION_PARALLEL,Systolic LV dimension parallel to septum: D2 (mm),adecho_r.csv,ADECHO_R,continuous
+SYSTOLIC_LV_DIMENSION_PERPENDIC,Systolic LV dimension perpendicular to septum: D1 (mm),adecho_r.csv,ADECHO_R,continuous
+SYSTOLIC_ECCENTRICITY_INDEX,Systolic Eccentricity Index (D2/D1),adecho_r.csv,ADECHO_R,continuous
+EJECFRACSIMPSON,Ejection fraction Simpson's (%),adecho_r.csv,ADECHO_R,continuous
+EJECFRACVISUALNOSIMP,Ejection fraction (visual if no Simp) (%),adecho_r.csv,ADECHO_R,continuous
+LA_AREA_PLANIMETRY_4CH,LA area planimetry 4CH (cm^2),adecho_r.csv,ADECHO_R,continuous
+LA_LENGTH_4CH,LA length 4CH (cm),adecho_r.csv,ADECHO_R,continuous
+LA_AREA_PLANIMETRY_2CH,LA area planimetry 2CH (cm^2),adecho_r.csv,ADECHO_R,continuous
+LA_LENGTH_2CH,LA length 2CH (cm),adecho_r.csv,ADECHO_R,continuous
+LA_VOLUME,LA Volume (mL),adecho_r.csv,ADECHO_R,continuous
+RA_AREA,RA area,adecho_r.csv,ADECHO_R,continuous
+TR_JET_VEL,TR jet vel (m/s),adecho_r.csv,ADECHO_R,continuous
+LVOT_VTI,LVOT VTI (cm),adecho_r.csv,ADECHO_R,continuous
+LA_VOL_BSA,LA Vol/BSA (mL/m^2),adecho_r.csv,ADECHO_R,continuous
+HR_DURING_AORTIC_DOPPLER,HR during aortic Doppler (beats/min),adecho_r.csv,ADECHO_R,continuous
+STROKE_VOLUME,Stroke Volume (mL),adecho_r.csv,ADECHO_R,continuous
+CARDIAC_OUTPUT,Cardiac Output (L/min),adecho_r.csv,ADECHO_R,continuous
+PEAK_E_VEL,Peak E vel (m/s),adecho_r.csv,ADECHO_R,continuous
+PEAK_E_VEL1,Peak E Vel (cm/s),adecho_r.csv,ADECHO_R,continuous
+PEAK_A_VEL,Peak A vel (m/s),adecho_r.csv,ADECHO_R,continuous
+E_A_CALC,E/A (calc),adecho_r.csv,ADECHO_R,continuous
+DT,DT (msec),adecho_r.csv,ADECHO_R,continuous
+IVRT,IVRT (msec),adecho_r.csv,ADECHO_R,continuous
+PV_SYST_VEL,PV Syst vel (m/s),adecho_r.csv,ADECHO_R,continuous
+PV_DIAST_VEL,PV Diast vel (m/s),adecho_r.csv,ADECHO_R,continuous
+PV_S_D_RATIO,PV S/D Ratio,adecho_r.csv,ADECHO_R,continuous
+PV_ATRIAL_FLOW_REVERSAL_DURATION,PV atrial flow reversal duration (msec),adecho_r.csv,ADECHO_R,continuous
+SEPTAL_TDI_A_TIME_MITRAL_INFLOW,Septal TDI: (a) time bet mitral  inflow (msec),adecho_r.csv,ADECHO_R,continuous
+SEPTAL_TDI_B_SYSTOLIC_WAVE_ET,Septal TDI: (b) systolic wave ET (msec),adecho_r.csv,ADECHO_R,continuous
+LV_TEI_SEPTAL,LV TEI: Septal TDI: (a-b)/b,adecho_r.csv,ADECHO_R,continuous
+LV_SEPT_SA,LV sept Sa (cm/s),adecho_r.csv,ADECHO_R,continuous
+LV_SEPT_EA,LV sept Ea (cm/s),adecho_r.csv,ADECHO_R,continuous
+LV_SEPT_AA,LV  sept Aa (cm/s),adecho_r.csv,ADECHO_R,continuous
+SEPTAL_EA_AA,Septal Ea/Aa,adecho_r.csv,ADECHO_R,continuous
+SEPTAL_E_EA,Septal E/Ea,adecho_r.csv,ADECHO_R,continuous
+LV_LAT_SA,LV  lat Sa (cm/s),adecho_r.csv,ADECHO_R,continuous
+LV_LAT_EA,LV  lat Ea (cm/s),adecho_r.csv,ADECHO_R,continuous
+LV_LAT_AA,LV lat Aa (cm/s),adecho_r.csv,ADECHO_R,continuous
+LV_LAT_EA_AA,LV lat Ea/Aa,adecho_r.csv,ADECHO_R,continuous
+LV_LAT_E_EA,LV lat E/Ea,adecho_r.csv,ADECHO_R,continuous
+LV_AREA_DIASTOLE,LV area diastole (cm^2),adecho_r.csv,ADECHO_R,continuous
+RV_AREA_DIASTOLE,RV area diastole (cm^2),adecho_r.csv,ADECHO_R,continuous
+RV_AREA_SYSTOLE,RV area systole (cm^2),adecho_r.csv,ADECHO_R,continuous
+FAC_CALC,FAC (calc),adecho_r.csv,ADECHO_R,continuous
+RV_LV_RATIO,RV/LV ratio,adecho_r.csv,ADECHO_R,continuous
+TAPSE,TAPSE (mm),adecho_r.csv,ADECHO_R,continuous
+TV_E_WAVE,TV E wave (m/s),adecho_r.csv,ADECHO_R,continuous
+TV_A_WAVE,TV A wave (m/s),adecho_r.csv,ADECHO_R,continuous
+TV_E_A,TV E/A,adecho_r.csv,ADECHO_R,continuous
+RV_TDI_END_BEGIN_TIME_FOR_TEI,RV TDI end-begin time (for Tei),adecho_r.csv,ADECHO_R,continuous
+RV_TDI_SYTOLIC_ET,RV TDI sytolic ET,adecho_r.csv,ADECHO_R,continuous
+RV_TEI_INDEX_FROM_TDI,RV TEI index from TDI,adecho_r.csv,ADECHO_R,continuous
+TV_TDI_SA,TV TDI: Sa (cm/s),adecho_r.csv,ADECHO_R,continuous
+TV_TDI_AA,TV TDI:  Aa (cm/s),adecho_r.csv,ADECHO_R,continuous
+TV_TDI_EA,TV TDI: Ea (cm/s),adecho_r.csv,ADECHO_R,continuous
+IVC_SIZE,IVC size (mm),adecho_r.csv,ADECHO_R,continuous
+COLLAPSE_50,Collapse >50% (Y/N),adecho_r.csv,ADECHO_R,categorical
+EST_RAP_FROM_IVC_SNIFF,Est RAP from IVC sniff,adecho_r.csv,ADECHO_R,continuous
+MITRAL_REGURG,Mitral Regurg,adecho_r.csv,ADECHO_R,categorical
+AORTIC_REGURG,Aortic Regurg,adecho_r.csv,ADECHO_R,categorical
+TRICUS_REGURG,Tricus Regurg,adecho_r.csv,ADECHO_R,categorical
+PULM_REGURG,Pulm Regurg,adecho_r.csv,ADECHO_R,categorical
+PT_ID,New Patient ID,adsl_r.csv,ADSL_R,continuous
+REGISTERED,Registered,adsl_r.csv,ADSL_R,categorical
+ENROLLED,Enrolled,adsl_r.csv,ADSL_R,categorical
+SCR_FAIL,Failed Screening,adsl_r.csv,ADSL_R,categorical
+RND_FAIL,Failed Randomization,adsl_r.csv,ADSL_R,categorical
+RND_REAS,Randomization Failure Reason,adsl_r.csv,ADSL_R,categorical
+DSC_REA,Discontinuation Reason,adsl_r.csv,ADSL_R,categorical
+CPLT_MIT,Completed MIT,adsl_r.csv,ADSL_R,categorical
+ITT,ITT,adsl_r.csv,ADSL_R,categorical
+SAFETY,Safety,adsl_r.csv,ADSL_R,categorical
+PERPROT,Per protocol,adsl_r.csv,ADSL_R,categorical
+MITRND,Randomized to MIT,adsl_r.csv,ADSL_R,categorical
+OPEN_LBL,Enrolled in open label,adsl_r.csv,ADSL_R,categorical
+STR,Stratum,adsl_r.csv,ADSL_R,categorical
+DOSED,Subject dosed,adsl_r.csv,ADSL_R,categorical
+TREATMENT,Treatment group,adsl_r.csv,ADSL_R,categorical
+TRTL,"Treatment, label",adsl_r.csv,ADSL_R,categorical
+GENDER,Gender,adsl_r.csv,ADSL_R,categorical
+RACE_ETHNIC,Race_Ethnic,adsl_r.csv,ADSL_R,categorical
+AGE_TRUNC,"Age at Registration (yrs), truncated to 15-60",adsl_r.csv,ADSL_R,continuous
+TRJV_S,Tricuspid Regurgitant Jet Velocity (m/s) - Screening,adsl_r.csv,ADSL_R,continuous
+TRJV,Tricuspid Regurgitant Jet Velocity (m/s) - Baseline,adsl_r.csv,ADSL_R,continuous
+DIST,Six Minute Walk Distance (m),adsl_r.csv,ADSL_R,continuous
+SCGENO,Sickle Cell Genotype,adsl_r.csv,ADSL_R,categorical
+ANTICOAG,Concomitant anticoagulation use at randomization,adsl_r.csv,ADSL_R,categorical
+EXDAYS,Exposure (days),adsl_r.csv,ADSL_R,continuous
+EXDAYS06,Exposure (days) though week 6,adsl_r.csv,ADSL_R,continuous
+EXDAYS10,Exposure (days) from week 6 to 10,adsl_r.csv,ADSL_R,continuous
+EXDAYS16,Exposure (days) from week 10 to 16,adsl_r.csv,ADSL_R,continuous
+EXDURRNG,Exposure duration range,adsl_r.csv,ADSL_R,categorical
+COMPWK06,Compliance at week 6,adsl_r.csv,ADSL_R,continuous
+COMPWK10,Compliance at week 10,adsl_r.csv,ADSL_R,continuous
+COMPWK16,Compliance at week 16,adsl_r.csv,ADSL_R,continuous
+COMPOA,Compliance overall,adsl_r.csv,ADSL_R,continuous
+COMPLNT,Compliant (Y/N),adsl_r.csv,ADSL_R,categorical
+FSTDSP_DAY,First drug dispensation day,adsl_r.csv,ADSL_R,continuous
+EXOARNG,Sildenafil Exposure Range -- Overall,adsl_r.csv,ADSL_R,categorical
+EXOLRNG,Exposure Range--Open Label,adsl_r.csv,ADSL_R,categorical
+EXDAYS_OL,Exposure to Sildenafil--Open label,adsl_r.csv,ADSL_R,continuous
+EXDAYS_OVERALL,Exposure to Sildenafil -- Overall (MIT and OL),adsl_r.csv,ADSL_R,continuous
+PT_ID,New Subject ID,ae_r.csv,AE_R,continuous
+TRTL,"Treatment, label",ae_r.csv,AE_R,categorical
+TREATMENT,Treatment Group,ae_r.csv,AE_R,categorical
+STR,Stratum,ae_r.csv,AE_R,categorical
+DOSE1_DAY,Day of First Dose of Study Drug,ae_r.csv,AE_R,continuous
+STOP_DAY,AE Stop Day,ae_r.csv,AE_R,continuous
+START_DAY,AE Start Day,ae_r.csv,AE_R,continuous
+ANYAE,Any AE?,ae_r.csv,AE_R,continuous
+TEAE,Treatment Emergent AE?,ae_r.csv,AE_R,categorical
+AETEXT,AE Verbatim Term,ae_r.csv,AE_R,categorical
+PTERM,AE Preferred Term,ae_r.csv,AE_R,categorical
+SOCN,AE System Organ Class Name,ae_r.csv,AE_R,categorical
+AESER,Serious AE?,ae_r.csv,AE_R,categorical
+AE_SEV,AE Severity(re-coded),ae_r.csv,AE_R,categorical
+AEREL,Relationship to Study Drug,ae_r.csv,AE_R,categorical
+AESDTH,Fatal AE?,ae_r.csv,AE_R,categorical
+OUTCOME,AE Outcome,ae_r.csv,AE_R,categorical
+AEDISCMD,AE Resulting in Drug Discontinuation,ae_r.csv,AE_R,categorical
+AEDISCST,AE Resulting in Study Discontinuation,ae_r.csv,AE_R,categorical
+PR_AE,Pre-randomization AE,ae_r.csv,AE_R,categorical
+DRUG_ACT,Action with Study Drug,ae_r.csv,AE_R,categorical
+SPHASE,Study Phase,ae_r.csv,AE_R,categorical
+AEDOSE,Dose at time of AE,ae_r.csv,AE_R,continuous
+TIMETOAE,Time on study until AE (days),ae_r.csv,AE_R,continuous
+PT_ID,New Patient ID,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+STR,Stratum,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+TRTL,"Treatment, label",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+GENDER,Gender,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+SCGENO,Sickle Cell Genotype,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+DATASTR,,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+PHASE,,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+SEQNO,,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+PROJECT,,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+EV_PH,"Event, Clinical Deterioration of Pulmonary Hypertension",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+EV_ACS,"Event, Acute Chest Syndrome",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+EV_RHF,"Event, Right Heart Failure",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+EV_NO,"Event, None",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+SEVRTY,Severity,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+RELSCD,Relationship to Sickle Cell Disease?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+RELPH,Relationship to Pulmonary Hypertension?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+RELSDRG,Relationship to Study Drug,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+RELSP,Relationship to Study Procedure,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+OUTCOME,Outcome,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+ACTION,Action Taken With Study Drug,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+SERIOUS,Serious Adverse Event?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+NTFY,Rho Product Safety Notified?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+SAE1,"Seriousness, Life-Threatening",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+SAE2,"Seriousness, Hospitalization",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+SAE3,"Seriousness, Congenital Anomaly",aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+SAE4,"Seriousness, Disabling/Incapacitating",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+SAE5,"Seriousness, Important Medical Event",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+SAE6,"Seriousness, Fatal",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+CAUSE,Primary Cause Of Death,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+AUTOP,Was Autopsy Performed?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+FACT1,"Contributing Factor, Underlying Disease Being Studied",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+FACT2,"Contributing Factor, Treatment Failure",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+FACT3,"Contributing Factor, Concurrent Illness",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+FACT3SP,"Concurrent Illness, Specify",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+FACT4,"Contributing Factor, Concurrent Medication",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+FACT5,Study Procedure,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+FACT5SP,"Study Procedure, Specify",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+FACT6,"Contributing Factor, Other",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+FACT6SP,"Other, Specify",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+SDYMED,Receive Study Medication,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+DBFU,Study Phase,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+DOSE,"Study Medication, Dose",aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+ONGO,"Study Medication or Placebo, Ongoing?",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+CMEDNA,"Concomitant Medications At Time Of SAE, None",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+CMEDPR,"Concomitant Medications At Time Of SAE, Previously Reported",aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+WITHSAE,"Concomitant Medications At Time Of SAE, Previously Reported With Specify",aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+TREATNA,"Treatments/Procedures, None",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+TREATPR,"Treatments/Procedures, Previously Reported",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+HISTNA,"Relevant  Medical History, None",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+HISTPR,"Relevant  Medical History, Previously Reported",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+LABNA,"Relevant Laboratory/Diagnostic Tests, None",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+LABPR,"Relevant Laboratory/Diagnostic Tests, Previously Reported",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+WTUNITS,Weight Units,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+HTUNITS,Height Units,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+NARRPR,"Relevant  Medical History,Previously Reported",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S1_ABDO,"Symptoms, Abdominal Distention",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S1_CHST,"Symptoms, Chest Pain",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S1_CGH,"Symptoms, Cough",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S1_FNT,"Symptoms, Fainting",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S1_SHBR,"Symptoms, Shortness Of Breath",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S1_SPTM,"Symptoms, Sputum",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S1_OTH,"Symptoms, Other",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S2_AHS,"Signs, Abnormal Heart Sounds",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S2_ALS,"Signs, Abnormal Lung Sounds",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S2_CGH,"Signs, Cough",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S2_EVP,"Signs, Elevated Venous Pressure",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S2_ENLV,"Signs, Enlarged Liver",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S2_ICR,"Signs, Intercostal Retractions, etc.",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S2_RHR,"Signs, Rapid Heart Rate",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S2_SWFA,"Signs, Swelling Of Feet And/Or Ankles",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S2_TCHY,"Signs, Tachypnea (Per Age-Adjusted Normal)",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S2_WTG,"Signs, Weight Gain",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S2_OTH,"Signs, Other",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_TEMP,Temperature,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_RESP,Respiratory Rate,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_XRAY,Chest radiograph or CT Performed?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_XINF,"Radiograph, New Infiltrate",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_XCON,"Radiograph, Consolidation",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_XPE,"Radiograph, Pulmonary Edema",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_XCE,"Radiograph, Cardiac Enlargement",aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_XFND,Comment Associated With This Page,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_ECG,ECG Performed?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_ECGR,ECG Results,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_ECH,Echocardiogram Performed?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_ECHR,Echocardiogram Results,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_ABG,Arterial Blood Gas,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_PA02,PA02,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_SA02,SA02,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_CA02,CA02,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_SP02,SP02,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_PDEC,Percent Decrease In SP02,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_BNP,Brain Natriuretic Peptide (BNP),aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_CE,Cardiac Enzymes Evaluated?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_CTP,Cardiac Tropin Value,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_CPH,Creatine Phospokinase Value,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_AST,Aspartate Transaminase Value,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_LCD,Lactate Dehydrogenase Value,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_MYG,Myoglobin Value,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_AHA,Additional Hematology Assessment?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_TH,Therapies Administered In Response To Event?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_TRAN,Transfustion adminstered?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_PRHG,Pretransfusion hemoglobin value,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_TYPE,Transfustion Type,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_UNITS,Number Of Units Given,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_O2,Oxygen Administered?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_O2HI,"Oxygen, Highest Concentration",aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_O2MX,"Oxygen, Maximum Dose Administered",aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_MD,Medications given?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_MDIM,Drug Therapies Result In Symptomatic Improvement?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_MDWL,Drug Therapies Result In Weight Loss?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+S3_OTH,Other Therapies Given?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+LOWLEVELNAME,Low Level Name,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+PREFERREDNAME,Preferred Name,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+HIGHLEVELNAME,High Level Name,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+HIGHGROUPNAME,High Level Group Name,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+SYSTEMORGANCLASSNAME,System Organ Class Name,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+LOWLEVELCODE,Low Level Code,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+PREFERREDCODE,Preferred Code,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+HIGHLEVELCODE,High Level Code,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+SPLIT,Split?,aexpcode_m_r.csv,AEXPCODE_M_R,categorical
+STARTDAY,START DAY,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+STOPDAY,STOP DAY,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+DEATHDAY,DEATH DAY,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+DSTDAY,"STUDY MEDICATION OR PLACEBO, DAY",aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+DSPDAY,"STUDY MEDICATION OR PLACEBO, STOP DAY",aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_XDAY,DAY OF CHEST RADIOGRAPHY OR CT,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+WEIGHT_TRUNC,"WEIGHT, TRUNCATED",aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+HEIGHT_TRUNC,"HEIGHT, TRUNCATED",aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+S3_WT_TRUNC,"WEIGHT, TRUNCATED",aexpcode_m_r.csv,AEXPCODE_M_R,continuous
+PT_ID,New Patient ID,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+STR,Stratum,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+TRTL,"Treatment, label",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+GENDER,Gender,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+SCGENO,Sickle Cell Genotype,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+DATASTR,,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+PHASE,,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+SEQNO,,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+PROJECT,,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+EV_PH,"Event, Clinical Deterioration of Pulmonary Hypertension",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+EV_ACS,"Event, Acute Chest Syndrome",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+EV_RHF,"Event, Right Heart Failure",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+EV_NO,"Event, None",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+SEVRTY,Severity,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+RELSCD,Relationship to Sickle Cell Disease?,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+RELPH,Relationship to Pulmonary Hypertension?,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+RELSDRG,Relationship to Study Drug,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+RELSP,Relationship to Study Procedure,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+OUTCOME,Outcome,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+ACTION,Action Taken With Study Drug,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+SERIOUS,Serious Adverse Event?,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+NTFY,Rho Product Safety Notified?,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+SAE1,"Seriousness, Life-Threatening",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+SAE2,"Seriousness, Hospitalization",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+SAE3,"Seriousness, Congenital Anomaly",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+SAE4,"Seriousness, Disabling/Incapacitating",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+SAE5,"Seriousness, Important Medical Event",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+SAE6,"Seriousness, Fatal",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+CAUSE,Primary Cause Of Death,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+AUTOP,Was Autopsy Performed?,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+FACT1,"Contributing Factor, Underlying Disease Being Studied",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+FACT2,"Contributing Factor, Treatment Failure",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+FACT3,"Contributing Factor, Concurrent Illness",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+FACT3SP,"Concurrent Illness, Specify",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+FACT4,"Contributing Factor, Concurrent Medication",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+FACT5,Study Procedure,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+FACT5SP,"Study Procedure, Specify",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+FACT6,"Contributing Factor, Other",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+FACT6SP,"Other, Specify",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+SDYMED,Receive Study Medication,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+DBFU,Study Phase,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+DOSE,"Study Medication, Dose",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+ONGO,"Study Medication or Placebo, Ongoing?",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+CMEDNA,"Concomitant Medications At Time Of SAE, None",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+CMEDPR,"Concomitant Medications At Time Of SAE, Previously Reported",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+WITHSAE,"Concomitant Medications At Time Of SAE, Previously Reported With Specify",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+TREATNA,"Treatments/Procedures, None",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+TREATPR,"Treatments/Procedures, Previously Reported",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+HISTNA,"Relevant  Medical History, None",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+HISTPR,"Relevant  Medical History, Previously Reported",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+LABNA,"Relevant Laboratory/Diagnostic Tests, None",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+LABPR,"Relevant Laboratory/Diagnostic Tests, Previously Reported",aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+WTUNITS,Weight Units,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+HTUNITS,Height Units,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+NARRPR,"Relevant  Medical History,Previously Reported",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S1_ABDO,"Symptoms, Abdominal Distention",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S1_CHST,"Symptoms, Chest Pain",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S1_CGH,"Symptoms, Cough",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S1_FNT,"Symptoms, Fainting",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S1_SHBR,"Symptoms, Shortness Of Breath",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S1_SPTM,"Symptoms, Sputum",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S1_OTH,"Symptoms, Other",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S2_AHS,"Signs, Abnormal Heart Sounds",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S2_ALS,"Signs, Abnormal Lung Sounds",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S2_CGH,"Signs, Cough",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S2_EVP,"Signs, Elevated Venous Pressure",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S2_ENLV,"Signs, Enlarged Liver",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S2_ICR,"Signs, Intercostal Retractions, etc.",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S2_RHR,"Signs, Rapid Heart Rate",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S2_SWFA,"Signs, Swelling Of Feet And/Or Ankles",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S2_TCHY,"Signs, Tachypnea (Per Age-Adjusted Normal)",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S2_WTG,"Signs, Weight Gain",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S2_OTH,"Signs, Other",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_TEMP,Temperature,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_RESP,Respiratory Rate,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_XRAY,Chest radiograph or CT Performed?,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_XINF,"Radiograph, New Infiltrate",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_XCON,"Radiograph, Consolidation",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_XPE,"Radiograph, Pulmonary Edema",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_XCE,"Radiograph, Cardiac Enlargement",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_XFND,Comment Associated With This Page,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_ECG,ECG Performed?,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_ECGR,ECG Results,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_ECH,Echocardiogram Performed?,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_ECHR,Echocardiogram Results,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_ABG,Arterial Blood Gas,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_PA02,PA02,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_SA02,SA02,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_CA02,CA02,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_SP02,SP02,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_PDEC,Percent Decrease In SP02,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_BNP,Brain Natriuretic Peptide (BNP),aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_CE,Cardiac Enzymes Evaluated?,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_CTP,Cardiac Tropin Value,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_CPH,Creatine Phospokinase Value,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_AST,Aspartate Transaminase Value,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_LCD,Lactate Dehydrogenase Value,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_MYG,Myoglobin Value,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_AHA,Additional Hematology Assessment?,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_TH,Therapies Administered In Response To Event?,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_TRAN,Transfustion adminstered?,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_PRHG,Pretransfusion hemoglobin value,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_TYPE,Transfustion Type,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_UNITS,Number Of Units Given,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_O2,Oxygen Administered?,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_O2HI,"Oxygen, Highest Concentration",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_O2MX,"Oxygen, Maximum Dose Administered",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_MD,Medications given?,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_MDIM,Drug Therapies Result In Symptomatic Improvement?,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_MDWL,Drug Therapies Result In Weight Loss?,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_OTH,Other Therapies Given?,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+LOWLEVELNAME,Low Level Name,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+PREFERREDNAME,Preferred Name,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+HIGHLEVELNAME,High Level Name,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+HIGHGROUPNAME,High Level Group Name,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+SYSTEMORGANCLASSNAME,System Organ Class Name,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+LOWLEVELCODE,Low Level Code,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+PREFERREDCODE,Preferred Code,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+HIGHLEVELCODE,High Level Code,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+SPLIT,Split?,aexpcode_o_r.csv,AEXPCODE_O_R,categorical
+STARTDAY,START DAY,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+STOPDAY,STOP DAY,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+DEATHDAY,DEATH DAY,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+DSTDAY,"STUDY MEDICATION OR PLACEBO, DAY",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+DSPDAY,"STUDY MEDICATION OR PLACEBO, STOP DAY",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_XDAY,DAY OF CHEST RADIOGRAPHY OR CT,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+S3_WT_TRUNC,"WEIGHT, TRUNCATED",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+AGE_TRUNC,AGE TRUNCATED,aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+WEIGHT_TRUNC,"WEIGHT, TRUNCATED",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+HEIGHT_TRUNC,"HEIGHT, TRUNCATED",aexpcode_o_r.csv,AEXPCODE_O_R,continuous
+PT_ID,New Patient ID,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+STR,Stratum,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+TRTL,"Treatment, label",aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+GENDER,Gender,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+SCGENO,Sickle Cell Genotype,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+DATASTR,,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+PHASE,,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+SEQNO,,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+PROJECT,,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+SEVRTY,Severity,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+RELSCD,Relationship to Sickle Cell Disease?,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+RELPH,Relationship to Pulmonary Hypertension?,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+RELSDRG,Relationship to Study Drug,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+RELSP,Relationship to Study Procedure,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+OUTCOME,Outcome,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+ACTION,Action Taken With Study Drug,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+SERIOUS,Serious Adverse Event?,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+NTFY,Rho Product Safety Notified?,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+SAE1,"Seriousness, Life-Threatening",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+SAE2,"Seriousness, Hospitalization",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+SAE3,"Seriousness, Congenital Anomaly",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+SAE4,"Seriousness, Disabling/Incapacitating",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+SAE5,"Seriousness, Important Medical Event",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+SAE6,"Seriousness, Fatal",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+CAUSE,Primary Cause Of Death,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+AUTOP,Was Autopsy Performed?,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+FACT1,"Contributing Factor, Underlying Disease Being Studied",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+FACT2,"Contributing Factor, Treatment Failure",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+FACT3,"Contributing Factor, Concurrent Illness",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+FACT3SP,"Concurrent Illness, Specify",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+FACT4,"Contributing Factor, Concurrent Medication",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+FACT5,Study Procedure,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+FACT5SP,"Study Procedure, Specify",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+FACT6,"Contributing Factor, Other",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+FACT6SP,"Other, Specify",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+SDYMED,Receive Study Medication,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+DBFU,Study Phase,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+DOSE,"Study Medication, Dose",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+ONGO,"Study Medication or Placebo, Ongoing?",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+CMEDNA,"Concomitant Medications At Time Of SAE, None",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+CMEDPR,"Concomitant Medications At Time Of SAE, Previously Reported",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+WITHSAE,"Concomitant Medications At Time Of SAE, Previously Reported With Specify",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+TREATNA,"Treatments/Procedures, None",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+TREATPR,"Treatments/Procedures, Previously Reported",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+HISTNA,"Relevant  Medical History, None",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+HISTPR,"Relevant  Medical History, Previously Reported",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+LABNA,"Relevant Laboratory/Diagnostic Tests, None",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+LABPR,"Relevant Laboratory/Diagnostic Tests, Previously Reported",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+WTUNITS,Weight Units,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+HTUNITS,Height Units,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+NARRPR,"Relevant  Medical History,Previously Reported",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+LOWLEVELNAME,Low Level Name,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+PREFERREDNAME,Preferred Name,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+HIGHLEVELNAME,High Level Name,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+HIGHGROUPNAME,High Level Group Name,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+SYSTEMORGANCLASSNAME,System Organ Class Name,aexpcode_s_r.csv,AEXPCODE_S_R,categorical
+LOWLEVELCODE,Low Level Code,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+PREFERREDCODE,Preferred Code,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+HIGHLEVELCODE,High Level Code,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+SPLIT,Split?,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+STARTDAY,START DAY,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+STOPDAY,STOP DAY,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+DEATHDAY,DEATH DAY,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+DSTDAY,"STUDY MEDICATION OR PLACEBO, DAY",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+DSPDAY,"STUDY MEDICATION OR PLACEBO, STOP DAY",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+WEIGHT_TRUNC,"WEIGHT, TRUNCATED",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+HEIGHT_TRUNC,"HEIGHT, TRUNCATED",aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+AGE_TRUNC,AGE TRUNCATED,aexpcode_s_r.csv,AEXPCODE_S_R,continuous
+PT_ID,NEW Subject ID,bnp_r.csv,BNP_R,continuous
+PHASE,Phase,bnp_r.csv,BNP_R,continuous
+COLLDAY,Collection day,bnp_r.csv,BNP_R,continuous
+TBLVIS,Table visit label,bnp_r.csv,BNP_R,categorical
+TBLVISN,Table visit label,bnp_r.csv,BNP_R,continuous
+BNP,ProBNP (pg/ml),bnp_r.csv,BNP_R,continuous
+BNPLOG10,"ProBNP, log 10",bnp_r.csv,BNP_R,continuous
+BLVALUE,"ProBNP (pg/ml), BL",bnp_r.csv,BNP_R,continuous
+BLLOG10,"ProBNP, log 10, BL",bnp_r.csv,BNP_R,continuous
+CHANGE,"ProBNP (pg/ml), Change from BL",bnp_r.csv,BNP_R,continuous
+CHLOG10,"ProBNP, log 10, Change from BL",bnp_r.csv,BNP_R,continuous
+PT_ID,New Patient ID,bpiq_m_r.csv,BPIQ_M_R,continuous
+STR,Stratum,bpiq_m_r.csv,BPIQ_M_R,categorical
+TRTL,"Treatment, label",bpiq_m_r.csv,BPIQ_M_R,categorical
+GENDER,Gender,bpiq_m_r.csv,BPIQ_M_R,categorical
+SCGENO,Sickle Cell Genotype,bpiq_m_r.csv,BPIQ_M_R,categorical
+DATASTR,,bpiq_m_r.csv,BPIQ_M_R,categorical
+PHASE,,bpiq_m_r.csv,BPIQ_M_R,continuous
+SEQNO,,bpiq_m_r.csv,BPIQ_M_R,continuous
+PROJECT,,bpiq_m_r.csv,BPIQ_M_R,categorical
+ASMTTM,Time Of Assessment,bpiq_m_r.csv,BPIQ_M_R,categorical
+ASMTHH,Time Of Assessment hour,bpiq_m_r.csv,BPIQ_M_R,continuous
+ASMTMM,Time Of Assessment minute,bpiq_m_r.csv,BPIQ_M_R,continuous
+Q1,Pain Other Than Every-Day Kinds,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2HEADL,"Head/Face, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2HEADR,"Head/Face, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2HEADC,"Head/Face, Center",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2HEADM,"Head/Face, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2NECK,Neck,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2NECKM,"Neck, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2SHLDL,"Shoulder, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2SHLDR,"Shoulder, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2SHLDM,"Shoulder, Hurst Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2UARML,"Upper Arm, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2UARMR,"Upper Arm, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2UARMM,"Upper Arm, Hurst Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2ELBL,"Elbow, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2ELBR,"Elbow, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2ELBM,"Elbow, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2LARML,"Lower Arm, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2LARMR,"Lower Arm, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2LARMM,"Lower Arm, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2HANDL,"Hand/Fingers, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2HANDR,"Hand/Fingers, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2HANDM,"Hand/Fingers, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2CHSTL,"Chest, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2CHSTR,"Chest, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2CHSTC,"Chest, Center",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2CHSTM,"Chest, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2UBCKL,"Upper Back, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2UBCKR,"Upper Back, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2UBCKC,"Upper Back, Center",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2UBCKM,"Upper Back, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2LBCKL,"Lower Back, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2LBCKR,"Lower Back, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2LBCKC,"Lower Back, Center",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2LBCKM,"Lower Back, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2ABDOL,"Abdomen, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2ABDOR,"Abdomen, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2ABDOC,"Abdomen, Center",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2ABDOM,"Abdomen, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2GEN,Genitals,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2GENM,"Genitals, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2BUTTL,"Buttocks, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2BUTTR,"Buttocks, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2BUTTM,"Buttocks, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2ULEGR,"Upper Leg, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2ULEGL,"Upper Leg, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2ULEGM,"Upper Leg, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2KNEEL,"Knee, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2KNEER,"Knee, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2KNEEM,"Knee, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2LLEGL,"Lower Leg, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2LLEGR,"Lower Leg, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2LLEGM,"Lower Leg, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2FOOTL,"Foot/Ankle, Left",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2FOOTR,"Foot/Ankle, Right",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q2FOOTM,"Foot/Ankle, Hurts Most",bpiq_m_r.csv,BPIQ_M_R,categorical
+Q3,Pain At Its Worst In Last 24 Hours,bpiq_m_r.csv,BPIQ_M_R,continuous
+Q3NA,Question 3 Not Answered,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q4,Pain At Its Least In Last 24 Hours,bpiq_m_r.csv,BPIQ_M_R,continuous
+Q4NA,Question 4 Not Answered,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q5,Pain On Average,bpiq_m_r.csv,BPIQ_M_R,continuous
+Q5NA,Question 5 Not Answered,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q6,Pain Right Now,bpiq_m_r.csv,BPIQ_M_R,continuous
+Q6NA,Question 6 Not Answered,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q7NA,Question 7 Not Answered,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q8,How Much Relief From Treatments Or Medications In Last 24 Hours,bpiq_m_r.csv,BPIQ_M_R,continuous
+Q8NA,Question 8 Not Answered,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q9A,How Has Pain Interfered With General Activity In Last 24 Hours,bpiq_m_r.csv,BPIQ_M_R,continuous
+Q9ANA,Question 9A Not Answered,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q9B,How Has Pain Interfered With Mood In Last 24 Hours,bpiq_m_r.csv,BPIQ_M_R,continuous
+Q9BNA,Question 9B Not Answered,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q9C,How Pain Has Interfered With Walking Ability In Last 24 Hours,bpiq_m_r.csv,BPIQ_M_R,continuous
+Q9CNA,Question 9C Not Answered,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q9D,How Pain Has Interfered With Normal Work In Last 24 Hours,bpiq_m_r.csv,BPIQ_M_R,continuous
+Q9DNA,Question 9D Not Answered,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q9E,How Pain Has Interfered With Relations In Last 24 Hours,bpiq_m_r.csv,BPIQ_M_R,continuous
+Q9ENA,Question 9E Not Answered,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q9F,How Pain Has Interfered with Sleep In Last 24 Hours,bpiq_m_r.csv,BPIQ_M_R,continuous
+Q9FNA,Question 9F Not Answered,bpiq_m_r.csv,BPIQ_M_R,categorical
+Q9G,How Pain Has Interfered With Enjoyment Of Life In Last 24 Hours,bpiq_m_r.csv,BPIQ_M_R,continuous
+Q9GNA,Question 9G Not Answered,bpiq_m_r.csv,BPIQ_M_R,categorical
+ASMTDAY,DAY OF ASSESSMENT,bpiq_m_r.csv,BPIQ_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,bpiq_m_r.csv,BPIQ_M_R,continuous
+PT_ID,New Subject ID,bpiqt_r.csv,BPIQT_R,continuous
+CATEGORY,Category,bpiqt_r.csv,BPIQT_R,categorical
+CATSORT,Category sort variable,bpiqt_r.csv,BPIQT_R,continuous
+VALUE,Value,bpiqt_r.csv,BPIQT_R,continuous
+PHASE,Phase,bpiqt_r.csv,BPIQT_R,continuous
+ASMT_DAY,Day of Assessment,bpiqt_r.csv,BPIQT_R,continuous
+ASMTTM,Time Of Assessment,bpiqt_r.csv,BPIQT_R,categorical
+TBLVIS,Table visit label,bpiqt_r.csv,BPIQT_R,categorical
+TBLVISN,Table visit label numeric,bpiqt_r.csv,BPIQT_R,continuous
+PT_ID,New Patient ID,chem_m_r.csv,CHEM_M_R,continuous
+STR,Stratum,chem_m_r.csv,CHEM_M_R,categorical
+TRTL,"Treatment, label",chem_m_r.csv,CHEM_M_R,categorical
+GENDER,Gender,chem_m_r.csv,CHEM_M_R,categorical
+SCGENO,Sickle Cell Genotype,chem_m_r.csv,CHEM_M_R,categorical
+DATASTR,,chem_m_r.csv,CHEM_M_R,categorical
+PHASE,,chem_m_r.csv,CHEM_M_R,continuous
+SEQNO,,chem_m_r.csv,CHEM_M_R,continuous
+PROJECT,,chem_m_r.csv,CHEM_M_R,categorical
+ALB,Albumin,chem_m_r.csv,CHEM_M_R,continuous
+ALBUNIT,Albumin Unit,chem_m_r.csv,CHEM_M_R,categorical
+ALBSG,ALB Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+ALK,Alkaline Phosphatase,chem_m_r.csv,CHEM_M_R,continuous
+ALKSG,ALK Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+ALT,ALT,chem_m_r.csv,CHEM_M_R,continuous
+ALTSG,ALT Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+AST,AST,chem_m_r.csv,CHEM_M_R,continuous
+ASTSG,AST Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+CO2,Bicarbonate (CO2),chem_m_r.csv,CHEM_M_R,continuous
+CO2UNIT,CO2 Unit,chem_m_r.csv,CHEM_M_R,categorical
+CO2SG,CO2 Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+BUN,Blood Urea Nitrogen (BUN),chem_m_r.csv,CHEM_M_R,continuous
+BUNUNIT,BUN Unit,chem_m_r.csv,CHEM_M_R,categorical
+BUNSG,BUN Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+CAL,Calcium,chem_m_r.csv,CHEM_M_R,continuous
+CALUNIT,Calcium Unit,chem_m_r.csv,CHEM_M_R,categorical
+CALSG,CAL Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+CHL,Chloride,chem_m_r.csv,CHEM_M_R,continuous
+CHLSG,CHL Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+CRE,Creatinine,chem_m_r.csv,CHEM_M_R,continuous
+CRUNIT,Creatinine Unit,chem_m_r.csv,CHEM_M_R,categorical
+CRESG,CRE Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+LDH,LDH,chem_m_r.csv,CHEM_M_R,continuous
+LDHSG,LDH Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+MAG,Magnesium,chem_m_r.csv,CHEM_M_R,continuous
+MAGUNIT,LDH Unit,chem_m_r.csv,CHEM_M_R,categorical
+MAGSG,MAG Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+PHOS,Phosphate/Phosphorus,chem_m_r.csv,CHEM_M_R,continuous
+PUNIT,Phosphate/Phosphorus Unit,chem_m_r.csv,CHEM_M_R,categorical
+PHOSSG,PHOS Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+POT,Potassium,chem_m_r.csv,CHEM_M_R,continuous
+POTSG,POT Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+SOD,Sodium,chem_m_r.csv,CHEM_M_R,continuous
+SODSG,SOD Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+TBIL,Total Bilirubin,chem_m_r.csv,CHEM_M_R,continuous
+TBUNIT,Total Bilirubin Unit,chem_m_r.csv,CHEM_M_R,categorical
+TBILSG,TBIL Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+TPROT,Total Protein,chem_m_r.csv,CHEM_M_R,continuous
+TPUNIT,Total Protein Unit,chem_m_r.csv,CHEM_M_R,categorical
+TPROTSG,TPROT Clinical Significance,chem_m_r.csv,CHEM_M_R,categorical
+COLLDAY,DAY OF COLLECTION,chem_m_r.csv,CHEM_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,chem_m_r.csv,CHEM_M_R,continuous
+PT_ID,New Patient ID,chem_s_r.csv,CHEM_S_R,continuous
+STR,Stratum,chem_s_r.csv,CHEM_S_R,categorical
+TRTL,"Treatment, label",chem_s_r.csv,CHEM_S_R,categorical
+GENDER,Gender,chem_s_r.csv,CHEM_S_R,categorical
+SCGENO,Sickle Cell Genotype,chem_s_r.csv,CHEM_S_R,categorical
+DATASTR,,chem_s_r.csv,CHEM_S_R,categorical
+PHASE,,chem_s_r.csv,CHEM_S_R,continuous
+SEQNO,,chem_s_r.csv,CHEM_S_R,continuous
+PROJECT,,chem_s_r.csv,CHEM_S_R,categorical
+ALB,Albumin,chem_s_r.csv,CHEM_S_R,continuous
+ALBUNIT,Albumin Unit,chem_s_r.csv,CHEM_S_R,categorical
+ALBSG,ALB Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+ALK,Alkaline Phosphatase,chem_s_r.csv,CHEM_S_R,continuous
+ALKSG,ALK Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+ALT,ALT,chem_s_r.csv,CHEM_S_R,continuous
+ALTSG,ALT Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+AST,AST,chem_s_r.csv,CHEM_S_R,continuous
+ASTSG,AST Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+CO2,Bicarbonate (CO2),chem_s_r.csv,CHEM_S_R,continuous
+CO2UNIT,CO2 Unit,chem_s_r.csv,CHEM_S_R,categorical
+CO2SG,CO2 Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+BUN,Blood Urea Nitrogen (BUN),chem_s_r.csv,CHEM_S_R,continuous
+BUNUNIT,BUN Unit,chem_s_r.csv,CHEM_S_R,categorical
+BUNSG,BUN Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+CAL,Calcium,chem_s_r.csv,CHEM_S_R,continuous
+CALUNIT,Calcium Unit,chem_s_r.csv,CHEM_S_R,categorical
+CALSG,CAL Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+CHL,Chloride,chem_s_r.csv,CHEM_S_R,continuous
+CHLSG,CHL Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+CRE,Creatinine,chem_s_r.csv,CHEM_S_R,continuous
+CRUNIT,Creatinine Unit,chem_s_r.csv,CHEM_S_R,categorical
+CRESG,CRE Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+LDH,LDH,chem_s_r.csv,CHEM_S_R,continuous
+LDHSG,LDH Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+MAG,Magnesium,chem_s_r.csv,CHEM_S_R,continuous
+MAGUNIT,Magnesium Unit,chem_s_r.csv,CHEM_S_R,categorical
+MAGSG,MAG Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+PHOS,Phosphate/Phosphorus,chem_s_r.csv,CHEM_S_R,continuous
+PUNIT,Phosphate/Phosphorus Unit,chem_s_r.csv,CHEM_S_R,categorical
+PHOSSG,PHOS Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+POT,Potassium,chem_s_r.csv,CHEM_S_R,continuous
+POTSG,POT Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+SOD,Sodium,chem_s_r.csv,CHEM_S_R,continuous
+SODSG,SOD Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+TBIL,Total Bilirubin,chem_s_r.csv,CHEM_S_R,continuous
+TBUNIT,Total Bilirubin Unit,chem_s_r.csv,CHEM_S_R,categorical
+TBILSG,TBIL Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+TPROT,Total Protein,chem_s_r.csv,CHEM_S_R,continuous
+TPUNIT,Total Protein Unit,chem_s_r.csv,CHEM_S_R,categorical
+TPROTSG,TPROT Clinical Significance,chem_s_r.csv,CHEM_S_R,categorical
+COLLDAY,DAY OF COLLECTION,chem_s_r.csv,CHEM_S_R,continuous
+AGE_TRUNC,AGE TRUNCATED,chem_s_r.csv,CHEM_S_R,continuous
+PT_ID,New Patient ID,cmedcode_o_r.csv,CMEDCODE_O_R,continuous
+STR,Stratum,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+TRTL,"Treatment, label",cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+GENDER,Gender,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+SCGENO,Sickle Cell Genotype,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+DATASTR,,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+PHASE,,cmedcode_o_r.csv,CMEDCODE_O_R,continuous
+SEQNO,,cmedcode_o_r.csv,CMEDCODE_O_R,continuous
+PROJECT,,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+MEDNAME,Medication,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+IND,Indication,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+DOSE,Dose,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+UNITS,Units,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+UNIT_SP,"Units, Other, Specify",cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+FREQ,Frequency,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+FREQ_SP,"Frequency, Other Specify",cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+ROUTE,Route,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+RTE_SP,"Route, Other, Specify",cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+SAE,Associated with an SAE?,cmedcode_o_r.csv,CMEDCODE_O_R,continuous
+STATUS,Treatment Status,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+DRUGNAME,Drug Name,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+ATC_GROUP,ATC Group,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+ATC_CODE,ATC Code,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+COUNTRYNAME,Country Name,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+WHO_CODE,WHO Code,cmedcode_o_r.csv,CMEDCODE_O_R,continuous
+PREFNAME,Preferred Name,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+ATCTEXT1,ATC Text Level 1,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+ATCTEXT2,ATC Text Level 2,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+ATCTEXT3,ATC Text Level 3,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+ATCTEXT4,ATC Text Level 4,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+COUNTRY,Country Code,cmedcode_o_r.csv,CMEDCODE_O_R,categorical
+SPLIT,Split?,cmedcode_o_r.csv,CMEDCODE_O_R,continuous
+STARTDAY,START DAY,cmedcode_o_r.csv,CMEDCODE_O_R,continuous
+STOPDAY,STOP DAY,cmedcode_o_r.csv,CMEDCODE_O_R,continuous
+AGE_TRUNC,AGE TRUNCATED,cmedcode_o_r.csv,CMEDCODE_O_R,continuous
+PT_ID,New Subject ID,conmed_r.csv,CONMED_R,continuous
+ATC_GROUP,ATC Group,conmed_r.csv,CONMED_R,categorical
+PREFNAME,Preferred Name,conmed_r.csv,CONMED_R,categorical
+MEDNAME,Medication,conmed_r.csv,CONMED_R,categorical
+IND,Indication,conmed_r.csv,CONMED_R,categorical
+DOSE,Dose,conmed_r.csv,CONMED_R,categorical
+UNITS,Units,conmed_r.csv,CONMED_R,categorical
+FREQ,Frequency,conmed_r.csv,CONMED_R,categorical
+ROUTE,Route,conmed_r.csv,CONMED_R,categorical
+START_DAY,Start Day,conmed_r.csv,CONMED_R,continuous
+STOP_DAY,Stop Day,conmed_r.csv,CONMED_R,continuous
+SAE,SAE associated w/ med,conmed_r.csv,CONMED_R,categorical
+STATUS,Status,conmed_r.csv,CONMED_R,categorical
+CONCOM,Concomitant medication,conmed_r.csv,CONMED_R,categorical
+PT_ID,New Patient ID,cxra_m_r.csv,CXRA_M_R,continuous
+STR,Stratum,cxra_m_r.csv,CXRA_M_R,categorical
+TRTL,"Treatment, label",cxra_m_r.csv,CXRA_M_R,categorical
+GENDER,Gender,cxra_m_r.csv,CXRA_M_R,categorical
+SCGENO,Sickle Cell Genotype,cxra_m_r.csv,CXRA_M_R,categorical
+DATASTR,,cxra_m_r.csv,CXRA_M_R,categorical
+PHASE,,cxra_m_r.csv,CXRA_M_R,continuous
+SEQNO,,cxra_m_r.csv,CXRA_M_R,continuous
+PROJECT,,cxra_m_r.csv,CXRA_M_R,categorical
+RESULT,Result,cxra_m_r.csv,CXRA_M_R,categorical
+ABN1,Atelectasis,cxra_m_r.csv,CXRA_M_R,categorical
+ABN1RSL,"Atelectasis Location, Right Superior Lobe",cxra_m_r.csv,CXRA_M_R,continuous
+ABN1RML,"Atelectasis Location, Right Middle Lobe",cxra_m_r.csv,CXRA_M_R,continuous
+ABN1RIL,"Atelectasis Location, Right Inferior Lobe",cxra_m_r.csv,CXRA_M_R,categorical
+ABN1LSL,"Atelectasis Location, Left Superior Lobe",cxra_m_r.csv,CXRA_M_R,continuous
+ABN1LIL,"Atelectasis Location, Left Inferior Lobe",cxra_m_r.csv,CXRA_M_R,categorical
+ABN2,Bony Abnormalities,cxra_m_r.csv,CXRA_M_R,categorical
+ABN3,Cardiomegaly,cxra_m_r.csv,CXRA_M_R,categorical
+ABN4,Effusion,cxra_m_r.csv,CXRA_M_R,continuous
+ABN5,Infiltrates,cxra_m_r.csv,CXRA_M_R,categorical
+ABN5RSL,"Infiltrates, Location, Right Superior Lobe",cxra_m_r.csv,CXRA_M_R,categorical
+ABN5RML,"Infiltrates, Location, Right Middle Lobe",cxra_m_r.csv,CXRA_M_R,categorical
+ABN5RIL,"Infiltrates, Location, Right Inferior Lobe",cxra_m_r.csv,CXRA_M_R,categorical
+ABN5LSL,"Infiltrates, Location, Left Superior Lobe",cxra_m_r.csv,CXRA_M_R,categorical
+ABN5LIL,"Infiltrates, Location, Left Inferior Lobe",cxra_m_r.csv,CXRA_M_R,categorical
+ABN6,Interstitial Changes,cxra_m_r.csv,CXRA_M_R,categorical
+ABN6RSL,"Interstitial Location, Right Superior Lobe",cxra_m_r.csv,CXRA_M_R,continuous
+ABN6RML,"Interstitial Location, Right Middle Lobe",cxra_m_r.csv,CXRA_M_R,categorical
+ABN6RIL,"Interstitial Location, Right Inferior Lobe",cxra_m_r.csv,CXRA_M_R,categorical
+ABN6LSL,"Interstitial Location, Left Superior Lobe",cxra_m_r.csv,CXRA_M_R,continuous
+ABN6LIL,"Interstitial Location, Left Inferior Lobe",cxra_m_r.csv,CXRA_M_R,categorical
+ABN7,Mass,cxra_m_r.csv,CXRA_M_R,continuous
+ABN7RSL,"Infiltrates, Location, Right Superior Lobe",cxra_m_r.csv,CXRA_M_R,continuous
+ABN7RML,"Mass Location, Right Middle Lobe",cxra_m_r.csv,CXRA_M_R,continuous
+ABN7RIL,"Infiltrates, Location, Right Inferior Lobe",cxra_m_r.csv,CXRA_M_R,continuous
+ABN7LSL,"Mass Location, Left Superior Lobe",cxra_m_r.csv,CXRA_M_R,continuous
+ABN7LIL,"Mass Location, Left Inferior Lobe",cxra_m_r.csv,CXRA_M_R,continuous
+ABN8,Pulmonary Artery Enlargement,cxra_m_r.csv,CXRA_M_R,categorical
+ABN9,Soft Tissue Abnormalities,cxra_m_r.csv,CXRA_M_R,categorical
+ABN10,Other Abnormality,cxra_m_r.csv,CXRA_M_R,categorical
+AGE_TRUNC,AGE TRUNCATED,cxra_m_r.csv,CXRA_M_R,continuous
+PROCDAY,DAY OF PROCEDURE,cxra_m_r.csv,CXRA_M_R,continuous
+PT_ID,New Patient ID,demo_s_r.csv,DEMO_S_R,continuous
+STR,Stratum,demo_s_r.csv,DEMO_S_R,categorical
+TRTL,"Treatment, label",demo_s_r.csv,DEMO_S_R,categorical
+GENDER,Gender,demo_s_r.csv,DEMO_S_R,categorical
+SCGENO,Sickle Cell Genotype,demo_s_r.csv,DEMO_S_R,categorical
+DATASTR,,demo_s_r.csv,DEMO_S_R,categorical
+PHASE,,demo_s_r.csv,DEMO_S_R,continuous
+SEQNO,,demo_s_r.csv,DEMO_S_R,continuous
+PROJECT,,demo_s_r.csv,DEMO_S_R,categorical
+OUTCARE,Received Medical Care Outside US/UK?,demo_s_r.csv,DEMO_S_R,categorical
+CAREYRS,Number Of Years Received Medical Care Outside US/UK,demo_s_r.csv,DEMO_S_R,continuous
+MALIVE,Is Mother Alive?,demo_s_r.csv,DEMO_S_R,categorical
+FALIVE,Is Father Alive?,demo_s_r.csv,DEMO_S_R,categorical
+FULLUNK,Number Of Full Siblings Unknown,demo_s_r.csv,DEMO_S_R,categorical
+HALFUNK,Number Of Half Siblings Unknown,demo_s_r.csv,DEMO_S_R,categorical
+ASMTDAY,DAY OF ASSESSMENT,demo_s_r.csv,DEMO_S_R,continuous
+DOBDAY,DAY OF BIRTH,demo_s_r.csv,DEMO_S_R,continuous
+RACE_ETHNIC,Race_Ethnic,demo_s_r.csv,DEMO_S_R,categorical
+MRACE_ETHNIC,Maternal Race_Ethnic,demo_s_r.csv,DEMO_S_R,categorical
+FRACE_ETHNIC,Paternal Race_Ethnic,demo_s_r.csv,DEMO_S_R,categorical
+FULLSIB_TRUNC,NUMBER OF FULL SIBLINGS - TRUNCATED TO 0-8,demo_s_r.csv,DEMO_S_R,continuous
+HALFSIB_TRUNC,NUMBER OF HALF SIBLINGS - TRUNCATED TO 0-8,demo_s_r.csv,DEMO_S_R,continuous
+AGE_TRUNC,AGE TRUNCATED,demo_s_r.csv,DEMO_S_R,continuous
+PT_ID,New Patient ID,dgts_s_r.csv,DGTS_S_R,continuous
+STR,Stratum,dgts_s_r.csv,DGTS_S_R,categorical
+TRTL,"Treatment, label",dgts_s_r.csv,DGTS_S_R,categorical
+GENDER,Gender,dgts_s_r.csv,DGTS_S_R,categorical
+SCGENO,Sickle Cell Genotype,dgts_s_r.csv,DGTS_S_R,categorical
+DATASTR,,dgts_s_r.csv,DGTS_S_R,categorical
+PHASE,,dgts_s_r.csv,DGTS_S_R,continuous
+SEQNO,,dgts_s_r.csv,DGTS_S_R,continuous
+PROJECT,,dgts_s_r.csv,DGTS_S_R,categorical
+TYPE,Test Type,dgts_s_r.csv,DGTS_S_R,categorical
+RESULT,Results,dgts_s_r.csv,DGTS_S_R,categorical
+TESTDAY,TEST DAY,dgts_s_r.csv,DGTS_S_R,continuous
+AGE_TRUNC,AGE TRUNCATED,dgts_s_r.csv,DGTS_S_R,continuous
+PT_ID,New Patient ID,disc_o_r.csv,DISC_O_R,continuous
+STR,Stratum,disc_o_r.csv,DISC_O_R,categorical
+TRTL,"Treatment, label",disc_o_r.csv,DISC_O_R,categorical
+GENDER,Gender,disc_o_r.csv,DISC_O_R,categorical
+SCGENO,Sickle Cell Genotype,disc_o_r.csv,DISC_O_R,categorical
+DATASTR,,disc_o_r.csv,DISC_O_R,categorical
+PHASE,,disc_o_r.csv,DISC_O_R,continuous
+SEQNO,,disc_o_r.csv,DISC_O_R,continuous
+PROJECT,,disc_o_r.csv,DISC_O_R,categorical
+COMPL,Did subject complete 1 year in Open Label Study?,disc_o_r.csv,DISC_O_R,categorical
+REASON,Reason Not Completed,disc_o_r.csv,DISC_O_R,categorical
+CAUSE,Primary Cause of Death,disc_o_r.csv,DISC_O_R,continuous
+RELSC,Death Related to Progression of Sickle Cell Diseasee?,disc_o_r.csv,DISC_O_R,continuous
+RELPH,Death Related to Progression Of Pulmonary Hypertenions?,disc_o_r.csv,DISC_O_R,continuous
+AUTOP,Was Autopsy Performed?,disc_o_r.csv,DISC_O_R,continuous
+SAFTYFU,Was there a one-month safety follow-up?,disc_o_r.csv,DISC_O_R,categorical
+LFUDAY,DAY OF LAST OBSERVATIONAL FOLLOW-UP STUDY CONTACT,disc_o_r.csv,DISC_O_R,continuous
+DEATHDAY,DAY OF DEATH,disc_o_r.csv,DISC_O_R,continuous
+SAFTYDAY,DAY OF ONE MONTH FOLLOW UP,disc_o_r.csv,DISC_O_R,continuous
+AGE_TRUNC,AGE TRUNCATED,disc_o_r.csv,DISC_O_R,continuous
+PT_ID,New Patient ID,drlg_o_r.csv,DRLG_O_R,continuous
+STR,Stratum,drlg_o_r.csv,DRLG_O_R,categorical
+TRTL,"Treatment, label",drlg_o_r.csv,DRLG_O_R,categorical
+GENDER,Gender,drlg_o_r.csv,DRLG_O_R,categorical
+SCGENO,Sickle Cell Genotype,drlg_o_r.csv,DRLG_O_R,categorical
+DATASTR,,drlg_o_r.csv,DRLG_O_R,categorical
+PHASE,,drlg_o_r.csv,DRLG_O_R,continuous
+SEQNO,,drlg_o_r.csv,DRLG_O_R,continuous
+PROJECT,,drlg_o_r.csv,DRLG_O_R,categorical
+DOSE,Total Daily Dose Prescribed,drlg_o_r.csv,DRLG_O_R,continuous
+REASON,Reason,drlg_o_r.csv,DRLG_O_R,categorical
+STARTDAY,START DAY,drlg_o_r.csv,DRLG_O_R,continuous
+STOPDAY,STOP DAY,drlg_o_r.csv,DRLG_O_R,continuous
+AGE_TRUNC,AGE TRUNCATED,drlg_o_r.csv,DRLG_O_R,continuous
+PT_ID,New Patient ID,echo_m_r.csv,ECHO_M_R,continuous
+STR,Stratum,echo_m_r.csv,ECHO_M_R,categorical
+TRTL,"Treatment, label",echo_m_r.csv,ECHO_M_R,categorical
+GENDER,Gender,echo_m_r.csv,ECHO_M_R,categorical
+SCGENO,Sickle Cell Genotype,echo_m_r.csv,ECHO_M_R,categorical
+DATASTR,,echo_m_r.csv,ECHO_M_R,categorical
+PHASE,,echo_m_r.csv,ECHO_M_R,continuous
+SEQNO,,echo_m_r.csv,ECHO_M_R,continuous
+PROJECT,,echo_m_r.csv,ECHO_M_R,categorical
+DRUGTM,Time Of Last Dose Of Study Drug,echo_m_r.csv,ECHO_M_R,categorical
+DRUGHH,Time Of Last Dose Of Study Drug hour,echo_m_r.csv,ECHO_M_R,continuous
+DRUGMM,Time Of Last Dose Of Study Drug minute,echo_m_r.csv,ECHO_M_R,continuous
+NODRUG,N/A Subject Not On Study Drug,echo_m_r.csv,ECHO_M_R,categorical
+PROCTM,Time Of Procedure,echo_m_r.csv,ECHO_M_R,categorical
+PROCHH,Time Of Procedure hour,echo_m_r.csv,ECHO_M_R,continuous
+PROCMM,Time Of Procedure minute,echo_m_r.csv,ECHO_M_R,continuous
+SYSBP,Systolic Blood Pressue At Time Of Procedure,echo_m_r.csv,ECHO_M_R,continuous
+DIABP,Diastolic Blood Pressue At Time Of Procedure,echo_m_r.csv,ECHO_M_R,continuous
+TRJV,Tricuspid Regurgitant Jet Velocity (m/s),echo_m_r.csv,ECHO_M_R,continuous
+TRJVND,TRJV Not Detectable,echo_m_r.csv,ECHO_M_R,categorical
+ERAP,Estimated Right Atrial Pressure (mmHg),echo_m_r.csv,ECHO_M_R,continuous
+LVFUN,LV Function,echo_m_r.csv,ECHO_M_R,categorical
+LVEF,Left Ventrical Ejection Fraction,echo_m_r.csv,ECHO_M_R,continuous
+AR,Aortic Regurgitation,echo_m_r.csv,ECHO_M_R,categorical
+MR,Mitral Regurgitation,echo_m_r.csv,ECHO_M_R,categorical
+TR,Tricuspid Regurgitation,echo_m_r.csv,ECHO_M_R,categorical
+PROCDAY,DAY OF PROCEDURE,echo_m_r.csv,ECHO_M_R,continuous
+DRUGDAY,DAY OF LAST DOSE OF STUDY DRUG,echo_m_r.csv,ECHO_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,echo_m_r.csv,ECHO_M_R,continuous
+PT_ID,New Patient ID,echo_s_r.csv,ECHO_S_R,continuous
+STR,Stratum,echo_s_r.csv,ECHO_S_R,categorical
+TRTL,"Treatment, label",echo_s_r.csv,ECHO_S_R,categorical
+GENDER,Gender,echo_s_r.csv,ECHO_S_R,categorical
+SCGENO,Sickle Cell Genotype,echo_s_r.csv,ECHO_S_R,categorical
+DATASTR,,echo_s_r.csv,ECHO_S_R,categorical
+PHASE,,echo_s_r.csv,ECHO_S_R,continuous
+SEQNO,,echo_s_r.csv,ECHO_S_R,continuous
+PROJECT,,echo_s_r.csv,ECHO_S_R,categorical
+PROCTM,Time Of Procedure,echo_s_r.csv,ECHO_S_R,categorical
+PROCHH,Time Of Procedure hour,echo_s_r.csv,ECHO_S_R,continuous
+PROCMM,Time Of Procedure minute,echo_s_r.csv,ECHO_S_R,continuous
+SYSBP,Systolic Blood Pressue At Time Of Procedure,echo_s_r.csv,ECHO_S_R,continuous
+DIABP,Diastolic Blood Pressue At Time Of Procedure,echo_s_r.csv,ECHO_S_R,continuous
+TRJV,Tricuspid Regurgitant Jet Velocity (m/s),echo_s_r.csv,ECHO_S_R,continuous
+TRJVND,TRJV Not Detectable,echo_s_r.csv,ECHO_S_R,categorical
+ERAP,Estimated Right Atrial Pressure (mmHg),echo_s_r.csv,ECHO_S_R,continuous
+LVFUN,LV Function,echo_s_r.csv,ECHO_S_R,categorical
+LVEF,Left Ventrical Ejection Fraction,echo_s_r.csv,ECHO_S_R,continuous
+AR,Aortic Regurgitation,echo_s_r.csv,ECHO_S_R,categorical
+MR,Mitral Regurgitation,echo_s_r.csv,ECHO_S_R,categorical
+TR,Tricuspid Regurgitation,echo_s_r.csv,ECHO_S_R,categorical
+PROCDAY,DAY OF PROCEDURE,echo_s_r.csv,ECHO_S_R,continuous
+AGE_TRUNC,AGE TRUNCATED,echo_s_r.csv,ECHO_S_R,continuous
+PT_ID,New Subject ID,echot_r.csv,ECHOT_R,continuous
+CATEGORY,Category,echot_r.csv,ECHOT_R,categorical
+CATSORT,Category sort variable,echot_r.csv,ECHOT_R,continuous
+LEVEL,Level,echot_r.csv,ECHOT_R,categorical
+VALUE,Value,echot_r.csv,ECHOT_R,continuous
+PHASE,Phase,echot_r.csv,ECHOT_R,continuous
+PROC_DAY,Day of Procedure,echot_r.csv,ECHOT_R,continuous
+TBLVIS,Table visit label,echot_r.csv,ECHOT_R,categorical
+TBLVISN,Table visit label numeric,echot_r.csv,ECHOT_R,continuous
+PT_ID,New Patient ID,heel_m_r.csv,HEEL_M_R,continuous
+STR,Stratum,heel_m_r.csv,HEEL_M_R,categorical
+TRTL,"Treatment, label",heel_m_r.csv,HEEL_M_R,categorical
+GENDER,Gender,heel_m_r.csv,HEEL_M_R,categorical
+SCGENO,Sickle Cell Genotype,heel_m_r.csv,HEEL_M_R,categorical
+DATASTR,,heel_m_r.csv,HEEL_M_R,categorical
+PHASE,,heel_m_r.csv,HEEL_M_R,continuous
+SEQNO,,heel_m_r.csv,HEEL_M_R,continuous
+PROJECT,,heel_m_r.csv,HEEL_M_R,categorical
+HIST,Was A Historical Hemoglobin Electrophoresis Used?,heel_m_r.csv,HEEL_M_R,categorical
+HEMA,Hemoglobin Electrophoresis A (%),heel_m_r.csv,HEEL_M_R,continuous
+HEMA2,Hemoglobin Electrophoresis A2 (%),heel_m_r.csv,HEEL_M_R,continuous
+HEMC,Hemoglobin Electrophoresis C (%),heel_m_r.csv,HEEL_M_R,continuous
+HEMF,F (%),heel_m_r.csv,HEEL_M_R,continuous
+HEMS,S (%),heel_m_r.csv,HEEL_M_R,continuous
+HEMOTH,Other (%),heel_m_r.csv,HEEL_M_R,continuous
+COLLDAY,DAY OF COLLECTION,heel_m_r.csv,HEEL_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,heel_m_r.csv,HEEL_M_R,continuous
+PT_ID,New Patient ID,hema_s_r.csv,HEMA_S_R,continuous
+STR,Stratum,hema_s_r.csv,HEMA_S_R,categorical
+TRTL,"Treatment, label",hema_s_r.csv,HEMA_S_R,categorical
+GENDER,Gender,hema_s_r.csv,HEMA_S_R,categorical
+SCGENO,Sickle Cell Genotype,hema_s_r.csv,HEMA_S_R,categorical
+DATASTR,,hema_s_r.csv,HEMA_S_R,categorical
+PHASE,,hema_s_r.csv,HEMA_S_R,continuous
+SEQNO,,hema_s_r.csv,HEMA_S_R,continuous
+PROJECT,,hema_s_r.csv,HEMA_S_R,categorical
+ANC,Absolute Neutrophil Count (ANC),hema_s_r.csv,HEMA_S_R,continuous
+ANCSG,"ANC, Significance",hema_s_r.csv,HEMA_S_R,categorical
+NEUT,Neutrophils (%),hema_s_r.csv,HEMA_S_R,continuous
+NEUTSG,"Neutrophils, Significance",hema_s_r.csv,HEMA_S_R,categorical
+ARC,Absolute Reticulocyte Count,hema_s_r.csv,HEMA_S_R,continuous
+ARCSG,"ARC, Significance",hema_s_r.csv,HEMA_S_R,categorical
+RET,Reticulocytes (%),hema_s_r.csv,HEMA_S_R,continuous
+RETSG,"Reticulocytes, Significance",hema_s_r.csv,HEMA_S_R,categorical
+HCT,Hematocrit,hema_s_r.csv,HEMA_S_R,continuous
+HCTUNIT,Hematocrit Unit,hema_s_r.csv,HEMA_S_R,categorical
+HCTSG,Hematocrit Significance,hema_s_r.csv,HEMA_S_R,categorical
+HGB,Hemoglobin,hema_s_r.csv,HEMA_S_R,continuous
+HGBUNIT,Hemoglobin Unit,hema_s_r.csv,HEMA_S_R,categorical
+HGBSG,HGB Significance,hema_s_r.csv,HEMA_S_R,categorical
+MCHC,MCHC,hema_s_r.csv,HEMA_S_R,continuous
+MCHUNIT,MCHC Unit,hema_s_r.csv,HEMA_S_R,categorical
+MCHCSG,MCHC Significance,hema_s_r.csv,HEMA_S_R,categorical
+MCV,Mean Cell Volume (MCV),hema_s_r.csv,HEMA_S_R,continuous
+MCVSG,"MCV, Significance",hema_s_r.csv,HEMA_S_R,categorical
+PLAT,Platelet Count,hema_s_r.csv,HEMA_S_R,continuous
+PLATSG,PLAT Significance,hema_s_r.csv,HEMA_S_R,categorical
+RBC,RBC,hema_s_r.csv,HEMA_S_R,continuous
+RBCSG,RBC Significance,hema_s_r.csv,HEMA_S_R,categorical
+WBC,White Blood Cell (WBC) Count,hema_s_r.csv,HEMA_S_R,continuous
+WBCSG,WBC Significance,hema_s_r.csv,HEMA_S_R,categorical
+COLLDAY,DAY OF COLLECTION,hema_s_r.csv,HEMA_S_R,continuous
+AGE_TRUNC,AGE TRUNCATED,hema_s_r.csv,HEMA_S_R,continuous
+PT_ID,New Subject ID,lab_t_r.csv,LABT_R,continuous
+SOURCE,Source,lab_t_r.csv,LABT_R,categorical
+CATEGORY,Category,lab_t_r.csv,LABT_R,categorical
+CATSORT,Category sort variable,lab_t_r.csv,LABT_R,continuous
+LEVEL,Level,lab_t_r.csv,LABT_R,categorical
+VALUE,Value,lab_t_r.csv,LABT_R,continuous
+SIUNIT,SI unit,lab_t_r.csv,LABT_R,categorical
+CLINSIG,Clinical significance,lab_t_r.csv,LABT_R,categorical
+PHASE,Phase,lab_t_r.csv,LABT_R,continuous
+COLL_DAY,Day of Collection,lab_t_r.csv,LABT_R,continuous
+TBLVIS,Table visit label,lab_t_r.csv,LABT_R,categorical
+TBLVISN,Table visit label numeric,lab_t_r.csv,LABT_R,continuous
+BLVALUE,Baseline value,lab_t_r.csv,LABT_R,continuous
+CHANGE,Change from baseline value,lab_t_r.csv,LABT_R,continuous
+PBL,Post-baseline record,lab_t_r.csv,LABT_R,categorical
+PT_ID,New Patient ID,mdx1_r.csv,MDX1_R,continuous
+DATASTR,,mdx1_r.csv,MDX1_R,categorical
+PHASE,,mdx1_r.csv,MDX1_R,continuous
+SEQNO,,mdx1_r.csv,MDX1_R,continuous
+PARSEQ,,mdx1_r.csv,MDX1_R,continuous
+CRFPAGE,,mdx1_r.csv,MDX1_R,continuous
+PAGE,,mdx1_r.csv,MDX1_R,continuous
+EDC_KEY,,mdx1_r.csv,MDX1_R,continuous
+PARENT_KEY,,mdx1_r.csv,MDX1_R,continuous
+ASMTDAY,Day Of Assessment,mdx1_r.csv,MDX1_R,continuous
+SCGENO,Sickle Cell Genotype,mdx1_r.csv,MDX1_R,categorical
+PHDAY,Pulmonary Hypertension Day of Diagnosis,mdx1_r.csv,MDX1_R,continuous
+PHNA,"Pulmonary Hypertension Diagnosis, Not Applicable",mdx1_r.csv,MDX1_R,categorical
+TRANTOT,Total Number Of Transfusion In Lifetime,mdx1_r.csv,MDX1_R,categorical
+THRPY,On Chronic Transfusion Therapy?,mdx1_r.csv,MDX1_R,categorical
+THRPYDAY,"Chronic Transfusion Therapy, Day Started",mdx1_r.csv,MDX1_R,continuous
+TRANDAY,Day Of Last Transfusion,mdx1_r.csv,MDX1_R,continuous
+TRANTYP,Type Of Transfusion,mdx1_r.csv,MDX1_R,categorical
+UNITS,Number Of Units Transfused,mdx1_r.csv,MDX1_R,continuous
+REAC1,"Previous Transfusion Reaction, None",mdx1_r.csv,MDX1_R,categorical
+REAC2,"Previous Transfusion Reaction, Allergic (fever, urticaria, chills, etc.)",mdx1_r.csv,MDX1_R,categorical
+REAC3,"Previous Transfusion Reaction, Alloimmunization (Antibodies To Transfused Red Cells)",mdx1_r.csv,MDX1_R,categorical
+REAC4,"Previous Transfusion Reaction, Febrile (fever, chilles)",mdx1_r.csv,MDX1_R,categorical
+REAC5,"Previous Transfusion Reaction, Hemolytic",mdx1_r.csv,MDX1_R,categorical
+REACOTH,"Previous Transfusion Reaction, Other",mdx1_r.csv,MDX1_R,categorical
+NOTAPP,Reproductive History Not Applicable,mdx1_r.csv,MDX1_R,categorical
+STATUS,Reproductive Status,mdx1_r.csv,MDX1_R,categorical
+AGEMEN1_TRUNC,"Age Of Menarche, Truncated to 11-19 Years",mdx1_r.csv,MDX1_R,continuous
+CYCLE,Cycle Length,mdx1_r.csv,MDX1_R,categorical
+REGULAR,Cycle Regular?,mdx1_r.csv,MDX1_R,categorical
+AGEMEN2_TRUNC,"Age Of Menarche, Truncated to 12-17 Years",mdx1_r.csv,MDX1_R,continuous
+ONSET_TRUNC,"Age At Onset Of Menopause, Truncated to 35-50 Years",mdx1_r.csv,MDX1_R,continuous
+PREG_R,"Number of Pregnancies, Redacted",mdx1_r.csv,MDX1_R,categorical
+BIRTH_R,"Number of Live Births, Redacted",mdx1_r.csv,MDX1_R,categorical
+SMK,Smoking History,mdx1_r.csv,MDX1_R,categorical
+SMKPKS_TRUNC,"Smoking, Maximum Packs/Day, Truncated to 2",mdx1_r.csv,MDX1_R,continuous
+COLL,How Was Information Collected?,mdx1_r.csv,MDX1_R,categorical
+PT_ID,New Patient ID,mdx1_s_r.csv,MDX1_S_R,continuous
+STR,Stratum,mdx1_s_r.csv,MDX1_S_R,categorical
+TRTL,"Treatment, label",mdx1_s_r.csv,MDX1_S_R,categorical
+GENDER,Gender,mdx1_s_r.csv,MDX1_S_R,categorical
+SCGENO,Sickle Cell Genotype,mdx1_s_r.csv,MDX1_S_R,categorical
+DATASTR,,mdx1_s_r.csv,MDX1_S_R,categorical
+PHASE,,mdx1_s_r.csv,MDX1_S_R,continuous
+SEQNO,,mdx1_s_r.csv,MDX1_S_R,continuous
+PROJECT,,mdx1_s_r.csv,MDX1_S_R,categorical
+PHNA,"Pulmonary Hypertension Diagnosis, Not Applicable",mdx1_s_r.csv,MDX1_S_R,categorical
+TRANTOT,Total Number Of Transfusion In Lifetime,mdx1_s_r.csv,MDX1_S_R,categorical
+THRPY,On Chronic Transfusion Therapy?,mdx1_s_r.csv,MDX1_S_R,categorical
+TRANTYP,Type Of Transfusion,mdx1_s_r.csv,MDX1_S_R,categorical
+UNITS,Number Of Units Transfused,mdx1_s_r.csv,MDX1_S_R,continuous
+REAC1,"Previous Transfusion Reaction, None",mdx1_s_r.csv,MDX1_S_R,categorical
+REAC2,"Previous Transfusion Reaction, Allergic (fever, urticaria, chills, etc.)",mdx1_s_r.csv,MDX1_S_R,categorical
+REAC3,"Previous Transfusion Reaction, Alloimmunization (Antibodies To Transfused Red Cells)",mdx1_s_r.csv,MDX1_S_R,categorical
+REAC4,"Previous Transfusion Reaction, Febrile (fever, chilles)",mdx1_s_r.csv,MDX1_S_R,categorical
+REAC5,"Previous Transfusion Reaction, Hemolytic",mdx1_s_r.csv,MDX1_S_R,categorical
+REACOTH,"Previous Transfusion Reaction, Other",mdx1_s_r.csv,MDX1_S_R,categorical
+NOTAPP,Reproductive History Not Applicable,mdx1_s_r.csv,MDX1_S_R,categorical
+STATUS,Reproductive Status,mdx1_s_r.csv,MDX1_S_R,categorical
+CYCLE,Cycle Length,mdx1_s_r.csv,MDX1_S_R,categorical
+REGULAR,Cycle Regular?,mdx1_s_r.csv,MDX1_S_R,categorical
+SMK,Smoking History,mdx1_s_r.csv,MDX1_S_R,categorical
+ASMTDAY,DAY OF ASSESSMENT,mdx1_s_r.csv,MDX1_S_R,continuous
+PHDAY,PULMONARY HYPERTENSION DAY OF DIAGNOSIS,mdx1_s_r.csv,MDX1_S_R,continuous
+THRPYDAY,"CHRONIC TRANSFUSION ON THERAPY, DAY STARED",mdx1_s_r.csv,MDX1_S_R,continuous
+TRANDAY,DAY OF LAST TRANSFUSION,mdx1_s_r.csv,MDX1_S_R,continuous
+ONSET_TRUNC,"AGE AT ONSET OF MENOPAUSE, TRUNCATED TO 35-50 YEARS",mdx1_s_r.csv,MDX1_S_R,continuous
+AGEMEN1_TRUNC,"AGE OF MENARCHE, TRUNCATED TO 12-19 YEARS",mdx1_s_r.csv,MDX1_S_R,continuous
+AGEMEN2_TRUNC,"AGE OF MENARCHE, TRUNCATED TO 12-19 YEARS",mdx1_s_r.csv,MDX1_S_R,continuous
+PREG_R,"NUMBER OF PREGNANCIES, REDACTED",mdx1_s_r.csv,MDX1_S_R,categorical
+BIRTH_R,"NUMBER OF LIVE BIRTHS, REDACTED",mdx1_s_r.csv,MDX1_S_R,categorical
+SMKPKS_TRUNC,"SMOKING, MAXIMUM PACKS/DAY, TRUNCATED TO 2",mdx1_s_r.csv,MDX1_S_R,continuous
+AGE_TRUNC,AGE TRUNCATED,mdx1_s_r.csv,MDX1_S_R,continuous
+PT_ID,New Patient ID,mdx2_s_r.csv,MDX2_S_R,continuous
+STR,Stratum,mdx2_s_r.csv,MDX2_S_R,categorical
+TRTL,"Treatment, label",mdx2_s_r.csv,MDX2_S_R,categorical
+GENDER,Gender,mdx2_s_r.csv,MDX2_S_R,categorical
+SCGENO,Sickle Cell Genotype,mdx2_s_r.csv,MDX2_S_R,categorical
+DATASTR,,mdx2_s_r.csv,MDX2_S_R,categorical
+PHASE,,mdx2_s_r.csv,MDX2_S_R,continuous
+SEQNO,,mdx2_s_r.csv,MDX2_S_R,continuous
+PROJECT,,mdx2_s_r.csv,MDX2_S_R,categorical
+TON,"Procedure, Tonsillectomy/Adenoidectomy",mdx2_s_r.csv,MDX2_S_R,categorical
+SPL,"Procedure, Splenectomy",mdx2_s_r.csv,MDX2_S_R,categorical
+CHL,"Procedure, Cholecystectomy",mdx2_s_r.csv,MDX2_S_R,categorical
+HCP,"Procedure, Hip Core Procedure",mdx2_s_r.csv,MDX2_S_R,categorical
+HR,"Procedure, Hip Replacement",mdx2_s_r.csv,MDX2_S_R,categorical
+LPE,"Procedure, Laser Procedure of the Eye(s)",mdx2_s_r.csv,MDX2_S_R,categorical
+VIT,"Procedure, Vitrectomy",mdx2_s_r.csv,MDX2_S_R,categorical
+IPL,"Procedure, Insertion of a Permanent Indwelling Line",mdx2_s_r.csv,MDX2_S_R,categorical
+RPL,"Procedure, Removal of a Permanent Indwelling Line",mdx2_s_r.csv,MDX2_S_R,categorical
+PEN,"Procedure, Penile Implant",mdx2_s_r.csv,MDX2_S_R,categorical
+SUR_OTH,"Procedure, Other",mdx2_s_r.csv,MDX2_S_R,categorical
+MBJ,"Muscle, Bone Or Joint Problems",mdx2_s_r.csv,MDX2_S_R,categorical
+M_HIP,Hip Complications,mdx2_s_r.csv,MDX2_S_R,categorical
+M_AVH,Avascular Necrosis Of Hip,mdx2_s_r.csv,MDX2_S_R,categorical
+M_SHL,Shoulder Complications,mdx2_s_r.csv,MDX2_S_R,categorical
+M_AVS,Avascular Necrosis Of Shoulder,mdx2_s_r.csv,MDX2_S_R,categorical
+M_DAC,Dactylitis (Hand Foot Syndrome),mdx2_s_r.csv,MDX2_S_R,categorical
+M_ULC,Leg Ulcers,mdx2_s_r.csv,MDX2_S_R,categorical
+M_OMY,Osteomyelitis (acute or chronic)/Bone marrow infection,mdx2_s_r.csv,MDX2_S_R,categorical
+M_OSP,Osteopenia ('thin bones'),mdx2_s_r.csv,MDX2_S_R,categorical
+M_OTH,"Muscle, Bone, Joint, Other",mdx2_s_r.csv,MDX2_S_R,categorical
+M_UNSU,"Muscle, Bone, Joint, Subject Unsure what problem is/was",mdx2_s_r.csv,MDX2_S_R,categorical
+HEART,Heart Problems,mdx2_s_r.csv,MDX2_S_R,categorical
+H_FAIL,Heart Failure,mdx2_s_r.csv,MDX2_S_R,categorical
+H_ATK,Heart Attack,mdx2_s_r.csv,MDX2_S_R,categorical
+H_ARH,Arrhythmia Or Prolonged Irregular Heart Beats,mdx2_s_r.csv,MDX2_S_R,categorical
+H_ENL,Enlarged (Big) Heart,mdx2_s_r.csv,MDX2_S_R,categorical
+H_CMY,Cardiomyopathy Or 'Weak Heart',mdx2_s_r.csv,MDX2_S_R,categorical
+H_HVP,Heart valve problems,mdx2_s_r.csv,MDX2_S_R,categorical
+H_HYP,High blood pressure/hypertension,mdx2_s_r.csv,MDX2_S_R,categorical
+H_OTH,"Heart, Other",mdx2_s_r.csv,MDX2_S_R,categorical
+H_UNSU,"Heart, Subject Unsure What Problem Is/Was",mdx2_s_r.csv,MDX2_S_R,categorical
+KIDNEY,Kidney/Urinary/Genital Problems,mdx2_s_r.csv,MDX2_S_R,categorical
+K_CRF,Chronic Renal (Kidney) Failure,mdx2_s_r.csv,MDX2_S_R,categorical
+K_PYL,Pyelonephritis Or Infection In The Kidney,mdx2_s_r.csv,MDX2_S_R,categorical
+K_ARF,Acute Renal (Kidney) Failure,mdx2_s_r.csv,MDX2_S_R,categorical
+K_CRI,Chronic Renal Insufficiency,mdx2_s_r.csv,MDX2_S_R,categorical
+K_EDI,Erectile Dysfunction Or Impotence,mdx2_s_r.csv,MDX2_S_R,categorical
+K_HEM,Hematuria Or 'Blood In Urine',mdx2_s_r.csv,MDX2_S_R,categorical
+K_PRI,Priapism Or Painful Prolonged Penile Erection,mdx2_s_r.csv,MDX2_S_R,categorical
+K_PROT,Proteinuria Or Nephrotic Syndrome,mdx2_s_r.csv,MDX2_S_R,categorical
+K_OTH,Kidney Other,mdx2_s_r.csv,MDX2_S_R,categorical
+K_UNSU,"Kidney, Subject Unsure What Problem Is/Was",mdx2_s_r.csv,MDX2_S_R,categorical
+LIVER,Liver Problems,mdx2_s_r.csv,MDX2_S_R,categorical
+L_GALL,Gallbladder Disease,mdx2_s_r.csv,MDX2_S_R,categorical
+L_CIRR,Cirrhosis Of The Liver/Hepatic Cirrhosis,mdx2_s_r.csv,MDX2_S_R,categorical
+L_FAIL,Liver Failure/Hepatic Failure,mdx2_s_r.csv,MDX2_S_R,categorical
+L_FIB,Liver Fibrosis/Hepatic Fibrosis,mdx2_s_r.csv,MDX2_S_R,categorical
+L_HEPA,"Hepatitis, Type A",mdx2_s_r.csv,MDX2_S_R,categorical
+L_HEPB,"Hepatitis, Type B",mdx2_s_r.csv,MDX2_S_R,categorical
+L_HEPC,"Hepatitis, Type C",mdx2_s_r.csv,MDX2_S_R,categorical
+L_HEPU,"Hepatitis, Unspecified",mdx2_s_r.csv,MDX2_S_R,categorical
+L_SEQ,Hepatic Sequestration,mdx2_s_r.csv,MDX2_S_R,categorical
+L_IC,Intrahepatic Cholestasis,mdx2_s_r.csv,MDX2_S_R,categorical
+L_CHCY,Cholecystitis Or Gallbladder Infection,mdx2_s_r.csv,MDX2_S_R,categorical
+L_CHLS,Gallstones/Cholelithiasis/sludge,mdx2_s_r.csv,MDX2_S_R,categorical
+L_PAN,Pancreatitis Or Inflammation Of The Pancreas,mdx2_s_r.csv,MDX2_S_R,categorical
+L_TH,Transfusional hemosiderosis/'iron in the liver',mdx2_s_r.csv,MDX2_S_R,categorical
+L_OTH,"Liver, Other",mdx2_s_r.csv,MDX2_S_R,categorical
+L_UNSU,"Liver, Subject Unsure What Problem Is/Was",mdx2_s_r.csv,MDX2_S_R,categorical
+SPLEEN,Spleen Problems,mdx2_s_r.csv,MDX2_S_R,categorical
+S_INF,"Spleen, Infarction",mdx2_s_r.csv,MDX2_S_R,categorical
+S_SPMG,"Spleen, Splenomegaly/enlarged spleen",mdx2_s_r.csv,MDX2_S_R,categorical
+S_HYPER,Chronic Hypersplenism,mdx2_s_r.csv,MDX2_S_R,categorical
+S_SEQ,"Spleen, Splenic Sequestration (Sudden Enlarged Spleen)",mdx2_s_r.csv,MDX2_S_R,categorical
+S_OTH,"Spleen, Other",mdx2_s_r.csv,MDX2_S_R,categorical
+S_UNSU,"Spleen, Subject Unsure What Problem Is/Was",mdx2_s_r.csv,MDX2_S_R,categorical
+LUNG,Lung Problems,mdx2_s_r.csv,MDX2_S_R,categorical
+P_OSA,"Lung, Obstructive Sleep Apnea",mdx2_s_r.csv,MDX2_S_R,categorical
+P_CLD,"Lung, Chronic Lung Disease",mdx2_s_r.csv,MDX2_S_R,categorical
+P_ASTH,"Lung, Asthma/Wheezing/Reactive Airway",mdx2_s_r.csv,MDX2_S_R,categorical
+P_PNEU,"Lung, Pneumonia/Acute Chest Syndrome",mdx2_s_r.csv,MDX2_S_R,categorical
+P_COPD,"Lung, Chronic Obstructive Lung Disease (COPD)/Emphysema",mdx2_s_r.csv,MDX2_S_R,categorical
+P_CRPD,"Lung, Chronic Restrictive Lung Disease/Pulmonary Fibrosis",mdx2_s_r.csv,MDX2_S_R,categorical
+P_PE,"Lung, Pulmonary Embolism (blood clot to the lung)",mdx2_s_r.csv,MDX2_S_R,categorical
+P_PH,"Lung, Pulmonary Hypertension",mdx2_s_r.csv,MDX2_S_R,categorical
+P_OTH,"Lung, Other",mdx2_s_r.csv,MDX2_S_R,categorical
+P_UNSU,"Lung, Subject Unsure What Problem Is/Was",mdx2_s_r.csv,MDX2_S_R,categorical
+NEURO,Neurological Problems,mdx2_s_r.csv,MDX2_S_R,categorical
+N_SZR,"Neurological, Seizure",mdx2_s_r.csv,MDX2_S_R,categorical
+N_STRH,"Neurological, Stroke - Hemorrhagic 'Bleeding In Brain'",mdx2_s_r.csv,MDX2_S_R,categorical
+N_STRI,"Neurological, Stroke - Infarct 'Blocked Blood Flow To Brain'",mdx2_s_r.csv,MDX2_S_R,categorical
+N_SCI,"Neurological, Stroke - a 'silent stroke' seen only on CAT scan or MRI",mdx2_s_r.csv,MDX2_S_R,categorical
+N_TCD,"Neurological, Elevated transcranial doppler (TCD) velocities",mdx2_s_r.csv,MDX2_S_R,categorical
+N_TIA,"Neurological, Transient ischemic attack (TIA)/'temporary stroke'",mdx2_s_r.csv,MDX2_S_R,categorical
+N_ANE,"Neurological, Aneurysm, or balloon-like swelling in blood vessles in brain",mdx2_s_r.csv,MDX2_S_R,categorical
+N_NPTHY,Peripheral Neuropathy (numbness or tingling),mdx2_s_r.csv,MDX2_S_R,categorical
+N_HDC,"Neurological, Headache -chronic",mdx2_s_r.csv,MDX2_S_R,categorical
+N_HDM,"Neurological, Headache -migraine",mdx2_s_r.csv,MDX2_S_R,categorical
+N_MEM,"Neurological, Memory Problems",mdx2_s_r.csv,MDX2_S_R,categorical
+N_DEP,"Neurological, Depression",mdx2_s_r.csv,MDX2_S_R,categorical
+N_OTH,"Neurological, Other",mdx2_s_r.csv,MDX2_S_R,categorical
+N_UNSU,"Neurological, Subject Unsure What Problem Is/Was",mdx2_s_r.csv,MDX2_S_R,categorical
+BLOOD,"Blood Problems, Other Than Sickle Cell",mdx2_s_r.csv,MDX2_S_R,categorical
+B_APL,"Blood, Aplastic episode/sudden severe low blood count",mdx2_s_r.csv,MDX2_S_R,categorical
+B_HEMO,"Blood, Immune and non-immune hemolysis/hyperhemolysis",mdx2_s_r.csv,MDX2_S_R,categorical
+B_ANEM,"Blood, Other Anemia (Not Related To Sickle Cell)",mdx2_s_r.csv,MDX2_S_R,categorical
+B_LPT,"Blood, Low Platelets, Not Due To Medication",mdx2_s_r.csv,MDX2_S_R,categorical
+B_LWBC,"Blood, Low White Count, Not Due To Medication",mdx2_s_r.csv,MDX2_S_R,categorical
+B_OTH,"Blood, Other",mdx2_s_r.csv,MDX2_S_R,categorical
+B_UNSU,"Blood, Subject Unsure What Problem Is/Was",mdx2_s_r.csv,MDX2_S_R,categorical
+INFECT,Infections,mdx2_s_r.csv,MDX2_S_R,categorical
+I_SEPP,"Infections, Sepsis, 'Overwhelming Infection' Pneumococcal",mdx2_s_r.csv,MDX2_S_R,categorical
+I_SEPO,"Infections, Sepsis, 'Overwhelming Infection' Other Than Pneumococcal",mdx2_s_r.csv,MDX2_S_R,categorical
+I_BACT,"Infections, Bacteremia, Bacteria In Bloodstream",mdx2_s_r.csv,MDX2_S_R,categorical
+I_MEN,"Infections, Meningitis",mdx2_s_r.csv,MDX2_S_R,categorical
+I_OTH,"Infections,  Other",mdx2_s_r.csv,MDX2_S_R,categorical
+I_UNSU,"Infections,  Subject Unsure What Problem Is/Was",mdx2_s_r.csv,MDX2_S_R,categorical
+OTHDIS,Other Diseases/Ailments,mdx2_s_r.csv,MDX2_S_R,categorical
+O_DIAB,"Other, Diabetes",mdx2_s_r.csv,MDX2_S_R,categorical
+O_SLE,"Other, Lupus (SLE)",mdx2_s_r.csv,MDX2_S_R,categorical
+O_RA,"Other, Rheumatoid Arthritis",mdx2_s_r.csv,MDX2_S_R,categorical
+O_RET,"Other, Retinopathy",mdx2_s_r.csv,MDX2_S_R,categorical
+O_AMOF,"Other, Acute multi-organ failure",mdx2_s_r.csv,MDX2_S_R,categorical
+O_IRON,"Other, Iron Overload",mdx2_s_r.csv,MDX2_S_R,categorical
+BIOP,Iron Overload Assessed By Liver Biopsy?,mdx2_s_r.csv,MDX2_S_R,categorical
+BIOPRS,"Liver Biopsy, Result",mdx2_s_r.csv,MDX2_S_R,continuous
+O_VITD,"Other, Vitamin D Deficiency",mdx2_s_r.csv,MDX2_S_R,categorical
+O_CAN,"Other, Cancer",mdx2_s_r.csv,MDX2_S_R,categorical
+O_OTH,"Other, Other Disease",mdx2_s_r.csv,MDX2_S_R,categorical
+O_UNSU,"Other Disease, Subject Unsure What Problem Is/Was",mdx2_s_r.csv,MDX2_S_R,categorical
+DIAGTST,Has Subject Had Diagnostic Tests?,mdx2_s_r.csv,MDX2_S_R,categorical
+COLL,How Was Information Collected?,mdx2_s_r.csv,MDX2_S_R,categorical
+ASMTDAY,DAY OF ASSESSMENT,mdx2_s_r.csv,MDX2_S_R,continuous
+BIOPDAY,"LIVER BIOPSY, DAY",mdx2_s_r.csv,MDX2_S_R,continuous
+AGE_TRUNC,AGE TRUNCATED,mdx2_s_r.csv,MDX2_S_R,continuous
+PT_ID,New Subject ID,mdx2t_r.csv,MDX2T_R,continuous
+CATEGORY,Category,mdx2t_r.csv,MDX2T_R,categorical
+DESC,Description,mdx2t_r.csv,MDX2T_R,categorical
+PT_ID,New Patient ID,mdx3_s_r.csv,MDX3_S_R,continuous
+STR,Stratum,mdx3_s_r.csv,MDX3_S_R,categorical
+TRTL,"Treatment, label",mdx3_s_r.csv,MDX3_S_R,categorical
+GENDER,Gender,mdx3_s_r.csv,MDX3_S_R,categorical
+SCGENO,Sickle Cell Genotype,mdx3_s_r.csv,MDX3_S_R,categorical
+DATASTR,,mdx3_s_r.csv,MDX3_S_R,categorical
+PHASE,,mdx3_s_r.csv,MDX3_S_R,continuous
+SEQNO,,mdx3_s_r.csv,MDX3_S_R,continuous
+PROJECT,,mdx3_s_r.csv,MDX3_S_R,categorical
+ACG,"Medications, Anticooagulants",mdx3_s_r.csv,MDX3_S_R,categorical
+ACV,"Medications, Anticonvulsants",mdx3_s_r.csv,MDX3_S_R,categorical
+ADP,"Medications, Antidepressants",mdx3_s_r.csv,MDX3_S_R,categorical
+ERY,"Medications, Erythropoietin/darbopoietin",mdx3_s_r.csv,MDX3_S_R,categorical
+ERYC,"Medications, Erythropoietin/darbopoietin, Cumulative",mdx3_s_r.csv,MDX3_S_R,categorical
+FOL,"Medications, Folic Acid",mdx3_s_r.csv,MDX3_S_R,categorical
+HYD,"Medications, Hydroxyurea",mdx3_s_r.csv,MDX3_S_R,categorical
+HYDC,"Medications, Hydroxyurea, Cumulative",mdx3_s_r.csv,MDX3_S_R,categorical
+INHAL,"Medications, Inhalers",mdx3_s_r.csv,MDX3_S_R,categorical
+OASA,Other Anti-Sickling Agents,mdx3_s_r.csv,MDX3_S_R,categorical
+IRON,"Medications, Iron Chelation therapy",mdx3_s_r.csv,MDX3_S_R,categorical
+IRONTYP,"Medications, Iron Chelation therapy, Type",mdx3_s_r.csv,MDX3_S_R,categorical
+IRONC,"Medications, Iron Chelation therapy, Cumulative",mdx3_s_r.csv,MDX3_S_R,categorical
+OXY,"Medications, Oxygen at home",mdx3_s_r.csv,MDX3_S_R,categorical
+OXYC,"Medications, Oxygen at home, Cumulative",mdx3_s_r.csv,MDX3_S_R,categorical
+PEN,"Medications, Prophylactic penicillin or other antibiotics",mdx3_s_r.csv,MDX3_S_R,categorical
+COD,"Medications, Codeine",mdx3_s_r.csv,MDX3_S_R,categorical
+DEM,"Medications, Demerol",mdx3_s_r.csv,MDX3_S_R,categorical
+DIL,"Medications, Dilaudid",mdx3_s_r.csv,MDX3_S_R,categorical
+MOR,"Medications, Morphine",mdx3_s_r.csv,MDX3_S_R,categorical
+OXCD,"Medications, Oxycodone",mdx3_s_r.csv,MDX3_S_R,categorical
+OXCT,"Medications, Oxycontin",mdx3_s_r.csv,MDX3_S_R,categorical
+PERC,"Medications, Percocet",mdx3_s_r.csv,MDX3_S_R,categorical
+TYL3,"Medications, Tylenol 3",mdx3_s_r.csv,MDX3_S_R,categorical
+VIC,"Medications, Vicodin",mdx3_s_r.csv,MDX3_S_R,categorical
+METH,"Medications, Methadone",mdx3_s_r.csv,MDX3_S_R,categorical
+NSAID,"Medications, NSAIDs",mdx3_s_r.csv,MDX3_S_R,categorical
+NSAIDC,"Medications, NSAIDs, Cumulative",mdx3_s_r.csv,MDX3_S_R,categorical
+OPM,"Medications, Other Pain Medications",mdx3_s_r.csv,MDX3_S_R,categorical
+ERA,"Medications, Endothelin-receptor antagonist",mdx3_s_r.csv,MDX3_S_R,categorical
+PDE,"Medications, PDE-5 inhibitor",mdx3_s_r.csv,MDX3_S_R,categorical
+PCY,"Medications, Prostacyclin",mdx3_s_r.csv,MDX3_S_R,categorical
+ACE,"Medications, Ace inhibitors",mdx3_s_r.csv,MDX3_S_R,categorical
+BETA,"Medications, Beta Blockers",mdx3_s_r.csv,MDX3_S_R,categorical
+CCB,"Medications, Calcium Chanel Blockers",mdx3_s_r.csv,MDX3_S_R,categorical
+DIUR,"Medications, Diuretics",mdx3_s_r.csv,MDX3_S_R,categorical
+VASO,"Medications, Vasodilators",mdx3_s_r.csv,MDX3_S_R,categorical
+PHT_OTH,"Medications, Pulmonary Hypertension, Other",mdx3_s_r.csv,MDX3_S_R,categorical
+RRT,"Medications, Renal replacement therapy",mdx3_s_r.csv,MDX3_S_R,categorical
+ALT,"Medication, Other alternative therapies",mdx3_s_r.csv,MDX3_S_R,categorical
+REAC1,"Previous Medication Reaction, None",mdx3_s_r.csv,MDX3_S_R,categorical
+REAC2,"Previous Medication Reaction, Allergic (fever, urticaria, chills, etc.)",mdx3_s_r.csv,MDX3_S_R,categorical
+REAC3,"Previous Medication Reaction, Alloimmunization (Antibodies To Transfused Red Cells)",mdx3_s_r.csv,MDX3_S_R,categorical
+REAC4,"Previous Medication Reaction, Febrile (fever, chilles)",mdx3_s_r.csv,MDX3_S_R,categorical
+REAC5,"Previous Medication Reaction, Hemolytic",mdx3_s_r.csv,MDX3_S_R,categorical
+REACOTH,"Previous Medication Reaction, Other",mdx3_s_r.csv,MDX3_S_R,categorical
+AC_LOC1,"Acute Pain Location, Arms",mdx3_s_r.csv,MDX3_S_R,categorical
+AC_LOC2,Acute Pain Chest,mdx3_s_r.csv,MDX3_S_R,categorical
+AC_LOC3,Acute Pain Joints,mdx3_s_r.csv,MDX3_S_R,categorical
+AC_LOC4,"Acute Pain Location, Neck",mdx3_s_r.csv,MDX3_S_R,categorical
+AC_LOC5,"Acute Pain Location, Back",mdx3_s_r.csv,MDX3_S_R,categorical
+AC_LOC6,"Acute Pain Location, Head",mdx3_s_r.csv,MDX3_S_R,categorical
+AC_LOC7,"Acute Pain Location, Legs",mdx3_s_r.csv,MDX3_S_R,categorical
+AC_LOCO,"Acute Pain Location, Other",mdx3_s_r.csv,MDX3_S_R,categorical
+AC_RATE,Acute Pain Rating,mdx3_s_r.csv,MDX3_S_R,continuous
+AC_TR1,"Acute Pain Treatment, Medication",mdx3_s_r.csv,MDX3_S_R,categorical
+AC_TR2,Acute Pain Non-Drug Therapy,mdx3_s_r.csv,MDX3_S_R,categorical
+AC_TR3,"Acute Pain Treatment, Accupuncture",mdx3_s_r.csv,MDX3_S_R,categorical
+AC_TR4,"Acute Pain Treatment, Physical Therapy",mdx3_s_r.csv,MDX3_S_R,categorical
+AC_TR5,"Acute Pain Treatment, Alternative Therapy",mdx3_s_r.csv,MDX3_S_R,categorical
+AC_TR6,"Acute Pain Treatment, Hypnosis",mdx3_s_r.csv,MDX3_S_R,categorical
+AC_TRO,Acute Pain Other,mdx3_s_r.csv,MDX3_S_R,categorical
+PNC_WMI,"Number Pain Crises In Last Week, Mild",mdx3_s_r.csv,MDX3_S_R,continuous
+PNC_WMO,"Number Pain Crises In Last Week, Moderate",mdx3_s_r.csv,MDX3_S_R,continuous
+PNC_WSE,"Number Pain Crises In Last Week, Severe",mdx3_s_r.csv,MDX3_S_R,continuous
+PNC_WEX,"Number Pain Crises In Last Week, Extremely Severe",mdx3_s_r.csv,MDX3_S_R,continuous
+PNC_MMI,"Number Pain Crises In Last Month, Mild",mdx3_s_r.csv,MDX3_S_R,continuous
+PNC_MMO,"Number Pain Crises In Last Month, Moderate",mdx3_s_r.csv,MDX3_S_R,continuous
+PNC_MSE,"Number Pain Crises In Last Month, Severe",mdx3_s_r.csv,MDX3_S_R,continuous
+PNC_MEX,"Number Pain Crises In Last Month, Extremely Severe",mdx3_s_r.csv,MDX3_S_R,continuous
+PNC_YMI,"Number Pain Crises In Last Year, Mild",mdx3_s_r.csv,MDX3_S_R,continuous
+PNC_YMO,"Number Pain Crises In Last Year, Moderate",mdx3_s_r.csv,MDX3_S_R,continuous
+PNC_YSE,"Number Pain Crises In Last Year, Severe",mdx3_s_r.csv,MDX3_S_R,continuous
+PNC_YEX,"Number Pain Crises In Last Year, Extremely Severe",mdx3_s_r.csv,MDX3_S_R,continuous
+CHRON,Chronic Pain?,mdx3_s_r.csv,MDX3_S_R,categorical
+CH_LOC1,"Chronic Pain Location, Arms",mdx3_s_r.csv,MDX3_S_R,categorical
+CH_LOC2,Chronic Pain Chest,mdx3_s_r.csv,MDX3_S_R,categorical
+CH_LOC3,Chronic Pain Joints,mdx3_s_r.csv,MDX3_S_R,categorical
+CH_LOC4,"Chronic Pain Location, Neck",mdx3_s_r.csv,MDX3_S_R,categorical
+CH_LOC5,"Chronic Pain Location, Back",mdx3_s_r.csv,MDX3_S_R,categorical
+CH_LOC6,"Chronic Pain Location, Head",mdx3_s_r.csv,MDX3_S_R,categorical
+CH_LOC7,"Chronic Pain Location, Legs",mdx3_s_r.csv,MDX3_S_R,categorical
+CH_LOCO,"Chronic Pain Location, Other",mdx3_s_r.csv,MDX3_S_R,categorical
+CH_RATE,Chronic Pain Rating,mdx3_s_r.csv,MDX3_S_R,continuous
+CH_TR1,"Chronic Pain Treatment, Medication",mdx3_s_r.csv,MDX3_S_R,categorical
+CH_TR2,Chronic Pain Non-Drug Therapy,mdx3_s_r.csv,MDX3_S_R,categorical
+CH_TR3,"Chronic Pain Treatment, Accupuncture",mdx3_s_r.csv,MDX3_S_R,categorical
+CH_TR4,"Chronic Pain Treatment, Physical Therapy",mdx3_s_r.csv,MDX3_S_R,categorical
+CH_TR5,"Chronic Pain Treatment, Alternative Therapy",mdx3_s_r.csv,MDX3_S_R,categorical
+CH_TR6,"Chronic Pain Treatment, Hypnosis",mdx3_s_r.csv,MDX3_S_R,continuous
+CH_TRO,Chronic Pain Other,mdx3_s_r.csv,MDX3_S_R,categorical
+COLL,How Was Information Collected?,mdx3_s_r.csv,MDX3_S_R,categorical
+ASMTDAY,DAY OF ASSESSMENT,mdx3_s_r.csv,MDX3_S_R,continuous
+AGE_TRUNC,AGE TRUNCATED,mdx3_s_r.csv,MDX3_S_R,continuous
+PT_ID,New Subject ID,mdx3t_r.csv,MDX3T_R,continuous
+MED,Medication,mdx3t_r.csv,MDX3T_R,categorical
+PT_ID,New Subject ID,patient_enr_r.csv,PATIENT_ENR_R,continuous
+REGISTERED,Registered,patient_enr_r.csv,PATIENT_ENR_R,categorical
+ENROLLED,Enrolled,patient_enr_r.csv,PATIENT_ENR_R,categorical
+SCR_PEND,Pending Screening,patient_enr_r.csv,PATIENT_ENR_R,categorical
+SCR_PASS,Passed Screening,patient_enr_r.csv,PATIENT_ENR_R,categorical
+SCR_FAIL,Failed Screening,patient_enr_r.csv,PATIENT_ENR_R,categorical
+RND_PEND,Pending Randomization,patient_enr_r.csv,PATIENT_ENR_R,categorical
+RND_PASS,Passed Randomization,patient_enr_r.csv,PATIENT_ENR_R,categorical
+RND_FAIL,Failed Randomization,patient_enr_r.csv,PATIENT_ENR_R,categorical
+COMB_REA,Screen Failure Reason,patient_enr_r.csv,PATIENT_ENR_R,categorical
+DSC_MIT,Discontinued MIT,patient_enr_r.csv,PATIENT_ENR_R,categorical
+DSC_REA,Discontinuation Reason,patient_enr_r.csv,PATIENT_ENR_R,categorical
+CPLT_MIT,Completed MIT,patient_enr_r.csv,PATIENT_ENR_R,categorical
+MITRND,Randomized to MIT,patient_enr_r.csv,PATIENT_ENR_R,categorical
+OBSFU,Patient in Observational Follow-up Study,patient_enr_r.csv,PATIENT_ENR_R,categorical
+MITRND_DAY,MIT Randomization Day,patient_enr_r.csv,PATIENT_ENR_R,continuous
+MITCONSENT_DAY,MIT Consent Day,patient_enr_r.csv,PATIENT_ENR_R,continuous
+REG_DAY,Registration Day,patient_enr_r.csv,PATIENT_ENR_R,continuous
+LVISNUM,Last Visit Number,patient_enr_r.csv,PATIENT_ENR_R,continuous
+WDRWCNST,Withdrawal of Consent,patient_enr_r.csv,PATIENT_ENR_R,categorical
+STR,Stratum,patient_enr_r.csv,PATIENT_ENR_R,categorical
+DOSED,Subject dosed,patient_enr_r.csv,PATIENT_ENR_R,categorical
+TRTL,"Treatment, label",patient_enr_r.csv,PATIENT_ENR_R,categorical
+TREATMENT,Treatment group,patient_enr_r.csv,PATIENT_ENR_R,categorical
+DOB_DAY,Day of Birth,patient_enr_r.csv,PATIENT_ENR_R,continuous
+GENDER,Gender,patient_enr_r.csv,PATIENT_ENR_R,categorical
+RACE_ETHNIC,Race_Ethnic,patient_enr_r.csv,PATIENT_ENR_R,categorical
+TRJV,Tricuspid Regurgitant Jet Velocity (m/s),patient_enr_r.csv,PATIENT_ENR_R,continuous
+TRJV_S,Tricuspid Regurgitant Jet Velocity (m/s),patient_enr_r.csv,PATIENT_ENR_R,continuous
+DIST_16,Six Minute Walk Distance (m) at week 16,patient_enr_r.csv,PATIENT_ENR_R,continuous
+WOCF_DEATH_FLAG,WOCF Death flag,patient_enr_r.csv,PATIENT_ENR_R,categorical
+DIST,Six Minute Walk Distance (m),patient_enr_r.csv,PATIENT_ENR_R,continuous
+WOCF_GROUP_FLAG,WOCF Group flag,patient_enr_r.csv,PATIENT_ENR_R,categorical
+LOCF_FLAG,LOCF flag,patient_enr_r.csv,PATIENT_ENR_R,categorical
+SCGENO,Sickle Cell Genotype,patient_enr_r.csv,PATIENT_ENR_R,categorical
+PRE_SCR_FAIL,"Failed Screening, no MIT Consent",patient_enr_r.csv,PATIENT_ENR_R,categorical
+DSC_OBSFU,Discontinued Observational Follow-up,patient_enr_r.csv,PATIENT_ENR_R,categorical
+OPEN_LBL,Enrolled in Open Label Phase,patient_enr_r.csv,PATIENT_ENR_R,categorical
+SCREENFAILLIST,"Screen Fail List, RhoRand",patient_enr_r.csv,PATIENT_ENR_R,categorical
+ANTICOAG,Concomitant anticoagulation use at randomization,patient_enr_r.csv,PATIENT_ENR_R,categorical
+REASON_S,Screen Failure Reason Provided,patient_enr_r.csv,PATIENT_ENR_R,categorical
+REASON_M,Screen Verify Reason Provided,patient_enr_r.csv,PATIENT_ENR_R,categorical
+MONTHMIT,Months in MIT,patient_enr_r.csv,PATIENT_ENR_R,continuous
+MONTHOL,Months in open label,patient_enr_r.csv,PATIENT_ENR_R,continuous
+MONTHPRE,Months in Screening,patient_enr_r.csv,PATIENT_ENR_R,continuous
+FIRST_DAY,First dose day,patient_enr_r.csv,PATIENT_ENR_R,continuous
+LAST_DAY,Last dose day,patient_enr_r.csv,PATIENT_ENR_R,continuous
+MONTHBMIT,Months in Baseline MIT,patient_enr_r.csv,PATIENT_ENR_R,continuous
+AGE_TRUNC,AGE TRUNCATED,patient_enr_r.csv,PATIENT_ENR_R,continuous
+PT_ID,New Patient ID,phex_m_r.csv,PHEX_M_R,continuous
+STR,Stratum,phex_m_r.csv,PHEX_M_R,categorical
+TRTL,"Treatment, label",phex_m_r.csv,PHEX_M_R,categorical
+GENDER,Gender,phex_m_r.csv,PHEX_M_R,categorical
+SCGENO,Sickle Cell Genotype,phex_m_r.csv,PHEX_M_R,categorical
+DATASTR,,phex_m_r.csv,PHEX_M_R,categorical
+PHASE,,phex_m_r.csv,PHEX_M_R,continuous
+SEQNO,,phex_m_r.csv,PHEX_M_R,continuous
+PROJECT,,phex_m_r.csv,PHEX_M_R,categorical
+TEMP,Temperature,phex_m_r.csv,PHEX_M_R,continuous
+HRATE,Heart Rate,phex_m_r.csv,PHEX_M_R,continuous
+RESP,Respiratory Rate,phex_m_r.csv,PHEX_M_R,continuous
+O2,Oxygen Saturation,phex_m_r.csv,PHEX_M_R,continuous
+AIRO2,Air vs Oxygen,phex_m_r.csv,PHEX_M_R,categorical
+O2FLOW,Oxygen Flow Rate,phex_m_r.csv,PHEX_M_R,continuous
+SYSBP,Systolic Blood Pressue,phex_m_r.csv,PHEX_M_R,continuous
+DIABP,Diastolic Blood Pressue,phex_m_r.csv,PHEX_M_R,continuous
+APP,"General Appearance, Appearance",phex_m_r.csv,PHEX_M_R,categorical
+APPWT,"General Appearance, Weight",phex_m_r.csv,PHEX_M_R,categorical
+HEENTSI,"HEENT, Scleral Icterus",phex_m_r.csv,PHEX_M_R,categorical
+HEENTTH,"HEENT, Tonsillar Hypertrophy",phex_m_r.csv,PHEX_M_R,categorical
+HEENTHP,"HEENT, Hypopharynx",phex_m_r.csv,PHEX_M_R,categorical
+NEUR1,"Neurologic,  Alert And Oriented",phex_m_r.csv,PHEX_M_R,categorical
+NEUR2,"Neurologic, Normal Strength",phex_m_r.csv,PHEX_M_R,categorical
+NEUR3,"Neurologic, Normal Tone",phex_m_r.csv,PHEX_M_R,categorical
+NEUR4,"Neurologic, Normal Gail",phex_m_r.csv,PHEX_M_R,categorical
+NEUR5,"Neurologic, Stroke Sequelae Present",phex_m_r.csv,PHEX_M_R,categorical
+STROKE,"Neurologic, Stroke Sequelae, Describe",phex_m_r.csv,PHEX_M_R,categorical
+CARS12,"Cardiac, S1 And S2",phex_m_r.csv,PHEX_M_R,categorical
+CARS3,"Cardiac, S3",phex_m_r.csv,PHEX_M_R,categorical
+CARS4,"Cardiac, S4",phex_m_r.csv,PHEX_M_R,categorical
+CARP2,"Cardiac, P2",phex_m_r.csv,PHEX_M_R,categorical
+CAROTH,"Cardiac, Other Findings",phex_m_r.csv,PHEX_M_R,categorical
+CARR,"Cardiac, Rate And Rhythm",phex_m_r.csv,PHEX_M_R,categorical
+CARRD,"Cardiac, Rate And Rhythm, Describe",phex_m_r.csv,PHEX_M_R,categorical
+CARM,"Cardiac, Murmur",phex_m_r.csv,PHEX_M_R,categorical
+CARJD,"Cardiac, Jugularvenous Distension",phex_m_r.csv,PHEX_M_R,categorical
+PULCL,"Pulmonary, Lungs, Clear",phex_m_r.csv,PHEX_M_R,categorical
+PULBC,"Pulmonary, Lungs, Bibasilar Crackles",phex_m_r.csv,PHEX_M_R,categorical
+PULBW,"Pulmonary, Lungs, Bibasilar Wheezes",phex_m_r.csv,PHEX_M_R,categorical
+GASTNR,Abdomen,phex_m_r.csv,PHEX_M_R,categorical
+SPL,Splenomegaly,phex_m_r.csv,PHEX_M_R,categorical
+SPLSIZE,"Splenomegaly, Size Below Costal Margin",phex_m_r.csv,PHEX_M_R,continuous
+HEP,Hepatomegaly,phex_m_r.csv,PHEX_M_R,categorical
+HEPSIZE,"Hepatomegaly, Size Below Costal Margin",phex_m_r.csv,PHEX_M_R,continuous
+GASTOT,"Gastrointestinal, Other",phex_m_r.csv,PHEX_M_R,categorical
+EXTNN,"Extremities, Nails, Normal",phex_m_r.csv,PHEX_M_R,categorical
+EXTNC,"Extremities, Nails, Clubbing",phex_m_r.csv,PHEX_M_R,categorical
+EXTNH,"Extremities, Nails, Hyperpigmentation",phex_m_r.csv,PHEX_M_R,categorical
+EXTED,"Extremities, Edema",phex_m_r.csv,PHEX_M_R,categorical
+EXTPL,"Extremities, Pulses",phex_m_r.csv,PHEX_M_R,categorical
+EXTLUL,"Extremities, Lower, Ulcers",phex_m_r.csv,PHEX_M_R,categorical
+SKINHP,"Skin, Hyperpigmentation",phex_m_r.csv,PHEX_M_R,categorical
+EXTSL,"Skin, Rashes Or Skin Lesions",phex_m_r.csv,PHEX_M_R,categorical
+ASMTDAY,DAY OF ASSESSMENT,phex_m_r.csv,PHEX_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,phex_m_r.csv,PHEX_M_R,continuous
+WEIGHT_TRUNC,"WEIGHT, TRUNCATED (kg)",phex_m_r.csv,PHEX_M_R,continuous
+HEIGHT_TRUNC,"HEIGHT, TRUNCATED (cm)",phex_m_r.csv,PHEX_M_R,continuous
+PT_ID,New Patient ID,phex_s_r.csv,PHEX_S_R,continuous
+STR,Stratum,phex_s_r.csv,PHEX_S_R,categorical
+TRTL,"Treatment, label",phex_s_r.csv,PHEX_S_R,categorical
+GENDER,Gender,phex_s_r.csv,PHEX_S_R,categorical
+SCGENO,Sickle Cell Genotype,phex_s_r.csv,PHEX_S_R,categorical
+DATASTR,,phex_s_r.csv,PHEX_S_R,categorical
+PHASE,,phex_s_r.csv,PHEX_S_R,continuous
+SEQNO,,phex_s_r.csv,PHEX_S_R,continuous
+PROJECT,,phex_s_r.csv,PHEX_S_R,categorical
+TEMP,Temperature,phex_s_r.csv,PHEX_S_R,continuous
+HRATE,Heart Rate,phex_s_r.csv,PHEX_S_R,continuous
+RESP,Respiratory Rate,phex_s_r.csv,PHEX_S_R,continuous
+O2,Oxygen Saturation,phex_s_r.csv,PHEX_S_R,continuous
+AIRO2,Air vs Oxygen,phex_s_r.csv,PHEX_S_R,categorical
+O2FLOW,Oxygen Flow Rate,phex_s_r.csv,PHEX_S_R,continuous
+SYSBP,Systolic Blood Pressue,phex_s_r.csv,PHEX_S_R,continuous
+DIABP,Diastolic Blood Pressue,phex_s_r.csv,PHEX_S_R,continuous
+APP,"General Appearance, Appearance",phex_s_r.csv,PHEX_S_R,categorical
+APPWT,"General Appearance, Weight",phex_s_r.csv,PHEX_S_R,categorical
+HEENTSI,"HEENT, Scleral Icterus",phex_s_r.csv,PHEX_S_R,categorical
+HEENTTH,"HEENT, Tonsillar Hypertrophy",phex_s_r.csv,PHEX_S_R,categorical
+HEENTHP,"HEENT, Hypopharynx",phex_s_r.csv,PHEX_S_R,categorical
+NEUR1,"Neurologic,  Alert And Oriented",phex_s_r.csv,PHEX_S_R,categorical
+NEUR2,"Neurologic, Normal Strength",phex_s_r.csv,PHEX_S_R,categorical
+NEUR3,"Neurologic, Normal Tone",phex_s_r.csv,PHEX_S_R,categorical
+NEUR4,"Neurologic, Normal Gail",phex_s_r.csv,PHEX_S_R,categorical
+NEUR5,"Neurologic, Stroke Sequelae Present",phex_s_r.csv,PHEX_S_R,categorical
+CARS12,"Cardiac, S1 And S2",phex_s_r.csv,PHEX_S_R,categorical
+CARS3,"Cardiac, S3",phex_s_r.csv,PHEX_S_R,categorical
+CARS4,"Cardiac, S4",phex_s_r.csv,PHEX_S_R,categorical
+CARP2,"Cardiac, P2",phex_s_r.csv,PHEX_S_R,categorical
+CAROTH,"Cardiac, Other Findings",phex_s_r.csv,PHEX_S_R,categorical
+CARR,"Cardiac, Rate And Rhythm",phex_s_r.csv,PHEX_S_R,categorical
+CARM,"Cardiac, Murmur",phex_s_r.csv,PHEX_S_R,categorical
+CARJD,"Cardiac, Jugularvenous Distension",phex_s_r.csv,PHEX_S_R,categorical
+PULCL,"Pulmonary, Lungs, Clear",phex_s_r.csv,PHEX_S_R,categorical
+PULBC,"Pulmonary, Lungs, Bibasilar Crackles",phex_s_r.csv,PHEX_S_R,categorical
+PULBW,"Pulmonary, Lungs, Bibasilar Wheezes",phex_s_r.csv,PHEX_S_R,categorical
+GASTNR,Abdomen,phex_s_r.csv,PHEX_S_R,categorical
+SPL,Splenomegaly,phex_s_r.csv,PHEX_S_R,categorical
+SPLSIZE,"Splenomegaly, Size Below Costal Margin",phex_s_r.csv,PHEX_S_R,continuous
+HEP,Hepatomegaly,phex_s_r.csv,PHEX_S_R,categorical
+HEPSIZE,"Hepatomegaly, Size Below Costal Margin",phex_s_r.csv,PHEX_S_R,continuous
+GASTOT,"Gastrointestinal, Other",phex_s_r.csv,PHEX_S_R,categorical
+EXTNN,"Extremities, Nails, Normal",phex_s_r.csv,PHEX_S_R,categorical
+EXTNC,"Extremities, Nails, Clubbing",phex_s_r.csv,PHEX_S_R,categorical
+EXTNH,"Extremities, Nails, Hyperpigmentation",phex_s_r.csv,PHEX_S_R,categorical
+EXTED,"Extremities, Edema",phex_s_r.csv,PHEX_S_R,categorical
+EXTPL,"Extremities, Pulses",phex_s_r.csv,PHEX_S_R,categorical
+EXTLUL,"Extremities, Lower, Ulcers",phex_s_r.csv,PHEX_S_R,categorical
+SKINHP,"Skin, Hyperpigmentation",phex_s_r.csv,PHEX_S_R,categorical
+EXTSL,"Skin, Rashes Or Skin Lesions",phex_s_r.csv,PHEX_S_R,categorical
+ASMTDAY,DAY OF ASSESSMENT,phex_s_r.csv,PHEX_S_R,continuous
+AGE_TRUNC,AGE TRUNCATED,phex_s_r.csv,PHEX_S_R,continuous
+WEIGHT_TRUNC,"WEIGHT, TRUNCATED (kg)",phex_s_r.csv,PHEX_S_R,continuous
+HEIGHT_TRUNC,"HEIGHT, TRUNCATED (cm)",phex_s_r.csv,PHEX_S_R,continuous
+PT_ID,New Subject ID,phext_r.csv,PHEXT_R,continuous
+CATEGORY,Category,phext_r.csv,PHEXT_R,categorical
+CATSORT,Category sort variable,phext_r.csv,PHEXT_R,continuous
+DESC_R,"Description, Redacted",phext_r.csv,PHEXT_R,categorical
+VALUE_R,"Value, Redacted",phext_r.csv,PHEXT_R,continuous
+PHASE,Phase,phext_r.csv,PHEXT_R,continuous
+ASMTDAY,Day of Assessment,phext_r.csv,PHEXT_R,continuous
+TBLVIS,Table visit label,phext_r.csv,PHEXT_R,categorical
+TBLVISN,Table visit label numeric,phext_r.csv,PHEXT_R,continuous
+BLVALUE_R,"Baseline value, Redacted",phext_r.csv,PHEXT_R,continuous
+CHANGE_R,"Change from baseline value, Redacted",phext_r.csv,PHEXT_R,continuous
+PT_ID,New Patient ID,rhca_m_r.csv,RHCA_M_R,continuous
+STR,Stratum,rhca_m_r.csv,RHCA_M_R,categorical
+TRTL,"Treatment, label",rhca_m_r.csv,RHCA_M_R,categorical
+GENDER,Gender,rhca_m_r.csv,RHCA_M_R,categorical
+SCGENO,Sickle Cell Genotype,rhca_m_r.csv,RHCA_M_R,categorical
+DATASTR,,rhca_m_r.csv,RHCA_M_R,categorical
+PHASE,,rhca_m_r.csv,RHCA_M_R,continuous
+SEQNO,,rhca_m_r.csv,RHCA_M_R,continuous
+PROJECT,,rhca_m_r.csv,RHCA_M_R,categorical
+TRJET,Was the subject enrolled in the trial with a TR jet velocity = 3.0 m/s?,rhca_m_r.csv,RHCA_M_R,categorical
+LDSDTM,"Last Dose Of Study Drug, Time",rhca_m_r.csv,RHCA_M_R,categorical
+LDSDHH,"Last Dose Of Study Drug, Time hour",rhca_m_r.csv,RHCA_M_R,continuous
+LDSDMM,"Last Dose Of Study Drug, Time minute",rhca_m_r.csv,RHCA_M_R,continuous
+VISIT,Visit,rhca_m_r.csv,RHCA_M_R,categorical
+SIDE,Catherization Side,rhca_m_r.csv,RHCA_M_R,categorical
+METHOD,Cardiac Output Method,rhca_m_r.csv,RHCA_M_R,categorical
+INOTM,"Time of Intervention, INO",rhca_m_r.csv,RHCA_M_R,categorical
+INOHH,"Time of Intervention, INO hour",rhca_m_r.csv,RHCA_M_R,continuous
+INOMM,"Time of Intervention, INO minute",rhca_m_r.csv,RHCA_M_R,continuous
+DRGTM,"Time of Intervention,  Drug",rhca_m_r.csv,RHCA_M_R,categorical
+DRGHH,"Time of Intervention,  Drug hour",rhca_m_r.csv,RHCA_M_R,continuous
+DRGMM,"Time of Intervention,  Drug minute",rhca_m_r.csv,RHCA_M_R,continuous
+ASMT1TM,"Time of Assessment, Step 1",rhca_m_r.csv,RHCA_M_R,categorical
+ASMT1HH,"Time of Assessment, Step 1 hour",rhca_m_r.csv,RHCA_M_R,continuous
+ASMT1MM,"Time of Assessment, Step 1 minute",rhca_m_r.csv,RHCA_M_R,continuous
+HRATE1,"Heart Rate, Step 1",rhca_m_r.csv,RHCA_M_R,continuous
+SAS1,"Systemic Arterial Saturation, Step 1",rhca_m_r.csv,RHCA_M_R,continuous
+SVOX1,"SvO2, Step 1",rhca_m_r.csv,RHCA_M_R,continuous
+SSBP1,"Systolic Systemic Blood Pressue, Step 1",rhca_m_r.csv,RHCA_M_R,continuous
+DSBP1,"Diastolic Systemic Blood Pressue, Step 1",rhca_m_r.csv,RHCA_M_R,continuous
+MSP1,"Mean Systemic Pressure, Step 1",rhca_m_r.csv,RHCA_M_R,continuous
+SPAP1,"Systolic Pulmonary Artery Pressure, Step 1",rhca_m_r.csv,RHCA_M_R,continuous
+DPAP1,"Diastolic Pulmonary Artery Pressure, Step 1",rhca_m_r.csv,RHCA_M_R,continuous
+MPAP1,"Mean Pulmonary Artery Pressure, Step 1",rhca_m_r.csv,RHCA_M_R,continuous
+MRAP1,"Mean Right Atrial Pressure, Step 1",rhca_m_r.csv,RHCA_M_R,continuous
+MPCWP1,"Mean Pulmonary Capillary Wedge Pressure, Step 1",rhca_m_r.csv,RHCA_M_R,continuous
+LVEDP1,"Left Ventricular End-Diastolic Pressure, Step 1",rhca_m_r.csv,RHCA_M_R,continuous
+OUTPUT1,"Cardiac Output, Step 1",rhca_m_r.csv,RHCA_M_R,continuous
+ASMT2TM,"Time of Assessment, Step 2",rhca_m_r.csv,RHCA_M_R,categorical
+ASMT2HH,"Time of Assessment, Step 2 hour",rhca_m_r.csv,RHCA_M_R,continuous
+ASMT2MM,"Time of Assessment, Step 2 minute",rhca_m_r.csv,RHCA_M_R,continuous
+HRATE2,"Heart Rate, Step 2",rhca_m_r.csv,RHCA_M_R,continuous
+SAS2,"Systemic Arterial Saturation, Step 2",rhca_m_r.csv,RHCA_M_R,continuous
+SVOX2,"SvO2, Step 2",rhca_m_r.csv,RHCA_M_R,continuous
+SSBP2,"Systolic Systemic Blood Pressue, Step 2",rhca_m_r.csv,RHCA_M_R,continuous
+DSBP2,"Diastolic Systemic Blood Pressue, Step 2",rhca_m_r.csv,RHCA_M_R,continuous
+MSP2,"Mean Systemic Pressure, Step 2",rhca_m_r.csv,RHCA_M_R,continuous
+SPAP2,"Systolic Pulmonary Artery Pressure, Step 2",rhca_m_r.csv,RHCA_M_R,continuous
+DPAP2,"Diastolic Pulmonary Artery Pressure, Step 2",rhca_m_r.csv,RHCA_M_R,continuous
+MPAP2,"Mean Pulmonary Artery Pressure, Step 2",rhca_m_r.csv,RHCA_M_R,continuous
+MRAP2,"Mean Right Atrial Pressure, Step 2",rhca_m_r.csv,RHCA_M_R,continuous
+MPCWP2,"Mean Pulmonary Capillary Wedge Pressure, Step 2",rhca_m_r.csv,RHCA_M_R,continuous
+LVEDP2,"Left Ventricular End-Diastolic Pressure, Step 2",rhca_m_r.csv,RHCA_M_R,continuous
+OUTPUT2,"Cardiac Output, Step 2",rhca_m_r.csv,RHCA_M_R,continuous
+ASMT3TM,"Time of Assessment, Step 3",rhca_m_r.csv,RHCA_M_R,categorical
+ASMT3HH,"Time of Assessment, Step 3 hour",rhca_m_r.csv,RHCA_M_R,continuous
+ASMT3MM,"Time of Assessment, Step 3 minute",rhca_m_r.csv,RHCA_M_R,continuous
+HRATE3,"Heart Rate, Step 3",rhca_m_r.csv,RHCA_M_R,continuous
+SAS3,"Systemic Arterial Saturation, Step 3",rhca_m_r.csv,RHCA_M_R,continuous
+SVOX3,"SvO3, Step 3",rhca_m_r.csv,RHCA_M_R,continuous
+SSBP3,"Systolic Systemic Blood Pressue, Step 3",rhca_m_r.csv,RHCA_M_R,continuous
+DSBP3,"Diastolic Systemic Blood Pressue, Step 3",rhca_m_r.csv,RHCA_M_R,continuous
+MSP3,"Mean Systemic Pressure, Step 3",rhca_m_r.csv,RHCA_M_R,continuous
+SPAP3,"Systolic Pulmonary Artery Pressure, Step 3",rhca_m_r.csv,RHCA_M_R,continuous
+DPAP3,"Diastolic Pulmonary Artery Pressure, Step 3",rhca_m_r.csv,RHCA_M_R,continuous
+MPAP3,"Mean Pulmonary Artery Pressure, Step 3",rhca_m_r.csv,RHCA_M_R,continuous
+MRAP3,"Mean Right Atrial Pressure, Step 3",rhca_m_r.csv,RHCA_M_R,continuous
+MPCWP3,"Mean Pulmonary Capillary Wedge Pressure, Step 3",rhca_m_r.csv,RHCA_M_R,continuous
+LVEDP3,"Left Ventricular End-Diastolic Pressure, Step 3",rhca_m_r.csv,RHCA_M_R,continuous
+OUTPUT3,"Cardiac Output, Step 3",rhca_m_r.csv,RHCA_M_R,continuous
+ASMT4TM,"Time of Assessment, Step 4",rhca_m_r.csv,RHCA_M_R,categorical
+ASMT4HH,"Time of Assessment, Step 4 hour",rhca_m_r.csv,RHCA_M_R,continuous
+ASMT4MM,"Time of Assessment, Step 4 minute",rhca_m_r.csv,RHCA_M_R,continuous
+HRATE4,"Heart Rate, Step 4",rhca_m_r.csv,RHCA_M_R,continuous
+SAS4,"Systemic Arterial Saturation, Step 4",rhca_m_r.csv,RHCA_M_R,continuous
+SVOX4,"SvO4, Step 4",rhca_m_r.csv,RHCA_M_R,continuous
+SSBP4,"Systolic Systemic Blood Pressue, Step 4",rhca_m_r.csv,RHCA_M_R,continuous
+DSBP4,"Diastolic Systemic Blood Pressue, Step 4",rhca_m_r.csv,RHCA_M_R,continuous
+MSP4,"Mean Systemic Pressure, Step 4",rhca_m_r.csv,RHCA_M_R,continuous
+SPAP4,"Systolic Pulmonary Artery Pressure, Step 4",rhca_m_r.csv,RHCA_M_R,continuous
+DPAP4,"Diastolic Pulmonary Artery Pressure, Step 4",rhca_m_r.csv,RHCA_M_R,continuous
+MPAP4,"Mean Pulmonary Artery Pressure, Step 4",rhca_m_r.csv,RHCA_M_R,continuous
+MRAP4,"Mean Right Atrial Pressure, Step 4",rhca_m_r.csv,RHCA_M_R,continuous
+MPCWP4,"Mean Pulmonary Capillary Wedge Pressure, Step 4",rhca_m_r.csv,RHCA_M_R,continuous
+LVEDP4,"Left Ventricular End-Diastolic Pressure, Step 4",rhca_m_r.csv,RHCA_M_R,continuous
+OUTPUT4,"Cardiac Output, Step 4",rhca_m_r.csv,RHCA_M_R,continuous
+ASMT5TM,"Time of Assessment, Step 5",rhca_m_r.csv,RHCA_M_R,categorical
+ASMT5HH,"Time of Assessment, Step 5 hour",rhca_m_r.csv,RHCA_M_R,continuous
+ASMT5MM,"Time of Assessment, Step 5 minute",rhca_m_r.csv,RHCA_M_R,continuous
+HRATE5,"Heart Rate, Step 5",rhca_m_r.csv,RHCA_M_R,continuous
+SAS5,"Systemic Arterial Saturation, Step 5",rhca_m_r.csv,RHCA_M_R,continuous
+SVOX5,"SvO5, Step 5",rhca_m_r.csv,RHCA_M_R,continuous
+SSBP5,"Systolic Systemic Blood Pressue, Step 5",rhca_m_r.csv,RHCA_M_R,continuous
+DSBP5,"Diastolic Systemic Blood Pressue, Step 5",rhca_m_r.csv,RHCA_M_R,continuous
+MSP5,"Mean Systemic Pressure, Step 5",rhca_m_r.csv,RHCA_M_R,continuous
+SPAP5,"Systolic Pulmonary Artery Pressure, Step 5",rhca_m_r.csv,RHCA_M_R,continuous
+DPAP5,"Diastolic Pulmonary Artery Pressure, Step 5",rhca_m_r.csv,RHCA_M_R,continuous
+MPAP5,"Mean Pulmonary Artery Pressure, Step 5",rhca_m_r.csv,RHCA_M_R,continuous
+MRAP5,"Mean Right Atrial Pressure, Step 5",rhca_m_r.csv,RHCA_M_R,continuous
+MPCWP5,"Mean Pulmonary Capillary Wedge Pressure, Step 5",rhca_m_r.csv,RHCA_M_R,continuous
+LVEDP5,"Left Ventricular End-Diastolic Pressure, Step 5",rhca_m_r.csv,RHCA_M_R,continuous
+OUTPUT5,"Cardiac Output, Step 5",rhca_m_r.csv,RHCA_M_R,continuous
+NOTSENT,Recording Not Sent,rhca_m_r.csv,RHCA_M_R,categorical
+PROCDAY,DAY OF PROCEDURE,rhca_m_r.csv,RHCA_M_R,continuous
+LDSDDAY,"LAST DOSE OF STUDY DRUG, DAY",rhca_m_r.csv,RHCA_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,rhca_m_r.csv,RHCA_M_R,continuous
+PT_ID,New Subject ID,rhcat_r.csv,RHCAT_R,continuous
+CATEGORY,Category,rhcat_r.csv,RHCAT_R,categorical
+CATSORT,Category sort variable,rhcat_r.csv,RHCAT_R,continuous
+VALUE,Value,rhcat_r.csv,RHCAT_R,continuous
+PHASE,Phase,rhcat_r.csv,RHCAT_R,continuous
+PROCDAY,Day of Procedure,rhcat_r.csv,RHCAT_R,continuous
+TBLVIS,Table visit label,rhcat_r.csv,RHCAT_R,categorical
+TBLVISN,Table visit label numeric,rhcat_r.csv,RHCAT_R,continuous
+PT_ID,New Patient ID,sddy_m_r.csv,SDDY_M_R,continuous
+STR,Stratum,sddy_m_r.csv,SDDY_M_R,categorical
+TRTL,"Treatment, label",sddy_m_r.csv,SDDY_M_R,categorical
+GENDER,Gender,sddy_m_r.csv,SDDY_M_R,categorical
+SCGENO,Sickle Cell Genotype,sddy_m_r.csv,SDDY_M_R,categorical
+DATASTR,,sddy_m_r.csv,SDDY_M_R,categorical
+PHASE,,sddy_m_r.csv,SDDY_M_R,continuous
+SEQNO,,sddy_m_r.csv,SDDY_M_R,continuous
+PROJECT,,sddy_m_r.csv,SDDY_M_R,categorical
+D1_AMTM,"Day 1, Morning Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D1_AMHH,"Day 1, Morning Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D1_AMMM,"Day 1, Morning Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D1_AMPT,"Day 1, Morning Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D1_AMNT,"Day 1, Morning Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D1_MDTM,"Day 1, Midday Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D1_MDHH,"Day 1, Midday Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D1_MDMM,"Day 1, Midday Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D1_MDPT,"Day 1, Midday Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D1_MDNT,"Day 1, Midday Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D1_PMTM,"Day 1, Evening Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D1_PMHH,"Day 1, Evening Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D1_PMMM,"Day 1, Evening Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D1_PMPT,"Day 1, Evening Dose, Number of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D1_PMNT,"Day 1, Evening Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D2_AMTM,"Day 2, Morning Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D2_AMHH,"Day 2, Morning Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D2_AMMM,"Day 2, Morning Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D2_AMPT,"Day 2, Morning Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D2_AMNT,"Day 2, Morning Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D2_MDTM,"Day 2, Midday Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D2_MDHH,"Day 2, Midday Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D2_MDMM,"Day 2, Midday Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D2_MDPT,"Day 2, Midday Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D2_MDNT,"Day 2, Midday Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D2_PMTM,"Day 2, Evening Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D2_PMHH,"Day 2, Evening Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D2_PMMM,"Day 2, Evening Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D2_PMPT,"Day 2, Evening Dose, Number of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D2_PMNT,"Day 2, Evening Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D3_AMTM,"Day 3, Morning Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D3_AMHH,"Day 3, Morning Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D3_AMMM,"Day 3, Morning Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D3_AMPT,"Day 3, Morning Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D3_AMNT,"Day 3, Morning Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D3_MDTM,"Day 3, Midday Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D3_MDHH,"Day 3, Midday Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D3_MDMM,"Day 3, Midday Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D3_MDPT,"Day 3, Midday Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D3_MDNT,"Day 3, Midday Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D3_PMTM,"Day 3, Evening Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D3_PMHH,"Day 3, Evening Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D3_PMMM,"Day 3, Evening Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D3_PMPT,"Day 3, Evening Dose, Number of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D3_PMNT,"Day 3, Evening Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D4_AMTM,"Day 4, Morning Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D4_AMHH,"Day 4, Morning Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D4_AMMM,"Day 4, Morning Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D4_AMPT,"Day 4, Morning Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D4_AMNT,"Day 4, Morning Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D4_MDTM,"Day 4, Midday Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D4_MDHH,"Day 4, Midday Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D4_MDMM,"Day 4, Midday Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D4_MDPT,"Day 4, Midday Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D4_MDNT,"Day 4, Midday Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D4_PMTM,"Day 4, Evening Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D4_PMHH,"Day 4, Evening Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D4_PMMM,"Day 4, Evening Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D4_PMPT,"Day 4, Evening Dose, Number of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D4_PMNT,"Day 4, Evening Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D5_AMTM,"Day 5, Morning Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D5_AMHH,"Day 5, Morning Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D5_AMMM,"Day 5, Morning Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D5_AMPT,"Day 5, Morning Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D5_AMNT,"Day 5, Morning Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D5_MDTM,"Day 5, Midday Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D5_MDHH,"Day 5, Midday Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D5_MDMM,"Day 5, Midday Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D5_MDPT,"Day 5, Midday Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D5_MDNT,"Day 5, Midday Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D5_PMTM,"Day 5, Evening Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D5_PMHH,"Day 5, Evening Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D5_PMMM,"Day 5, Evening Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D5_PMPT,"Day 5, Evening Dose, Number of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D5_PMNT,"Day 5, Evening Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D6_AMTM,"Day 6, Morning Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D6_AMHH,"Day 6, Morning Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D6_AMMM,"Day 6, Morning Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D6_AMPT,"Day 6, Morning Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D6_AMNT,"Day 6, Morning Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D6_MDTM,"Day 6, Midday Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D6_MDHH,"Day 6, Midday Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D6_MDMM,"Day 6, Midday Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D6_MDPT,"Day 6, Midday Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D6_MDNT,"Day 6, Midday Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D6_PMTM,"Day 6, Evening Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D6_PMHH,"Day 6, Evening Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D6_PMMM,"Day 6, Evening Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D6_PMPT,"Day 6, Evening Dose, Number of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D6_PMNT,"Day 6, Evening Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D7_AMTM,"Day 7, Morning Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D7_AMHH,"Day 7, Morning Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D7_AMMM,"Day 7, Morning Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D7_AMPT,"Day 7, Morning Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D7_AMNT,"Day 7, Morning Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D7_MDTM,"Day 7, Midday Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D7_MDHH,"Day 7, Midday Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D7_MDMM,"Day 7, Midday Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D7_MDPT,"Day 7, Midday Dose, Number Of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D7_MDNT,"Day 7, Midday Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D7_PMTM,"Day 7, Evening Dose, Time",sddy_m_r.csv,SDDY_M_R,categorical
+D7_PMHH,"Day 7, Evening Dose, Time hour",sddy_m_r.csv,SDDY_M_R,continuous
+D7_PMMM,"Day 7, Evening Dose, Time minute",sddy_m_r.csv,SDDY_M_R,continuous
+D7_PMPT,"Day 7, Evening Dose, Number of Pills Taken",sddy_m_r.csv,SDDY_M_R,continuous
+D7_PMNT,"Day 7, Evening Dose, Not Taken or Missed Dose",sddy_m_r.csv,SDDY_M_R,categorical
+D1_DAY,DAY 1 MEDICATION DAY,sddy_m_r.csv,SDDY_M_R,continuous
+D2_DAY,DAY 2 MEDICATION DAY,sddy_m_r.csv,SDDY_M_R,continuous
+D3_DAY,DAY 3 MEDICATION DAY,sddy_m_r.csv,SDDY_M_R,continuous
+D4_DAY,DAY 4 MEDICATION DAY,sddy_m_r.csv,SDDY_M_R,continuous
+D5_DAY,DAY 5 MEDICATION DAY,sddy_m_r.csv,SDDY_M_R,continuous
+D6_DAY,DAY 6 MEDICATION DAY,sddy_m_r.csv,SDDY_M_R,continuous
+D7_DAY,DAY 7 MEDICATION DAY,sddy_m_r.csv,SDDY_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,sddy_m_r.csv,SDDY_M_R,continuous
+PT_ID,New Patient ID,sf36_m_r.csv,SF36_M_R,continuous
+STR,Stratum,sf36_m_r.csv,SF36_M_R,categorical
+TRTL,"Treatment, label",sf36_m_r.csv,SF36_M_R,categorical
+GENDER,Gender,sf36_m_r.csv,SF36_M_R,categorical
+SCGENO,Sickle Cell Genotype,sf36_m_r.csv,SF36_M_R,categorical
+DATASTR,,sf36_m_r.csv,SF36_M_R,categorical
+PHASE,,sf36_m_r.csv,SF36_M_R,continuous
+SEQNO,,sf36_m_r.csv,SF36_M_R,continuous
+PROJECT,,sf36_m_r.csv,SF36_M_R,categorical
+SFQ1,Question 1,sf36_m_r.csv,SF36_M_R,continuous
+SFQ2,Question 2,sf36_m_r.csv,SF36_M_R,continuous
+SFQ3A,Question 3A,sf36_m_r.csv,SF36_M_R,continuous
+SFQ3B,Question 3B,sf36_m_r.csv,SF36_M_R,continuous
+SFQ3C,Question 3C,sf36_m_r.csv,SF36_M_R,continuous
+SFQ3D,Question 3D,sf36_m_r.csv,SF36_M_R,continuous
+SFQ3E,Question 3E,sf36_m_r.csv,SF36_M_R,continuous
+SFQ3F,Question 3F,sf36_m_r.csv,SF36_M_R,continuous
+SFQ3G,Question 3G,sf36_m_r.csv,SF36_M_R,continuous
+SFQ3H,Question 3H,sf36_m_r.csv,SF36_M_R,continuous
+SFQ3I,Question 3I,sf36_m_r.csv,SF36_M_R,continuous
+SFQ3J,Question 3J,sf36_m_r.csv,SF36_M_R,continuous
+SFQ4A,Question 4A,sf36_m_r.csv,SF36_M_R,continuous
+SFQ4B,Question 4B,sf36_m_r.csv,SF36_M_R,continuous
+SFQ4C,Question 4C,sf36_m_r.csv,SF36_M_R,continuous
+SFQ4D,Question 4D,sf36_m_r.csv,SF36_M_R,continuous
+SFQ5A,Question 5A,sf36_m_r.csv,SF36_M_R,continuous
+SFQ5B,Question 5B,sf36_m_r.csv,SF36_M_R,continuous
+SFQ5C,Question 5C,sf36_m_r.csv,SF36_M_R,continuous
+SFQ6,Question 6,sf36_m_r.csv,SF36_M_R,continuous
+SFQ7,Question 7,sf36_m_r.csv,SF36_M_R,continuous
+SFQ8,Question 8,sf36_m_r.csv,SF36_M_R,continuous
+SFQ9A,Question 9A,sf36_m_r.csv,SF36_M_R,continuous
+SFQ9B,Question 9B,sf36_m_r.csv,SF36_M_R,continuous
+SFQ9C,Question 9C,sf36_m_r.csv,SF36_M_R,continuous
+SFQ9D,Question 9D,sf36_m_r.csv,SF36_M_R,continuous
+SFQ9E,Question 9E,sf36_m_r.csv,SF36_M_R,continuous
+SFQ9F,Question 9F,sf36_m_r.csv,SF36_M_R,continuous
+SFQ9G,Question 9G,sf36_m_r.csv,SF36_M_R,continuous
+SFQ9H,Question 9H,sf36_m_r.csv,SF36_M_R,continuous
+SFQ9I,Question 9I,sf36_m_r.csv,SF36_M_R,continuous
+SFQ10,Question 10,sf36_m_r.csv,SF36_M_R,continuous
+SFQ11A,Question 11A,sf36_m_r.csv,SF36_M_R,continuous
+SFQ11B,Question 11B,sf36_m_r.csv,SF36_M_R,continuous
+SFQ11C,Question 11C,sf36_m_r.csv,SF36_M_R,continuous
+SFQ11D,Question 11D,sf36_m_r.csv,SF36_M_R,continuous
+ASMTDAY,DAY OF ASSESSMENT,sf36_m_r.csv,SF36_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,sf36_m_r.csv,SF36_M_R,continuous
+PT_ID,New Subject ID,sf36t_r.csv,SF36T_R,continuous
+CATEGORY,Category,sf36t_r.csv,SF36T_R,categorical
+CATSORT,Category sort variable,sf36t_r.csv,SF36T_R,continuous
+VALUE,Value,sf36t_r.csv,SF36T_R,continuous
+PHASE,Phase,sf36t_r.csv,SF36T_R,continuous
+ASMTDAY,Day of Assessment,sf36t_r.csv,SF36T_R,continuous
+TBLVIS,Table visit label,sf36t_r.csv,SF36T_R,categorical
+TBLVISN,Table visit label numeric,sf36t_r.csv,SF36T_R,continuous
+BLVALUE,Baseline value,sf36t_r.csv,SF36T_R,continuous
+CHANGE,Change from baseline value,sf36t_r.csv,SF36T_R,continuous
+PT_ID,Subject ID,sf36tl_r.csv,SF36TL_R,continuous
+CATEGORY,Category,sf36tl_r.csv,SF36TL_R,categorical
+CATSORT,Category sort variable,sf36tl_r.csv,SF36TL_R,continuous
+SUBCAT,Sub-category,sf36tl_r.csv,SF36TL_R,categorical
+VALUE,Value,sf36tl_r.csv,SF36TL_R,categorical
+PHASE,Phase,sf36tl_r.csv,SF36TL_R,continuous
+ASMTDAY,Day of Assessment,sf36tl_r.csv,SF36TL_R,continuous
+PT_ID,New Patient ID,sixm_m_r.csv,SIXM_M_R,continuous
+STR,Stratum,sixm_m_r.csv,SIXM_M_R,categorical
+TRTL,"Treatment, label",sixm_m_r.csv,SIXM_M_R,categorical
+GENDER,Gender,sixm_m_r.csv,SIXM_M_R,categorical
+SCGENO,Sickle Cell Genotype,sixm_m_r.csv,SIXM_M_R,categorical
+DATASTR,,sixm_m_r.csv,SIXM_M_R,categorical
+PHASE,,sixm_m_r.csv,SIXM_M_R,continuous
+SEQNO,,sixm_m_r.csv,SIXM_M_R,continuous
+PROJECT,,sixm_m_r.csv,SIXM_M_R,categorical
+DRUGTM,Time Of Last Dose Of Study Drug,sixm_m_r.csv,SIXM_M_R,categorical
+DRUGHH,Time Of Last Dose Of Study Drug hour,sixm_m_r.csv,SIXM_M_R,continuous
+DRUGMM,Time Of Last Dose Of Study Drug minute,sixm_m_r.csv,SIXM_M_R,continuous
+LDNA,Last Dose Of Study Drug Not Applicable,sixm_m_r.csv,SIXM_M_R,categorical
+SYSPRE,"Systolic Blood Pressure, Pre-Walk",sixm_m_r.csv,SIXM_M_R,continuous
+DIAPRE,"Diastolic Blood Pressure, Pre-Walk",sixm_m_r.csv,SIXM_M_R,continuous
+HRPRE,"Heart Rate, Pre-Walk",sixm_m_r.csv,SIXM_M_R,continuous
+OSPRE,"Oxygen Saturation, Pre-Walk",sixm_m_r.csv,SIXM_M_R,continuous
+AOPRE,Oxygen Saturation Measured On Air Or Oxygen?,sixm_m_r.csv,SIXM_M_R,categorical
+FRPRE,Oxygen Flow Rate,sixm_m_r.csv,SIXM_M_R,continuous
+STARTTM,Walk Start Time,sixm_m_r.csv,SIXM_M_R,categorical
+STARTHH,Walk Start Time hour,sixm_m_r.csv,SIXM_M_R,continuous
+STARTMM,Walk Start Time minute,sixm_m_r.csv,SIXM_M_R,continuous
+SYSPOST,"Systolic Blood Pressure, Post-Walk",sixm_m_r.csv,SIXM_M_R,continuous
+DIAPOST,"Diastolic Blood Pressure, Post-Walk",sixm_m_r.csv,SIXM_M_R,continuous
+HRPOST,"Heart Rate, Post-Walk, Immediate",sixm_m_r.csv,SIXM_M_R,continuous
+OSPOST,"Oxygen Saturation, Post-Walk, immediate",sixm_m_r.csv,SIXM_M_R,continuous
+AOPOST,Oxygen Saturation Measured On Air Or Oxygen?,sixm_m_r.csv,SIXM_M_R,categorical
+FRPOST,Oxygen Flow Rate,sixm_m_r.csv,SIXM_M_R,continuous
+DIST,Total Distance Walked,sixm_m_r.csv,SIXM_M_R,continuous
+SUBSTOP,Did Subject Stop Prior To 6-Minute Time Limit?,sixm_m_r.csv,SIXM_M_R,categorical
+USEO2,Did Subject Use Oxygen During Test?,sixm_m_r.csv,SIXM_M_R,categorical
+FRWALK,Oxygen Flow Rate During Test,sixm_m_r.csv,SIXM_M_R,continuous
+DEVICE,Was Oxygen Device Carried Or Pushed?,sixm_m_r.csv,SIXM_M_R,categorical
+BRGPOST,"Borg Dyspnea Score, Post-Walk",sixm_m_r.csv,SIXM_M_R,categorical
+CLASS,NYHA/WHO classification,sixm_m_r.csv,SIXM_M_R,categorical
+ASMTDAY,DAY OF ASSESSMENT,sixm_m_r.csv,SIXM_M_R,continuous
+DRUGDAY,DAY OF LAST DOSE OF STUDY DRUG,sixm_m_r.csv,SIXM_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,sixm_m_r.csv,SIXM_M_R,continuous
+PT_ID,New Patient ID,sixm_s_r.csv,SIXM_S_R,continuous
+STR,Stratum,sixm_s_r.csv,SIXM_S_R,categorical
+TRTL,"Treatment, label",sixm_s_r.csv,SIXM_S_R,categorical
+GENDER,Gender,sixm_s_r.csv,SIXM_S_R,categorical
+SCGENO,Sickle Cell Genotype,sixm_s_r.csv,SIXM_S_R,categorical
+DATASTR,,sixm_s_r.csv,SIXM_S_R,categorical
+PHASE,,sixm_s_r.csv,SIXM_S_R,continuous
+SEQNO,,sixm_s_r.csv,SIXM_S_R,continuous
+PROJECT,,sixm_s_r.csv,SIXM_S_R,categorical
+SYSPRE,"Systolic Blood Pressure, Pre-Walk",sixm_s_r.csv,SIXM_S_R,continuous
+DIAPRE,"Diastolic Blood Pressure, Pre-Walk",sixm_s_r.csv,SIXM_S_R,continuous
+HRPRE,"Heart Rate, Pre-Walk",sixm_s_r.csv,SIXM_S_R,continuous
+OSPRE,"Oxygen Saturation, Pre-Walk",sixm_s_r.csv,SIXM_S_R,continuous
+AOPRE,Oxygen Saturation Measured On Air Or Oxygen?,sixm_s_r.csv,SIXM_S_R,categorical
+FRPRE,Oxygen Flow Rate,sixm_s_r.csv,SIXM_S_R,continuous
+STARTTM,Walk Start Time,sixm_s_r.csv,SIXM_S_R,categorical
+STARTHH,Walk Start Time hour,sixm_s_r.csv,SIXM_S_R,continuous
+STARTMM,Walk Start Time minute,sixm_s_r.csv,SIXM_S_R,continuous
+SYSPOST,"Systolic Blood Pressure, Post-Walk",sixm_s_r.csv,SIXM_S_R,continuous
+DIAPOST,"Diastolic Blood Pressure, Post-Walk",sixm_s_r.csv,SIXM_S_R,continuous
+HRPOST,"Heart Rate, Post-Walk, Immediate",sixm_s_r.csv,SIXM_S_R,continuous
+OSPOST,"Oxygen Saturation, Post-Walk, immediate",sixm_s_r.csv,SIXM_S_R,continuous
+AOPOST,Oxygen Saturation Measured On Air Or Oxygen?,sixm_s_r.csv,SIXM_S_R,categorical
+FRPOST,Oxygen Flow Rate,sixm_s_r.csv,SIXM_S_R,continuous
+DIST,Total Distance Walked,sixm_s_r.csv,SIXM_S_R,continuous
+SUBSTOP,Did Subject Stop Prior To 6-Minute Time Limit?,sixm_s_r.csv,SIXM_S_R,categorical
+USEO2,Did Subject Use Oxygen During Test?,sixm_s_r.csv,SIXM_S_R,categorical
+FRWALK,Oxygen Flow Rate During Test,sixm_s_r.csv,SIXM_S_R,continuous
+DEVICE,Was Oxygen Device Carried Or Pushed?,sixm_s_r.csv,SIXM_S_R,categorical
+BRGPOST,"Borg Dyspnea Score, Post-Walk",sixm_s_r.csv,SIXM_S_R,categorical
+CLASS,NYHA/WHO classification,sixm_s_r.csv,SIXM_S_R,categorical
+ASMTDAY,DAY OF ASSESSMENT,sixm_s_r.csv,SIXM_S_R,continuous
+AGE_TRUNC,AGE TRUNCATED,sixm_s_r.csv,SIXM_S_R,continuous
+PT_ID,New Subject ID,sixmt_r.csv,SIXMT_R,continuous
+CATEGORY,Category,sixmt_r.csv,SIXMT_R,categorical
+CATSORT,Category sort variable,sixmt_r.csv,SIXMT_R,continuous
+VALUE,Value,sixmt_r.csv,SIXMT_R,continuous
+VALUEI,Value imputed,sixmt_r.csv,SIXMT_R,continuous
+PHASE,Phase,sixmt_r.csv,SIXMT_R,continuous
+ASMTDAY,Day of Assessment,sixmt_r.csv,SIXMT_R,continuous
+TBLVIS,Table visit label,sixmt_r.csv,SIXMT_R,categorical
+TBLVISN,Table visit label numeric,sixmt_r.csv,SIXMT_R,continuous
+BLVALUE,Baseline value,sixmt_r.csv,SIXMT_R,continuous
+CHANGEI,Change from baseline value,sixmt_r.csv,SIXMT_R,continuous
+PBL,Post-baseline record,sixmt_r.csv,SIXMT_R,categorical
+PT_ID,New Subject ID,status_enr_r.csv,STATUS_ENR_R,continuous
+DISP,Disposition Status,status_enr_r.csv,STATUS_ENR_R,categorical
+DISP_DAY,Disposition Day,status_enr_r.csv,STATUS_ENR_R,continuous
+RSCR,Rescreening records?,status_enr_r.csv,STATUS_ENR_R,categorical
+DSC_REA,Reason for Discontinuation,status_enr_r.csv,STATUS_ENR_R,categorical
+DSC_REA_,Screening Failure/Randomization Failure/Discontinuation Reason,status_enr_r.csv,STATUS_ENR_R,categorical
+PT_ID,New Patient ID,subd_s_r.csv,SUBD_S_R,continuous
+STR,Stratum,subd_s_r.csv,SUBD_S_R,categorical
+TRTL,"Treatment, label",subd_s_r.csv,SUBD_S_R,categorical
+GENDER,Gender,subd_s_r.csv,SUBD_S_R,categorical
+SCGENO,Sickle Cell Genotype,subd_s_r.csv,SUBD_S_R,categorical
+DATASTR,,subd_s_r.csv,SUBD_S_R,categorical
+PHASE,,subd_s_r.csv,SUBD_S_R,continuous
+SEQNO,,subd_s_r.csv,SUBD_S_R,continuous
+PROJECT,,subd_s_r.csv,SUBD_S_R,categorical
+DISP,Subject Disposition After Screening,subd_s_r.csv,SUBD_S_R,categorical
+REASON,Reason Not Randomized,subd_s_r.csv,SUBD_S_R,categorical
+SCRFUDAY,DAY OF SCREENING/OBSERVATIONAL FOLLOW-UP INFORMED CONSENT,subd_s_r.csv,SUBD_S_R,continuous
+AGE_TRUNC,AGE TRUNCATED,subd_s_r.csv,SUBD_S_R,continuous
+PT_ID,New Patient ID,syma_m_r.csv,SYMA_M_R,continuous
+STR,Stratum,syma_m_r.csv,SYMA_M_R,categorical
+TRTL,"Treatment, label",syma_m_r.csv,SYMA_M_R,categorical
+GENDER,Gender,syma_m_r.csv,SYMA_M_R,categorical
+SCGENO,Sickle Cell Genotype,syma_m_r.csv,SYMA_M_R,categorical
+DATASTR,,syma_m_r.csv,SYMA_M_R,categorical
+PHASE,,syma_m_r.csv,SYMA_M_R,continuous
+SEQNO,,syma_m_r.csv,SYMA_M_R,continuous
+PROJECT,,syma_m_r.csv,SYMA_M_R,categorical
+LOC,Treatment Location,syma_m_r.csv,SYMA_M_R,categorical
+EVT1,"Event, Acute Chest Syndrome",syma_m_r.csv,SYMA_M_R,categorical
+EVT2,"Event, Chest Pain",syma_m_r.csv,SYMA_M_R,categorical
+EVT3,"Event, Dizziness",syma_m_r.csv,SYMA_M_R,continuous
+EVT4,"Event, Edema",syma_m_r.csv,SYMA_M_R,categorical
+EVT5,"Event, Irregular Breathing",syma_m_r.csv,SYMA_M_R,continuous
+EVT6,"Event, Pain Crisis/Vaso-Occlusive Crisis",syma_m_r.csv,SYMA_M_R,categorical
+EVT7,"Event, Priapism",syma_m_r.csv,SYMA_M_R,continuous
+EVT8,"Event, Shortness Of Breath",syma_m_r.csv,SYMA_M_R,categorical
+EVT9,"Event, Stroke",syma_m_r.csv,SYMA_M_R,categorical
+EVT10,"Event, Surgical Procedure",syma_m_r.csv,SYMA_M_R,continuous
+EVT10SP,"Event, Surgical Procedure, Specify",syma_m_r.csv,SYMA_M_R,continuous
+EVT11,"Event, Syncope",syma_m_r.csv,SYMA_M_R,continuous
+EVTOT,"Event, Other",syma_m_r.csv,SYMA_M_R,categorical
+TREATDAY,TREATMENT DAY,syma_m_r.csv,SYMA_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,syma_m_r.csv,SYMA_M_R,continuous
+PT_ID,New Patient ID,symp_m_r.csv,SYMP_M_R,continuous
+STR,Stratum,symp_m_r.csv,SYMP_M_R,categorical
+TRTL,"Treatment, label",symp_m_r.csv,SYMP_M_R,categorical
+GENDER,Gender,symp_m_r.csv,SYMP_M_R,categorical
+SCGENO,Sickle Cell Genotype,symp_m_r.csv,SYMP_M_R,categorical
+DATASTR,,symp_m_r.csv,SYMP_M_R,categorical
+PHASE,,symp_m_r.csv,SYMP_M_R,continuous
+SEQNO,,symp_m_r.csv,SYMP_M_R,continuous
+PROJECT,,symp_m_r.csv,SYMP_M_R,categorical
+EVENT,Did Subject Seek Medical Care For Acute Events?,symp_m_r.csv,SYMP_M_R,categorical
+PAIN,Any sickle cell-related pain events that were treated at home?,symp_m_r.csv,SYMP_M_R,categorical
+NUMSCP,"Sickle Cell-Related Pain Treated At Home, Number Of Events",symp_m_r.csv,SYMP_M_R,categorical
+PAINEX,Were any pain events an exacerbation of the subject's baseline condition?,symp_m_r.csv,SYMP_M_R,categorical
+VISION,Changes In Vision?,symp_m_r.csv,SYMP_M_R,categorical
+VISAE,"Changes In Vision, AE?",symp_m_r.csv,SYMP_M_R,categorical
+HEAD,Any Headaches?,symp_m_r.csv,SYMP_M_R,categorical
+HEADNUM,"Headaches, Number",symp_m_r.csv,SYMP_M_R,continuous
+HEADEX,Were any headaches an exacerbation of the subject's baseline condition?,symp_m_r.csv,SYMP_M_R,categorical
+PRIA,Any priapism events treated at home?,symp_m_r.csv,SYMP_M_R,categorical
+PRIANUM,Number of priapism events treated at home,symp_m_r.csv,SYMP_M_R,continuous
+PRIAEX,Were any priapism events an exacerbation of the subject's baseline condition?,symp_m_r.csv,SYMP_M_R,categorical
+TRANNA,Transfusion Since Previous Visit?,symp_m_r.csv,SYMP_M_R,categorical
+ANLG,"Subject Changed Use Of Analgesics (Medication, Dosage, Route)?",symp_m_r.csv,SYMP_M_R,categorical
+ANLGAE,Was Change Related To An Adverse Event?,symp_m_r.csv,SYMP_M_R,categorical
+ASMTDAY,DAY OF ASSESSMENT,symp_m_r.csv,SYMP_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,symp_m_r.csv,SYMP_M_R,continuous
+PT_ID,New Subject ID,sympt_r.csv,SYMPT_R,continuous
+CATEGORY,Category,sympt_r.csv,SYMPT_R,categorical
+CATSORT,Category sort variable,sympt_r.csv,SYMPT_R,continuous
+DESC,Description,sympt_r.csv,SYMPT_R,categorical
+PHASE,Phase,sympt_r.csv,SYMPT_R,continuous
+ASMTDAY,Day of Assessment,sympt_r.csv,SYMPT_R,continuous
+TBLVIS,Table visit label,sympt_r.csv,SYMPT_R,categorical
+TBLVISN,Table visit label numeric,sympt_r.csv,SYMPT_R,continuous
+PT_ID,New Patient ID,term_m_r.csv,TERM_M_R,continuous
+STR,Stratum,term_m_r.csv,TERM_M_R,categorical
+TRTL,"Treatment, label",term_m_r.csv,TERM_M_R,categorical
+GENDER,Gender,term_m_r.csv,TERM_M_R,categorical
+SCGENO,Sickle Cell Genotype,term_m_r.csv,TERM_M_R,categorical
+DATASTR,,term_m_r.csv,TERM_M_R,categorical
+PHASE,,term_m_r.csv,TERM_M_R,continuous
+SEQNO,,term_m_r.csv,TERM_M_R,continuous
+PROJECT,,term_m_r.csv,TERM_M_R,categorical
+COMPL,Did Subject Complete Main Interventional Trial through Week 16?,term_m_r.csv,TERM_M_R,categorical
+OPEN,Did Subject Continue In Open-Label Follow-Up?,term_m_r.csv,TERM_M_R,categorical
+REASON,Primary Reason,term_m_r.csv,TERM_M_R,categorical
+PROT1,Major Bleeding Complication,term_m_r.csv,TERM_M_R,continuous
+PROT2,One Episode Of Severe Priapism,term_m_r.csv,TERM_M_R,continuous
+PROT3,Positive Quantitative Blood HCG Or Pregnancy,term_m_r.csv,TERM_M_R,continuous
+PROT4,"New Retinal Detachment, Hemorrhage Or Clinically Significant Visual Change",term_m_r.csv,TERM_M_R,categorical
+PROT5,Serious Adverse Events Considered Related To Study Drug,term_m_r.csv,TERM_M_R,continuous
+PROT6,Specific Treatments For Pulmonary Hypertension,term_m_r.csv,TERM_M_R,continuous
+PROT7,Initiation of Chronic Transfusion Therapy,term_m_r.csv,TERM_M_R,continuous
+PROT8,Protease Inhibitor Treatment For HIV,term_m_r.csv,TERM_M_R,continuous
+PROT9,Emergency Clinical Unblinding of Treatment Assignment,term_m_r.csv,TERM_M_R,continuous
+PROT10,Initiation of Potent CYP3A4 Inhibitor Therapy,term_m_r.csv,TERM_M_R,continuous
+PROTO,"Protocol, Other",term_m_r.csv,TERM_M_R,categorical
+INV1,Subject Non-Compliance With Protocol,term_m_r.csv,TERM_M_R,continuous
+INV2,Sickle Cell-Related Clinical Deterioration,term_m_r.csv,TERM_M_R,continuous
+INV3,Clinical Deterioration Due To Pulmonary Hypertension,term_m_r.csv,TERM_M_R,continuous
+INV4,"Investigator, Other",term_m_r.csv,TERM_M_R,categorical
+ARM_SUB,"Study Arm Guess, Subject",term_m_r.csv,TERM_M_R,categorical
+ARM_SC,"Study Arm Guess, Site Coordinator",term_m_r.csv,TERM_M_R,categorical
+ARM_CI,"Study Arm Guess, Clinical Investigator",term_m_r.csv,TERM_M_R,categorical
+SAFTYFU,Was there a one-month safety follow-up?,term_m_r.csv,TERM_M_R,categorical
+CONDAY,DAY OF LAST MAIN INTERVENTIONAL TRIAL CONTACT,term_m_r.csv,TERM_M_R,continuous
+DRGDAY,DAY OF LAST DOSE OF STUDY DRUG,term_m_r.csv,TERM_M_R,continuous
+SAFTYDAY,DAY OF ONE MONTH FOLLOW UP,term_m_r.csv,TERM_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,term_m_r.csv,TERM_M_R,continuous
+PT_ID,New Patient ID,tran_m_r.csv,TRAN_M_R,continuous
+STR,Stratum,tran_m_r.csv,TRAN_M_R,categorical
+TRTL,"Treatment, label",tran_m_r.csv,TRAN_M_R,categorical
+GENDER,Gender,tran_m_r.csv,TRAN_M_R,categorical
+SCGENO,Sickle Cell Genotype,tran_m_r.csv,TRAN_M_R,categorical
+DATASTR,,tran_m_r.csv,TRAN_M_R,categorical
+PHASE,,tran_m_r.csv,TRAN_M_R,continuous
+SEQNO,,tran_m_r.csv,TRAN_M_R,continuous
+PROJECT,,tran_m_r.csv,TRAN_M_R,categorical
+REAS1,Reason 1,tran_m_r.csv,TRAN_M_R,categorical
+REAS2,Reason 2,tran_m_r.csv,TRAN_M_R,categorical
+REAS3,Reason 3,tran_m_r.csv,TRAN_M_R,categorical
+REAS4,Reason 4,tran_m_r.csv,TRAN_M_R,continuous
+REAS5,Reason 5,tran_m_r.csv,TRAN_M_R,categorical
+REAS6,Reason 6,tran_m_r.csv,TRAN_M_R,continuous
+REAS7,Reason 7,tran_m_r.csv,TRAN_M_R,continuous
+REAS8,Reason 8,tran_m_r.csv,TRAN_M_R,categorical
+REAS9,Reason 9,tran_m_r.csv,TRAN_M_R,categorical
+REAS10,Reason 10,tran_m_r.csv,TRAN_M_R,continuous
+REAS11,Reason 11,tran_m_r.csv,TRAN_M_R,categorical
+REAS_OT,"Reason, Other",tran_m_r.csv,TRAN_M_R,categorical
+TYPE,Type of Transfusion,tran_m_r.csv,TRAN_M_R,categorical
+UNITS,Number of Units Transfused,tran_m_r.csv,TRAN_M_R,continuous
+TRANDAY,DAY OF TRANSFUSION,tran_m_r.csv,TRAN_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,tran_m_r.csv,TRAN_M_R,continuous
+PT_ID,New Patient ID,urin_m_r.csv,URIN_M_R,continuous
+STR,Stratum,urin_m_r.csv,URIN_M_R,categorical
+TRTL,"Treatment, label",urin_m_r.csv,URIN_M_R,categorical
+GENDER,Gender,urin_m_r.csv,URIN_M_R,categorical
+SCGENO,Sickle Cell Genotype,urin_m_r.csv,URIN_M_R,categorical
+DATASTR,,urin_m_r.csv,URIN_M_R,categorical
+PHASE,,urin_m_r.csv,URIN_M_R,continuous
+SEQNO,,urin_m_r.csv,URIN_M_R,continuous
+PROJECT,,urin_m_r.csv,URIN_M_R,categorical
+MENSES,Is Subject Menstruating?,urin_m_r.csv,URIN_M_R,categorical
+PH,pH,urin_m_r.csv,URIN_M_R,continuous
+SPGRAV,Specific Gravity,urin_m_r.csv,URIN_M_R,categorical
+GLU,Glucose Result,urin_m_r.csv,URIN_M_R,categorical
+GLUCODE,Glucose Code,urin_m_r.csv,URIN_M_R,continuous
+GLUVAL,Glucose (mg/dL),urin_m_r.csv,URIN_M_R,continuous
+PRO,Protein Result,urin_m_r.csv,URIN_M_R,categorical
+PROCODE,Protein Code,urin_m_r.csv,URIN_M_R,categorical
+PROVAL,Protein Value (mg/dL),urin_m_r.csv,URIN_M_R,continuous
+BLD,Blood Result,urin_m_r.csv,URIN_M_R,categorical
+BLDCODE,Blood Code,urin_m_r.csv,URIN_M_R,categorical
+BLDVAL,Blood (Ery/uL),urin_m_r.csv,URIN_M_R,continuous
+MICROYN,Was Microscopic Exam Performed?,urin_m_r.csv,URIN_M_R,categorical
+RBC,RBC/HPF,urin_m_r.csv,URIN_M_R,categorical
+WBC,WBC/HPF,urin_m_r.csv,URIN_M_R,categorical
+OMICYN,Other Abnormal Findings On Microscopic Exam?,urin_m_r.csv,URIN_M_R,categorical
+OVERALL,Overall Assessment of Urinalysis,urin_m_r.csv,URIN_M_R,categorical
+NEWAE,"If Overall Abnormal, New AE?",urin_m_r.csv,URIN_M_R,categorical
+ALB,Albumin,urin_m_r.csv,URIN_M_R,continuous
+CREAT,Creatinine,urin_m_r.csv,URIN_M_R,continuous
+RATIO,Albumin/Creatinine Ratio,urin_m_r.csv,URIN_M_R,continuous
+COLLDAY,COLLECTION DAY,urin_m_r.csv,URIN_M_R,continuous
+ACDAY,ALBUMIN/CREATININE DAY OF COLLECTION,urin_m_r.csv,URIN_M_R,continuous
+AGE_TRUNC,AGE TRUNCATED,urin_m_r.csv,URIN_M_R,continuous
+PT_ID,New Patient ID,urin_s_r.csv,URIN_S_R,continuous
+STR,Stratum,urin_s_r.csv,URIN_S_R,categorical
+TRTL,"Treatment, label",urin_s_r.csv,URIN_S_R,categorical
+GENDER,Gender,urin_s_r.csv,URIN_S_R,categorical
+SCGENO,Sickle Cell Genotype,urin_s_r.csv,URIN_S_R,categorical
+DATASTR,,urin_s_r.csv,URIN_S_R,categorical
+PHASE,,urin_s_r.csv,URIN_S_R,continuous
+SEQNO,,urin_s_r.csv,URIN_S_R,continuous
+PROJECT,,urin_s_r.csv,URIN_S_R,categorical
+MENSES,Is Subject Menstruating?,urin_s_r.csv,URIN_S_R,categorical
+PH,pH,urin_s_r.csv,URIN_S_R,continuous
+SPGRAV,Specific Gravity,urin_s_r.csv,URIN_S_R,continuous
+GLU,Glucose Result,urin_s_r.csv,URIN_S_R,categorical
+GLUCODE,Glucose Code,urin_s_r.csv,URIN_S_R,categorical
+GLUVAL,Glucose (mg/dL),urin_s_r.csv,URIN_S_R,continuous
+PRO,Protein Result,urin_s_r.csv,URIN_S_R,categorical
+PROCODE,Protein Code,urin_s_r.csv,URIN_S_R,categorical
+PROVAL,Protein Value (mg/dL),urin_s_r.csv,URIN_S_R,continuous
+BLD,Blood Result,urin_s_r.csv,URIN_S_R,categorical
+BLDCODE,Blood Code,urin_s_r.csv,URIN_S_R,categorical
+BLDVAL,Blood (Ery/uL),urin_s_r.csv,URIN_S_R,continuous
+MICROYN,Was Microscopic Exam Performed?,urin_s_r.csv,URIN_S_R,categorical
+RBC,RBC/HPF,urin_s_r.csv,URIN_S_R,categorical
+WBC,WBC/HPF,urin_s_r.csv,URIN_S_R,categorical
+OMICYN,Other Abnormal Findings On Microscopic Exam?,urin_s_r.csv,URIN_S_R,categorical
+OVERALL,Overall Assessment of Urinalysis,urin_s_r.csv,URIN_S_R,categorical
+NEWAE,"If Overall Abnormal, New AE?",urin_s_r.csv,URIN_S_R,categorical
+ALB,Albumin,urin_s_r.csv,URIN_S_R,continuous
+CREAT,Creatinine,urin_s_r.csv,URIN_S_R,continuous
+RATIO,Albumin/Creatinine Ratio,urin_s_r.csv,URIN_S_R,continuous
+COLLDAY,COLLECTION DAY,urin_s_r.csv,URIN_S_R,continuous
+ACDAY,ALBUMIN/CREATININE DAY OF COLLECTION,urin_s_r.csv,URIN_S_R,continuous
+AGE_TRUNC,AGE TRUNCATED,urin_s_r.csv,URIN_S_R,continuous
+PT_ID,Subject ID,visit_enr_r.csv,VISIT_ENR_R,continuous
+VISIT,Visit,visit_enr_r.csv,VISIT_ENR_R,categorical
+VISITDAY,Visit Day,visit_enr_r.csv,VISIT_ENR_R,continuous
+VISIT_NUM,Visit Number,visit_enr_r.csv,VISIT_ENR_R,continuous
+COMPL,Did subject complete study?,visit_enr_r.csv,VISIT_ENR_R,categorical
+PHASE,Study Phase,visit_enr_r.csv,VISIT_ENR_R,continuous
+COLLDAY_CHEM,Day of Collection of Chemistry,visit_enr_r.csv,VISIT_ENR_R,continuous
+ALBC,Chemistry Albumin,visit_enr_r.csv,VISIT_ENR_R,continuous
+ALBUNIT,Albumin Unit,visit_enr_r.csv,VISIT_ENR_R,categorical
+ALBSG,ALB Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+ALT,ALT,visit_enr_r.csv,VISIT_ENR_R,continuous
+ALTSG,ALT Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+ALK,Alkaline Phosphatase,visit_enr_r.csv,VISIT_ENR_R,continuous
+ALKSG,ALK Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+AST,AST,visit_enr_r.csv,VISIT_ENR_R,continuous
+ASTSG,AST Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+CO2,Bicarbonate (CO2),visit_enr_r.csv,VISIT_ENR_R,continuous
+CO2UNIT,CO2 Unit,visit_enr_r.csv,VISIT_ENR_R,categorical
+CO2SG,CO2 Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+BUN,Blood Urea Nitrogen (BUN),visit_enr_r.csv,VISIT_ENR_R,continuous
+CALSG,CAL Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+CHL,Chloride,visit_enr_r.csv,VISIT_ENR_R,continuous
+CRUNIT,Creatinine Unit,visit_enr_r.csv,VISIT_ENR_R,categorical
+CRESG,CRE Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+CAL,Calcium,visit_enr_r.csv,VISIT_ENR_R,continuous
+CALUNIT,Calcium Unit,visit_enr_r.csv,VISIT_ENR_R,categorical
+BUNUNIT,BUN Unit,visit_enr_r.csv,VISIT_ENR_R,categorical
+BUNSG,BUN Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+CHLSG,CHL Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+CRE,Chemistry Creatinine,visit_enr_r.csv,VISIT_ENR_R,continuous
+MAGSG,MAG Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+PHOS,Phosphate/Phosphorus,visit_enr_r.csv,VISIT_ENR_R,continuous
+LDH,LDH,visit_enr_r.csv,VISIT_ENR_R,continuous
+LDHSG,LDH Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+MAG,Magnesium,visit_enr_r.csv,VISIT_ENR_R,continuous
+MAGUNIT,MAG Unit,visit_enr_r.csv,VISIT_ENR_R,categorical
+PUNIT,Phosphate/Phosphorus Unit,visit_enr_r.csv,VISIT_ENR_R,categorical
+PHOSSG,PHOS Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+POT,Potassium,visit_enr_r.csv,VISIT_ENR_R,continuous
+POTSG,POT Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+SOD,Sodium,visit_enr_r.csv,VISIT_ENR_R,continuous
+SODSG,SOD Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+TPUNIT,Total Protein Unit,visit_enr_r.csv,VISIT_ENR_R,categorical
+TPROTSG,TPROT Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+TBILSG,TBIL Clinical Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+TPROT,Total Protein,visit_enr_r.csv,VISIT_ENR_R,continuous
+TBIL,Total Bilirubin,visit_enr_r.csv,VISIT_ENR_R,continuous
+TBUNIT,Total Bilirubin Unit,visit_enr_r.csv,VISIT_ENR_R,categorical
+COLLDAY_HEMA,Day of Collection of Hematology,visit_enr_r.csv,VISIT_ENR_R,continuous
+ANCSG,"ANC, Significance",visit_enr_r.csv,VISIT_ENR_R,categorical
+ANC,Absolute Neutrophil Count (ANC),visit_enr_r.csv,VISIT_ENR_R,continuous
+NEUT,Neutrophils (%),visit_enr_r.csv,VISIT_ENR_R,continuous
+NEUTSG,"Neutrophils, Significance",visit_enr_r.csv,VISIT_ENR_R,categorical
+ARC,Absolute Reticulocyte Count,visit_enr_r.csv,VISIT_ENR_R,continuous
+ARCSG,"ARC, Significance",visit_enr_r.csv,VISIT_ENR_R,categorical
+RET,Reticulocytes (%),visit_enr_r.csv,VISIT_ENR_R,continuous
+RETSG,"Reticulocytes, Significance",visit_enr_r.csv,VISIT_ENR_R,categorical
+HCT,Hematocrit,visit_enr_r.csv,VISIT_ENR_R,continuous
+HCTUNIT,Hematocrit Unit,visit_enr_r.csv,VISIT_ENR_R,categorical
+HCTSG,Hematocrit Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+HGB,Hemoglobin,visit_enr_r.csv,VISIT_ENR_R,continuous
+HGBUNIT,Hemoglobin Unit,visit_enr_r.csv,VISIT_ENR_R,categorical
+HGBSG,HGB Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+MCHC,MCHC,visit_enr_r.csv,VISIT_ENR_R,continuous
+MCHUNIT,MCHC Unit,visit_enr_r.csv,VISIT_ENR_R,categorical
+MCHCSG,MCHC Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+MCV,Mean Cell Volume (MCV),visit_enr_r.csv,VISIT_ENR_R,continuous
+MCVSG,"MCV, Significance",visit_enr_r.csv,VISIT_ENR_R,categorical
+PLAT,Platelet Count,visit_enr_r.csv,VISIT_ENR_R,continuous
+PLATSG,PLAT Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+RBCH,RBC,visit_enr_r.csv,VISIT_ENR_R,continuous
+RBCSG,RBC Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+WBCH,White Blood Cell (WBC) Count,visit_enr_r.csv,VISIT_ENR_R,continuous
+WBCSG,WBC Significance,visit_enr_r.csv,VISIT_ENR_R,categorical
+COLLDAY_URIN,Day of Collection of Urinalysis,visit_enr_r.csv,VISIT_ENR_R,continuous
+MENSES,Is Subject Menstruating?,visit_enr_r.csv,VISIT_ENR_R,categorical
+PH,pH,visit_enr_r.csv,VISIT_ENR_R,continuous
+SPGRAV,Specific Gravity,visit_enr_r.csv,VISIT_ENR_R,categorical
+GLU,Glucose Result,visit_enr_r.csv,VISIT_ENR_R,categorical
+GLUCODE,Glucose Code,visit_enr_r.csv,VISIT_ENR_R,categorical
+GLUVAL,Glucose (mg/dL),visit_enr_r.csv,VISIT_ENR_R,continuous
+PRO,Protein Result,visit_enr_r.csv,VISIT_ENR_R,categorical
+PROCODE,Protein Code,visit_enr_r.csv,VISIT_ENR_R,categorical
+PROVAL,Protein Value (mg/dL),visit_enr_r.csv,VISIT_ENR_R,continuous
+BLD,Blood Result,visit_enr_r.csv,VISIT_ENR_R,categorical
+BLDCODE,Blood Code,visit_enr_r.csv,VISIT_ENR_R,categorical
+BLDVAL,Blood (Ery/uL),visit_enr_r.csv,VISIT_ENR_R,continuous
+MICROYN,Was Microscopic Exam Performed?,visit_enr_r.csv,VISIT_ENR_R,categorical
+RBCU,RBC/HPF,visit_enr_r.csv,VISIT_ENR_R,categorical
+WBCU,WBC/HPF,visit_enr_r.csv,VISIT_ENR_R,categorical
+OMICYN,Other Abnormal Findings On Microscopic Exam?,visit_enr_r.csv,VISIT_ENR_R,categorical
+OMICDES,"Other Micro Findings, Description",visit_enr_r.csv,VISIT_ENR_R,categorical
+OVERALL,Overall Assessment of Urinalysis,visit_enr_r.csv,VISIT_ENR_R,categorical
+NEWAE,"If Overall Abnormal, New AE?",visit_enr_r.csv,VISIT_ENR_R,categorical
+ALBU,Urinalysis Albumin,visit_enr_r.csv,VISIT_ENR_R,continuous
+CREAT,Urinalysis Creatinine,visit_enr_r.csv,VISIT_ENR_R,continuous
+RATIO,Albumin/Creatinine Ratio,visit_enr_r.csv,VISIT_ENR_R,continuous
+ACDT,Albumin/Creatinine Date of Collection,visit_enr_r.csv,VISIT_ENR_R,categorical
+COMM_URIN,Comment Associated With Urinalysis,visit_enr_r.csv,VISIT_ENR_R,categorical
+ALBC_U,Chemistry Albumin SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+ALK_U,Alkaline Phosphatase SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+ALT_U,ALT SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+AST_U,AST SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+CO2_U,CO2 SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+CHL_U,Chloride SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+LDH_U,LDH SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+POT_U,Potassium SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+SOD_U,Sodium SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+TPROT_U,Total Protein SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+BUN_U,BUN SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+CAL_U,Calcium SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+CRE_U,Chemistry Creatinine SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+MAG_U,Magnesium SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+PHOS_U,Phosphate SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+TBIL_U,Total Bilirubin SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+ANC_U,Absolute Neutrophil Count SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+NEUT_U,Neutrophils SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+ARC_U,Absolute Reticulocyte Count SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+RET_U,Reticulocytes SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+MCV_U,Mean Corpuscular Volume SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+PLAT_U,Platelet Count SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+RBCH_U,Hematology RBC SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+WBCH_U,Hematology WBC SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+HCT_U,Hematocrit SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+HGB_U,Hemoglobin SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+MCHC_U,MCHC SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+GLU_U,Glucose SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+PRO_U,Protein SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+BLD_U,Blood SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+ALBU_U,Urinalysis Albumin SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+CREAT_U,Urinalysis Creatinine SI Units,visit_enr_r.csv,VISIT_ENR_R,categorical
+TPROT_SI,Total Protein in SI Units,visit_enr_r.csv,VISIT_ENR_R,continuous
+ALBC_SI,Albumin in SI Units,visit_enr_r.csv,VISIT_ENR_R,continuous
+BUN_SI,BUN in SI Units,visit_enr_r.csv,VISIT_ENR_R,continuous
+CAL_SI,Calcium in SI Units,visit_enr_r.csv,VISIT_ENR_R,continuous
+CRE_SI,Creatinine in SI Units,visit_enr_r.csv,VISIT_ENR_R,continuous
+MAG_SI,Magnesium in SI Units,visit_enr_r.csv,VISIT_ENR_R,continuous
+PHOS_SI,Phosphate in SI Units,visit_enr_r.csv,VISIT_ENR_R,continuous
+TBIL_SI,Total Bilirubin in SI Units,visit_enr_r.csv,VISIT_ENR_R,continuous
+HCT_SI,Hematocrit in SI Units,visit_enr_r.csv,VISIT_ENR_R,continuous
+HGB_SI,Hemoglobin in SI Units,visit_enr_r.csv,VISIT_ENR_R,continuous
+MCHC_SI,MCHC in SI Units,visit_enr_r.csv,VISIT_ENR_R,continuous
+ALBC_B,Baseline Chemistry Albumin Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+ALK_B,Baseline ALK Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+ALT_B,Baseline ALT Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+AST_B,Baseline AST Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+CO2_B,Baseline CO2 Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+BUN_B,Baseline BUN Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+CAL_B,Baseline Calcium Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+CHL_B,Baseline Chloride Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+CRE_B,Baseline Creatinine Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+LDH_B,Baseline LDH Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+MAG_B,Baseline Magnesium Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+PHOS_B,Baseline Phosphate Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+POT_B,Baseline Potassium Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+SOD_B,Baseline Sodium Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+TBIL_B,Baseline Total Bilirubin Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+TPROT_B,Baseline Total Protein Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+ANC_B,Baseline ANC Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+NEUT_B,Baseline Neutrophils Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+ARC_B,Baseline ARC Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+RET_B,Baseline Reticulocytes Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+HCT_B,Baseline Hematocrit Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+HGB_B,Baseline Hemoglobin Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+MCHC_B,Baseline MCHC Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+MCV_B,Baseline MCV Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+PLAT_B,Baseline Platelet Count Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+RBCH_B,Baseline Hematology RBC Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+WBCH_B,Baseline Hematology WBC Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+GLU_B,Baseline Glucose Value,visit_enr_r.csv,VISIT_ENR_R,categorical
+PRO_B,Baseline Protein Value,visit_enr_r.csv,VISIT_ENR_R,categorical
+BLD_B,Baseline Blood Value,visit_enr_r.csv,VISIT_ENR_R,categorical
+ALBU_B,Baseline Urinalysis Albumin Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+CREAT_B,Baseline Creatinine Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+PH_B,Baseline PH Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+SPGRAV_B,Baseline Specific Gravity Value,visit_enr_r.csv,VISIT_ENR_R,categorical
+RBCU_B,Baseline Urinalysis RBC Value,visit_enr_r.csv,VISIT_ENR_R,categorical
+WBCU_B,Baseline Urinalysis WBC Value,visit_enr_r.csv,VISIT_ENR_R,categorical
+ALBC_C,Change From Baseline Chemistry Albumin Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+ALK_C,Change From Baseline ALK Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+ALT_C,Change From Baseline ALT Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+AST_C,Change From Baseline AST Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+CO2_C,Change From Baseline CO2 Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+BUN_C,Change From Baseline BUN Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+CAL_C,Change From Baseline Calcium Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+CHL_C,Change From Baseline Chloride Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+CRE_C,Change From Baseline Creatinine Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+LDH_C,Change From Baseline LDH Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+MAG_C,Change From Baseline Magnesium Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+PHOS_C,Change From Baseline Phosphate Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+POT_C,Change From Baseline Potassium Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+SOD_C,Change From Baseline Sodium Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+TBIL_C,Change From Baseline Total Bilirubin Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+TPROT_C,Change From Baseline Total Protein Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+ANC_C,Change From Baseline ANC Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+NEUT_C,Change From Baseline Neutrophils Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+ARC_C,Change From Baseline ARC Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+RET_C,Change From Baseline Reticulocytes Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+HCT_C,Change From Baseline Hematocrit Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+HGB_C,Change From Baseline Hemoglobin Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+MCHC_C,Change From Baseline MCHC Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+MCV_C,Change From Baseline MCV Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+PLAT_C,Change From Baseline Platelet Count Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+RBCH_C,Change From Baseline Hematology RBC Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+WBCH_C,Change From Baseline Hematology WBC Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+GLU_C,Change From Baseline Glucose Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+PRO_C,Change From Baseline Protein Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+BLD_C,Change From Baseline Blood Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+ALBU_C,Change From Baseline Urinalysis Albumin Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+CREAT_C,Change From Baseline Creatinine Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+PH_C,Change From Baseline PH Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+SPGRAV_C,Change From Baseline Specific Gravity Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+RBCU_C,Change From Baseline Urinalysis RBC Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+WBCU_C,Change From Baseline Urinalysis WBC Value,visit_enr_r.csv,VISIT_ENR_R,continuous
+COLLDAY_HEEL,Day of Collection of HEEL Data,visit_enr_r.csv,VISIT_ENR_R,continuous
+HIST,Was A Historical Hemoglobin Electrophoresis Used?,visit_enr_r.csv,VISIT_ENR_R,categorical
+HEMA,Hemoglobin Electrophoresis A (%),visit_enr_r.csv,VISIT_ENR_R,continuous
+HEMA2,Hemoglobin Electrophoresis A2 (%),visit_enr_r.csv,VISIT_ENR_R,continuous
+HEMC,Hemoglobin Electrophoresis C (%),visit_enr_r.csv,VISIT_ENR_R,continuous
+HEMF,F (%),visit_enr_r.csv,VISIT_ENR_R,continuous
+HEMS,S (%),visit_enr_r.csv,VISIT_ENR_R,continuous
+HEMOTH,Other (%),visit_enr_r.csv,VISIT_ENR_R,continuous
+HEMOSP,"Other, Specify",visit_enr_r.csv,VISIT_ENR_R,continuous
+TRJV,Transcuspid Regurgitant Jet Velocity (m/s),visit_enr_r.csv,VISIT_ENR_R,continuous
+DIST,Six Minute Walk Distance (m),visit_enr_r.csv,VISIT_ENR_R,continuous
+LOC,Treatment Location,visit_enr_r.csv,VISIT_ENR_R,categorical
+PAIN,Any sickle cell-related pain events that were treated at home?,visit_enr_r.csv,VISIT_ENR_R,categorical
+TRANNA,Transfusion Since Previous Visit?,visit_enr_r.csv,VISIT_ENR_R,categorical
+VISION,Changes In Vision?,visit_enr_r.csv,VISIT_ENR_R,categorical
+HEAD,Any Headaches?,visit_enr_r.csv,VISIT_ENR_R,categorical
+PRIA,Any priapism events treated at home?,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEALBC_CAT,Baseline Normal/Abnormal Category for Chemistry Albumin,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEALK_CAT,Baseline Normal/Abnormal Category for ALK,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEALT_CAT,Baseline Normal/Abnormal Category for ALT,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEAST_CAT,Baseline Normal/Abnormal Category for AST,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASECO2_CAT,Baseline Normal/Abnormal Category for CO2,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEBUN_CAT,Baseline Normal/Abnormal Category for BUN,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASECAL_CAT,Baseline Normal/Abnormal Category for CAL,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASECHL_CAT,Baseline Normal/Abnormal Category for CHL,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASECRE_CAT,Baseline Normal/Abnormal Category for CRE,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASELDH_CAT,Baseline Normal/Abnormal Category for LDH,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEMAG_CAT,Baseline Normal/Abnormal Category for MAG,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEPHOS_CAT,Baseline Normal/Abnormal Category for PHOS,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEPOT_CAT,Baseline Normal/Abnormal Category for POT,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASESOD_CAT,Baseline Normal/Abnormal Category for SOD,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASETBIL_CAT,Baseline Normal/Abnormal Category for TBIL,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASETPROT_CAT,Baseline Normal/Abnormal Category for TPROT,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEANC_CAT,Baseline Normal/Abnormal Category for ANC,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASENEUT_CAT,Baseline Normal/Abnormal Category for NEUT,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEARC_CAT,Baseline Normal/Abnormal Category for ARC,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASERET_CAT,Baseline Normal/Abnormal Category for RET,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEHCT_CAT,Baseline Normal/Abnormal Category for HCT,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEHGB_CAT,Baseline Normal/Abnormal Category for HGB,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEMCHC_CAT,Baseline Normal/Abnormal Category for MCHC,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEMCV_CAT,Baseline Normal/Abnormal Category for MCV,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEPLAT_CAT,Baseline Normal/Abnormal Category for PLAT,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASERBCH_CAT,Baseline Normal/Abnormal Category for RBCH,visit_enr_r.csv,VISIT_ENR_R,categorical
+BASEWBCH_CAT,Baseline Normal/Abnormal Category for WBCH,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTALBC_CAT,Worst Normal/Abnormal Category for Chemistry ALB,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTALK_CAT,Worst Normal/Abnormal Category for ALK,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTALT_CAT,Worst Normal/Abnormal Category for ALT,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTAST_CAT,Worst Normal/Abnormal Category for AST,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTCO2_CAT,Worst Normal/Abnormal Category for CO2,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTBUN_CAT,Worst Normal/Abnormal Category for BUN,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTCAL_CAT,Worst Normal/Abnormal Category for CAL,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTCHL_CAT,Worst Normal/Abnormal Category for CHL,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTCRE_CAT,Worst Normal/Abnormal Category for CRE,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTLDH_CAT,Worst  Normal/Abnormal Category for LDH,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTMAG_CAT,Worst Normal/Abnormal Category for MAG,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTPHOS_CAT,Worst Normal/Abnormal Category for PHOS,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTPOT_CAT,Worst Normal/Abnormal Category for POT,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTSOD_CAT,Worst Normal/Abnormal Category for SOD,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTTBIL_CAT,Worst Normal/Abnormal Category for TBIL,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTTPROT_CAT,Worst Normal/Abnormal Category for TPROT,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTANC_CAT,Worst Normal/Abnormal Category for ANC,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTNEUT_CAT,Worst Normal/Abnormal Category for NEUT,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTARC_CAT,Worst Normal/Abnormal Category for ARC,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTRET_CAT,Worst Normal/Abnormal Category for RET,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTHCT_CAT,Worst Normal/Abnormal Category for HCT,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTHGB_CAT,Worst Normal/Abnormal Category for HGB,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTMCHC_CAT,Worst Normal/Abnormal Category for MCHC,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTMCV_CAT,Worst Normal/Abnormal Category for MCV,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTPLAT_CAT,Worst Normal/Abnormal Category for PLAT,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTRBCH_CAT,Worst Normal/Abnormal Category for RBCH,visit_enr_r.csv,VISIT_ENR_R,categorical
+WORSTWBCH_CAT,Worst Normal/Abnormal Category for WBCH,visit_enr_r.csv,VISIT_ENR_R,categorical
+TRTL,"Treatment, label",visit_enr_r.csv,VISIT_ENR_R,categorical
+TREATMENT,Treatment Group,visit_enr_r.csv,VISIT_ENR_R,categorical
+MITRND,Randomized to MIT,visit_enr_r.csv,VISIT_ENR_R,categorical
