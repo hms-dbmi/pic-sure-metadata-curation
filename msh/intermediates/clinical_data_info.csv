@@ -1,0 +1,1417 @@
+varname,LABEL,file,MEMNAME,picsure_type
+RAND_ID,,clinical_courses.csv,COURSES,categorical
+VIS,Visit,clinical_courses.csv,COURSES,continuous
+STOPSTAT,,clinical_courses.csv,COURSES,categorical
+VIS_DT,Date visit completed (days since enrollment),clinical_courses.csv,COURSES,continuous
+EXP,Vis Exp?,clinical_courses.csv,COURSES,continuous
+EXP_DT,Date visit expected  (days since enrollment),clinical_courses.csv,COURSES,continuous
+TOX_STAT,,clinical_courses.csv,COURSES,categorical
+COURSE,Course of study treatment,clinical_courses.csv,COURSES,continuous
+WEEK,,clinical_courses.csv,COURSES,continuous
+CALVIN,Placebo simulation,clinical_courses.csv,COURSES,categorical
+START_DT,Date course to start (days since enrollment),clinical_courses.csv,COURSES,continuous
+WEEKS,Number of weeks in course,clinical_courses.csv,COURSES,continuous
+WEIGHT,Weight used to calculate dosage,clinical_courses.csv,COURSES,continuous
+TDOSE_R,Total dosage recommended,clinical_courses.csv,COURSES,continuous
+TDOSE_A,Total dosage actually administered,clinical_courses.csv,COURSES,continuous
+RDOSE_R,Dosage rate recommended,clinical_courses.csv,COURSES,continuous
+RDOSE_A,Dosage rate actually administered,clinical_courses.csv,COURSES,continuous
+NUM200,Number of 200 mg capsules/day,clinical_courses.csv,COURSES,continuous
+NUM500,Number of 500 mg capsules/day,clinical_courses.csv,COURSES,continuous
+TX_VIS,Visit RX to start,clinical_courses.csv,COURSES,continuous
+CONFIRM,,clinical_courses.csv,COURSES,categorical
+RX_500,,clinical_courses.csv,COURSES,continuous
+RX_200,,clinical_courses.csv,COURSES,continuous
+RAND_ID,,clinical_crc.csv,CRC,categorical
+VISIT,,clinical_crc.csv,CRC,categorical
+VIS,,clinical_crc.csv,CRC,continuous
+VIS_DT,Date of medical contact (days since enrollment),clinical_crc.csv,CRC,continuous
+F25_RCV,Date Form 25received    (days since enrollment),clinical_crc.csv,CRC,continuous
+F25_COMP,Form 25 attachments,clinical_crc.csv,CRC,categorical
+F44A_SNT,Date sent to RdrA       (days since enrollment),clinical_crc.csv,CRC,continuous
+F44A_RCV,Date receivedfrom RDR A (days since enrollment),clinical_crc.csv,CRC,continuous
+RVWRA,ID of RDR A,clinical_crc.csv,CRC,continuous
+F44B_SNT,Date sent to RdrB       (days since enrollment),clinical_crc.csv,CRC,continuous
+F44B_RCV,Date receivedfrom RDR B (days since enrollment),clinical_crc.csv,CRC,continuous
+RVWRB,ID of RDR B,clinical_crc.csv,CRC,continuous
+F44C_SNT,Date sent to RdrC       (days since enrollment),clinical_crc.csv,CRC,continuous
+F44C_RCV,Date receivedfrom RDR C (days since enrollment),clinical_crc.csv,CRC,continuous
+RVWRC,ID of RDR C,clinical_crc.csv,CRC,continuous
+STATUS,Status of case,clinical_crc.csv,CRC,categorical
+COMMENT1,,clinical_crc.csv,CRC,categorical
+COMMENT2,,clinical_crc.csv,CRC,categorical
+CLASSDAT,Date returned by two reviewers (days since enrollment),clinical_crc.csv,CRC,continuous
+IN_PAT,,clinical_crc.csv,CRC,continuous
+RAND_ID,,clinical_curstops.csv,CURSTOPS,categorical
+STOPTYPE,,clinical_curstops.csv,CURSTOPS,categorical
+STOP_DT,Stop Date (days since enrollment),clinical_curstops.csv,CURSTOPS,continuous
+DEATH_DT,Death Date (days since enrollment),clinical_curstops.csv,CURSTOPS,continuous
+RSTRT_DT,Restart Date (days since enrollment),clinical_curstops.csv,CURSTOPS,continuous
+STOP_REA,,clinical_curstops.csv,CURSTOPS,categorical
+DRUG,,clinical_curstops.csv,CURSTOPS,categorical
+MAX_DOSE,,clinical_curstops.csv,CURSTOPS,continuous
+MTD,,clinical_curstops.csv,CURSTOPS,continuous
+CLOSE_DT,Close Date (days since enrollment),clinical_curstops.csv,CURSTOPS,continuous
+STOP_2YR,,clinical_curstops.csv,CURSTOPS,continuous
+MAX_MTD,,clinical_curstops.csv,CURSTOPS,continuous
+PREG_OTH,,clinical_curstops.csv,CURSTOPS,continuous
+RAND_ID,,clinical_endp96a.csv,ENDP96A,categorical
+VIS,,clinical_endp96a.csv,ENDP96A,continuous
+IN_PAT,,clinical_endp96a.csv,ENDP96A,continuous
+PRESDATI,Presentation Date (days since enrollment + time),clinical_endp96a.csv,ENDP96A,continuous
+CRISIS25,,clinical_endp96a.csv,ENDP96A,continuous
+DEATH_DT,Death Date (days since enrollment),clinical_endp96a.csv,ENDP96A,categorical
+DRUG,,clinical_endp96a.csv,ENDP96A,continuous
+CLOSE_DT,Close Date (days since enrollment),clinical_endp96a.csv,ENDP96A,continuous
+LT2YRMCS,,clinical_endp96a.csv,ENDP96A,continuous
+LAST_DAY,,clinical_endp96a.csv,ENDP96A,categorical
+N_CRIS01,,clinical_endp96a.csv,ENDP96A,continuous
+TOPRANK,,clinical_endp96a.csv,ENDP96A,continuous
+YRS_EVT,,clinical_endp96a.csv,ENDP96A,continuous
+YRS_FUP,,clinical_endp96a.csv,ENDP96A,continuous
+YRS_DTH,,clinical_endp96a.csv,ENDP96A,continuous
+RAWRANK,,clinical_endp96a.csv,ENDP96A,continuous
+NCRISQ01,,clinical_endp96a.csv,ENDP96A,continuous
+NCRISQ02,,clinical_endp96a.csv,ENDP96A,continuous
+NCRISQ03,,clinical_endp96a.csv,ENDP96A,continuous
+NCRISQ04,,clinical_endp96a.csv,ENDP96A,continuous
+NCRISQ05,,clinical_endp96a.csv,ENDP96A,continuous
+NCRISQ06,,clinical_endp96a.csv,ENDP96A,continuous
+NCRISQ07,,clinical_endp96a.csv,ENDP96A,continuous
+NCRISQ08,,clinical_endp96a.csv,ENDP96A,continuous
+N_CRISES,,clinical_endp96a.csv,ENDP96A,continuous
+MOSFUP01,,clinical_endp96a.csv,ENDP96A,continuous
+MOSFUP02,,clinical_endp96a.csv,ENDP96A,continuous
+MOSFUP03,,clinical_endp96a.csv,ENDP96A,continuous
+MOSFUP04,,clinical_endp96a.csv,ENDP96A,continuous
+MOSFUP05,,clinical_endp96a.csv,ENDP96A,continuous
+MOSFUP06,,clinical_endp96a.csv,ENDP96A,continuous
+MOSFUP07,,clinical_endp96a.csv,ENDP96A,continuous
+MOSFUP08,,clinical_endp96a.csv,ENDP96A,continuous
+CRATE_VW,,clinical_endp96a.csv,ENDP96A,continuous
+CRISRATE,AVOC/year < 2 yrs,clinical_endp96a.csv,ENDP96A,continuous
+RANK,RANK FOR VARIABLE CRATE_VW,clinical_endp96a.csv,ENDP96A,continuous
+RAND_ID,,clinical_f44_keep.csv,F44_KEEP,categorical
+FORM,,clinical_f44_keep.csv,F44_KEEP,continuous
+REV,,clinical_f44_keep.csv,F44_KEEP,continuous
+CURCLIN,,clinical_f44_keep.csv,F44_KEEP,continuous
+VISIT,,clinical_f44_keep.csv,F44_KEEP,categorical
+VIS,,clinical_f44_keep.csv,F44_KEEP,continuous
+PAIN_EVT,,clinical_f44_keep.csv,F44_KEEP,continuous
+PAIN_NSC,,clinical_f44_keep.csv,F44_KEEP,continuous
+PAIN_SC,,clinical_f44_keep.csv,F44_KEEP,continuous
+CHEST_SY,,clinical_f44_keep.csv,F44_KEEP,continuous
+HEPSEQ,,clinical_f44_keep.csv,F44_KEEP,continuous
+HEMATUR,,clinical_f44_keep.csv,F44_KEEP,continuous
+STROKE,,clinical_f44_keep.csv,F44_KEEP,continuous
+FATAL,,clinical_f44_keep.csv,F44_KEEP,continuous
+CRISIS,,clinical_f44_keep.csv,F44_KEEP,continuous
+DIAG_A,,clinical_f44_keep.csv,F44_KEEP,categorical
+DIAG_B,,clinical_f44_keep.csv,F44_KEEP,categorical
+DIAG_C,,clinical_f44_keep.csv,F44_KEEP,categorical
+UNCERT,,clinical_f44_keep.csv,F44_KEEP,continuous
+ADD_INFO,,clinical_f44_keep.csv,F44_KEEP,continuous
+COMP_DT,Completion Date (days since enrollment),clinical_f44_keep.csv,F44_KEEP,continuous
+CRC_MEM,,clinical_f44_keep.csv,F44_KEEP,continuous
+RCVD_DT,Received Date (days since enrollment),clinical_f44_keep.csv,F44_KEEP,continuous
+CODER44,,clinical_f44_keep.csv,F44_KEEP,categorical
+PRESDATI,Presentation Date (days since enrollment + time),clinical_f44_keep.csv,F44_KEEP,continuous
+RAND_ID,,clinical_form01.csv,FORM01,categorical
+FORM,,clinical_form01.csv,FORM01,continuous
+REV,,clinical_form01.csv,FORM01,continuous
+VIS,Age at QV,clinical_form01.csv,FORM01,continuous
+CSSCD,Age at QV,clinical_form01.csv,FORM01,continuous
+AGE_QV,Age at QV,clinical_form01.csv,FORM01,continuous
+AGE18,,clinical_form01.csv,FORM01,categorical
+SOON18,,clinical_form01.csv,FORM01,continuous
+N_CRIS01,,clinical_form01.csv,FORM01,continuous
+LT3_01,,clinical_form01.csv,FORM01,categorical
+PROTEC01,,clinical_form01.csv,FORM01,categorical
+CONSENT,,clinical_form01.csv,FORM01,categorical
+TRA_CHR,,clinical_form01.csv,FORM01,categorical
+TR2MO_01,,clinical_form01.csv,FORM01,categorical
+TRA_LKLY,,clinical_form01.csv,FORM01,categorical
+STROK_HX,,clinical_form01.csv,FORM01,categorical
+CHF_HX,,clinical_form01.csv,FORM01,categorical
+PREG_01,,clinical_form01.csv,FORM01,categorical
+SBTHAL,,clinical_form01.csv,FORM01,categorical
+IMUNOSUP,,clinical_form01.csv,FORM01,categorical
+RADTHRPY,,clinical_form01.csv,FORM01,categorical
+HYDRX_HX,,clinical_form01.csv,FORM01,categorical
+OXYCOD30,,clinical_form01.csv,FORM01,categorical
+THEOPHYL,,clinical_form01.csv,FORM01,categorical
+HORMONE,,clinical_form01.csv,FORM01,categorical
+CA_CHBLK,,clinical_form01.csv,FORM01,categorical
+ANTISIKL,,clinical_form01.csv,FORM01,categorical
+EL_CREAT,,clinical_form01.csv,FORM01,categorical
+EL_ALT,,clinical_form01.csv,FORM01,categorical
+IRON_DEF,,clinical_form01.csv,FORM01,categorical
+FOLA_DEF,,clinical_form01.csv,FORM01,categorical
+B12_DEF,,clinical_form01.csv,FORM01,categorical
+INEL_01,,clinical_form01.csv,FORM01,categorical
+BLOODS01,,clinical_form01.csv,FORM01,categorical
+VENACC01,,clinical_form01.csv,FORM01,categorical
+REFUSE01,,clinical_form01.csv,FORM01,categorical
+TUBE1_01,,clinical_form01.csv,FORM01,categorical
+TUBE2_01,,clinical_form01.csv,FORM01,categorical
+TUBE3_01,,clinical_form01.csv,FORM01,categorical
+TUBE4_01,,clinical_form01.csv,FORM01,categorical
+CENTR_01,,clinical_form01.csv,FORM01,categorical
+SLIDES01,,clinical_form01.csv,FORM01,categorical
+DIFVEN01,,clinical_form01.csv,FORM01,categorical
+HMTOMA01,,clinical_form01.csv,FORM01,categorical
+FAINT01,,clinical_form01.csv,FORM01,categorical
+OTHPRO01,,clinical_form01.csv,FORM01,categorical
+ANOTHER,,clinical_form01.csv,FORM01,continuous
+CERT_SIG,,clinical_form01.csv,FORM01,continuous
+C_VISIT,,clinical_form01.csv,FORM01,categorical
+QV01_DT,QV01 Date (days since enrollment),clinical_form01.csv,FORM01,continuous
+ID_OTHER,,clinical_form01.csv,FORM01,continuous
+NC_OTHER,,clinical_form01.csv,FORM01,categorical
+CSSCDDOC,,clinical_form01.csv,FORM01,continuous
+RAND_ID,,clinical_form02.csv,FORM02,categorical
+FORM,,clinical_form02.csv,FORM02,continuous
+REV,,clinical_form02.csv,FORM02,continuous
+VISIT,,clinical_form02.csv,FORM02,categorical
+VIS_DT,Visit Date (days since enrollment),clinical_form02.csv,FORM02,continuous
+FOLIC,,clinical_form02.csv,FORM02,continuous
+TAB_CNT,,clinical_form02.csv,FORM02,continuous
+DAILYTAB,,clinical_form02.csv,FORM02,continuous
+MISS3DYS,,clinical_form02.csv,FORM02,continuous
+ONE_DAY,,clinical_form02.csv,FORM02,continuous
+DIARY,,clinical_form02.csv,FORM02,continuous
+TEN_DAYS,,clinical_form02.csv,FORM02,continuous
+N_CRIS01,,clinical_form02.csv,FORM02,continuous
+LT3_02,,clinical_form02.csv,FORM02,continuous
+PROTEC02,,clinical_form02.csv,FORM02,continuous
+TR2MO_02,,clinical_form02.csv,FORM02,continuous
+PREG_02,,clinical_form02.csv,FORM02,continuous
+HOLDS_02,,clinical_form02.csv,FORM02,continuous
+BLOODS02,,clinical_form02.csv,FORM02,continuous
+VENACC01,,clinical_form02.csv,FORM02,continuous
+REFUSE02,,clinical_form02.csv,FORM02,continuous
+TUBE1_02,,clinical_form02.csv,FORM02,continuous
+TUBE2_02,,clinical_form02.csv,FORM02,continuous
+TUBE3_02,,clinical_form02.csv,FORM02,continuous
+TUBE4_02,,clinical_form02.csv,FORM02,continuous
+CENTR_02,,clinical_form02.csv,FORM02,continuous
+SLIDES02,,clinical_form02.csv,FORM02,continuous
+DIFVEN02,,clinical_form02.csv,FORM02,continuous
+HMTOMA02,,clinical_form02.csv,FORM02,continuous
+FAINT02,,clinical_form02.csv,FORM02,continuous
+OTHPRO02,,clinical_form02.csv,FORM02,continuous
+REIMB02,,clinical_form02.csv,FORM02,continuous
+VIS,,clinical_form02.csv,FORM02,continuous
+VIS_SEQ,,clinical_form02.csv,FORM02,continuous
+C40,,clinical_form02.csv,FORM02,categorical
+RAND_ID,,clinical_form03.csv,FORM03,categorical
+FORM,MSH Study Form,clinical_form03.csv,FORM03,continuous
+REV,,clinical_form03.csv,FORM03,continuous
+VISIT,,clinical_form03.csv,FORM03,categorical
+VIS,,clinical_form03.csv,FORM03,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form03.csv,FORM03,continuous
+RACE,Ethnicity,clinical_form03.csv,FORM03,categorical
+GENDER,Gender,clinical_form03.csv,FORM03,categorical
+HOUSE,Residence type,clinical_form03.csv,FORM03,categorical
+ROOMS,Number of rooms,clinical_form03.csv,FORM03,continuous
+EDUCATN,Education,clinical_form03.csv,FORM03,categorical
+INCOME_P,Personal income,clinical_form03.csv,FORM03,categorical
+INCOME_H,Household income,clinical_form03.csv,FORM03,categorical
+MARITAL,Marital status,clinical_form03.csv,FORM03,categorical
+PERSONS,Persons in household,clinical_form03.csv,FORM03,continuous
+PRIVINS,Private insurance,clinical_form03.csv,FORM03,categorical
+MEDICARE,Medicare,clinical_form03.csv,FORM03,categorical
+MEDICAID,Medicaid,clinical_form03.csv,FORM03,categorical
+STATINS,State insurance,clinical_form03.csv,FORM03,categorical
+EMPLYMNT,Employment status,clinical_form03.csv,FORM03,categorical
+UNEMP_YR,,clinical_form03.csv,FORM03,continuous
+EMP_5YRS,Employed in last 5 years,clinical_form03.csv,FORM03,categorical
+OCCUPATN,Occupation,clinical_form03.csv,FORM03,categorical
+INDUSTRY,Industry,clinical_form03.csv,FORM03,categorical
+YRS_WRKD,Years worked,clinical_form03.csv,FORM03,continuous
+MONTHS,,clinical_form03.csv,FORM03,continuous
+ANN_WT,,clinical_form03.csv,FORM03,continuous
+DRUG,,clinical_form03.csv,FORM03,categorical
+RAND_ID,,clinical_form04.csv,FORM04,categorical
+FORM,,clinical_form04.csv,FORM04,continuous
+REV,,clinical_form04.csv,FORM04,continuous
+VISIT,,clinical_form04.csv,FORM04,categorical
+VIS,,clinical_form04.csv,FORM04,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form04.csv,FORM04,continuous
+PULSE,Pulse,clinical_form04.csv,FORM04,continuous
+SBP,,clinical_form04.csv,FORM04,continuous
+DBP,,clinical_form04.csv,FORM04,continuous
+RESPRATE,Respirations/minute,clinical_form04.csv,FORM04,continuous
+TEMP,Temperature (C),clinical_form04.csv,FORM04,continuous
+WEIGHT,Weight (k),clinical_form04.csv,FORM04,continuous
+HEIGHT,Height (cm),clinical_form04.csv,FORM04,continuous
+SCLERAL,Scleral icterus,clinical_form04.csv,FORM04,categorical
+LYMP_CER,Cervical lymphadenopathy,clinical_form04.csv,FORM04,categorical
+LYMP_ANC,Axillary lymphadenopathy,clinical_form04.csv,FORM04,categorical
+LYMP_GRN,Groin lymphadenopathy,clinical_form04.csv,FORM04,categorical
+LYMP_OTH,Lymphadenopathy-Other,clinical_form04.csv,FORM04,categorical
+LUNGCLR,Lung fields clear,clinical_form04.csv,FORM04,categorical
+SINUS,Sinus rhythm,clinical_form04.csv,FORM04,categorical
+S3GALLOP,S3 gallop,clinical_form04.csv,FORM04,categorical
+MURMURS,Murmurs,clinical_form04.csv,FORM04,categorical
+MURMTYPE,Murmur type,clinical_form04.csv,FORM04,categorical
+LIVER,Liver span (cm),clinical_form04.csv,FORM04,continuous
+LIV_RUQ,RUQ tenderness,clinical_form04.csv,FORM04,categorical
+LIV_RLQ,RLQ tenderness,clinical_form04.csv,FORM04,categorical
+LIV_LUQ,LUQ tenderness,clinical_form04.csv,FORM04,categorical
+LIV_LLQ,LLQ tenderness,clinical_form04.csv,FORM04,categorical
+SKINULCR,New skin ulcers,clinical_form04.csv,FORM04,categorical
+EDEMA,Edema (extremities),clinical_form04.csv,FORM04,categorical
+FISTULA,Pitting,clinical_form04.csv,FORM04,categorical
+OLDULCRS,Old ulcer scars,clinical_form04.csv,FORM04,categorical
+HERPZ_HX,Herpes zoster,clinical_form04.csv,FORM04,categorical
+HERPS_HX,Herpes simplex,clinical_form04.csv,FORM04,categorical
+CHPOX_HX,Chicken pox,clinical_form04.csv,FORM04,categorical
+CHST_HX,Chest syndrome,clinical_form04.csv,FORM04,categorical
+STROK_HX,Stroke,clinical_form04.csv,FORM04,categorical
+CHF_HX,Congestive heart failure,clinical_form04.csv,FORM04,categorical
+CPF_HX,Chronic pulmon failure,clinical_form04.csv,FORM04,categorical
+OSTEO_HX,Osteomyelitis,clinical_form04.csv,FORM04,categorical
+ULCR_HX,Leg ulcer,clinical_form04.csv,FORM04,categorical
+CHOL_HX,Cholecystectomy,clinical_form04.csv,FORM04,categorical
+NECF_HX,Necrosis of femur,clinical_form04.csv,FORM04,categorical
+NECH_HX,Necrosis of humerus,clinical_form04.csv,FORM04,categorical
+SKIN_HX,Skin abnormality,clinical_form04.csv,FORM04,categorical
+HRLOS_HX,Hair loss,clinical_form04.csv,FORM04,categorical
+GIDIS_HX,GI disturbance,clinical_form04.csv,FORM04,categorical
+INDIG_HX,Indigestion,clinical_form04.csv,FORM04,categorical
+NEOP_HX,Neoplasms,clinical_form04.csv,FORM04,categorical
+BLEED_HX,Bleeding tendency,clinical_form04.csv,FORM04,categorical
+HEMAT_HX,Hematuria,clinical_form04.csv,FORM04,categorical
+PRIAP_HX,Priapism,clinical_form04.csv,FORM04,categorical
+IMPOT_HX,Impotence,clinical_form04.csv,FORM04,categorical
+DIURETIC,Diuretics,clinical_form04.csv,FORM04,categorical
+ANTIHYP,Antihypertensives,clinical_form04.csv,FORM04,categorical
+ASPIRIN,Aspirin,clinical_form04.csv,FORM04,categorical
+NSAID,Anticonvulsants,clinical_form04.csv,FORM04,categorical
+ANTICONV,Anticonvulsants,clinical_form04.csv,FORM04,categorical
+HISTAM,Histamine H2 receptor antagonist,clinical_form04.csv,FORM04,categorical
+IRON,Iron medication,clinical_form04.csv,FORM04,categorical
+BIRTHCON,Birth control pill,clinical_form04.csv,FORM04,categorical
+ACETAMIN,Acetaminophen,clinical_form04.csv,FORM04,categorical
+BENZOD,Benzodiazapine,clinical_form04.csv,FORM04,categorical
+THEOPHYL,Theophylline,clinical_form04.csv,FORM04,categorical
+CBLK,CA channel blocker,clinical_form04.csv,FORM04,categorical
+ANDROG,Androgen,clinical_form04.csv,FORM04,categorical
+DEPOPRO,Depoprovera,clinical_form04.csv,FORM04,categorical
+NORPLANT,Levonorgestrel,clinical_form04.csv,FORM04,categorical
+ESTROG,Estrogen,clinical_form04.csv,FORM04,categorical
+FLUOXET,Fluoxetine,clinical_form04.csv,FORM04,categorical
+NEUROLEP,Neuroleptic,clinical_form04.csv,FORM04,categorical
+ANTIDEPR,Antidepressant,clinical_form04.csv,FORM04,categorical
+OTHR_MED,Other medication,clinical_form04.csv,FORM04,categorical
+OTHR_RMK,,clinical_form04.csv,FORM04,categorical
+GENDER,Gender,clinical_form04.csv,FORM04,categorical
+bmi,Body Mass Index (BMI),clinical_form04.csv,FORM04,continuous
+RAND_ID,,clinical_form05.csv,FORM05,categorical
+FORM,,clinical_form05.csv,FORM05,continuous
+REV,,clinical_form05.csv,FORM05,continuous
+VISIT,,clinical_form05.csv,FORM05,categorical
+VIS,,clinical_form05.csv,FORM05,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form05.csv,FORM05,continuous
+PAIN01,,clinical_form05.csv,FORM05,continuous
+PAIN02,,clinical_form05.csv,FORM05,continuous
+PAIN03,,clinical_form05.csv,FORM05,continuous
+PAIN04,,clinical_form05.csv,FORM05,continuous
+PAIN05,,clinical_form05.csv,FORM05,continuous
+PAIN06,,clinical_form05.csv,FORM05,continuous
+PAIN07,,clinical_form05.csv,FORM05,continuous
+PAIN08,,clinical_form05.csv,FORM05,continuous
+PAIN09,,clinical_form05.csv,FORM05,continuous
+PAIN10,,clinical_form05.csv,FORM05,continuous
+PAIN11,,clinical_form05.csv,FORM05,continuous
+PAIN12,,clinical_form05.csv,FORM05,continuous
+PAIN13,,clinical_form05.csv,FORM05,continuous
+PAIN14,,clinical_form05.csv,FORM05,continuous
+MEDS01,,clinical_form05.csv,FORM05,categorical
+MEDS02,,clinical_form05.csv,FORM05,categorical
+MEDS03,,clinical_form05.csv,FORM05,categorical
+MEDS04,,clinical_form05.csv,FORM05,categorical
+MEDS05,,clinical_form05.csv,FORM05,categorical
+MEDS06,,clinical_form05.csv,FORM05,categorical
+MEDS07,,clinical_form05.csv,FORM05,categorical
+MEDS08,,clinical_form05.csv,FORM05,categorical
+MEDS09,,clinical_form05.csv,FORM05,categorical
+MEDS10,,clinical_form05.csv,FORM05,categorical
+MEDS11,,clinical_form05.csv,FORM05,categorical
+MEDS12,,clinical_form05.csv,FORM05,categorical
+MEDS13,,clinical_form05.csv,FORM05,categorical
+MEDS14,,clinical_form05.csv,FORM05,categorical
+MDVIS01,,clinical_form05.csv,FORM05,categorical
+MDVIS02,,clinical_form05.csv,FORM05,categorical
+MDVIS03,,clinical_form05.csv,FORM05,categorical
+MDVIS04,,clinical_form05.csv,FORM05,categorical
+MDVIS05,,clinical_form05.csv,FORM05,categorical
+MDVIS06,,clinical_form05.csv,FORM05,categorical
+MDVIS07,,clinical_form05.csv,FORM05,categorical
+MDVIS08,,clinical_form05.csv,FORM05,categorical
+MDVIS09,,clinical_form05.csv,FORM05,categorical
+MDVIS10,,clinical_form05.csv,FORM05,categorical
+MDVIS11,,clinical_form05.csv,FORM05,categorical
+MDVIS12,,clinical_form05.csv,FORM05,categorical
+MDVIS13,,clinical_form05.csv,FORM05,categorical
+MDVIS14,,clinical_form05.csv,FORM05,categorical
+N_DAYS,,clinical_form05.csv,FORM05,continuous
+SUM_MEDS,,clinical_form05.csv,FORM05,continuous
+SUM_MVIS,,clinical_form05.csv,FORM05,continuous
+AVG_PAIN,,clinical_form05.csv,FORM05,continuous
+MAX_PAIN,,clinical_form05.csv,FORM05,continuous
+MIN_PAIN,,clinical_form05.csv,FORM05,continuous
+DRUG,,clinical_form05.csv,FORM05,continuous
+RAND_ID,,clinical_form07.csv,FORM07,categorical
+FORM,,clinical_form07.csv,FORM07,continuous
+REV,,clinical_form07.csv,FORM07,continuous
+CURCLIN,,clinical_form07.csv,FORM07,continuous
+VISIT,,clinical_form07.csv,FORM07,categorical
+VIS,,clinical_form07.csv,FORM07,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form07.csv,FORM07,continuous
+SC,,clinical_form07.csv,FORM07,continuous
+OTHR_RMK,,clinical_form07.csv,FORM07,categorical
+HB_PATRN,,clinical_form07.csv,FORM07,categorical
+AHGB,,clinical_form07.csv,FORM07,continuous
+AHGBLT15,,clinical_form07.csv,FORM07,continuous
+SC_DIAG,,clinical_form07.csv,FORM07,continuous
+RAND_ID,,clinical_form08.csv,FORM08,categorical
+FORM,,clinical_form08.csv,FORM08,continuous
+REV,,clinical_form08.csv,FORM08,continuous
+VISIT,,clinical_form08.csv,FORM08,categorical
+VIS_DT,Visit Date (days since enrollment),clinical_form08.csv,FORM08,continuous
+INIT_DT,Initial Date (days since enrollment),clinical_form08.csv,FORM08,continuous
+RAND_ID,,clinical_form09.csv,FORM09,categorical
+FORM,,clinical_form09.csv,FORM09,continuous
+REV,,clinical_form09.csv,FORM09,continuous
+VISIT,,clinical_form09.csv,FORM09,categorical
+VIS_DT,Visit Date (days since enrollment),clinical_form09.csv,FORM09,continuous
+PREG_STP,,clinical_form09.csv,FORM09,categorical
+TRAN_STP,,clinical_form09.csv,FORM09,categorical
+ANY_STOP,,clinical_form09.csv,FORM09,categorical
+BLOODS,,clinical_form09.csv,FORM09,categorical
+NOVENA,,clinical_form09.csv,FORM09,categorical
+PATREF,,clinical_form09.csv,FORM09,categorical
+R_HEM,,clinical_form09.csv,FORM09,categorical
+B_HEM,,clinical_form09.csv,FORM09,categorical
+S_HEM,,clinical_form09.csv,FORM09,categorical
+SERUM,,clinical_form09.csv,FORM09,categorical
+CENTR,,clinical_form09.csv,FORM09,categorical
+SLIDE,,clinical_form09.csv,FORM09,categorical
+DNA,,clinical_form09.csv,FORM09,categorical
+DIFVEN,,clinical_form09.csv,FORM09,categorical
+HEMATO,,clinical_form09.csv,FORM09,categorical
+FAINT,,clinical_form09.csv,FORM09,categorical
+O_PROB,,clinical_form09.csv,FORM09,categorical
+S_PROB,,clinical_form09.csv,FORM09,categorical
+TRT_STRT,,clinical_form09.csv,FORM09,categorical
+DIARY,,clinical_form09.csv,FORM09,continuous
+TRAVEL,,clinical_form09.csv,FORM09,continuous
+VIS,,clinical_form09.csv,FORM09,continuous
+RAND_ID,,clinical_form11.csv,FORM11,categorical
+FORM,,clinical_form11.csv,FORM11,continuous
+REV,,clinical_form11.csv,FORM11,continuous
+VISIT,,clinical_form11.csv,FORM11,categorical
+VIS,,clinical_form11.csv,FORM11,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form11.csv,FORM11,continuous
+SF_1,SF-36 #1. General health now,clinical_form11.csv,FORM11,continuous
+SF_2,SF-36 #2. Gen hlth comp 1 yr ago,clinical_form11.csv,FORM11,continuous
+SF_3A,SF-36 #3a. Hlth limit vigorous activity,clinical_form11.csv,FORM11,continuous
+SF_3B,SF-36 #3b. Hlth limit moderate activity,clinical_form11.csv,FORM11,continuous
+SF_3C,SF-36 #3c. Hlth limit lifting/carrying,clinical_form11.csv,FORM11,continuous
+SF_3D,SF-36 #3d. Hlth limit climbing several,clinical_form11.csv,FORM11,continuous
+SF_3E,SF-36 #3e. Hlth limit climbing 1 flight,clinical_form11.csv,FORM11,continuous
+SF_3F,SF-36 #3f. Hlth limit bend/kneel/stoop,clinical_form11.csv,FORM11,continuous
+SF_3G,SF-36 #3g. Hlth limit walking 1 mile,clinical_form11.csv,FORM11,continuous
+SF_3H,SF-36 #3h. Hlth limit walking blocks,clinical_form11.csv,FORM11,continuous
+SF_3I,SF-36 #3i. Hlth limit walking 1 block,clinical_form11.csv,FORM11,continuous
+SF_3J,SF-36 #3j. Hlth limit bathing/dressing,clinical_form11.csv,FORM11,continuous
+SF_4A,SF-36 #4a. Health affect time working,clinical_form11.csv,FORM11,continuous
+SF_4B,SF-36 #4b. Health affect less accomplish,clinical_form11.csv,FORM11,continuous
+SF_4C,SF-36 #4c. Health affect kind of work,clinical_form11.csv,FORM11,continuous
+SF_4D,SF-36 #4d. Health affect difficulty,clinical_form11.csv,FORM11,continuous
+SF_5A,SF-36 #5a. Emotion affect time working,clinical_form11.csv,FORM11,continuous
+SF_5B,SF-36 #5b. Emotion affect less accompl,clinical_form11.csv,FORM11,continuous
+SF_5C,SF-36 #5c. Emotion affect kind of work,clinical_form11.csv,FORM11,continuous
+SF_6,SF-36 #6.  Health/emotion on social act,clinical_form11.csv,FORM11,continuous
+SF_7,SF-36 #7.  Bodily pain,clinical_form11.csv,FORM11,continuous
+SF_8,SF-36 #8.  Pain interfere with work,clinical_form11.csv,FORM11,continuous
+SF_9A,SF-36 #9a. Full of pep,clinical_form11.csv,FORM11,continuous
+SF_9B,SF-36 #9b. Very nervous,clinical_form11.csv,FORM11,continuous
+SF_9C,SF-36 #9c. Down in the dumps,clinical_form11.csv,FORM11,continuous
+SF_9D,SF-36 #9d. Calm and peaceful,clinical_form11.csv,FORM11,continuous
+SF_9E,SF-36 #9e. Lot of energy,clinical_form11.csv,FORM11,continuous
+SF_9F,SF-36 #9f. Downhearted and blue,clinical_form11.csv,FORM11,continuous
+SF_9G,SF-36 #9g. Worn out,clinical_form11.csv,FORM11,continuous
+SF_9H,SF-36 #9h. Happy,clinical_form11.csv,FORM11,continuous
+SF_9I,SF-36 #9i. Tired,clinical_form11.csv,FORM11,continuous
+SF_9J,SF-36 #9j. Health limited social act,clinical_form11.csv,FORM11,continuous
+SF_10A,SF-36 #10a. Sick easier than others,clinical_form11.csv,FORM11,continuous
+SF_10B,SF-36 #10b. As healthy as anybody,clinical_form11.csv,FORM11,continuous
+SF_10C,SF-36 #10c. Expect health to get  worse,clinical_form11.csv,FORM11,continuous
+SF_10D,SF-36 #10d. Health is excellent,clinical_form11.csv,FORM11,continuous
+F_BEFOR,Filled out form before?,clinical_form11.csv,FORM11,continuous
+COMPBY,Completed by,clinical_form11.csv,FORM11,continuous
+UNDSTD,Understand / hear,clinical_form11.csv,FORM11,continuous
+GHP5,General health perception (5),clinical_form11.csv,FORM11,continuous
+PFI10,Physical function (PF-10),clinical_form11.csv,FORM11,continuous
+RPI4,Role-Physical (P-4),clinical_form11.csv,FORM11,continuous
+RMI3,Role-Emotional (E-3),clinical_form11.csv,FORM11,continuous
+SFI2,Social (PE-2),clinical_form11.csv,FORM11,continuous
+MHI5,General mental health (MH-5),clinical_form11.csv,FORM11,continuous
+EFI4,Energy/fatigue (4),clinical_form11.csv,FORM11,continuous
+PPAIN2,% Pain (2),clinical_form11.csv,FORM11,continuous
+PGHP5,% General health perception (5),clinical_form11.csv,FORM11,continuous
+PPFI10,% Physical function (PF-10),clinical_form11.csv,FORM11,continuous
+PRPI4,% Role-Physical (P-4),clinical_form11.csv,FORM11,continuous
+PRMI3,% Role-Emotional (E-3),clinical_form11.csv,FORM11,continuous
+PSFI2,% Social (PE-2),clinical_form11.csv,FORM11,continuous
+PMHI5,% General mental health (MH-5),clinical_form11.csv,FORM11,continuous
+PEFI4,% Energy/fatigue (4),clinical_form11.csv,FORM11,continuous
+MONTHS,,clinical_form11.csv,FORM11,continuous
+N_QV,,clinical_form11.csv,FORM11,continuous
+DRUG,,clinical_form11.csv,FORM11,categorical
+PAIN2,,clinical_form11.csv,FORM11,continuous
+PSF_2,,clinical_form11.csv,FORM11,continuous
+RAND_ID,,clinical_form12.csv,FORM12,categorical
+FORM,,clinical_form12.csv,FORM12,continuous
+REV,,clinical_form12.csv,FORM12,continuous
+VISIT,,clinical_form12.csv,FORM12,categorical
+VIS,,clinical_form12.csv,FORM12,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form12.csv,FORM12,continuous
+TENS_02T,POMS # 2. Tense (T),clinical_form12.csv,FORM12,continuous
+WORN_04F,POMS # 4. Worn out (F),clinical_form12.csv,FORM12,continuous
+UNHA_05D,POMS # 5. Unhappy (D),clinical_form12.csv,FORM12,continuous
+LIVE_07V,POMS # 7. Lively (V),clinical_form12.csv,FORM12,continuous
+SAD__14D,POMS #14. Sad (D),clinical_form12.csv,FORM12,continuous
+ACTV_15V,POMS #15. Active (V),clinical_form12.csv,FORM12,continuous
+EDGE_16T,POMS #16. On edge (T),clinical_form12.csv,FORM12,continuous
+BLUE_18D,POMS #18. Blue (D),clinical_form12.csv,FORM12,continuous
+ENER_19V,POMS #19. Energetic (V),clinical_form12.csv,FORM12,continuous
+HPLS_21D,POMS #21. Hopeless (D),clinical_form12.csv,FORM12,continuous
+UNEA_26T,POMS #26. Uneasy (T),clinical_form12.csv,FORM12,continuous
+REST_27T,POMS #27. Restless (T),clinical_form12.csv,FORM12,continuous
+FATG_29F,POMS #29. Fatigued (F),clinical_form12.csv,FORM12,continuous
+DISC_32D,POMS #32. Discouraged (D),clinical_form12.csv,FORM12,continuous
+NERV_34T,POMS #34. Nervous (T),clinical_form12.csv,FORM12,continuous
+MISR_36D,POMS #36. Miserable (D),clinical_form12.csv,FORM12,continuous
+CHEE_38V,POMS #38. Cheerful (V),clinical_form12.csv,FORM12,continuous
+EXHA_40F,POMS #40. Exhausted (F),clinical_form12.csv,FORM12,continuous
+ANXI_41T,POMS #41. Anxious (T),clinical_form12.csv,FORM12,continuous
+HELP_48D,POMS #48. Helpless (D),clinical_form12.csv,FORM12,continuous
+WEAR_49F,"POMS #49, Weary (F)",clinical_form12.csv,FORM12,continuous
+PEP__56V,POMS #56. Full of pep (V),clinical_form12.csv,FORM12,continuous
+WRTH_58D,POMS #58. Worthless (D),clinical_form12.csv,FORM12,continuous
+VIGO_63V,POMS #63. Vigorous (V),clinical_form12.csv,FORM12,continuous
+BUSH_65F,POMS #65. Bushed (F),clinical_form12.csv,FORM12,continuous
+LOLNOW,Ladder of life NOW,clinical_form12.csv,FORM12,continuous
+LOL5YA,Ladder of life 5 years ago,clinical_form12.csv,FORM12,continuous
+LOL5YH,Ladder of life 5 years hence,clinical_form12.csv,FORM12,continuous
+COMPBY,Completed by,clinical_form12.csv,FORM12,continuous
+UNDSTD,Understand / hear,clinical_form12.csv,FORM12,continuous
+T,Tension-Anxiety,clinical_form12.csv,FORM12,continuous
+S,Self-expectation,clinical_form12.csv,FORM12,continuous
+D,Depression-Dejection,clinical_form12.csv,FORM12,continuous
+V,Vigor,clinical_form12.csv,FORM12,continuous
+F,Fatigue,clinical_form12.csv,FORM12,continuous
+TMD,Total mood score (4-scale),clinical_form12.csv,FORM12,continuous
+MONTHS,,clinical_form12.csv,FORM12,continuous
+I,,clinical_form12.csv,FORM12,continuous
+DRUG,,clinical_form12.csv,FORM12,continuous
+N_QV,,clinical_form12.csv,FORM12,continuous
+RAND_ID,,clinical_form14.csv,FORM14,categorical
+FORM,,clinical_form14.csv,FORM14,continuous
+REV,,clinical_form14.csv,FORM14,continuous
+VISIT,,clinical_form14.csv,FORM14,categorical
+VIS_DT,Visit Date (days since enrollment),clinical_form14.csv,FORM14,continuous
+URBSUBRU,,clinical_form14.csv,FORM14,continuous
+DISTANCE,,clinical_form14.csv,FORM14,continuous
+MODE_TRS,,clinical_form14.csv,FORM14,continuous
+TRIPTIME,,clinical_form14.csv,FORM14,continuous
+RAND_ID,,clinical_form20.csv,FORM20,categorical
+FORM,,clinical_form20.csv,FORM20,continuous
+REV,,clinical_form20.csv,FORM20,continuous
+VISIT,,clinical_form20.csv,FORM20,categorical
+VIS,,clinical_form20.csv,FORM20,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form20.csv,FORM20,continuous
+BLOODS,,clinical_form20.csv,FORM20,categorical
+NOVENA,,clinical_form20.csv,FORM20,categorical
+PHLDIF,,clinical_form20.csv,FORM20,categorical
+PATILL,,clinical_form20.csv,FORM20,categorical
+PATREF,,clinical_form20.csv,FORM20,categorical
+R_HEM,,clinical_form20.csv,FORM20,categorical
+B_HEM,,clinical_form20.csv,FORM20,categorical
+S_HEM,,clinical_form20.csv,FORM20,categorical
+SERUM,,clinical_form20.csv,FORM20,categorical
+CENTR,,clinical_form20.csv,FORM20,categorical
+SLIDE,,clinical_form20.csv,FORM20,categorical
+DIFVEN,,clinical_form20.csv,FORM20,categorical
+HEMATO,,clinical_form20.csv,FORM20,categorical
+FAINT,,clinical_form20.csv,FORM20,categorical
+O_PROB,,clinical_form20.csv,FORM20,categorical
+S_PROB,,clinical_form20.csv,FORM20,categorical
+DR_VIS,,clinical_form20.csv,FORM20,categorical
+WEIGHT,,clinical_form20.csv,FORM20,continuous
+HAIR_L,,clinical_form20.csv,FORM20,categorical
+SKIN_R,,clinical_form20.csv,FORM20,categorical
+FEVER,,clinical_form20.csv,FORM20,categorical
+NAUSEA,,clinical_form20.csv,FORM20,categorical
+O_SX,,clinical_form20.csv,FORM20,categorical
+S_SX,,clinical_form20.csv,FORM20,categorical
+O_NARC,,clinical_form20.csv,FORM20,categorical
+DEM,,clinical_form20.csv,FORM20,categorical
+DEM_DO,,clinical_form20.csv,FORM20,continuous
+DEM_DA,,clinical_form20.csv,FORM20,continuous
+OXY,,clinical_form20.csv,FORM20,categorical
+OXY_DO,,clinical_form20.csv,FORM20,continuous
+OXY_DA,,clinical_form20.csv,FORM20,continuous
+MOR,,clinical_form20.csv,FORM20,categorical
+MOR_DO,,clinical_form20.csv,FORM20,continuous
+MOR_DA,,clinical_form20.csv,FORM20,continuous
+HYD,,clinical_form20.csv,FORM20,categorical
+HYD_DO,,clinical_form20.csv,FORM20,continuous
+HYD_DA,,clinical_form20.csv,FORM20,continuous
+COD,,clinical_form20.csv,FORM20,categorical
+COD_DO,,clinical_form20.csv,FORM20,continuous
+COD_DA,,clinical_form20.csv,FORM20,continuous
+OR1,,clinical_form20.csv,FORM20,categorical
+OR1_DO,,clinical_form20.csv,FORM20,continuous
+OR1_DA,,clinical_form20.csv,FORM20,continuous
+OR2,,clinical_form20.csv,FORM20,categorical
+OR2_DO,,clinical_form20.csv,FORM20,continuous
+OR2_DA,,clinical_form20.csv,FORM20,continuous
+RET_RX,,clinical_form20.csv,FORM20,categorical
+RX_NO1,,clinical_form20.csv,FORM20,continuous
+RX_FV1,,clinical_form20.csv,FORM20,continuous
+RX_CT1,,clinical_form20.csv,FORM20,continuous
+RX_NO2,,clinical_form20.csv,FORM20,continuous
+RX_FV2,,clinical_form20.csv,FORM20,continuous
+RX_CT2,,clinical_form20.csv,FORM20,continuous
+RX_NO3,,clinical_form20.csv,FORM20,continuous
+RX_FV3,,clinical_form20.csv,FORM20,continuous
+RX_CT3,,clinical_form20.csv,FORM20,continuous
+RX_NO4,,clinical_form20.csv,FORM20,continuous
+RX_FV4,,clinical_form20.csv,FORM20,continuous
+RX_CT4,,clinical_form20.csv,FORM20,continuous
+RX_NO5,,clinical_form20.csv,FORM20,continuous
+RX_FV5,,clinical_form20.csv,FORM20,continuous
+RX_CT5,,clinical_form20.csv,FORM20,continuous
+RX_NO6,,clinical_form20.csv,FORM20,continuous
+RX_FV6,,clinical_form20.csv,FORM20,continuous
+RX_CT6,,clinical_form20.csv,FORM20,continuous
+RX_OK,,clinical_form20.csv,FORM20,categorical
+RXDISP,,clinical_form20.csv,FORM20,categorical
+TELEPH,,clinical_form20.csv,FORM20,categorical
+CASHDI,,clinical_form20.csv,FORM20,continuous
+CASHTR,,clinical_form20.csv,FORM20,continuous
+CASHTE,,clinical_form20.csv,FORM20,continuous
+FVTRAN,,clinical_form20.csv,FORM20,categorical
+CHTRAN,,clinical_form20.csv,FORM20,categorical
+PREG,,clinical_form20.csv,FORM20,categorical
+PROTEC,,clinical_form20.csv,FORM20,categorical
+TXINTC,,clinical_form20.csv,FORM20,categorical
+TXINTD,,clinical_form20.csv,FORM20,continuous
+TXINTR,,clinical_form20.csv,FORM20,categorical
+P_STOP,,clinical_form20.csv,FORM20,categorical
+FEN,,clinical_form20.csv,FORM20,continuous
+FEN_DO,,clinical_form20.csv,FORM20,continuous
+TK_TIM,Last took study tx (days),clinical_form20.csv,FORM20,continuous
+SCH_BL,,clinical_form20.csv,FORM20,continuous
+TH_PHL,,clinical_form20.csv,FORM20,continuous
+DEM_NA,,clinical_form20.csv,FORM20,continuous
+OXY_NA,,clinical_form20.csv,FORM20,continuous
+MOR_NA,,clinical_form20.csv,FORM20,continuous
+HYD_NA,,clinical_form20.csv,FORM20,continuous
+COD_NA,,clinical_form20.csv,FORM20,continuous
+OR1_NA,,clinical_form20.csv,FORM20,continuous
+OR2_NA,,clinical_form20.csv,FORM20,continuous
+RAND_ID,,clinical_form22.csv,FORM22,categorical
+FORM,,clinical_form22.csv,FORM22,continuous
+REV,,clinical_form22.csv,FORM22,continuous
+VISIT,,clinical_form22.csv,FORM22,categorical
+VIS,,clinical_form22.csv,FORM22,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form22.csv,FORM22,continuous
+CONTDT,Continued Date (days since enrollemnt),clinical_form22.csv,FORM22,continuous
+WHOCON,,clinical_form22.csv,FORM22,continuous
+WHYMIS,,clinical_form22.csv,FORM22,continuous
+TELCHG,,clinical_form22.csv,FORM22,categorical
+TRANSF,F22/1/6A Transfusion this FV,clinical_form22.csv,FORM22,continuous
+CHTRAN,F22/1/6B Chronic transfusion,clinical_form22.csv,FORM22,continuous
+PREG,F22/1/6C Pregnancy,clinical_form22.csv,FORM22,continuous
+RAND_ID,,clinical_form23.csv,FORM23,categorical
+FORM,,clinical_form23.csv,FORM23,continuous
+REV,,clinical_form23.csv,FORM23,continuous
+VISIT,,clinical_form23.csv,FORM23,categorical
+VIS,,clinical_form23.csv,FORM23,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form23.csv,FORM23,continuous
+PROTEC,,clinical_form23.csv,FORM23,continuous
+CHR_TR,,clinical_form23.csv,FORM23,continuous
+TRANSF,,clinical_form23.csv,FORM23,continuous
+PREGNT,,clinical_form23.csv,FORM23,continuous
+IMMUNO,,clinical_form23.csv,FORM23,continuous
+RADTHE,,clinical_form23.csv,FORM23,continuous
+OXY_30,,clinical_form23.csv,FORM23,continuous
+THEOPH,,clinical_form23.csv,FORM23,continuous
+ANTSC,,clinical_form23.csv,FORM23,continuous
+INFECT,,clinical_form23.csv,FORM23,continuous
+PULSE,Pulse,clinical_form23.csv,FORM23,continuous
+SBP,,clinical_form23.csv,FORM23,continuous
+DBP,,clinical_form23.csv,FORM23,continuous
+RESPRATE,Respirations/minute,clinical_form23.csv,FORM23,continuous
+TEMP,Temperature (C),clinical_form23.csv,FORM23,continuous
+WEIGHT,Weight (k),clinical_form23.csv,FORM23,continuous
+HEIGHT,Height (cm),clinical_form23.csv,FORM23,continuous
+SCLERAL,Scleral icterus,clinical_form23.csv,FORM23,categorical
+LYMP_CER,Cervical lymphadenopathy,clinical_form23.csv,FORM23,categorical
+LYMP_ANC,Axillary lymphadenopathy,clinical_form23.csv,FORM23,categorical
+LYMP_GRN,Groin lymphadenopathy,clinical_form23.csv,FORM23,categorical
+LYMP_OTH,Lymphadenopathy-Other,clinical_form23.csv,FORM23,categorical
+LUNGCLR,Lung fields clear,clinical_form23.csv,FORM23,categorical
+SINUS,Sinus rhythm,clinical_form23.csv,FORM23,categorical
+S3GALLOP,S3 gallop,clinical_form23.csv,FORM23,categorical
+MURMURS,Murmurs,clinical_form23.csv,FORM23,categorical
+MURMTYPE,Murmur type,clinical_form23.csv,FORM23,categorical
+LIVER,Liver span (cm),clinical_form23.csv,FORM23,continuous
+LIV_RUQ,RUQ tenderness,clinical_form23.csv,FORM23,categorical
+LIV_RLQ,RLQ tenderness,clinical_form23.csv,FORM23,categorical
+LIV_LUQ,LUQ tenderness,clinical_form23.csv,FORM23,categorical
+LIV_LLQ,LLQ tenderness,clinical_form23.csv,FORM23,categorical
+SKINULCR,New skin ulcers,clinical_form23.csv,FORM23,categorical
+EDEMA,Edema (extremities),clinical_form23.csv,FORM23,categorical
+FISTULA,Pitting,clinical_form23.csv,FORM23,categorical
+OLDULCRS,Old ulcer scars,clinical_form23.csv,FORM23,categorical
+HERPZ_HX,Herpes zoster,clinical_form23.csv,FORM23,continuous
+HERPS_HX,Herpes simplex,clinical_form23.csv,FORM23,continuous
+CHPOX_HX,Chicken pox,clinical_form23.csv,FORM23,continuous
+CHST_HX,Chest symdrome,clinical_form23.csv,FORM23,continuous
+STROK_HX,Stroke,clinical_form23.csv,FORM23,continuous
+CHF_HX,Congestive heart failure,clinical_form23.csv,FORM23,continuous
+CPF_HX,Chronic pulmon failure,clinical_form23.csv,FORM23,continuous
+OSTEO_HX,Osteomyelitis,clinical_form23.csv,FORM23,continuous
+ULCR_HX,Leg ulcer,clinical_form23.csv,FORM23,continuous
+CHOL_HX,Cholecystectomy,clinical_form23.csv,FORM23,continuous
+NECF_HX,Necrosis of femur,clinical_form23.csv,FORM23,continuous
+NECH_HX,Necrosis of humerus,clinical_form23.csv,FORM23,continuous
+SKIN_HX,Skin abnormality,clinical_form23.csv,FORM23,continuous
+HRLOS_HX,Hair loss,clinical_form23.csv,FORM23,continuous
+GIDIS_HX,GI disturbance,clinical_form23.csv,FORM23,continuous
+INDIG_HX,Indigestion,clinical_form23.csv,FORM23,continuous
+NEOP_HX,Neoplasms,clinical_form23.csv,FORM23,continuous
+BLEED_HX,Bleeding tendency,clinical_form23.csv,FORM23,continuous
+HEMAT_HX,Hematuria,clinical_form23.csv,FORM23,continuous
+PRIAP_HX,Priapism,clinical_form23.csv,FORM23,continuous
+IMPOT_HX,Impotence,clinical_form23.csv,FORM23,continuous
+DIURETIC,Diuretics,clinical_form23.csv,FORM23,continuous
+ANTIHYP,Antihypertensives,clinical_form23.csv,FORM23,continuous
+ASPIRIN,Aspirin,clinical_form23.csv,FORM23,continuous
+NSAID,,clinical_form23.csv,FORM23,continuous
+ANTICONV,Anticonvulsants,clinical_form23.csv,FORM23,continuous
+HISTAM,Histamine H2 receptor antagonist,clinical_form23.csv,FORM23,continuous
+IRON,Iron medication,clinical_form23.csv,FORM23,continuous
+BIRTHCON,Birth control pill,clinical_form23.csv,FORM23,continuous
+ACETAMIN,Acetaminophen,clinical_form23.csv,FORM23,continuous
+BENZOD,Benzodiazapine,clinical_form23.csv,FORM23,continuous
+THEOPHYL,Theophylline,clinical_form23.csv,FORM23,continuous
+CBLK,Ca channel blocker,clinical_form23.csv,FORM23,continuous
+ANDROG,Androgen,clinical_form23.csv,FORM23,continuous
+DEPOPRO,Depoprovera,clinical_form23.csv,FORM23,continuous
+NORPLANT,Levonorgestrel,clinical_form23.csv,FORM23,continuous
+ESTROG,Estrogen,clinical_form23.csv,FORM23,continuous
+FLUOXET,Fluoxetine,clinical_form23.csv,FORM23,continuous
+NEUROLEP,Neuroleptic,clinical_form23.csv,FORM23,continuous
+ANTIDEPR,Antidepressant,clinical_form23.csv,FORM23,continuous
+OTHR_MED,Other medication,clinical_form23.csv,FORM23,continuous
+OTHR_RMK,,clinical_form23.csv,FORM23,categorical
+MOS,,clinical_form23.csv,FORM23,continuous
+bmi,Body Mass Index (BMI),clinical_form23.csv,FORM23,continuous
+RAND_ID,,clinical_form25.csv,FORM25,categorical
+FORM,,clinical_form25.csv,FORM25,continuous
+REV,,clinical_form25.csv,FORM25,continuous
+VISIT,,clinical_form25.csv,FORM25,categorical
+VIS,,clinical_form25.csv,FORM25,continuous
+SCH_CONT,,clinical_form25.csv,FORM25,continuous
+MD_OFF,,clinical_form25.csv,FORM25,continuous
+EMER_F,,clinical_form25.csv,FORM25,continuous
+MSHCL,,clinical_form25.csv,FORM25,continuous
+IN_PAT,,clinical_form25.csv,FORM25,continuous
+PRES_DT,Presentation Date (days since enrollment),clinical_form25.csv,FORM25,continuous
+PREGNT,,clinical_form25.csv,FORM25,continuous
+NEUR_SYS,,clinical_form25.csv,FORM25,continuous
+PULM_SYS,,clinical_form25.csv,FORM25,continuous
+CARD_SYS,,clinical_form25.csv,FORM25,continuous
+URIN_SYS,,clinical_form25.csv,FORM25,continuous
+OB_SYS,,clinical_form25.csv,FORM25,continuous
+GI_SYS,,clinical_form25.csv,FORM25,continuous
+SKIN_SYS,,clinical_form25.csv,FORM25,continuous
+ENT_SYS,,clinical_form25.csv,FORM25,continuous
+OTHR_SYS,,clinical_form25.csv,FORM25,continuous
+SPEC_SYS,,clinical_form25.csv,FORM25,categorical
+SYMPTOMS,,clinical_form25.csv,FORM25,continuous
+PAIN,,clinical_form25.csv,FORM25,continuous
+DISTRES,,clinical_form25.csv,FORM25,continuous
+SWEAT,,clinical_form25.csv,FORM25,continuous
+NAUSEA,,clinical_form25.csv,FORM25,continuous
+VOMIT,,clinical_form25.csv,FORM25,continuous
+HAIRLOS,,clinical_form25.csv,FORM25,continuous
+SKINRSH,,clinical_form25.csv,FORM25,continuous
+BLEED,,clinical_form25.csv,FORM25,continuous
+INFECT,,clinical_form25.csv,FORM25,continuous
+FEVER,,clinical_form25.csv,FORM25,continuous
+COUGH,,clinical_form25.csv,FORM25,continuous
+RESP,,clinical_form25.csv,FORM25,continuous
+OTH_SYM,,clinical_form25.csv,FORM25,continuous
+SPEC_SYM,,clinical_form25.csv,FORM25,categorical
+ONSET,,clinical_form25.csv,FORM25,continuous
+DAY_HR,,clinical_form25.csv,FORM25,continuous
+SYM_DAYS,,clinical_form25.csv,FORM25,continuous
+SYM_HRS,,clinical_form25.csv,FORM25,continuous
+EVALUATE,,clinical_form25.csv,FORM25,continuous
+PULSE,,clinical_form25.csv,FORM25,continuous
+SBP,,clinical_form25.csv,FORM25,continuous
+DBP,,clinical_form25.csv,FORM25,continuous
+RESPRATE,,clinical_form25.csv,FORM25,continuous
+TEMP2,,clinical_form25.csv,FORM25,continuous
+CEL_FAR,,clinical_form25.csv,FORM25,continuous
+TEMPSITE,,clinical_form25.csv,FORM25,continuous
+SCL_ICT,,clinical_form25.csv,FORM25,continuous
+LABCOLL,,clinical_form25.csv,FORM25,continuous
+LAB_PERF,,clinical_form25.csv,FORM25,continuous
+RAD_PERF,,clinical_form25.csv,FORM25,continuous
+URN_PERF,,clinical_form25.csv,FORM25,continuous
+TREATED,,clinical_form25.csv,FORM25,continuous
+SC_FACIL,,clinical_form25.csv,FORM25,continuous
+ORAL_NAR,,clinical_form25.csv,FORM25,continuous
+DEM_ORL,,clinical_form25.csv,FORM25,continuous
+OXY_ORL,,clinical_form25.csv,FORM25,continuous
+MOR_ORL,,clinical_form25.csv,FORM25,continuous
+DIL_ORL,,clinical_form25.csv,FORM25,continuous
+COD_ORL,,clinical_form25.csv,FORM25,continuous
+FENPAT,,clinical_form25.csv,FORM25,continuous
+DEM_DOSO,,clinical_form25.csv,FORM25,continuous
+OXY_DOSO,,clinical_form25.csv,FORM25,continuous
+MOR_DOSO,,clinical_form25.csv,FORM25,continuous
+DIL_DOSO,,clinical_form25.csv,FORM25,continuous
+COD_DOSO,,clinical_form25.csv,FORM25,continuous
+OR1_DOSO,,clinical_form25.csv,FORM25,continuous
+OR2_DOSO,,clinical_form25.csv,FORM25,continuous
+FEN_DOS,,clinical_form25.csv,FORM25,continuous
+DEM_DAO,,clinical_form25.csv,FORM25,continuous
+OXY_DAO,,clinical_form25.csv,FORM25,continuous
+MOR_DAO,,clinical_form25.csv,FORM25,continuous
+DIL_DAO,,clinical_form25.csv,FORM25,continuous
+COD_DAO,,clinical_form25.csv,FORM25,continuous
+OR1_DAO,,clinical_form25.csv,FORM25,continuous
+OR2_DAO,,clinical_form25.csv,FORM25,continuous
+FEN_DA,,clinical_form25.csv,FORM25,continuous
+DEM_O_NA,,clinical_form25.csv,FORM25,continuous
+OXY_O_NA,,clinical_form25.csv,FORM25,continuous
+MOR_O_NA,,clinical_form25.csv,FORM25,continuous
+DIL_O_NA,,clinical_form25.csv,FORM25,continuous
+COD_O_NA,,clinical_form25.csv,FORM25,continuous
+FEN_NA,,clinical_form25.csv,FORM25,continuous
+OR1_NA,,clinical_form25.csv,FORM25,continuous
+OR2_NA,,clinical_form25.csv,FORM25,continuous
+OR1_RMK,,clinical_form25.csv,FORM25,categorical
+OR2_RMK,,clinical_form25.csv,FORM25,categorical
+NSAID,,clinical_form25.csv,FORM25,continuous
+KETOR,,clinical_form25.csv,FORM25,continuous
+KETDOS,,clinical_form25.csv,FORM25,continuous
+KET_NA,,clinical_form25.csv,FORM25,continuous
+KET_DA,,clinical_form25.csv,FORM25,continuous
+NS1_RMK,,clinical_form25.csv,FORM25,categorical
+NS1_DOS,,clinical_form25.csv,FORM25,continuous
+NS1_NA,,clinical_form25.csv,FORM25,continuous
+NS1_DA,,clinical_form25.csv,FORM25,continuous
+PAR_NAR,,clinical_form25.csv,FORM25,continuous
+DEM_PAR,,clinical_form25.csv,FORM25,continuous
+MOR_PAR,,clinical_form25.csv,FORM25,continuous
+DIL_PAR,,clinical_form25.csv,FORM25,continuous
+DEM_DOSP,,clinical_form25.csv,FORM25,continuous
+MOR_DOSP,,clinical_form25.csv,FORM25,continuous
+DIL_DOSP,,clinical_form25.csv,FORM25,continuous
+DEM_RTE,,clinical_form25.csv,FORM25,continuous
+MOR_RTE,,clinical_form25.csv,FORM25,continuous
+DIL_RTE,,clinical_form25.csv,FORM25,continuous
+DEM_DAP,,clinical_form25.csv,FORM25,continuous
+MOR_DAP,,clinical_form25.csv,FORM25,continuous
+DIL_DAP,,clinical_form25.csv,FORM25,continuous
+DEM_P_NA,,clinical_form25.csv,FORM25,continuous
+MOR_P_NA,,clinical_form25.csv,FORM25,continuous
+DIL_P_NA,,clinical_form25.csv,FORM25,continuous
+PA1_RMK,,clinical_form25.csv,FORM25,categorical
+PA1_DOSP,,clinical_form25.csv,FORM25,continuous
+PA1_RTE,,clinical_form25.csv,FORM25,continuous
+PA1_DAP,,clinical_form25.csv,FORM25,continuous
+PA1_NA,,clinical_form25.csv,FORM25,continuous
+PA2_RMK,,clinical_form25.csv,FORM25,categorical
+PA2_DOSP,,clinical_form25.csv,FORM25,continuous
+PA2_RTE,,clinical_form25.csv,FORM25,continuous
+PA2_DAP,,clinical_form25.csv,FORM25,continuous
+PA2_NA,,clinical_form25.csv,FORM25,continuous
+ANTBIOT,,clinical_form25.csv,FORM25,continuous
+AB1_RMK,,clinical_form25.csv,FORM25,categorical
+AB1_DOS,,clinical_form25.csv,FORM25,continuous
+AB1_UNIT,,clinical_form25.csv,FORM25,continuous
+AB1_RTE,,clinical_form25.csv,FORM25,continuous
+AB2_RMK,,clinical_form25.csv,FORM25,categorical
+AB2_DOS,,clinical_form25.csv,FORM25,continuous
+AB2_UNIT,,clinical_form25.csv,FORM25,continuous
+AB2_RTE,,clinical_form25.csv,FORM25,continuous
+UNTBL,,clinical_form25.csv,FORM25,continuous
+IVFLUID,,clinical_form25.csv,FORM25,continuous
+TRANSFUS,,clinical_form25.csv,FORM25,continuous
+DISPOSTN,,clinical_form25.csv,FORM25,continuous
+ACTIVITY,,clinical_form25.csv,FORM25,continuous
+SPEC_REF,,clinical_form25.csv,FORM25,continuous
+NEUR_REF,,clinical_form25.csv,FORM25,continuous
+PULM_REF,,clinical_form25.csv,FORM25,continuous
+CARD_REF,,clinical_form25.csv,FORM25,continuous
+URIN_REF,,clinical_form25.csv,FORM25,continuous
+OB_REF,,clinical_form25.csv,FORM25,continuous
+GI_REF,,clinical_form25.csv,FORM25,continuous
+BONE_REF,,clinical_form25.csv,FORM25,continuous
+SKIN_REF,,clinical_form25.csv,FORM25,continuous
+ENT_REF,,clinical_form25.csv,FORM25,continuous
+OTH_REF,,clinical_form25.csv,FORM25,continuous
+MED1_RMK,,clinical_form25.csv,FORM25,categorical
+MED2_RMK,,clinical_form25.csv,FORM25,categorical
+MED3_RMK,,clinical_form25.csv,FORM25,categorical
+DISC_DT,Disc Date (days since enrollment),clinical_form25.csv,FORM25,continuous
+DOCUMNTS,,clinical_form25.csv,FORM25,continuous
+NOTE_DOC,,clinical_form25.csv,FORM25,continuous
+NOTE_CC,,clinical_form25.csv,FORM25,continuous
+ER_DOC,,clinical_form25.csv,FORM25,continuous
+ER_CC,,clinical_form25.csv,FORM25,continuous
+HD_DOC,,clinical_form25.csv,FORM25,continuous
+HD_CC,,clinical_form25.csv,FORM25,continuous
+MD_DOC,,clinical_form25.csv,FORM25,continuous
+MD_CC,,clinical_form25.csv,FORM25,continuous
+NURS_DOC,,clinical_form25.csv,FORM25,continuous
+NURS_CC,,clinical_form25.csv,FORM25,continuous
+RAD_DOC,,clinical_form25.csv,FORM25,continuous
+RAD_CC,,clinical_form25.csv,FORM25,continuous
+MICR_DOC,,clinical_form25.csv,FORM25,continuous
+MICR_CC,,clinical_form25.csv,FORM25,continuous
+HEM_DOC,,clinical_form25.csv,FORM25,continuous
+HEM_CC,,clinical_form25.csv,FORM25,continuous
+CHEM_DOC,,clinical_form25.csv,FORM25,continuous
+CHEM_CC,,clinical_form25.csv,FORM25,continuous
+URIN_DOC,,clinical_form25.csv,FORM25,continuous
+URIN_CC,,clinical_form25.csv,FORM25,continuous
+NAR_DOC,,clinical_form25.csv,FORM25,continuous
+NAR_CC,,clinical_form25.csv,FORM25,continuous
+OTH_DOC,,clinical_form25.csv,FORM25,continuous
+OTH_CC,,clinical_form25.csv,FORM25,continuous
+OTH_RMK7,,clinical_form25.csv,FORM25,categorical
+PRES_HR,,clinical_form25.csv,FORM25,continuous
+PRES_MI,,clinical_form25.csv,FORM25,continuous
+PA1_PAR,,clinical_form25.csv,FORM25,continuous
+PA2_PAR,,clinical_form25.csv,FORM25,continuous
+DISC_HR,,clinical_form25.csv,FORM25,continuous
+DISC_MI,,clinical_form25.csv,FORM25,continuous
+IOCOTH,,clinical_form25.csv,FORM25,continuous
+TIME1,,clinical_form25.csv,FORM25,continuous
+TIME2,,clinical_form25.csv,FORM25,continuous
+PRESDATI,Presentation Date (days since enrollment + time),clinical_form25.csv,FORM25,continuous
+DISCDATI,Disc Date (days since enrollment + time),clinical_form25.csv,FORM25,continuous
+DURATION,,clinical_form25.csv,FORM25,categorical
+N_V_D,,clinical_form25.csv,FORM25,continuous
+DIZ_HEAD,,clinical_form25.csv,FORM25,continuous
+PRIAP,,clinical_form25.csv,FORM25,continuous
+SWELL,,clinical_form25.csv,FORM25,continuous
+PSYCH,,clinical_form25.csv,FORM25,continuous
+MUSKEL,,clinical_form25.csv,FORM25,continuous
+RAND_ID,,clinical_form30.csv,FORM30,categorical
+FORM,,clinical_form30.csv,FORM30,continuous
+REV,,clinical_form30.csv,FORM30,continuous
+VISIT,,clinical_form30.csv,FORM30,categorical
+VIS,,clinical_form30.csv,FORM30,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form30.csv,FORM30,continuous
+CONFIRM,,clinical_form30.csv,FORM30,categorical
+F30_STOP,,clinical_form30.csv,FORM30,categorical
+RX_DOSE,,clinical_form30.csv,FORM30,continuous
+CAPS_500,,clinical_form30.csv,FORM30,continuous
+CAPS_200,,clinical_form30.csv,FORM30,continuous
+LOT_500,,clinical_form30.csv,FORM30,continuous
+LOT_200,,clinical_form30.csv,FORM30,continuous
+RX_500,,clinical_form30.csv,FORM30,continuous
+RX_200,,clinical_form30.csv,FORM30,continuous
+RX_DT,Rx Date (days since enrollment),clinical_form30.csv,FORM30,continuous
+RPH,,clinical_form30.csv,FORM30,continuous
+RAND_ID,,clinical_form31.csv,FORM31,categorical
+FORM,,clinical_form31.csv,FORM31,continuous
+REV,,clinical_form31.csv,FORM31,continuous
+VISIT,,clinical_form31.csv,FORM31,categorical
+VIS,,clinical_form31.csv,FORM31,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form31.csv,FORM31,continuous
+S_RCV_DT,s_rcv_dt (days since enrollment),clinical_form31.csv,FORM31,continuous
+RXNO_1,,clinical_form31.csv,FORM31,continuous
+RXRCV_1,,clinical_form31.csv,FORM31,continuous
+RXDSP_1,,clinical_form31.csv,FORM31,continuous
+RXDST_1,,clinical_form31.csv,FORM31,continuous
+RXDT_1,rxdt_1 (days since enrollment),clinical_form31.csv,FORM31,continuous
+RXNO_2,,clinical_form31.csv,FORM31,continuous
+RXRCV_2,,clinical_form31.csv,FORM31,continuous
+RXDSP_2,,clinical_form31.csv,FORM31,continuous
+RXDST_2,,clinical_form31.csv,FORM31,continuous
+RXDT_2,rxdt_2 (days since enrollment),clinical_form31.csv,FORM31,continuous
+RXNO_3,,clinical_form31.csv,FORM31,continuous
+RXRCV_3,,clinical_form31.csv,FORM31,continuous
+RXDSP_3,,clinical_form31.csv,FORM31,continuous
+RXDST_3,,clinical_form31.csv,FORM31,continuous
+RXDT_3,rxdt_3 (days since enrollment),clinical_form31.csv,FORM31,continuous
+RXNO_4,,clinical_form31.csv,FORM31,continuous
+RXRCV_4,,clinical_form31.csv,FORM31,continuous
+RXDSP_4,,clinical_form31.csv,FORM31,continuous
+RXDST_4,,clinical_form31.csv,FORM31,continuous
+RXDT_4,rxdt_4 (days since enrollment),clinical_form31.csv,FORM31,continuous
+RXNO_5,,clinical_form31.csv,FORM31,continuous
+RXRCV_5,,clinical_form31.csv,FORM31,continuous
+RXDSP_5,,clinical_form31.csv,FORM31,continuous
+RXDST_5,,clinical_form31.csv,FORM31,continuous
+RXDT_5,rxdt_5 (days since enrollment),clinical_form31.csv,FORM31,continuous
+RXNO_6,,clinical_form31.csv,FORM31,continuous
+RXRCV_6,,clinical_form31.csv,FORM31,continuous
+RXDSP_6,,clinical_form31.csv,FORM31,continuous
+RXDST_6,,clinical_form31.csv,FORM31,continuous
+RXDT_6,rxdt_6 (days since enrollment),clinical_form31.csv,FORM31,continuous
+RXNO_7,,clinical_form31.csv,FORM31,continuous
+RXRCV_7,,clinical_form31.csv,FORM31,continuous
+RXDSP_7,,clinical_form31.csv,FORM31,continuous
+RXDST_7,,clinical_form31.csv,FORM31,continuous
+RXDT_7,rxdt_7 (days since enrollment),clinical_form31.csv,FORM31,continuous
+RXNO_8,,clinical_form31.csv,FORM31,continuous
+RXRCV_8,,clinical_form31.csv,FORM31,continuous
+RXDSP_8,,clinical_form31.csv,FORM31,continuous
+RXDST_8,,clinical_form31.csv,FORM31,continuous
+RXDT_8,rxdt_8 (days since enrollment),clinical_form31.csv,FORM31,continuous
+RXNO_9,,clinical_form31.csv,FORM31,continuous
+RXRCV_9,,clinical_form31.csv,FORM31,continuous
+RXDSP_9,,clinical_form31.csv,FORM31,continuous
+RXDST_9,,clinical_form31.csv,FORM31,continuous
+RXDT_9,rxdt_9 (days since enrollment),clinical_form31.csv,FORM31,continuous
+RXNO_10,,clinical_form31.csv,FORM31,continuous
+RXRCV_10,,clinical_form31.csv,FORM31,continuous
+RXDSP_10,,clinical_form31.csv,FORM31,continuous
+RXDST_10,,clinical_form31.csv,FORM31,continuous
+RXDT_10,rxdt_10 (days since enrollment),clinical_form31.csv,FORM31,continuous
+RXNO_11,,clinical_form31.csv,FORM31,continuous
+RXRCV_11,,clinical_form31.csv,FORM31,continuous
+RXDSP_11,,clinical_form31.csv,FORM31,continuous
+RXDST_11,,clinical_form31.csv,FORM31,continuous
+RXDT_11,rxdt_11 (days since enrollment),clinical_form31.csv,FORM31,continuous
+RXNO_12,,clinical_form31.csv,FORM31,continuous
+RXRCV_12,,clinical_form31.csv,FORM31,continuous
+RXDSP_12,,clinical_form31.csv,FORM31,continuous
+RXDST_12,,clinical_form31.csv,FORM31,continuous
+RXDT_12,rxdt_12 (days since enrollment),clinical_form31.csv,FORM31,continuous
+DESTROY,,clinical_form31.csv,FORM31,continuous
+RAND_ID,,clinical_form32.csv,FORM32,categorical
+FORM,,clinical_form32.csv,FORM32,continuous
+REV,,clinical_form32.csv,FORM32,continuous
+VISIT,,clinical_form32.csv,FORM32,categorical
+VIS,,clinical_form32.csv,FORM32,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form32.csv,FORM32,continuous
+VIS_HR,,clinical_form32.csv,FORM32,continuous
+VIS_MIN,,clinical_form32.csv,FORM32,continuous
+STOP_BY,,clinical_form32.csv,FORM32,categorical
+BTOX_STP,,clinical_form32.csv,FORM32,categorical
+PLBO_STP,,clinical_form32.csv,FORM32,categorical
+ADV_STP,,clinical_form32.csv,FORM32,categorical
+GI_STP,,clinical_form32.csv,FORM32,categorical
+SKIN_STP,,clinical_form32.csv,FORM32,categorical
+HAIR_STP,,clinical_form32.csv,FORM32,categorical
+ALT_STP,,clinical_form32.csv,FORM32,categorical
+CREA_STP,,clinical_form32.csv,FORM32,categorical
+OTH_STP,,clinical_form32.csv,FORM32,categorical
+OTH_RMK1,,clinical_form32.csv,FORM32,categorical
+UNBL_STP,,clinical_form32.csv,FORM32,categorical
+PREG_STP,,clinical_form32.csv,FORM32,categorical
+MISS_STP,,clinical_form32.csv,FORM32,categorical
+OTHR_STP,,clinical_form32.csv,FORM32,categorical
+OTH_RMK2,,clinical_form32.csv,FORM32,categorical
+RAND_ID,,clinical_form33.csv,FORM33,categorical
+FORM,,clinical_form33.csv,FORM33,continuous
+REV,,clinical_form33.csv,FORM33,continuous
+VISIT,,clinical_form33.csv,FORM33,categorical
+VIS,,clinical_form33.csv,FORM33,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form33.csv,FORM33,continuous
+VIS_HR,,clinical_form33.csv,FORM33,continuous
+VIS_MIN,,clinical_form33.csv,FORM33,continuous
+STOP_F33,,clinical_form33.csv,FORM33,categorical
+ASST_CON,,clinical_form33.csv,FORM33,categorical
+RAND_ID,,clinical_form34.csv,FORM34,categorical
+FORM,,clinical_form34.csv,FORM34,continuous
+REV,,clinical_form34.csv,FORM34,continuous
+VISIT,,clinical_form34.csv,FORM34,categorical
+VIS,,clinical_form34.csv,FORM34,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form34.csv,FORM34,continuous
+VIS_HR,,clinical_form34.csv,FORM34,continuous
+VIS_MIN,,clinical_form34.csv,FORM34,continuous
+CO_CONT,,clinical_form34.csv,FORM34,categorical
+CL_CONT,,clinical_form34.csv,FORM34,categorical
+CONT_DT,Continuation Date (days since enrollment),clinical_form34.csv,FORM34,categorical
+CONT_HR,,clinical_form34.csv,FORM34,continuous
+CONT_MIN,,clinical_form34.csv,FORM34,continuous
+AGRE_STP,,clinical_form34.csv,FORM34,categorical
+AGRE_MED,,clinical_form34.csv,FORM34,categorical
+RAND_ID,,clinical_form35.csv,FORM35,categorical
+FORM,,clinical_form35.csv,FORM35,continuous
+REV,,clinical_form35.csv,FORM35,continuous
+VISIT,,clinical_form35.csv,FORM35,categorical
+VIS,,clinical_form35.csv,FORM35,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form35.csv,FORM35,continuous
+RSTRT_BY,,clinical_form35.csv,FORM35,continuous
+NEW_DOSE,,clinical_form35.csv,FORM35,continuous
+RAND_ID,,clinical_form36.csv,FORM36,categorical
+FORM,,clinical_form36.csv,FORM36,continuous
+REV,,clinical_form36.csv,FORM36,continuous
+VISIT,,clinical_form36.csv,FORM36,categorical
+VIS_DT,Visit Date (days since enrollment),clinical_form36.csv,FORM36,continuous
+RAND_ID,,clinical_form37.csv,FORM37,categorical
+FORM,,clinical_form37.csv,FORM37,continuous
+REV,,clinical_form37.csv,FORM37,continuous
+VISIT,,clinical_form37.csv,FORM37,categorical
+VIS,,clinical_form37.csv,FORM37,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form37.csv,FORM37,continuous
+CMP_CERT,,clinical_form37.csv,FORM37,continuous
+CMP_SIGN,,clinical_form37.csv,FORM37,continuous
+AGRE_RES,,clinical_form37.csv,FORM37,continuous
+CO_CERT,,clinical_form37.csv,FORM37,continuous
+CO_SIGN,,clinical_form37.csv,FORM37,continuous
+RAND_ID,,clinical_form39.csv,FORM39,categorical
+FORM,,clinical_form39.csv,FORM39,continuous
+REV,,clinical_form39.csv,FORM39,continuous
+VISIT,,clinical_form39.csv,FORM39,categorical
+VIS,,clinical_form39.csv,FORM39,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form39.csv,FORM39,continuous
+FUTYPE,,clinical_form39.csv,FORM39,continuous
+CONT_N,,clinical_form39.csv,FORM39,continuous
+CONT,,clinical_form39.csv,FORM39,categorical
+CON_PT,F39/0/5A1 Patient,clinical_form39.csv,FORM39,continuous
+CON_FM,F39/0/5A2 Family,clinical_form39.csv,FORM39,continuous
+CON_OT,F39/0/5A3 Other,clinical_form39.csv,FORM39,continuous
+WHO,F39/0/5A3,clinical_form39.csv,FORM39,categorical
+PATHOS,F39/1/5B1 Hospitalized,clinical_form39.csv,FORM39,categorical
+NOANS,F39/1/5B2 No answer,clinical_form39.csv,FORM39,categorical
+WRTEL,F39/1/5B3 Wrongtelephone,clinical_form39.csv,FORM39,categorical
+LOCUNK,F39/1/5B4 Whereaboutsunknown,clinical_form39.csv,FORM39,categorical
+RELOC,F39/1/5B5 Patientrelocated,clinical_form39.csv,FORM39,categorical
+TELDIS,F39/1/5B6 Telephonedisconnected,clinical_form39.csv,FORM39,categorical
+NOTRES,F39/1/5B7 Not primaryresidence,clinical_form39.csv,FORM39,categorical
+REAUNK,F39/1/5B8 Reasonunknown,clinical_form39.csv,FORM39,categorical
+REAOTH,F39/1/5B9 Other reason,clinical_form39.csv,FORM39,categorical
+VIS_39,F39/0/6   Medicalcontact,clinical_form39.csv,FORM39,categorical
+VISDT1,visdt1 (days since enrollment),clinical_form39.csv,FORM39,continuous
+VISDT2,visdt2 (days since enrollment),clinical_form39.csv,FORM39,continuous
+VISDT3,visdt3 (days since enrollment),clinical_form39.csv,FORM39,continuous
+VISDT4,visdt4 (days since enrollment),clinical_form39.csv,FORM39,continuous
+VISDT5,visdt5 (days since enrollment),clinical_form39.csv,FORM39,continuous
+C1,,clinical_form39.csv,FORM39,continuous
+C4,,clinical_form39.csv,FORM39,continuous
+C5,,clinical_form39.csv,FORM39,continuous
+C9,,clinical_form39.csv,FORM39,continuous
+RAND_ID,,clinical_form44.csv,FORM44,categorical
+FORM,,clinical_form44.csv,FORM44,continuous
+REV,,clinical_form44.csv,FORM44,continuous
+CURCLIN,,clinical_form44.csv,FORM44,continuous
+VISIT,,clinical_form44.csv,FORM44,categorical
+VIS,,clinical_form44.csv,FORM44,continuous
+PAIN_EVT,,clinical_form44.csv,FORM44,continuous
+PAIN_NSC,,clinical_form44.csv,FORM44,continuous
+PAIN_SC,,clinical_form44.csv,FORM44,continuous
+CHEST_SY,,clinical_form44.csv,FORM44,continuous
+HEPSEQ,,clinical_form44.csv,FORM44,continuous
+HEMATUR,,clinical_form44.csv,FORM44,continuous
+STROKE,,clinical_form44.csv,FORM44,continuous
+FATAL,,clinical_form44.csv,FORM44,continuous
+CRISIS,,clinical_form44.csv,FORM44,continuous
+DIAG_A,,clinical_form44.csv,FORM44,categorical
+DIAG_B,,clinical_form44.csv,FORM44,categorical
+DIAG_C,,clinical_form44.csv,FORM44,categorical
+UNCERT,,clinical_form44.csv,FORM44,continuous
+ADD_INFO,,clinical_form44.csv,FORM44,continuous
+COMP_DT,Completion Date (days since enrollment),clinical_form44.csv,FORM44,continuous
+CODER44,,clinical_form44.csv,FORM44,categorical
+PRESDATI,Presentation Date (days since enrollment + time),clinical_form44.csv,FORM44,continuous
+RAND_ID,,clinical_form45.csv,FORM45,categorical
+FORM,,clinical_form45.csv,FORM45,continuous
+REV,,clinical_form45.csv,FORM45,continuous
+VISIT,,clinical_form45.csv,FORM45,categorical
+VIS_DT,Visit Date (days since enrollment,clinical_form45.csv,FORM45,continuous
+DEATH,,clinical_form45.csv,FORM45,continuous
+DTH_LOC,,clinical_form45.csv,FORM45,continuous
+LOC_RMK,,clinical_form45.csv,FORM45,continuous
+AUTOPSY,,clinical_form45.csv,FORM45,continuous
+HOSP,,clinical_form45.csv,FORM45,continuous
+MED_COND,,clinical_form45.csv,FORM45,continuous
+VIS,,clinical_form45.csv,FORM45,continuous
+RAND_ID,,clinical_form64.csv,FORM64,categorical
+FORM,,clinical_form64.csv,FORM64,continuous
+REV,,clinical_form64.csv,FORM64,continuous
+F64_VIS,,clinical_form64.csv,FORM64,categorical
+F64_DATE,F64_DATE (days since enrollment),clinical_form64.csv,FORM64,continuous
+VISIT,,clinical_form64.csv,FORM64,categorical
+F39MC_DT,F39MC_DT (days since enrollment),clinical_form64.csv,FORM64,continuous
+MC_CODE,,clinical_form64.csv,FORM64,categorical
+VIS,,clinical_form64.csv,FORM64,continuous
+RANDCLIN,,clinical_form70.csv,FORM70,continuous
+FORM,,clinical_form70.csv,FORM70,continuous
+REV,,clinical_form70.csv,FORM70,continuous
+EFFECTV,,clinical_form70.csv,FORM70,continuous
+SAFE,,clinical_form70.csv,FORM70,continuous
+RMK1,,clinical_form70.csv,FORM70,continuous
+BENEFIT,,clinical_form70.csv,FORM70,continuous
+RMK2,,clinical_form70.csv,FORM70,continuous
+RAND_ID,,clinical_form73.csv,FORM73,categorical
+RANDCLIN,,clinical_form73.csv,FORM73,continuous
+CL_GUESS,,clinical_form73.csv,FORM73,continuous
+DRUG,,clinical_form73.csv,FORM73,categorical
+RAND_ID,,clinical_form74.csv,FORM74,categorical
+AC_GUESS,,clinical_form74.csv,FORM74,continuous
+DRUG,,clinical_form74.csv,FORM74,categorical
+RAND_ID,,clinical_form75.csv,FORM75,categorical
+FORM,,clinical_form75.csv,FORM75,continuous
+REV,,clinical_form75.csv,FORM75,continuous
+VISIT,,clinical_form75.csv,FORM75,categorical
+VIS,,clinical_form75.csv,FORM75,continuous
+VIS_DT,Visit Date (days since enrollment),clinical_form75.csv,FORM75,continuous
+CLOSED,,clinical_form75.csv,FORM75,continuous
+COMENT1,,clinical_form75.csv,FORM75,continuous
+F75_F20,,clinical_form75.csv,FORM75,continuous
+F75_F03,,clinical_form75.csv,FORM75,continuous
+F75_F11,,clinical_form75.csv,FORM75,continuous
+F75_F12,,clinical_form75.csv,FORM75,continuous
+F75_F23,,clinical_form75.csv,FORM75,continuous
+F75_F05,,clinical_form75.csv,FORM75,continuous
+F75_RELS,,clinical_form75.csv,FORM75,continuous
+F75_CONS,,clinical_form75.csv,FORM75,continuous
+F75_REVU,,clinical_form75.csv,FORM75,continuous
+COMENT2,,clinical_form75.csv,FORM75,continuous
+COMENT3,,clinical_form75.csv,FORM75,continuous
+PT_EFFI,,clinical_form75.csv,FORM75,continuous
+PT_SAFE,,clinical_form75.csv,FORM75,continuous
+PT_DRUG,,clinical_form75.csv,FORM75,continuous
+COMENT4,,clinical_form75.csv,FORM75,continuous
+PT_BENFT,,clinical_form75.csv,FORM75,continuous
+COMENT5,,clinical_form75.csv,FORM75,continuous
+SKIP,,clinical_form75.csv,FORM75,continuous
+DRUG,,clinical_form75.csv,FORM75,categorical
+RAND_ID,,clinical_lab.csv,LAB,categorical
+VIS,Visit,clinical_lab.csv,LAB,continuous
+VISIT,,clinical_lab.csv,LAB,categorical
+CHEM_DT,Chem Date (days since enrollment),clinical_lab.csv,LAB,continuous
+WBC,,clinical_lab.csv,LAB,continuous
+RBC,,clinical_lab.csv,LAB,continuous
+HGB,,clinical_lab.csv,LAB,continuous
+PCV,,clinical_lab.csv,LAB,continuous
+MCV,,clinical_lab.csv,LAB,continuous
+MCH,,clinical_lab.csv,LAB,continuous
+RDW,,clinical_lab.csv,LAB,continuous
+PLATELET,,clinical_lab.csv,LAB,continuous
+LYMPH_N,,clinical_lab.csv,LAB,continuous
+RETIC_CT,,clinical_lab.csv,LAB,continuous
+MYELO,,clinical_lab.csv,LAB,continuous
+META,,clinical_lab.csv,LAB,continuous
+BANDS,,clinical_lab.csv,LAB,continuous
+POLYS,,clinical_lab.csv,LAB,continuous
+MONOS,,clinical_lab.csv,LAB,continuous
+LYMPHS,,clinical_lab.csv,LAB,continuous
+BASOS,,clinical_lab.csv,LAB,continuous
+EOS,,clinical_lab.csv,LAB,continuous
+NRBC,,clinical_lab.csv,LAB,continuous
+BLASTS,,clinical_lab.csv,LAB,continuous
+YNG_UNID,,clinical_lab.csv,LAB,continuous
+YNG_LYMP,,clinical_lab.csv,LAB,continuous
+YNG_MONO,,clinical_lab.csv,LAB,continuous
+PROMYELO,,clinical_lab.csv,LAB,continuous
+UREA_NIT,,clinical_lab.csv,LAB,continuous
+CREAT,,clinical_lab.csv,LAB,continuous
+SUNCREAT,,clinical_lab.csv,LAB,continuous
+CALCIUM,,clinical_lab.csv,LAB,continuous
+PHOSPH,,clinical_lab.csv,LAB,continuous
+TOT_BILI,,clinical_lab.csv,LAB,continuous
+DIR_BILI,,clinical_lab.csv,LAB,continuous
+URIC_A,,clinical_lab.csv,LAB,continuous
+CHOLES,,clinical_lab.csv,LAB,continuous
+TOT_PROT,,clinical_lab.csv,LAB,continuous
+ALBUMIN,,clinical_lab.csv,LAB,continuous
+AST,,clinical_lab.csv,LAB,continuous
+ALT,,clinical_lab.csv,LAB,continuous
+AST_ALT,,clinical_lab.csv,LAB,continuous
+ALK_PHOS,,clinical_lab.csv,LAB,continuous
+NEUT_CAL,,clinical_lab.csv,LAB,continuous
+NEUTS,,clinical_lab.csv,LAB,continuous
+FRETICS,F-retics (%),clinical_lab.csv,LAB,continuous
+FHGB,Fetal Hb % (Alkali),clinical_lab.csv,LAB,continuous
+FCELL,F-cells (%),clinical_lab.csv,LAB,continuous
+MCHC,MCHC (g/dl),clinical_lab.csv,LAB,continuous
+DENSE,Dense cells (%),clinical_lab.csv,LAB,continuous
+HYDROXY,HU assay,clinical_lab.csv,LAB,categorical
+FU_4WK,,clinical_lab.csv,LAB,continuous
+FU_8WK,,clinical_lab.csv,LAB,continuous
+WBC_BL,,clinical_lab.csv,LAB,continuous
+HB_BL,,clinical_lab.csv,LAB,continuous
+PLAT_BL,,clinical_lab.csv,LAB,continuous
+CREAT_BL,,clinical_lab.csv,LAB,continuous
+ALT_BL,,clinical_lab.csv,LAB,continuous
+NEUT_BL,,clinical_lab.csv,LAB,continuous
+RETIC_BL,,clinical_lab.csv,LAB,continuous
+N_ALPHA,,clinical_lab.csv,LAB,continuous
+BETA_1,,clinical_lab.csv,LAB,categorical
+BETA_2,,clinical_lab.csv,LAB,categorical
+DRUG,,clinical_lab.csv,LAB,continuous
+RAND_ID,,clinical_lab_8wk.csv,LAB_8WK,categorical
+VIS,Visit,clinical_lab_8wk.csv,LAB_8WK,continuous
+EXP,Vis Exp?,clinical_lab_8wk.csv,LAB_8WK,continuous
+FU_8WK,,clinical_lab_8wk.csv,LAB_8WK,continuous
+DRUG,,clinical_lab_8wk.csv,LAB_8WK,categorical
+WBC_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+RBC_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+HGB_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+PCV_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+MCV_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+MCH_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+RDW_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+PLAT_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+RETIC_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+MYELO_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+META_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+BANDS_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+POLYS_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+MONOS_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+LYMPHS_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+BASOS_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+EOS_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+NEUTS_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+NRBC_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+UREAN_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+CREAT_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+SUNCREA_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+CALCIUM_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+PHOSPH_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+T_BILI_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+D_BILI_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+URIC_A_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+CHOLES_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+T_PROT_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+ALBUMIN_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+AST_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+ALT_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+ALKPHOS_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+FRETICS_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+FHGB_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+FCELL_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+MCHC_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+DENSE_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+HYDROXY_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+NEUTCAL_,,clinical_lab_8wk.csv,LAB_8WK,continuous
+RAND_ID,,clinical_msh.csv,MSH,categorical
+DRUG,,clinical_msh.csv,MSH,categorical
+CSSCD,,clinical_msh.csv,MSH,categorical
+MODEL,,clinical_msh.csv,MSH,continuous
+CLOSE_DT,Close Date (days since enrollment),clinical_msh.csv,MSH,continuous
+CLOSSTAT,,clinical_msh.csv,MSH,categorical
+STOPTYPE,,clinical_msh.csv,MSH,categorical
+STOP_DT,Stop Date (days since enrollment),clinical_msh.csv,MSH,continuous
+DEATH_DT,Death Date (days since enrollment),clinical_msh.csv,MSH,continuous
+RSTRT_DT,Restart Date (days since enrollment),clinical_msh.csv,MSH,continuous
+STOP_REA,,clinical_msh.csv,MSH,categorical
+AGE_QV,Age at QV,clinical_msh.csv,MSH,continuous
+N_CRIS01,,clinical_msh.csv,MSH,continuous
+CONSENT,,clinical_msh.csv,MSH,categorical
+RACE,Ethnicity,clinical_msh.csv,MSH,categorical
+GENDER,Gender,clinical_msh.csv,MSH,categorical
+N_ALPHA,,clinical_msh.csv,MSH,continuous
+ENRLLATE,,clinical_msh.csv,MSH,continuous
+ADHRX_ID,,clinical_msh.csv,MSH,continuous
+PFUP_EOS,,clinical_msh.csv,MSH,continuous
+P_POS,,clinical_msh.csv,MSH,continuous
+HB_PATRN,,clinical_msh.csv,MSH,categorical
+RTOXFV,,clinical_msh.csv,MSH,continuous
+BETABOTH,,clinical_msh.csv,MSH,categorical
+X_LINK,,clinical_msh.csv,MSH,continuous
+RTOX_N,,clinical_msh.csv,MSH,continuous
+C,,clinical_msh.csv,MSH,continuous
+BETA_1,,clinical_msh.csv,MSH,categorical
+BETA_2,,clinical_msh.csv,MSH,categorical
+LEXPVIS,,clinical_msh.csv,MSH,continuous
+LCOMPVIS,,clinical_msh.csv,MSH,continuous
+MTD,,clinical_msh.csv,MSH,continuous
+MTD_FV,,clinical_msh.csv,MSH,continuous
+FVFSTMTD,,clinical_msh.csv,MSH,continuous
+LASTDOSE,,clinical_msh.csv,MSH,continuous
+TOPRANK,,clinical_msh.csv,MSH,continuous
+YRS_EVT,,clinical_msh.csv,MSH,continuous
+YRS_FUP,,clinical_msh.csv,MSH,continuous
+N_CRISES,,clinical_msh.csv,MSH,continuous
+CRATE_VW,,clinical_msh.csv,MSH,continuous
+CRISRATE,AVOC/year < 2 yrs,clinical_msh.csv,MSH,continuous
+RANK,RANK FOR VARIABLE CRATE_VW,clinical_msh.csv,MSH,continuous
+CR1,,clinical_msh.csv,MSH,continuous
+CR1_MOS,,clinical_msh.csv,MSH,continuous
+UCR2,,clinical_msh.csv,MSH,continuous
+UCR2_MOS,,clinical_msh.csv,MSH,continuous
+UCR3,,clinical_msh.csv,MSH,continuous
+UCR3_MOS,,clinical_msh.csv,MSH,continuous
+COHORT,,clinical_msh.csv,MSH,continuous
+RAND_ID,,clinical_rx.csv,RX,categorical
+COURSE,Course of study treatment,clinical_rx.csv,RX,continuous
+START_DT,Start Date (days since enrollment),clinical_rx.csv,RX,continuous
+WEEKS,Number of weeks in course,clinical_rx.csv,RX,continuous
+WEIGHT,Weight used to calculate dosage,clinical_rx.csv,RX,continuous
+TDOSE_R,Total dosage recommended,clinical_rx.csv,RX,continuous
+TDOSE_A,Total dosage actually administered,clinical_rx.csv,RX,continuous
+RDOSE_R,Dosage rate recommended,clinical_rx.csv,RX,continuous
+RDOSE_A,Dosage rate actually administered,clinical_rx.csv,RX,continuous
+NUM200,Number of 200 mg capsules/day,clinical_rx.csv,RX,continuous
+NUM500,Number of 500 mg capsules/day,clinical_rx.csv,RX,continuous
+ACCEPT,Did TDC accept recomendation,clinical_rx.csv,RX,continuous
+RX_200,RX number-200 mg caps,clinical_rx.csv,RX,continuous
+RX_500,RX number-500 mg caps,clinical_rx.csv,RX,continuous
+TX_VIS,Visit RX to start,clinical_rx.csv,RX,continuous
+RAND_ID,,clinical_scores.csv,SCORES,categorical
+VIS,,clinical_scores.csv,SCORES,continuous
+IN_PAT,,clinical_scores.csv,SCORES,continuous
+RCVD_DT,Recieved Date (days since enrollment),clinical_scores.csv,SCORES,continuous
+PRESDATI,Date of Presentation (days since enrollment + time),clinical_scores.csv,SCORES,continuous
+DURATION,,clinical_scores.csv,SCORES,categorical
+F25_COMP,Form 25 attachments,clinical_scores.csv,SCORES,categorical
+STATUS,Status of case,clinical_scores.csv,SCORES,categorical
+F25,,clinical_scores.csv,SCORES,continuous
+CRC,,clinical_scores.csv,SCORES,continuous
+F44,,clinical_scores.csv,SCORES,continuous
+CRISIS25,,clinical_scores.csv,SCORES,continuous
+N_CODERS,,clinical_scores.csv,SCORES,continuous
+S_SCPAIN,,clinical_scores.csv,SCORES,continuous
+S_NSPAIN,,clinical_scores.csv,SCORES,continuous
+S_CHEST,,clinical_scores.csv,SCORES,continuous
+S_HEMAT,,clinical_scores.csv,SCORES,continuous
+S_HEPSEQ,,clinical_scores.csv,SCORES,continuous
+S_STROKE,,clinical_scores.csv,SCORES,continuous
+S_CRISIS,,clinical_scores.csv,SCORES,continuous
+AVOC,Final CRC classifcation,clinical_scores.csv,SCORES,categorical
+AVOC24HR,,clinical_scores.csv,SCORES,continuous
+RAND_ID,,clinical_visits.csv,VISITS,categorical
+VISIT,,clinical_visits.csv,VISITS,categorical
+VIS_DT,Visit Date (days since enrollment),clinical_visits.csv,VISITS,continuous
+VIS,Visit,clinical_visits.csv,VISITS,continuous
+EXP,Vis Exp?,clinical_visits.csv,VISITS,continuous
+EXP_DT,Exp Date (days since enrollment),clinical_visits.csv,VISITS,continuous
+HEMA_CMP,,clinical_visits.csv,VISITS,categorical
+CHEM_CMP,,clinical_visits.csv,VISITS,categorical
+STOPSTAT,,clinical_visits.csv,VISITS,categorical
+TOX_STAT,,clinical_visits.csv,VISITS,categorical
+STOP_DT,Stop Date (days since enrollment),clinical_visits.csv,VISITS,continuous
+COURSE,,clinical_visits.csv,VISITS,continuous
+WEEK,,clinical_visits.csv,VISITS,continuous
+CALVIN,Placebo simulation,clinical_visits.csv,VISITS,categorical
+TRT_INT,,clinical_visits.csv,VISITS,continuous
+HEM_EXP,,clinical_visits.csv,VISITS,continuous
+CHEM_EXP,,clinical_visits.csv,VISITS,continuous
+HU_EXP,,clinical_visits.csv,VISITS,continuous
+DRUG,,clinical_visits.csv,VISITS,categorical
+CLOSE_DT,Close Date (days since enrollment),clinical_visits.csv,VISITS,continuous
+CLOSSTAT,,clinical_visits.csv,VISITS,categorical
+COMP_MIS,,clinical_visits.csv,VISITS,continuous
