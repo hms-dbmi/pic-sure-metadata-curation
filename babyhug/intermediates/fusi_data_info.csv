@@ -1,0 +1,1055 @@
+varname,LABEL,file,MEMNAME,picsure_type
+ID,Unique patient identifier (randomized),fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+SONO_LBL,F033 II.5 Film Label Number:,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+ABDOMINAL_SONO_FM20,F020 3. Abdominal Sonogram Performed,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+ABDRDRSIG,F033 II.2 Reader Signature:,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+VISIT_NBR,Visit Number,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+ABDRDRNBR,F033 II.3 Reader Number:,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+ABD_QLTY,F033 II.6 Current status of this reading,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+QLTY2_SP,"F033 II.6.A If returned for reprocessing, explain:",fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+QLTY3_SP,"F033 II.6.B If inadequate, explain:",fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+GALBLA,F033 III.1 Gallbladder,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+GBWALL,F033 III.1.A If Present,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+GBCDV,F033 III.1.B Color Doppler vascularity,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+GBNSTN,F033 III.1.C.1 Number of stones,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+GBMSTN,F033 III.1.C.2 Multiple stones not countable,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+GBLGST,F033 III.1.D Largest stone,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+GBLGSTNA,F033 III.1.DNA N/A,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+GBSFM,F033 III.1.E Stones freely mobile?,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+GBCBD,F033 III.1.F.1 Common bile duct,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+GBPAND,F033 III.1.F.2 Pancreatic duct,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+GBIHEP,F033 III.1.F.3 Intrahepatic ducts,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+GBSLDG,F033 III.1.G Sludge,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+GBPRFL,F033 III.1.H Pericholecystic fluid,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+SPLEEN,F033 III.2 Spleen,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+ACCSPL,F033 III.2.A Accessory spleen(s),fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+SPLCLN,F033 III.2.B Cephalocaudad length,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+SPLTRN,F033 III.2.C Transverse,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+SPLANP,F033 III.2.D Anterior - Posterior,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+SPLVOL,F033 III.2.E Estimated total spleen volume,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+SPLVOLND,F033 III.2.END N/D,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+SPLHOM,F033 III.2.F Homogeneity,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+INHOM_SP,"F033 III.2.F.1 *1. If inhomogeneous, explain:",fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+RKID,F033 III.3 Right Kidney,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+RKVOL,F033 III.3.A Estimated volume,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+RKRPAR,F033 III.3.B Renal parenchyma,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+RKRPEX,"F033 III.3.B.1 *1. If abnormal, explain:",fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+RKECHO,F033 III.3.C Echogenicity,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+RKECEX,"F033 III.3.C.1 *1. If abnormal, explain:",fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+LKID,F033 III.4 Left Kidney,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+LKVOL,F033 III.4.A Estimated volume,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+LKRPAR,F033 III.4.B Renal parenchyma,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+LKRPEX,"F033 III.4.B.1 *1. If abnormal, explain:",fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+LKECHO,F033 III.4.C Echogenicity,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+LKECEX,"F033 III.4.C.1 *1. If abnormal, explain:",fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+LVRENL,F033 III.5 Liver enlarged,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+ABDABN,F033 III.6 Any other abdominal abnormalities,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+ABDABNEX,"F033 III.6.A If yes, explain:",fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+ABDSEQPT,F023 II_1 1. Equipment,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+ABDSTRNS,F023 II_2 2. Transducer,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+STATUS45,F023 II_3 3. Quality of study,fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+VISIT_DT_FM23_DAYS,F023 1. Date of interview (recode: number of days after date of initial follow-up visit),fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+ABDOMINAL_SONO_DT_FM20_DAYS,F020 3A. Abdominal Sonogram Date Performed (recode: number of days after date of initial follow-up visit),fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+ABDRD_DT_DAYS,F033 II.4 Date of Reading: (recode: number of days after date of initial follow-up visit),fusi_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+ID,Unique patient identifier (randomized),fusi_blood.csv,BLOOD,continuous
+FORM_ID,FORM ID,fusi_blood.csv,BLOOD,continuous
+BLOOD_LABEL5,Blood Label Number,fusi_blood.csv,BLOOD,continuous
+VISIT_NBR,Visit Number,fusi_blood.csv,BLOOD,categorical
+CELLS,F200 Cells,fusi_blood.csv,BLOOD,continuous
+PLASMA,F200 Plasma,fusi_blood.csv,BLOOD,continuous
+VISIT_DT_DAYS,VISIT DATE (recode: number of days after date of initial follow-up visit),fusi_blood.csv,BLOOD,continuous
+BLOOD_DT_DAYS,F003 B. Date Collected (recode: number of days after date of initial follow-up visit),fusi_blood.csv,BLOOD,continuous
+COLLECTION_DT_DAYS,COLLECTION DATE (recode: number of days after date of initial follow-up visit),fusi_blood.csv,BLOOD,continuous
+ID,Unique patient identifier (randomized),fusi_creatinine.csv,CREATININE,continuous
+FORM_ID,FORM ID,fusi_creatinine.csv,CREATININE,continuous
+CREATININE_LABEL,Creatinine Label Number,fusi_creatinine.csv,CREATININE,continuous
+VISIT_NBR,Visit Number,fusi_creatinine.csv,CREATININE,categorical
+S_CREAT,F200 S_CREAT,fusi_creatinine.csv,CREATININE,continuous
+RESIDUAL_VOL1,F200 RESIDUAL_VOL1,fusi_creatinine.csv,CREATININE,continuous
+VISIT_DT_DAYS,VISIT DATE (recode: number of days after date of initial follow-up visit),fusi_creatinine.csv,CREATININE,continuous
+CREATININE_DT_DAYS,F011 B. Date Collected: (recode: number of days after date of initial follow-up visit),fusi_creatinine.csv,CREATININE,continuous
+COLLECTION_DT_DAYS,COLLECTION DATE (recode: number of days after date of initial follow-up visit),fusi_creatinine.csv,CREATININE,continuous
+ID,Unique patient identifier (randomized),fusi_cystatin.csv,CYSTATIN,continuous
+FORM_ID,FORM ID,fusi_cystatin.csv,CYSTATIN,continuous
+CYSTATIN_C_LABEL,Cystatin C Label Number,fusi_cystatin.csv,CYSTATIN,continuous
+VISIT_NBR,Visit Number,fusi_cystatin.csv,CYSTATIN,categorical
+CYS_AVG,Cystatin C Average,fusi_cystatin.csv,CYSTATIN,continuous
+VISIT_DT_DAYS,VISIT DATE (recode: number of days after date of initial follow-up visit),fusi_cystatin.csv,CYSTATIN,continuous
+CYSTATIN_C_DT_DAYS,F003 B.Date Collected (recode: number of days after date of initial follow-up visit),fusi_cystatin.csv,CYSTATIN,continuous
+COLLECTION_DT_DAYS,COLLECTION DATE (recode: number of days after date of initial follow-up visit),fusi_cystatin.csv,CYSTATIN,continuous
+ID,Unique patient identifier (randomized),fusi_fm001.csv,FM001,continuous
+FORM_ID,Form ID,fusi_fm001.csv,FM001,continuous
+REVISION,Form Revision,fusi_fm001.csv,FM001,continuous
+VISIT_NBR,Visit Number,fusi_fm001.csv,FM001,continuous
+SEQ_NBR,Sequence Number,fusi_fm001.csv,FM001,continuous
+TREAT_COMPLET,F001 1. Did this child complete at least 18 mos. of randomized treatment in BABY HUG?,fusi_fm001.csv,FM001,categorical
+FOLLOWUP_STUDY,F001 2. Has informed consent been obtained?,fusi_fm001.csv,FM001,categorical
+FOLLOWUP_GROUP,F001 4. Follow-up Group,fusi_fm001.csv,FM001,categorical
+HYDROXYUREA,F001 A. Open Label Hydroxyurea?,fusi_fm001.csv,FM001,categorical
+NO_HYDROXYUREA,F001 B. No hydroxyurea (standard care)?,fusi_fm001.csv,FM001,categorical
+CHRONIC_TRANSFUSION,F001 C. Chronic Transfusion?,fusi_fm001.csv,FM001,categorical
+OTHER,F001 D. Other?,fusi_fm001.csv,FM001,categorical
+SP,"F001 If other, specify",fusi_fm001.csv,FM001,categorical
+DATA_CONSENT,F001 B. Consent for data file to include child's information?,fusi_fm001.csv,FM001,categorical
+BLOOD_SAVE_CONSENT,F001 C. Consent for blood specimens to be saved indefinitely?,fusi_fm001.csv,FM001,categorical
+BLOOD_FUTURE_CONSENT,F001 D. Consent for blood specimens to be used for future research on sickle cell disease and related disorders?,fusi_fm001.csv,FM001,categorical
+CONSENT_DT_DAYS,F001 A. Consent Date (recode: number of days after date of initial follow-up visit),fusi_fm001.csv,FM001,continuous
+ID,Unique patient identifier (randomized),fusi_fm002.csv,FM002,continuous
+FORM_ID,Form ID,fusi_fm002.csv,FM002,continuous
+REVISION,Form Revision,fusi_fm002.csv,FM002,continuous
+VISIT_NBR,Visit Number,fusi_fm002.csv,FM002,continuous
+SEQ_NBR,Sequence Number,fusi_fm002.csv,FM002,continuous
+DOSE_WEIGHT,F002 2. Dose Started,fusi_fm002.csv,FM002,continuous
+DOSE_FORM,F002 3. Dose Form (choose one):,fusi_fm002.csv,FM002,continuous
+ANC_LOW,F002 1. A. Is there an ANC below which you will hold open label HU treatment?,fusi_fm002.csv,FM002,categorical
+TREAT_DOSE1,"F002 B. If Yes,",fusi_fm002.csv,FM002,categorical
+PLATELET_LOW,F002 2. A. Is there a platelet count below which your institution will hold open label HU treatment?,fusi_fm002.csv,FM002,categorical
+TREAT_DOSE2,"F002 B. If Yes,",fusi_fm002.csv,FM002,categorical
+DOSE_SP2,"F002 1. If Other, then specify:",fusi_fm002.csv,FM002,categorical
+SPLEEN_CHANGE,F002 C. Is there a hold that can be started based on spleen size or change in spleen size?,fusi_fm002.csv,FM002,categorical
+HEMOGLOBIN_LOW,F002 1. A. Is there an ANC below which you will hold open label HU treatment?,fusi_fm002.csv,FM002,categorical
+HEMO_6GM_DL,F002 1. 6 gm/dl or below,fusi_fm002.csv,FM002,categorical
+HEMO_5_5GM_DL,F002 2. 5.5 gm/dl or below,fusi_fm002.csv,FM002,categorical
+HEMO_5GM_DL,F002 3. 5 gm/dl or below,fusi_fm002.csv,FM002,categorical
+PCT_BELOW_BASELINE,F002 4. Percentage below baseline,fusi_fm002.csv,FM002,continuous
+BELOW_BASLINE_PERC,"F002 a. If percentage below baseline, specify percentage:",fusi_fm002.csv,FM002,continuous
+HEMO_LOW_OTHER,F002 5. Other,fusi_fm002.csv,FM002,categorical
+HEMO_AMOUNT_SP,"F002 a. If Other, specify:",fusi_fm002.csv,FM002,categorical
+HEMO_RETICULO,F002 4. A. Is there a hemoglobin/reticulocyte combination at which your institution will hold open label HU treatment?,fusi_fm002.csv,FM002,categorical
+HEMO_AMOUNT2,F002 1. Hemoglobin of:,fusi_fm002.csv,FM002,continuous
+RETICULOCYTE_NUM,F002 2. Absolute Reticulocyte of,fusi_fm002.csv,FM002,categorical
+NEXT_COUNT,"F002 5. If your institution holds HU, when will the patient return for the next blood count (choose one)?",fusi_fm002.csv,FM002,categorical
+MEDICATION,F002 6. How much HU does your institution prescribe at each blood count check?,fusi_fm002.csv,FM002,categorical
+MEDICATION_SP,"F002 A. If Other, then specify:",fusi_fm002.csv,FM002,categorical
+VISIT_DT_DAYS,Visit Date (recode: number of days after date of initial follow-up visit),fusi_fm002.csv,FM002,continuous
+START_DT_DAYS,F002 1. Date HU  Started (recode: number of days after date of initial follow-up visit),fusi_fm002.csv,FM002,continuous
+ID,Unique patient identifier (randomized),fusi_fm003.csv,FM003,continuous
+FORM_ID,Form ID,fusi_fm003.csv,FM003,continuous
+REVISION,Form Revision,fusi_fm003.csv,FM003,continuous
+VISIT_NBR,Visit Number,fusi_fm003.csv,FM003,continuous
+SEQ_NBR,Sequence Number,fusi_fm003.csv,FM003,continuous
+URINE_LABEL,F003 A. Label number,fusi_fm003.csv,FM003,continuous
+URINE_LABEL_ND,F003 Not Done,fusi_fm003.csv,FM003,categorical
+BLOOD_LABEL,F003 A. Label number,fusi_fm003.csv,FM003,continuous
+BLOOD_LABEL_ND,F003 Not Done,fusi_fm003.csv,FM003,categorical
+CYSTATIN_C_LABEL,F003 A. Label Number,fusi_fm003.csv,FM003,continuous
+CYSTATIN_C_ND,F003 Not Done,fusi_fm003.csv,FM003,categorical
+VISIT_DT_DAYS,F003 (recode: number of days after date of initial follow-up visit),fusi_fm003.csv,FM003,continuous
+URINE_DT_DAYS,F003 B. Date collected (recode: number of days after date of initial follow-up visit),fusi_fm003.csv,FM003,continuous
+BLOOD_DT_DAYS,F003 B. Date Collected (recode: number of days after date of initial follow-up visit),fusi_fm003.csv,FM003,continuous
+CYSTATIN_C_DT_DAYS,F003 B.Date Collected (recode: number of days after date of initial follow-up visit),fusi_fm003.csv,FM003,continuous
+ID,Unique patient identifier (randomized),fusi_fm011.csv,FM011,continuous
+FORM_ID,Form ID,fusi_fm011.csv,FM011,continuous
+REVISION,Form Revision,fusi_fm011.csv,FM011,continuous
+VISIT_NBR,Visit Number,fusi_fm011.csv,FM011,categorical
+SEQ_NBR,Sequence Number,fusi_fm011.csv,FM011,continuous
+URINE_LABEL,F011 Urine Microalbumin: Creatinine Not Done,fusi_fm011.csv,FM011,continuous
+URINE_LABEL_NUM,F011 Urine Microalbumin: Creatinine Label Number,fusi_fm011.csv,FM011,continuous
+BLOOD_LABEL,F011 Stored Blood Sample Not Done,fusi_fm011.csv,FM011,continuous
+BLOOD_LABEL_NUM,F011 Stored Blood Sample Label Number,fusi_fm011.csv,FM011,continuous
+VDJ_LABEL,F011 VDJ/HJB Not Done,fusi_fm011.csv,FM011,continuous
+VDJ_LABEL_NUM,F011 VDJ/HJB Label Number,fusi_fm011.csv,FM011,continuous
+CELL_LABEL,F011 Pitted Cell Not Done,fusi_fm011.csv,FM011,continuous
+CELL_LABEL_NUM,F011 Pitted Cell Label Number,fusi_fm011.csv,FM011,continuous
+CYSTATIN_LABEL,F011 Cystatin C Not Done,fusi_fm011.csv,FM011,continuous
+CYSTATIN_LABEL_NUM,F011 Cystatin C Label Number,fusi_fm011.csv,FM011,continuous
+CREATININE_LABEL,F011 Creatinine Not Done,fusi_fm011.csv,FM011,continuous
+CREATININE_LABEL_NUM,F011 Creatinine Label Number,fusi_fm011.csv,FM011,continuous
+VISIT_DT_DAYS,F011 1. Date of Interview (recode: number of days after date of initial follow-up visit),fusi_fm011.csv,FM011,continuous
+URINE_DT_DAYS,F011 Urine Microalbumin: Creatinine Date Collected (recode: number of days after date of initial follow-up visit),fusi_fm011.csv,FM011,continuous
+BLOOD_DT_DAYS,F011 Stored Blood Sample Date Collected (recode: number of days after date of initial follow-up visit),fusi_fm011.csv,FM011,continuous
+VDJ_DT_DAYS,F011 VDJ/HJB Date Collected (recode: number of days after date of initial follow-up visit),fusi_fm011.csv,FM011,continuous
+CELL_DT_DAYS,F011 Pitted Cell Date Collected (recode: number of days after date of initial follow-up visit),fusi_fm011.csv,FM011,continuous
+CYSTATIN_DT_DAYS,F011 Cystatin C Date Collected (recode: number of days after date of initial follow-up visit),fusi_fm011.csv,FM011,continuous
+CREATININE_DT_DAYS,F011 Creatinine Date Collected (recode: number of days after date of initial follow-up visit),fusi_fm011.csv,FM011,continuous
+ID,Unique patient identifier (randomized),fusi_fm012.csv,FM012,continuous
+FORM_ID,Form ID,fusi_fm012.csv,FM012,continuous
+REVISION,Form Revision,fusi_fm012.csv,FM012,continuous
+VISIT_NBR,Visit Number,fusi_fm012.csv,FM012,categorical
+SEQ_NBR,Sequence Number,fusi_fm012.csv,FM012,continuous
+END_PARTICIPATION,F012 A. Planned end of follow-up participation,fusi_fm012.csv,FM012,categorical
+INACTIVE,F012 1. Inactive follow-up status,fusi_fm012.csv,FM012,categorical
+RELOCATION,F012 2. Permanent relocation to area with no BABY HUG Clinic,fusi_fm012.csv,FM012,categorical
+WITHDRAW,F012 3. Withdrew consent,fusi_fm012.csv,FM012,categorical
+DEATH,F012 4. Death,fusi_fm012.csv,FM012,categorical
+OTHER,F012 5. Other condition requiring end of participation,fusi_fm012.csv,FM012,categorical
+OTHER_SP,"F012 If Yes, then specify:",fusi_fm012.csv,FM012,categorical
+VISIT_DT_DAYS,F012 1. Date of Interview (recode: number of days after date of initial follow-up visit),fusi_fm012.csv,FM012,continuous
+LAST_CONTACT_DT_DAYS,F012 2. Date of last contact with family (recode: number of days after date of initial follow-up visit),fusi_fm012.csv,FM012,continuous
+ID,Unique patient identifier (randomized),fusi_fm013.csv,FM013,continuous
+FORM_ID,Form ID,fusi_fm013.csv,FM013,continuous
+REVISION,Form Revision,fusi_fm013.csv,FM013,continuous
+VISIT_NBR,Visit Number,fusi_fm013.csv,FM013,categorical
+SEQ_NBR,Sequence Number,fusi_fm013.csv,FM013,continuous
+PTNTPOS,F013 PATIENT'S POSITION DURING EXAM,fusi_fm013.csv,FM013,categorical
+POS_SP,F013 SPECIFY,fusi_fm013.csv,FM013,categorical
+COMPEXAM,F013 COMPLETENESS OF EXAM,fusi_fm013.csv,FM013,categorical
+INCEXAM,F013 REASON FOR INCOMPLETE EXAM,fusi_fm013.csv,FM013,categorical
+INCEX_SP,F013 SPECIFY,fusi_fm013.csv,FM013,categorical
+TCD_LBL,F013 TCD LABEL,fusi_fm013.csv,FM013,continuous
+VISIT_DT_DAYS,F013 Visit Date (recode: number of days after date of initial follow-up visit),fusi_fm013.csv,FM013,continuous
+ID,Unique patient identifier (randomized),fusi_fm020.csv,FM020,continuous
+FORM_ID,Form ID,fusi_fm020.csv,FM020,continuous
+REVISION,Form Revision,fusi_fm020.csv,FM020,continuous
+VISIT_NBR,Visit Number,fusi_fm020.csv,FM020,categorical
+SEQ_NBR,Sequence Number,fusi_fm020.csv,FM020,continuous
+BLOOD_COLLECT,F020 1. Were blood specimens collected as part of active follow-up?,fusi_fm020.csv,FM020,categorical
+HBF_LABEL,F020 2A. HbF Label Number,fusi_fm020.csv,FM020,continuous
+HBF_LABEL_ND,F020 2A1. HbF Label Number Not Done,fusi_fm020.csv,FM020,categorical
+HOWELL_LABEL,F020 3A. Howell Jolly Bodies Label Number,fusi_fm020.csv,FM020,continuous
+HOWELL_LABEL_ND,F020 3A1. Howell Jolly Bodies Label Number Not Done,fusi_fm020.csv,FM020,categorical
+CELL_LABEL,F020 4A. Pitted Cell Label Number,fusi_fm020.csv,FM020,continuous
+CELL_LABEL_ND,F020 4A1. Pitted Cell Label Number Not Done,fusi_fm020.csv,FM020,categorical
+CYSTATIN_LABEL,F020 5A. Cystain C LAbel number,fusi_fm020.csv,FM020,continuous
+CYSTATIN_LABEL_ND,F020 5A1. Cystain C LAbel number Not Done,fusi_fm020.csv,FM020,categorical
+CREATININE_LABEL,F020 6A. Creatinine Label Number,fusi_fm020.csv,FM020,continuous
+CREATININE_LABEL_ND,F020 6A1. Creatinine Label Number Not Done,fusi_fm020.csv,FM020,categorical
+LIVER_SCAN,F020 1. Liver/Spleen Scan Performed,fusi_fm020.csv,FM020,categorical
+DTPA_CLEAR,F020 2. DTPA Clearance Performed,fusi_fm020.csv,FM020,categorical
+ABDOMINAL_SONO,F020 3. Abdominal Sonogram Performed,fusi_fm020.csv,FM020,categorical
+NEUROPSYCH_TEST,F020 4. Neuropsychology Testing Performed,fusi_fm020.csv,FM020,categorical
+VISIT_DT_DAYS,F020 1. Date of Interview (recode: number of days after date of initial follow-up visit),fusi_fm020.csv,FM020,continuous
+HBF_DT_DAYS,F020 2B. HbF Date Collected (recode: number of days after date of initial follow-up visit),fusi_fm020.csv,FM020,continuous
+HOWELL_DT_DAYS,F020 3B. Howell Jolly Bodies Date Collected (recode: number of days after date of initial follow-up visit),fusi_fm020.csv,FM020,continuous
+CELL_DT_DAYS,F020 4B. Pitted Cell Date Collected (recode: number of days after date of initial follow-up visit),fusi_fm020.csv,FM020,continuous
+CYSTATIN_DT_DAYS,F020 5B. Cystain C Date Collected (recode: number of days after date of initial follow-up visit),fusi_fm020.csv,FM020,continuous
+CREATININE_DT_DAYS,F020 6B. Creatinine Date Collected (recode: number of days after date of initial follow-up visit),fusi_fm020.csv,FM020,continuous
+LIVER_SCAN_DT_DAYS,F020 1A. Liver/Spleen Scan Date Performed (recode: number of days after date of initial follow-up visit),fusi_fm020.csv,FM020,continuous
+DTPA_CLEAR_DT_DAYS,F020 2A. DTPA Clearance Date Performed (recode: number of days after date of initial follow-up visit),fusi_fm020.csv,FM020,continuous
+ABDOMINAL_SONO_DT_DAYS,F020 3A. Abdominal Sonogram Date Performed (recode: number of days after date of initial follow-up visit),fusi_fm020.csv,FM020,continuous
+NEUROPSYCH_DT_DAYS,F020 4A. Neuropsychology Testing Date Performed (recode: number of days after date of initial follow-up visit),fusi_fm020.csv,FM020,continuous
+ID,Unique patient identifier (randomized),fusi_fm021.csv,FM021,continuous
+FORM_ID,Form ID,fusi_fm021.csv,FM021,continuous
+REVISION,Form Revision,fusi_fm021.csv,FM021,continuous
+VISIT_NBR,Visit Number,fusi_fm021.csv,FM021,categorical
+SEQ_NBR,Sequence Number,fusi_fm021.csv,FM021,continuous
+CAMTYPE,F021 II_1 Camera manufacturer:,fusi_fm021.csv,FM021,categorical
+CAMMODEL,F021 II-2 Camera Model:,fusi_fm021.csv,FM021,categorical
+COLLIMAT,F021 II_3 Collimator:,fusi_fm021.csv,FM021,categorical
+SUPCOLLD,F021 II_4 Supplier of TC-sulfur colloid:,fusi_fm021.csv,FM021,categorical
+DOSINJ44,F021 II_5 Dose injected:,fusi_fm021.csv,FM021,continuous
+INJ44HR,F021 II_6HR Time of injection (24-hour clock) HR,fusi_fm021.csv,FM021,continuous
+INJ44MN,F021 II_6MN Time of injection (24-hour clock) MN,fusi_fm021.csv,FM021,continuous
+IMSTRHR,F021 II_7HR Time imaging started HR,fusi_fm021.csv,FM021,continuous
+IMSTRMN,F021 II_7MN Time imaging started MN,fusi_fm021.csv,FM021,continuous
+IMCOMHR,F021 II_8HR Time imaging completed HR,fusi_fm021.csv,FM021,continuous
+IMCOMMN,F021 II_8MN Time imaging completed MN,fusi_fm021.csv,FM021,continuous
+CAMANGLE,F021 II_9 Camera angle:,fusi_fm021.csv,FM021,continuous
+ANTPOSMN,F021 II_10MN True Posterior imaging time (min:sec) MN,fusi_fm021.csv,FM021,continuous
+ANTPOSSC,F021 II_10SC True Posterior imaging time (min:sec) SC,fusi_fm021.csv,FM021,continuous
+OBLIMCNT,F021 II_11 Right Posterior Oblique Image Counts:,fusi_fm021.csv,FM021,continuous
+LSSCNLBL,F021 II_12 Film Label:,fusi_fm021.csv,FM021,continuous
+AOI400K,F021 II_13A 400 K Image adequate?,fusi_fm021.csv,FM021,categorical
+AOITIMED,F021 II_13B Timed Image adequate?,fusi_fm021.csv,FM021,categorical
+KASPLTOT,F021 III_1A1a Anterior View Spleen total counts,fusi_fm021.csv,FM021,continuous
+KASPLPIX,F021 III_1A1b Anterior View Spleen # pixels in ROI,fusi_fm021.csv,FM021,continuous
+KASPLCNT,F021 III_1A1c Anterior View Spleen counts/pixel,fusi_fm021.csv,FM021,continuous
+KALIVTOT,F021 III_1A2a Anterior View Liver total counts,fusi_fm021.csv,FM021,continuous
+KALIVPIX,F021 III_1A2b Anterior View Liver # pixels in ROI,fusi_fm021.csv,FM021,continuous
+KALIVCNT,F021 III_1A2c Anterior View Liver counts/pixel,fusi_fm021.csv,FM021,continuous
+KPSPLTOT,F021 III_1B1a Posterior View Spleen total counts,fusi_fm021.csv,FM021,continuous
+KPSPLPIX,F021 III_1B1b Posterior View Spleen # pixels in ROI,fusi_fm021.csv,FM021,continuous
+KPSPLCNT,F021 III_1B1c Posterior View Spleen counts/pixel,fusi_fm021.csv,FM021,continuous
+KPLIVTOT,F021 III_1B2a Posterior View Liver total counts,fusi_fm021.csv,FM021,continuous
+KPLIVPIX,F021 III_1B2b Posterior View Liver # pixels in ROI,fusi_fm021.csv,FM021,continuous
+KPLIVCNT,F021 III_1B2c Posterior View Liver counts/pixel,fusi_fm021.csv,FM021,continuous
+KSLRTTOT,F021 III_1C1 Spleen/Liver Ratio Total counts,fusi_fm021.csv,FM021,continuous
+KSLRTCNT,F021 III_1C2 Spleen/Liver Ratio Counts/pixel,fusi_fm021.csv,FM021,continuous
+TASPLTOT,F021 III_2A1a Timed Image Left Anterior Oblique View Spleen total counts,fusi_fm021.csv,FM021,continuous
+TASPLPIX,F021 III_2A1b Timed Image Left Anterior Oblique View Spleen # pixels in ROI,fusi_fm021.csv,FM021,continuous
+TASPLCNT,F021 III_2A1c Timed Image Left Anterior Oblique View Spleen counts/pixel,fusi_fm021.csv,FM021,continuous
+TALIVTOT,F021 III_2A2a Timed Image Left Anterior Oblique View Liver total counts,fusi_fm021.csv,FM021,continuous
+TALIVPIX,F021 III_2A2b Timed Image Left Anterior Oblique View Liver # pixels in ROI,fusi_fm021.csv,FM021,continuous
+TALIVCNT,F021 III_2A2c Timed Image Left Anterior Oblique View Liver counts/pixel,fusi_fm021.csv,FM021,continuous
+TPSPLTOT,F021 III_2B1a Timed Image Right Anterior Oblique View Spleen total counts,fusi_fm021.csv,FM021,continuous
+TPSPLPIX,F021 III_2B1b Timed Image Right Anterior Oblique View Spleen # pixels in ROI,fusi_fm021.csv,FM021,continuous
+TPSPLCNT,F021 III_2B1c Timed Image Right  Anterior Oblique View Spleen counts/pixel,fusi_fm021.csv,FM021,continuous
+TPLIVTOT,F021 III_2B2a Timed Image Right Anterior Oblique View Liver total counts,fusi_fm021.csv,FM021,continuous
+TPLIVPIX,F021 III_2B2b Timed Image Right Anterior Oblique View Liver # pixels in ROI,fusi_fm021.csv,FM021,continuous
+TPLIVCNT,F021 III_2B2c Timed Image Right Anterior Oblique View Liver counts/pixel,fusi_fm021.csv,FM021,continuous
+TSLRTTOT,F021 III_2C1 Spleen/Liver Ratio Total counts,fusi_fm021.csv,FM021,continuous
+TSLRTCNT,F021 III_2C2 Spleen/Liver Ratio Counts/pixel,fusi_fm021.csv,FM021,continuous
+SIGNATURE,F021 2. Signature:,fusi_fm021.csv,FM021,continuous
+VISIT_DT_DAYS,F021 Visit Date (recode: number of days after date of initial follow-up visit),fusi_fm021.csv,FM021,continuous
+ID,Unique patient identifier (randomized),fusi_fm022.csv,FM022,continuous
+FORM_ID,Form ID,fusi_fm022.csv,FM022,continuous
+REVISION,Form Revision,fusi_fm022.csv,FM022,continuous
+VISIT_NBR,Visit Number,fusi_fm022.csv,FM022,categorical
+SEQ_NBR,Sequence Number,fusi_fm022.csv,FM022,continuous
+HEIGHT,F022 1. Height,fusi_fm022.csv,FM022,continuous
+WEIGHT,F022 2. Weight,fusi_fm022.csv,FM022,continuous
+STSAPRE,F022 II_IA Standard syringe activity Pre,fusi_fm022.csv,FM022,continuous
+STSAPOST,F022 II_IB Standard syringe activity Post,fusi_fm022.csv,FM022,continuous
+STSASTAC,F022 II_IC Standard syringe activity Standard Activity:,fusi_fm022.csv,FM022,continuous
+DSSAPRE,F022 II_2A Dose syringe activity Pre,fusi_fm022.csv,FM022,continuous
+DSSAPOST,F022 II_2B Dose syringe activity Post,fusi_fm022.csv,FM022,continuous
+DTPADOSE,F022 II_2C DTPA dose administered:,fusi_fm022.csv,FM022,continuous
+DTPAHR,F022 II_2Dhr Time DTPA administered Hour,fusi_fm022.csv,FM022,continuous
+DTPAMN,F022 II_2Dmn Time DTPA administered Minutes,fusi_fm022.csv,FM022,continuous
+ROOMFRST,F022 II_4A Room (water) background First count:,fusi_fm022.csv,FM022,continuous
+ROOMSEC,F022 II_4B Room (water) background Second count:,fusi_fm022.csv,FM022,continuous
+STNDFRST,F022 II_5A Standard First count:,fusi_fm022.csv,FM022,continuous
+STNDSEC,F022 II_5B Standard Second  count:,fusi_fm022.csv,FM022,continuous
+ONEHR,F022 II_6Ahr One-hour time Hour,fusi_fm022.csv,FM022,continuous
+ONEMN,F022 II_6Amn One-hour time Minutes,fusi_fm022.csv,FM022,continuous
+ONEDTPA,F022 II_6B DTPA measurement,fusi_fm022.csv,FM022,continuous
+ONEDTPA2,F022 II_6C Second DTPA measurement,fusi_fm022.csv,FM022,continuous
+ONEHULBL,F022 II_6D Tube label (3 ml in EDTA):,fusi_fm022.csv,FM022,continuous
+TWOHR,F022 II_7Ahr Two-hour time Hour,fusi_fm022.csv,FM022,continuous
+TWOMN,F022 II_7Amn Two-hour time Minutes,fusi_fm022.csv,FM022,continuous
+TWODTPA,F022 II_7B DTPA measurement,fusi_fm022.csv,FM022,continuous
+TWODTPA2,F022 II_7C Second DTPA measurement,fusi_fm022.csv,FM022,continuous
+TWOHULBL,F022 II_7D Tube label (3 ml in EDTA):,fusi_fm022.csv,FM022,continuous
+FORHR,F022 II_8Ahr Four-hour time Hour,fusi_fm022.csv,FM022,continuous
+FORMN,F022 II_8Amn Four-hour time Minutes,fusi_fm022.csv,FM022,continuous
+FORDTPA,F022 II_8B DTPA measurement,fusi_fm022.csv,FM022,continuous
+FORDTPA2,F022 II_8C Second DTPA measurement,fusi_fm022.csv,FM022,continuous
+FORHULBL,F022 II_8D Tube label (3 ml in EDTA):,fusi_fm022.csv,FM022,continuous
+GFRDTP_A,F022 II_9A GFR from DTPA ml/min,fusi_fm022.csv,FM022,continuous
+GFRDTP_B,F022 II_9B GFR from DTPA ml/min/m 2,fusi_fm022.csv,FM022,continuous
+GFRDTP_C,F022 II_9C GFR from DTPA ml/min/1.73m 2,fusi_fm022.csv,FM022,continuous
+SIGNATURE,F022 2. Signature:,fusi_fm022.csv,FM022,continuous
+VISIT_DT_DAYS,F022 Visit Date (recode: number of days after date of initial follow-up visit),fusi_fm022.csv,FM022,continuous
+ID,Unique patient identifier (randomized),fusi_fm023.csv,FM023,continuous
+FORM_ID,Form ID,fusi_fm023.csv,FM023,continuous
+REVISION,Form Revision,fusi_fm023.csv,FM023,continuous
+VISIT_NBR,Visit Number,fusi_fm023.csv,FM023,categorical
+SEQ_NBR,Sequence Number,fusi_fm023.csv,FM023,continuous
+ABDSEQPT,F023 II_1 1. Equipment,fusi_fm023.csv,FM023,categorical
+ABDSTRNS,F023 II_2 2. Transducer,fusi_fm023.csv,FM023,categorical
+STATUS45,F023 II_3 3. Quality of study,fusi_fm023.csv,FM023,categorical
+SONO_LBL,F023 II_4 4. Film label,fusi_fm023.csv,FM023,continuous
+SIGNATURE,F023 2. Signature:,fusi_fm023.csv,FM023,continuous
+VISIT_DT_DAYS,F023 1. Date of interview (recode: number of days after date of initial follow-up visit),fusi_fm023.csv,FM023,continuous
+ID,Unique patient identifier (randomized),fusi_fm024.csv,FM024,continuous
+FORM_ID,Form ID,fusi_fm024.csv,FM024,continuous
+REVISION,Form Revision,fusi_fm024.csv,FM024,continuous
+VISIT_NBR,Visit Number,fusi_fm024.csv,FM024,categorical
+SEQ_NBR,Sequence Number,fusi_fm024.csv,FM024,continuous
+BD_1,F024 1. 4 Red,fusi_fm024.csv,FM024,categorical
+BD_2,F024 2. 6 Red,fusi_fm024.csv,FM024,categorical
+BD_3,F024 3. 6 Red,fusi_fm024.csv,FM024,categorical
+BD_4,F024 4. 4 Red,fusi_fm024.csv,FM024,categorical
+BD_5,"F024 5. 2 Red, 2 White",fusi_fm024.csv,FM024,categorical
+BD_6,"F024 6. 4 Red , 2 White",fusi_fm024.csv,FM024,categorical
+BD_7,"F024 7. 2 Red, 2 White",fusi_fm024.csv,FM024,categorical
+BD_8,F024 8. 6 Red,fusi_fm024.csv,FM024,categorical
+BD_9,"F024 9. 4 Red, 4 White",fusi_fm024.csv,FM024,categorical
+BD_10,"F024 10. 4 Red, 4 White",fusi_fm024.csv,FM024,categorical
+BD_11,F024 11. 4 two-color,fusi_fm024.csv,FM024,categorical
+BD_12,F024 12. 4 two-color,fusi_fm024.csv,FM024,categorical
+BD_13,F024 13. 4 two-color,fusi_fm024.csv,FM024,categorical
+BD_14,F024 14. 4 two-color,fusi_fm024.csv,FM024,categorical
+BD_15,F024 15. 4 two-color,fusi_fm024.csv,FM024,categorical
+BD_16,F024 16. 4 two-color,fusi_fm024.csv,FM024,categorical
+BD_17,F024 17. 4 two-color,fusi_fm024.csv,FM024,categorical
+BD_18,F024 18. 4 two-color,fusi_fm024.csv,FM024,categorical
+BD_19,F024 19. 4 two-color,fusi_fm024.csv,FM024,categorical
+BD_20,F024 20. 4 two-color,fusi_fm024.csv,FM024,categorical
+BD_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+INFO_1,F024 1. Eat,fusi_fm024.csv,FM024,categorical
+INFO_2,F024 2. Bath,fusi_fm024.csv,FM024,categorical
+INFO_3,F024 3. Drink,fusi_fm024.csv,FM024,categorical
+INFO_4,F024 4. Meow,fusi_fm024.csv,FM024,categorical
+INFO_5,F024 5. Cut,fusi_fm024.csv,FM024,categorical
+INFO_6,F024 6. Water,fusi_fm024.csv,FM024,categorical
+INFO_7,F024 7. Nose,fusi_fm024.csv,FM024,categorical
+INFO_8,F024 8. Knee,fusi_fm024.csv,FM024,categorical
+INFO_9,F024 9. Old,fusi_fm024.csv,FM024,categorical
+INFO_10,F024 10. Write,fusi_fm024.csv,FM024,categorical
+INFO_11,F024 11. Grass,fusi_fm024.csv,FM024,categorical
+INFO_12,F024 12. Ears,fusi_fm024.csv,FM024,categorical
+INFO_13,F024 13. Paper,fusi_fm024.csv,FM024,categorical
+INFO_14,F024 14. Bottle,fusi_fm024.csv,FM024,categorical
+INFO_15,F024 15. Finger,fusi_fm024.csv,FM024,categorical
+INFO_16,F024 16. Rainbow,fusi_fm024.csv,FM024,categorical
+INFO_17,F024 17. Legs,fusi_fm024.csv,FM024,categorical
+INFO_18,F024 18. Animals,fusi_fm024.csv,FM024,categorical
+INFO_19,F024 19. Gives milk,fusi_fm024.csv,FM024,categorical
+INFO_20,F024 20. Rain,fusi_fm024.csv,FM024,categorical
+INFO_21,F024 21. Shines,fusi_fm024.csv,FM024,categorical
+INFO_22,F024 22. Wheels,fusi_fm024.csv,FM024,categorical
+INFO_23,F024 23. Chew,fusi_fm024.csv,FM024,categorical
+INFO_24,F024 24. Veget0-1le,fusi_fm024.csv,FM024,categorical
+INFO_25,F024 25. Letter,fusi_fm024.csv,FM024,categorical
+INFO_26,F024 26. Saturday,fusi_fm024.csv,FM024,categorical
+INFO_27,F024 27. Shoes,fusi_fm024.csv,FM024,categorical
+INFO_28,F024 28. Week,fusi_fm024.csv,FM024,categorical
+INFO_29,F024 29. Seasons,fusi_fm024.csv,FM024,categorical
+INFO_30,F024 30. Opposite,fusi_fm024.csv,FM024,categorical
+INFO_31,F024 31. Bread,fusi_fm024.csv,FM024,categorical
+INFO_32,F024 32. Milk,fusi_fm024.csv,FM024,categorical
+INFO_33,F024 33. Ocean,fusi_fm024.csv,FM024,categorical
+INFO_34,F024 34. Sun,fusi_fm024.csv,FM024,categorical
+INFO_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+MR_1,F024 Matrix Reasoning 1,fusi_fm024.csv,FM024,categorical
+MR_2,F024 Matrix Reasoning 2,fusi_fm024.csv,FM024,categorical
+MR_3,F024 Matrix Reasoning 3,fusi_fm024.csv,FM024,categorical
+MR_4,F024 Matrix Reasoning 4,fusi_fm024.csv,FM024,categorical
+MR_5,F024 Matrix Reasoning 5,fusi_fm024.csv,FM024,categorical
+MR_6,F024 Matrix Reasoning 6,fusi_fm024.csv,FM024,categorical
+MR_7,F024 Matrix Reasoning 7,fusi_fm024.csv,FM024,categorical
+MR_8,F024 Matrix Reasoning 8,fusi_fm024.csv,FM024,categorical
+MR_9,F024 Matrix Reasoning 9,fusi_fm024.csv,FM024,categorical
+MR_10,F024 Matrix Reasoning 10,fusi_fm024.csv,FM024,categorical
+MR_11,F024 Matrix Reasoning 11,fusi_fm024.csv,FM024,categorical
+MR_12,F024 Matrix Reasoning 12,fusi_fm024.csv,FM024,categorical
+MR_13,F024 Matrix Reasoning 13,fusi_fm024.csv,FM024,categorical
+MR_14,F024 Matrix Reasoning 14,fusi_fm024.csv,FM024,categorical
+MR_15,F024 Matrix Reasoning 15,fusi_fm024.csv,FM024,categorical
+MR_16,F024 Matrix Reasoning 16,fusi_fm024.csv,FM024,categorical
+MR_17,F024 Matrix Reasoning 17,fusi_fm024.csv,FM024,categorical
+MR_18,F024 Matrix Reasoning 18,fusi_fm024.csv,FM024,categorical
+MR_19,F024 Matrix Reasoning 19,fusi_fm024.csv,FM024,categorical
+MR_20,F024 Matrix Reasoning 20,fusi_fm024.csv,FM024,categorical
+MR_21,F024 Matrix Reasoning 21,fusi_fm024.csv,FM024,categorical
+MR_22,F024 Matrix Reasoning 22,fusi_fm024.csv,FM024,categorical
+MR_23,F024 Matrix Reasoning 23,fusi_fm024.csv,FM024,categorical
+MR_24,F024 Matrix Reasoning 24,fusi_fm024.csv,FM024,categorical
+MR_25,F024 Matrix Reasoning 25,fusi_fm024.csv,FM024,categorical
+MR_26,F024 Matrix Reasoning 26,fusi_fm024.csv,FM024,categorical
+MR_27,F024 Matrix Reasoning 27,fusi_fm024.csv,FM024,categorical
+MR_28,F024 Matrix Reasoning 28,fusi_fm024.csv,FM024,categorical
+MR_29,F024 Matrix Reasoning 29,fusi_fm024.csv,FM024,categorical
+MR_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+VOC_1,F024 1. Car,fusi_fm024.csv,FM024,categorical
+VOC_2,F024 2. Clock,fusi_fm024.csv,FM024,categorical
+VOC_3,F024 3. Fork,fusi_fm024.csv,FM024,categorical
+VOC_4,F024 4. Turtle,fusi_fm024.csv,FM024,categorical
+VOC_5,F024 5. Pumpkin,fusi_fm024.csv,FM024,categorical
+VOC_6,F024 6. Shoe,fusi_fm024.csv,FM024,categorical
+VOC_7,F024 7. Telephone,fusi_fm024.csv,FM024,categorical
+VOC_8,F024 8. Umbrella,fusi_fm024.csv,FM024,categorical
+VOC_9,F024 9. Bicycle,fusi_fm024.csv,FM024,categorical
+VOC_10,F024 10. Candy,fusi_fm024.csv,FM024,categorical
+VOC_11,F024 11. Dog,fusi_fm024.csv,FM024,categorical
+VOC_12,F024 12. Letter,fusi_fm024.csv,FM024,categorical
+VOC_13,F024 13. Train,fusi_fm024.csv,FM024,categorical
+VOC_14,F024 14. Leaf,fusi_fm024.csv,FM024,categorical
+VOC_15,F024 15. Hero,fusi_fm024.csv,FM024,categorical
+VOC_16,F024 16. Castle,fusi_fm024.csv,FM024,categorical
+VOC_17,F024 17. Glow,fusi_fm024.csv,FM024,categorical
+VOC_18,F024 18. Polite,fusi_fm024.csv,FM024,categorical
+VOC_19,F024 19. Holiday,fusi_fm024.csv,FM024,categorical
+VOC_20,F024 20. Swing,fusi_fm024.csv,FM024,categorical
+VOC_21,F024 21. Double,fusi_fm024.csv,FM024,categorical
+VOC_22,F024 22. Courage,fusi_fm024.csv,FM024,categorical
+VOC_23,F024 23. Ancient,fusi_fm024.csv,FM024,categorical
+VOC_24,F024 24. Microscope,fusi_fm024.csv,FM024,categorical
+VOC_25,F024 25. Nuisance,fusi_fm024.csv,FM024,categorical
+VOC_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+PCON_1,F024 Picture Concepts 1,fusi_fm024.csv,FM024,categorical
+PCON_2,F024 Picture Concepts 2,fusi_fm024.csv,FM024,categorical
+PCON_3,F024 Picture Concepts 3,fusi_fm024.csv,FM024,categorical
+PCON_4,F024 Picture Concepts 4,fusi_fm024.csv,FM024,categorical
+PCON_5,F024 Picture Concepts 5,fusi_fm024.csv,FM024,categorical
+PCON_6,F024 Picture Concepts 6,fusi_fm024.csv,FM024,categorical
+PCON_7,F024 Picture Concepts 7,fusi_fm024.csv,FM024,categorical
+PCON_8,F024 Picture Concepts 8,fusi_fm024.csv,FM024,categorical
+PCON_9,F024 Picture Concepts 9,fusi_fm024.csv,FM024,categorical
+PCON_10,F024 Picture Concepts 10,fusi_fm024.csv,FM024,categorical
+PCON_11,F024 Picture Concepts 11,fusi_fm024.csv,FM024,categorical
+PCON_12,F024 Picture Concepts 12,fusi_fm024.csv,FM024,categorical
+PCON_13,F024 Picture Concepts 13,fusi_fm024.csv,FM024,categorical
+PCON_14,F024 Picture Concepts 14,fusi_fm024.csv,FM024,categorical
+PCON_15,F024 Picture Concepts 15,fusi_fm024.csv,FM024,categorical
+PCON_16,F024 Picture Concepts 16,fusi_fm024.csv,FM024,categorical
+PCON_17,F024 Picture Concepts 17,fusi_fm024.csv,FM024,categorical
+PCON_18,F024 Picture Concepts 18,fusi_fm024.csv,FM024,categorical
+PCON_19,F024 Picture Concepts 19,fusi_fm024.csv,FM024,categorical
+PCON_20,F024 Picture Concepts 20,fusi_fm024.csv,FM024,categorical
+PCON_21,F024 Picture Concepts 21,fusi_fm024.csv,FM024,categorical
+PCON_22,F024 Picture Concepts 22,fusi_fm024.csv,FM024,categorical
+PCON_23,F024 Picture Concepts 23,fusi_fm024.csv,FM024,categorical
+PCON_24,F024 Picture Concepts 24,fusi_fm024.csv,FM024,categorical
+PCON_25,F024 Picture Concepts 25,fusi_fm024.csv,FM024,categorical
+PCON_26,F024 Picture Concepts 26,fusi_fm024.csv,FM024,categorical
+PCON_27,F024 Picture Concepts 27,fusi_fm024.csv,FM024,categorical
+PCON_28,F024 Picture Concepts 28,fusi_fm024.csv,FM024,categorical
+PCON_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+SS_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+WR_1,F024 Word Reasoning 1,fusi_fm024.csv,FM024,categorical
+WR_2,F024 Word Reasoning 2,fusi_fm024.csv,FM024,categorical
+WR_3,F024 Word Reasoning 3,fusi_fm024.csv,FM024,categorical
+WR_4,F024 Word Reasoning 4,fusi_fm024.csv,FM024,categorical
+WR_5,F024 Word Reasoning 5,fusi_fm024.csv,FM024,categorical
+WR_6,F024 Word Reasoning 6,fusi_fm024.csv,FM024,categorical
+WR_7,F024 Word Reasoning 7,fusi_fm024.csv,FM024,categorical
+WR_8,F024 Word Reasoning 8,fusi_fm024.csv,FM024,categorical
+WR_9,F024 Word Reasoning 9,fusi_fm024.csv,FM024,categorical
+WR_10,F024 Word Reasoning 10,fusi_fm024.csv,FM024,categorical
+WR_11,F024 Word Reasoning 11,fusi_fm024.csv,FM024,categorical
+WR_12,F024 Word Reasoning 12,fusi_fm024.csv,FM024,categorical
+WR_13,F024 Word Reasoning 13,fusi_fm024.csv,FM024,categorical
+WR_14,F024 Word Reasoning 14,fusi_fm024.csv,FM024,categorical
+WR_15,F024 Word Reasoning 15,fusi_fm024.csv,FM024,categorical
+WR_16,F024 Word Reasoning 16,fusi_fm024.csv,FM024,categorical
+WR_17,F024 Word Reasoning 17,fusi_fm024.csv,FM024,categorical
+WR_18,F024 Word Reasoning 18,fusi_fm024.csv,FM024,categorical
+WR_19,F024 Word Reasoning 19,fusi_fm024.csv,FM024,categorical
+WR_20,F024 Word Reasoning 20,fusi_fm024.csv,FM024,categorical
+WR_21,F024 Word Reasoning 21,fusi_fm024.csv,FM024,categorical
+WR_22,F024 Word Reasoning 22,fusi_fm024.csv,FM024,categorical
+WR_23,F024 Word Reasoning 23,fusi_fm024.csv,FM024,categorical
+WR_24,F024 Word Reasoning 24,fusi_fm024.csv,FM024,categorical
+WR_25,F024 Word Reasoning 25,fusi_fm024.csv,FM024,categorical
+WR_26,F024 Word Reasoning 26,fusi_fm024.csv,FM024,categorical
+WR_27,F024 Word Reasoning 27,fusi_fm024.csv,FM024,categorical
+WR_28,F024 Word Reasoning 28,fusi_fm024.csv,FM024,categorical
+WR_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+COD_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+CMPHN_1,F024 1. Stove,fusi_fm024.csv,FM024,categorical
+CMPHN_2,F024 2. Street,fusi_fm024.csv,FM024,categorical
+CMPHN_3,F024 3. Thank you,fusi_fm024.csv,FM024,categorical
+CMPHN_4,F024 4. Hands,fusi_fm024.csv,FM024,categorical
+CMPHN_5,F024 5. Shoes,fusi_fm024.csv,FM024,categorical
+CMPHN_6,F024 6. School,fusi_fm024.csv,FM024,categorical
+CMPHN_7,F024 7. Babysitters,fusi_fm024.csv,FM024,categorical
+CMPHN_8,F024 8. Strangers,fusi_fm024.csv,FM024,categorical
+CMPHN_9,F024 9. Home,fusi_fm024.csv,FM024,categorical
+CMPHN_10,F024 10. Tags,fusi_fm024.csv,FM024,categorical
+CMPHN_11,F024 11. Share,fusi_fm024.csv,FM024,categorical
+CMPHN_12,F024 12. Names,fusi_fm024.csv,FM024,categorical
+CMPHN_13,F024 13. Take turns,fusi_fm024.csv,FM024,categorical
+CMPHN_14,F024 14. On time,fusi_fm024.csv,FM024,categorical
+CMPHN_15,F024 15. Line,fusi_fm024.csv,FM024,categorical
+CMPHN_16,F024 16. Permission,fusi_fm024.csv,FM024,categorical
+CMPHN_17,F024 17. Water,fusi_fm024.csv,FM024,categorical
+CMPHN_18,F024 18. Shots,fusi_fm024.csv,FM024,categorical
+CMPHN_19,F024 19. Buses and trains,fusi_fm024.csv,FM024,categorical
+CMPHN_20,F024 20. Vote,fusi_fm024.csv,FM024,categorical
+CMPHN_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+PCOMP_1,F024 1. Boy,fusi_fm024.csv,FM024,categorical
+PCOMP_2,F024 2. Doll,fusi_fm024.csv,FM024,categorical
+PCOMP_3,F024 3. Blocks,fusi_fm024.csv,FM024,categorical
+PCOMP_4,F024 4. Jacket,fusi_fm024.csv,FM024,categorical
+PCOMP_5,F024 5. Tricycle,fusi_fm024.csv,FM024,categorical
+PCOMP_6,F024 6. Chair,fusi_fm024.csv,FM024,categorical
+PCOMP_7,F024 7. Rose,fusi_fm024.csv,FM024,categorical
+PCOMP_8,F024 8. Screws,fusi_fm024.csv,FM024,categorical
+PCOMP_9,F024 9. Apple,fusi_fm024.csv,FM024,categorical
+PCOMP_10,F024 10. Clothesline,fusi_fm024.csv,FM024,categorical
+PCOMP_11,F024 11. Gloves,fusi_fm024.csv,FM024,categorical
+PCOMP_12,F024 12. Kites,fusi_fm024.csv,FM024,categorical
+PCOMP_13,F024 13. Boat,fusi_fm024.csv,FM024,categorical
+PCOMP_14,F024 14. Clock,fusi_fm024.csv,FM024,categorical
+PCOMP_15,F024 15. Ruler,fusi_fm024.csv,FM024,categorical
+PCOMP_16,F024 16. Smile,fusi_fm024.csv,FM024,categorical
+PCOMP_17,F024 17. Duck,fusi_fm024.csv,FM024,categorical
+PCOMP_18,F024 18. Lunchbox,fusi_fm024.csv,FM024,categorical
+PCOMP_19,F024 19. Swings,fusi_fm024.csv,FM024,categorical
+PCOMP_20,F024 20. Door,fusi_fm024.csv,FM024,categorical
+PCOMP_21,F024 21. Braids,fusi_fm024.csv,FM024,categorical
+PCOMP_22,F024 22. Skating,fusi_fm024.csv,FM024,categorical
+PCOMP_23,F024 23. Power lines,fusi_fm024.csv,FM024,categorical
+PCOMP_24,F024 24. Desk,fusi_fm024.csv,FM024,categorical
+PCOMP_25,F024 25. Car,fusi_fm024.csv,FM024,categorical
+PCOMP_26,F024 26. Fishing,fusi_fm024.csv,FM024,categorical
+PCOMP_27,F024 27. Coat,fusi_fm024.csv,FM024,categorical
+PCOMP_28,F024 28. Ponytail,fusi_fm024.csv,FM024,categorical
+PCOMP_29,F024 29. Hand,fusi_fm024.csv,FM024,categorical
+PCOMP_30,F024 30. House,fusi_fm024.csv,FM024,categorical
+PCOMP_31,F024 31. Clown,fusi_fm024.csv,FM024,categorical
+PCOMP_32,F024 32. Rooster,fusi_fm024.csv,FM024,categorical
+PCOMP_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+SIM_1,F024 1. Red and yellow,fusi_fm024.csv,FM024,categorical
+SIM_2,F024 2. Cookies and ice cream,fusi_fm024.csv,FM024,categorical
+SIM_3,F024 3. Juice and milk,fusi_fm024.csv,FM024,categorical
+SIM_4,F024 4. Socks and shirts,fusi_fm024.csv,FM024,categorical
+SIM_5,F024 5. Dogs and cats,fusi_fm024.csv,FM024,categorical
+SIM_6,F024 6. Apples and oranges,fusi_fm024.csv,FM024,categorical
+SIM_7,F024 7. Pencils and crayons,fusi_fm024.csv,FM024,categorical
+SIM_8,F024 8. Dolls and balls,fusi_fm024.csv,FM024,categorical
+SIM_9,F024 9. Two and three,fusi_fm024.csv,FM024,categorical
+SIM_10,F024 10. Books and newspapers,fusi_fm024.csv,FM024,categorical
+SIM_11,F024 11. Guitars and drums,fusi_fm024.csv,FM024,categorical
+SIM_12,F024 12. Arms and legs,fusi_fm024.csv,FM024,categorical
+SIM_13,F024 13. Mothers and sisters,fusi_fm024.csv,FM024,categorical
+SIM_14,F024 14. Plates and bowls,fusi_fm024.csv,FM024,categorical
+SIM_15,F024 15. Circles and squares,fusi_fm024.csv,FM024,categorical
+SIM_16,F024 16. Cars and trucks,fusi_fm024.csv,FM024,categorical
+SIM_17,F024 17. Ears and noses,fusi_fm024.csv,FM024,categorical
+SIM_18,F024 18. Rain and snow,fusi_fm024.csv,FM024,categorical
+SIM_19,F024 19. Buttons and zippers,fusi_fm024.csv,FM024,categorical
+SIM_20,F024 20. Happy and sad,fusi_fm024.csv,FM024,categorical
+SIM_21,F024 21. Tables and chairs,fusi_fm024.csv,FM024,categorical
+SIM_22,F024 22. Sweet and sour,fusi_fm024.csv,FM024,categorical
+SIM_23,F024 23. Heavy and light,fusi_fm024.csv,FM024,categorical
+SIM_24,F024 24. Asleep and awake,fusi_fm024.csv,FM024,categorical
+SIM_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+RV_1,F024 1. Foot,fusi_fm024.csv,FM024,categorical
+RV_2,F024 2. Cup,fusi_fm024.csv,FM024,categorical
+RV_3,F024 3. Doll,fusi_fm024.csv,FM024,categorical
+RV_4,F024 4. Butterfly,fusi_fm024.csv,FM024,categorical
+RV_5,F024 5. Giraffe,fusi_fm024.csv,FM024,categorical
+RV_6,F024 6. Painting,fusi_fm024.csv,FM024,categorical
+RV_7,F024 7. Toaster,fusi_fm024.csv,FM024,categorical
+RV_8,F024 8. Snail,fusi_fm024.csv,FM024,categorical
+RV_9,F024 9. Raining,fusi_fm024.csv,FM024,categorical
+RV_10,F024 10. Vacuum Cleaner,fusi_fm024.csv,FM024,categorical
+RV_11,F024 11. Basketball,fusi_fm024.csv,FM024,categorical
+RV_12,F024 12. Lamp,fusi_fm024.csv,FM024,categorical
+RV_13,F024 13. Kicking,fusi_fm024.csv,FM024,categorical
+RV_14,F024 14. Triangle,fusi_fm024.csv,FM024,categorical
+RV_15,F024 15. Stirring,fusi_fm024.csv,FM024,categorical
+RV_16,F024 16. Lying down,fusi_fm024.csv,FM024,categorical
+RV_17,F024 17. Carrying,fusi_fm024.csv,FM024,categorical
+RV_18,F024 18. Desert,fusi_fm024.csv,FM024,categorical
+RV_19,F024 19. Paying,fusi_fm024.csv,FM024,categorical
+RV_20,F024 20. Curly tail,fusi_fm024.csv,FM024,categorical
+RV_21,F024 21. Cash Register,fusi_fm024.csv,FM024,categorical
+RV_22,F024 22. Telescope,fusi_fm024.csv,FM024,categorical
+RV_23,F024 23. Beneath the tree,fusi_fm024.csv,FM024,categorical
+RV_24,F024 24. Cymbals,fusi_fm024.csv,FM024,categorical
+RV_25,F024 25. Fancy,fusi_fm024.csv,FM024,categorical
+RV_26,F024 26. Shaggy,fusi_fm024.csv,FM024,categorical
+RV_27,F024 27. Balancing,fusi_fm024.csv,FM024,categorical
+RV_28,F024 28. Bulldozer,fusi_fm024.csv,FM024,categorical
+RV_29,F024 29. Easel,fusi_fm024.csv,FM024,categorical
+RV_30,F024 30. Gnawing,fusi_fm024.csv,FM024,categorical
+RV_31,F024 31. Carousel,fusi_fm024.csv,FM024,categorical
+RV_32,F024 32. Crouching,fusi_fm024.csv,FM024,categorical
+RV_33,F024 33. Prancing,fusi_fm024.csv,FM024,categorical
+RV_34,F024 34. Clenching,fusi_fm024.csv,FM024,categorical
+RV_35,F024 35. Parallel,fusi_fm024.csv,FM024,categorical
+RV_36,F024 36. Cylinder,fusi_fm024.csv,FM024,categorical
+RV_37,F024 37. Equivalent,fusi_fm024.csv,FM024,categorical
+RV_38,F024 38. Horizontal,fusi_fm024.csv,FM024,categorical
+RV_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+OA_1,F024 1. Ball,fusi_fm024.csv,FM024,categorical
+OA_2,F024 2. Hot dog,fusi_fm024.csv,FM024,categorical
+OA_3,F024 3. Bird,fusi_fm024.csv,FM024,categorical
+OA_4,F024 4. Clock,fusi_fm024.csv,FM024,categorical
+OA_5,F024 5. Car,fusi_fm024.csv,FM024,categorical
+OA_6,F024 6. Fish,fusi_fm024.csv,FM024,categorical
+OA_7,F024 7. Bear,fusi_fm024.csv,FM024,categorical
+OA_8,F024 8. Hand,fusi_fm024.csv,FM024,categorical
+OA_9,F024 9. House,fusi_fm024.csv,FM024,categorical
+OA_10,F024 10. Apple,fusi_fm024.csv,FM024,categorical
+OA_11,F024 11. Dog,fusi_fm024.csv,FM024,categorical
+OA_12,F024 12. Star,fusi_fm024.csv,FM024,categorical
+OA_13,F024 13. Calf,fusi_fm024.csv,FM024,categorical
+OA_14,F024 14. Tree,fusi_fm024.csv,FM024,categorical
+OA_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+PN_1,F024 1. Car,fusi_fm024.csv,FM024,categorical
+PN_2,F024 2. Bear,fusi_fm024.csv,FM024,categorical
+PN_3,F024 3. Banana,fusi_fm024.csv,FM024,categorical
+PN_4,F024 4. Star,fusi_fm024.csv,FM024,categorical
+PN_5,F024 5. Clock,fusi_fm024.csv,FM024,categorical
+PN_6,F024 6. Fork,fusi_fm024.csv,FM024,categorical
+PN_7,F024 7. Scissors,fusi_fm024.csv,FM024,categorical
+PN_8,F024 8. Turtle,fusi_fm024.csv,FM024,categorical
+PN_9,F024 9. Toothbrush,fusi_fm024.csv,FM024,categorical
+PN_10,F024 10. Pumpkin,fusi_fm024.csv,FM024,categorical
+PN_11,F024 11. Ladybug,fusi_fm024.csv,FM024,categorical
+PN_12,F024 12. Broom,fusi_fm024.csv,FM024,categorical
+PN_13,F024 13. Whistle,fusi_fm024.csv,FM024,categorical
+PN_14,F024 14. Zebra,fusi_fm024.csv,FM024,categorical
+PN_15,F024 15. Kangaroo,fusi_fm024.csv,FM024,categorical
+PN_16,F024 16. Guitar,fusi_fm024.csv,FM024,categorical
+PN_17,F024 17. Shell,fusi_fm024.csv,FM024,categorical
+PN_18,F024 18. Rake,fusi_fm024.csv,FM024,categorical
+PN_19,F024 19. Nail,fusi_fm024.csv,FM024,categorical
+PN_20,F024 20. Lock,fusi_fm024.csv,FM024,categorical
+PN_21,F024 21. Ambulance,fusi_fm024.csv,FM024,categorical
+PN_22,F024 22. Rhinoceros,fusi_fm024.csv,FM024,categorical
+PN_23,F024 23. Iron,fusi_fm024.csv,FM024,categorical
+PN_24,F024 24. Pineapple,fusi_fm024.csv,FM024,categorical
+PN_25,F024 25. Teapot,fusi_fm024.csv,FM024,categorical
+PN_26,F024 26. Globe,fusi_fm024.csv,FM024,categorical
+PN_27,F024 27. Xylophone,fusi_fm024.csv,FM024,categorical
+PN_28,F024 28. Thermometer,fusi_fm024.csv,FM024,categorical
+PN_29,F024 29. Harp,fusi_fm024.csv,FM024,categorical
+PN_30,F024 30. Fire extinguisher,fusi_fm024.csv,FM024,categorical
+PN_SCORE,F024 Total Raw Score,fusi_fm024.csv,FM024,continuous
+AGE_YEARS,F024 Years,fusi_fm024.csv,FM024,continuous
+AGE_MONTHS,F024 Months,fusi_fm024.csv,FM024,continuous
+VIQ_SCALED,F024 A. Sum of Scaled Score,fusi_fm024.csv,FM024,continuous
+VIQ_COMP,F024 B. Composite Score,fusi_fm024.csv,FM024,continuous
+VIQ_PERCENT,F024 C. Percentile Rank,fusi_fm024.csv,FM024,continuous
+VIQ_CONFINT,F024 D. Confidence Interval,fusi_fm024.csv,FM024,continuous
+VIQ_CONFINT_HIGH,Verbal IQ Confidence Interval High,fusi_fm024.csv,FM024,continuous
+PIQ_SCALED,F024 A. Sum of Scaled Score,fusi_fm024.csv,FM024,continuous
+PIQ_COMP,F024 B. Composite Score,fusi_fm024.csv,FM024,continuous
+PIQ_PERCENT,F024 C. Percentile Rank,fusi_fm024.csv,FM024,continuous
+PIQ_CONFINT,F024 D. Confidence Interval,fusi_fm024.csv,FM024,continuous
+PIQ_CONFINT_HIGH,Performance IQ Confidence Interval High,fusi_fm024.csv,FM024,continuous
+PS_SCALED,F024 A. Sum of Scaled Score,fusi_fm024.csv,FM024,continuous
+PS_COMP,F024 B. Composite Score,fusi_fm024.csv,FM024,continuous
+PS_PERCENT,F024 C. Percentile Rank,fusi_fm024.csv,FM024,continuous
+PS_CONFINT,F024 D. Confidence Interval,fusi_fm024.csv,FM024,continuous
+PS_CONFINT_HIGH,Processing Speed Confidence Interval High,fusi_fm024.csv,FM024,continuous
+FSIQ_SCALED,F024 A. Sum of Scaled Score,fusi_fm024.csv,FM024,continuous
+FSIQ_COMP,F024 B. Composite Score,fusi_fm024.csv,FM024,continuous
+FSIQ_PERCENT,F024 C. Percentile Rank,fusi_fm024.csv,FM024,continuous
+FSIQ_CONFINT,F024 D. Confidence Interval,fusi_fm024.csv,FM024,continuous
+FSIQ_CONFINT_HIGH,Full Scale IQ Confidence Interval High,fusi_fm024.csv,FM024,continuous
+GL_SCALED,F024 A. Sum of Scaled Score,fusi_fm024.csv,FM024,continuous
+GL_COMP,F024 B. Composite Score,fusi_fm024.csv,FM024,continuous
+GL_PERCENT,F024 C. Percentile Rank,fusi_fm024.csv,FM024,continuous
+GL_CONFINT,F024 D. Confidence Interval,fusi_fm024.csv,FM024,continuous
+GL_CONFINT_HIGH,General Language Confidence Interval High,fusi_fm024.csv,FM024,continuous
+VISIT_DT_DAYS,F024 Visit Date (recode: number of days after date of initial follow-up visit),fusi_fm024.csv,FM024,continuous
+ID,Unique patient identifier (randomized),fusi_fm025.csv,FM025,continuous
+FORM_ID,Form ID,fusi_fm025.csv,FM025,continuous
+REVISION,Form Revision,fusi_fm025.csv,FM025,continuous
+VISIT_NBR,Visit Number,fusi_fm025.csv,FM025,categorical
+SEQ_NBR,Sequence Number,fusi_fm025.csv,FM025,continuous
+DTPA_NA,F025 II_2A_NA DTPA/GFR N/A,fusi_fm025.csv,FM025,continuous
+WPPSI_NA,F025 II_2D_NA WPPSI N/A,fusi_fm025.csv,FM025,continuous
+HX_ACS,F025 III_1A Acute chest syndrome,fusi_fm025.csv,FM025,categorical
+HXSPLSEQ,F025 III_1B Splenic Sequestration Crisis,fusi_fm025.csv,FM025,categorical
+LONGHOSP,F025 III_1C Prolonged Hospitalization (greater than 7 days),fusi_fm025.csv,FM025,categorical
+HX_STROKE_TIA,F025 III_1D Stroke or TIA,fusi_fm025.csv,FM025,continuous
+LIFE_THREAT_EVT,F025 III_1E Life Threatening Event,fusi_fm025.csv,FM025,categorical
+HX_DEATH,F025 III_1F Death,fusi_fm025.csv,FM025,categorical
+ICU,F025 III_1G ICU,fusi_fm025.csv,FM025,categorical
+ACSNINF,F025 IV_1A New Infiltrate,fusi_fm025.csv,FM025,categorical
+ACSSRAP,F025 IV_1B O2% Saturation on Room Air at Presentation,fusi_fm025.csv,FM025,continuous
+ACSOXADM,F025 IV_1C Oxygen Administered,fusi_fm025.csv,FM025,continuous
+ACSMVENT,F025 IV_1D Mechanical Ventilation,fusi_fm025.csv,FM025,categorical
+SPLNSIZE_PRIOR,F025 IV_2A Spleen size below LCM prior to SAE,fusi_fm025.csv,FM025,continuous
+SPLNSIZE_DURING,F025 IV_2B Spleen size below LCM during SAE,fusi_fm025.csv,FM025,continuous
+SPLNHMGL,F025 IV_2C Nadir hemoglobin,fusi_fm025.csv,FM025,continuous
+SPLPTCNT,F025 IV_2D Platelet count at time of nadir hemoglobin,fusi_fm025.csv,FM025,continuous
+TRANSFUS,F025 VI_1A Transfusion,fusi_fm025.csv,FM025,categorical
+TR_TYPE,F025 VI_1A1a Transfusion Type,fusi_fm025.csv,FM025,categorical
+TRVOLWBL,F025 VI_1A1b1 Whole Blood,fusi_fm025.csv,FM025,continuous
+TRVOLPR2,F025 VI_1A1b2 Packed Red Cells,fusi_fm025.csv,FM025,continuous
+CHRTRAN,F025 VI_1B Placement on chronic transfusion therapy,fusi_fm025.csv,FM025,categorical
+SPLCTMY,F025 VI_1C Splenectomy,fusi_fm025.csv,FM025,categorical
+PAR_ANTI,F025 VI_1D Parenteral antibiotics,fusi_fm025.csv,FM025,categorical
+DIALYS_L,"F025 VI_1E Dialysis, limited course",fusi_fm025.csv,FM025,categorical
+SNEWDISA,F025 VIII_1 Significant new disability,fusi_fm025.csv,FM025,categorical
+PNEWDISA,F025 VIII_2 Persistent new disability,fusi_fm025.csv,FM025,categorical
+PERMDISA,F025 VIII_3 Permanent new disability,fusi_fm025.csv,FM025,categorical
+DEATH,F025 VIII_4 Death,fusi_fm025.csv,FM025,continuous
+PROBLEM,F025A V_1 Diagnosis/Problem,fusi_fm025.csv,FM025,categorical
+NUMDAYS,F025A V_3 Number of Days,fusi_fm025.csv,FM025,continuous
+SEVERITY,F025A V_4 Severity,fusi_fm025.csv,FM025,categorical
+ATTR_TRT,F025A V_5 Attribution to Study Treatment,fusi_fm025.csv,FM025,categorical
+DIAGUNXP,F025A V_6 Diagnosis Unexpected,fusi_fm025.csv,FM025,continuous
+VISIT_DT_DAYS,F025 I_4 Reporting Date (recode: number of days after date of initial follow-up visit),fusi_fm025.csv,FM025,continuous
+START_DT_DAYS,F025 II_1A Event Start Date (recode: number of days after date of initial follow-up visit),fusi_fm025.csv,FM025,continuous
+E_END_DT_DAYS,F025 II_1B Event Ending Date (recode: number of days after date of initial follow-up visit),fusi_fm025.csv,FM025,continuous
+LIVER_SPLEEN_DT_DAYS,F025 II_2B_DT Liver/Spleen Scan date (recode: number of days after date of initial follow-up visit),fusi_fm025.csv,FM025,continuous
+ABD_SONO_DT_DAYS,F025 II_2C_DT Abdominal Sonogram date (recode: number of days after date of initial follow-up visit),fusi_fm025.csv,FM025,continuous
+BLOOD_SPEC_DT_DAYS,F025 II_2E_DT Blood Specimens date (recode: number of days after date of initial follow-up visit),fusi_fm025.csv,FM025,continuous
+TSTRT_DT_DAYS,F025 VI_1A1c Transfusion Start Date (recode: number of days after date of initial follow-up visit),fusi_fm025.csv,FM025,continuous
+TSTOP_DT_DAYS,F025 VI_1A1d Transfusion Stop Date (recode: number of days after date of initial follow-up visit),fusi_fm025.csv,FM025,continuous
+ADM_DT_DAYS,F025 VII_5 Admission Date (recode: number of days after date of initial follow-up visit),fusi_fm025.csv,FM025,continuous
+DISCH_DT_DAYS,F025 VII_6 Discharge Date (recode: number of days after date of initial follow-up visit),fusi_fm025.csv,FM025,continuous
+ONSET_DT_DAYS,F025A V_2 Date of Onset (recode: number of days after date of initial follow-up visit),fusi_fm025.csv,FM025,continuous
+ID,Unique patient identifier (randomized),fusi_fm026.csv,FM026,continuous
+FORM_ID,Form ID,fusi_fm026.csv,FM026,continuous
+REVISION,Form Revision,fusi_fm026.csv,FM026,continuous
+VISIT_NBR,Visit Number,fusi_fm026.csv,FM026,categorical
+SEQ_NBR,Sequence Number,fusi_fm026.csv,FM026,continuous
+TRANSPLANT_RN,F026 3. Reason for Transplant in Sickle Cell Disease:,fusi_fm026.csv,FM026,categorical
+RN_SP1,"F026 *If Other,  Specify",fusi_fm026.csv,FM026,categorical
+GRAFT_TP,F026 4. Type of Graft:,fusi_fm026.csv,FM026,categorical
+BMT_OTHER,F026 E. Other,fusi_fm026.csv,FM026,continuous
+BMT_OTH_SP,"F026 i. If other please specify,",fusi_fm026.csv,FM026,categorical
+VISIT_DT_DAYS,F026 Visit Date (recode: number of days after date of initial follow-up visit),fusi_fm026.csv,FM026,continuous
+TRANSPLANT_DT_DAYS,F026 1. Date of Transplant: (recode: number of days after date of initial follow-up visit),fusi_fm026.csv,FM026,continuous
+BMT_DEATH_DT_DAYS,F026 A. Death Date (recode: number of days after date of initial follow-up visit),fusi_fm026.csv,FM026,continuous
+BMT_GRFT_RJ_DT_DAYS,F026 B. Graft Rejection Date (recode: number of days after date of initial follow-up visit),fusi_fm026.csv,FM026,continuous
+BMT_CHIM_DT_DAYS,F026 C.  Stable Mixed Chimerism Date (recode: number of days after date of initial follow-up visit),fusi_fm026.csv,FM026,continuous
+BMT_CURE_DT_DAYS,F026 D. Cured of Sickle Cell Disease Date (recode: number of days after date of initial follow-up visit),fusi_fm026.csv,FM026,continuous
+BMT_OTH_DT_DAYS,F026 ii. Date (recode: number of days after date of initial follow-up visit),fusi_fm026.csv,FM026,continuous
+ID,Unique patient identifier (randomized),fusi_fm027.csv,FM027,continuous
+FORM_ID,Form ID,fusi_fm027.csv,FM027,continuous
+REVISION,Form Revision,fusi_fm027.csv,FM027,continuous
+VISIT_NBR,Visit Number,fusi_fm027.csv,FM027,categorical
+SEQ_NBR,Sequence Number,fusi_fm027.csv,FM027,continuous
+COM95CL,F027 5. 95% Conf. Level,fusi_fm027.csv,FM027,continuous
+CHRAGEMN,F027 1.01 Age ( months ),fusi_fm027.csv,FM027,continuous
+CDSTROW,F027 1. Starting Row,fusi_fm027.csv,FM027,continuous
+CDENDROW,F027 2. Ending Row,fusi_fm027.csv,FM027,continuous
+COMPCTL,F027 6. Percentile Rank,fusi_fm027.csv,FM027,continuous
+COMRAW,F027 3. Raw Domain Score,fusi_fm027.csv,FM027,continuous
+COMSTRD,F027 4. Standard Score,fusi_fm027.csv,FM027,continuous
+CHRAGEYR,F027 1. Age ( years ),fusi_fm027.csv,FM027,continuous
+SOCPCTL,F027 6. Percentile Rank,fusi_fm027.csv,FM027,continuous
+SOCRAW,F027 3. Raw Domain Score,fusi_fm027.csv,FM027,continuous
+SOCSTRD,F027 4. Standard Score,fusi_fm027.csv,FM027,continuous
+SOC95CL,F027 5. 95% Conf. Level,fusi_fm027.csv,FM027,continuous
+SDSTROW,F027 1. Starting Row,fusi_fm027.csv,FM027,continuous
+SDENDROW,F027 2. Ending Row,fusi_fm027.csv,FM027,continuous
+MTSKSTRD,F027 4. Standard Score,fusi_fm027.csv,FM027,continuous
+MTSKRAW,F027 3. Raw Domain Score,fusi_fm027.csv,FM027,continuous
+MTSKPCTL,F027 6. Percentile Rank,fusi_fm027.csv,FM027,continuous
+MTSK95CL,F027 5. 95% Conf. Level,fusi_fm027.csv,FM027,continuous
+MSSTROW,F027 1. Starting Row,fusi_fm027.csv,FM027,continuous
+MSENDROW,F027 2. Ending Row,fusi_fm027.csv,FM027,continuous
+DDENDROW,F027 2. Ending Row,fusi_fm027.csv,FM027,continuous
+DLSSTRD,F027 4. Standard Score,fusi_fm027.csv,FM027,continuous
+DLSRAW,F027 3. Raw Domain Score,fusi_fm027.csv,FM027,continuous
+DDSTROW,F027 1. Starting Row,fusi_fm027.csv,FM027,continuous
+DLS95CL,F027 5. 95% Conf. Level,fusi_fm027.csv,FM027,continuous
+DLSPCTL,F027 6. Percentile Rank,fusi_fm027.csv,FM027,continuous
+MOTOR_ND,F027 Part VI: Motor Skills N/D,fusi_fm027.csv,FM027,categorical
+VISIT_DT_DAYS,F027 Visit Date (recode: number of days after date of initial follow-up visit),fusi_fm027.csv,FM027,continuous
+CARE41G,"F027 2. Caregiver's Relationship to Child (regrouped: 1 = Mother; 2 = Father; 3 = Grandparent, Aunt, or Uncle)",fusi_fm027.csv,FM027,categorical
+ID,Unique patient identifier (randomized),fusi_fm031.csv,FM031,continuous
+FORM_ID,Form ID,fusi_fm031.csv,FM031,continuous
+REVISION,Form Revision,fusi_fm031.csv,FM031,continuous
+VISIT_NBR,Visit Number,fusi_fm031.csv,FM031,categorical
+SEQ_NBR,Sequence Number,fusi_fm031.csv,FM031,continuous
+LSRDRSIG,F031 II.2 Reader Signature,fusi_fm031.csv,FM031,continuous
+LSRDRNBR,F031 II.3 Reader Number,fusi_fm031.csv,FM031,continuous
+LSSCNLBL,F031 II.5 Film Label Number,fusi_fm031.csv,FM031,continuous
+LSSCN_QLTY,F031 II.6 Current Status of this Reading:,fusi_fm031.csv,FM031,categorical
+SPLUPT,F031 III.1 Splenic uptake (answer only one):,fusi_fm031.csv,FM031,categorical
+SPL_DCRS,"F031 III.1.D If decreased,",fusi_fm031.csv,FM031,categorical
+VISIT_DT_DAYS,F031 Visit Date (recode: number of days after date of initial follow-up visit),fusi_fm031.csv,FM031,continuous
+LSRD_DT_DAYS,F031 II.4 Date of Reading (recode: number of days after date of initial follow-up visit),fusi_fm031.csv,FM031,continuous
+ID,Unique patient identifier (randomized),fusi_fm033.csv,FM033,continuous
+FORM_ID,Form ID,fusi_fm033.csv,FM033,continuous
+REVISION,Form Revision,fusi_fm033.csv,FM033,continuous
+VISIT_NBR,Visit Number,fusi_fm033.csv,FM033,categorical
+SEQ_NBR,Sequence Number,fusi_fm033.csv,FM033,continuous
+ABDRDRSIG,F033 II.2 Reader Signature:,fusi_fm033.csv,FM033,continuous
+ABDRDRNBR,F033 II.3 Reader Number:,fusi_fm033.csv,FM033,continuous
+SONO_LBL,F033 II.5 Film Label Number:,fusi_fm033.csv,FM033,continuous
+ABD_QLTY,F033 II.6 Current status of this reading,fusi_fm033.csv,FM033,categorical
+QLTY2_SP,"F033 II.6.A If returned for reprocessing, explain:",fusi_fm033.csv,FM033,continuous
+GALBLA,F033 III.1 Gallbladder,fusi_fm033.csv,FM033,categorical
+GBWALL,F033 III.1.A If Present,fusi_fm033.csv,FM033,categorical
+GBCDV,F033 III.1.B Color Doppler vascularity,fusi_fm033.csv,FM033,categorical
+GBNSTN,F033 III.1.C.1 Number of stones,fusi_fm033.csv,FM033,continuous
+GBMSTN,F033 III.1.C.2 Multiple stones not countable,fusi_fm033.csv,FM033,categorical
+GBLGST,F033 III.1.D Largest stone,fusi_fm033.csv,FM033,continuous
+GBLGSTNA,F033 III.1.DNA N/A,fusi_fm033.csv,FM033,continuous
+GBSFM,F033 III.1.E Stones freely mobile?,fusi_fm033.csv,FM033,categorical
+GBCBD,F033 III.1.F.1 Common bile duct,fusi_fm033.csv,FM033,categorical
+GBPAND,F033 III.1.F.2 Pancreatic duct,fusi_fm033.csv,FM033,categorical
+GBIHEP,F033 III.1.F.3 Intrahepatic ducts,fusi_fm033.csv,FM033,categorical
+GBSLDG,F033 III.1.G Sludge,fusi_fm033.csv,FM033,categorical
+GBPRFL,F033 III.1.H Pericholecystic fluid,fusi_fm033.csv,FM033,categorical
+SPLEEN,F033 III.2 Spleen,fusi_fm033.csv,FM033,categorical
+ACCSPL,F033 III.2.A Accessory spleen(s),fusi_fm033.csv,FM033,categorical
+SPLCLN,F033 III.2.B Cephalocaudad length,fusi_fm033.csv,FM033,continuous
+SPLTRN,F033 III.2.C Transverse,fusi_fm033.csv,FM033,continuous
+SPLANP,F033 III.2.D Anterior - Posterior,fusi_fm033.csv,FM033,continuous
+SPLVOL,F033 III.2.E Estimated total spleen volume,fusi_fm033.csv,FM033,continuous
+SPLVOLND,F033 III.2.END N/D,fusi_fm033.csv,FM033,continuous
+SPLHOM,F033 III.2.F Homogeneity,fusi_fm033.csv,FM033,categorical
+INHOM_SP,"F033 III.2.F.1 *1. If inhomogeneous, explain:",fusi_fm033.csv,FM033,categorical
+RKID,F033 III.3 Right Kidney,fusi_fm033.csv,FM033,categorical
+RKVOL,F033 III.3.A Estimated volume,fusi_fm033.csv,FM033,continuous
+RKRPAR,F033 III.3.B Renal parenchyma,fusi_fm033.csv,FM033,categorical
+RKECHO,F033 III.3.C Echogenicity,fusi_fm033.csv,FM033,categorical
+LKID,F033 III.4 Left Kidney,fusi_fm033.csv,FM033,categorical
+LKVOL,F033 III.4.A Estimated volume,fusi_fm033.csv,FM033,continuous
+LKRPAR,F033 III.4.B Renal parenchyma,fusi_fm033.csv,FM033,categorical
+LKECHO,F033 III.4.C Echogenicity,fusi_fm033.csv,FM033,categorical
+LVRENL,F033 III.5 Liver enlarged,fusi_fm033.csv,FM033,categorical
+ABDABN,F033 III.6 Any other abdominal abnormalities,fusi_fm033.csv,FM033,categorical
+ABDABNEX,"F033 III.6.A If yes, explain:",fusi_fm033.csv,FM033,categorical
+VISIT_DT_DAYS,F033 Visit Date (recode: number of days after date of initial follow-up visit),fusi_fm033.csv,FM033,continuous
+ABDRD_DT_DAYS,F033 II.4 Date of Reading (recode: number of days after date of initial follow-up visit),fusi_fm033.csv,FM033,continuous
+ID,Unique patient identifier (randomized),fusi_hbf.csv,HBF,continuous
+FORM_ID,Form ID,fusi_hbf.csv,HBF,continuous
+HBF_LABEL,HbF Label Number,fusi_hbf.csv,HBF,continuous
+VISIT_NBR,Visit Number,fusi_hbf.csv,HBF,categorical
+HBF_PCT,F200 HBF_PCT,fusi_hbf.csv,HBF,continuous
+RV_CELLS,F200 RV_CELLS,fusi_hbf.csv,HBF,continuous
+RV_PLASMA,F200 RV_PLASMA,fusi_hbf.csv,HBF,continuous
+VISIT_DT_DAYS,F020 1. Date of Interview (recode: number of days after date of initial follow-up visit),fusi_hbf.csv,HBF,continuous
+HBF_DT_DAYS,F020 2B. HbF Date Collected (recode: number of days after date of initial follow-up visit),fusi_hbf.csv,HBF,continuous
+COLLECTION_DT_DAYS,Collection Date (recode: number of days after date of initial follow-up visit),fusi_hbf.csv,HBF,continuous
+ID,Unique patient identifier (randomized),fusi_hjb.csv,HJB,continuous
+FORM_ID,Form ID,fusi_hjb.csv,HJB,continuous
+HOWELL_LABEL,Howell Jolly Bodies Label Number,fusi_hjb.csv,HJB,continuous
+VISIT_NBR,Visit Number,fusi_hjb.csv,HJB,categorical
+HJBRETPCT,Young Reticulocytes (%),fusi_hjb.csv,HJB,continuous
+HJBRET,Young Reticulocytes With HJB (%),fusi_hjb.csv,HJB,continuous
+HJBMRBC,Mature RBC With HJB (%),fusi_hjb.csv,HJB,continuous
+HJBYRBC,Mature RBC With HJB (No.),fusi_hjb.csv,HJB,continuous
+VISIT_DT_DAYS,Visit Date (recode: number of days after date of initial follow-up visit),fusi_hjb.csv,HJB,continuous
+HOWELL_DT_DAYS,F020 3B. Howell Jolly Bodies Date Collected (recode: number of days after date of initial follow-up visit),fusi_hjb.csv,HJB,continuous
+ID,Unique patient identifier (randomized),fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+LSSCNLBL,F031 II.5 Film Label Number,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+VISIT_NBR,Visit Number,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,categorical
+LSRDRNBR,F031 II.3 Reader Number,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+LSSCN_QLTY,F031 II.6 Current Status of this Reading:,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,categorical
+SPLUPT,F031 III.1 Splenic uptake (answer only one):,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,categorical
+SPL_DCRS,"F031 III.1.D If decreased,",fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,categorical
+LSRDRSIG,F031 II.2 Reader Signature,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,categorical
+CAMTYPE,F021 II_1 Camera manufacturer:,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,categorical
+CAMMODEL,F021 II-2 Camera Model:,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,categorical
+COLLIMAT,F021 II_3 Collimator:,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,categorical
+SUPCOLLD,F021 II_4 Supplier of TC-sulfur colloid:,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,categorical
+DOSINJ44,F021 II_5 Dose injected:,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+INJ44HR,F021 II_6HR Time of injection (24-hour clock) HR,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+INJ44MN,F021 II_6MN Time of injection (24-hour clock) MN,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+IMSTRHR,F021 II_7HR Time imaging started HR,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+IMSTRMN,F021 II_7MN Time imaging started MN,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+IMCOMHR,F021 II_8HR Time imaging completed HR,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+IMCOMMN,F021 II_8MN Time imaging completed MN,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+CAMANGLE,F021 II_9 Camera angle:,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+ANTPOSMN,F021 II_10MN True Posterior imaging time (min:sec) MN,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+ANTPOSSC,F021 II_10SC True Posterior imaging time (min:sec) SC,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+OBLIMCNT,F021 II_11 Right Posterior Oblique Image Counts:,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+AOI400K,F021 II_13A 400 K Image adequate?,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+AOITIMED,F021 II_13B Timed Image adequate?,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KASPLTOT,F021 III_1A1a Anterior View Spleen total counts,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KASPLPIX,F021 III_1A1b Anterior View Spleen # pixels in ROI,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KASPLCNT,F021 III_1A1c Anterior View Spleen counts/pixel,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KALIVTOT,F021 III_1A2a Anterior View Liver total counts,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KALIVPIX,F021 III_1A2b Anterior View Liver # pixels in ROI,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KALIVCNT,F021 III_1A2c Anterior View Liver counts/pixel,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KPSPLTOT,F021 III_1B1a Posterior View Spleen total counts,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KPSPLPIX,F021 III_1B1b Posterior View Spleen # pixels in ROI,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KPSPLCNT,F021 III_1B1c Posterior View Spleen counts/pixel,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KPLIVTOT,F021 III_1B2a Posterior View Liver total counts,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KPLIVPIX,F021 III_1B2b Posterior View Liver # pixels in ROI,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KPLIVCNT,F021 III_1B2c Posterior View Liver counts/pixel,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KSLRTTOT,F021 III_1C1 Spleen/Liver Ratio Total counts,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+KSLRTCNT,F021 III_1C2 Spleen/Liver Ratio Counts/pixel,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TASPLTOT,F021 III_2A1a Timed Image Left Anterior Oblique View Spleen total counts,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TASPLPIX,F021 III_2A1b Timed Image Left Anterior Oblique View Spleen # pixels in ROI,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TASPLCNT,F021 III_2A1c Timed Image Left Anterior Oblique View Spleen counts/pixel,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TALIVTOT,F021 III_2A2a Timed Image Left Anterior Oblique View Liver total counts,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TALIVPIX,F021 III_2A2b Timed Image Left Anterior Oblique View Liver # pixels in ROI,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TALIVCNT,F021 III_2A2c Timed Image Left Anterior Oblique View Liver counts/pixel,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TPSPLTOT,F021 III_2B1a Timed Image Right Anterior Oblique View Spleen total counts,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TPSPLPIX,F021 III_2B1b Timed Image Right Anterior Oblique View Spleen # pixels in ROI,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TPSPLCNT,F021 III_2B1c Timed Image Right  Anterior Oblique View Spleen counts/pixel,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TPLIVTOT,F021 III_2B2a Timed Image Right Anterior Oblique View Liver total counts,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TPLIVPIX,F021 III_2B2b Timed Image Right Anterior Oblique View Liver # pixels in ROI,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TPLIVCNT,F021 III_2B2c Timed Image Right Anterior Oblique View Liver counts/pixel,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TSLRTTOT,F021 III_2C1 Spleen/Liver Ratio Total counts,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+TSLRTCNT,F021 III_2C2 Spleen/Liver Ratio Counts/pixel,fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+VISIT_DT_DAYS,F021 (recode: number of days after date of initial follow-up visit),fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+LIVER_SCAN_DT_DAYS,F020 1A. Liver/Spleen Scan Date Performed (recode: number of days after date of initial follow-up visit),fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+LSRD_DT_DAYS,F031 II.4 Date of Reading (recode: number of days after date of initial follow-up visit),fusi_liver_spleen_scan.csv,LIVER_SPLEEN_SCAN,continuous
+ID,Unique patient identifier (randomized),fusi_pitted_cell.csv,PITTED_CELL,continuous
+FORM_ID,FORM ID,fusi_pitted_cell.csv,PITTED_CELL,continuous
+CELL_LABEL,Pitted Cell Label Number,fusi_pitted_cell.csv,PITTED_CELL,continuous
+VISIT_NBR,Visit Number,fusi_pitted_cell.csv,PITTED_CELL,categorical
+PIT_CELL,Pitted Cells (%),fusi_pitted_cell.csv,PITTED_CELL,continuous
+VISIT_DT_DAYS,VISIT DATE (recode: number of days after date of initial follow-up visit),fusi_pitted_cell.csv,PITTED_CELL,continuous
+CELL_DT_DAYS,F011 B. Date Collected: (recode: number of days after date of initial follow-up visit),fusi_pitted_cell.csv,PITTED_CELL,continuous
+LABDATE_DAYS,Lab Date (recode: number of days after date of initial follow-up visit),fusi_pitted_cell.csv,PITTED_CELL,continuous
+ID,Unique patient identifier (randomized),fusi_tcd.csv,TCD,continuous
+VISIT_NBR,Visit Number,fusi_tcd.csv,TCD,categorical
+PTNTPOS,F013 PATIENT'S POSITION DURING EXAM,fusi_tcd.csv,TCD,categorical
+POS_SP,"F013 PATIENT'S POSITION DURING EXAM, SPECIFY",fusi_tcd.csv,TCD,categorical
+COMPEXAM,F013 COMPLETENESS OF EXAM,fusi_tcd.csv,TCD,categorical
+INCEXAM,F013 REASON FOR INCOMPLETE EXAM,fusi_tcd.csv,TCD,categorical
+INCEX_SP,"F013 REASON FOR INCOMPLETE EXAM, SPECIFY",fusi_tcd.csv,TCD,categorical
+TCD_LABEL,TCD LABEL,fusi_tcd.csv,TCD,continuous
+HDIAM,HEAD DIAMETER (cm),fusi_tcd.csv,TCD,categorical
+LM1DE,Left Side M-1: Depth,fusi_tcd.csv,TCD,continuous
+LM1M,Left Side M-1: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+LM1S,Left Side M-1: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LM1D,Left Side M-1: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LM1PI,Left Side M-1: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+LM1RI,Left Side M-1: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+LMCADE,Left Side MCA: Depth,fusi_tcd.csv,TCD,continuous
+LMCAM,Left Side MCA: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+LMCAS,Left Side MCA: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LMCAD,Left Side MCA: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LMCAPI,Left Side MCA: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+LMCARI,Left Side MCA: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+LBIFDE,Left Side BIF: Depth,fusi_tcd.csv,TCD,continuous
+LBIFM,Left Side BIF: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+LBIFS,Left Side BIF: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LBIFD,Left Side BIF: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LBIFPI,Left Side BIF: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+LBIFRI,Left Side BIF: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+LACADE,Left Side ACA: Depth,fusi_tcd.csv,TCD,continuous
+LACAM,Left Side ACA: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+LACAS,Left Side ACA: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LACAD,Left Side ACA: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LACAPI,Left Side ACA: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+LACARI,Left Side ACA: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+LICADE,Left Side dICA: Depth,fusi_tcd.csv,TCD,continuous
+LICAM,Left Side dICA: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+LICAS,Left Side dICA: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LICAD,Left Side dICA: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LICAPI,Left Side dICA: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+LICARI,Left Side dICA: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+LPCADE,Left Side PCA: Depth,fusi_tcd.csv,TCD,continuous
+LPCAM,Left Side PCA: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+LPCAS,Left Side PCA: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LPCAD,Left Side PCA: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LPCAPI,Left Side PCA: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+LPCARI,Left Side PCA: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+LTOBDE,Left Side TOB: Depth,fusi_tcd.csv,TCD,continuous
+LTOBM,Left Side TOB: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+LTOBS,Left Side TOB: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LTOBD,Left Side TOB: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+LTOBPI,Left Side TOB: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+LTOBRI,Left Side TOB: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+RM1DE,Right Side M-1: Depth,fusi_tcd.csv,TCD,continuous
+RM1M,Right Side M-1: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+RM1S,Right Side M-1: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RM1D,Right Side M-1: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RM1PI,Right Side M-1: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+RM1RI,Right Side M-1: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+RMCADE,Right Side MCA: Depth,fusi_tcd.csv,TCD,continuous
+RMCAM,Right Side MCA: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+RMCAS,Right Side MCA: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RMCAD,Right Side MCA: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RMCAPI,Right Side MCA: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+RMCARI,Right Side MCA: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+RBIFDE,Right Side BIF: Depth,fusi_tcd.csv,TCD,continuous
+RBIFM,Right Side BIF: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+RBIFS,Right Side BIF: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RBIFD,Right Side BIF: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RBIFPI,Right Side BIF: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+RBIFRI,Right Side BIF: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+RACADE,Right Side ACA: Depth,fusi_tcd.csv,TCD,continuous
+RACAM,Right Side ACA: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+RACAS,Right Side ACA: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RACAD,Right Side ACA: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RACAPI,Right Side ACA: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+RACARI,Right Side ACA: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+RICADE,Right Side dICA: Depth,fusi_tcd.csv,TCD,continuous
+RICAM,Right Side dICA: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+RICAS,Right Side dICA: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RICAD,Right Side dICA: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RICAPI,Right Side dICA: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+RICARI,Right Side dICA: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+RPCADE,Right Side PCA: Depth,fusi_tcd.csv,TCD,continuous
+RPCAM,Right Side PCA: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+RPCAS,Right Side PCA: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RPCAD,Right Side PCA: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RPCAPI,Right Side PCA: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+RPCARI,Right Side PCA: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+RTOBDE,Right Side TOB: Depth,fusi_tcd.csv,TCD,continuous
+RTOBM,Right Side TOB: Mean Velocity (cm/s),fusi_tcd.csv,TCD,continuous
+RTOBS,Right Side TOB: Waveform Systolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RTOBD,Right Side TOB: Waveform Diastolic Measurement (cm/s),fusi_tcd.csv,TCD,continuous
+RTOBPI,Right Side TOB: Waveform Pulsatility Index,fusi_tcd.csv,TCD,continuous
+RTOBRI,Right Side TOB: Waveform Resistance Index,fusi_tcd.csv,TCD,categorical
+RESULTS,RESULTS,fusi_tcd.csv,TCD,categorical
+VISIT_DT_DAYS,Visit Date (recode: number of days after date of initial follow-up visit),fusi_tcd.csv,TCD,continuous
+LABDATE_DAYS,Lab Date (recode: number of days after date of initial follow-up visit),fusi_tcd.csv,TCD,continuous
+ID,Unique patient identifier (randomized),fusi_urine.csv,URINE,continuous
+FORM_ID,Form ID,fusi_urine.csv,URINE,continuous
+URINE_LABEL,Urine Label Number,fusi_urine.csv,URINE,continuous
+VISIT_NBR,Visit Number,fusi_urine.csv,URINE,categorical
+UR_ALB_CREAT,F200 UR_ALB_CREAT,fusi_urine.csv,URINE,continuous
+UR_CREATININE,F200 UR_CREATININE,fusi_urine.csv,URINE,continuous
+UR_MICROALB,F200 UR_MICROALB,fusi_urine.csv,URINE,categorical
+VISIT_DT_DAYS,VISIT DATE (recode: number of days after date of initial follow-up visit),fusi_urine.csv,URINE,continuous
+URINE_DT_DAYS,F003 B. Date collected (recode: number of days after date of initial follow-up visit),fusi_urine.csv,URINE,continuous
+COLLECTION_DT_DAYS,Collection Date (recode: number of days after date of initial follow-up visit),fusi_urine.csv,URINE,continuous
+ID,Unique patient identifier (randomized),fusi_vdj.csv,VDJ,continuous
+FORM_ID,Form ID,fusi_vdj.csv,VDJ,continuous
+VDJ_LABEL,VDJ Label Number,fusi_vdj.csv,VDJ,continuous
+VISIT_NBR,Visit Number,fusi_vdj.csv,VDJ,categorical
+PCR1,PCR Result 1,fusi_vdj.csv,VDJ,continuous
+PCR2,PCR Result 2,fusi_vdj.csv,VDJ,continuous
+PCR3,PCR Result 3,fusi_vdj.csv,VDJ,continuous
+SUM,PCR1 + PCR2 + PCR3,fusi_vdj.csv,VDJ,continuous
+REPS,"Number of non-missing from PCR1, PCR2, PCR3",fusi_vdj.csv,VDJ,continuous
+FNL_AVG,"Avg of PCR1, PCR2, PCR3",fusi_vdj.csv,VDJ,continuous
+FNL_1AVG,1 / fnl_avg,fusi_vdj.csv,VDJ,continuous
+VISIT_DT_DAYS,F011 1. Date of Interview (recode: number of days after date of initial follow-up visit),fusi_vdj.csv,VDJ,continuous
+VDJ_DT_DAYS,F011 B. Date Collected: (recode: number of days after date of initial follow-up visit),fusi_vdj.csv,VDJ,continuous
+SPEC_DATE_DAYS,Spec Date in VDJ Lab Data (recode: number of days after date of initial follow-up visit),fusi_vdj.csv,VDJ,continuous
