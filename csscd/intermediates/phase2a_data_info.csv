@@ -1,0 +1,296 @@
+varname,LABEL,file,MEMNAME,picsure_type
+ANONID,ANONYMIZED ID #,phase2a_evtadata.csv,EVTADATA,continuous
+EVID2,SPECIFIC EVENT - ID2,phase2a_evtadata.csv,EVTADATA,categorical
+EVW1WK,SAME TYPE OF EVENT WITHIN 1WK PRECED?,phase2a_evtadata.csv,EVTADATA,categorical
+EVSAME,INDICATIONS OF CONTINUATION OF PREV EVNT,phase2a_evtadata.csv,EVTADATA,categorical
+EVHOSP,PT ADMITTED TO HOSP,phase2a_evtadata.csv,EVTADATA,categorical
+EVADMDTE,HOSPITAL ADMISSION DATE - (DAYS SINCE PHASE 2 ENROLLMENT),phase2a_evtadata.csv,EVTADATA,continuous
+EVDISDTE,HOSPITAL DISCHARGE DATE,phase2a_evtadata.csv,EVTADATA,continuous
+EVASEVNT,OTHER EVENTS ASSOCIATED WITH THIS EVENT,phase2a_evtadata.csv,EVTADATA,categorical
+EVINFECT,WAS THE EVENT AN INFECTION?,phase2a_evtadata.csv,EVTADATA,categorical
+EVCULT,ORGANISM ID?,phase2a_evtadata.csv,EVTADATA,categorical
+EVORGN,ORGANISM - TEXT,phase2a_evtadata.csv,EVTADATA,categorical
+EVORGC,ORGANISM - CODE,phase2a_evtadata.csv,EVTADATA,categorical
+EVCULTFR,ORGANISM CULTURED FROM,phase2a_evtadata.csv,EVTADATA,categorical
+EVTRANS,PT TRANSFUSED FOR THIS EVENT,phase2a_evtadata.csv,EVTADATA,categorical
+EVENTDT,DATE OF EVENT -(DAYS SINCE PHASE 2 ENROLLMENT),phase2a_evtadata.csv,EVTADATA,continuous
+EVENTDT1,DATE OF EVENT - (DAYS SINCE PHASE 1 ENTROLLMENT),phase2a_evtadata.csv,EVTADATA,continuous
+EVDATE,,phase2a_evtadata.csv,EVTADATA,continuous
+EVDISDT,,phase2a_evtadata.csv,EVTADATA,continuous
+ANONID,,phase2a_hapdata.csv,HAPDATA,continuous
+EPSILON,HINC II-EPSILON RESULT,phase2a_hapdata.csv,HAPDATA,categorical
+XMN,XMN-G GAMMA RESULT,phase2a_hapdata.csv,HAPDATA,categorical
+GGAMMA,HIND III-G GAMMA RESULT,phase2a_hapdata.csv,HAPDATA,categorical
+AGAMMA,HIND III-A GAMMA RESULT,phase2a_hapdata.csv,HAPDATA,categorical
+PSIBETA,HINC II-PSI BETA RESULT,phase2a_hapdata.csv,HAPDATA,categorical
+PSIBETA3,HINC II-3 PSI BETA RESULT,phase2a_hapdata.csv,HAPDATA,categorical
+HAPF,HINF I 5 B RESULT,phase2a_hapdata.csv,HAPDATA,categorical
+HAPLO7,HAPLOTYPE BASED ON 7 RFLP SITES,phase2a_hapdata.csv,HAPDATA,categorical
+HAPLO5,HAPLOTYPE BASED ON 5 RFLP SITES,phase2a_hapdata.csv,HAPDATA,categorical
+ANONID,ANONYMIZED ID #,phase2a_labadata.csv,LABADATA,continuous
+LABID2,VISIT CYCLE NUMBER,phase2a_labadata.csv,LABADATA,continuous
+LVERSION,VERSION OF LAB FORM,phase2a_labadata.csv,LABADATA,categorical
+LABTRANS,4. TRANSFUSION WITHIN 4 MOS,phase2a_labadata.csv,LABADATA,categorical
+LABDATE,5. DATE OF CBC -(DAYS SINCE PHASE 2A ENTRY),phase2a_labadata.csv,LABADATA,continuous
+LABCBCWB,6A. CBC WBC,phase2a_labadata.csv,LABADATA,categorical
+LABCBCRB,6B. CBC RBC,phase2a_labadata.csv,LABADATA,categorical
+LABCBCHB,6C. CBC HEMOGLOBIN (G/DL),phase2a_labadata.csv,LABADATA,categorical
+LABCBCHC,6D. CBC HEMATOCRIT (%),phase2a_labadata.csv,LABADATA,categorical
+LABCBCMV,6E. CBC MEAN CELL VOLUME (FL),phase2a_labadata.csv,LABADATA,categorical
+LABCBCMH,6F. CBC MEAN CELL HEMOGLOBIN (PG),phase2a_labadata.csv,LABADATA,categorical
+LABCBCMC,6G. CBC MCHC (G/DL),phase2a_labadata.csv,LABADATA,categorical
+LABPLATE,7. PLATELETS,phase2a_labadata.csv,LABADATA,categorical
+LABDATE2,11. DATE OF SERUM CHEM -(DAYS SINCE PHASE 2A ENTRY),phase2a_labadata.csv,LABADATA,continuous
+LABALKPH,12A. ALKALINE PHOSPHATASE (UNITS/DL),phase2a_labadata.csv,LABADATA,categorical
+LABSGOT,12B. SGOT (UNITS/DL),phase2a_labadata.csv,LABADATA,categorical
+LABSGPT,12C. SGPT (UNITS/DL),phase2a_labadata.csv,LABADATA,categorical
+LABTBILI,12D. TOTAL BILIRUBIN (MG/DL),phase2a_labadata.csv,LABADATA,categorical
+LABDBILI,12E. DIRECT BILIRUBIN (MG/DL),phase2a_labadata.csv,LABADATA,categorical
+LABBUN,12F. BUN (MG/DL),phase2a_labadata.csv,LABADATA,categorical
+LABCRTN,12G. SERUM CREATININE (MG/DL),phase2a_labadata.csv,LABADATA,categorical
+LABURA,12H. URIC ACID (MG/DL),phase2a_labadata.csv,LABADATA,categorical
+LABCC,12I. CREATININE CLEARANCE (ML/MIN),phase2a_labadata.csv,LABADATA,categorical
+LAB24PRO,12J. 24 HOUR URINE PROTEIN (MG/DAY),phase2a_labadata.csv,LABADATA,categorical
+LABUCRTN,URINE CREATININE (MG/DL),phase2a_labadata.csv,LABADATA,categorical
+LABUVOL,URINE VOLUME (ML),phase2a_labadata.csv,LABADATA,categorical
+LABUTIME,URINE COLLECTION TIME (MIN),phase2a_labadata.csv,LABADATA,categorical
+URPROMGD,URINE PROTEIN (MG/DL),phase2a_labadata.csv,LABADATA,categorical
+LABDATE3,DATE OF URINE STUDIES -(DAYS SINCE PHASE 2A ENTRY),phase2a_labadata.csv,LABADATA,continuous
+LABCRTN2,SERUM CREATININE #2,phase2a_labadata.csv,LABADATA,categorical
+LABIRPT,LAB REPORT RECEIVED,phase2a_labadata.csv,LABADATA,categorical
+ANONID,ANONYMIZED ID #,phase2a_mugadata.csv,MUGADATA,continuous
+MUID2,VISIT CYCLE NUMBER,phase2a_mugadata.csv,MUGADATA,continuous
+MUDATE,2. DATE OF PROCEDURE -(DAYS SINCE PHASE 2A ENTRY),phase2a_mugadata.csv,MUGADATA,continuous
+MUREQ,6.2 ALL REQUIREMENTS RECVD,phase2a_mugadata.csv,MUGADATA,categorical
+MUREQMIS,6.3 MISSING REQUIREMENTS,phase2a_mugadata.csv,MUGADATA,categorical
+MUREQST,6.4 STATUS OF REQUIREMENTS,phase2a_mugadata.csv,MUGADATA,categorical
+MUREQRSN,6.4.1 REASON NOT ACCEPTABLE,phase2a_mugadata.csv,MUGADATA,categorical
+MULVEF,7A. LV EJECTION FRACTION,phase2a_mugadata.csv,MUGADATA,categorical
+MUAHR,7B. AVERAGE HEART RATE,phase2a_mugadata.csv,MUGADATA,categorical
+MURVEF,7C. RV EJECTION FRACTION,phase2a_mugadata.csv,MUGADATA,categorical
+MUALW,8A. ANTEROLATERAL WALL MOTION,phase2a_mugadata.csv,MUGADATA,categorical
+MUAPW,8B. APICAL WALL MOTION,phase2a_mugadata.csv,MUGADATA,categorical
+MUIW,8C. INFERIOR WALL MOTION,phase2a_mugadata.csv,MUGADATA,categorical
+MUSW,8D. SEPTAL WALL MOTION,phase2a_mugadata.csv,MUGADATA,categorical
+MUAIW,8E. APICAL INFERIOR WALL MOTION,phase2a_mugadata.csv,MUGADATA,categorical
+MUPLW,8F. POSTERIOR-LATERAL WALL MOTION,phase2a_mugadata.csv,MUGADATA,categorical
+ADD_DATE,,phase2a_mugadata.csv,MUGADATA,continuous
+ANONID,ANONYMIZED ID #,phase2a_neadata.csv,NEADATA,continuous
+NEDFC,3. DATE OF FORM COMPLETED -(DAYS SINCE PHASE 2A ENROLLMENT),phase2a_neadata.csv,NEADATA,continuous
+NEID2,VISIT CYCLE #,phase2a_neadata.csv,NEADATA,continuous
+NEINFCT,4. INTELLECTUAL FUNCTION,phase2a_neadata.csv,NEADATA,categorical
+NELNFCA,5A. LANGUAGE FUNCTION OF THOSE >= 10 YRS,phase2a_neadata.csv,NEADATA,categorical
+NELNFCB,5B. DEFICITS NOTED IF UNDER 10 YEARS,phase2a_neadata.csv,NEADATA,categorical
+NELNFCBT,SPECIFY TYPE OF DEFICITS NOTED,phase2a_neadata.csv,NEADATA,categorical
+NELNFCBC,CODE TYPE OF DEFICITS NOTED,phase2a_neadata.csv,NEADATA,categorical
+NELNFCC,5C. CHANGE FROM PREVIOUS IF REPEAT EXAM,phase2a_neadata.csv,NEADATA,categorical
+NEVSACR,6.1A RIGHT VISUAL ACUITY,phase2a_neadata.csv,NEADATA,categorical
+NEBLINDR,6.3  IS PATIENT BLIND-RIGHT,phase2a_neadata.csv,NEADATA,categorical
+NEVSACL,6.2A LEFT VISUAL ACUITY,phase2a_neadata.csv,NEADATA,categorical
+NEBLINDL,6.4  IS PATIENT BLIND-LEFT,phase2a_neadata.csv,NEADATA,categorical
+NEPUPRR,6.1B RIGHT PUPILLARY REFLEXES,phase2a_neadata.csv,NEADATA,categorical
+NEPUPRL,6.2B LEFT PUPILLARY REFLEXES,phase2a_neadata.csv,NEADATA,categorical
+NEEXMVR,6.1C RIGHT EXTRAOCULAR MOVEMENT,phase2a_neadata.csv,NEADATA,categorical
+NEEXMVL,6.2C LEFT EXTRAOCULAR MOVEMENT,phase2a_neadata.csv,NEADATA,categorical
+NECRNRR,6.1D RIGHT CORNEAL REFLEX,phase2a_neadata.csv,NEADATA,categorical
+NECRNRL,6.2D LEFT CORNEAL REFLEX,phase2a_neadata.csv,NEADATA,categorical
+NEFACSR,6.1E RIGHT FACIAL SENSATION,phase2a_neadata.csv,NEADATA,categorical
+NEFACSL,6.2E LEFT FACIAL SENSATION,phase2a_neadata.csv,NEADATA,categorical
+NEFACPR,6.1F RIGHT FACIAL POWER,phase2a_neadata.csv,NEADATA,categorical
+NEFACPL,6.2F LEFT FACIAL POWER,phase2a_neadata.csv,NEADATA,categorical
+NEPALRR,6.1G RIGHT PALATAL REFLEX,phase2a_neadata.csv,NEADATA,categorical
+NEPALRL,6.2G LEFT PALATAL REFLEX,phase2a_neadata.csv,NEADATA,categorical
+NETONGMR,6.1H RIGHT TONGUE MOVEMENTS,phase2a_neadata.csv,NEADATA,categorical
+NETONGML,6.2H LEFT TONGUE MOVEMENTS,phase2a_neadata.csv,NEADATA,categorical
+NENYGTR,6.1I RIGHT NYSTAGMUS ON GAZE TOWARD,phase2a_neadata.csv,NEADATA,categorical
+NENYGTL,6.2I LEFT NYSTAGMUS ON GAZE TOWARD,phase2a_neadata.csv,NEADATA,categorical
+NENYVGR,6.1J RIGHT NYSTAGMUS ON VERTICAL GAZE,phase2a_neadata.csv,NEADATA,categorical
+NENYVGL,6.2J LEFT NYSTAGMUS ON VERTICAL GAZE,phase2a_neadata.csv,NEADATA,categorical
+NEHRNSR,6.1K RIGHT HORNERS SYNDROME,phase2a_neadata.csv,NEADATA,categorical
+NEHRNSL,6.2K LEFT HORNERS SYNDROME,phase2a_neadata.csv,NEADATA,categorical
+WEBERR,RIGHT WEBER TEST,phase2a_neadata.csv,NEADATA,categorical
+WEBERL,LEFT WEBER TEST,phase2a_neadata.csv,NEADATA,categorical
+RINNER,RIGHT RINNE TEST,phase2a_neadata.csv,NEADATA,categorical
+RINNEL,LEFT RINNE TEST,phase2a_neadata.csv,NEADATA,categorical
+NEMSTRU,7A.1a UPPER RIGHT MUSCLE TONE,phase2a_neadata.csv,NEADATA,categorical
+NEMSTRL,7A.1b LOWER RIGHT MUSCLE TONE,phase2a_neadata.csv,NEADATA,categorical
+NEMSTLU,7A.2a UPPER LEFT MUSCLE TONE,phase2a_neadata.csv,NEADATA,categorical
+NEMSTLL,7A.2b LOWER LEFT MUSCLE TONE,phase2a_neadata.csv,NEADATA,categorical
+NEMOPRU,7B.1a UPPER RIGHT MOTOR POWER,phase2a_neadata.csv,NEADATA,categorical
+NEMOPRUA,7B.3 ABNORMAL UPPER RIGHT MOTOR POWER,phase2a_neadata.csv,NEADATA,categorical
+NEMOPRL,7B.1b LOWER RIGHT MOTOR POWER,phase2a_neadata.csv,NEADATA,categorical
+NEMOPRLA,7B.4 ABNORMAL LOWER RIGHT MOTOR POWER,phase2a_neadata.csv,NEADATA,categorical
+NEMOPLU,7B.2a UPPER LEFT MOTOR POWER,phase2a_neadata.csv,NEADATA,categorical
+NEMOPLUA,7B.5 ABNORMAL UPPER LEFT MOTOR POWER,phase2a_neadata.csv,NEADATA,categorical
+NEMOPLL,7B.2b LOWER LEFT MOTOR POWER,phase2a_neadata.csv,NEADATA,categorical
+NEMOPLLA,7B.6 ABNORMAL LOWER LEFT MOTOR POWER,phase2a_neadata.csv,NEADATA,categorical
+NEINVRU,7C.1a UPPER RIGHT INVOLUNTARY MOVEMENT,phase2a_neadata.csv,NEADATA,categorical
+NEINVLU,7C.2a UPPER LEFT INVOLUNTARY MOVEMENT,phase2a_neadata.csv,NEADATA,categorical
+NEINVRL,7C.1b LOWER RIGHT INVOLUNTARY MOVEMENT,phase2a_neadata.csv,NEADATA,categorical
+NEINVLL,7C.2b LOWER LEFT INVOLUNTARY MOVEMENT,phase2a_neadata.csv,NEADATA,categorical
+NERMBRG,7D. ROMBERG,phase2a_neadata.csv,NEADATA,categorical
+NEGAIT,7E. GAIT AND COORDINATION,phase2a_neadata.csv,NEADATA,categorical
+NELIMP,7E.1 LIMP,phase2a_neadata.csv,NEADATA,categorical
+NECRBFNR,8.1a RIGHT UPPER FINGER-NOSE,phase2a_neadata.csv,NEADATA,categorical
+NECRBFNL,8.2a LEFT UPPER FINGER-NOSE,phase2a_neadata.csv,NEADATA,categorical
+NECRBHSR,8.1b RIGHT LOWER HEEL-SHIN,phase2a_neadata.csv,NEADATA,categorical
+NECRBHSL,8.2b LEFT LOWER HEEL-SHIN,phase2a_neadata.csv,NEADATA,categorical
+NECRBRMR,8.1c RIGHT RAPID ALTERNATING MOVEMENTS,phase2a_neadata.csv,NEADATA,categorical
+NECRBRML,8.2c LEFT RAPID ALTERNATING MOVEMENTS,phase2a_neadata.csv,NEADATA,categorical
+NEBICR,9A.1a RIGHT BICEPS,phase2a_neadata.csv,NEADATA,categorical
+NETRICR,9A.1b RIGHT TRICEPS,phase2a_neadata.csv,NEADATA,categorical
+NEULNR,9A.1c RIGHT ULNAR,phase2a_neadata.csv,NEADATA,categorical
+NERADR,9A.1d RIGHT RADIAL,phase2a_neadata.csv,NEADATA,categorical
+NEKNEER,9A.1e RIGHT KNEE,phase2a_neadata.csv,NEADATA,categorical
+NEANKLR,9A.1f RIGHT ANKLE,phase2a_neadata.csv,NEADATA,categorical
+NEBICL,9A.2a LEFT BICEPS,phase2a_neadata.csv,NEADATA,categorical
+NETRICL,9A.2b LEFT TRICEPS,phase2a_neadata.csv,NEADATA,categorical
+NEULNL,9A.2c LEFT ULNAR,phase2a_neadata.csv,NEADATA,categorical
+NERADL,9A.2d LEFT RADIAL,phase2a_neadata.csv,NEADATA,categorical
+NEKNEEL,9A.2e LEFT KNEE,phase2a_neadata.csv,NEADATA,categorical
+NEANKLL,9A.2f LEFT ANKLE,phase2a_neadata.csv,NEADATA,categorical
+NEPLNRR,9B.1 RIGHT PLANTAR REFLEXES,phase2a_neadata.csv,NEADATA,categorical
+NEPLNRL,9B.2 LEFT PLANTAR REFLEXES,phase2a_neadata.csv,NEADATA,categorical
+NEARMLPN,10.1A PAIN LEFT ARM/HAND,phase2a_neadata.csv,NEADATA,categorical
+NEARMLTA,10.2A TACTILE LEFT ARM/HAND,phase2a_neadata.csv,NEADATA,categorical
+NEARMLVB,10.3A VIBRATION LEFT ARM/HAND,phase2a_neadata.csv,NEADATA,categorical
+NEARMLPO,10.4A POSITION LEFT ARM/HAND,phase2a_neadata.csv,NEADATA,categorical
+NEARMRPN,10.1B PAIN RIGHT ARM/HAND,phase2a_neadata.csv,NEADATA,categorical
+NEARMRTA,10.2B TACTILE RIGHT ARM/HAND,phase2a_neadata.csv,NEADATA,categorical
+NEARMRVB,10.3B VIBRATION RIGHT ARM/HAND,phase2a_neadata.csv,NEADATA,categorical
+NEARMRPO,10.4B POSITION RIGHT ARM/HAND,phase2a_neadata.csv,NEADATA,categorical
+NELEGLPN,10.1C PAIN LEFT LEG/FOOT,phase2a_neadata.csv,NEADATA,categorical
+NELEGLTA,10.2C TACTILE LEFT LEG/FOOT,phase2a_neadata.csv,NEADATA,categorical
+NELEGLVB,10.3C VIBRATION LEFT LEG/FOOT,phase2a_neadata.csv,NEADATA,categorical
+NELEGLPO,10.4C POSITION LEFT LEG/FOOT,phase2a_neadata.csv,NEADATA,categorical
+NELEGRPN,10.1D PAIN RIGHT LEG/FOOT,phase2a_neadata.csv,NEADATA,categorical
+NELEGRTA,10.2D TACTILE RIGHT LEG/FOOT,phase2a_neadata.csv,NEADATA,categorical
+NELEGRVB,10.3D VIBRATION RIGHT LEG/FOOT,phase2a_neadata.csv,NEADATA,categorical
+NELEGRPO,10.4D POSITION RIGHT LEG/FOOT,phase2a_neadata.csv,NEADATA,categorical
+NETRKLPN,10.1E PAIN LEFT TRUNK,phase2a_neadata.csv,NEADATA,categorical
+NETRKLTA,10.2E TACTILE LEFT TRUNK,phase2a_neadata.csv,NEADATA,categorical
+NETRKLVB,10.3E VIBRATION LEFT TRUNK,phase2a_neadata.csv,NEADATA,categorical
+NETRKLPO,10.4E POSITION LEFT TRUNK,phase2a_neadata.csv,NEADATA,categorical
+NETRKRPN,10.1F PAIN RIGHT TRUNK,phase2a_neadata.csv,NEADATA,categorical
+NETRKRTA,10.2F TACTILE RIGHT TRUNK,phase2a_neadata.csv,NEADATA,categorical
+NETRKRVB,10.3F VIBRATION RIGHT TRUNK,phase2a_neadata.csv,NEADATA,categorical
+NETRKRPO,10.4F POSITION RIGHT TRUNK,phase2a_neadata.csv,NEADATA,categorical
+NESADLPN,10.1G PAIN LEFT SADDLE,phase2a_neadata.csv,NEADATA,categorical
+NESADLTA,10.2G TACTILE LEFT SADDLE,phase2a_neadata.csv,NEADATA,categorical
+NESADLVB,10.3G VIBRATION LEFT SADDLE,phase2a_neadata.csv,NEADATA,categorical
+NESADLPO,10.4G POSITION LEFT SADDLE,phase2a_neadata.csv,NEADATA,categorical
+NESADRPN,10.1H PAIN RIGHT SADDLE,phase2a_neadata.csv,NEADATA,categorical
+NESADRTA,10.2H TACTILE RIGHT SADDLE,phase2a_neadata.csv,NEADATA,categorical
+NESADRVB,10.3H VIBRATION RIGHT SADDLE,phase2a_neadata.csv,NEADATA,categorical
+NESADRPO,10.4H POSITION RIGHT SADDLE,phase2a_neadata.csv,NEADATA,categorical
+ANONID,ANONYMIZED ID #,phase2a_peadata.csv,PEADATA,continuous
+PEDATE,3. DATE OF PHYSICAL EXAM -(DAYS SINCE PHASE 2A ENROLLMENT),phase2a_peadata.csv,PEADATA,continuous
+PEID2,VISIT CYCLE NUMBER,phase2a_peadata.csv,PEADATA,continuous
+PEPULSE,4. SITTING PULSE (bpm),phase2a_peadata.csv,PEADATA,categorical
+PEPULSE2,4.1. SUPINE PULSE (bpm),phase2a_peadata.csv,PEADATA,categorical
+PERESP,5. RESPIRATION (rpm),phase2a_peadata.csv,PEADATA,categorical
+PEBPS,6A. SITTING SYSTOLIC BP (mm/Hg),phase2a_peadata.csv,PEADATA,categorical
+PEBPD,6B. SITTING DIASTOLIC BP (mm/Hg),phase2a_peadata.csv,PEADATA,categorical
+PEBPS2,6.1A. SUPINE SYSTOLIC BP (mm/Hg),phase2a_peadata.csv,PEADATA,categorical
+PEBPD2,6.1B. SUPINE DIASTOLIC BP (mm/Hg),phase2a_peadata.csv,PEADATA,categorical
+PEHGT,7. HEIGHT (cm),phase2a_peadata.csv,PEADATA,continuous
+PEWGT,8. WEIGHT (kg),phase2a_peadata.csv,PEADATA,continuous
+PELVRSZ,9. LIVER SIZE (cm),phase2a_peadata.csv,PEADATA,categorical
+PESPLTP,10. SPLEEN SIZE (cm),phase2a_peadata.csv,PEADATA,categorical
+RALES,11A. RALES,phase2a_peadata.csv,PEADATA,categorical
+RHONCHI,11B. RHONCHI,phase2a_peadata.csv,PEADATA,categorical
+WHEEZING,11C. WHEEZING,phase2a_peadata.csv,PEADATA,categorical
+PECHDFM,11D. CHEST DEFORMITY,phase2a_peadata.csv,PEADATA,categorical
+PERTMAB,12A. RHYTHM ABNORMALITY,phase2a_peadata.csv,PEADATA,categorical
+PEHRMRM,12B. HEART MURMUR,phase2a_peadata.csv,PEADATA,categorical
+PERUB,12C. PERICARDIAL RUB,phase2a_peadata.csv,PEADATA,categorical
+PEGLP,12D. GALLOP,phase2a_peadata.csv,PEADATA,categorical
+PEOTNRAB,12E. OTHER NON-RHYTHM ABNORMALITY,phase2a_peadata.csv,PEADATA,categorical
+PENRAB,12E.1. TYPE OF NON-RHYTHM ABNORMALITY,phase2a_peadata.csv,PEADATA,categorical
+PERHPLM,"13A. LIMITED MOTION, RIGHT HIP",phase2a_peadata.csv,PEADATA,categorical
+PELHPLM,"13B. LIMITED MOTION, LEFT HIP",phase2a_peadata.csv,PEADATA,categorical
+PERKNLM,"13C. LIMITED MOTION, RIGHT KNEE",phase2a_peadata.csv,PEADATA,categorical
+PELKNLM,"13D. LIMITED MOTION, LEFT KNEE",phase2a_peadata.csv,PEADATA,categorical
+PERSHLM,"13E. LIMITED MOTION, RIGHT SHOULDER",phase2a_peadata.csv,PEADATA,categorical
+PELSHLM,"13F. LIMITED MOTION, LEFT SHOULDER",phase2a_peadata.csv,PEADATA,categorical
+PERANLM,"13G. LIMITED MOTION, RIGHT ANKLE",phase2a_peadata.csv,PEADATA,categorical
+PELANLM,"13H. LIMTIED MOTION, LEFT ANKLE",phase2a_peadata.csv,PEADATA,categorical
+PEOTHLM,"13I. LIMITED MOTION, OTHER EXTREMITY",phase2a_peadata.csv,PEADATA,categorical
+PEEXLM,13I.1. OTHER LIMITED MOTION EXTREMITY,phase2a_peadata.csv,PEADATA,categorical
+PEJNPR,14. JOINT PROSTHESIS,phase2a_peadata.csv,PEADATA,categorical
+PELU,15. LEG ULCER(S),phase2a_peadata.csv,PEADATA,categorical
+PEABNE,16. ABNORMAL NEUROLOGICAL EXAM,phase2a_peadata.csv,PEADATA,categorical
+PE_BMI,BODY MASS INDEX,phase2a_peadata.csv,PEADATA,continuous
+ANONID,ANONYMIZED ID #,phase2a_pftdata.csv,PFTDATA,continuous
+PFTDATE,3. DATE OF PFT -(DAYS SINCE PHASE 2A ENROLLMENT),phase2a_pftdata.csv,PFTDATA,continuous
+PFTID2,PFT CYCLE NUMBER,phase2a_pftdata.csv,PFTDATA,categorical
+PFTFVC,4.1 FORCED VITAL CAPACITY,phase2a_pftdata.csv,PFTDATA,continuous
+PFTFEV,4.2 FORCED EXPIRATORY VOLUME/1 SEC,phase2a_pftdata.csv,PFTDATA,continuous
+PFFEVFVC,4.3 FEV/FEC (%),phase2a_pftdata.csv,PFTDATA,categorical
+PFTFEFP,4.4A FEF RATE AT PEAK FLOW,phase2a_pftdata.csv,PFTDATA,categorical
+PFTFEF50,4.4B FEF RATE AT 50% VITAL CAPACITY,phase2a_pftdata.csv,PFTDATA,categorical
+PFTFEF25,4.4C FEF RATE AT 25% VITAL CAPACITY,phase2a_pftdata.csv,PFTDATA,categorical
+PFTFEF,4.4D FEF 25-75%,phase2a_pftdata.csv,PFTDATA,continuous
+PFTTLNGC,5.1 TOTAL LUNG CAPACITY,phase2a_pftdata.csv,PFTDATA,categorical
+PFTFRESC,5.2 FUNCTIONAL RESIDUAL CAPACITY,phase2a_pftdata.csv,PFTDATA,categorical
+PFTRESVL,5.3 RESIDUAL VOLUME,phase2a_pftdata.csv,PFTDATA,categorical
+PFTRVTLC,5.4 RV/TLC,phase2a_pftdata.csv,PFTDATA,categorical
+PFTLVMS,5.5 LUNG VOLUME METHOD,phase2a_pftdata.csv,PFTDATA,categorical
+PFTDCCO,6.1 DIFFUSING CAPACITY CO,phase2a_pftdata.csv,PFTDATA,categorical
+PFTDCHB,6.2 HEMOGLOBIN,phase2a_pftdata.csv,PFTDATA,categorical
+PFTSBTLC,6.3 SINGLE BREATH TLC,phase2a_pftdata.csv,PFTDATA,categorical
+PFTSBRV,6.4 SINGLE BREATH RESIDUAL VOLUME,phase2a_pftdata.csv,PFTDATA,categorical
+PFTPO2,7.1 ABG pO2,phase2a_pftdata.csv,PFTDATA,categorical
+PFTPCO2,7.2 ABG pCO2,phase2a_pftdata.csv,PFTDATA,categorical
+PFTPH,7.3 ABG pH,phase2a_pftdata.csv,PFTDATA,categorical
+PFTBTMP,7.4 BODY TEMPERATURE AT TIME BLOOD DRAWN,phase2a_pftdata.csv,PFTDATA,categorical
+PFTHGT,8. HEIGHT,phase2a_pftdata.csv,PFTDATA,continuous
+PFTWGT,9. WEIGHT,phase2a_pftdata.csv,PFTDATA,continuous
+PFTIRPT,INSTITUTIONAL REPORT RECEIVED,phase2a_pftdata.csv,PFTDATA,categorical
+REMARKS,ANY REMARKS?,phase2a_pftdata.csv,PFTDATA,categorical
+QCFLAG,QUALITY CONTROL FLAG,phase2a_pftdata.csv,PFTDATA,categorical
+QCERR,DISCREPANCIES BETWEEN ENTRY & QC,phase2a_pftdata.csv,PFTDATA,continuous
+BSA,BODY SURFACE AREA-COMPUTED,phase2a_pftdata.csv,PFTDATA,continuous
+PFT_BMI,BODY MASS INDEX,phase2a_pftdata.csv,PFTDATA,continuous
+ANONID,,phase2a_rost.csv,ROST,continuous
+SEX,GENDER,phase2a_rost.csv,ROST,categorical
+DTHDATE,DATE OF DEATH - (DAYS SINCE PHASE 1 ENROLLMENT),phase2a_rost.csv,ROST,continuous
+HEMO,CDC HEMOGLOBIN DIAGNOSIS,phase2a_rost.csv,ROST,categorical
+F04ALPHA,NUMBER OF ALPHA GENES,phase2a_rost.csv,ROST,continuous
+RACE,RACE OF PATIENT,phase2a_rost.csv,ROST,categorical
+STATUS,STATUS AT END OF PHASE I,phase2a_rost.csv,ROST,categorical
+LASTPE,DATE OF LAST PHYSICAL EXAM - (DAYS SINCE PHASE 2 ENROLLMENT),phase2a_rost.csv,ROST,continuous
+FDFDATE,FINAL DISPOSITION DATE - (DAYS SINCE PHASE 2 ENROLLMENT),phase2a_rost.csv,ROST,continuous
+PATALIVE,ALIVE AT END OF PHASE II?,phase2a_rost.csv,ROST,categorical
+DLS,DATE OF LAST SEEN BY CLINIC - (DAYS SINCE PHASE 2 ENROLLMENT),phase2a_rost.csv,ROST,continuous
+DTKNWALV,DATE LAST KNOWN ALIVE - (DAYS SINCE PHASE 2 ENROLLMENT),phase2a_rost.csv,ROST,continuous
+PATFOLL,FOLLOWED AT CLINIC AT END OF PHASE II?,phase2a_rost.csv,ROST,categorical
+RESNTFOL,REASON NOT FOLLOWED AT END OF PHASE II,phase2a_rost.csv,ROST,categorical
+DIED,DIED,phase2a_rost.csv,ROST,categorical
+P2ENTRY,ENTERED IN PHASE II?,phase2a_rost.csv,ROST,categorical
+ANN1,STATUS OF ANNUAL VISIT 1,phase2a_rost.csv,ROST,categorical
+ANN2,STATUS OF ANNUAL VISIT 2 (EXIT VISIT),phase2a_rost.csv,ROST,categorical
+DAYSP1,PHASE 2A ENROLLMENT - DAYS SINCE PHASE 1 ENROLLMENT,phase2a_rost.csv,ROST,continuous
+AGE,AGE AT PHASE 2 ENROLLMENT,phase2a_rost.csv,ROST,continuous
+OTHREAS,,phase2a_rost.csv,ROST,continuous
+ANONID,ANONYMIZED ID #,phase2a_statdata.csv,STATDATA,continuous
+STDFC,DATE FORM COMPLETED  -(DAYS SINCE PHASE 2A ENROLLMENT),phase2a_statdata.csv,STATDATA,continuous
+STID2,VISIT CYCE NUMBER,phase2a_statdata.csv,STATDATA,continuous
+STDLV,INT DATE OF LAST VISIT  -(DAYS SINCE PHASE 2A ENROLLMENT),phase2a_statdata.csv,STATDATA,continuous
+STDUE,DATE FOLLOW UP DUE  -(DAYS SINCE PHASE 2A ENROLLMENT),phase2a_statdata.csv,STATDATA,continuous
+STALIVE,IS PT ALIVE,phase2a_statdata.csv,STATDATA,categorical
+STDTHF,DEATH FORM COMPLETED?,phase2a_statdata.csv,STATDATA,categorical
+STMOVE,HAS THE PT MOVED?,phase2a_statdata.csv,STATDATA,categorical
+STCADDR,HAVE CURRENT ADDRESS,phase2a_statdata.csv,STATDATA,categorical
+STCPHON,HAVE CURRENT PHONE #,phase2a_statdata.csv,STATDATA,categorical
+STFUCL,PT BE FOLLOWED AT CSSCD CLINIC?,phase2a_statdata.csv,STATDATA,categorical
+STREFSL,PT REFUSED TO PARTICIPATE,phase2a_statdata.csv,STATDATA,categorical
+STDLSCL,DATE PATIENT LAST SEEN BY CLINIC  -(DAYS SINCE PHASE 2A ENROLLMENT),phase2a_statdata.csv,STATDATA,continuous
+STPFT,PULMONARY FUNCTION TEST STATUS,phase2a_statdata.csv,STATDATA,categorical
+STMUGA,MUGA STATUS,phase2a_statdata.csv,STATDATA,categorical
+STECHO,ECHOCARDIOGRAM STATUS,phase2a_statdata.csv,STATDATA,categorical
+STEXER,EXERCISE STATUS,phase2a_statdata.csv,STATDATA,categorical
+STVISNO,STUDY VISIT #,phase2a_statdata.csv,STATDATA,categorical
+STEPE,PT SEEN FOR EXIT PHYSICAL EXAM,phase2a_statdata.csv,STATDATA,categorical
+STEPERSN,REASON PT NOT SEEN FOR EXIT PE,phase2a_statdata.csv,STATDATA,categorical
+STCLINC,,phase2a_statdata.csv,STATDATA,continuous
