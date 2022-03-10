@@ -8,7 +8,7 @@ def identify_var_types(file_path):
     '''Takes input file path with decoded data. 
     Returns a dataframe with variable name, type, and file information.'''
     decoded_files = glob.glob(file_path)
-    decoded_files = decoded_files[0:3]
+    #decoded_files = decoded_files[0:3]
     if len(decoded_files) < 1:
         print("No files found, please check input directory.")
         return('')
@@ -37,9 +37,9 @@ def check_against_sas(sas_file, picsure_type_df):
     sas_df.loc[sas_df["TYPE"] == 1, "TYPE"] = 'categorical'
     sas_df.loc[sas_df["TYPE"] == 2, "TYPE"] = 'continuous'
     sas_df = sas_df[['LIBNAME', 'MEMNAME', 'NAME', 'TYPE', 'LABEL', 'FORMAT']]
-    full = pd.merge(picsure_type_df, sas_df, how = 'left', left_on=['varname', 'df'], right_on=['NAME', 'MEMNAME'])
+    full = pd.merge(picsure_type_df, sas_df, how = 'left', left_on=['varname', 'df'], right_on=['NAME', 'MEMNAME'], indicator=True)
     full['type_match'] = full['picsure_type'] == full['TYPE']
-    full = full[['varname', 'raw_type', 'picsure_type', 'file', 'df', 'MEMNAME', 'NAME', 'TYPE', 'LABEL', 'type_match', 'FORMAT']]
+    full = full[['varname', 'raw_type', 'picsure_type', 'file', 'df', 'MEMNAME', 'NAME', 'TYPE', 'LABEL', 'type_match', 'FORMAT', '_merge']]
     return(full)
 
 def parse_data(comparison_df, directory, file_info):
@@ -56,6 +56,9 @@ def parse_data(comparison_df, directory, file_info):
 
 def check_data(comparison_df, directory, varname=None):
     '''Allows for manual check of the decoded data.'''
+    parse_dir = directory.split('/')[-1]
+    if parse_dir != '':
+        directory = directory.rstrip(parse_dir)
     if varname is not None:
         file_info = comparison_df.loc[comparison_df['varname'] == varname].reset_index()
         #print(file_info)
@@ -69,3 +72,9 @@ def check_data(comparison_df, directory, varname=None):
             file_info = comparison_df.iloc[[ind]].reset_index()
             #print(file_info)
             parse_data(comparison_df, directory, file_info)
+            
+def output_results(comparison, output_path):
+    '''Saves data type identification results as a CSV file to specified output path.'''
+    final = comparison[['varname', 'LABEL', 'file', 'MEMNAME', 'picsure_type']]
+    final.to_csv(output_path, index=False)
+    print("File saved to", output_path)
