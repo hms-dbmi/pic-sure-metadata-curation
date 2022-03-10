@@ -1,0 +1,1797 @@
+varname,LABEL,file,MEMNAME,picsure_type
+EX_TYPE,X3. Exam Type,p002.csv,P002_FINAL,categorical
+EX_NUM,X4. Exam Number,p002.csv,P002_FINAL,categorical
+TCD_SEQ,X5. TCD sequence number,p002.csv,P002_FINAL,continuous
+EXAM_RSN,B2. Reason for examination,p002.csv,P002_FINAL,categorical
+H_H_DRAW,D1. Was a sample for hemoglobin/hematrocrit drawn at this visit,p002.csv,P002_FINAL,categorical
+HEMOGLOB,D1b. Hemoglobin (g/dl),p002.csv,P002_FINAL,continuous
+HEMAT,D1c. Hematocrit (%),p002.csv,P002_FINAL,continuous
+DESTATUS,DESTATUS,p002.csv,P002_FINAL,categorical
+FNAME,Blinded TCD exam file name,p002.csv,P002_FINAL,continuous
+EXAM_INTP,Exam interpretation,p002.csv,P002_FINAL,categorical
+HEAD_DI,Head diameter,p002.csv,P002_FINAL,continuous
+RM1D,R M1 - depth,p002.csv,P002_FINAL,continuous
+RM1VM,R M1 - TAMM velocity,p002.csv,P002_FINAL,continuous
+RM1VS,R M1 - peak systolic velocity,p002.csv,P002_FINAL,continuous
+RM1VD,R M1 - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+RM1PI,R M1 - pulsatility index,p002.csv,P002_FINAL,continuous
+RM1RI,R M1 - resistivity index,p002.csv,P002_FINAL,continuous
+LM1D,L M1 - depth,p002.csv,P002_FINAL,continuous
+LM1VM,L M1 - TAMM velocity,p002.csv,P002_FINAL,continuous
+LM1VS,L M1 - peak systolic velocity,p002.csv,P002_FINAL,continuous
+LM1VD,L M1 - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+LM1PI,L M1 - pulsatility index,p002.csv,P002_FINAL,continuous
+LM1RI,L M1 - resistivity index,p002.csv,P002_FINAL,continuous
+RMCAD,R MCA - depth,p002.csv,P002_FINAL,continuous
+RMCAVM,R MCA - TAMM velocity,p002.csv,P002_FINAL,continuous
+RMCAVS,R MCA - peak systolic velocity,p002.csv,P002_FINAL,continuous
+RMCAVD,R MCA - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+RMCAPI,R MCA - pulsatility index,p002.csv,P002_FINAL,continuous
+RMCARI,R MCA - resistivity index,p002.csv,P002_FINAL,continuous
+LMCAD,L MCA - depth,p002.csv,P002_FINAL,continuous
+LMCAVM,L MCA - TAMM velocity,p002.csv,P002_FINAL,continuous
+LMCAVS,L MCA - peak systolic velocity,p002.csv,P002_FINAL,continuous
+LMCAVD,L MCA - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+LMCAPI,L MCA - pulsatility index,p002.csv,P002_FINAL,continuous
+LMCARI,L MCA - resistivity index,p002.csv,P002_FINAL,continuous
+RBIFD,R BIF - depth,p002.csv,P002_FINAL,continuous
+RBIFVM,R BIF - TAMM velocity,p002.csv,P002_FINAL,continuous
+RBIFVS,R BIF - peak systolic velocity,p002.csv,P002_FINAL,continuous
+RBIFVD,R BIF - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+RBIFPI,R BIF - pulsatility index,p002.csv,P002_FINAL,continuous
+RBIFRI,R BIF - resistivity index,p002.csv,P002_FINAL,continuous
+LBIFD,L BIF - depth,p002.csv,P002_FINAL,continuous
+LBIFVM,L BIF - TAMM velocity,p002.csv,P002_FINAL,continuous
+LBIFVS,L BIF - peak systolic velocity,p002.csv,P002_FINAL,continuous
+LBIFVD,L BIF - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+LBIFPI,L BIF - pulsatility index,p002.csv,P002_FINAL,continuous
+LBIFRI,L BIF - resistivity index,p002.csv,P002_FINAL,continuous
+RACAD,R ACA - depth,p002.csv,P002_FINAL,continuous
+RACAVM,R ACA - TAMM velocity,p002.csv,P002_FINAL,continuous
+RACAVS,R ACA - peak systolic velocity,p002.csv,P002_FINAL,continuous
+RACAVD,R ACA - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+RACAPI,R ACA - pulsatility index,p002.csv,P002_FINAL,continuous
+RACARI,R ACA - resistivity index,p002.csv,P002_FINAL,continuous
+LACAD,L ACA - depth,p002.csv,P002_FINAL,continuous
+LACAVM,L ACA - TAMM velocity,p002.csv,P002_FINAL,continuous
+LACAVS,L ACA - peak systolic velocity,p002.csv,P002_FINAL,continuous
+LACAVD,L ACA - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+LACAPI,L ACA - pulsatility index,p002.csv,P002_FINAL,continuous
+LACARI,L ACA - resistivity index,p002.csv,P002_FINAL,continuous
+RDICAD,R dICA - depth,p002.csv,P002_FINAL,continuous
+RDICAVM,R dICA - TAMM velocity,p002.csv,P002_FINAL,continuous
+RDICAVS,R dICA - peak systolic velocity,p002.csv,P002_FINAL,continuous
+RDICAVD,R dICA - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+RDICAPI,R dICA - pulsatility index,p002.csv,P002_FINAL,continuous
+RDICARI,R dICA - resistivity index,p002.csv,P002_FINAL,continuous
+LDICAD,L dICA - depth,p002.csv,P002_FINAL,continuous
+LDICAVM,L dICA - TAMM velocity,p002.csv,P002_FINAL,continuous
+LDICAVS,L dICA - peak systolic velocity,p002.csv,P002_FINAL,continuous
+LDICAVD,L dICA - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+LDICAPI,L dICA - pulsatility index,p002.csv,P002_FINAL,continuous
+LDICARI,L dICA - resistivity index,p002.csv,P002_FINAL,continuous
+RPCAD,R PCA - depth,p002.csv,P002_FINAL,continuous
+RPCAVM,R PCA - TAMM velocity,p002.csv,P002_FINAL,continuous
+RPCAVS,R PCA - peak systolic velocity,p002.csv,P002_FINAL,continuous
+RPCAVD,R PCA - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+RPCAPI,R PCA - pulsatility index,p002.csv,P002_FINAL,continuous
+RPCARI,R PCA - resistivity index,p002.csv,P002_FINAL,continuous
+LPCAD,L PCA - depth,p002.csv,P002_FINAL,continuous
+LPCAVM,L PCA - TAMM velocity,p002.csv,P002_FINAL,continuous
+LPCAVS,L PCA - peak systolic velocity,p002.csv,P002_FINAL,continuous
+LPCAVD,L PCA - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+LPCAPI,L PCA - pulsatility index,p002.csv,P002_FINAL,continuous
+LPCARI,L PCA - resistivity index,p002.csv,P002_FINAL,continuous
+RTOBD,R TOB- depth,p002.csv,P002_FINAL,continuous
+RTOBVM,R TOB- TAMM velocity,p002.csv,P002_FINAL,continuous
+RTOBVS,R TOB - peak systolic velocity,p002.csv,P002_FINAL,continuous
+RTOBVD,R TOB - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+RTOBPI,R TOB - pulsatility index,p002.csv,P002_FINAL,continuous
+RTOBRI,R TOB - resistivity index,p002.csv,P002_FINAL,continuous
+LTOBD,L TOB - depth,p002.csv,P002_FINAL,continuous
+LTOBVM,L TOB - TAMM velocity,p002.csv,P002_FINAL,continuous
+LTOBVS,L TOB - peak systolic velocity,p002.csv,P002_FINAL,continuous
+LTOBVD,L TOB - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+LTOBPI,L TOB - pulsatility index,p002.csv,P002_FINAL,continuous
+LTOBRI,L TOB - resistivity index,p002.csv,P002_FINAL,continuous
+BASD,BAS - depth,p002.csv,P002_FINAL,continuous
+BASVM,BAS - TAMM velocity,p002.csv,P002_FINAL,continuous
+BASVS,BAS - peak systolic velocity,p002.csv,P002_FINAL,continuous
+BASVD,BAS - peak diastolic velocity,p002.csv,P002_FINAL,continuous
+BASPI,BAS - pulsatility index,p002.csv,P002_FINAL,continuous
+BASRI,BAS - resistivity index,p002.csv,P002_FINAL,continuous
+maxvel,"<created variable> TAMM velocity (M1,MCA,dICA,BIF)",p002.csv,P002_FINAL,continuous
+maxvell,"<created variable> TAMM velocity - left side (M1,MCA,dICA,BIF)",p002.csv,P002_FINAL,continuous
+maxvelr,"<created variable> TAMM velocity - right side (M1,MCA,dICA,BIF)",p002.csv,P002_FINAL,continuous
+vistype,<created variable> VISIT TYPE,p002.csv,P002_FINAL,categorical
+ldu_id,ID for public use datasets,p002.csv,P002_FINAL,categorical
+compdfrmrand,<created variable> A2. Date Form 2 completed as days from RAND visit,p002.csv,P002_FINAL,continuous
+daterand_dfrmrand,<created variable> Date blinded TCD exam sent to MCG as days from RAND visit,p002.csv,P002_FINAL,continuous
+dumpdt_frmrand,<created variable> Date TCD exam results received as days from RAND visit,p002.csv,P002_FINAL,continuous
+eventdt_frmrand,<created variable> B2a. Date of neurological event as days from RAND visit,p002.csv,P002_FINAL,continuous
+examdt_frmrand,<created variable> B1. Date of TCD exam from Form 2 as days from RAND visit,p002.csv,P002_FINAL,continuous
+exdated_frmrand,<created variable> Date of TCD exam in TCD files as days from RAND,p002.csv,P002_FINAL,continuous
+hhdate_frmrand,<created variable> D1a. Date sample for CBC drawn as days from RAND visit,p002.csv,P002_FINAL,continuous
+preaddte_frmrand,<created variable> Date of TCD exam reading by Primary reader as days from RAND visit,p002.csv,P002_FINAL,continuous
+sreaddte_frmrand,<created variable> Date of TCD exam reading by Secondary reader as days from RAND visit,p002.csv,P002_FINAL,continuous
+EX_TYPE,X3. Exam Type,p003.csv,P003_FINAL,categorical
+EX_NUM,X4. Exam Number,p003.csv,P003_FINAL,continuous
+DESTATUS,DESTATUS,p003.csv,P003_FINAL,categorical
+DECISION,B1. Transfusion elected for primary stroke prevention?,p003.csv,P003_FINAL,categorical
+REASON1,B1a1. Reason for decision (1),p003.csv,P003_FINAL,continuous
+REASON2,B1a2. Reason for decision (2),p003.csv,P003_FINAL,continuous
+REASON3,B1a3. Reason for decision (3),p003.csv,P003_FINAL,continuous
+SP_OTHR,B1a4. Specify other reason child not placed on transfusion,p003.csv,P003_FINAL,continuous
+vistype,<created variable> VISIT TYPE,p003.csv,P003_FINAL,categorical
+ldu_id,ID for public use datasets,p003.csv,P003_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date form completed as days from RAND visit,p003.csv,P003_FINAL,continuous
+DESTATUS,DESTATUS,p005.csv,P005_FINAL,categorical
+ldu_id,ID for public use datasets,p005.csv,P005_FINAL,categorical
+copytoptfrmrand,<created variable> A1. Date copy given to parent as days from RAND visit,p005.csv,P005_FINAL,continuous
+parentsigfrmrand,<created variable> A2. Date parent signed acknowledgement  as days from RAND visit,p005.csv,P005_FINAL,continuous
+patientsigfrmrand,<created variable> A3. Date patient signed acknowledgement  as days from RAND visit,p005.csv,P005_FINAL,continuous
+picompdfrmrand,<created variable> A4. Date PI signed acknowledgement as days from RAND visit,p005.csv,P005_FINAL,continuous
+daterecfrmrand,<created variable> A5. Date received as days from RAND visit,p005.csv,P005_FINAL,continuous
+RECREGTR,"B1. On MMDDYY, was patient receiving regular transfusions",p006.csv,P006_FINAL,categorical
+TX_DEC1,B1a. Treatment decision for this patient was,p006.csv,P006_FINAL,categorical
+TX_DEC2,B1b. Treatment decision for this patient was,p006.csv,P006_FINAL,categorical
+REC_HU,"C1. On MMDDYY, was patient receiving hydroxyurea",p006.csv,P006_FINAL,categorical
+CUR_HU,C2. Is patient currently receiving hydroxyurea,p006.csv,P006_FINAL,categorical
+CUR_CHEL,C3. Is patient currently receiving chelation,p006.csv,P006_FINAL,categorical
+DESTATUS,DESTATUS,p006.csv,P006_FINAL,categorical
+ldu_id,ID for public use datasets,p006.csv,P006_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date form completed as days from RAND visit,p006.csv,P006_FINAL,continuous
+hu_datefrmrand,<created variable> C2a. Date hydroxyurea started as days from RAND visit,p006.csv,P006_FINAL,continuous
+EX_TYPE,X3. Exam Type,p010.csv,P010_FINAL,categorical
+EX_NUM,X4. Exam Number,p010.csv,P010_FINAL,continuous
+STOPRAND,B1. Was the patient randomized in the STOP Trial?,p010.csv,P010_FINAL,categorical
+DIAG_HBS,B2. Was the diagnosis confirmed?,p010.csv,P010_FINAL,categorical
+ABN_CONF,B3. Has the DCC confirmed qualifying TCD exams?,p010.csv,P010_FINAL,categorical
+AGE_RANG,B4. Is the patient's age 4.5 - 20 years?,p010.csv,P010_FINAL,categorical
+TR_CONF,B5. Has the DCC confirmed compliance with transfusion?,p010.csv,P010_FINAL,categorical
+NORMCONF,"B6. Did patient have two normal TCD exams, one within 4 months",p010.csv,P010_FINAL,categorical
+HX_STROK,C1. Prior history of clinical stroke (adjudicated)?,p010.csv,P010_FINAL,categorical
+BAD_MRA,C2. Evidence on MRA of moderate to severe disease?,p010.csv,P010_FINAL,categorical
+OTH_PROT,C3. Patient participating in any other study?,p010.csv,P010_FINAL,categorical
+OTH_RX,C4. Patient receiving clinical treatment?,p010.csv,P010_FINAL,categorical
+MED_COND,C5. Any other condition precluding discontinuation?,p010.csv,P010_FINAL,categorical
+MED_CND2,C6. Any medical condition preventing continuation?,p010.csv,P010_FINAL,categorical
+PT_ELIG,D1. Is the patient eligible for randomization?,p010.csv,P010_FINAL,categorical
+CONSENT,D2. Informed consent document for randomization read and signed?,p010.csv,P010_FINAL,categorical
+CONSREAS,D2a. Please specify reason,p010.csv,P010_FINAL,categorical
+PIS_CONF,E1. Was eligibility confirmed by Principal Investigators?,p010.csv,P010_FINAL,categorical
+GROUP2,E3. Trial group assigned,p010.csv,P010_FINAL,categorical
+CONF_NUM,E4. Confirmation number,p010.csv,P010_FINAL,continuous
+PREV_POT,F1. Patient previously enrolled as a potential patient?,p010.csv,P010_FINAL,continuous
+CONS_POT,F1a. Consent for follow-up as potential candidate signed?,p010.csv,P010_FINAL,continuous
+CONT_POT,F1b. Consent for continuing follow-up as potential patient?,p010.csv,P010_FINAL,continuous
+DESTATUS,DESTATUS,p010.csv,P010_FINAL,categorical
+DNA_SAMP,D2b. Has patient's parent agreed to allow serum and DNA samples?,p010.csv,P010_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p010.csv,P010_FINAL,categorical
+VER_ID,Form Version,p010.csv,P010_FINAL,categorical
+DNASAMP1,<created variable> D2b. Has patient's parent agreed to allow serum and DNA samples?,p010.csv,P010_FINAL,categorical
+ldu_id,ID for public use datasets,p010.csv,P010_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date form completed as days from RAND visit,p010.csv,P010_FINAL,continuous
+random_dfrmrand,<created variable> E2. Date patient randomized as days from RAND visit,p010.csv,P010_FINAL,continuous
+EX_TYPE,X3. Exam Type,p011.csv,P011_FINAL,categorical
+EX_NUM,X4. Exam Number,p011.csv,P011_FINAL,continuous
+INTERVIW,A3. Person interviewed,p011.csv,P011_FINAL,categorical
+A_T_VERI,A4. Address and telephone verified,p011.csv,P011_FINAL,categorical
+ANY_MEDS,B1. Patient currently taking medication.,p011.csv,P011_FINAL,categorical
+PENICILN,B1a1. Taking Penicillin,p011.csv,P011_FINAL,categorical
+PEN_MTHS,B1b1. Number of months taking penicillin,p011.csv,P011_FINAL,continuous
+OTH_ANTI,B1a2. Taking other Antibiotic,p011.csv,P011_FINAL,categorical
+O_ANTSPE,B1a2a. Specify other Antibiotic,p011.csv,P011_FINAL,categorical
+O_ANTMTH,B1b2. Months taking other Antibiotic,p011.csv,P011_FINAL,continuous
+FOLATE,B1a3. Taking Folate,p011.csv,P011_FINAL,categorical
+FOL_MTHS,B1b3. Number of months taking Folate,p011.csv,P011_FINAL,continuous
+HU,B1a4. Taking Hydroxyurea,p011.csv,P011_FINAL,categorical
+HU_MTHS,B1b4. Number of months taking Hydroxyurea,p011.csv,P011_FINAL,continuous
+IRONCHEL,B1a5. Taking Iron Chelators (Desferoxamine),p011.csv,P011_FINAL,categorical
+IRON_MTH,B1b5. Number of months taking Iron Chelators (Desferoxamine),p011.csv,P011_FINAL,continuous
+OTH_MEDS,B1a6. Taking Other Medication,p011.csv,P011_FINAL,categorical
+OT1_MEDS,B1a6a. Specify Other Medication,p011.csv,P011_FINAL,categorical
+OT1_MTHS,B1b6a. Number of months taking medication,p011.csv,P011_FINAL,continuous
+OT2_MEDS,B1a6b. Specify other medication,p011.csv,P011_FINAL,categorical
+OT2_MTHS,B1b6b. Number of months taking medication,p011.csv,P011_FINAL,continuous
+ACS,C1. 2 or more episodes of Acute Chest Syndrome (pneumonia),p011.csv,P011_FINAL,categorical
+PAINHOSP,C2. Number of times hospitalized for pain events,p011.csv,P011_FINAL,continuous
+MENINGIT,C3a1. Meningitis,p011.csv,P011_FINAL,categorical
+SEENMENI,C3c1. Where seen for Meningitis,p011.csv,P011_FINAL,categorical
+SPLENICS,C3a2. Splenic Sequestration,p011.csv,P011_FINAL,categorical
+SEENSPLN,C3c2. Where seen for Splenic Sequestration,p011.csv,P011_FINAL,categorical
+APLASTIC,C3a3. Aplastic Crisis,p011.csv,P011_FINAL,categorical
+SEENAPLS,C3c3. Where seen for Aplastic Crisis,p011.csv,P011_FINAL,categorical
+H_F_SYND,C3a4. Hand-Foot Syndrome,p011.csv,P011_FINAL,categorical
+SEENHFS,C3c4. Where seen for Hand-Foot Syndrome,p011.csv,P011_FINAL,categorical
+SEPTICEM,C3a5. Septicemia,p011.csv,P011_FINAL,categorical
+SEENSEPT,C3c5. Where seen for Septicemia,p011.csv,P011_FINAL,categorical
+OSTEOMYL,C3a6. Osteomyelitis,p011.csv,P011_FINAL,categorical
+SEENOSTE,C3c6. Where seen for Osteomyelitis,p011.csv,P011_FINAL,continuous
+PRIAPSM,C3a7. Priapism,p011.csv,P011_FINAL,categorical
+SEENPRIA,C3c7. Where seen for Priapism,p011.csv,P011_FINAL,categorical
+T_REACTN,C3a8. Transfusion Reaction,p011.csv,P011_FINAL,categorical
+SEENREAC,C3c8. Where seen for Transfusion Reaction,p011.csv,P011_FINAL,categorical
+SPLENECT,C4a. Had a Splenectomy,p011.csv,P011_FINAL,categorical
+LIVER_BX,C4b. Had a Liver Biopsy,p011.csv,P011_FINAL,categorical
+PORTCATH,C5. Have a Portacath,p011.csv,P011_FINAL,categorical
+STR_MOTH,D1a. Child's mother had a stroke,p011.csv,P011_FINAL,categorical
+STR_FATH,D1b. Child's father  had a stroke,p011.csv,P011_FINAL,categorical
+STR_BROT,D1c. Child's brother had a stroke,p011.csv,P011_FINAL,categorical
+STR_SIST,D1d. Child's sister had a stroke,p011.csv,P011_FINAL,categorical
+LEGULCER,E1. Leg Ulcers,p011.csv,P011_FINAL,categorical
+ANECROS,E2. Aseptic Necrosis,p011.csv,P011_FINAL,categorical
+NECR_LOC,E2b. Location of Aseptic Necrosis,p011.csv,P011_FINAL,categorical
+SC_RETIN,E3. Sickle Cell Retinopathy,p011.csv,P011_FINAL,categorical
+CHR_LUNG,E4. Chronic Lung Disease,p011.csv,P011_FINAL,categorical
+LUNGTYPE,E4b. Type of Chronic Lung Disease,p011.csv,P011_FINAL,categorical
+LUNGCODE,E4b1. Code for Chronic Lung Disease,p011.csv,P011_FINAL,continuous
+ASTHMA,E5. Asthma,p011.csv,P011_FINAL,categorical
+CHD,E6. Chronic Heart Disease,p011.csv,P011_FINAL,categorical
+CHD_TYPE,E6b. Type of Chronic Heart Disease,p011.csv,P011_FINAL,categorical
+CHD_CODE,E6b1. Code for Chronic Heart Disease,p011.csv,P011_FINAL,continuous
+CHR_LVRD,E7. Chronic Liver Disease,p011.csv,P011_FINAL,categorical
+C_LVRTYP,E7b. Type of Chronic Liver Disease,p011.csv,P011_FINAL,categorical
+CLD_CODE,E7b1. Code for Chronic Liver Disease,p011.csv,P011_FINAL,continuous
+CHR_RNLD,E8. Chronic Renal Disease,p011.csv,P011_FINAL,categorical
+C_RNLTYP,E8b. Type of Chronic Renal Disease,p011.csv,P011_FINAL,continuous
+RENALCOD,E8b1. Code for Chronic Renal Disease,p011.csv,P011_FINAL,continuous
+DIALYSIS,E8c. Currently receiving Dialysis,p011.csv,P011_FINAL,continuous
+IRON_OL,E9. Iron Overload,p011.csv,P011_FINAL,categorical
+FERRITIN,E9b. Highest level of Ferritin,p011.csv,P011_FINAL,continuous
+DIABETES,E10. Diabetes,p011.csv,P011_FINAL,categorical
+RHEU_FVR,E11. Rheumatic Fever,p011.csv,P011_FINAL,categorical
+TUBERCUL,E12. Tuberculosis,p011.csv,P011_FINAL,categorical
+PRIAPISM,E14. Priapism,p011.csv,P011_FINAL,categorical
+ELEVLEAD,E15. Elevated Blood Lead Level,p011.csv,P011_FINAL,categorical
+HEP_B,E16. Hepatitis B,p011.csv,P011_FINAL,categorical
+HEP_C,E17. Hepatitis C,p011.csv,P011_FINAL,categorical
+OTHCOND,E19. Other Chronic Medical Condition,p011.csv,P011_FINAL,categorical
+STOPRAND,F1. Randomized in STOP,p011.csv,P011_FINAL,categorical
+BLOODGRP,F2a. ABO Blood Group,p011.csv,P011_FINAL,categorical
+RH_ANT_D,F2b1. Rh Antigens D,p011.csv,P011_FINAL,categorical
+RH_ANT_C,F2b2. Rh Antigens C,p011.csv,P011_FINAL,categorical
+RH_ANT_E,F2b3. Rh Antigens E,p011.csv,P011_FINAL,categorical
+RHANT_E,F2b4. Rh Antigens e,p011.csv,P011_FINAL,categorical
+RHANT_C,F2b5. Rh Antigens c,p011.csv,P011_FINAL,categorical
+RH_ANT_F,F2b6. Rh Antigens f,p011.csv,P011_FINAL,categorical
+RH_ANT_V,F2b7. Rh AntigensV,p011.csv,P011_FINAL,categorical
+KELL_KEL,F2c1. K (Kell),p011.csv,P011_FINAL,categorical
+KELL_K,F2c2. k,p011.csv,P011_FINAL,categorical
+KELL_JSA,F2c3. Jsa,p011.csv,P011_FINAL,categorical
+KELL_JSB,F2c4. Jsb,p011.csv,P011_FINAL,categorical
+KELL_KPA,F2c5. Kpa,p011.csv,P011_FINAL,categorical
+KELL_KPB,F2c6. Kpb,p011.csv,P011_FINAL,categorical
+DUF_FYA,F2d1. Fya,p011.csv,P011_FINAL,categorical
+DUF_FYB,F2d2. Fyb,p011.csv,P011_FINAL,categorical
+KID_JKA,F2e1. Jka,p011.csv,P011_FINAL,categorical
+KID_JKB,F2e2. Jkb,p011.csv,P011_FINAL,categorical
+LEW_LEA,F2f1. Lea,p011.csv,P011_FINAL,categorical
+LEW_LEB,F2f2. Leb,p011.csv,P011_FINAL,categorical
+LUTH_LUA,F2g1. Lua,p011.csv,P011_FINAL,categorical
+LUTH_LUB,F2g2. Lub,p011.csv,P011_FINAL,categorical
+LUTH_LU3,F2g3. Lu3,p011.csv,P011_FINAL,categorical
+P1_ANTIG,F2h1. P1,p011.csv,P011_FINAL,categorical
+MNS_M,F2i1. M,p011.csv,P011_FINAL,categorical
+MNS_N,F2i2. N,p011.csv,P011_FINAL,categorical
+MNS_S,F2i3. S,p011.csv,P011_FINAL,categorical
+MNS_A_S,F2i4. s,p011.csv,P011_FINAL,categorical
+MNS_U,F2i5. U,p011.csv,P011_FINAL,categorical
+ANTI_D,G1a. anti-D,p011.csv,P011_FINAL,categorical
+ANTI_C,G1b. anti-C,p011.csv,P011_FINAL,categorical
+ANTI_E,G1c. anti-E,p011.csv,P011_FINAL,categorical
+ANTI_M,G1d. anti-M,p011.csv,P011_FINAL,categorical
+ANTI_S,G1e. anti-S,p011.csv,P011_FINAL,categorical
+ANTI_K,G1f. anti-K (Kell),p011.csv,P011_FINAL,categorical
+ANTI_FYA,G1g. anti-Fya,p011.csv,P011_FINAL,categorical
+ANTI_FYB,G1h. anti-Fyb,p011.csv,P011_FINAL,categorical
+ANTI_JKB,G1i. anti-Jkb,p011.csv,P011_FINAL,categorical
+ANTI_LEA,G1j. anti-Lea,p011.csv,P011_FINAL,categorical
+ANTI_LEB,G1k. anti-Leb,p011.csv,P011_FINAL,categorical
+ANTI_OTH,G1l. Other antibody,p011.csv,P011_FINAL,categorical
+OTHER1,G1l1. Specify first other antibody,p011.csv,P011_FINAL,categorical
+OTHER2,G1l2. Specify second other antibody,p011.csv,P011_FINAL,categorical
+OTHER3,G1l3. Specify third  other antibody,p011.csv,P011_FINAL,categorical
+TRANREAC,G3. Transfusion Reaction,p011.csv,P011_FINAL,categorical
+HEPBVACC,H1. Hepatitis B vaccination,p011.csv,P011_FINAL,categorical
+NONSTSIT,I1. Seen at Non-STOP II site,p011.csv,P011_FINAL,categorical
+PHEN_SRC,J1. Red cell phenotyping report,p011.csv,P011_FINAL,categorical
+DESTATUS,DESTATUS,p011.csv,P011_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p011.csv,P011_FINAL,categorical
+ldu_id,ID for public use datasets,p011.csv,P011_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date form completed as days from RAND visit,p011.csv,P011_FINAL,continuous
+EX_TYPE,X3. Exam Type,p012.csv,P012_FINAL,categorical
+EX_NUM,X4. Exam Number,p012.csv,P012_FINAL,continuous
+HEIGHT,B1. Height (cm),p012.csv,P012_FINAL,continuous
+WEIGHT,B2. Weight (kg),p012.csv,P012_FINAL,continuous
+BP_SYST,B3a. Systolic blood pressure,p012.csv,P012_FINAL,continuous
+BP_DIAS,B3b. Diastolic blood pressure,p012.csv,P012_FINAL,continuous
+PULSE,B4. Pulse (beats/min),p012.csv,P012_FINAL,continuous
+RESPRATE,B5. Respiration rate (rate/min),p012.csv,P012_FINAL,continuous
+TEMPERAT,B6. Temperature (degrees C),p012.csv,P012_FINAL,continuous
+GENAPPER,C1. General appearance,p012.csv,P012_FINAL,categorical
+EYES,C2. Eyes,p012.csv,P012_FINAL,categorical
+EARS,C3. Ears,p012.csv,P012_FINAL,categorical
+N_T_M,C4. Nose/Throat/Mouth,p012.csv,P012_FINAL,categorical
+TONSILS,C4b. Tonsils,p012.csv,P012_FINAL,categorical
+RALES,C5a. Rales,p012.csv,P012_FINAL,categorical
+RHONCHI,C5b. Rhonchi,p012.csv,P012_FINAL,categorical
+WHEEZE,C5c. Wheeze,p012.csv,P012_FINAL,categorical
+M_BREATH,C5d. Mouth breathing,p012.csv,P012_FINAL,categorical
+OTH_ABN,C5e. Other lung/respiratory abnormality,p012.csv,P012_FINAL,categorical
+RHYTHM,C6a. Rhythm abnormality,p012.csv,P012_FINAL,categorical
+MURMUR,C6b. Heart murmur,p012.csv,P012_FINAL,categorical
+OTHERABN,C6c. Other abnormality (heart),p012.csv,P012_FINAL,categorical
+ABDOMEN,C7. Abdomen,p012.csv,P012_FINAL,categorical
+SPLEEN,C8. Spleen,p012.csv,P012_FINAL,categorical
+DIST_SPL,C8a. Distance below LCM at MCL (cm),p012.csv,P012_FINAL,continuous
+LIVER,C9. Liver,p012.csv,P012_FINAL,categorical
+TENDER,C9a. Liver tenderness,p012.csv,P012_FINAL,categorical
+RIGHTHIP,C10a1. Right hip (pain or limitation of motion),p012.csv,P012_FINAL,categorical
+LEFTHIP,C10a2. Left hip (pain or limitation of motion),p012.csv,P012_FINAL,categorical
+R_SHOLDR,C10a3. Right shoulder (pain or limitation of motion),p012.csv,P012_FINAL,categorical
+L_SHOLDR,C10a4. Left shoulder (pain or limitation of motion),p012.csv,P012_FINAL,categorical
+LEGULCER,C10b. Leg ulcer,p012.csv,P012_FINAL,categorical
+WHICHLEG,C10b1. Which leg (leg ulcer),p012.csv,P012_FINAL,continuous
+LE_EDEMA,C10c. Lower extremity edema,p012.csv,P012_FINAL,categorical
+WHICH_LE,C10c1. Which leg (lower extremity edema),p012.csv,P012_FINAL,continuous
+SKIN,C11. Skin,p012.csv,P012_FINAL,categorical
+L_NODES,C12. Lymph nodes enlarged?,p012.csv,P012_FINAL,categorical
+DESTATUS,DESTATUS,p012.csv,P012_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p012.csv,P012_FINAL,categorical
+ldu_id,ID for public use datasets,p012.csv,P012_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date of physical exam as days from RAND visit,p012.csv,P012_FINAL,continuous
+EX_TYPE,X3. Exam Type,p013.csv,P013_FINAL,categorical
+EX_NUM,X4. Exam Number,p013.csv,P013_FINAL,continuous
+REASON1,A3.1. Reason for collection,p013.csv,P013_FINAL,categorical
+REASON2,A3.2. Reason for collection,p013.csv,P013_FINAL,categorical
+LAV_TUBE,B1b. Number of tubes enclosed (lavender),p013.csv,P013_FINAL,continuous
+LAV_RECV,B1c. Number of tubes received in good condition (lavender),p013.csv,P013_FINAL,continuous
+RED_TUBE,B2b. Number of tubes enclosed (red),p013.csv,P013_FINAL,continuous
+RED_RECV,B2c. Number of tubes received in good condition (red),p013.csv,P013_FINAL,continuous
+TRANSF_4,C1. Transfused during the last 4 months?,p013.csv,P013_FINAL,categorical
+HBA_S,D4a. Percent S,p013.csv,P013_FINAL,continuous
+HBA_F,D4b. Percent F,p013.csv,P013_FINAL,continuous
+HBA_A2,D4c. Percent A2,p013.csv,P013_FINAL,continuous
+HBA_A,D4d. Percent A,p013.csv,P013_FINAL,continuous
+HBA_OTH,D4e. Percent other,p013.csv,P013_FINAL,continuous
+HB_OTH_S,"D4e1. Percent other hemoglobin, specify:",p013.csv,P013_FINAL,categorical
+HBA_PHEN,D4f. Hemoglobin phenotype,p013.csv,P013_FINAL,continuous
+PHENSPEC,"D4f1. Hemoglobin phenotype, specify:",p013.csv,P013_FINAL,continuous
+CBC_WBC,D5a. White cell count (uncorrected for nRBC's),p013.csv,P013_FINAL,continuous
+CBC_RBC,D5b. Red cell count,p013.csv,P013_FINAL,continuous
+CBC_HEMO,D5c. Hemoglobin (g/dl),p013.csv,P013_FINAL,continuous
+CBC_HEMA,D5d. Hematocrit (%),p013.csv,P013_FINAL,continuous
+CBC_MCV,D5e. Mean cell volume (fl),p013.csv,P013_FINAL,continuous
+CBC_MCH,D5f. Mean cell hemoglobin (pg),p013.csv,P013_FINAL,continuous
+CBC_MCHC,D5g. Mean cell hemoglobin concentration (g/dl),p013.csv,P013_FINAL,continuous
+CBC_RDW,D5h. RDW (%),p013.csv,P013_FINAL,continuous
+RETICULO,D6. Reticulocyte count (%),p013.csv,P013_FINAL,continuous
+PLAT_CT,D7. Platelet count,p013.csv,P013_FINAL,continuous
+WBC_PMN,D8a. PMN (%),p013.csv,P013_FINAL,continuous
+BANDS,D8b. Bands (%),p013.csv,P013_FINAL,continuous
+LYMPHOCY,D8c. Lymphocytes (%),p013.csv,P013_FINAL,continuous
+MONO,D8d. Monocytes (%),p013.csv,P013_FINAL,continuous
+EOSINO,D8e. Eosinophils (%),p013.csv,P013_FINAL,continuous
+BASO,D8f. Basophils (%),p013.csv,P013_FINAL,continuous
+OTH_WBC,D8g. Other (%),p013.csv,P013_FINAL,continuous
+NRBC,D8h. Nucleated red blood cells (/100 WBC),p013.csv,P013_FINAL,continuous
+FERRITIN,D9. Serum ferritin,p013.csv,P013_FINAL,continuous
+SGPT,D10a. ALT (SGPT) (U/I),p013.csv,P013_FINAL,continuous
+GGT,D10b. GGT (U/I),p013.csv,P013_FINAL,continuous
+LDH,D10c. LDH (U/I),p013.csv,P013_FINAL,continuous
+T_BILI,D10d. Total bilirubin (mg/dl),p013.csv,P013_FINAL,continuous
+D_BILI,D10e. Direct bilirubin (mg/dl),p013.csv,P013_FINAL,continuous
+HAPLOTYP,D11. Haplotype,p013.csv,P013_FINAL,categorical
+ALPHGENE,D12. Number alpha genes,p013.csv,P013_FINAL,categorical
+HEPATI_B,D13a. Hepatitis B surface antibody,p013.csv,P013_FINAL,categorical
+HEPATI_C,D13b. Hepatitis C antibody,p013.csv,P013_FINAL,categorical
+S_REPOSI,D14. Serum repository sample received,p013.csv,P013_FINAL,categorical
+DESTATUS,DESTATUS,p013.csv,P013_FINAL,categorical
+TX_NUM,A3a1. Transfusion number,p013.csv,P013_FINAL,continuous
+vistype,<created variable> VISIT TYPE,p013.csv,P013_FINAL,categorical
+ldu_id,ID for public use datasets,p013.csv,P013_FINAL,categorical
+comp_dfrmrand,<created variable> D3. Date core lab section completed as days from RAND visit,p013.csv,P013_FINAL,continuous
+ship_dtfrmrand,<created variable> A2. Date samples shipped as days from RAND visit,p013.csv,P013_FINAL,continuous
+tran_datfrmrand,<created variable> A3a. Date of transfusion as days from RAND visit,p013.csv,P013_FINAL,continuous
+event_dtfrmrand,<created variable> A3b. Date of event as days from RAND visit,p013.csv,P013_FINAL,continuous
+lav_d_dtfrmrand,<created variable> B1a. Date blood drawn (lav-top tube) as days from RAND visit,p013.csv,P013_FINAL,continuous
+red_d_dtfrmrand,<created variable> B2a. Date blood drawn (red-top tube) as days from RAND visit,p013.csv,P013_FINAL,continuous
+transf_dfrmrand,<created variable> C1a. Date of last transfusion as days from RAND visit,p013.csv,P013_FINAL,continuous
+recv_dtfrmrand,<created variable> D2. Date blood received at core lab as days from RAND visit,p013.csv,P013_FINAL,continuous
+EX_TYPE,X3. Exam type,p014.csv,P014_FINAL,categorical
+EX_NUM,X4. Exam Number,p014.csv,P014_FINAL,continuous
+COMPAMPM,A2b. A.M./P.M.,p014.csv,P014_FINAL,categorical
+GENDER,A3. Patient gender,p014.csv,P014_FINAL,categorical
+PT_AGE,A4. Patient age,p014.csv,P014_FINAL,continuous
+EXAMTYPE,A5. Type of exam,p014.csv,P014_FINAL,categorical
+INTERVIE,B1. Person interviewed,p014.csv,P014_FINAL,categorical
+WITNES_E,B2. Did person interviewed witness the event?,p014.csv,P014_FINAL,categorical
+ONSET_AP,B5b. A.M./P.M.,p014.csv,P014_FINAL,categorical
+SYM_LAST,B6. How long did symptoms last?,p014.csv,P014_FINAL,categorical
+SYM_BEFR,B7. Has patient had these symptoms before?,p014.csv,P014_FINAL,categorical
+PAIN_CRI,B8. Was patient also experiencing a pain crisis/medical illness?,p014.csv,P014_FINAL,categorical
+CONCIOS,B9a. Alteration of level of consciousness,p014.csv,P014_FINAL,categorical
+HEADACHE,B9b. Headache,p014.csv,P014_FINAL,categorical
+HEMIPARE,B9c. Hemiparesis or other weakness,p014.csv,P014_FINAL,categorical
+FACE_RT,B9c2. Face: right,p014.csv,P014_FINAL,categorical
+FACE_LT,B9c2a. Face: left,p014.csv,P014_FINAL,categorical
+ARM_RT,B9c3. Arm: right,p014.csv,P014_FINAL,categorical
+ARM_LT,B9c3b. Arm: left,p014.csv,P014_FINAL,categorical
+LEG_RT,B9c4. Leg: right,p014.csv,P014_FINAL,categorical
+LEG_LT,B9c4c. Leg: left,p014.csv,P014_FINAL,categorical
+VIS_LOSS,B9d. Loss of vision,p014.csv,P014_FINAL,categorical
+SPEECH,B9e. Alteration of speech,p014.csv,P014_FINAL,categorical
+CLUMSINS,B9f. Clumsiness,p014.csv,P014_FINAL,categorical
+POS_SEIZ,B9g. Possible seizure,p014.csv,P014_FINAL,categorical
+SENS_DIS,B9h. Numbness or other sensory disturbance,p014.csv,P014_FINAL,categorical
+FACERIGT,B9h2. Face: right,p014.csv,P014_FINAL,categorical
+FACELEFT,B9h2a. Face: left,p014.csv,P014_FINAL,categorical
+ARMRIGHT,B9h3. Arm: right,p014.csv,P014_FINAL,categorical
+ARMLEFT,B9h3b. Arm: left,p014.csv,P014_FINAL,categorical
+LEGRIGHT,B9h4. Leg: right,p014.csv,P014_FINAL,categorical
+LEGLEFT,B9h4c. Leg: left,p014.csv,P014_FINAL,categorical
+ABN_MOVE,B9i. Abnormal movements,p014.csv,P014_FINAL,categorical
+PULSE,C1a. Pulse (beats/minute),p014.csv,P014_FINAL,continuous
+RESPRATE,C1b. Respirations (breaths/minute),p014.csv,P014_FINAL,continuous
+BP_SYST,C1c1. Blood pressure (mmHg) (sys/dia),p014.csv,P014_FINAL,continuous
+BP_DIAS,C1c2. Blood pressure,p014.csv,P014_FINAL,continuous
+TEMPERAT,C1d. Temperature,p014.csv,P014_FINAL,continuous
+HEIGHT,C1e. Height (cm),p014.csv,P014_FINAL,continuous
+WEIGHT,C1f. Weight (kg),p014.csv,P014_FINAL,continuous
+HEAD_CIR,C1g. Head circumference (cm),p014.csv,P014_FINAL,continuous
+PTHANDED,C2. Is patient right or left handed?,p014.csv,P014_FINAL,categorical
+SKIN,C3a. Skin,p014.csv,P014_FINAL,categorical
+HEADNECK,C3b. Head and neck,p014.csv,P014_FINAL,categorical
+CHEST,C3c. Chest,p014.csv,P014_FINAL,categorical
+SPINE,C3d. Spine,p014.csv,P014_FINAL,categorical
+ABDOMEN,C3e. Abdomen,p014.csv,P014_FINAL,categorical
+MURMUR,C3f1. Cardiovascular: Murmurs,p014.csv,P014_FINAL,categorical
+ARRHYTHM,C3f2. Cardiovascular: Arrhythmias,p014.csv,P014_FINAL,categorical
+LEV_CONS,D1. Level of consciousness,p014.csv,P014_FINAL,categorical
+CONS_ABN,D1a. Abnormal,p014.csv,P014_FINAL,continuous
+CONFRTTL,D2a. Total correct,p014.csv,P014_FINAL,continuous
+NAMEAPPR,D2b. Is naming approriate for age?,p014.csv,P014_FINAL,categorical
+COMPRTTL,D3a. Total correct,p014.csv,P014_FINAL,continuous
+COMPAPPR,D3b. Is comprehension appropriate for age?,p014.csv,P014_FINAL,categorical
+REPITTTL,D4a. Total correct,p014.csv,P014_FINAL,continuous
+REPITAPP,D4b. Is repetition appropriate for age?,p014.csv,P014_FINAL,categorical
+READTTL,D5a. Total correct,p014.csv,P014_FINAL,continuous
+READAPPR,D5b. Is reading appropriate for age?,p014.csv,P014_FINAL,categorical
+WRITETTL,D6. Total correct,p014.csv,P014_FINAL,continuous
+WRITAPPR,D6b. Is writing appropriate for age?,p014.csv,P014_FINAL,categorical
+ORIENTTL,D7. Total correct,p014.csv,P014_FINAL,continuous
+ORIENAPP,D7b. Is right/left orientation appropriate for age?,p014.csv,P014_FINAL,categorical
+DRAWTTL,D8. Total correct,p014.csv,P014_FINAL,continuous
+DRAWAPPR,D8b. Is drawing appropriate for age?,p014.csv,P014_FINAL,categorical
+VISUAL_C,D10a. Visual fields to confrontation,p014.csv,P014_FINAL,categorical
+PAPILLED,D10b. Papilledema,p014.csv,P014_FINAL,categorical
+PUPILS,D10c. Pupils,p014.csv,P014_FINAL,categorical
+OCULARMV,D10d. Extra ocular movements,p014.csv,P014_FINAL,categorical
+GAZE,D10e. Gaze,p014.csv,P014_FINAL,categorical
+FACIAL_S,D10f. Facial sensation,p014.csv,P014_FINAL,categorical
+CORNEAL,D10g. Corneal reflexes,p014.csv,P014_FINAL,categorical
+RL_FACE,D10h1. Right lower face,p014.csv,P014_FINAL,categorical
+RU_FACE,D10h2. Right upper face,p014.csv,P014_FINAL,categorical
+LL_FACE,D10h3. Left lower face,p014.csv,P014_FINAL,categorical
+LU_FACE,D10h4. Left upper face,p014.csv,P014_FINAL,categorical
+HEARING,D10i. Hearing,p014.csv,P014_FINAL,categorical
+GAG,D10j. Gag,p014.csv,P014_FINAL,categorical
+PALATELV,D10k. Palate elevation,p014.csv,P014_FINAL,categorical
+TRAPEZIS,D10.l. Trapezius strength,p014.csv,P014_FINAL,categorical
+TONGUE_S,D10m. Tongue strength,p014.csv,P014_FINAL,categorical
+DYSARTHR,D10n. Dysarthria,p014.csv,P014_FINAL,categorical
+TONERARM,D11a. Right arm,p014.csv,P014_FINAL,categorical
+TONERLEG,D11b. Right leg,p014.csv,P014_FINAL,categorical
+TONELARM,D11c. Left arm,p014.csv,P014_FINAL,categorical
+TONELLEG,D11d. Left leg,p014.csv,P014_FINAL,categorical
+RARMPROX,D12a.p.. Strength: Right arm proximal,p014.csv,P014_FINAL,categorical
+RARMDIST,D12a.d. Strength: Right arm distal,p014.csv,P014_FINAL,categorical
+RLEGPROX,D12b.p. Strength: Right leg proximal,p014.csv,P014_FINAL,categorical
+RLEGDIST,D12b.d. Strength: Right leg distal,p014.csv,P014_FINAL,categorical
+LARMPROX,D12c.p. Strength: Left arm proximal,p014.csv,P014_FINAL,categorical
+LARMDIST,D12c.d. Strength: Left arm distal,p014.csv,P014_FINAL,categorical
+LLEGPROX,D12d.p. Strength: Left leg proximal,p014.csv,P014_FINAL,categorical
+LLEGDIST,D12d.d. Strength: Left leg distal,p014.csv,P014_FINAL,categorical
+HOPLFOOT,D12e. Can the patient hop on the left foot?,p014.csv,P014_FINAL,categorical
+HOPRFOOT,D12f. Can the patient hop on the right foot?,p014.csv,P014_FINAL,categorical
+TIPTOES,D12g. Can the patient walk on tip toes?,p014.csv,P014_FINAL,categorical
+WCHFOOT,"D12g1. If no, the problem is with which foot?",p014.csv,P014_FINAL,continuous
+ONHEELS,D12h. Can the patient walk on heels?,p014.csv,P014_FINAL,categorical
+WHATFOOT,"D12h1. If no, the problem is with which foot?",p014.csv,P014_FINAL,categorical
+KNEE_RT,D14a. Right: knee jerk,p014.csv,P014_FINAL,continuous
+KNEE_LT,D14a1. Left: knee jerk,p014.csv,P014_FINAL,continuous
+ANKLE_RT,D14b. Right: ankle jerk,p014.csv,P014_FINAL,continuous
+ANKLE_LT,D14b1. Left: ankle jerk,p014.csv,P014_FINAL,continuous
+BICEP_RT,D14c. Right: biceps jerk,p014.csv,P014_FINAL,continuous
+BICEP_LT,D14c1. Left: biceps jerk,p014.csv,P014_FINAL,continuous
+TRICEP_R,D14d. Right: triceps jerk,p014.csv,P014_FINAL,continuous
+TRICEP_L,D14d1. Left: triceps jerk,p014.csv,P014_FINAL,continuous
+BRACH_RT,D14e. Right: brachioradialis,p014.csv,P014_FINAL,continuous
+BRACH_LT,D14e1. Left: brachioradialis,p014.csv,P014_FINAL,continuous
+PLANTR_R,D14f1. Plantar responses: Right,p014.csv,P014_FINAL,categorical
+PLANTR_L,D14f2. Plantar responses: Left,p014.csv,P014_FINAL,categorical
+GAIT,D15a. Coordination: gait,p014.csv,P014_FINAL,categorical
+BALANC_L,D15b. Coordination: Can the patient balance on the left foot?,p014.csv,P014_FINAL,categorical
+BALANC_R,D15c. Coordination: Can the patient balance on the right foot?,p014.csv,P014_FINAL,categorical
+COORDINL,D15d. Coordination: The fine motor coordination of the left hand,p014.csv,P014_FINAL,categorical
+COORDINR,D15e. Coordination: The fine motor coordination of the right hand,p014.csv,P014_FINAL,categorical
+ATAXRARM,D15f1. Appendicular ataxia: Right arm,p014.csv,P014_FINAL,categorical
+ATAXRLEG,D15f2. Appendicular ataxia: Right leg,p014.csv,P014_FINAL,categorical
+ATAXLARM,D15f3. Appendicular ataxia: Left arm,p014.csv,P014_FINAL,categorical
+ATAXLLEG,D15f4. Appendicular ataxia: Left leg,p014.csv,P014_FINAL,categorical
+RARMTOUC,D16a. Sensation: Right arm light touch,p014.csv,P014_FINAL,categorical
+RARMPINP,D16a1. Sensation: Right arm pinprick,p014.csv,P014_FINAL,categorical
+RLEGTOUC,D16b. Sensation: Right leg light touch,p014.csv,P014_FINAL,categorical
+RLEGPINP,D16b1. Sensation: Right leg pinprick,p014.csv,P014_FINAL,categorical
+LARMTOUC,D16c. Sensation: Left arm light touch,p014.csv,P014_FINAL,categorical
+LARMPINP,D16c1. Sensation: Left arm pinprick,p014.csv,P014_FINAL,categorical
+LLEGTOUC,D16d. Sensation: Left leg light touch,p014.csv,P014_FINAL,categorical
+LLEGPINP,D16d1. Sensation: Left leg pinprick,p014.csv,P014_FINAL,categorical
+RFACE_T,D16e. Sensation: Right face light touch,p014.csv,P014_FINAL,categorical
+RFACEPIN,D16e1. Sensation: Right face pinprick,p014.csv,P014_FINAL,categorical
+RTRUNK_T,D16f. Sensation: Right trunk light touch,p014.csv,P014_FINAL,categorical
+RTRUNKPP,D16f1. Sensation: Right trunk pinprick,p014.csv,P014_FINAL,categorical
+LFACE_T,D16g. Sensation: Left face light touch,p014.csv,P014_FINAL,categorical
+LFACEPIN,D16g1. Sensation: Left face pinprick,p014.csv,P014_FINAL,categorical
+LTRUNK_T,D16h. Sensation: Left trunk light touch,p014.csv,P014_FINAL,categorical
+LTRUNKPP,D16h1. Sensation: Left trunk pinprick,p014.csv,P014_FINAL,categorical
+RARMVIB,D16a2. Sensation: Right arm vibration,p014.csv,P014_FINAL,categorical
+RARMPROP,D16a3. Sensation: Right arm proprioception,p014.csv,P014_FINAL,categorical
+RLEGVIB,D16b2. Sensation: Right leg vibration,p014.csv,P014_FINAL,categorical
+RLEGPROP,D16b3. Sensation: Right leg proprioception,p014.csv,P014_FINAL,categorical
+LARMVIB,D16c2. Sensation: Left arm vibration,p014.csv,P014_FINAL,categorical
+LARMPROP,D16c3. Sensation: Left arm proprioception,p014.csv,P014_FINAL,categorical
+LLEGVIB,D16d2. Sensation: Left leg vibration,p014.csv,P014_FINAL,categorical
+LLEGPROP,D16d3. Sensation: Left leg proprioception,p014.csv,P014_FINAL,categorical
+STROKE,D17. Was this event a stroke?,p014.csv,P014_FINAL,categorical
+DESTATUS,DESTATUS,p014.csv,P014_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p014.csv,P014_FINAL,categorical
+ldu_id,ID for public use datasets,p014.csv,P014_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date of interview as days from RAND visit,p014.csv,P014_FINAL,continuous
+onset_dtfrmrand,<created variable> B5. Date of onset as days from RAND visit,p014.csv,P014_FINAL,continuous
+EX_TYPE,X3. Exam type,p015.csv,P015_FINAL,categorical
+EX_NUM,X4. Exam Number,p015.csv,P015_FINAL,categorical
+DWI_PER,A4. Was DWI performed?,p015.csv,P015_FINAL,categorical
+FILMS_OK,A5. MRI study adequate for interpretation?,p015.csv,P015_FINAL,categorical
+BAD_FILM,A5a. Reason MRI study not adequate,p015.csv,P015_FINAL,categorical
+BADFSPEC,A5b. Specify other reason MRI study not adequate,p015.csv,P015_FINAL,categorical
+REASON_P,B1. Reason for MRI procedure,p015.csv,P015_FINAL,categorical
+EV_TYPE,B1b. Type of neurological event,p015.csv,P015_FINAL,categorical
+DESTATUS,DESTATUS,p015.csv,P015_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p015.csv,P015_FINAL,categorical
+COMPREV,C1. Is this MRI scan being compared to a previous scan?,p015.csv,P015_FINAL,categorical
+SCANENCL,C2. Are event CT scans enclosed?,p015.csv,P015_FINAL,categorical
+MRI_PERF,C4a. Reason event CT scan enclosed for review,p015.csv,P015_FINAL,categorical
+INTRAHEM,C4b. Reason event CT scans enclosed: Intracranial hemorrhage?,p015.csv,P015_FINAL,categorical
+OTH_REAS,C4c. Reason event CT scans enclosed: Other reason?,p015.csv,P015_FINAL,categorical
+ENCL_SPC,C4c1. Specify other reason event CT enclosed for review,p015.csv,P015_FINAL,categorical
+ACCEPTAB,D3. Study acceptable for interpretation?,p015.csv,P015_FINAL,categorical
+SCANQUAL,D4. Scan quality,p015.csv,P015_FINAL,categorical
+DWI_FILM,D5a. Are DWI films available for review for this study?,p015.csv,P015_FINAL,categorical
+ATROPHY,E1. Atrophy,p015.csv,P015_FINAL,categorical
+GENERAL,E2. Type of atrophy: General,p015.csv,P015_FINAL,categorical
+G_SULCAL,E2a. General atrophy: Sulcal,p015.csv,P015_FINAL,categorical
+G_VENTR,E2b. General atrophy: Ventricular,p015.csv,P015_FINAL,categorical
+G_SEV,E2c. General atrophy: Level of severity,p015.csv,P015_FINAL,categorical
+FOCAL,E3. Type of atrophy: Focal,p015.csv,P015_FINAL,categorical
+F_SULCAL,E3a. Focal atrophy: Sulcal,p015.csv,P015_FINAL,categorical
+F_VENTR,E3b. Focal atrophy: Ventricular,p015.csv,P015_FINAL,categorical
+FOCALSPC,E3c. Specify areas of focal atrophy,p015.csv,P015_FINAL,categorical
+GSTAT_B,E4a. Status of general atrophy compared to pre-rand study,p015.csv,P015_FINAL,categorical
+GSTAT_P,E4b. Status of general atrophy compared to previous study,p015.csv,P015_FINAL,categorical
+FSTAT_B,E5a. Status of focal atrophy compared to pre-randomization study,p015.csv,P015_FINAL,categorical
+FSTAT_P,E5b. Status of focal atrophy compared to previous study,p015.csv,P015_FINAL,categorical
+RICCAVER,G1a. Right internal carotid: cavernous,p015.csv,P015_FINAL,categorical
+LICCAVER,G1b. Left internal carotid: cavernous,p015.csv,P015_FINAL,categorical
+RIC_SUPR,G2a. Right internal carotid: supraclinoid,p015.csv,P015_FINAL,categorical
+LIC_SUPR,G2b. Left internal carotid: supraclinoid,p015.csv,P015_FINAL,categorical
+RMCA,G3a. Right MCA,p015.csv,P015_FINAL,categorical
+LMCA,G3b. Left MCA,p015.csv,P015_FINAL,categorical
+RACA,G4a. Right ACA,p015.csv,P015_FINAL,categorical
+LACA,G4b. Left ACA,p015.csv,P015_FINAL,categorical
+RPCA,G5a. Right PCA,p015.csv,P015_FINAL,categorical
+LPCA,G5b. Left PCA,p015.csv,P015_FINAL,categorical
+BASILAR,G6. Basilar artery,p015.csv,P015_FINAL,categorical
+BLD_VESS,G7. Collateral blood vessels,p015.csv,P015_FINAL,categorical
+VASC_BAS,G8a. Status of vasculature compared to pre-rand study,p015.csv,P015_FINAL,categorical
+VASC_PRE,G8b. Status of vasculature compared to previous study,p015.csv,P015_FINAL,categorical
+BONYCHNG,H1. Bony changes,p015.csv,P015_FINAL,categorical
+BONT_SPC,H1a. Specify focal abnormality,p015.csv,P015_FINAL,categorical
+BONY_BAS,H2a. Status of bony changes compared to pre-rand study,p015.csv,P015_FINAL,categorical
+BONY_PRE,H2b. Status of bony changes compared to previous study,p015.csv,P015_FINAL,categorical
+FILM_REV,J1. Were CT films reviewed?,p015.csv,P015_FINAL,categorical
+INTHEMOR,J3. CT scan evidence of intracranial hemorrhage?,p015.csv,P015_FINAL,categorical
+SIDE_F,Discrete findings: Lesion side,p015.csv,P015_FINAL,categorical
+TYPE_F,Discrete findings: Lesion type,p015.csv,P015_FINAL,categorical
+SIZE_F,Discrete findings: Lesion size,p015.csv,P015_FINAL,categorical
+LOC1_F,Discrete findings: Lesion location 1,p015.csv,P015_FINAL,categorical
+LOC2_F,Discrete findings: Lesion location 2,p015.csv,P015_FINAL,categorical
+LOC3_F,Discrete findings: Lesion location 3,p015.csv,P015_FINAL,categorical
+LOC4_F,Discrete findings: Lesion location 4,p015.csv,P015_FINAL,categorical
+BSTAT_F,Status of lesion compared to pre-randomization study,p015.csv,P015_FINAL,categorical
+PSTAT_F,Status of lesion compared to previous study,p015.csv,P015_FINAL,categorical
+les_num,<created variable> Lesion number,p015.csv,P015_FINAL,continuous
+frontal,<created variable> Location: Frontal,p015.csv,P015_FINAL,categorical
+temporal,<created variable> Location: Temporal,p015.csv,P015_FINAL,categorical
+parietal,<created variable> Location: Parietal,p015.csv,P015_FINAL,categorical
+occipita,<created variable> Location: Occipital,p015.csv,P015_FINAL,categorical
+basalgan,<created variable> Location: Basal ganglia or Thalamic,p015.csv,P015_FINAL,categorical
+cortex,<created variable> Location: Cortex,p015.csv,P015_FINAL,categorical
+capsular,<created variable> Location: Capsular/Corona,p015.csv,P015_FINAL,categorical
+whitemat,<created variable> Location: Deep white matter/perivent,p015.csv,P015_FINAL,categorical
+brainste,<created variable> Location: Brain stem,p015.csv,P015_FINAL,categorical
+cerebell,<created variable> Location: Cerebellum,p015.csv,P015_FINAL,categorical
+cortwhit,<created variable> Location: Cortex and/or white matter,p015.csv,P015_FINAL,continuous
+lesion,<summary variable> Lesion location summary,p015.csv,P015_FINAL,categorical
+les_tot,<summary variable> Total number of lesions reported for MRI study,p015.csv,P015_FINAL,continuous
+les_chngfrbase,<summary variable> Any lesion changes on scan since baseline study?,p015.csv,P015_FINAL,categorical
+frontal_side,<summary variable> Any frontal lesion on scan?,p015.csv,P015_FINAL,categorical
+parietal_side,<summary variable> Any parietal lesion on scan?,p015.csv,P015_FINAL,categorical
+temporal_side,<summary variable> Any temporal lesion on scan?,p015.csv,P015_FINAL,categorical
+occipita_side,<summary variable> Any occipital lesion on scan?,p015.csv,P015_FINAL,categorical
+basalgan_side,<summary variable> Any basal ganglia lesion on scan?,p015.csv,P015_FINAL,categorical
+capsular_side,<summary variable> Any capsular lesion on scan?,p015.csv,P015_FINAL,categorical
+cerebell_side,<summary variable> Any cerebellar lesion on scan?,p015.csv,P015_FINAL,categorical
+ldu_id,ID for public use datasets,p015.csv,P015_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date of MRI procedure as days from RAND visit,p015.csv,P015_FINAL,continuous
+event_dtfrmrand,<created variable> B1a. Date of event as days from RAND visit,p015.csv,P015_FINAL,continuous
+basel_dtfrmrand,<created variable> C1a. Date of pre-randomization study as days from RAND visit,p015.csv,P015_FINAL,continuous
+prev_dtfrmrand,<created variable> C1b. Date of previous study as days from RAND visit,p015.csv,P015_FINAL,continuous
+ct_datefrmrand,<created variable> C2a. Date of CT scan as days from RAND visit,p015.csv,P015_FINAL,continuous
+neuro_dtfrmrand,<created variable> C2b. Date of neurological event as days from RAND visit,p015.csv,P015_FINAL,continuous
+read_dtfrmrand,<created variable> D2. Date read as days from RAND visit,p015.csv,P015_FINAL,continuous
+EX_TYPE,X3. Exam type,p016.csv,P016_FINAL,categorical
+EX_NUM,X4. Exam Number,p016.csv,P016_FINAL,continuous
+INT_TYPE,A3. Person interviewed,p016.csv,P016_FINAL,categorical
+SP_INT,"<recoded> A3a. Person interviewed, specify",p016.csv,P016_FINAL,categorical
+A_T_VERI,A4. Address and telephone info verified,p016.csv,P016_FINAL,categorical
+ANYMEDS,B1. Patient taking any medications,p016.csv,P016_FINAL,categorical
+PENCILLN,B1a1. Pencillin,p016.csv,P016_FINAL,categorical
+PEN_MTHS,B1b1. Months taking: Pencillin,p016.csv,P016_FINAL,continuous
+OTH_ANTI,B1a2. Other antibiotic,p016.csv,P016_FINAL,categorical
+OTHANTMT,B1b2. Months taking: Other,p016.csv,P016_FINAL,continuous
+FOLATE,B1a3. Folate,p016.csv,P016_FINAL,categorical
+FOLAT_MT,B1b3. Months taking: Folate,p016.csv,P016_FINAL,continuous
+HYDROXYU,B1a4. Hydroxyurea,p016.csv,P016_FINAL,categorical
+HYDRX_MT,B1b4. Months taking: Hydroxyurea,p016.csv,P016_FINAL,continuous
+IRONCHEL,B1a5. Iron Chelators,p016.csv,P016_FINAL,categorical
+IRON_MTH,B1b5. Months taking: Iron chelators,p016.csv,P016_FINAL,continuous
+OTH_MED,B1a6. Other medication(s),p016.csv,P016_FINAL,categorical
+O_MED_MT,B1b6a. Months taking: Other 1,p016.csv,P016_FINAL,continuous
+O_MD2_MT,B1b6b. Months taking: Other 2,p016.csv,P016_FINAL,continuous
+O_MD3_MT,B1b6c. Months taking: Other 3,p016.csv,P016_FINAL,continuous
+O_MD4_MT,B1b6d. Months taking: Other 4,p016.csv,P016_FINAL,continuous
+STROKE,C1a1. Stroke/TIA,p016.csv,P016_FINAL,categorical
+STROKTTL,C1b1. Number of events:stroke,p016.csv,P016_FINAL,continuous
+TREATSTR,C1c1. Number of events treated:stroke,p016.csv,P016_FINAL,continuous
+SEENSTRK,C1e1. Location seen at for stroke,p016.csv,P016_FINAL,categorical
+SEIZURES,C1a2. Seizures,p016.csv,P016_FINAL,categorical
+MENINGIT,C1a3. Meningitis,p016.csv,P016_FINAL,categorical
+HEADINJR,C1a4. Head injury,p016.csv,P016_FINAL,categorical
+SPLENICS,C1a5. Splenic sequestration,p016.csv,P016_FINAL,categorical
+APLASTIC,C1a6. Aplastic Crisis,p016.csv,P016_FINAL,categorical
+APLASTTL,C1b6. Number of events:aplastic,p016.csv,P016_FINAL,continuous
+TREATAPL,C1c6. Number of events treated:aplastic,p016.csv,P016_FINAL,continuous
+SEENAPLS,C1e6. Location seen at for aplastic,p016.csv,P016_FINAL,categorical
+H_F_SYND,C1a7. Hand-Foot Syndrome,p016.csv,P016_FINAL,categorical
+HFS_TTL,C1b7. Number of events:Hand foot syndrome,p016.csv,P016_FINAL,continuous
+TREATHFS,C1c7. Number of events treated:Hand foot syndrome,p016.csv,P016_FINAL,continuous
+SEENHFS,C1e7. Location seen at for hand foot syndrome,p016.csv,P016_FINAL,continuous
+VASOPAIN,C1a8. Vaso-occlusive pain,p016.csv,P016_FINAL,categorical
+VASO_TTL,C1b8. Number of events:Vaso-occlusive pain,p016.csv,P016_FINAL,continuous
+TREATVAS,C1c8. Number of events treated:Vaso-occlusive pain,p016.csv,P016_FINAL,continuous
+SEENVASO,C1e8. Location seen at for vaso-occlusive pain,p016.csv,P016_FINAL,categorical
+FEVER,C1a9. Fever,p016.csv,P016_FINAL,categorical
+FEVERTTL,C1b9. Number of events:Fever,p016.csv,P016_FINAL,continuous
+TREATFEV,C1c9. Number of events treated:Fever,p016.csv,P016_FINAL,continuous
+SEENFEVR,C1e9. Location seen at for fever,p016.csv,P016_FINAL,categorical
+SEPTICEM,C1a10. Septicemia,p016.csv,P016_FINAL,categorical
+SEPT_TTL,C1b10. Number of events:Septicemia,p016.csv,P016_FINAL,continuous
+TREATSEP,C1c10. Number of events treated:Septicemia,p016.csv,P016_FINAL,continuous
+SEENSEPT,C1e10. Location seen at for septicemia,p016.csv,P016_FINAL,categorical
+PNEUMONI,C1a11. Acute Chest Syndrome/Pneumonia,p016.csv,P016_FINAL,categorical
+PNEUMTTL,C1b11. Number of events:ACS/pneumonia,p016.csv,P016_FINAL,continuous
+TREATPNE,C1c11. Number of events treated:ACS/pneumonia,p016.csv,P016_FINAL,continuous
+SEENPNEU,C1e11. Location seen at for ACS/pneumonia,p016.csv,P016_FINAL,categorical
+OSTEOMYL,C1a12. Osteomyelitis,p016.csv,P016_FINAL,categorical
+OSTEOTTL,C1b12. Number of events:Osteomyelitis,p016.csv,P016_FINAL,continuous
+TREATOST,C1c12. Number of events treated:Osteomyelitis,p016.csv,P016_FINAL,continuous
+SEENOSTE,C1e12. Location seen at for osteomyelitis,p016.csv,P016_FINAL,categorical
+PRIAPISM,C1a13. Priapism,p016.csv,P016_FINAL,categorical
+PRIAPTTL,C1b13. Number of events:Priapism,p016.csv,P016_FINAL,continuous
+TREATPRI,C1c13. Number of events treated:Priapism,p016.csv,P016_FINAL,continuous
+SEENPRIA,C1e13. Location seen at for priapism,p016.csv,P016_FINAL,categorical
+T_REACTN,C1a14. Transfusion reaction,p016.csv,P016_FINAL,categorical
+REACTTTL,C1b14. Number of events:Transfusion reaction,p016.csv,P016_FINAL,continuous
+TREATREA,C1c14. Number of events treated:Transfusion reaction,p016.csv,P016_FINAL,continuous
+SEENREAC,C1e14. Location seen at for transfusion reaction,p016.csv,P016_FINAL,categorical
+OTH_EVNT,C1a15. Other event,p016.csv,P016_FINAL,categorical
+OTH_TTL,C1b15. Number of events:Other,p016.csv,P016_FINAL,continuous
+TREATOTH,C1c15. Number of events treated:Other,p016.csv,P016_FINAL,continuous
+SEENOTH,C1e15. Location seen at for other,p016.csv,P016_FINAL,categorical
+TRANFUSN,C2a1. Transfusion,p016.csv,P016_FINAL,categorical
+TRAN_TTL,C2b1. Num of events:Transfusion,p016.csv,P016_FINAL,continuous
+TRANPERF,C2c1. Num of events treated:Transfusion,p016.csv,P016_FINAL,continuous
+SEENTRAN,C2e1. Seen: Transfusion,p016.csv,P016_FINAL,categorical
+SURGERY,C2a2. Surgery,p016.csv,P016_FINAL,categorical
+SURG_TTL,C2b2. Num of events:Surgery,p016.csv,P016_FINAL,continuous
+SURGPERF,C2c2. Num of events treated:Surgery,p016.csv,P016_FINAL,continuous
+SEENSURG,C2e2. Seen: Surgery,p016.csv,P016_FINAL,categorical
+DESTATUS,DESTATUS,p016.csv,P016_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p016.csv,P016_FINAL,categorical
+HEADACHE,D1. Has the patient complained of headaches?,p016.csv,P016_FINAL,categorical
+HEADFREQ,D1a. Is the frequency < 1 per month or >= 1 per month,p016.csv,P016_FINAL,categorical
+HEAD_MTH,D1b. How long has the patient had them,p016.csv,P016_FINAL,continuous
+HEAD_LOC,D1c. Describe location and type of pain,p016.csv,P016_FINAL,categorical
+LOSSCONS,D2. Has (s)he experienced loss of consciousness,p016.csv,P016_FINAL,categorical
+LOSSEPIS,D2a. Number of episodes: Lost consciousness,p016.csv,P016_FINAL,continuous
+DIZZINESS,D3. Dizziness,p016.csv,P016_FINAL,categorical
+DIZZY_EP,D3a. Number of episodes: Dizziness,p016.csv,P016_FINAL,continuous
+D_VISION,D4a. Double vision,p016.csv,P016_FINAL,categorical
+VISION_L,D4b. Loss of vision or blind spots,p016.csv,P016_FINAL,categorical
+INVOLMOV,D5. Involuntary movements,p016.csv,P016_FINAL,categorical
+MOVE_SPC,D5a. Describe type of movements,p016.csv,P016_FINAL,categorical
+MOVELARM,D5b1. Left arm,p016.csv,P016_FINAL,categorical
+MOVERARM,D5b2. Right arm,p016.csv,P016_FINAL,categorical
+MOVELLEG,D5b3. Left leg,p016.csv,P016_FINAL,categorical
+MOVERLEG,D5b4. Right leg,p016.csv,P016_FINAL,categorical
+MOVLFACE,D5b5. Left face,p016.csv,P016_FINAL,categorical
+MOVRFACE,D5b6. Right face,p016.csv,P016_FINAL,categorical
+NUMBNESS,D6. Numbness,p016.csv,P016_FINAL,categorical
+NUMBLARM,D6a1. Numb: Left arm,p016.csv,P016_FINAL,categorical
+NUMBRARM,D6a2. Numb: Right arm,p016.csv,P016_FINAL,categorical
+NUMBLLEG,D6a3. Numb: Left leg,p016.csv,P016_FINAL,categorical
+NUMBRLEG,D6a4. Numb: Right  leg,p016.csv,P016_FINAL,categorical
+NUMLFACE,D6a5. Numb: Left face,p016.csv,P016_FINAL,categorical
+NUMRFACE,D6a6. Numb:Right face,p016.csv,P016_FINAL,categorical
+WEAKNESS,D7. Weakness,p016.csv,P016_FINAL,categorical
+WEAKLARM,D7a1. Weak:  Left arm,p016.csv,P016_FINAL,categorical
+WEAKRARM,D7a2. Weak: Right arm,p016.csv,P016_FINAL,categorical
+WEAKLLEG,D7a3. Weak: Left leg,p016.csv,P016_FINAL,categorical
+WEAKRLEG,D7a4. Weak: Right leg,p016.csv,P016_FINAL,categorical
+WEAKLFACE,D7a5. Weak: Left face,p016.csv,P016_FINAL,categorical
+WEAKRFACE,D7a6. Weak: Right face,p016.csv,P016_FINAL,categorical
+HANDCHNG,D8. Hand change,p016.csv,P016_FINAL,categorical
+WHCHHAND,D8a. Hand change: Which hand,p016.csv,P016_FINAL,continuous
+DIFFUNDR,D9. Any difficulty talking or understanding what was said,p016.csv,P016_FINAL,categorical
+SLURRING,D9a1. Slurring,p016.csv,P016_FINAL,categorical
+DIF_UNDS,D9a2. Difficulty understanding,p016.csv,P016_FINAL,categorical
+EXPRESS,D9a3. Expressing,p016.csv,P016_FINAL,categorical
+LANGFUNC,D10. Unable to perform a muscle or language function,p016.csv,P016_FINAL,categorical
+LANG_SPC,D10a. Language function: Specify,p016.csv,P016_FINAL,categorical
+LULCERS,E1. Leg ulcers,p016.csv,P016_FINAL,categorical
+A_NECROS,E2. Aseptic necrosis,p016.csv,P016_FINAL,categorical
+NECROSPC,"E2b. Aseptic necrosis, specify",p016.csv,P016_FINAL,categorical
+SC_RETIN,E3. Sickle cell retinopathy,p016.csv,P016_FINAL,categorical
+CHR_LUNG,E4. Chronic lung disease,p016.csv,P016_FINAL,categorical
+ASTHMA,E5. Asthma,p016.csv,P016_FINAL,categorical
+CHD,E6. Chronic heart disease,p016.csv,P016_FINAL,categorical
+CHRLIVER,E7. Chronic liver disease,p016.csv,P016_FINAL,categorical
+CHRRENAL,E8. Chronic renal disease,p016.csv,P016_FINAL,categorical
+IRONOVER,E9. Iron overload,p016.csv,P016_FINAL,categorical
+FERRITIN,E9b. Ferritin,p016.csv,P016_FINAL,continuous
+DIABETES,E10. Diabetes,p016.csv,P016_FINAL,categorical
+RHEUMATC,E11. Rheumatc fever,p016.csv,P016_FINAL,categorical
+TUBERCUL,E12. Tuberculosis,p016.csv,P016_FINAL,categorical
+CANCER,E13. Cancer,p016.csv,P016_FINAL,categorical
+PRIAP,E14. Priapism,p016.csv,P016_FINAL,categorical
+ELEV_BLD,E15. Elevated blood lead level,p016.csv,P016_FINAL,categorical
+RBCANTI,E16. New red cell antibody,p016.csv,P016_FINAL,categorical
+RBC_SPC1,"E16a1. New red cell antibody,specify",p016.csv,P016_FINAL,categorical
+OTHCOND,E17. Other condition,p016.csv,P016_FINAL,categorical
+HEPBVACC,F1. HepB Vaccination,p016.csv,P016_FINAL,categorical
+NON_STOP,G1. Is patient seen at non-STOP II sites,p016.csv,P016_FINAL,categorical
+NEWNEURO,H1. Any new neurological,p016.csv,P016_FINAL,categorical
+INV_REV,H1a. Did STOPII Investigators review results of both reports?,p016.csv,P016_FINAL,categorical
+SIGNEURO,H1a2. Patient has deveoped significant new neurological symptoms,p016.csv,P016_FINAL,categorical
+NEWREPRT,H1a2b. Were new symptoms reported on a STOP II Event Form,p016.csv,P016_FINAL,categorical
+ldu_id,ID for public use datasets,p016.csv,P016_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date of interview as days from RAND visit,p016.csv,P016_FINAL,continuous
+qtrrptfrmrand,<created variable> C1. Date of last report as days from RAND visit,p016.csv,P016_FINAL,continuous
+strok_dtfrmrand,<created variable> C1d1. Date of stroke as days from RAND visit,p016.csv,P016_FINAL,continuous
+aplast_dfrmrand,<created variable> C1d6. Date of aplastic crisis as days from RAND visit,p016.csv,P016_FINAL,continuous
+fever_dtfrmrand,<created variable> C1d9. Date of fever as days from RAND visit,p016.csv,P016_FINAL,continuous
+hfs_datefrmrand,<created variable> C1d7. Date of hand foot syndrome as days from RAND visit,p016.csv,P016_FINAL,continuous
+osteo_dtfrmrand,<created variable> C1d12. Date of osteomyelitis as days from RAND visit,p016.csv,P016_FINAL,continuous
+oth_evdtfrmrand,<created variable> C1d15. Date of other event as days from RAND visit,p016.csv,P016_FINAL,continuous
+pneum_dtfrmrand,<created variable> C1d11. Date of ACS/pneumonia as days from RAND visit,p016.csv,P016_FINAL,continuous
+priap_dtfrmrand,<created variable> C1d13. Date of priapism as days from RAND visit,p016.csv,P016_FINAL,continuous
+react_dtfrmrand,<created variable> C1d14. Date of transfusion reaction as days from RAND visit,p016.csv,P016_FINAL,continuous
+septi_dtfrmrand,<created variable> C1d10. Date of septicemia as days from RAND visit,p016.csv,P016_FINAL,continuous
+surg_dtfrmrand,<created variable> C2d2. Date of: Surgery as days from RAND visit,p016.csv,P016_FINAL,continuous
+transf_dfrmrand,<created variable> C2d1. Date of: Transfusion as days from RAND visit,p016.csv,P016_FINAL,continuous
+vaso_dtfrmrand,<created variable> C1d8. Date of vaso-occlusive pain as days from RAND visit,p016.csv,P016_FINAL,continuous
+dizzy_dtfrmrand,<created variable> D3b. Date of most recent episode: Dizziness as days from RAND visit,p016.csv,P016_FINAL,continuous
+expres_dfrmrand,<created variable> D9a3a. Date: Expressing as days from RAND visit,p016.csv,P016_FINAL,continuous
+loss_dtfrmrand,<created variable> D2b. Date of most recent episode: Lost consciousness as days from RAND visit,p016.csv,P016_FINAL,continuous
+mlarm_dtfrmrand,<created variable> D5b1a. Date: Left arm as days from RAND visit,p016.csv,P016_FINAL,continuous
+mlleg_dtfrmrand,<created variable> D5b3a. Date: Left leg as days from RAND visit,p016.csv,P016_FINAL,continuous
+mrarm_dtfrmrand,<created variable> D5b2a. Date: Right arm as days from RAND visit,p016.csv,P016_FINAL,continuous
+mrleg_dtfrmrand,<created variable> D5b4a. Date: Right leg as days from RAND visit,p016.csv,P016_FINAL,continuous
+neuro_dtfrmrand,<created variable> H1a2c. Date of Neurological Event as days from RAND visit,p016.csv,P016_FINAL,continuous
+nlarm_dtfrmrand,<created variable> D6a1a. Date: Numb: left arm as days from RAND visit,p016.csv,P016_FINAL,continuous
+nlface_dfrmrand,<created variable> D6a5a. Date: Numb: left face as days from RAND visit,p016.csv,P016_FINAL,continuous
+nlleg_dtfrmrand,<created variable> D6a3a. Date: Numb: Left leg as days from RAND visit,p016.csv,P016_FINAL,continuous
+nrarm_dtfrmrand,<created variable> D6a2a. Date: Numb: right arm as days from RAND visit,p016.csv,P016_FINAL,continuous
+nrleg_dtfrmrand,<created variable> D6a4a. Date: Numb: Right leg as days from RAND visit,p016.csv,P016_FINAL,continuous
+qtrrpt2frmrand,<created variable> D. Quarterly Report Date as days from RAND visit,p016.csv,P016_FINAL,continuous
+rbcant_dfrmrand,<created variable> E16b. Date first identified as days from RAND visit,p016.csv,P016_FINAL,continuous
+slur_dtfrmrand,<created variable> D9a1a. Date: Slurring as days from RAND visit,p016.csv,P016_FINAL,continuous
+vacc_dtfrmrand,<created variable> F1a. Vaccination date as days from RAND visit,p016.csv,P016_FINAL,continuous
+wlarm_dtfrmrand,<created variable> D7a1a. Date: Weak: Left arm as days from RAND visit,p016.csv,P016_FINAL,continuous
+wlleg_dtfrmrand,<created variable> D7a3a. Date: Weak: Left leg as days from RAND visit,p016.csv,P016_FINAL,continuous
+wrarm_dtfrmrand,<created variable> D7a2a. Date: Weak: Right arm as days from RAND visit,p016.csv,P016_FINAL,continuous
+wrleg_dtfrmrand,<created variable> D7a4a. Date: Weak: Right leg as days from RAND visit,p016.csv,P016_FINAL,continuous
+o_recode1,<recoded variable> C1a15a1. Other code 1,p016.csv,P016_FINAL,continuous
+oth_recodespc1,"<recoded variable> C1a15a. Other event 1, specify",p016.csv,P016_FINAL,categorical
+o_recode2,<recoded variable> C1a15b1. Other code 2,p016.csv,P016_FINAL,continuous
+oth_recodespc2,"<recoded variable> C1a15b. Other event 2, specify",p016.csv,P016_FINAL,categorical
+surgrecode,<recoded variable> C2a2a1. Surgery code 1,p016.csv,P016_FINAL,continuous
+surg_recodespc,"<recoded variable> C1a16a. Surgery 1, specify",p016.csv,P016_FINAL,categorical
+surgrecode2,<recoded variable> C2a2b1. Surgery code 2,p016.csv,P016_FINAL,continuous
+surg_recodesp2,"<recoded variable> C1a16b. Surgery 2, specify",p016.csv,P016_FINAL,categorical
+EX_TYPE,X3. Exam type,p018.csv,P018_FINAL,categorical
+EX_NUM,X4. Exam Number,p018.csv,P018_FINAL,continuous
+MISS_VST,B1. Did patient miss a quarterly visit?,p018.csv,P018_FINAL,categorical
+MISS_TCD,B2. Did patient miss a TCD exam?,p018.csv,P018_FINAL,categorical
+DROP_OUT,B3. Did patient withdraw consent to continue follow-up study?,p018.csv,P018_FINAL,categorical
+LOST_FUP,B4. Was patient lost to follow-up?,p018.csv,P018_FINAL,categorical
+PT_DIE,B5. Did patient die?,p018.csv,P018_FINAL,categorical
+DESTATUS,DESTATUS,p018.csv,P018_FINAL,categorical
+vistype,VISIT TYPE,p018.csv,P018_FINAL,categorical
+ldu_id,ID for public use datasets,p018.csv,P018_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date of interview as days from RAND visit,p018.csv,P018_FINAL,continuous
+death_dtfrmrand,<created variable> B5a. Date of death,p018.csv,P018_FINAL,continuous
+EX_TYPE,X3. Exam type,p019.csv,P019_FINAL,categorical
+EX_NUM,X4. Exam Number,p019.csv,P019_FINAL,categorical
+ADEQUATE,A4. MRA study adequate for interpretation?,p019.csv,P019_FINAL,categorical
+AD_REASN,A4a. Reason MRA not study adequate,p019.csv,P019_FINAL,categorical
+REAS_SPC,A4b. Specify reason MRA not study adequate,p019.csv,P019_FINAL,categorical
+MANUFACT,A6a. MRA machine manufacturer,p019.csv,P019_FINAL,categorical
+ECHOTIME,A7. Echo time (MS),p019.csv,P019_FINAL,continuous
+SPATRESA,A8a. Matrix dimension 1,p019.csv,P019_FINAL,continuous
+SPATRESB,A8b. Matrix dimension 2,p019.csv,P019_FINAL,continuous
+FOV,A9a. Field of view (square),p019.csv,P019_FINAL,continuous
+RECTFVA,A9b1. Field of view (rectangular) dimension 1,p019.csv,P019_FINAL,continuous
+RECTFVB,A9b2. Field of view (rectangular) dimension 2,p019.csv,P019_FINAL,continuous
+REAS_MRA,B1. Reason for MRA procedure,p019.csv,P019_FINAL,categorical
+EV_TYPE,B1b. Type of neurological event,p019.csv,P019_FINAL,categorical
+DESTATUS,DESTATUS,p019.csv,P019_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p019.csv,P019_FINAL,categorical
+COMPPREV,C1. Is this MRA scan being compared to a previous scan?,p019.csv,P019_FINAL,continuous
+STUDY_OK,D3. Study acceptable for interpretation?,p019.csv,P019_FINAL,continuous
+NOK_REAS,D3a. Reason study not acceptable for interpretation?,p019.csv,P019_FINAL,categorical
+SCANQUAL,D4. Scan quality,p019.csv,P019_FINAL,continuous
+SOURCEAV,D5a. Source images available for review?,p019.csv,P019_FINAL,continuous
+TARGETAV,D5b. Targeted MIP images available for review?,p019.csv,P019_FINAL,continuous
+UNSEGMAV,D5c. Unsegmented paraxial images available for review?,p019.csv,P019_FINAL,continuous
+RICARATE,E1a. Right ICA rating,p019.csv,P019_FINAL,continuous
+RICABASE,E1b1. Right ICA compared to pre-randomization,p019.csv,P019_FINAL,categorical
+RICAPREV,E1b2. Right ICA compared to previous study,p019.csv,P019_FINAL,categorical
+RMCARATE,E2a. Right MCA rating,p019.csv,P019_FINAL,continuous
+RMCABASE,E2b1. Right MCA compared to pre-randomization,p019.csv,P019_FINAL,categorical
+RMCAPREV,E2b2. Right MCA compared to previous study,p019.csv,P019_FINAL,categorical
+RACARATE,E3a. Right ACA rating,p019.csv,P019_FINAL,continuous
+RACABASE,E3b1. Right ACA compared to pre-randomization,p019.csv,P019_FINAL,categorical
+RACAPREV,E3b2. Right ACA compared to previous study,p019.csv,P019_FINAL,categorical
+RPCARATE,E4a. Right PCA rating,p019.csv,P019_FINAL,continuous
+RPCABASE,E4b1. Right PCA compared to pre-randomization,p019.csv,P019_FINAL,categorical
+RPCAPREV,E4b2. Right PCA compared to previous study,p019.csv,P019_FINAL,categorical
+LICARATE,E5a. Left ICA rating,p019.csv,P019_FINAL,continuous
+LICABASE,E5b1. Left ICA compared to pre-randomization,p019.csv,P019_FINAL,categorical
+LICAPREV,E5b2. Left ICA compared to previous study,p019.csv,P019_FINAL,categorical
+LMCARATE,E6a. Left MCA rating,p019.csv,P019_FINAL,continuous
+LMCABASE,E6b1. Left MCA compared to pre-randomization,p019.csv,P019_FINAL,categorical
+LMCAPREV,E6b2. Left MCA compared to previous study,p019.csv,P019_FINAL,categorical
+LACARATE,E7a. Left ACA rating,p019.csv,P019_FINAL,continuous
+LACABASE,E7b1. Left ACA compared to pre-randomization,p019.csv,P019_FINAL,categorical
+LACAPREV,E7b2. Left ACA compared to previous study,p019.csv,P019_FINAL,categorical
+LPCARATE,E8a. Left PCA rating,p019.csv,P019_FINAL,continuous
+LPCABASE,E8b1. Left PCA compared to pre-randomization,p019.csv,P019_FINAL,categorical
+LPCAPREV,E8b2. Left PCA compared to previous study,p019.csv,P019_FINAL,categorical
+BASLRATE,E9a. Basilar rating,p019.csv,P019_FINAL,continuous
+BASLBASE,E9b1. Basilar compared to pre-randomization,p019.csv,P019_FINAL,categorical
+BASLPREV,E9b2. Basilar compared to previous study,p019.csv,P019_FINAL,categorical
+RPCOARAT,E10a. Right PCoA rating,p019.csv,P019_FINAL,continuous
+RPCOABAS,E10b1. Right PCoA compared to pre-randomization,p019.csv,P019_FINAL,categorical
+RPCOAPRV,E10b2. Right PCoA compared to previous study,p019.csv,P019_FINAL,categorical
+LPCOARAT,E11a. Left PCoA rating,p019.csv,P019_FINAL,continuous
+LPCOABAS,E11b1. Left PCoA compared to pre-randomization,p019.csv,P019_FINAL,categorical
+LPCOAPRV,E11b2. Left PCoA compared to previous study,p019.csv,P019_FINAL,categorical
+RHROBRAT,E12a. Robustness of right hemisphere blood flow,p019.csv,P019_FINAL,continuous
+RHROBBAS,E12b1. Right hemisphere blood flow compared to pre-randomization,p019.csv,P019_FINAL,categorical
+RHROBPRV,E12b2. Right hemisphere blood flow compared to previous study,p019.csv,P019_FINAL,categorical
+LHROBRAT,E13a. Robustness of left hemisphere blood flow,p019.csv,P019_FINAL,continuous
+LHROBBAS,E13b1. Left hemisphere blood flow compared to pre-randomization,p019.csv,P019_FINAL,categorical
+LHROBPRV,E13b2. Left hemisphere blood flow compared to previous study,p019.csv,P019_FINAL,categorical
+ldu_id,ID for public use datasets,p019.csv,P019_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date of MRA procedure as days from RAND visit,p019.csv,P019_FINAL,continuous
+event_dtfrmrand,<created variable> B1a. Date of neurological event as days from RAND visit,p019.csv,P019_FINAL,continuous
+dbasescn_frmrand,<created variable> C1a. Date of pre-randomization study as days from RAND visit,p019.csv,P019_FINAL,continuous
+dprevscn_frmrand,<created variable> C1b. Date of previous study as days from RAND visit,p019.csv,P019_FINAL,continuous
+r_datefrmrand,<created variable> D2. Date read as days from RAND visit,p019.csv,P019_FINAL,continuous
+EX_TYPE,X3. Exam type,p01a.csv,P01A_FINAL,categorical
+EX_NUM,X4. Exam Number,p01a.csv,P01A_FINAL,continuous
+PREVF1A,B1. Has form 01A been completed previously for this patient,p01a.csv,P01A_FINAL,categorical
+DOB_COR,B2. Is the birthdate info on label provided by DCC correct,p01a.csv,P01A_FINAL,categorical
+GEND_COR,B3. Is the gender info on patient label provided by DCC correct,p01a.csv,P01A_FINAL,categorical
+COR_GEND,B3a. Correct gender of patient,p01a.csv,P01A_FINAL,continuous
+HBS_DIAG,C1. Diagnosis of HbSS or HbS/b0 Thalassemia?,p01a.csv,P01A_FINAL,categorical
+AGE2_16,C2. Is the patient's age in the range of 2 through 20 years?,p01a.csv,P01A_FINAL,categorical
+STROKE_H,C3. Does the patient have a prior history of stroke?,p01a.csv,P01A_FINAL,categorical
+BONE_MAR,C4. Has the patient received a bone marrow transplant?,p01a.csv,P01A_FINAL,categorical
+ELIG_TCD,D1. Is the patient eligible for TCD screening?,p01a.csv,P01A_FINAL,categorical
+CONSNT_S,D2. Has legal guardian read and signed informed consent?,p01a.csv,P01A_FINAL,categorical
+SP_CONST,D2a. Reason no consent obtained.,p01a.csv,P01A_FINAL,continuous
+DESTATUS,DESTATUS,p01a.csv,P01A_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p01a.csv,P01A_FINAL,categorical
+ldu_id,ID for public use datasets,p01a.csv,P01A_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date form completed as days from RAND visit,p01a.csv,P01A_FINAL,continuous
+NEW_RACE,"B4. Race of Patient - 1.Black, not latin, 2. Black, latin, 3. Other",p01a.csv,P01A_FINAL,continuous
+EX_TYPE,X3. Exam type,p01b.csv,P01B_FINAL,categorical
+EX_NUM,X4. Exam number,p01b.csv,P01B_FINAL,continuous
+PREVF1B,B1. Form 01A or F01B previously completed for patient,p01b.csv,P01B_FINAL,categorical
+DOB_COR,B2. Is birthdate info on label correct,p01b.csv,P01B_FINAL,categorical
+GEND_COR,B3. Is gender info on label correct,p01b.csv,P01B_FINAL,categorical
+COR_GEND,B3a. Check correct gender,p01b.csv,P01B_FINAL,continuous
+PRE_RAND,C1. Is patient a previously STOP randomized patient,p01b.csv,P01B_FINAL,categorical
+HBS_DIAG,C2. Does patient have diagnosis of HbSS or HbS/b0 Thalassemia,p01b.csv,P01B_FINAL,categorical
+AGE2_20,C3. Is patient's age in the range of 2 through 20 years,p01b.csv,P01B_FINAL,categorical
+TX_RECPT,C4. Currently receiving transfusions for primary stroke prevention,p01b.csv,P01B_FINAL,categorical
+ABN_TCDS,C4b. Did patient have 2 abnormal TCDs or 1 abn of velocity 220,p01b.csv,P01B_FINAL,categorical
+H_STROKE,C5. Does patient have prior history of stroke,p01b.csv,P01B_FINAL,categorical
+BONE_MAR,C6. Has patient received bone marrow transplant,p01b.csv,P01B_FINAL,categorical
+ELIG_P1,D1. Is patient eligible for follow-up as a potential candidate,p01b.csv,P01B_FINAL,categorical
+CONSENT,D2. Has guardian read and signed informed consent document,p01b.csv,P01B_FINAL,categorical
+CONSNT_R,D2a. Reason for no consent,p01b.csv,P01B_FINAL,continuous
+DESTATUS,DESTATUS,p01b.csv,P01B_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p01b.csv,P01B_FINAL,categorical
+ldu_id,ID for public use datasets,p01b.csv,P01B_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date form completed as days from RAND visit,p01b.csv,P01B_FINAL,continuous
+tx_startfrmrand,<created variable> C4a. Date transfusion started as days from RAND visit,p01b.csv,P01B_FINAL,continuous
+NEW_RACE,"B4. Race of Patient - 1.Black, not latin, 2. Black, latin, 3. Other",p01b.csv,P01B_FINAL,continuous
+EX_TYPE,X3. Exam Type,p01c.csv,P01C_FINAL,categorical
+EX_NUM,X4. Exam Number,p01c.csv,P01C_FINAL,continuous
+PREVF1C,"B1. Has Form 01A, 01B, or 01C been completed previously",p01c.csv,P01C_FINAL,categorical
+DOB_COR,B2. Is birthdate information on label provided by DCC correct,p01c.csv,P01C_FINAL,categorical
+GEND_COR,B3. Is the gender information on label provided by DCC correct,p01c.csv,P01C_FINAL,categorical
+COR_GEND,B3a. Check correct gender of patient,p01c.csv,P01C_FINAL,continuous
+HBS_DIAG,C1. A diagnosis of HbSS or HbS/b0 Thalassemia?,p01c.csv,P01C_FINAL,categorical
+AGE4_20,C2. Is the patient's age in the range of 4.5 through 20 years,p01c.csv,P01C_FINAL,categorical
+TX_RECPT,C3. Currently receiving trans for primary stroke prevention,p01c.csv,P01C_FINAL,categorical
+TX_ADQT,C3a. Was patient adequately transfused during last 30 months,p01c.csv,P01C_FINAL,categorical
+ABN_TCDS,C3a2. Did patient have abnormal TCD readings prior to transfusions,p01c.csv,P01C_FINAL,categorical
+H_STROKE,C4. Does the patient have a prior history of stroke,p01c.csv,P01C_FINAL,categorical
+BONE_MAR,C5. Has the patient received a bone marrow transplant,p01c.csv,P01C_FINAL,categorical
+ELIG_PR,D1. Is the patient eligible for pre-randomization evaluation,p01c.csv,P01C_FINAL,categorical
+CONSENT,D2. Has patient's guardian read and signed inform consent doc,p01c.csv,P01C_FINAL,categorical
+CONSNT_R,D2a. Specify reason for no consent,p01c.csv,P01C_FINAL,continuous
+DESTATUS,DESTATUS,p01c.csv,P01C_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p01c.csv,P01C_FINAL,categorical
+ldu_id,ID for public use datasets,p01c.csv,P01C_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date form completed as days from RAND visit,p01c.csv,P01C_FINAL,continuous
+tx_startfrmrand,<created variable> C3a1. Date transfusion started as days from RAND visit,p01c.csv,P01C_FINAL,continuous
+NEW_RACE,"B4. Race of Patient - 1.Black, not latin, 2. Black, latin, 3. Other",p01c.csv,P01C_FINAL,continuous
+EX_TYPE,X3. Exam Type,p020.csv,P020_FINAL,categorical
+EX_NUM,X4. Exam Number,p020.csv,P020_FINAL,continuous
+WHYTRAN1,A3a. Reason for this transfusion,p020.csv,P020_FINAL,categorical
+WHYTRAN2,A3b. Second reason for this transfusion,p020.csv,P020_FINAL,categorical
+WHYTRAN3,A3c. Third reason for this transfusion,p020.csv,P020_FINAL,categorical
+WEIGHT,B1. Weight(kg),p020.csv,P020_FINAL,continuous
+BP_SYS,B2a. Systolic blood pressure (supine),p020.csv,P020_FINAL,continuous
+BP_DIAS,B2b. Diastolic blood pressure (supine),p020.csv,P020_FINAL,continuous
+SPLEENSZ,B3. Spleen size (distance below LCM at MCL),p020.csv,P020_FINAL,continuous
+PHYS_EX,B4. Physical Examination,p020.csv,P020_FINAL,categorical
+TR_N_UN,C1. Total number of units transfused,p020.csv,P020_FINAL,continuous
+TR_CC_IN,C1a. Total mL of units transfused,p020.csv,P020_FINAL,continuous
+TRS_AMPM,C2a. AM PM designation,p020.csv,P020_FINAL,categorical
+TRE_AMPM,C3a. AM PM designation,p020.csv,P020_FINAL,categorical
+TOT_VOL,C4. Was total planned volume given?,p020.csv,P020_FINAL,categorical
+VOL_REAS,C4a. Reason total planned volume was not given?,p020.csv,P020_FINAL,categorical
+HEMOG,D1b. Hemoglobin,p020.csv,P020_FINAL,continuous
+HEMAT,D1c. Hematocrit,p020.csv,P020_FINAL,continuous
+WC_COUNT,D1d. White cell count,p020.csv,P020_FINAL,continuous
+RET_CNT,D2. Reticulocyte Count,p020.csv,P020_FINAL,continuous
+PL_CNT,D3. Platelet Count,p020.csv,P020_FINAL,continuous
+PCT_HBS,D4b. Percent HbS,p020.csv,P020_FINAL,continuous
+DIRECT_A,D5b. Direct Antiglobulin Test (DAT),p020.csv,P020_FINAL,categorical
+INDIR_A,D5c. Indirect Antiglobulin Test (IAT),p020.csv,P020_FINAL,categorical
+ANTI_D,D5d1. Antibody D,p020.csv,P020_FINAL,categorical
+NEW_D,D5e1.  New Antibody D,p020.csv,P020_FINAL,categorical
+ANTI_C,D5d2. Antibody C,p020.csv,P020_FINAL,categorical
+NEW_C,D5e2.  New Antibody C,p020.csv,P020_FINAL,categorical
+ANTI_E,D5d3. Antibody E,p020.csv,P020_FINAL,categorical
+NEW_E,D5e3.  New Antibody E,p020.csv,P020_FINAL,categorical
+ANTI_E2,D5d4. Antibody e,p020.csv,P020_FINAL,categorical
+NEW_E2,D5e4.  New Antibody e,p020.csv,P020_FINAL,categorical
+ANTI_C2,D5d5. Antibody c,p020.csv,P020_FINAL,categorical
+ANTI_F2,D5d6. Antibody f,p020.csv,P020_FINAL,categorical
+ANTI_V,D5d7. Antibody V,p020.csv,P020_FINAL,categorical
+ANTI_M,D5d8. Antibody M,p020.csv,P020_FINAL,categorical
+ANTI_N,D5d9. Antibody N,p020.csv,P020_FINAL,categorical
+ANTI_S,D5d10. Antibody S,p020.csv,P020_FINAL,categorical
+ANTI_S2,D5d11. Antibody s,p020.csv,P020_FINAL,categorical
+NEW_S2,D5e11.  New Antibody s,p020.csv,P020_FINAL,continuous
+ANTI_U,D5d12. Antibody U,p020.csv,P020_FINAL,categorical
+NEW_U,D5e12.  New Antibody U,p020.csv,P020_FINAL,continuous
+ANTI_KPA,D5d13. Antibody Kpa,p020.csv,P020_FINAL,categorical
+NEW_KPA,D5e13.  New Antibody Kpa,p020.csv,P020_FINAL,categorical
+ANTI_KPB,D5d14. Antibody Kpb,p020.csv,P020_FINAL,categorical
+ANTI_JSA,D5d15. Antibody Jsa,p020.csv,P020_FINAL,categorical
+NEW_JSA,D5e15.  New Antibody Jsa,p020.csv,P020_FINAL,categorical
+ANTI_JSB,D5d16. Antibody Jsb,p020.csv,P020_FINAL,categorical
+ANTI_KEL,D5d17. Antibody K (Kell),p020.csv,P020_FINAL,categorical
+NEW_KEL,D5e17.  New Antibody K (Kell),p020.csv,P020_FINAL,categorical
+ANTI_K2,D5d18. Antibody k,p020.csv,P020_FINAL,categorical
+NEW_K2,D5e18.  New Antibody k,p020.csv,P020_FINAL,categorical
+ANTI_FYA,D5d19. Antibody Fya,p020.csv,P020_FINAL,categorical
+NEW_FYA,D5e19.  New Antibody Fya,p020.csv,P020_FINAL,categorical
+ANTI_FYB,D5d20. Antibody Fyb,p020.csv,P020_FINAL,categorical
+ANTI_JKA,D5d21. Antibody Jka,p020.csv,P020_FINAL,categorical
+NEW_JKA,D5e21.  New Antibody Jka,p020.csv,P020_FINAL,categorical
+ANTI_JKB,D5d22. Antibody Jkb,p020.csv,P020_FINAL,categorical
+NEW_JKB,D5e22.  New Antibody Jkb,p020.csv,P020_FINAL,categorical
+ANTI_LEA,D5d23. Antibody Lea,p020.csv,P020_FINAL,categorical
+ANTI_LEB,D5d24. Antibody Leb,p020.csv,P020_FINAL,categorical
+ANTI_P1,D5d25. Antibody P1,p020.csv,P020_FINAL,categorical
+NEW_P1,D5e25.  New Antibody P1,p020.csv,P020_FINAL,categorical
+ANTI_I,D5d26. Antibody I,p020.csv,P020_FINAL,categorical
+ANTI_OTH,D5d27.  Antibody -- Other,p020.csv,P020_FINAL,categorical
+NEW_OTH,D5e27. New Other Antibody,p020.csv,P020_FINAL,categorical
+SP_ANTI,D5d27a. Specify Other Antibody,p020.csv,P020_FINAL,categorical
+SP_REFL,D5f1. Reason the specimen were not sent to reference lab,p020.csv,P020_FINAL,categorical
+COMPNOTE,E1. Transfusion complications noted during transfusion visit?,p020.csv,P020_FINAL,categorical
+HEMOLYT,E1a. Hemolytic immediate,p020.csv,P020_FINAL,categorical
+HEM_DAP,E1a2. AM PM designation: Hemolytic immediate,p020.csv,P020_FINAL,categorical
+HEM_RAP,E1a4. AM PM designation: Hemolytic immediate,p020.csv,P020_FINAL,categorical
+FEBRILE,"E1b. Febrile, nonhemolytic (fever, chills)",p020.csv,P020_FINAL,categorical
+FEB_DAP,"E1b2. AM PM designation: Febrile, nonhemolytic",p020.csv,P020_FINAL,categorical
+FEB_RAP,"E1b4. AM PM designation: Febrile, nonhemolytic",p020.csv,P020_FINAL,categorical
+ALLERGIC,E1c. Severe anaphylaxis,p020.csv,P020_FINAL,categorical
+ALL_DAP,E1c2. AM PM designation: Severe anaphylaxis,p020.csv,P020_FINAL,categorical
+ALL_RAP,E1c4. AM PM designation: Severe anaphylaxis,p020.csv,P020_FINAL,categorical
+ALL2,E1d. Other allergic reactions,p020.csv,P020_FINAL,categorical
+ALL2_DAP,E1d2. AM PM designation: Other allergic reactions,p020.csv,P020_FINAL,categorical
+ALL2_RAP,E1d4. AM PM designation: Other allergic reactions,p020.csv,P020_FINAL,categorical
+FLUID,E1e. Fluid overload,p020.csv,P020_FINAL,categorical
+HYPERTEN,E1f. Hypertension,p020.csv,P020_FINAL,categorical
+HYP_DAP,E1f2. AM PM designation: Hypertension,p020.csv,P020_FINAL,categorical
+HYP_RAP,E1f4. AM PM designation: Hypertension,p020.csv,P020_FINAL,categorical
+OTHCOMPL,E1g. Other,p020.csv,P020_FINAL,categorical
+OTH_DAP,E1g2. AM PM designation: Other,p020.csv,P020_FINAL,categorical
+OTH_RAP,E1g4. AM PM designation: Other,p020.csv,P020_FINAL,categorical
+SP_COMPL,E1g5. Specify Other complication,p020.csv,P020_FINAL,categorical
+ANTIG_AP,E2a1. AM PM designation,p020.csv,P020_FINAL,categorical
+A_DIR_H,E2b. Direct Antiglobulin Test (DAT),p020.csv,P020_FINAL,categorical
+A_IND_H,E2c. Indirect Antiglobulin Test (IAT),p020.csv,P020_FINAL,categorical
+HOSP,E5. Patient hospitalized because of a transfusion complication?,p020.csv,P020_FINAL,categorical
+DESTATUS,DESTATUS,p020.csv,P020_FINAL,categorical
+ldu_id,ID for public use datasets,p020.csv,P020_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date of transfusion as days from RAND visit,p020.csv,P020_FINAL,continuous
+prior_trfrmrand,<created variable> A4. Date of most recent prior transfusion as days from RAND visit,p020.csv,P020_FINAL,continuous
+dt_cbcfrmrand,<created variable> D1a. Date blood drawn as days from RAND visit,p020.csv,P020_FINAL,continuous
+dt_hemfrmrand,<created variable> D4a. Date blood drawn for hb analysis as days from RAND visit,p020.csv,P020_FINAL,continuous
+dt_antigfrmrand,<created variable> D5a. Date blood drawn for antiglobulin tests as days from RAND visit,p020.csv,P020_FINAL,continuous
+reflab_dfrmrand,<created variable> D5f. Date specimen sent to reference lab as days from RAND visit,p020.csv,P020_FINAL,continuous
+d_admfrmrand,<created variable> E5a. Date of hospital admission as days from RAND visit,p020.csv,P020_FINAL,continuous
+d_disfrmrand,<created variable> E5b. Date of hospital discharge as days from RAND visit,p020.csv,P020_FINAL,continuous
+EX_TYPE,X3. Exam Type,p021.csv,P021_FINAL,categorical
+EX_UNUM,X4.1. Blood unit transfusion sequence number,p021.csv,P021_FINAL,continuous
+BL_PROD,B1. Blood product,p021.csv,P021_FINAL,continuous
+REC_WITH,B1a. Blood product reconstituted with,p021.csv,P021_FINAL,categorical
+SP_REC,B1b. Specify,p021.csv,P021_FINAL,categorical
+SP_BL_PR,B1c. Other specify,p021.csv,P021_FINAL,categorical
+ANT_C,B2a. Was the unit negative for the C antigen?,p021.csv,P021_FINAL,categorical
+ANT_E,B2b. Was the unit negative for the E antigen?,p021.csv,P021_FINAL,categorical
+ANT_KELL,B2c. Was the unit negative for the Kell antigen?,p021.csv,P021_FINAL,categorical
+ANT_OTH,B3. Was the unit known to be negative for any other antigens?,p021.csv,P021_FINAL,categorical
+ANT_OTH1,B3a1. Specify antigens,p021.csv,P021_FINAL,categorical
+ANT_OTH2,B3a2. Specify antigen,p021.csv,P021_FINAL,categorical
+ANT_OTH3,B3a3. Specify antigens,p021.csv,P021_FINAL,categorical
+ANT_OTH4,B3a4. Specify antigen(s),p021.csv,P021_FINAL,categorical
+LEUK_FLT,B4. Was a Third Generation Leukodepletion Filter used?,p021.csv,P021_FINAL,categorical
+LEUKPROC,B4a. Filtering process,p021.csv,P021_FINAL,categorical
+LEUKP_SP,"B4a1. Other filter, specify",p021.csv,P021_FINAL,categorical
+SIMPL_TR,C1a. Simple transfusion,p021.csv,P021_FINAL,categorical
+ML_IN_S,C1a1. Number of mL in,p021.csv,P021_FINAL,continuous
+FULL_EX,C1b. Exchange transfusion,p021.csv,P021_FINAL,categorical
+ML_IN_F,C1b1. Total mL in,p021.csv,P021_FINAL,continuous
+ML_OUT_F,C1b2. Total mL out,p021.csv,P021_FINAL,continuous
+METHOD_F,C1b3. Method,p021.csv,P021_FINAL,categorical
+DELIVR_F,C1b3a. Delivery,p021.csv,P021_FINAL,categorical
+HEMAT_TR,C1b4a. Hematocrit of blood transfused (%),p021.csv,P021_FINAL,continuous
+HEMAT_RV,C1b4b. Hematocrit of blood removed (%),p021.csv,P021_FINAL,continuous
+DESTATUS,DESTATUS,p021.csv,P021_FINAL,categorical
+EX_NUM,X4. Exam Number,p021.csv,P021_FINAL,continuous
+ldu_id,ID for public use datasets,p021.csv,P021_FINAL,categorical
+tr_datefrmrand,<created variable> A2. Date of transfusion as days from RAND visit,p021.csv,P021_FINAL,continuous
+EX_TYPE,X3. Exam Type,p022.csv,P022_FINAL,categorical
+TX_REASN,B2. Reason for transfusions,p022.csv,P022_FINAL,categorical
+SPEC_RSN,B2a. Specify other reason for transfusions,p022.csv,P022_FINAL,categorical
+ON_CHEL,B3. Patient receiving chelation,p022.csv,P022_FINAL,categorical
+DESTATUS,DESTATUS,p022.csv,P022_FINAL,categorical
+ex_num,B4. Exam number,p022.csv,P022_FINAL,continuous
+HB_S,B4b. % Hb S,p022.csv,P022_FINAL,continuous
+FERRITIN,B4c. Ferritin (ng/ml),p022.csv,P022_FINAL,continuous
+vistype,<created variable> VISIT TYPE,p022.csv,P022_FINAL,categorical
+ldu_id,ID for public use datasets,p022.csv,P022_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date form completed as days from RAND visit,p022.csv,P022_FINAL,continuous
+tx_startfrmrand,<created variable> B1. Date transfusion started as days from RAND visit,p022.csv,P022_FINAL,continuous
+chel_begfrmrand,<created variable> B3a. Date chelation started as days from RAND visit,p022.csv,P022_FINAL,continuous
+tx_datefrmrand,<created variable> B4a. Date of transfusion as days from RAND visit,p022.csv,P022_FINAL,continuous
+datedrawfrmrand,<created variable> B4d. Date blood drawn as days from RAND visit,p022.csv,P022_FINAL,continuous
+DESTATUS,DESTATUS,p024.csv,P024_FINAL,categorical
+EX_NUM,B1b. Exam number,p024.csv,P024_FINAL,continuous
+HB_S,B1c. % Hb S,p024.csv,P024_FINAL,continuous
+ldu_id,ID for public use datasets,p024.csv,P024_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date form completed as days from RAND visit,p024.csv,P024_FINAL,continuous
+tx_datefrmrand,<created variable> B1a. Date of transfusion as days from RAND visit,p024.csv,P024_FINAL,continuous
+datedrawfrmrand,<created variable> B1d. Date blood drawn as days from RAND visit,p024.csv,P024_FINAL,continuous
+EX_TYPE,X3. Exam type,p030.csv,P030_FINAL,categorical
+EX_NUM,X4. Exam Number,p030.csv,P030_FINAL,continuous
+WHERSEEN,B1. Where was the patient first seen for this event?,p030.csv,P030_FINAL,categorical
+SYMPRPTD,B2. Were signs and symptoms first reported at a quarterly visit?,p030.csv,P030_FINAL,categorical
+LOSSCONS,B3a. Loss of consciousness,p030.csv,P030_FINAL,categorical
+CHG_MENT,B3b. Change in mental status,p030.csv,P030_FINAL,categorical
+DIF_SPEK,B3c. Loss of or difficulty with speech,p030.csv,P030_FINAL,categorical
+WEAKNESS,B3d. Paralysis or weakness,p030.csv,P030_FINAL,categorical
+WEAKSIDE,B3d1. Side of weakness,p030.csv,P030_FINAL,categorical
+DSWALLOW,B3e. Difficulty with swallowing,p030.csv,P030_FINAL,categorical
+D_VISION,B3f. Difficulty with vision,p030.csv,P030_FINAL,categorical
+VIS_SIDE,B3f1. Side with vision loss,p030.csv,P030_FINAL,categorical
+DIZZINES,B3g. Loss of balance or dizziness,p030.csv,P030_FINAL,categorical
+SEIZURE,B3h. Seizure,p030.csv,P030_FINAL,categorical
+HEADACHE,B3i. Headache,p030.csv,P030_FINAL,categorical
+HEAD_LOC,B3i1. Location,p030.csv,P030_FINAL,categorical
+HEAD_SPEC,B3i1a. Specify headache location,p030.csv,P030_FINAL,categorical
+SENSDIST,B3j. New sensory disturbance,p030.csv,P030_FINAL,categorical
+SENSSIDE,B3j1. Side of sensory disturbance,p030.csv,P030_FINAL,categorical
+BEHAVIOR,B3k. Change in behavior,p030.csv,P030_FINAL,categorical
+COORDINA,B3l. Change in gait or coordination,p030.csv,P030_FINAL,categorical
+PT_HOSP,B4. Was patient hospitalized for this event?,p030.csv,P030_FINAL,categorical
+INTERVIE,C1. Person interviewed:,p030.csv,P030_FINAL,categorical
+WITNES_E,C2. Did person interviewed witness suspected event?,p030.csv,P030_FINAL,categorical
+A_FEBRIL,C3a. Acute febrile event,p030.csv,P030_FINAL,categorical
+PAINFUL,C3b. Painful event,p030.csv,P030_FINAL,categorical
+A_CHEST,C3c. Acute Chest Syndrome,p030.csv,P030_FINAL,categorical
+A_ANEMIA,C3d. Acute anemia,p030.csv,P030_FINAL,categorical
+ANESTHES,C3e. General anesthesia,p030.csv,P030_FINAL,categorical
+A_PRIAPISM,C3f. Priapism,p030.csv,P030_FINAL,categorical
+HEAD_INJ,C3g. Head injury with loss of consciousness,p030.csv,P030_FINAL,categorical
+TRANSFUS,C3h. Transfusion,p030.csv,P030_FINAL,categorical
+OTH_EXPR,C3i. Other experience,p030.csv,P030_FINAL,categorical
+EXPRSPEC,C3i1. Specify other experience,p030.csv,P030_FINAL,categorical
+MRIBRAIN,D1. MRI of brain,p030.csv,P030_FINAL,categorical
+DWI_PERF,D1b. Was DWI performed?,p030.csv,P030_FINAL,categorical
+CT_BRAIN,D2. CT scan of brain,p030.csv,P030_FINAL,categorical
+PETBRAIN,D3. PET scan of brain,p030.csv,P030_FINAL,categorical
+MRABRAIN,D4. MRA of brain,p030.csv,P030_FINAL,categorical
+ARTERIOG,D5. Arteriogram,p030.csv,P030_FINAL,categorical
+TRANSDOP,D6. Transcranial Doppler,p030.csv,P030_FINAL,categorical
+O_IMAGE,D7. Other imaging,p030.csv,P030_FINAL,categorical
+OTHIMAGE,D7a. Specify other imaging,p030.csv,P030_FINAL,categorical
+NEUREVAL,E1. Was a neurological evaluation performed ...?,p030.csv,P030_FINAL,categorical
+O_EVENTS,F1. Were there other events associated with this neuro. event?,p030.csv,P030_FINAL,categorical
+PT_TRANS,F2. Was this patient transfused for this neurological event?,p030.csv,P030_FINAL,categorical
+PT_DIE,F3. Did the patient die as a complication of this event?,p030.csv,P030_FINAL,categorical
+EV_TYPE,G1. Type of neurological event:,p030.csv,P030_FINAL,categorical
+TYPESPEC,G1a. Specify other type of neurological event,p030.csv,P030_FINAL,categorical
+DESTATUS,DESTATUS,p030.csv,P030_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p030.csv,P030_FINAL,categorical
+ldu_id,ID for public use datasets,p030.csv,P030_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date of neurological event as days from RAND visit,p030.csv,P030_FINAL,continuous
+qtr_datefrmrand,<created variable> B2a. Date of Quarterly Progress Report as days from RAND visit,p030.csv,P030_FINAL,continuous
+hospadmtfrmrand,<created variable> B4a. Date of hospital admission as days from RAND visit,p030.csv,P030_FINAL,continuous
+hospdiscfrmrand,<created variable> B4b. Date of hospital discharge as days from RAND visit,p030.csv,P030_FINAL,continuous
+mri_datefrmrand,<created variable> D1a. Date MRI performed as days from RAND visit,p030.csv,P030_FINAL,continuous
+ct_datefrmrand,=<created variable> D2a. Date CT scan of brain performed as days from RAND visit,p030.csv,P030_FINAL,continuous
+mra_datefrmrand,<created variable> D4a. Date MRA performed as days from RAND visit,p030.csv,P030_FINAL,continuous
+tcd_datefrmrand,<created variable> D6a. Date TCD performed as days from RAND visit,p030.csv,P030_FINAL,continuous
+image_dtfrmrand,<created variable> D7a. Date other imaging performed as days from RAND visit,p030.csv,P030_FINAL,continuous
+neuro_dtfrmrand,<created variable> E1a. Date neuro evaluation performed as days from RAND visit,p030.csv,P030_FINAL,continuous
+EX_TYPE,X3. Exam Type,p031.csv,P031_FINAL,categorical
+EX_NUM,X4. Exam Number,p031.csv,P031_FINAL,continuous
+EV_CODE1,A4. Event code 1:,p031.csv,P031_FINAL,continuous
+SAME_EVT,A5. Has patient been seen for same type of event within ...?,p031.csv,P031_FINAL,categorical
+CONT_EVT,"A5a. Do the present hx, symptoms, and/or physical exam indicate this event is a continuation of previous event?",p031.csv,P031_FINAL,categorical
+ADMITTED,A6. Was patient admitted because of this event?,p031.csv,P031_FINAL,categorical
+CULTSAMP,B1. Were samples for any cultures obtained?,p031.csv,P031_FINAL,categorical
+CULTURE1,B1a1. Culture 1:,p031.csv,P031_FINAL,categorical
+RESULT1,B1b1. Result 1:,p031.csv,P031_FINAL,categorical
+SPECORG1,B1c1. Specify Organism 1:,p031.csv,P031_FINAL,categorical
+CODECUL1,B1d1. Code 1:,p031.csv,P031_FINAL,continuous
+CULTURE2,B1a2. Culture 2:,p031.csv,P031_FINAL,categorical
+RESULT2,B1b2. Result 2:,p031.csv,P031_FINAL,categorical
+SPECORG2,B1c2. Specify Organism 2:,p031.csv,P031_FINAL,categorical
+CODECUL2,B1d2. Code 2:,p031.csv,P031_FINAL,continuous
+CULTURE3,B1a3. Culture 3:,p031.csv,P031_FINAL,categorical
+RESULT3,B1b3. Result 3:,p031.csv,P031_FINAL,categorical
+SPECORG3,B1c3. Specify Organism 3:,p031.csv,P031_FINAL,categorical
+CODECUL3,B1d3. Code 3:,p031.csv,P031_FINAL,continuous
+CULTURE4,B1a4. Culture 4:,p031.csv,P031_FINAL,categorical
+RESULT4,B1b4. Result 4:,p031.csv,P031_FINAL,categorical
+SPECORG4,B1c4. Specify Organism 4:,p031.csv,P031_FINAL,categorical
+CODECUL4,B1d4. Code 4:,p031.csv,P031_FINAL,continuous
+SEROLOGY,B2. Were any serological studies performed?,p031.csv,P031_FINAL,categorical
+SERL_POS,B2a. Were the results of any of these studies positive?,p031.csv,P031_FINAL,categorical
+ACUTEINF,B2b. Were any of results indicative of an acute infection?,p031.csv,P031_FINAL,categorical
+INFAGENT,B2b1. What was the infectious agent?,p031.csv,P031_FINAL,categorical
+EVID_ACI,B2b2. What was the evidence that this was an acute infection?,p031.csv,P031_FINAL,categorical
+OTHEVENT,C1. Were there other events associated with this event?,p031.csv,P031_FINAL,categorical
+VENTILAT,C2. Did the patient require ventilator support?,p031.csv,P031_FINAL,categorical
+DAYSVENT,C2a. Number of days,p031.csv,P031_FINAL,categorical
+PT_TRANF,C3. Was the patient transfused for this event?,p031.csv,P031_FINAL,categorical
+DIE_EVNT,C4. Did the patient die as a result of this event?,p031.csv,P031_FINAL,categorical
+DESTATUS,DESTATUS,p031.csv,P031_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p031.csv,P031_FINAL,categorical
+ldu_id,ID for public use datasets,p031.csv,P031_FINAL,categorical
+ev_recode2,<recoded variable> A4a. Event code 2,p031.csv,P031_FINAL,continuous
+ev_recodenm1,<recoded variable> A4a1. Event name for event code 2,p031.csv,P031_FINAL,categorical
+ev_recode3,<recoded variable> A4b. Event code 3,p031.csv,P031_FINAL,continuous
+ev_recodenm2,<recoded variable> A4b1. Event name for event code 3,p031.csv,P031_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date form completed as days from RAND visit,p031.csv,P031_FINAL,continuous
+event_dtfrmrand,<created variable> A3. Date of event as days from RAND visit,p031.csv,P031_FINAL,continuous
+adm_datefrmrand,<created variable> A6a. Date of hospital admission as days from RAND visit,p031.csv,P031_FINAL,continuous
+dis_datefrmrand,<created variable> A6b. Date of hospital discharge as days from RAND visit,p031.csv,P031_FINAL,continuous
+FORMCOM,B2. Were STOP II Transfusion Forms completed,p032.csv,P032_FINAL,categorical
+DEL_HEM,C1. Delayed hemolytic,p032.csv,P032_FINAL,categorical
+FEBRILE,"C2. Febrile, nonhemolytic",p032.csv,P032_FINAL,categorical
+ANA_SEV,C3. Severe anaphylaxis,p032.csv,P032_FINAL,categorical
+ANA_MILD,C4. Mild anaphylasis,p032.csv,P032_FINAL,categorical
+FLD_OVL,C5. Fluid overload,p032.csv,P032_FINAL,categorical
+HYPERTE,C6. Hypertension,p032.csv,P032_FINAL,categorical
+OTHREAC,C7. Other,p032.csv,P032_FINAL,categorical
+COOMBS,D1. Antiglobulin Test,p032.csv,P032_FINAL,categorical
+SPECOOM,D1a. Specify reason,p032.csv,P032_FINAL,categorical
+DIRECT,D1c. Direct coombs,p032.csv,P032_FINAL,categorical
+INDIREC,D1d. Indirect coombs,p032.csv,P032_FINAL,categorical
+ANTI_D,D1e1. Anti-D,p032.csv,P032_FINAL,categorical
+ANTI_C,D1e2. Anti-C,p032.csv,P032_FINAL,categorical
+ANTI_E,D1e3. Anti-E,p032.csv,P032_FINAL,categorical
+ANTIB_E,D1e4. Anti-e,p032.csv,P032_FINAL,categorical
+ANTIB_C,D1e5. Anti-c,p032.csv,P032_FINAL,categorical
+ANTIB_F,D1e6. Anti-f,p032.csv,P032_FINAL,categorical
+ANTI_V,D1e7. Anti-V,p032.csv,P032_FINAL,categorical
+ANTI_M,D1e8. Anti-M,p032.csv,P032_FINAL,categorical
+ANTI_N,D1e9. Anti-N,p032.csv,P032_FINAL,categorical
+ANTI_S,D1e10. Anti-S,p032.csv,P032_FINAL,categorical
+ANTIB_S,D1e11. Anti-s,p032.csv,P032_FINAL,categorical
+ANTIB_U,D1e12. Anti-U,p032.csv,P032_FINAL,categorical
+ANTI_KA,D1e13. Anti-Kpa,p032.csv,P032_FINAL,categorical
+ANTI_KP,D1e14. Anti-Kpb,p032.csv,P032_FINAL,categorical
+ANTI_JB,D1e15. Anti-Jsa,p032.csv,P032_FINAL,categorical
+ANTI_JS,D1e16. Anti-Jsb,p032.csv,P032_FINAL,categorical
+ANTI_K,D1e17. Anti-K (Kell),p032.csv,P032_FINAL,categorical
+NEW_K,D1f17. Newly Identified Anti-K (Kell),p032.csv,P032_FINAL,categorical
+ANTIB_K,D1e18. Anti-k,p032.csv,P032_FINAL,categorical
+ANTI_FC,D1e19. Anti-Fya,p032.csv,P032_FINAL,categorical
+ANTI_FY,D1e20. Anti-Fyb,p032.csv,P032_FINAL,categorical
+ANTI_JD,D1e21. Anti-Jka,p032.csv,P032_FINAL,categorical
+ANTI_JK,D1e22. Anti-Jkb,p032.csv,P032_FINAL,categorical
+ANTI_LF,D1e23. Anti-Lea,p032.csv,P032_FINAL,categorical
+ANTI_LE,D1e24. Anti-Leb,p032.csv,P032_FINAL,categorical
+ANTI_P1,D1e25. Anti-P1,p032.csv,P032_FINAL,categorical
+ANTI_I,D1e26. Anti-I,p032.csv,P032_FINAL,continuous
+ANTI_OT,D1e27. Anti-Other,p032.csv,P032_FINAL,categorical
+ANTISPE,D1e27a. Specify other antibody,p032.csv,P032_FINAL,categorical
+NEW_OTH,D1f27. Newly Identified other antibody,p032.csv,P032_FINAL,categorical
+SP_REFL,D2a. Specify reason,p032.csv,P032_FINAL,categorical
+CBC,D3. CBC,p032.csv,P032_FINAL,categorical
+HEMOGLO,D3b. Hemoglobin,p032.csv,P032_FINAL,continuous
+HEMAT,D3c. Hematocrit,p032.csv,P032_FINAL,continuous
+SER_CHE,D4. Serum Chemistries,p032.csv,P032_FINAL,categorical
+TTL_BIL,D4b. Total bilirubin,p032.csv,P032_FINAL,continuous
+DIR_BIL,D4c. Direct bilirubin,p032.csv,P032_FINAL,continuous
+LDH,D4d. LDH,p032.csv,P032_FINAL,continuous
+URINALY,D5. Urinalysis,p032.csv,P032_FINAL,categorical
+URINHEM,D5b. Hemoglobin,p032.csv,P032_FINAL,categorical
+RED_CEL,D5c. Number of Red Cells per HPF,p032.csv,P032_FINAL,continuous
+ADM_REA,E1. Was patient admitted to the hospital because of the reaction,p032.csv,P032_FINAL,categorical
+HYDRATN,E2a. Hydration,p032.csv,P032_FINAL,categorical
+TRANSFU,E2b. Transfusion,p032.csv,P032_FINAL,categorical
+OTHTREA,E2c. Other,p032.csv,P032_FINAL,categorical
+TREASPE,E2c1. Specify other,p032.csv,P032_FINAL,categorical
+PT_DIE,E3. Did patient die,p032.csv,P032_FINAL,categorical
+CBC_REC,F1. CBC report received,p032.csv,P032_FINAL,categorical
+BBA_REC,F2. Blood Bank antiglobulin report received,p032.csv,P032_FINAL,categorical
+BBP_REC,F3. Blood Bank panels sheet received,p032.csv,P032_FINAL,categorical
+LABRPTS,F4. Reference lab report received,p032.csv,P032_FINAL,continuous
+CHEM_REC,F5. Serum chemistries report received,p032.csv,P032_FINAL,categorical
+URIN_REC,F6. Urinalysis report received,p032.csv,P032_FINAL,continuous
+ERNOTES,F7. Clinic/ER notes received,p032.csv,P032_FINAL,categorical
+DISC_SU,F8. Hospital discharge summary received,p032.csv,P032_FINAL,categorical
+DESTATUS,DESTATUS,p032.csv,P032_FINAL,categorical
+ldu_id,ID for public use datasets,p032.csv,P032_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date form completed as days from RAND visit,p032.csv,P032_FINAL,continuous
+react_dtfrmrand,<created variable> A3. Date of tranfusion reaction as days from RAND visit,p032.csv,P032_FINAL,continuous
+prevtrafrmrand,<created variable> B1. Date of most recent transfusion preceding reaction as days from RAND visit,p032.csv,P032_FINAL,continuous
+coomb_dfrmrand,<created variable> D1b. Date of coombs test as days from RAND visit,p032.csv,P032_FINAL,continuous
+reflab_dfrmrand,<created variable> D2. Date specimen sent to reference lab as days from RAND visit,p032.csv,P032_FINAL,continuous
+cbc_datfrmrand,<created variable> D3a. Date of CBC as days from RAND visit,p032.csv,P032_FINAL,continuous
+chemdatfrmrand,<created variable> D4a. Date of serum chemistries as days from RAND visit,p032.csv,P032_FINAL,continuous
+urindatfrmrand,<created variable> D5a. Date of urinalysis as days from RAND visit,p032.csv,P032_FINAL,continuous
+adm_datfrmrand,<created variable> E1a. Date of hospital admission as days from RAND visit,p032.csv,P032_FINAL,continuous
+dis_datfrmrand,<created variable> E1b. Date of hospital discharge as days from RAND visit,p032.csv,P032_FINAL,continuous
+EX_TYPE,X3. Exam type,p033.csv,P033_FINAL,categorical
+EX_NUM,X4. Exam Number,p033.csv,P033_FINAL,continuous
+REASON,A2. Reason for hospitalization,p033.csv,P033_FINAL,categorical
+PT_DISC,B1. Patient discharged to,p033.csv,P033_FINAL,categorical
+DISAB_S,B2. Disability status at discharge,p033.csv,P033_FINAL,categorical
+STROKRE,C1. Recurrent stroke,p033.csv,P033_FINAL,categorical
+SEIZURE,C2. Seizure,p033.csv,P033_FINAL,categorical
+BRAINED,C3. Brain edema with worsening symptoms,p033.csv,P033_FINAL,categorical
+INFECTI,C4. Infection,p033.csv,P033_FINAL,categorical
+BACTERI,C4a. Bacterial,p033.csv,P033_FINAL,categorical
+VIRAL,C4b. Viral,p033.csv,P033_FINAL,categorical
+OTH_INF,C4c. Other type of infection,p033.csv,P033_FINAL,categorical
+DESTATUS,DESTATUS,p033.csv,P033_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p033.csv,P033_FINAL,categorical
+ldu_id,ID for public use datasets,p033.csv,P033_FINAL,categorical
+admit_dfrmrand,<created variable> A3a. Date of first hospital admission for event as days from RAND visit,p033.csv,P033_FINAL,continuous
+disch_dfrmrand,<created variable> A3b. Date of hospital discharge as days from RAND visit,p033.csv,P033_FINAL,continuous
+EX_TYPE,X3. Exam Type,p040.csv,P040_FINAL,categorical
+ADDRESS,A5. This is the address of,p040.csv,P040_FINAL,categorical
+DEATH_TM,A6. Time of death in relation to presentation at hospital,p040.csv,P040_FINAL,categorical
+DIAGNOS1,A6b1. Admitting diagnosis: specify 1,p040.csv,P040_FINAL,categorical
+CODED1,A6b1a. Admitting diagnosis: code 1,p040.csv,P040_FINAL,continuous
+DTH_CERT,B1. Is a copy of the death certificate available,p040.csv,P040_FINAL,categorical
+IMFAMILY,B2a. Member of immediate family,p040.csv,P040_FINAL,categorical
+MED_PERS,B2b. Medical Personnel,p040.csv,P040_FINAL,categorical
+MED_RECS,B2c. Medical Records,p040.csv,P040_FINAL,categorical
+INFO_OTH,B2d. Other,p040.csv,P040_FINAL,categorical
+AUTOPSY,B3. Was the autopsy performed,p040.csv,P040_FINAL,categorical
+CAUSCLAS,C1. Classification of cause of death,p040.csv,P040_FINAL,categorical
+CAUSTYPE,C1a. Type of neurological event,p040.csv,P040_FINAL,continuous
+CAUSSPEC,C1d. Specify other cause of death,p040.csv,P040_FINAL,categorical
+DESTATUS,DESTATUS,p040.csv,P040_FINAL,categorical
+ldu_id,ID for public use datasets,p040.csv,P040_FINAL,categorical
+notif_dtfrmrand,<created variable> A2. Date of clinic notification of death as days from RAND visit,p040.csv,P040_FINAL,continuous
+death_dtfrmrand,<created variable> A3. Date of death as days from RAND visit,p040.csv,P040_FINAL,continuous
+admit_dtfrmrand,<created variable> A6a. Date of admission as days from RAND visit,p040.csv,P040_FINAL,continuous
+EX_TYPE,A2a. Exam Type,p052.csv,P052_FINAL,categorical
+EX_NUM,A2b. Exam Number,p052.csv,P052_FINAL,continuous
+STROK1,B1a. Did patient have a new stroke?,p052.csv,P052_FINAL,categorical
+STROK2,B2a. Did patient have a new stroke?,p052.csv,P052_FINAL,categorical
+STROK3,B3a. Did patient have a new stroke?,p052.csv,P052_FINAL,categorical
+NEWSTROK,D1. Is the group consensus that the patient had a new stroke?,p052.csv,P052_FINAL,categorical
+NSTRKDX,"D1a. If NO, type of event:",p052.csv,P052_FINAL,categorical
+NCSN_SP,D1a4. Non-CNS event - Specify:,p052.csv,P052_FINAL,categorical
+OTHER_SP,D1a5. Other - Specify:,p052.csv,P052_FINAL,categorical
+NSTRK_SP,"D1b. If YES, type:",p052.csv,P052_FINAL,categorical
+COMMENTS,D3. Comments:,p052.csv,P052_FINAL,continuous
+DESTATUS,DESTATUS,p052.csv,P052_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p052.csv,P052_FINAL,categorical
+SUMMARY,<created variable> C1. Summary of teleconference,p052.csv,P052_FINAL,categorical
+ldu_id,ID for public use datasets,p052.csv,P052_FINAL,categorical
+neuro_dtfrmrand,<created variable> A3. Date of neurological event as days from RAND visit,p052.csv,P052_FINAL,continuous
+EX_TYPE,X3. Exam Type,p13b.csv,P13B_FINAL,categorical
+EX_NUM,X4. Exam Number,p13b.csv,P13B_FINAL,continuous
+REAS1,A3.1. Reason for completion,p13b.csv,P13B_FINAL,categorical
+REAS2,A3.2. Reason for completion,p13b.csv,P13B_FINAL,categorical
+TRANSF_4,C1. Has patient been transfused during last 4 months?,p13b.csv,P13B_FINAL,categorical
+HBA_S,D1a. Hemoglobin analysis: % S,p13b.csv,P13B_FINAL,continuous
+CBC_WBC,D2a. CBC: White cell count,p13b.csv,P13B_FINAL,continuous
+CBC_RBC,D2b. CBC: Red cell count,p13b.csv,P13B_FINAL,continuous
+CBC_HEMO,D2c. CBC: Hemoglobin (g/dl),p13b.csv,P13B_FINAL,continuous
+CBC_HEMA,D2d. CBC: Hematocrit (%),p13b.csv,P13B_FINAL,continuous
+CBC_MCV,D2e. CBC: Mean cell volume (fl),p13b.csv,P13B_FINAL,continuous
+CBC_MCH,D2f. CBC: Mean cell hemoglobin (pg),p13b.csv,P13B_FINAL,continuous
+CBC_MCHC,D2g. CBC: Mean cell hemoglobin concentration (g/dl),p13b.csv,P13B_FINAL,continuous
+CBC_RDW,D2h. CBC: RDW (%),p13b.csv,P13B_FINAL,continuous
+FERRITIN,D3. Serum ferritin (ng/ml),p13b.csv,P13B_FINAL,continuous
+SGPT,D4a. Serum chemistries: ALT (SGPT) (U/l),p13b.csv,P13B_FINAL,continuous
+GGT,D4b. Serum chemistries: GGT (U/l),p13b.csv,P13B_FINAL,continuous
+LDH,D4c. Serum chemistries: LDH (U/l),p13b.csv,P13B_FINAL,continuous
+T_BILI,D4d. Serum chemistries: Total bilirubin (mg/dl),p13b.csv,P13B_FINAL,continuous
+D_BILI,D4e. Serum chemistries: Direct bilirubin (mg/dl),p13b.csv,P13B_FINAL,continuous
+CBC_SRCE,E1. Local CBC report received,p13b.csv,P13B_FINAL,categorical
+HBS_SRCE,E2. Hemoglobin analysis report received,p13b.csv,P13B_FINAL,categorical
+FERRSRCE,E3. Serum ferritin report received,p13b.csv,P13B_FINAL,categorical
+LFT_SRCE,E4. Liver profile report received,p13b.csv,P13B_FINAL,categorical
+DESTATUS,DESTATUS,p13b.csv,P13B_FINAL,categorical
+TX_NUM,A3a1. Transfusion number,p13b.csv,P13B_FINAL,continuous
+vistype,<created variable> VISIT TYPE,p13b.csv,P13B_FINAL,categorical
+ldu_id,ID for public use datasets,p13b.csv,P13B_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date form completed as days from RAND visit,p13b.csv,P13B_FINAL,continuous
+tran_datfrmrand,<created variable> A3a. Date of transfusion as days from RAND visit,p13b.csv,P13B_FINAL,continuous
+cbc_dtfrmrand,<created variable> B1. Date blood drawn for CBC as days from RAND visit,p13b.csv,P13B_FINAL,continuous
+hbs_dtfrmrand,<created variable> B2. Date blood drawn for HB S as days from RAND visit,p13b.csv,P13B_FINAL,continuous
+ferr_dtfrmrand,<created variable> B3. Date blood drawn for ferritin as days from RAND visit,p13b.csv,P13B_FINAL,continuous
+lft_dtfrmrand,<created variable> B4. Date blood drawn for liver profile as days from RAND visit,p13b.csv,P13B_FINAL,continuous
+transf_dfrmrand,<created variable> C1a. Date of last transfusion as days from RAND visit,p13b.csv,P13B_FINAL,continuous
+EX_TYPE,X3. Exam type,p15a.csv,P15A_FINAL,categorical
+EX_NUM,X4. Exam Number,p15a.csv,P15A_FINAL,continuous
+MRI_PERF,A4a. Was an MRI performed,p15a.csv,P15A_FINAL,categorical
+INTR_HEM,A4b. Did the patient have intracranial hemorrhage,p15a.csv,P15A_FINAL,categorical
+PI_REV,A4c. Did the principal Investigator request a review,p15a.csv,P15A_FINAL,categorical
+DESTATUS,DESTATUS,p15a.csv,P15A_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p15a.csv,P15A_FINAL,categorical
+ACCEPTAB,B3. Study acceptable for interpretation?,p15a.csv,P15A_FINAL,categorical
+SCANQUAL,B4. Scan quality,p15a.csv,P15A_FINAL,categorical
+ATROPHYJ,C1. Atrophy on CT scan,p15a.csv,P15A_FINAL,categorical
+INTHEMOR,C2. CT scan evidence of intracranial hemorrhage?,p15a.csv,P15A_FINAL,categorical
+COMMENT1,Reader comments 1,p15a.csv,P15A_FINAL,categorical
+COMMENT2,Reader comments 2,p15a.csv,P15A_FINAL,categorical
+ldu_id,ID for public use datasets,p15a.csv,P15A_FINAL,categorical
+lesions,<created variable> C3. Number of lesions listed in CT Scan lesion table,p15a.csv,P15A_FINAL,continuous
+comp_dfrmrand,<created variable> A2. Date of CT scan as days from RAND visit,p15a.csv,P15A_FINAL,continuous
+neuro_dtfrmrand,<created variable> A3. Date of neurological event as days from RAND visit,p15a.csv,P15A_FINAL,continuous
+read_dtfrmrand,<created variable> B2. Date CT scan read as days from RAND visit,p15a.csv,P15A_FINAL,continuous
+EX_TYPE,X3. Exam type,p16b.csv,P16B_FINAL,categorical
+EX_NUM,X4. Exam Number,p16b.csv,P16B_FINAL,continuous
+INT_TYPE,A3. Person interviewed,p16b.csv,P16B_FINAL,categorical
+SP_INT,"<recoded> A3a. Person interviewed, specify",p16b.csv,P16B_FINAL,categorical
+A_T_VERI,A4. Address and telephone info verified,p16b.csv,P16B_FINAL,categorical
+ANYMEDS,B1. Patient taking any medications,p16b.csv,P16B_FINAL,categorical
+PENCILLN,B1a1. Pencillin,p16b.csv,P16B_FINAL,categorical
+PEN_MTHS,B1b1. Months taking: Pencillin,p16b.csv,P16B_FINAL,continuous
+OTH_ANTI,B1a2. Other antibiotic,p16b.csv,P16B_FINAL,categorical
+O_ANT_SP,"B1a2a. Other antibiotic, specify",p16b.csv,P16B_FINAL,categorical
+OTHANTMT,B1b2. Months taking: Other,p16b.csv,P16B_FINAL,continuous
+FOLATE,B1a3. Folate,p16b.csv,P16B_FINAL,categorical
+FOLAT_MT,B1b3. Months taking: Folate,p16b.csv,P16B_FINAL,continuous
+HYDROXYU,B1a4. Hydroxyurea,p16b.csv,P16B_FINAL,categorical
+HYDRX_MT,B1b4. Months taking: Hydroxyurea,p16b.csv,P16B_FINAL,continuous
+IRONCHEL,B1a5. Iron Chelators,p16b.csv,P16B_FINAL,categorical
+IRON_MTH,B1b5. Months taking: Iron chelators,p16b.csv,P16B_FINAL,continuous
+OTH_MED,B1a6. Other medication(s),p16b.csv,P16B_FINAL,categorical
+O_MED_SP,"B1a6a. Other medication, specify",p16b.csv,P16B_FINAL,categorical
+O_MED_MT,B1b6a. Months taking: Other 1,p16b.csv,P16B_FINAL,continuous
+O_MD2_SP,"B1a6b. Other medication 2, specify",p16b.csv,P16B_FINAL,categorical
+O_MD2_MT,B1b6b. Months taking: Other 2,p16b.csv,P16B_FINAL,continuous
+STROKE,C1a1. Stroke/TIA,p16b.csv,P16B_FINAL,categorical
+SEIZURES,C1a2. Seizures,p16b.csv,P16B_FINAL,categorical
+MENINGIT,C1a3. Meningitis,p16b.csv,P16B_FINAL,categorical
+HEADINJR,C1a4. Head injury,p16b.csv,P16B_FINAL,categorical
+SPLENICS,C1a5. Splenic sequestration,p16b.csv,P16B_FINAL,categorical
+SPLENTTL,C1b5. Number of events:splenic,p16b.csv,P16B_FINAL,continuous
+TREATSPL,C1c5. Number of events treated:splenic,p16b.csv,P16B_FINAL,continuous
+SEENSPLN,C1e5. Location seen at for splenic,p16b.csv,P16B_FINAL,categorical
+APLASTIC,C1a6. Aplastic Crisis,p16b.csv,P16B_FINAL,categorical
+APLASTTL,C1b6. Number of events:aplastic,p16b.csv,P16B_FINAL,continuous
+TREATAPL,C1c6. Number of events treated:aplastic,p16b.csv,P16B_FINAL,continuous
+SEENAPLS,C1e6. Location seen at for aplastic,p16b.csv,P16B_FINAL,categorical
+H_F_SYND,C1a7. Hand-Foot Syndrome,p16b.csv,P16B_FINAL,categorical
+VASOPAIN,C1a8. Vaso-occlusive pain,p16b.csv,P16B_FINAL,categorical
+VASO_TTL,C1b8. Number of events:Vaso-occlusive pain,p16b.csv,P16B_FINAL,continuous
+TREATVAS,C1c8. Number of events treated:Vaso-occlusive pain,p16b.csv,P16B_FINAL,continuous
+SEENVASO,C1e8. Location seen at for vaso-occlusive pain,p16b.csv,P16B_FINAL,categorical
+FEVER,C1a9. Fever,p16b.csv,P16B_FINAL,categorical
+FEVERTTL,C1b9. Number of events:Fever,p16b.csv,P16B_FINAL,continuous
+TREATFEV,C1c9. Number of events treated:Fever,p16b.csv,P16B_FINAL,continuous
+SEENFEVR,C1e9. Location seen at for fever,p16b.csv,P16B_FINAL,categorical
+SEPTICEM,C1a10. Septicemia,p16b.csv,P16B_FINAL,categorical
+SEPT_TTL,C1b10. Number of events:Septicemia,p16b.csv,P16B_FINAL,continuous
+TREATSEP,C1c10. Number of events treated:Septicemia,p16b.csv,P16B_FINAL,continuous
+SEENSEPT,C1e10. Location seen at for septicemia,p16b.csv,P16B_FINAL,categorical
+PNEUMONI,C1a11. Pneumonia/Acute Chest Syndrome,p16b.csv,P16B_FINAL,categorical
+PNEUMTTL,C1b11. Number of events: pneumonia/ACS,p16b.csv,P16B_FINAL,continuous
+TREATPNE,C1c11. Number of events treated: pneumonia/ACS,p16b.csv,P16B_FINAL,continuous
+SEENPNEU,C1e11. Location seen at for pneumonia/ACS,p16b.csv,P16B_FINAL,categorical
+OSTEOMYL,C1a12. Osteomyelitis,p16b.csv,P16B_FINAL,categorical
+PRIAPISM,C1a13. Priapism,p16b.csv,P16B_FINAL,categorical
+PRIAPTTL,C1b13. Number of events:Priapism,p16b.csv,P16B_FINAL,continuous
+TREATPRI,C1c13. Number of events treated:Priapism,p16b.csv,P16B_FINAL,continuous
+SEENPRIA,C1e13. Location seen at for priapism,p16b.csv,P16B_FINAL,categorical
+T_REACTN,C1a14. Transfusion reaction,p16b.csv,P16B_FINAL,categorical
+REACTTTL,C1b14. Number of events:Transfusion reaction,p16b.csv,P16B_FINAL,continuous
+TREATREA,C1c14. Number of events treated:Transfusion reaction,p16b.csv,P16B_FINAL,continuous
+SEENREAC,C1e14. Location seen at for transfusion reaction,p16b.csv,P16B_FINAL,categorical
+OTH_EVNT,C1a15. Other event,p16b.csv,P16B_FINAL,categorical
+OTH_TTL,C1b15. Number of events:Other,p16b.csv,P16B_FINAL,continuous
+TREATOTH,C1c15. Number of events treated:Other,p16b.csv,P16B_FINAL,continuous
+SEENOTH,C1e15. Location seen at for other,p16b.csv,P16B_FINAL,categorical
+TRANFUSN,C2a1. Transfusion,p16b.csv,P16B_FINAL,categorical
+TRAN_TTL,C2b1. Num of events:Transfusion,p16b.csv,P16B_FINAL,continuous
+TRANPERF,C2c1. Num of events treated:Transfusion,p16b.csv,P16B_FINAL,continuous
+SEENTRAN,C2e1. Seen: Transfusion,p16b.csv,P16B_FINAL,categorical
+SURGERY,C2a2. Surgery,p16b.csv,P16B_FINAL,categorical
+SURG_TTL,C2b2. Num of events:Surgery,p16b.csv,P16B_FINAL,continuous
+SURGPERF,C2c2. Num of events treated:Surgery,p16b.csv,P16B_FINAL,continuous
+SEENSURG,C2e2. Seen: Surgery,p16b.csv,P16B_FINAL,categorical
+PORTACTH,C3. Does patient have a portacath,p16b.csv,P16B_FINAL,categorical
+NEWNEURO,D1. Neurological signs and symptoms,p16b.csv,P16B_FINAL,categorical
+LULCERS,E1. Leg ulcers,p16b.csv,P16B_FINAL,categorical
+A_NECROS,E2. Aseptic necrosis,p16b.csv,P16B_FINAL,categorical
+NECROSPC,"E2b. Aseptic necrosis, specify",p16b.csv,P16B_FINAL,continuous
+SC_RETIN,E3. Sickle cell retinopathy,p16b.csv,P16B_FINAL,categorical
+CHR_LUNG,E4. Chronic lung disease,p16b.csv,P16B_FINAL,categorical
+ASTHMA,E5. Asthma,p16b.csv,P16B_FINAL,categorical
+CHD,E6. Chronic heart disease,p16b.csv,P16B_FINAL,categorical
+CHRLIVER,E7. Chronic liver disease,p16b.csv,P16B_FINAL,categorical
+CHRRENAL,E8. Chronic renal disease,p16b.csv,P16B_FINAL,categorical
+IRONOVER,E9. Iron overload,p16b.csv,P16B_FINAL,categorical
+FERRITIN,E9b. Ferritin,p16b.csv,P16B_FINAL,continuous
+DIABETES,E10. Diabetes,p16b.csv,P16B_FINAL,categorical
+RHEUMATC,E11. Rheumatc fever,p16b.csv,P16B_FINAL,categorical
+TUBERCUL,E12. Tuberculosis,p16b.csv,P16B_FINAL,categorical
+CANCER,E13. Cancer,p16b.csv,P16B_FINAL,categorical
+PRIAP,E14. Priapism,p16b.csv,P16B_FINAL,categorical
+ELEV_BLD,E15. Elevated blood lead level,p16b.csv,P16B_FINAL,categorical
+RBCANTI,E16. New red cell antibody,p16b.csv,P16B_FINAL,categorical
+RBC_SPC1,"E16a1. New red cell antibody,specify",p16b.csv,P16B_FINAL,categorical
+RBC_SPC2,"E16a2. New red cell antibody 2,specify",p16b.csv,P16B_FINAL,categorical
+RBC_SPC3,"E16a3. New red cell antibody 3,specify",p16b.csv,P16B_FINAL,continuous
+OTHCOND,E17. Other condition,p16b.csv,P16B_FINAL,categorical
+HEPBVACC,F1. HepB Vaccination,p16b.csv,P16B_FINAL,categorical
+NON_STOP,G1. Is patient seen at non-STOP II sites,p16b.csv,P16B_FINAL,categorical
+DESTATUS,DESTATUS,p16b.csv,P16B_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p16b.csv,P16B_FINAL,categorical
+ldu_id,ID for public use datasets,p16b.csv,P16B_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date of interview as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+qtrrptfrmrand,<created variable> C1. Date of last report as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+splen_dtfrmrand,<created variable> C1d5. Date of splenic sequestration as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+aplast_dfrmrand,<created variable> C1d6. Date of aplastic crisis as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+fever_dtfrmrand,<created variable> C1d9. Date of fever as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+oth_evdtfrmrand,<created variable> C1d15. Date of other event as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+pneum_dtfrmrand,<created variable> C1d11. Date of ACS/pneumonia as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+priap_dtfrmrand,<created variable> C1d13. Date of priapism as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+react_dtfrmrand,<created variable> C1d14. Date of transfusion reaction as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+septi_dtfrmrand,<created variable> C1d10. Date of septicemia as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+surg_dtfrmrand,<created variable> C2d2. Date of: Surgery as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+transf_dfrmrand,<created variable> C2d1. Date of: Transfusion as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+vaso_dtfrmrand,<created variable> C1d8. Date of vaso-occlusive pain as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+vacc_dtfrmrand,<created variable> F1a.  Vaccination date as days from RAND visit,p16b.csv,P16B_FINAL,continuous
+o_recode1,<recoded variable> C1a15a1. Other code 1,p16b.csv,P16B_FINAL,continuous
+oth_recodespc1,"<recoded variable> C1a15a. Other event 1, specify",p16b.csv,P16B_FINAL,categorical
+o_recode2,<recoded variable> C1a15b1. Other code 2,p16b.csv,P16B_FINAL,continuous
+oth_recodespc2,"<recoded variable> C1a15b. Other event 2, specify",p16b.csv,P16B_FINAL,categorical
+surgrecode,<recoded variable> C2a2a1. Surgery code 1,p16b.csv,P16B_FINAL,continuous
+surg_recodespc,"<recoded variable> C2a2a. Surgery 1, specify",p16b.csv,P16B_FINAL,categorical
+surgrecode2,<recoded variable> C2a2b1. Surgery code 2,p16b.csv,P16B_FINAL,continuous
+surg_recodesp2,"<recoded variable> C2a2b. Surgery 2, specify",p16b.csv,P16B_FINAL,categorical
+EX_TYPE,X3. Exam type,p16r.csv,P16R_FINAL,categorical
+EX_NUM,X4. Exam Number,p16r.csv,P16R_FINAL,continuous
+PTGROUP,A4. STOP II Patient Group,p16r.csv,P16R_FINAL,categorical
+STROKE,B1. Event Documented: Stroke,p16r.csv,P16R_FINAL,categorical
+STROKNUM,B1a. # of Events: Stroke,p16r.csv,P16R_FINAL,continuous
+STRSEEN1,B1c. Where was patient seen for event 1: Stroke,p16r.csv,P16R_FINAL,categorical
+STROK_C1,B1d. STOP II event form completed: Stroke,p16r.csv,P16R_FINAL,categorical
+TIA,B2. Event Documented: TIA,p16r.csv,P16R_FINAL,categorical
+TIA_NUM,B2a. # of Events: TIA,p16r.csv,P16R_FINAL,continuous
+TIASEEN1,B2c. Where was patient seen for event 1: TIA,p16r.csv,P16R_FINAL,categorical
+TIA_C1,B2d. STOP II event form completed: TIA,p16r.csv,P16R_FINAL,categorical
+SEIZURES,B3. Event Documented: Seizures,p16r.csv,P16R_FINAL,categorical
+SPLENSEQ,B4. Event Documented: Splenic Sequestration,p16r.csv,P16R_FINAL,categorical
+SPLN_NUM,B4a. # of Events: Splenic Sequestration,p16r.csv,P16R_FINAL,continuous
+SPLSEEN1,B4c. Where was patient seen for event 1: Splenic Sequestration,p16r.csv,P16R_FINAL,categorical
+SPLSEQC1,B4d. STOP II event form completed: Splenic Sequestration,p16r.csv,P16R_FINAL,categorical
+APLASTIC,B5. Event Documented: Aplastic Crisis,p16r.csv,P16R_FINAL,categorical
+APLA_NUM,B5a. # of Events: Aplastic Crisis,p16r.csv,P16R_FINAL,continuous
+APLSEEN1,B5c. Where was patient seen for event 1: Aplastic Crisis,p16r.csv,P16R_FINAL,categorical
+APLAS_C1,B5d. STOP II event form completed: Aplastic Crisis,p16r.csv,P16R_FINAL,categorical
+HF_SYND,B6. Event Documented: Hand-Foot Syndrome,p16r.csv,P16R_FINAL,categorical
+VASOPAIN,B7. Event Documented: Vaso-occlusive pain,p16r.csv,P16R_FINAL,categorical
+VASO_NUM,B7a. # of Events: Vaso-occlusive pain,p16r.csv,P16R_FINAL,continuous
+VASOSEN1,B7c. Where was patient seen for event 1: Vaso-occlusive pain,p16r.csv,P16R_FINAL,categorical
+VASOP_C1,B7d. STOP II event form completed: Vaso-occlusive pain,p16r.csv,P16R_FINAL,categorical
+VASOSEN2,B7f. Where was patient seen for event 2: Vaso-occlusive pain,p16r.csv,P16R_FINAL,categorical
+VASOP_C2,B7g. STOP II event form completed: Vaso-occlusive pain,p16r.csv,P16R_FINAL,categorical
+VASOSEN3,B7i. Where was patient seen for event 3: Vaso-occlusive pain,p16r.csv,P16R_FINAL,categorical
+VASOP_C3,B7j. STOP II event form completed: Vaso-occlusive pain,p16r.csv,P16R_FINAL,categorical
+FEVER,B8. Event Documented: Fever greater than or equal to 101,p16r.csv,P16R_FINAL,categorical
+FEVR_NUM,B8a. # of Events: Fever greater than or equal to 101,p16r.csv,P16R_FINAL,continuous
+FEVSEEN1,B8c. Where was patient seen for event 1: Fever > or = 101,p16r.csv,P16R_FINAL,categorical
+FEVER_C1,B8d. STOP II event form completed: Fever > or = 101,p16r.csv,P16R_FINAL,categorical
+FEVSEEN2,B8f. Where was patient seen for event 2: Fever > or = 101,p16r.csv,P16R_FINAL,categorical
+FEVER_C2,B8g. STOP II event form completed: Fever > or = 101,p16r.csv,P16R_FINAL,categorical
+FEVSEEN3,B8i. Where was patient seen for event 3: Fever > or = 101,p16r.csv,P16R_FINAL,categorical
+FEVER_C3,B8j. STOP II event form completed: Fever > or = 101,p16r.csv,P16R_FINAL,categorical
+FEVSEEN4,B8l. Where was patient seen for event 4: Fever > or = 101,p16r.csv,P16R_FINAL,categorical
+FEVER_C4,B8m. STOP II event form completed: Fever > or = 101,p16r.csv,P16R_FINAL,categorical
+SEPTICEM,B9. Event Documented: Septicemia,p16r.csv,P16R_FINAL,categorical
+SEPT_NUM,B9a. # of Events: Septicemia,p16r.csv,P16R_FINAL,continuous
+SEPSEEN1,B9c. Where was patient seen for event 1: Septicemia,p16r.csv,P16R_FINAL,categorical
+SEPTC_C1,B9d. STOP II event form completed: Septicemia,p16r.csv,P16R_FINAL,categorical
+SEPSEEN2,B9f. Where was patient seen for event 2: Septicemia,p16r.csv,P16R_FINAL,categorical
+SEPTC_C2,B9g. STOP II event form completed: Septicemia,p16r.csv,P16R_FINAL,categorical
+PNEUMONA,B10. Event Documented: Pneumonia,p16r.csv,P16R_FINAL,categorical
+PNEU_NUM,B10a. # of Events: Pneumonia/ACS,p16r.csv,P16R_FINAL,continuous
+PNEUSEN1,B10c. Where was patient seen for event 1: Pneumonia/ACS,p16r.csv,P16R_FINAL,categorical
+PNUEM_C1,B10d. STOP II event form completed: Pneumonia/ACS,p16r.csv,P16R_FINAL,categorical
+MENINGIT,B11. Event Documented: Meningitis,p16r.csv,P16R_FINAL,categorical
+OSTEOMYE,B12. Event Documented: Osteomyelitis,p16r.csv,P16R_FINAL,categorical
+OSTE_NUM,B12a. # of Events: Osteomyelitis,p16r.csv,P16R_FINAL,continuous
+OSTSEEN1,B12c. Where was patient seen for event 1: Osteomyelitis,p16r.csv,P16R_FINAL,categorical
+OSTEO_C1,B12d. STOP II event form completed: Osteomyelitis,p16r.csv,P16R_FINAL,categorical
+PRIAPISM,B13. Event Documented: Priapism,p16r.csv,P16R_FINAL,categorical
+PRIA_NUM,B13a. # of Events: Priapism,p16r.csv,P16R_FINAL,continuous
+PRISEEN1,B13c. Where was patient seen for event 1: Priapism,p16r.csv,P16R_FINAL,categorical
+PRIAP_C1,B13d. STOP II event form completed: Priapism,p16r.csv,P16R_FINAL,categorical
+T_REACTN,B14. Event Documented: Transfusion Reaction,p16r.csv,P16R_FINAL,categorical
+REAC_NUM,B14a. # of Events: Transfusion Reaction,p16r.csv,P16R_FINAL,continuous
+RCTSEEN1,B14c. Where was patient seen for event 1: Transfusion Reaction,p16r.csv,P16R_FINAL,categorical
+REACT_C1,B14d. STOP II event form completed: Transfusion Reaction,p16r.csv,P16R_FINAL,categorical
+OTHER,B15. Event Documented: Other,p16r.csv,P16R_FINAL,categorical
+OTHR_NUM,B15a. # of Events: Other,p16r.csv,P16R_FINAL,continuous
+OTHSEEN1,B15c.1. Where was patient seen for event 1: Other,p16r.csv,P16R_FINAL,categorical
+OTHER_C1,B15d.1. STOP II event form completed: Other,p16r.csv,P16R_FINAL,categorical
+OTHSEEN2,B15c.2. Where was patient seen for event 2: Other,p16r.csv,P16R_FINAL,categorical
+OTHER_C2,B15d.2. STOP II event form completed: Other,p16r.csv,P16R_FINAL,categorical
+OTHSEEN3,B15c.3. Where was patient seen for event 3: Other,p16r.csv,P16R_FINAL,categorical
+OTHER_C3,B15d.3. STOP II event form completed: Other,p16r.csv,P16R_FINAL,categorical
+TRANSFSN,B16. Event Documented: Transfusion,p16r.csv,P16R_FINAL,categorical
+TRANSNUM,B16a. # of Events: Transfusion,p16r.csv,P16R_FINAL,continuous
+TRNSEEN1,B16c. Where was patient seen for event 1: Transfusion,p16r.csv,P16R_FINAL,categorical
+TRANF_C1,B16d. STOP II event form completed: Transfusion,p16r.csv,P16R_FINAL,categorical
+TRNSEEN2,B16f. Where was patient seen for event 2: Transfusion,p16r.csv,P16R_FINAL,categorical
+TRANF_C2,B16g. STOP II event form completed: Transfusion,p16r.csv,P16R_FINAL,categorical
+TRNSEEN3,B16i. Where was patient seen for event 3: Transfusion,p16r.csv,P16R_FINAL,categorical
+TRANF_C3,B16j. STOP II event form completed: Transfusion,p16r.csv,P16R_FINAL,categorical
+TRNSEEN4,B16l. Where was patient seen for event 4: Transfusion,p16r.csv,P16R_FINAL,categorical
+TRANF_C4,B16m. STOP II event form completed: Transfusion,p16r.csv,P16R_FINAL,categorical
+TRNSEEN5,B16o. Where was patient seen for event 5: Transfusion,p16r.csv,P16R_FINAL,categorical
+TRANF_C5,B16p. STOP II event form completed: Transfusion,p16r.csv,P16R_FINAL,categorical
+SURGERY,B17. Event Documented: Surgery,p16r.csv,P16R_FINAL,categorical
+SURG_NUM,B17a. # of Events: Surgery,p16r.csv,P16R_FINAL,continuous
+SURGSEN1,B17c.1. Where was patient seen for surgery 1,p16r.csv,P16R_FINAL,categorical
+SURG_C1,B17d.1. STOP II event form completed,p16r.csv,P16R_FINAL,categorical
+SURGSEN2,B17c.2. Where was patient seen for surgery 2,p16r.csv,P16R_FINAL,categorical
+SURG_C2,B17d.2. STOP II event form completed,p16r.csv,P16R_FINAL,categorical
+SURGSEN3,B17c.3. Where was patient seen for surgery 3,p16r.csv,P16R_FINAL,categorical
+SURG_C3,B17d.3. STOP II event form completed,p16r.csv,P16R_FINAL,categorical
+DESTATUS,DESTATUS,p16r.csv,P16R_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p16r.csv,P16R_FINAL,categorical
+ldu_id,ID for public use datasets,p16r.csv,P16R_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date of interview as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+qrtrpt_dfrmrand,<created variable> A3. Date Quarterly Progress Report Completed as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+strok_d1frmrand,<created variable> B1b. 1st Date of Event: Stroke as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+tia_dt1frmrand,<created variable> B2b. 1st Date of Event: TIA as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+spls_d1frmrand,<created variable> B4b. 1st Date of Event: Splenic Sequestration as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+aplas_d1frmrand,<created variable> B5b. 1st Date of Event: Aplastic Crisis as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+vasop_d1frmrand,<created variable> B7b. 1st Date of Event: Vaso-occlusive pain as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+vasop_d2frmrand,<created variable> B7e. 2nd Date of Event: Vaso-occlusive pain as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+vasop_d3frmrand,<created variable> B7h. 3rd Date of Event: Vaso-occlusive pain  as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+fever_d1frmrand,<created variable> B8b. 1st Date of Event: Fever greater than or equal to 101 as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+fever_d2frmrand,<created variable> B8e. 2nd Date of Event: Fever greater than or equal to 101 as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+fever_d3frmrand,<created variable> B8h. 3rd Date of Event: Fever greater than or equal to 101 as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+fever_d4frmrand,<created variable> B8k. 4th Date of Event: Fever greater than or equal to 101 as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+septc_d1frmrand,<created variable> B9a. # of Events: Septicemia as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+septc_d2frmrand,<created variable> B9e. 2nd Date of Event: Septicemia as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+pnuem_d1frmrand,<created variable> B10b. 1st Date of Event: Pneumonia/ACS as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+osteo_d1frmrand,<created variable> B12b. 1st Date of Event: Osteomyelitis as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+priap_d1frmrand,<created variable> B13b. 1st Date of Event: Priapism as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+react_d1frmrand,<created variable> B14b. 1st Date of Event: Transfusion Reaction as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+other_d1frmrand,<created variable> B15b.1. Date of Event 1: Other as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+other_d2frmrand,<created variable> B15b.2. Date of Event 2: Other as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+other_d3frmrand,<created variable> B15b.3. Date of Event 3: Other as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+tranf_d1frmrand,<created variable> B16b. 1st Date of Event: Transfusion as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+tranf_d2frmrand,<created variable> B16e. 2nd Date of Event: Transfusion as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+tranf_d3frmrand,<created variable> B16h. 3rd Date of Event:  Transfusion as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+tranf_d4frmrand,<created variable> B16k. 4th Date of Event: Transfusion as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+tranf_d5frmrand,<created variable> B16n. 5th Date of Event: Transfusion as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+surg_d1frmrand,<created variable> B17b.1. Date of Surgery 1 as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+surg_d2frmrand,<created variable> B17b.2. Date of Surgery 2 as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+surg_d3frmrand,<created variable> B17b.3. Date of Surgery 3 as days from RAND visit,p16r.csv,P16R_FINAL,continuous
+othspec1_recode,<recoded variable> B15a.1. Specify 1: Other,p16r.csv,P16R_FINAL,categorical
+othspec2_recode,<recoded variable> B15a.2. Specify 2: Other,p16r.csv,P16R_FINAL,categorical
+othspec3_recode,<recoded variable> B15a.3. Specify 3: Other,p16r.csv,P16R_FINAL,categorical
+surgery1_recode,<recoded variable> B17a.1. Surgery 1,p16r.csv,P16R_FINAL,categorical
+surgery2_recode,<recoded variable> B17a.2. Surgery 2,p16r.csv,P16R_FINAL,categorical
+surgery3_recode,<recoded variable> B17a.3. Surgery 3,p16r.csv,P16R_FINAL,categorical
+EX_TYPE,X3. Exam type,p18t.csv,P18T_FINAL,categorical
+EX_NUM,A3. Exam number,p18t.csv,P18T_FINAL,continuous
+FIRST18T,A4. Is this the first Form 18T,p18t.csv,P18T_FINAL,categorical
+TCDSCHED,B1. Was a TCD exam scheduled,p18t.csv,P18T_FINAL,categorical
+REAS_NOT,B1.a. Reason TCD exam not scheduled,p18t.csv,P18T_FINAL,categorical
+EXNOTRPT,B1.b. Number of missed TCD exam visits,p18t.csv,P18T_FINAL,continuous
+REASMIS1,B1.b1.b. Reason exam was missed,p18t.csv,P18T_FINAL,categorical
+OTHER1,B1.b1.c. Specify reason if other,p18t.csv,P18T_FINAL,categorical
+REASMIS2,B1.b2.b. Reason exam was missed,p18t.csv,P18T_FINAL,categorical
+REASMIS3,B1.b3.b. Reason exam was missed,p18t.csv,P18T_FINAL,categorical
+NEWVISIT,B2. Has patient been rescheduled for exam,p18t.csv,P18T_FINAL,categorical
+DESTATUS,DESTATUS,p18t.csv,P18T_FINAL,categorical
+vistype,<created variable> VISIT TYPE,p18t.csv,P18T_FINAL,categorical
+ldu_id,ID for public use datasets,p18t.csv,P18T_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date of interview as days from RAND visit,p18t.csv,P18T_FINAL,continuous
+DESTATUS,DESTATUS,p23a.csv,P23A_FINAL,categorical
+CURRCHEL,B1. Is patient currently being chelated?,p23a.csv,P23A_FINAL,categorical
+DOSE,B2.a. Current prescription for chelation: Dose,p23a.csv,P23A_FINAL,continuous
+FREQUENCY,B2.b. Current prescription for chelation: Frequency,p23a.csv,P23A_FINAL,continuous
+METHOD,B2.c. Current prescription for chelation: Method of delivery,p23a.csv,P23A_FINAL,categorical
+ADMN,B2.d. Current prescription for chelation: Where administered,p23a.csv,P23A_FINAL,categorical
+OTH_SP,"B2.d1. If OTHER, specify",p23a.csv,P23A_FINAL,continuous
+DEG_COMP,C1. Rate the degree of compliance at this time,p23a.csv,P23A_FINAL,categorical
+CH_THPY,D1. Did patient ever receive chelation therapy?,p23a.csv,P23A_FINAL,categorical
+CMNTS,E1. Do you want to add additional comments?,p23a.csv,P23A_FINAL,categorical
+ldu_id,ID for public use datasets,p23a.csv,P23A_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date form completed as days from RAND visit,p23a.csv,P23A_FINAL,continuous
+disc_dtfrmrand,"<created variable> D1a. If YES, most recent date discontinued as days from RAND visit",p23a.csv,P23A_FINAL,continuous
+MAX_VEL,Maximum Velocity,pnonstop2tcds.csv,PNONSTOP2TCDS_FINAL,continuous
+VESSEL,Vessel with Maximum Velocity,pnonstop2tcds.csv,PNONSTOP2TCDS_FINAL,categorical
+ldu_id,ID for public use datasets,pnonstop2tcds.csv,PNONSTOP2TCDS_FINAL,categorical
+exam_datfrmrand,<created variable> Date of TCD exam as days from RAND visit,pnonstop2tcds.csv,PNONSTOP2TCDS_FINAL,continuous
+EX_TYPE,X3. Exam type,pq30.csv,PQ30_FINAL,categorical
+EX_NUM,X4. Exam Number,pq30.csv,PQ30_FINAL,continuous
+WHERSEEN,B1. Where was the patient first seen for this event?,pq30.csv,PQ30_FINAL,categorical
+SYMPRPTD,B2. Were signs and symptoms first reported at a quarterly visit?,pq30.csv,PQ30_FINAL,categorical
+LOSSCONS,B3a. Loss of consciousness,pq30.csv,PQ30_FINAL,categorical
+CHG_MENT,B3b. Change in mental status,pq30.csv,PQ30_FINAL,categorical
+DIF_SPEK,B3c. Loss of or difficulty with speech,pq30.csv,PQ30_FINAL,categorical
+WEAKNESS,B3d. Paralysis or weakness,pq30.csv,PQ30_FINAL,categorical
+WEAKSIDE,B3d1. Side:,pq30.csv,PQ30_FINAL,categorical
+DSWALLOW,B3e. Difficulty with swallowing,pq30.csv,PQ30_FINAL,categorical
+D_VISION,B3f. Difficulty with vision,pq30.csv,PQ30_FINAL,categorical
+DIZZINES,B3g. Loss of balance or dizziness,pq30.csv,PQ30_FINAL,categorical
+SEIZURE,B3h. Seizure,pq30.csv,PQ30_FINAL,categorical
+HEADACHE,B3i. Headache,pq30.csv,PQ30_FINAL,categorical
+SENSDIST,B3j. New sensory disturbance,pq30.csv,PQ30_FINAL,categorical
+BEHAVIOR,B3k. Change in behavior,pq30.csv,PQ30_FINAL,categorical
+COORDINA,B3l. Change in gait or coordination,pq30.csv,PQ30_FINAL,categorical
+PT_HOSP,B4. Was patient hospitalized for this event?,pq30.csv,PQ30_FINAL,categorical
+INTERVIE,C1. Person interviewed:,pq30.csv,PQ30_FINAL,categorical
+WITNES_E,C2. Did person interviewed witness suspected event?,pq30.csv,PQ30_FINAL,categorical
+A_FEBRIL,C3a. Acute febrile event,pq30.csv,PQ30_FINAL,categorical
+PAINFUL,C3b. Painful event,pq30.csv,PQ30_FINAL,categorical
+A_CHEST,C3c. Acute Chest Syndrome,pq30.csv,PQ30_FINAL,categorical
+A_ANEMIA,C3d. Acute anemia,pq30.csv,PQ30_FINAL,categorical
+ANESTHES,C3e. General anesthesia,pq30.csv,PQ30_FINAL,categorical
+A_PRIAPISM,C3f. Priapism,pq30.csv,PQ30_FINAL,categorical
+HEAD_INJ,C3g. Head injury with loss of consciousness,pq30.csv,PQ30_FINAL,categorical
+TRANSFUS,C3h. Transfusion,pq30.csv,PQ30_FINAL,categorical
+OTH_EXPR,C3i. Other,pq30.csv,PQ30_FINAL,categorical
+MRIBRAIN,D1. MRI of brain,pq30.csv,PQ30_FINAL,categorical
+DWI_PERF,D1b. Was DWI performed?,pq30.csv,PQ30_FINAL,categorical
+CT_BRAIN,D2. CT scan of brain,pq30.csv,PQ30_FINAL,categorical
+PETBRAIN,D3. PET scan of brain,pq30.csv,PQ30_FINAL,categorical
+MRABRAIN,D4. MRA of brain,pq30.csv,PQ30_FINAL,categorical
+ARTERIOG,D5. Arteriogram,pq30.csv,PQ30_FINAL,categorical
+TRANSDOP,D6. Transcranial Doppler,pq30.csv,PQ30_FINAL,categorical
+O_IMAGE,D7. Other,pq30.csv,PQ30_FINAL,categorical
+NEUREVAL,E1. Was a neurological evaluation performed ...?,pq30.csv,PQ30_FINAL,categorical
+O_EVENTS,F1. Were there other events associated with this neuro. event?,pq30.csv,PQ30_FINAL,categorical
+PT_TRANS,F2. Was this patient transfused for this neurological event?,pq30.csv,PQ30_FINAL,categorical
+PT_DIE,F3. Did the patient die as a complication of this event?,pq30.csv,PQ30_FINAL,categorical
+EV_TYPE,G1. Type of neurological event:,pq30.csv,PQ30_FINAL,categorical
+TYPESPEC,G1a. Specify:,pq30.csv,PQ30_FINAL,categorical
+DESTATUS,DESTATUS,pq30.csv,PQ30_FINAL,categorical
+vistype,<created variable> VISIT TYPE,pq30.csv,PQ30_FINAL,categorical
+ldu_id,ID for public use datasets,pq30.csv,PQ30_FINAL,categorical
+comp_dfrmrand,<created variable> A2. Date of neurological event as days from RAND visit,pq30.csv,PQ30_FINAL,continuous
+qtr_datefrmrand,<created variable> B2a. Date of Quarterly Progress Report as days from RAND visit,pq30.csv,PQ30_FINAL,continuous
+hospadmtfrmrand,<created variable> B4a. Date of hospital admission as days from RAND visit,pq30.csv,PQ30_FINAL,continuous
+hospdiscfrmrand,<created variable> B4b. Date of hospital discharge as days from RAND visit,pq30.csv,PQ30_FINAL,continuous
+mri_datefrmrand,<created variable> D1a. Date MRI performed as days from RAND visit,pq30.csv,PQ30_FINAL,continuous
+mra_datefrmrand,<created variable> D4a. Date MRA performed as days from RAND visit,pq30.csv,PQ30_FINAL,continuous
+neuro_dtfrmrand,<created variable> E1a. Date neuro evaluation performed as days from RAND visit,pq30.csv,PQ30_FINAL,continuous
+EX_TYPE,A2a. Exam Type,pq52.csv,PQ52_FINAL,categorical
+EX_NUM,A2b. Exam Number,pq52.csv,PQ52_FINAL,continuous
+STROK1,B1a. Did patient have a new stroke?,pq52.csv,PQ52_FINAL,categorical
+STROK2,B2a. Did patient have a new stroke?,pq52.csv,PQ52_FINAL,categorical
+NEWSTROK,D1. Is the group consensus that the patient had a new stroke?,pq52.csv,PQ52_FINAL,categorical
+NSTRKDX,"D1a. If NO, type of event:",pq52.csv,PQ52_FINAL,categorical
+DESTATUS,DESTATUS,pq52.csv,PQ52_FINAL,categorical
+vistype,<created variable> VISIT TYPE,pq52.csv,PQ52_FINAL,categorical
+ldu_id,ID for public use datasets,pq52.csv,PQ52_FINAL,categorical
+neuro_dtfrmrand,<created variable> A3. Date of neurological event as days from RAND visit,pq52.csv,PQ52_FINAL,continuous
+INFARCT,Infarct status,prand_table.csv,PRAND_TABLE_FINAL,categorical
+TREATMENT,Treatment arm,prand_table.csv,PRAND_TABLE_FINAL,categorical
+EP,Did patient have an endpoint?,prand_table.csv,PRAND_TABLE_FINAL,categorical
+EPWHY,Type of endpoint,prand_table.csv,PRAND_TABLE_FINAL,categorical
+EPCOMMENT,<recoded variable> Endpoint comments,prand_table.csv,PRAND_TABLE_FINAL,categorical
+XOVER,Did patient cross over?,prand_table.csv,PRAND_TABLE_FINAL,categorical
+DROPOUT,Did patient drop out of the study?,prand_table.csv,PRAND_TABLE_FINAL,categorical
+Q6M_MRAS,Was patient monitored with MRA rather than TCD?,prand_table.csv,PRAND_TABLE_FINAL,categorical
+POSTXO_EP,Reversion to abnormal TCD post-crossover?,prand_table.csv,PRAND_TABLE_FINAL,categorical
+ldu_id,ID for public use datasets,prand_table.csv,PRAND_TABLE_FINAL,categorical
+epd_frmrand,<created variable> Endpoint date as days from RAND visit,prand_table.csv,PRAND_TABLE_FINAL,continuous
+epdeclared_frmrand,<created variable> Date endpoint declared as days from RAND visit,prand_table.csv,PRAND_TABLE_FINAL,continuous
+xover_dfrmrand,<created variable> Crossover date as days from RAND visit,prand_table.csv,PRAND_TABLE_FINAL,continuous
+dropout_dfrmand,<created variable> Dropout date as days from RAND visit,prand_table.csv,PRAND_TABLE_FINAL,continuous
+postxo_epdfrmrand,<created variable> Date of reversion to abn TCD post-crossover as days from RAND visit,prand_table.csv,PRAND_TABLE_FINAL,continuous
+gotomra_dfrmrand,<created variable> Date MRA monitoring replaced TCD monitoring as days from RAND visit,prand_table.csv,PRAND_TABLE_FINAL,continuous
+drop_reasrecode,<recoded variable> Reason for dropout,prand_table.csv,PRAND_TABLE_FINAL,categorical
+xover_reasrecode,<recoded variable> Reason for crossover,prand_table.csv,PRAND_TABLE_FINAL,categorical
+whichgrp,<created variable> Patient groups in which patient participated,prst2.csv,PRST2_FINAL,categorical
+GENDER,5. Gender,prst2.csv,PRST2_FINAL,categorical
+HB_DIAG,6. Hemoglobin Diagnosis,prst2.csv,PRST2_FINAL,categorical
+ANY_SIBS,8. Other siblings on roster,prst2.csv,PRST2_FINAL,categorical
+frstpotform,<created variable> Form source for first potential visit date,prst2.csv,PRST2_FINAL,continuous
+stoprand,<summary variable> Was the patient a STOP randomized patient?,prst2.csv,PRST2_FINAL,categorical
+ldu_id,ID for public use datasets,prst2.csv,PRST2_FINAL,categorical
+age_rand,<created variable> 4. Date of birth as age at randomization in years,prst2.csv,PRST2_FINAL,continuous
+txbegind_frmrand,<created variable> 11. Transfusion start date as days from randomization,prst2.csv,PRST2_FINAL,continuous
+frstpotd_frmrand,<created variable> First visit (enrollment) as a potential patient as days from randomization,prst2.csv,PRST2_FINAL,continuous
+frstscrnd_frmrand,<created variable> First TCD screening visit as days from randomization,prst2.csv,PRST2_FINAL,continuous
+NEW_RACE,"B4. Race of Patient - 1.Black, not latin, 2. Black, latin, 3. Other",prst2.csv,PRST2_FINAL,continuous
