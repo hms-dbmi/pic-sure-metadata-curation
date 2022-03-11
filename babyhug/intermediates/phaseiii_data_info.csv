@@ -1,0 +1,1855 @@
+varname,LABEL,file,MEMNAME,picsure_type
+ID,Unique patient identifier (randomized),phaseiii_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+VISIT,VISIT NUMBER,phaseiii_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,categorical
+READER,Reader Number,phaseiii_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+LABEL,Label Number,phaseiii_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+RIGHT_L,RIGHT KIDNEY: LENGTH (cm),phaseiii_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+RIGHT_AP,RIGHT KIDNEY: ANTERIOR - POSTERIOR (cm),phaseiii_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+RIGHT_T,RIGHT KIDNEY: TRANSVERSE (cm),phaseiii_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+LEFT_L,LEFT KIDNEY: LENGTH (cm),phaseiii_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+LEFT_AP,LEFT KIDNEY: ANTERIOR - POSTERIOR (cm),phaseiii_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+LEFT_T,LEFT KIDNEY: TRANSVERSE (cm),phaseiii_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+RIGHT_VOL,RIGHT KIDNEY VOLUME (cm^3),phaseiii_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+LEFT_VOL,LEFT KIDNEY VOLUME (cm^3),phaseiii_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+PROCEDURE_DT_DAYS,Date of Procedure (recode: number of days after date of eligibility or ineligibility),phaseiii_abdominal_sonogram.csv,ABDOMINAL_SONOGRAM,continuous
+OBS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+ID,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+VISIT,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+SEQNO,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+ACTIVISIT,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+ACTSEQNO,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+AE_TYPE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+OTHER_AE_SPECIFY,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,categorical
+AE_TERM,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,categorical
+HXFEVNCR,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,categorical
+EVENT_IS_SAE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+DEATH,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+DTH_LOC,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+LIFETHRTNG,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+HOSPTLZD,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+LONGHOSP,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+ICU,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+SAE_TRTRLTD,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+SAE_EVNTTYPE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+ACSNINF,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+ACSSRAP,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+ACSOXADM,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+ACSMVENT,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+SPLNSIZE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+SPLNHMGL,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+SPLPTCNT,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+SEPSBACT,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+SEPORGGN,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,categorical
+SEPORGSS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,categorical
+MENINGTS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+MNGTBACT,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+ACOSTORG,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+ACOSTBON,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,categorical
+LOS_CONS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+CHG_MENT,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+SPEECH,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+PARALYS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+DIFFSWAL,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+DIFF_SEE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+BALANCE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+SEIZURE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+HEADACHE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+F50MRI,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+F50CTBR,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+F50PTBR,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+F50MRA,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+F50TCD,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+F50ARTGR,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+F50NEUR,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+NUMDAYS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+SEVERITY,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+ATTR_TRT,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+DIAGUNXP,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+OUTCOME,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+TRTEVENT,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+TRANSFUS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+TR_TYPE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+TRVOLWBL,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+TRVOLPR2,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+CHRTRAN,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+BMT,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+SPLCTMY,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+CHOLCTMY,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+PAR_ANTI,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+BUTYRATE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+CONTRAHU,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+DIALYS_L,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+DIALYS_C,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+RENTRANS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+TRTEVENT_OTHER,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+TRTEVENT_SPCFY,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,categorical
+AE_OUTPTTRT,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+AE_RQRHOSP,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+LLT_CODE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+LLT_NAME,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,categorical
+PT_CODE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+PT_TERM,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,categorical
+HLT_CODE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+HLT_TERM,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,categorical
+HLGT_CODE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+HLGT_TERM,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,categorical
+SOC_CODE,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+SOC_TERM,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,categorical
+ADM_DT_DAYS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+DEATH_DT_DAYS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+DISCH_DT_DAYS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+E_END_DT_DAYS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+ONSET_DT_DAYS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+RSLTN_DT_DAYS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+START_DT_DAYS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+TSTOP_DT_DAYS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+TSTRT_DT_DAYS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+VIS_DT_DAYS,,phaseiii_bhrct_fm50.csv,BHRCT_FM50,continuous
+ID,Unique patient identifier (randomized),phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+OPBLLBL,LABEL OF SERUM OPSONOPHAGOCYTIC+PNEUMOCOCCAL ANTIBODY AT STUDY ENTRY,phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+OPBLT26,RESULT OF SERUM OPSONOPHAGOCYTIC+PNEUMOCOCCAL ANTIBODY(TYPE 26) AT STUDY ENTRY,phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+OPBLT51,RESULT OF SERUM OPSONOPHAGOCYTIC+PNEUMOCOCCAL ANTIBODY(TYPE 51) AT STUDY ENTRY,phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+PCAB2YLB,LABEL OF ANTIBODY RESPONSE TO PNEUMO 23(TYPE 51) AT AGE OF 23 MONTHS,phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+PCAB2YT26,RERULT OF ANTIBODY RESPONSE TO PNEUMO 23(TYPE 26) AT AGE OF 23 MONTHS,phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+PCAB2YT51,RERULT OF ANTIBODY RESPONSE TO PNEUMO 23(TYPE 51) AT AGE OF 23 MONTHS,phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+OC2YLBL,LABEL OF SERUM OPSONOPHAGOCYTIC+PNEUMOCOCCAL ANTIBODY 2-6 WEEKS AFTER VACCINATIONS AT AGE OF 24 MONTHS,phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+OC2YT26,RESULT OF SERUM OPSONOPHAGOCYTIC+PNEUMOCOCCAL ANTIBODY(TYPE 26) 2-6 WEEKS AFTER VACCINATIONS AT AGE OF 24 MONTHS,phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+OC2YT51,RESULT OF SERUM OPSONOPHAGOCYTIC+PNEUMOCOCCAL ANTIBODY(TYPE 51) 2-6 WEEKS AFTER VACCINATIONS AT AGE OF 24 MONTHS,phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+OCAEOSLB,LABEL OF SERUM OPSONOPHAGOCYTIC+PNEUMOCOCCAL ANTIBODY AT STUDY EXIT,phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+OCAEOST26,RESULT OF SERUM OPSONOPHAGOCYTIC+PNEUMOCOCCAL ANTIBODY(TYPE 26) AT STUDY EXIT,phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+OCAEOST51,RESULT OF SERUM OPSONOPHAGOCYTIC+PNEUMOCOCCAL ANTIBODY(TYPE 51) AT STUDY EXIT,phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+OPBLDT_DAYS,DATE OF STUDY ENTRY (PRE-TREATMENT):SERUM OPSONOPHAGOCYTIC+PNEUMOCOCCAL ANTIBODY (recode: number of days after date of eligibility or ineligibility),phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+PCAB2YDT_DAYS,DATE OF 23-MONTH-OF-AGE BLOOD SAMPLES:ANTIBODY RESPONSE TO PNEUMO 23 (recode: number of days after date of eligibility or ineligibility),phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+OC2YDT_DAYS,DATE OF 2-8 WEEKS AFTER 24-MONTH OF AGE VACCINATIONS:SERUM OPSONOPHAGOCYTIC + PNEUMOCOCCAL ANTIBODY (recode: number of days after date of eligibility or ineligibility),phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+OCAEOSDT_DAYS,DATE OF STUDY EXIT:SERUM OPSONOPHAGOCYTIC+PNEUMOCOCCAL ANTIBODY (recode: number of days after date of eligibility or ineligibility),phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+DT_RECD_DAYS,DATE OF RECORD (recode: number of days after date of eligibility or ineligibility),phaseiii_bhug_pneumo_lab.csv,BHUG_PNEUMO_LAB,continuous
+ID,Unique patient identifier (randomized),phaseiii_consent_dt.csv,CONSENT_DT,continuous
+ELIGSTAT,STATUS OF ELIGIBILITY (1 = ELIGIBLE; 2 = INELIGIBLE),phaseiii_consent_dt.csv,CONSENT_DT,continuous
+TRT_GRP,TREATMENT GROUP (1 = HU; 2 = Placebo),phaseiii_consent_dt.csv,CONSENT_DT,continuous
+DATA_CONSENT,Subject Consented for Data Sharing?,phaseiii_consent_dt.csv,CONSENT_DT,categorical
+CONSENT_DT_DAYS,Consent Date (recode: number of days after date of eligibility or ineligibility),phaseiii_consent_dt.csv,CONSENT_DT,continuous
+SCRN_DT_DAYS,DATE OF SCREENING (recode: number of days after date of eligibility or ineligibility),phaseiii_consent_dt.csv,CONSENT_DT,continuous
+EXIT_DT_DAYS,DATE OF EXIT (recode: number of days after date of eligibility or ineligibility),phaseiii_consent_dt.csv,CONSENT_DT,continuous
+TRT_DT_DAYS,DATE OF TREATMENT INITIATION (recode: number of days after date of eligibility or ineligibility),phaseiii_consent_dt.csv,CONSENT_DT,continuous
+ID,Unique patient identifier (randomized),phaseiii_cystatin.csv,CYSTATIN,continuous
+LABEL,Label Number,phaseiii_cystatin.csv,CYSTATIN,continuous
+VISIT,VISIT NUMBER,phaseiii_cystatin.csv,CYSTATIN,categorical
+FIRST_MEASUREMENT,CYSTATIN C: FIRST MEASUREMENT (mg/L),phaseiii_cystatin.csv,CYSTATIN,continuous
+SECOND_MEASUREMENT,CYSTATIN C: SECOND MEASUREMENT (mg/L),phaseiii_cystatin.csv,CYSTATIN,continuous
+VIS_DT_DAYS,Visit Date (recode: number of days after date of eligibility or ineligibility),phaseiii_cystatin.csv,CYSTATIN,continuous
+ID,Unique patient identifier (randomized),phaseiii_dpta.csv,DTPA,continuous
+VISIT,F22 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_dpta.csv,DTPA,categorical
+DTPA_GFR,GFR from DTPA (ml/min/1.73m2),phaseiii_dpta.csv,DTPA,continuous
+VIS_DT_DAYS,F22 I_5      SUBJECT CLINICAL VISIT START DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_dpta.csv,DTPA,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm04.csv,FM04,continuous
+FORM,F04 FORM     STUDY FORM NUMBER,phaseiii_fm04.csv,FM04,continuous
+REV,F04 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm04.csv,FM04,continuous
+VISIT,F04 I_4VIS   SUBJECT CLINICAL VISIT NUMBER FOR FIRST SCREENING,phaseiii_fm04.csv,FM04,categorical
+SEQNO,F04 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm04.csv,FM04,continuous
+DIAGHBSS,F04 II_1     DIAGNOSIS OF HB-SS OR HB S-BETA-0-THAL?,phaseiii_fm04.csv,FM04,continuous
+AGEINCL4,F04 II_2B    IS THE CHILD CHILD BETWEEN 9 AND 17 MONTHS OF AGE INCLUSIVE?,phaseiii_fm04.csv,FM04,continuous
+WILL1217,"F04 II_2C    WILL THE CHILD BE BETWEEN 9 AND 17 MONTHS OF AGE INCLUSIVE, DURING THE STUDY RECRUITMENT PERIOD?",phaseiii_fm04.csv,FM04,continuous
+CONSNT04,F04 II_3     HAS INFORMED CONSENT BEEN OBTAINED?,phaseiii_fm04.csv,FM04,continuous
+HIPAA04,F04 II_4     HAS HIPAA AUTHORIZATION FORM BEEN OBTAINED?,phaseiii_fm04.csv,FM04,continuous
+PHONE04,F04 II_5     DOES THE FAMILY HAVE TELEPHONE SERVICE FOR CONTACT AS REQUIRED?,phaseiii_fm04.csv,FM04,continuous
+SPLENCBL,F04 III_1A   SPLENECTOMY?,phaseiii_fm04.csv,FM04,continuous
+CHRTRFBL,F04 III_1B   CHRONIC TRANSFUSION PROGRAM?,phaseiii_fm04.csv,FM04,continuous
+TRN2MO04,F04 III_1C   TRANSFUSION WITHIN LAST TWO MONTHS?,phaseiii_fm04.csv,FM04,continuous
+HERPHFBL,F04 III_1D   KNOWN HEREDITARY PERSISTENCE OF HB-F?,phaseiii_fm04.csv,FM04,continuous
+STROKEBL,F04 III_1E   STROKE OR GRADE III/IV INTRACRANIAL HEMORRHAGE?,phaseiii_fm04.csv,FM04,continuous
+MALIGBL,F04 III_1F   MALIGNANCY?,phaseiii_fm04.csv,FM04,continuous
+PALSYBL,F04 III_1G   CEREBRAL PALSY AND/OR MENTAL RETARDATION?,phaseiii_fm04.csv,FM04,continuous
+OTHCHRBL,F04 III_1H   OTHER CONDITION OR SEVERE CHRONIC ILLNESS?,phaseiii_fm04.csv,FM04,continuous
+SBTHALBL,F04 III_1I   S-BETA+ THALASSEMIA?,phaseiii_fm04.csv,FM04,continuous
+PRVHUBL,F04 III_1J   PREVIOUS OR CURRENT HYDROXYUREA THERAPY?,phaseiii_fm04.csv,FM04,continuous
+ANTISKBL,F04 III_1K   PREVIOUS OR CURRENT USE OF  OTHER ANTISICKLING AGENT?,phaseiii_fm04.csv,FM04,continuous
+TRIALSBL,F04 III_1L   CURRENT PARTICIPATION IN OTHER INTERVENTION TRIAL(S)?,phaseiii_fm04.csv,FM04,continuous
+CERT_SIG,F04 V_1B     SIGNATURE OF THE PERSON WHO FILLS OUT THE FORM,phaseiii_fm04.csv,FM04,continuous
+GEN_CMNT,F04 V_1C     GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm04.csv,FM04,continuous
+SIBLING,"F04 IV_1A    IF YES, WHAT'S THE SIBLING'S PATIENT ID?",phaseiii_fm04.csv,FM04,continuous
+SIB_ENR,F04 IV_1     DOES THE CHILD HAVE A SIBLING EITHER ENROLLED OR IN SCREENING IN BABY HUG?,phaseiii_fm04.csv,FM04,continuous
+VIS_DT_DAYS,F04 I_5      SUBJECT CLINICAL VISIT DATE OF FIRST SCREENING (recode: number of days after date of eligibility or ineligibility),phaseiii_fm04.csv,FM04,continuous
+TRN04_DT_DAYS,F04 III_1CDT TRANSFUSION DATE IF TRANSFUSED WITHIN LAST TWO MONTHS (recode: number of days after date of eligibility or ineligibility),phaseiii_fm04.csv,FM04,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm05.csv,FM05,continuous
+FORM,F05 FORM     STUDY FORM NUMBER,phaseiii_fm05.csv,FM05,continuous
+REV,F05 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm05.csv,FM05,continuous
+VISIT,F05 I_4VIS   SUBJECT CLINICAL VISIT NUMBER FOR SECOND SCREENING,phaseiii_fm05.csv,FM05,categorical
+SEQNO,F05 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm05.csv,FM05,continuous
+AGEINCL5,F05 1A       IS THE SUBJECT BETWEEN 9 AND 17 MONTHS OF AGE?,phaseiii_fm05.csv,FM05,continuous
+TRN2MO05,F05 1B       HAS THE SUBJECT HAD TRANSFUSION WITHIN LAST 2 MONTHS?,phaseiii_fm05.csv,FM05,continuous
+CONSNT05,F05 2A       HAS INFORMED CONSENT BEEN OBTAINED?,phaseiii_fm05.csv,FM05,continuous
+HIPAA05,F05 2B       HAS HIPAA AUTHORIZATION FORM BEEN OBTAINED?,phaseiii_fm05.csv,FM05,continuous
+PHONE05,F05 2C       DOES THE FAMILY HAVE TELEPHONE SERVICE FOR CONTACT AS REQUIRED?,phaseiii_fm05.csv,FM05,continuous
+PAPRVCCD,F05 2D       CONCURRENCE THAT PARTICIPATION APPROPRIATE BY CLINICAL CENTER DIRECTOR?,phaseiii_fm05.csv,FM05,continuous
+PAPRVPFA,F05 2E       CONCURRENCE THAT PARTICIPATION APPROPRIATE  BY PATIENT-FAMILY ADVOCATE?,phaseiii_fm05.csv,FM05,continuous
+BLOODCOL,F05 III_1    WERE ANY BLOOD SPECIMENS COLLECTED?,phaseiii_fm05.csv,FM05,continuous
+NOVENACS,F05 III_1A1  REASON(S) SPECIMEN NOT COLLECTED: (1). NO ACCESS,phaseiii_fm05.csv,FM05,continuous
+PTNTDCLN,F05 III_1A2  REASON(S) SPECIMEN NOT COLLECTED: (2). PATIENT DECLINED OR BLOOD DRAW NOT POSSIBLE TODAY,phaseiii_fm05.csv,FM05,continuous
+PRNTREFS,F05 III_1A3  REASON(S) SPECIMEN NOT COLLECTED: (3). PARENT REFUSED,phaseiii_fm05.csv,FM05,continuous
+SCHEMAT,F05 III_1B1  SPECIMEN LABEL: (1). HEMATOLOGY,phaseiii_fm05.csv,FM05,continuous
+SCBIOCH,F05 III_1B2  SPECIMEN LABEL: (2). BIOCHEMISTRY SPECIMEN COLLECTED JUST PRIOR TO URINE OSMOLALITY SPECIMEN,phaseiii_fm05.csv,FM05,continuous
+SCPITCEL,F05 III_1B3  SPECIMEN LABEL: (3). PITTED CELL COUNT SPECIMEN COLLECTED AND PREPARED WITHIN 1 HOUR OF COLLECTION,phaseiii_fm05.csv,FM05,continuous
+SCCYTOG,F05 III_1B4  SPECIMEN LABEL: (4). CYTOGENETICS,phaseiii_fm05.csv,FM05,continuous
+SCDNA,F05 III_1B5  SPECIMEN LABEL: (5). DNA,phaseiii_fm05.csv,FM05,continuous
+SCIMMUN,F05 III_1B6  SPECIMEN LABEL: (6). IMMUNOLOGY(RECORD LABELS ON FORM 42),phaseiii_fm05.csv,FM05,continuous
+SCPENCIL,F05 III_1B7  SPECIMEN LABEL: (7). PENICILLIN COMPLIANCE,phaseiii_fm05.csv,FM05,continuous
+SCCONS1,F05 III_1B8  IS THE SPECIMEN CONSENTED TO BE USED FOR OTHER PURPOSES?,phaseiii_fm05.csv,FM05,continuous
+SCCONS2,F05 III_1B9  IS THE SPECIMEN CONSENTED FOR OTHER DOCTORS TO STUDY DISEASES NOT RELATED TO SCA?,phaseiii_fm05.csv,FM05,continuous
+SEDMRI,F05 IV_1C1   SEDATION,phaseiii_fm05.csv,FM05,continuous
+MRI_NPO,F05 IV_1C2   HOW MANY HOURS NPO IN MRI SCAN?,phaseiii_fm05.csv,FM05,continuous
+ABD_NPO,F05 IV_1D1   HOW MANY HOURS NPO IN ABDOMINAL ULTRASOUND SCAN?,phaseiii_fm05.csv,FM05,continuous
+TRNDP_ND,F05 IV_1HND  TRANSCRANIAL DOPPLER NOT DONE,phaseiii_fm05.csv,FM05,continuous
+TRNDNP,F05 IV_1H1   REASON FOR TRANSCRANIAL DOPPLER NOT ATTEMPTED,phaseiii_fm05.csv,FM05,continuous
+TRNDNPSP,F05 IV_1H1A  SPECIFY THE OTHER REASONS WHY TRANSCRANIAL DOPPLER NOT ATTEMPTED,phaseiii_fm05.csv,FM05,continuous
+REDCELLS,F05 IV_2A    URINALYSIS: DEGREE OF RED CELLS,phaseiii_fm05.csv,FM05,continuous
+WHTCELLS,F05 IV_2B    URINALYSIS: DEGREE OF WHITE CELLS,phaseiii_fm05.csv,FM05,continuous
+URIN_PH,F05 IV_2C    URINALYSIS: URINE PH VALUE,phaseiii_fm05.csv,FM05,continuous
+URINPR,F05 IV_2D    URINALYSIS: DEGREE OF PROTEIN,phaseiii_fm05.csv,FM05,continuous
+URINHB,F05 IV_2E    URINALYSIS: DEGREE OF HEMOGLOBIN,phaseiii_fm05.csv,FM05,continuous
+URINSG,F05 IV_2F    URINALYSIS: URINE SPECIFIC GRAVITY,phaseiii_fm05.csv,FM05,continuous
+URN_NPO,F05 IV_3A    HOW MANY HOURS NPO IN URINE CONCENTRATING ABILITY ANALYSIS?,phaseiii_fm05.csv,FM05,continuous
+URINOS,F05 IV_3B    URINE OSMOLALITY SPECIMEN COLLECTED JUST AFTER BIOCHEMISTRY SPECIMEN,phaseiii_fm05.csv,FM05,continuous
+O2SAT,"F05 IV_4A    O2 SATURATION (PULSE OXYMETRY), FIRST MEASUREMENT",phaseiii_fm05.csv,FM05,continuous
+O2SATSM,"F05 IV_4B    O2 SATURATION (PULSE OXYMETRY), SECOND MEASUREMENT",phaseiii_fm05.csv,FM05,continuous
+HEIGHT1,"F05 IV_5A    SUBJECT'S RECUMBENT LENGTH, FIRST MEASUREMENT",phaseiii_fm05.csv,FM05,continuous
+HEIGHT2,"F05 IV_5B    SUBJECT'S RECUMBENT LENGTH, SECOND MEASUREMENT",phaseiii_fm05.csv,FM05,continuous
+HEIGHT3,"F05 IV_5C    SUBJECT'S RECUMBENT LENGTH, THIRD MEASUREMENT",phaseiii_fm05.csv,FM05,continuous
+HEIGHT,F05          AVERAGE OF THE SUBJECT'S RECUMBENT LENGTH,phaseiii_fm05.csv,FM05,continuous
+HAIRHGHT,F05 IV_5D    RATE HAIR STYLE INTERFERENCE ON SUBJECT'S LENGTH,phaseiii_fm05.csv,FM05,continuous
+WEIGHT1,"F05 IV_6A    SUBJECT'S WEIGHT, FIRST MEASUREMENT",phaseiii_fm05.csv,FM05,continuous
+WEIGHT2,"F05 IV_6B    SUBJECT'S WEIGHT, SECOND MEASUREMENT",phaseiii_fm05.csv,FM05,continuous
+WEIGHT3,"F05 IV_6C    SUBJECT'S WEIGHT, THIRD MEASUREMENT",phaseiii_fm05.csv,FM05,continuous
+WEIGHT,F05          AVERAGE OF SUBJECT'S WEIGHT,phaseiii_fm05.csv,FM05,continuous
+HEADC1,"F05 IV_7A    SUBJECT'S HEAD CIRCUMFERENCE, FIRST MEASUREMENT",phaseiii_fm05.csv,FM05,continuous
+HEADC2,"F05 IV_7B    SUBJECT'S HEAD CIRCUMFERENCE, SECOND MEASUREMENT",phaseiii_fm05.csv,FM05,continuous
+HEADC3,"F05 IV_7C    SUBJECT'S HEAD CIRCUMFERENCE, THIRD MEASUREMENT",phaseiii_fm05.csv,FM05,continuous
+HEADC,F05          AVERAGE OD SUBJECT'S HEAD CIRCUMFERENCE,phaseiii_fm05.csv,FM05,continuous
+HAIR,F05 IV_7D    RATE HAIR STYLE INTERFERENCE ON SUBJECT'S HEAD CIRCUMFERENCE,phaseiii_fm05.csv,FM05,continuous
+CERT_NO,F05 V_1A     CERTIFICATION NUMBER OF THE PERSON WHO FILLS OUT THE FORM,phaseiii_fm05.csv,FM05,continuous
+CERT_SIG,F05 V_1B     SIGNATURE OF THE PERSON WHO FILLS OUT THE FORM,phaseiii_fm05.csv,FM05,continuous
+GEN_CMNT,F05 V_1C     GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm05.csv,FM05,continuous
+VIS_DT_DAYS,F05 I_5      SUBJECT CLINICAL VISIT DATE OF SECOND SCREENING (recode: number of days after date of eligibility or ineligibility),phaseiii_fm05.csv,FM05,continuous
+MSRMT_DT_DAYS,F05 IV_8     ANTHROPOMETRY MEASUREMENT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm05.csv,FM05,continuous
+TRN05_DT_DAYS,F05 1B1DT    THE SUBJECT TRANSFUSION DATE IF TRANSFUSED WITHIN LAST TWO MONTHS (recode: number of days after date of eligibility or ineligibility),phaseiii_fm05.csv,FM05,continuous
+URNLS_DT_DAYS,F05 IV_1ADT  DATE OF URINALYSIS PERFORMED (recode: number of days after date of eligibility or ineligibility),phaseiii_fm05.csv,FM05,continuous
+URNCA_DT_DAYS,F05 IV_1BDT  DATE OF URINE CONCENTRATING ABILITY PERFORMED (recode: number of days after date of eligibility or ineligibility),phaseiii_fm05.csv,FM05,continuous
+MRI_DT_DAYS,F05 IV_1CDT  MRI/MRA DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm05.csv,FM05,continuous
+LIVSP_DT_DAYS,F05 IV_1CDT  DATE OF LIVER-SPLEEN SCAN PERFORMED (recode: number of days after date of eligibility or ineligibility),phaseiii_fm05.csv,FM05,continuous
+ABULT_DT_DAYS,F05 IV_1DDT  DATE OF ABDOMINAL ULTRASOUND PERFORMED (recode: number of days after date of eligibility or ineligibility),phaseiii_fm05.csv,FM05,continuous
+NEFCH_DT_DAYS,F05 IV_1EDT  DATE OF NEUROLOGICAL EVALUATION PERFORMED (recode: number of days after date of eligibility or ineligibility),phaseiii_fm05.csv,FM05,continuous
+BAYL_DT_DAYS,F05 IV_1FDT  DATE OF BAYLEY'S TEST PERFORMED (recode: number of days after date of eligibility or ineligibility),phaseiii_fm05.csv,FM05,continuous
+VINLD_DT_DAYS,F05 IV_1GDT  DATE OF VINELAND TEST PERFORMED (recode: number of days after date of eligibility or ineligibility),phaseiii_fm05.csv,FM05,continuous
+TRNDP_DT_DAYS,F05 IV_1HDT  DATE OF TRANSCRANIAL DOPPLER PERFORMED (recode: number of days after date of eligibility or ineligibility),phaseiii_fm05.csv,FM05,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm06.csv,FM06,continuous
+FORM,F06 FORM     STUDY FORM NUMBER,phaseiii_fm06.csv,FM06,continuous
+REV,F06 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm06.csv,FM06,continuous
+VISIT,F06 I_4VIS   SUBJECT CLINICAL VISIT NUMBER FOR PHYSICAL EXAMINATION,phaseiii_fm06.csv,FM06,categorical
+SEQNO,F06 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm06.csv,FM06,continuous
+SCDIAG,F06 II_1     SUBJECT SICKLE CELL DIAGNOSIS (HB-SS OR HB S-BETA-0-THAL),phaseiii_fm06.csv,FM06,continuous
+GEST_AGE,F06 II_2     GESTATIONAL AGE AT BIRTH,phaseiii_fm06.csv,FM06,continuous
+GESTAGNA,F06 II_2NA   GESTATIONAL AGE AT BIRTH NA,phaseiii_fm06.csv,FM06,continuous
+HOSPBL,F06 II_3A    NUMBER OF EPISODES OF HOSPITALIZATION(S),phaseiii_fm06.csv,FM06,continuous
+HOSP_NA,F06 II_3ANA  HOSPITALIZATION(S) NA,phaseiii_fm06.csv,FM06,continuous
+FEVERBL,F06 II_3A1   NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: FEVER,phaseiii_fm06.csv,FM06,continuous
+FEVER_NA,F06 II_3A1NA FEVER NA,phaseiii_fm06.csv,FM06,continuous
+DACTBL,F06 II_3B    NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: DACTYLITIS,phaseiii_fm06.csv,FM06,continuous
+DACTBLNA,F06 II_3BNA  DACTYLITIS NA,phaseiii_fm06.csv,FM06,continuous
+AGEDACT,F06 II_3B1   SUBJECT AGE OF FIRST DACTYLITIS,phaseiii_fm06.csv,FM06,continuous
+AGEDACNA,F06 II_3B1NA AGE OF FIRST DACTYLITIS NA,phaseiii_fm06.csv,FM06,continuous
+PAINBL,F06 II_3C    NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: PAIN,phaseiii_fm06.csv,FM06,continuous
+PAINBLNA,F06 II_3CNA  PAIN NA,phaseiii_fm06.csv,FM06,continuous
+ASCBL,F06 II_3D    NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: ACUTE CHEST SYNDROME,phaseiii_fm06.csv,FM06,continuous
+ASCBL_NA,F06 II_3DNA  ACUTE CHEST SYNDROME NA,phaseiii_fm06.csv,FM06,continuous
+PRIAPBL,F06 II_3E    NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: PRIAPISM,phaseiii_fm06.csv,FM06,continuous
+PRIAPNA,F06 II_3ENA  PRIAPISM NA,phaseiii_fm06.csv,FM06,continuous
+SPLSEQBL,F06 II_3F    NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: SPLENIC SEQUESTRATION,phaseiii_fm06.csv,FM06,continuous
+SPLSEQNA,F06 II_3FNA  SPLENIC SEQUESTRATION NA,phaseiii_fm06.csv,FM06,continuous
+TRNSFBL,F06 II_3G    NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: TRANSFUSION,phaseiii_fm06.csv,FM06,continuous
+TRNS_NA,F06 II_3GNA  TRANSFUSION NA,phaseiii_fm06.csv,FM06,continuous
+SEPSISBL,F06 II_3H    NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: BACTEREMIA/SEPSIS OTHER THAN MENINGITIS,phaseiii_fm06.csv,FM06,continuous
+SEPSISNA,F06 II_3HNA  BACTEREMIA/SEPSIS OTHER THAN MENINGITIS NA,phaseiii_fm06.csv,FM06,continuous
+MENINBL,F06 II_3I    NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: MENINGITIS,phaseiii_fm06.csv,FM06,continuous
+MENIN_NA,F06 II_3INA  MENINGITIS NA,phaseiii_fm06.csv,FM06,continuous
+APLCRBL,F06 II_3J    NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: APLASTIC CRISIS,phaseiii_fm06.csv,FM06,continuous
+APLCR_NA,F06 II_3JNA  APLASTIC CRISIS NA,phaseiii_fm06.csv,FM06,continuous
+TIABL,F06 II_3K    NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: TRANSIENT ISCHEMIC ATTACK,phaseiii_fm06.csv,FM06,continuous
+TIABL_NA,F06 II_3KNA  TRANSIENT ISCHEMIC ATTACK NA,phaseiii_fm06.csv,FM06,continuous
+SEIZNFBL,F06 II_3L    NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: SEIZURES (NON-FEBRILE),phaseiii_fm06.csv,FM06,continuous
+SEIZNFNA,F06 II_3LNA  SEIZURES (NON-FEBRILE) NA,phaseiii_fm06.csv,FM06,continuous
+SEIZFBBL,F06 II_3M    NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: SEIZURES (FEBRILE),phaseiii_fm06.csv,FM06,continuous
+SEIZFBNA,F06 II_3MNA  SEIZURES (FEBRILE) NA,phaseiii_fm06.csv,FM06,continuous
+OSTEOMBL,F06 II_3N    NUMBER OF EPISODES THE CHILD HAS HAD SINCE BIRTH: OSTEOMYELITIS,phaseiii_fm06.csv,FM06,continuous
+OSTEOMNA,F06 II_3NNA  OSTEOMYELITIS NA,phaseiii_fm06.csv,FM06,continuous
+SPLNMDCL,F06 III_1A   SPLEEN: MIDCLAVICULAR LINE,phaseiii_fm06.csv,FM06,continuous
+SPLNINTC,F06 III_1B   SPLEEN: ANTERIOR AXILLARY LINE,phaseiii_fm06.csv,FM06,continuous
+LIVRCMBL,F06 III_2    LIVER: PALPATED BELOW THE RIGHT COSTAL MARGIN,phaseiii_fm06.csv,FM06,continuous
+HEIGHT1,F06 III_3A   CHILD'S REUMBENT LENGTH MEASUREMENT #1,phaseiii_fm06.csv,FM06,continuous
+HEIGHT2,F06 III_3B   CHILD'S REUMBENT LENGTH MEASUREMENT #2,phaseiii_fm06.csv,FM06,continuous
+HEIGHT3,F06 III_3C   CHILD'S REUMBENT LENGTH MEASUREMENT #3,phaseiii_fm06.csv,FM06,continuous
+HEIGHT,F06          CHILD'S AVERAGE RECUMBENT LENGTH,phaseiii_fm06.csv,FM06,continuous
+HAIRHGHT,F06 III_3D   RATE HAIR STYLE INTERFERENCE ON CHILD'S LENGTH,phaseiii_fm06.csv,FM06,continuous
+WEIGHT1,F06 III_4A   CHILD'S WEIGHT MEASUREMENT #1,phaseiii_fm06.csv,FM06,continuous
+WEIGHT2,F06 III_4B   CHILD'S WEIGHT MEASUREMENT #2,phaseiii_fm06.csv,FM06,continuous
+WEIGHT3,F06 III_4C   CHILD'S WEIGHT MEASUREMENT #3,phaseiii_fm06.csv,FM06,continuous
+WEIGHT,F06          CHILD'S AVERAGE WEIGHT,phaseiii_fm06.csv,FM06,continuous
+HEADC1,F06 III_5A   CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #1,phaseiii_fm06.csv,FM06,continuous
+HEADC2,F06 III_5B   CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #2,phaseiii_fm06.csv,FM06,continuous
+HEADC3,F06 III_5C   CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #3,phaseiii_fm06.csv,FM06,continuous
+HEADC,F06          CHILD'S AVERAGE HEAD CIRCUMFERENCE,phaseiii_fm06.csv,FM06,continuous
+HAIR,F06 III_5D   RATE HAIR STYLE INTERFERENCE ON CHILD'S HEAD CIRCUMFERENCE,phaseiii_fm06.csv,FM06,continuous
+VIS_DT_DAYS,F06 I_5      FORM COMPLETED DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm06.csv,FM06,continuous
+MSRMT_DT_DAYS,F06 III_6    ANTHROPOMETRY MEASUREMENT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm06.csv,FM06,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm07.csv,FM07,continuous
+FORM,F07 FORM     STUDY FORM NUMBER,phaseiii_fm07.csv,FM07,continuous
+REV,F07 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm07.csv,FM07,continuous
+VISIT,F07 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm07.csv,FM07,categorical
+SEQNO,F07 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm07.csv,FM07,continuous
+ASIAN,F07 II_1B    ASIAN,phaseiii_fm07.csv,FM07,continuous
+NHWNOPIS,F07 II_1C    NATIVE HAWAIIAN/OTHER PACIFIC ISLANDER,phaseiii_fm07.csv,FM07,continuous
+ETHUNKN,F07 II_1F    RACIAL STATUS UNKNOWN OR NOT REPORTED,phaseiii_fm07.csv,FM07,continuous
+CARIBBN,F07 II_3     CARIBBEAN,phaseiii_fm07.csv,FM07,continuous
+GENDER,F07 II_4     SUBJECT'S GENDER,phaseiii_fm07.csv,FM07,continuous
+ROOMS,F07 II_5     HOW MANY ROOMS ARE IN THE PATIENT'S RESIDENCE?,phaseiii_fm07.csv,FM07,continuous
+CHLDN,F07 II_6A    NUMBER OF PEOPLE UNDER 18 LIVE IN THE PATIENT'S HOUSEHOULD NOT COUNTING THE PATIENT,phaseiii_fm07.csv,FM07,continuous
+ADULT,F07 II_6B    NUMBER OF PEOPLE 18 AND OVER LIVE IN THE PATIENT'S HOUSEHOULD,phaseiii_fm07.csv,FM07,continuous
+PCFTWORK,F07 II_9A    EMPLOYMENT STATUS OF THE PATIENT'S PRIMARY CARETAKER: FULL-TIME WORK (35 HOURS WEEK OR MORE),phaseiii_fm07.csv,FM07,continuous
+PCPTWORK,F07 II_9B    EMPLOYMENT STATUS OF THE PATIENT'S PRIMARY CARETAKER: PART-TIME WORK (LESS THAN 35 HOURS/WEEK),phaseiii_fm07.csv,FM07,continuous
+PCUNEMPL,"F07 II_9C    EMPLOYMENT STATUS OF THE PATIENT'S PRIMARY CARETAKER: LAID OFF, UNEMPLOYED OR CURRENTLY LOOKING FOR WORK",phaseiii_fm07.csv,FM07,continuous
+PCKHOUSE,F07 II_9F    EMPLOYMENT STATUS OF THE PATIENT'S PRIMARY CARETAKER: KEEPING HOUSE,phaseiii_fm07.csv,FM07,continuous
+PCAS35HM,F07 II_9G    EMPLOYMENT STATUS OF THE PATIENT'S PRIMARY CARETAKER: ATTENDING SCHOOL 35 HOURS A WEEK OR MORE,phaseiii_fm07.csv,FM07,continuous
+PCAS35HL,F07 II_9H    EMPLOYMENT STATUS OF THE PATIENT'S PRIMARY CARETAKER: ATTENDING SCHOOL LESS THAN 35 HOURS A WEEK,phaseiii_fm07.csv,FM07,continuous
+PCVRWORK,F07 II_9I    EMPLOYMENT STATUS OF THE PATIENT'S PRIMARY CARETAKER: DOING VOLUNTEER WORK,phaseiii_fm07.csv,FM07,continuous
+PCEMP5YR,F07 II_9K    EMPLOYMENT STATUS OF THE PATIENT'S PRIMARY CARETAKER: EMPLOYED IN THE LAST 5 YEARS,phaseiii_fm07.csv,FM07,continuous
+OCFTWORK,F07 II_12A   EMPLOYMENT STATUS OF THE PATIENT'S FATHER OR OTHER CARETAKER: FULL-TIME WORK (35 HOURS WEEK OR MORE),phaseiii_fm07.csv,FM07,continuous
+OCPTWORK,F07 II_12B   EMPLOYMENT STATUS OF THE PATIENT'S FATHER OR OTHER CARETAKER: PART-TIME EMPLOYMENT (LESS THAN 35 HOURS/WEEK),phaseiii_fm07.csv,FM07,continuous
+OCUNEMPL,"F07 II_12C   EMPLOYMENT STATUS OF THE PATIENT'S FATHER OR OTHER CARETAKER: LAID OFF, UNEMPLOYED OR CURRENTLY LOOKING FOR WORK",phaseiii_fm07.csv,FM07,continuous
+OCKHOUSE,F07 II_12F   EMPLOYMENT STATUS OF THE PATIENT'S FATHER OR OTHER CARETAKER: KEEPING HOUSE,phaseiii_fm07.csv,FM07,continuous
+OCAS35HM,F07 II_12G   EMPLOYMENT STATUS OF THE PATIENT'S FATHER OR OTHER CARETAKER: ATTENDING SCHOOL 35 HOURS A WEEK OR MORE,phaseiii_fm07.csv,FM07,continuous
+OCAS35HL,F07 II_12H   EMPLOYMENT STATUS OF THE PATIENT'S FATHER OR OTHER CARETAKER: ATTENDING SCHOOL LESS THAN 35 HOURS A WEEK,phaseiii_fm07.csv,FM07,continuous
+OCVRWORK,F07 II_12I   EMPLOYMENT STATUS OF THE PATIENT'S FATHER OR OTHER CARETAKER: DOING VOLUNTEER WORK,phaseiii_fm07.csv,FM07,continuous
+OCEMP5YR,F07 II_12K   EMPLOYMENT STATUS OF THE PATIENT'S FATHER OR OTHER CARETAKER: EMPLOYED IN LAST 5 YEARS,phaseiii_fm07.csv,FM07,continuous
+PRIVTINS,F07 II_14A   WHAT TYPE OF MEDICAL INSURANCE: PRIVATE INSURANCE,phaseiii_fm07.csv,FM07,continuous
+MEDICARE,F07 II_14B   WHAT TYPE OF MEDICAL INSURANCE: MEDICARE,phaseiii_fm07.csv,FM07,continuous
+MEDICAID,F07 II_14C   WHAT TYPE OF MEDICAL INSURANCE:  MEDICAID,phaseiii_fm07.csv,FM07,continuous
+STATEPRG,F07 II_14D   WHAT TYPE OF MEDICAL INSURANCE: STATE PROGRAM,phaseiii_fm07.csv,FM07,continuous
+NOINSRNC,F07 II_14E   WHAT TYPE OF MEDICAL INSURANCE:  NO INSURANCE,phaseiii_fm07.csv,FM07,continuous
+AMNGCARE,F07 II_14F   WHAT TYPE OF MEDICAL INSURANCE:  ANY MANAGED CARE,phaseiii_fm07.csv,FM07,continuous
+VIS_DT_DAYS,F07 I_5      FORM COMPLETED DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm07.csv,FM07,continuous
+RACEG,"Race (1 = Black, non-hispanic, 2 = Non-black/Hispanic/Multiple races)",phaseiii_fm07.csv,FM07,continuous
+PRCARTKRG,"F07 II_7     WHO IS THE PATIENT'S PRIMARY CARETAKER? (regrouped: 1 = Mother, 2 = Other)",phaseiii_fm07.csv,FM07,continuous
+PCSCHOOLG,"F07 II_8 HIGHEST LEVEL OF SCHOOL PRIMARY CARETAKER COMPLETED (regrouped: 4=5th-11th Grade;5=H.S. Diploma or Equiv;6=Some College-No Degree;7=Assoc. Degree,8=Bachelor's Degree;9=Master's, Prof School, or Doctorate Degree)",phaseiii_fm07.csv,FM07,continuous
+PCWORKG,"F07 II_9 EMPLOYMENT STATUS OF THE PATIENT'S PRIMARY CARETAKER: DISABLED, RETIRED, or OTHER (1 = Yes, 2 = No, 3 = N/A)",phaseiii_fm07.csv,FM07,continuous
+PCRTOCPNG,"F07 II_9L    WHAT IS/WAS THE PRIMARY CARETAKER'S MAIN OCCUPATION (regrouped: 1=Professional/technical,2=Manager/administrator,3=Sales worker,4=Clerical worker,5=Operative/Laborer/Farm Foreman/Other,9=Service worker)",phaseiii_fm07.csv,FM07,continuous
+OTHCRTKRG,"F07 II_10    WHO IS THE PATIENT'S OTHER CARETAKER (regrouped: 1=Mother,3=Father,12=Grandparent(s),13=Other Relative,15=Unrelated person or No other caretaker,18=N/A)",phaseiii_fm07.csv,FM07,continuous
+OCSCHOOLG,"F07 II_11 HIGHEST Lvl OF SCHOOL FATHER/OTH CARETAKER COMPLETED (regrouped: 4=None-11th Grade;5=H.S. Diploma or Equiv;6=Some College-No Degree;7=Assoc, Prof School, or Doctorate Degree;8=Bachelor's Deg;9=Master's Deg;12=N/A",phaseiii_fm07.csv,FM07,continuous
+OCWORKG,"F07 II_12 EMPLOYMENT STATUS OF THE PATIENT'S FATHER OR OTHER CARETAKER: DISABLED, RETIRED, or OTHER (1 = Yes, 2 = No, 3 = N/A)",phaseiii_fm07.csv,FM07,continuous
+OCRTOCPNG,"F07 II_12L   WHAT IS/WAS THE OTHER CARETAKER'S MAIN OCCUPATION (regrouped: 1=Professional/technical,2=Manager/administrator,3=Sales worker,4=Clerical worker,5=Operative/Laborer/Farm Foreman/Other,9=Service worker,11=N/A)",phaseiii_fm07.csv,FM07,continuous
+FAMINCOMG,"F07 II_13  COUNTING ALL INCOME (regrouped: 1= < $10,000,2=$10,000-$19,999,3=$20,000-$29,999,4=$30,000-$39,999,5=$40,000-$49,999,6=$50,000-$59,999,7=$60,000-$79,999,9=$80,000-$124,999,12=$125,000-$150,000 or More,14=N/A)",phaseiii_fm07.csv,FM07,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm08.csv,FM08,continuous
+FORM,F08 FORM     STUDY FORM NUMBER,phaseiii_fm08.csv,FM08,continuous
+REV,F08 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm08.csv,FM08,continuous
+VISIT,F08 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm08.csv,FM08,categorical
+SEQNO,F08 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm08.csv,FM08,continuous
+GESTAGW,F08 II_1     GESTATIONAL AGE AT BIRTH WEEK,phaseiii_fm08.csv,FM08,continuous
+NEWB_HT,F08 II_2A    NEONATAL ANTHROPOMETRY LENGTH,phaseiii_fm08.csv,FM08,continuous
+NWBHT_ND,F08 II_2ANA  NEONATAL ANTHROPOMETRY LENGTH (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+NEWB_WT,F08 II_2B    NEONATAL ANTHROPOMETRY WEIGHT,phaseiii_fm08.csv,FM08,continuous
+NWBWT_ND,F08 II_2BNA  NEONATAL ANTHROPOMETRY WEIGHT (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+NEWB_HC,F08 II_2C    NEONATAL ANTHROPOMETRY HEAD CIRCUMFERENCE,phaseiii_fm08.csv,FM08,continuous
+NWBHC_ND,F08 II_2CNA  NEONATAL ANTHROPOMETRY HEAD CIRCUMFERENCE (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A3MO_NA,F08 II_3ANA  2-4 MONTHS OF AGE DATE OF MEASUREMENT (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A3MO_HT,F08 II_3B    2-4 MONTHS OF AGE LENGTH,phaseiii_fm08.csv,FM08,continuous
+A3MOHTND,F08 II_3BNA  2-4 MONTHS OF AGE LENGTH (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A3MO_WT,F08 II_3C    2-4 MONTHS OF AGE WEIGHT,phaseiii_fm08.csv,FM08,continuous
+A3MOWTND,F08 II_3CNA  2-4 MONTHS OF AGE WEIGHT (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A3MO_HC,F08 II_3D    2-4 MONTHS OF AGE  HEAD CIRCUMFERENCE,phaseiii_fm08.csv,FM08,continuous
+A3MOHCND,F08 II_3DNA  2-4 MONTHS OF AGE  HEAD CIRCUMFERENCE (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A6MO_NA,F08 II_4ANA  5-7 MONTHS OF AGE DATE OF MEASUREMENT (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A6MO_HT,F08 II_4B    5-7 MONTHS OF AGE LENGTH,phaseiii_fm08.csv,FM08,continuous
+A6MOHTND,F08 II_4BNA  5-7 MONTHS OF AGE LENGTH (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A6MO_WT,F08 II_4C    5-7 MONTHS OF AGE WEIGHT,phaseiii_fm08.csv,FM08,continuous
+A6MOWTND,F08 II_4CNA  5-7 MONTHS OF AGE WEIGHT (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A6MO_HC,F08 II_4D    5-7 MONTHS OF AGE HEAD CIRCUMFERENCE,phaseiii_fm08.csv,FM08,continuous
+A6MOHCND,F08 II_4DNA  5-7 MONTHS OF AGE HEAD CIRCUMFERENCE (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A9MO_NA,F08 II_5ANA  8-10 MONTHS OF AGE DATE OF MEASUREMENT (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A9MO_HT,F08 II_5B    8-10 MONTHS OF AGE LENGTH,phaseiii_fm08.csv,FM08,continuous
+A9MOHTND,F08 II_5BNA  8-10 MONTHS OF AGE LENGTH (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A9MO_WT,F08 II_5C    8-10 MONTHS OF AGE WEIGHT,phaseiii_fm08.csv,FM08,continuous
+A9MOWTND,F08 II_5CNA  8-10 MONTHS OF AGE WEIGHT (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A9MO_HC,F08 II_5D    8-10 MONTHS OF AGE HEAD CIRCUMFERENCE,phaseiii_fm08.csv,FM08,continuous
+A9MOHCND,F08 II_5DNA  8-10 MONTHS OF AGE HEAD CIRCUMFERENCE (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A12MO_NA,F08 II_6ANA  11-13 MONTHS OF AGE DATE OF MEASUREMENT (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A12MO_HT,F08 II_6B    11-13 MONTHS OF AGE LENGTH,phaseiii_fm08.csv,FM08,continuous
+A12MHTND,F08 II_6BNA  11-13 MONTHS OF AGE LENGTH (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A12MO_WT,F08 II_6C    11-13 MONTHS OF AGE WEIGHT,phaseiii_fm08.csv,FM08,continuous
+A12MWTND,F08 II_6CNA  11-13 MONTHS OF AGE WEIGHT (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+A12MO_HC,F08 II_6D    11-13 MONTHS OF AGE HEAD CIRCUMFERENCE,phaseiii_fm08.csv,FM08,continuous
+A12MHCND,F08 II_6DNA  11-13 MONTHS OF AGE HEAD CIRCUMFERENCE (NOT APPLICABLE),phaseiii_fm08.csv,FM08,continuous
+VIS_DT_DAYS,F08 I_5      FORM COMPLETED DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm08.csv,FM08,continuous
+A3MO_DT_DAYS,F08 II_3ADT  2-4 MONTHS OF AGE DATE OF MEASUREMENT (recode: number of days after date of eligibility or ineligibility),phaseiii_fm08.csv,FM08,continuous
+A6MO_DT_DAYS,F08 II_4ADT  5-7 MONTHS OF AGE DATE OF MEASUREMENT (recode: number of days after date of eligibility or ineligibility),phaseiii_fm08.csv,FM08,continuous
+A9MO_DT_DAYS,F08 II_5ADT  8-10 MONTHS OF AGE DATE OF MEASUREMENT (recode: number of days after date of eligibility or ineligibility),phaseiii_fm08.csv,FM08,continuous
+A12MO_DT_DAYS,F08 II_6ADT  11-13 MONTHS OF AGE DATE OF MEASUREMENT (recode: number of days after date of eligibility or ineligibility),phaseiii_fm08.csv,FM08,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm21.csv,FM21,continuous
+FORM,F21 FORM     STUDY FORM NUMBER,phaseiii_fm21.csv,FM21,continuous
+REV,F21 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm21.csv,FM21,continuous
+VISIT,F21 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm21.csv,FM21,continuous
+SEQNO,F21 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm21.csv,FM21,continuous
+TRNRND21,F21 II_1     HAS PATIENT BEEN TRANSFUSED SINCE RANDOMIZATION?,phaseiii_fm21.csv,FM21,continuous
+HBF21,F21 II_2A    SPECIMEN LABEL: HEMATOLOGY/HBF (REQUIRED) (0.5 ML EDTA LAVENDER-TOP),phaseiii_fm21.csv,FM21,continuous
+BIOCHEM,F21 II_2B    SPECIMEN LABEL: BIOCHEMISTRY (REQUIRED) (1.0 ML RED-TOP),phaseiii_fm21.csv,FM21,continuous
+TXBOTNO,F21 III_1A   RECORD BOTTLE # OF STUDY TREATMENT DISPENSED TO PATIENT TODAY,phaseiii_fm21.csv,FM21,continuous
+TXDOSEMG,F21 III_1B1  DAILY DOSE MG,phaseiii_fm21.csv,FM21,continuous
+TXDOSEML,F21 III_1B2  DAILY DOSE ML,phaseiii_fm21.csv,FM21,continuous
+HEIGHT1,F21 IV_1A    CHILD'S RECUMBENT LENGTH MEASUREMENT #1,phaseiii_fm21.csv,FM21,continuous
+HEIGHT2,F21 IV_1B    CHILD'S RECUMBENT LENGTH MEASUREMENT #2,phaseiii_fm21.csv,FM21,continuous
+HEIGHT3,F21 IV_1C    CHILD'S RECUMBENT LENGTH MEASUREMENT #3,phaseiii_fm21.csv,FM21,continuous
+HEIGHT,F21          CHILD'S AVERAGE RECUMBENT LENGTH,phaseiii_fm21.csv,FM21,continuous
+HAIRHGHT,F21 IV_1D    RATE HAIR STYLE INTERFERENCE ON CHILD'S LENGTH,phaseiii_fm21.csv,FM21,continuous
+WEIGHT1,F21 IV_2A    CHILD'S WEIGHT MEASUREMENT #1,phaseiii_fm21.csv,FM21,continuous
+WEIGHT2,F21 IV_2B    CHILD'S WEIGHT MEASUREMENT #2,phaseiii_fm21.csv,FM21,continuous
+WEIGHT3,F21 IV_2C    CHILD'S WEIGHT MEASUREMENT #3,phaseiii_fm21.csv,FM21,continuous
+WEIGHT,F21          CHILD'S AVERAGE WEIGHT,phaseiii_fm21.csv,FM21,continuous
+HEADC1,F21 IV_3A    CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #1,phaseiii_fm21.csv,FM21,continuous
+HEADC2,F21 IV_3B    CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #2,phaseiii_fm21.csv,FM21,continuous
+HEADC3,F21 IV_3C    CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #3,phaseiii_fm21.csv,FM21,continuous
+HEADC,F21          CHILD'S AVERAGE HEAD CIRCUMFERENCE,phaseiii_fm21.csv,FM21,continuous
+HAIR,F21 IV_3D    RATE HAIR STYLE INTERFERENCE ON CHILD'S HEAD CIRCUMFERENCE,phaseiii_fm21.csv,FM21,continuous
+VIS_DT_DAYS,F21 I_5      SUBJECT CLINICAL VISIT START DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm21.csv,FM21,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm22.csv,FM22,continuous
+FORM,F22 FORM     STUDY FORM NUMBER,phaseiii_fm22.csv,FM22,continuous
+REV,F22 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm22.csv,FM22,continuous
+VISIT,F22 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm22.csv,FM22,categorical
+SEQNO,F22 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm22.csv,FM22,continuous
+PRDTPAHR,"F22 II_1AHR  PRE-DTPA TIME,  HOUR",phaseiii_fm22.csv,FM22,continuous
+PRDTPAMN,"F22 II_1AMN  PRE-DTPA TIME,  MINUTES",phaseiii_fm22.csv,FM22,continuous
+HULABEL,F22 II_1B    TUBE LABEL (2 ML IN EDTA),phaseiii_fm22.csv,FM22,continuous
+STSAPRE,F22 II_1A    STANDARD SYRINGE ACTIVITY: PRE,phaseiii_fm22.csv,FM22,continuous
+STSAPOST,F22 II_1B    STANDARD SYRINGE ACTIVITY: POST,phaseiii_fm22.csv,FM22,continuous
+STSASTAC,F22 II_1C    STANDARD SYRINGE ACTIVITY: STANDARD ACTIVITY,phaseiii_fm22.csv,FM22,continuous
+DSSAPRE,F22 II_2A    DOSE SYRINGE ACTIVITY: PRE,phaseiii_fm22.csv,FM22,continuous
+DSSAPOST,F22 II_2B    DOSE SYRINGE ACTIVITY: POST,phaseiii_fm22.csv,FM22,continuous
+DTPADOSE,F22 II_2C    DOSE SYRINGE ACTIVITY: DTPA DOSE ADMINISTERED,phaseiii_fm22.csv,FM22,continuous
+DTPAHR,F22 II_2DHR  DOSE SYRINGE ACTIVITY: TIME DTPA ADMINISTERED HOUR,phaseiii_fm22.csv,FM22,continuous
+DTPAMN,F22 II_2DMN  DOSE SYRINGE ACTIVITY: TIME DTPA ADMINISTERED MINUTES,phaseiii_fm22.csv,FM22,continuous
+STDYHR,F22 II_3AHR  TIME STUDY TREATMENT ADMINISTERED HOUR,phaseiii_fm22.csv,FM22,continuous
+STDYMN,F22 II_3AMN  TIME STUDY TREATMENT ADMINISTERED  MINUTES,phaseiii_fm22.csv,FM22,continuous
+STDYCMPL,F22 II_3B     COMPLETE ADMINISTRATION OF STUDY TREATMENT,phaseiii_fm22.csv,FM22,continuous
+STDY_SP,"F22 II_3B1   IF ADMINISTRATION OF STUDY TREATMENT NOT COMPLETED, SPECIFY",phaseiii_fm22.csv,FM22,continuous
+ROOMFRST,F22 II_4A    ROOM (WATER) BACKGROUND FIRST COUNT:,phaseiii_fm22.csv,FM22,continuous
+ROOMSEC,F22 II_4B    ROOM (WATER) BACKGROUND SECOND COUNT:,phaseiii_fm22.csv,FM22,continuous
+ROOMSCND,F22 II_4BND  ROOM (WATER) BACKGROUND SECOND COUNT NOT DONE,phaseiii_fm22.csv,FM22,continuous
+STNDFRST,F22 II_5A    STANDARD FIRST COUNT:,phaseiii_fm22.csv,FM22,continuous
+STNDSEC,F22 II_5B    STANDARD SECOND  COUNT:,phaseiii_fm22.csv,FM22,continuous
+STNDSCND,F22 II_5BND  STANDARD SECOND  COUNT  NOT DONE,phaseiii_fm22.csv,FM22,continuous
+ONEHR,"F22 II_6AHR  ONE-HOUR TIME,  HOUR",phaseiii_fm22.csv,FM22,continuous
+ONEMN,"F22 II_6AMN  ONE-HOUR TIME,  MINUTES",phaseiii_fm22.csv,FM22,continuous
+ONEDTPA,F22 II_6B    ONE HOUR DTPA MEASUREMENT,phaseiii_fm22.csv,FM22,continuous
+ONE_ND,F22 II_6BND  ONE HOUR DTPA MEASUREMENT NOT DONE,phaseiii_fm22.csv,FM22,continuous
+ONEDTPA2,F22 II_6C    ONE HOUR SECOND DTPA MEASUREMENT,phaseiii_fm22.csv,FM22,continuous
+ONE_ND2,F22 II_6CND  ONE HOUR SECOND DTPA MEASUREMENT NOT DONE,phaseiii_fm22.csv,FM22,continuous
+ONEHULBL,F22 II_6D    ONE HOUR TUBE LABEL (3 ML IN EDTA):,phaseiii_fm22.csv,FM22,continuous
+TWOHR,"F22 II_7AHR  TWO-HOUR TIME,  HOUR",phaseiii_fm22.csv,FM22,continuous
+TWOMN,"F22 II_7AMN  TWO-HOUR TIME,  MINUTE",phaseiii_fm22.csv,FM22,continuous
+TWODTPA,F22 II_7B    TWO HOUR DTPA MEASUREMENT,phaseiii_fm22.csv,FM22,continuous
+TWO_ND,F22 II_7BND  TWO HOUR DTPA MEASUREMENT NOT DONE,phaseiii_fm22.csv,FM22,continuous
+TWODTPA2,F22 II_7C    TWO HOUR SECOND DTPA MEASUREMENT,phaseiii_fm22.csv,FM22,continuous
+TWO_ND2,F22 II_7CND  TWO HOUR SECOND DTPA MEASUREMENT NOT DONE,phaseiii_fm22.csv,FM22,continuous
+TWOHULBL,F22 II_7D    TWO HOUR TUBE LABEL (3 ML IN EDTA):,phaseiii_fm22.csv,FM22,continuous
+FORHR,"F22 II_8AHR  FOUR-HOUR TIME,   HOUR",phaseiii_fm22.csv,FM22,continuous
+FORMN,"F22 II_8AMN  FOUR-HOUR TIME,  MINUTE",phaseiii_fm22.csv,FM22,continuous
+FORDTPA,F22 II_8B    FOUR HOUR DTPA MEASUREMENT,phaseiii_fm22.csv,FM22,continuous
+FOR_ND,F22 II_8BND  FOUR HOUR DTPA MEASUREMENT NOT DONE,phaseiii_fm22.csv,FM22,continuous
+FORDTPA2,F22 II_8C    FOUR HOUR SECOND DTPA MEASUREMENT,phaseiii_fm22.csv,FM22,continuous
+FOR_ND2,F22 II_8CND  FOUR HOUR SECOND DTPA MEASUREMENT NOT DONE,phaseiii_fm22.csv,FM22,continuous
+FORHULBL,F22 II_8D    FOUR HOUR TUBE LABEL (3 ML IN EDTA):,phaseiii_fm22.csv,FM22,continuous
+EITHR,"F22 II_10AHR EIGHT-HOUR TIME,  HOUR",phaseiii_fm22.csv,FM22,continuous
+EITMN,"F22 II_10AMN EIGHT-HOUR TIME,  MINUTE",phaseiii_fm22.csv,FM22,continuous
+EIT_ND,F22 II_10AND EIGHT-HOUR TIME (24-HR CLOCK) NOT DONE,phaseiii_fm22.csv,FM22,continuous
+EITLBLND,F22 II_10BND EIGHT HOUR TUBE LABEL (2 ML IN EDTA) NOT DONE,phaseiii_fm22.csv,FM22,continuous
+GFRDTP_A,F22 II_9A   GFR FROM DTPA ML/MIN,phaseiii_fm22.csv,FM22,continuous
+GFRDTP_B,F22 II_9B   GFR FROM DTPA ML/MIN/M 2,phaseiii_fm22.csv,FM22,continuous
+GFRDTP_C,F22 II_9C   GFR FROM DTPA ML/MIN/1.73M 2,phaseiii_fm22.csv,FM22,continuous
+VIS_DT_DAYS,F22 I_5      SUBJECT CLINICAL VISIT START DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm22.csv,FM22,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm23.csv,FM23,continuous
+FORM,F23 FORM     STUDY FORM NUMBER,phaseiii_fm23.csv,FM23,continuous
+REV,F23 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm23.csv,FM23,continuous
+VISIT,F23 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm23.csv,FM23,categorical
+SEQNO,F23 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm23.csv,FM23,continuous
+TRHR,"F23 II_1A_HR TIME STUDY TREATMENT ADMINISTERED (24-HR CLOCK), HOUR",phaseiii_fm23.csv,FM23,continuous
+TRMN,"F23 II_1A_MN TIME STUDY TREATMENT ADMINISTERED (24-HR CLOCK), MINUTE",phaseiii_fm23.csv,FM23,continuous
+NEW_BOT,F23 II_1B    NEW BOTTLE OF STUDY TREATMENT RECONSTITUTED FOR THIS ADMINISTRATION?,phaseiii_fm23.csv,FM23,continuous
+COMPLETE,F23 II_1C    COMPLETE ADMINISTRATION OF STUDY TREATMENT?,phaseiii_fm23.csv,FM23,continuous
+THIRTYHR,F23 II_2A_HR 30-MINUTE TIME (24-HR CLOCK) BY HOUR,phaseiii_fm23.csv,FM23,continuous
+THIRTYMN,F23 II_2A_MN 30-MINUTE TIME (24-HR CLOCK) BY MINUTE,phaseiii_fm23.csv,FM23,continuous
+THIRTYLB,F23 II_2B    30-MINUTE TUBE LABEL (EDTA),phaseiii_fm23.csv,FM23,continuous
+NINETYHR,F23 II_3A_HR 90-MINUTE TIME (24-HR CLOCK) HR,phaseiii_fm23.csv,FM23,continuous
+NINETYMN,F23 II_3A_MN 90-MINUTE TIME (24-HR CLOCK) MN,phaseiii_fm23.csv,FM23,continuous
+NINETYLB,F23 II_3B    90-MINUTE TUBE LABEL (EDTA),phaseiii_fm23.csv,FM23,continuous
+VIS_DT_DAYS,F23 I_5      SUBJECT CLINICAL VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm23.csv,FM23,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm31.csv,FM31,continuous
+FORM,F31 FORM     STUDY FORM NUMBER,phaseiii_fm31.csv,FM31,continuous
+REV,F31 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm31.csv,FM31,continuous
+VISIT,F31 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm31.csv,FM31,continuous
+SEQNO,F31 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm31.csv,FM31,continuous
+SPLNMDCL,F31 II_1A    MIDCLAVICULAR LINE,phaseiii_fm31.csv,FM31,continuous
+SPLNMCND,F31 II_1AND  MIDCLAVICULAR LINE MEASUREMENT NOT DONE,phaseiii_fm31.csv,FM31,continuous
+SPLNINTC,F31 II_1B    ANTERIOR AXILLARY LINE,phaseiii_fm31.csv,FM31,continuous
+SPLNICND,F31 II_1BND  ANTERIOR AXILLARY LINE MEASUREMENT NOT DONE,phaseiii_fm31.csv,FM31,continuous
+TEMP,F31 II_2A    TEMPERATURE,phaseiii_fm31.csv,FM31,continuous
+TEMPMEAS,F31 II_2AFC  TYPE OF TEMPERATURE DEGREES,phaseiii_fm31.csv,FM31,continuous
+TEMPND,F31 II_2AND  TEMPERATURE MEASUREMENT NOT DONE,phaseiii_fm31.csv,FM31,continuous
+PULSE,F31 II_2B    PULSE,phaseiii_fm31.csv,FM31,continuous
+PULSEND,F31 II_2BND  PULSE MEASUREMENT NOT DONE,phaseiii_fm31.csv,FM31,continuous
+RESP,F31 II_2C    RESPIRATION,phaseiii_fm31.csv,FM31,continuous
+RESPND,F31 II_2CND  RESPIRATION MEASUREMENT NOT DONE,phaseiii_fm31.csv,FM31,continuous
+HEIGHT1,F31 II_3A    CHILD'S RECUMBENT LENGTH MEASUREMENT #1,phaseiii_fm31.csv,FM31,continuous
+HEIGHTND,F31 II_3AND  CHILD'S RECUMBENT LENGTH MEASUREMENT #1 NOT DONE,phaseiii_fm31.csv,FM31,continuous
+HEIGHT2,F31 II_3B    CHILD'S RECUMBENT LENGTH MEASUREMENT #2,phaseiii_fm31.csv,FM31,continuous
+HEIGHT3,F31 II_3C    CHILD'S RECUMBENT LENGTH MEASUREMENT #3,phaseiii_fm31.csv,FM31,categorical
+HEIGHT,F31          CHILD'S AVERAGE RECUMBENT LENGTH,phaseiii_fm31.csv,FM31,continuous
+HAIRHGHT,F31 II_3D    RATE HAIR STYLE INTERFERENCE ON CHILD'S LENGTH,phaseiii_fm31.csv,FM31,continuous
+WEIGHT1,F31 II_4A    CHILD'S WEIGHT MEASUREMENT #1,phaseiii_fm31.csv,FM31,continuous
+WEIGHTND,F31 II_4AND  CHILD'S WEIGHT MEASUREMENT #1 NOT DONE,phaseiii_fm31.csv,FM31,continuous
+WEIGHT2,F31 II_4B    CHILD'S WEIGHT MEASUREMENT #2,phaseiii_fm31.csv,FM31,continuous
+WEIGHT3,F31 II_4C    CHILD'S WEIGHT MEASUREMENT #3,phaseiii_fm31.csv,FM31,categorical
+WEIGHT,F31          CHILD'S AVERAGE WEIGHT,phaseiii_fm31.csv,FM31,continuous
+HEADC1,F31 II_5A    CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #1,phaseiii_fm31.csv,FM31,continuous
+HEADCND,F31 II_5AND  CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #1 NOT DONE,phaseiii_fm31.csv,FM31,continuous
+HEADC2,F31 II_5B    CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #2,phaseiii_fm31.csv,FM31,continuous
+HEADC3,F31 II_5C    CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #3,phaseiii_fm31.csv,FM31,categorical
+HEADC,F31          CHILD'S AVERAGE HEAD CIRCUMFERENCE,phaseiii_fm31.csv,FM31,continuous
+HAIR,F31 II_5D    RATE HAIR STYLE INTERFERENCE ON CHILD'S HEAD CIRCUMFERENCE,phaseiii_fm31.csv,FM31,continuous
+N_EVTS,F31 II_6     NUMBER OF REPORTABLE EVENTS AND/OR HOSPITALIZATIONS SINCE LAST COMPLETED STUDY VISIT,phaseiii_fm31.csv,FM31,continuous
+FEVER31,F31 II_7A    FEVER MORE THAN 101.5 DEGREES F. (38.4 DEGREES C.),phaseiii_fm31.csv,FM31,continuous
+VACCINE,F31 II_7B    ANY VACCINATIONS SINCE LAST VISIT,phaseiii_fm31.csv,FM31,continuous
+PENCILN,F31 II_8A    DID THE CHILD HAVE PENICILLIN LAST NIGHT,phaseiii_fm31.csv,FM31,continuous
+ANANTBTC,"F31 II_8A1   IF NO, DID THE CHILD TAKE ANOTHER ANTIBIOTIC",phaseiii_fm31.csv,FM31,continuous
+ANANT_SP,F31 II_8A1A  SPECIFY ANTIBIOTICS USED,phaseiii_fm31.csv,FM31,continuous
+PENDOSE,F31 II_8B    HOW MANY DOSES OF PENICILLIN OR SIMILAR ANTIBOTIC WERE MISSED IN THE LAST WEEK?,phaseiii_fm31.csv,FM31,continuous
+PENNA,F31 II_8BNA  HOW MANY DOSES OF PENICILLIN OR SIMILAR ANTIBOTIC WERE MISSED IN THE LAST WEEK (NOT APPLICABLE),phaseiii_fm31.csv,FM31,continuous
+WHCHVIS,"F31 II_9     FOR 3-MONTH, 9-MONTH, 15-MONTH OR 21-MONTH VISIT, HAS FORM 33 BEEN COMPLETED?",phaseiii_fm31.csv,FM31,continuous
+RECORDRX,F31 III_1A   RECORD RX #,phaseiii_fm31.csv,FM31,continuous
+RXNORET,F31 III_1ANR RECORD RX # NOT RETURNED,phaseiii_fm31.csv,FM31,continuous
+VOLLFT,F31 III_1B   APPROXIMATELY HOW MUCH VOLUME IS LEFT?,phaseiii_fm31.csv,FM31,continuous
+VOLNA,F31 III_1BNA VOLUME LEFT (NOT APPLICABLE),phaseiii_fm31.csv,FM31,continuous
+IRRTRT,F31 III_1C   ANY IRREGULAR TREATMENT ADMINISTRATION SINCE LAST VISIT?,phaseiii_fm31.csv,FM31,continuous
+BLOODCOL,F31 III_2    WERE BLOOD SPECIMENS COLLECTED FOR THIS VISIT?,phaseiii_fm31.csv,FM31,continuous
+DIFBLDDW,F31 III_2A1  REASON BLOOD SPECIMENS NOT COLLECTED TODAY: DIFFICULTY WITH BLOOD DRAWING,phaseiii_fm31.csv,FM31,continuous
+PATRFUSL,F31 III_2A2  REASON BLOOD SPECIMENS NOT COLLECTED TODAY: PATIENT/FAMILY REFUSAL,phaseiii_fm31.csv,FM31,continuous
+OTHNOBLD,F31 III_2A3  REASON BLOOD SPECIMENS NOT COLLECTED TODAY: OTHER,phaseiii_fm31.csv,FM31,continuous
+OTHBLDSP,F31 III_2A3ARSPECIFY THE OTHER REASONS WHY BLOOD SPECIMENS NOT COLLECTED,phaseiii_fm31.csv,FM31,continuous
+HBF31,F31 III_2B1  SPECIMEN LABEL: HEMATOLOGY (0.5ML EDTA LAVENDER-TOP),phaseiii_fm31.csv,FM31,continuous
+HBF31ND,F31 III_2B1NDSPECIMEN LABEL FOR HEMATOLOGY NOT DONE OR NOT APPLICABLE,phaseiii_fm31.csv,FM31,continuous
+BIOCHEM,F31 III_2B2  SPECIMEN LABEL: BIOCHEMISTRY (1.0ML RED TOP),phaseiii_fm31.csv,FM31,continuous
+BIOCHND,F31 III_2B2NDBIOCHEMISTRY (CHECK CHILD'S SCHEDULE) N/D N/A,phaseiii_fm31.csv,FM31,continuous
+TXOK,F31 III_3A   IS THERE ANY REASON YOU WOULD NOT RECOMMEND STUDY TREATMENT TO THIS CHILD TODAY?,phaseiii_fm31.csv,FM31,continuous
+TXBOTNO,"F31 III_3B1  IF TX OK, DISPENSE STUDY TREATMENT AND RECORD BOTTLE NUMBER",phaseiii_fm31.csv,FM31,continuous
+TXDDOSMG,F31 III_3B2A DAILY DOSE MG,phaseiii_fm31.csv,FM31,continuous
+TXDDOSML,F31 III_3B2B DAILY DOSE ML,phaseiii_fm31.csv,FM31,continuous
+VOLDISP,F31 III_3B3  VOLUME DISPENSED,phaseiii_fm31.csv,FM31,continuous
+TXNOTOK,F31 III_3C   CHECK HERE TO CONFIRM THAT STUDY TREATMENT WAS NOT DISPENSED,phaseiii_fm31.csv,FM31,continuous
+GEN_CMNT,F31 IV_1C    GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm31.csv,FM31,continuous
+VIS_DT_DAYS,F31 I_5      SUBJECT CLINICAL VISIT START DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm31.csv,FM31,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm32.csv,FM32,continuous
+FORM,F32 FORM     STUDY FORM NUMBER,phaseiii_fm32.csv,FM32,continuous
+REV,F32 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm32.csv,FM32,continuous
+VISIT,F32 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm32.csv,FM32,categorical
+SEQNO,F32 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm32.csv,FM32,continuous
+FORGOT,F32 II_1A    REASONS FOR MISSED VISIT: FORGOT APPOINTMENT,phaseiii_fm32.csv,FM32,continuous
+SCHEDULE,F32 II_1B    REASONS FOR MISSED VISIT: SCHEDULING DIFFICULTIES,phaseiii_fm32.csv,FM32,continuous
+TRANSPT,F32 II_1C    REASONS FOR MISSED VISIT: TRANSPORTATION DIFFICULTY,phaseiii_fm32.csv,FM32,continuous
+ILLCHILD,F32 II_1D    REASONS FOR MISSED VISIT: CHILD WAS ILL WITH HOSPITALIZATION OR REPORTABLE EVENT,phaseiii_fm32.csv,FM32,continuous
+NODOCTOR,F32 II_1E    CHILD WAS ILL - NO MEDICAL ATTENTION?,phaseiii_fm32.csv,FM32,continuous
+NODOCSP,F32 II_1E1   CHILD WAS ILL - NO MEDICAL ATTENTION DETAILS,phaseiii_fm32.csv,FM32,categorical
+ADVOCATE,F32 II_2     HAS PATIENT/FAMILY ADVOCATE BEEN IN TOUCH WITH THE FAMILY SINCE LAST VISIT?,phaseiii_fm32.csv,FM32,continuous
+GEN_CMNT,F32 III_1C   GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm32.csv,FM32,continuous
+VIS_DT_DAYS,F32 I_5      SUBJECT SCHEDULED VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm32.csv,FM32,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm33.csv,FM33,continuous
+FORM,F33 FORM     STUDY FORM NUMBER,phaseiii_fm33.csv,FM33,continuous
+REV,F33 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm33.csv,FM33,continuous
+VISIT,F33 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm33.csv,FM33,categorical
+SEQNO,F33 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm33.csv,FM33,continuous
+O2SAT,F33 II_1A    O2 SATURATION (PULSE OXYMETRY),phaseiii_fm33.csv,FM33,continuous
+O2SATND,F33 II_1AND  O2 SATURATION (PULSE OXYMETRY) NOT DONE,phaseiii_fm33.csv,FM33,continuous
+O2SATSM,F33 II_1B    SECOND MEASUREMENT FOR O2 SATURATION,phaseiii_fm33.csv,FM33,continuous
+O2SATSND,F33 II_1BND  SECOND MEASUREMENT NOT DONE,phaseiii_fm33.csv,FM33,continuous
+F80II2,"F33 II_2     IF NOT MEASURED, HAS FORM 80 BEEN SUBMITTED?",phaseiii_fm33.csv,FM33,continuous
+GEN_CMNT,F33 III_1C   GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm33.csv,FM33,continuous
+VIS_DT_DAYS,F33 I_5      SUBJECT CLINICAL VISIT START DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm33.csv,FM33,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm34.csv,FM34,continuous
+FORM,F34 FORM     STUDY FORM NUMBER,phaseiii_fm34.csv,FM34,continuous
+REV,F34 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm34.csv,FM34,continuous
+VISIT,F34 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm34.csv,FM34,categorical
+SEQNO,F34 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm34.csv,FM34,continuous
+SPC_PITC,F34 II_1     SPECIMEN LABEL: PITTED CELL COUNT COLLECTED AND PREPARED WITHIN 1 HOUR OF COLLECTION?,phaseiii_fm34.csv,FM34,continuous
+SPCPITND,F34 II_1ND   PITTED CELL COUNT SPECIMEN NOT COLLECTED,phaseiii_fm34.csv,FM34,continuous
+LIVRCM,F34 III_1CM  PALPABLE LIVER,phaseiii_fm34.csv,FM34,continuous
+O2SAT,F34 III_2A   O2 SATURATION (PULSE OXYMETRY),phaseiii_fm34.csv,FM34,continuous
+O2SATND,F34 III_2AND O2 SATURATION (PULSE OXYMETRY) NOT DONE,phaseiii_fm34.csv,FM34,continuous
+O2SATSM,F34 III_2B   SECOND MEASUREMENT OF O2 SATURATION,phaseiii_fm34.csv,FM34,continuous
+O2SATSND,F34 III_2BND SECOND MEASUREMENT NOT DONE,phaseiii_fm34.csv,FM34,continuous
+SPPNCLND,F34 III_3ND  PENICILLIN COMPLIANCE SPECIMEN NOT COLLECTED,phaseiii_fm34.csv,FM34,continuous
+BAYLEYS,F34 III_4    WAS FORM 40 - BAYLEY'S ADMINISTERED?,phaseiii_fm34.csv,FM34,continuous
+VINELAND,F34 III_5    WAS FORM 41 - VINELAND ADMINISTERED TO PARENTS?,phaseiii_fm34.csv,FM34,continuous
+NRLGQUES,F34 III_6    WAS FORM 43 - NEUROLOGICAL QUESTIONNAIRE ADMINISTERED?,phaseiii_fm34.csv,FM34,continuous
+F80III7,F34 III_7    WAS FORM 80 SUBMITTED?,phaseiii_fm34.csv,FM34,continuous
+VIS_DT_DAYS,F34 I_5      SUBJECT VISIT START DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm34.csv,FM34,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm35.csv,FM35,continuous
+FORM,F35 FORM     STUDY FORM NUMBER,phaseiii_fm35.csv,FM35,continuous
+REV,F35 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm35.csv,FM35,continuous
+VISIT,F35 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm35.csv,FM35,categorical
+SEQNO,F35 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm35.csv,FM35,continuous
+SPC_PITC,F35 II_1     SPECIMEN LABEL: PITTED CELL COUNT COLLECTED AND PREPARED WITHIN 1 HOUR OF COLLECTION?,phaseiii_fm35.csv,FM35,continuous
+SPCPITND,F35 II_1ND   PITTED CELL COUNT SPECIMEN NOT COLLECTED,phaseiii_fm35.csv,FM35,continuous
+LIVRCM,F35 III_1    PALPABLE LIVER,phaseiii_fm35.csv,FM35,continuous
+LIVRCMND,F35 III_1ND  LIVER PALPABLE MEASUREMENT NOT DONE,phaseiii_fm35.csv,FM35,continuous
+O2SAT,F35 III_2A   O2 SATURATION (PULSE OXYMETRY),phaseiii_fm35.csv,FM35,continuous
+O2SATND,F35 III_2AND O2 SATURATION (PULSE OXYMETRY) NOT DONE,phaseiii_fm35.csv,FM35,continuous
+O2SATSM,F35 III_2B   SECOND MEASUREMENT OF O2 SATURATION,phaseiii_fm35.csv,FM35,continuous
+O2SATSND,F35 III_2BND SECOND MEASUREMENT NOT DONE,phaseiii_fm35.csv,FM35,continuous
+SPC_PNCL,F35 III_3    WAS PENICILLIN COMPLIANCE SPECIMEN COLLECTED?,phaseiii_fm35.csv,FM35,continuous
+SPPNCLND,F35 III_3ND  PENICILLIN COMPLIANCE SPECIMEN NOT COLLECTED,phaseiii_fm35.csv,FM35,continuous
+BAYLEYS,F35 III_4    WAS FORM 40 - BAYLEY'S ADMINISTERED?,phaseiii_fm35.csv,FM35,continuous
+VINELAND,F35 III_5    WAS FORM 41 - VINELAND ADMINISTERED TO PARENTS?,phaseiii_fm35.csv,FM35,continuous
+NRLGQUES,F35 III_6    WAS FORM 43 - NEUROLOGICAL QUESTIONNAIRE ADMINISTERED?,phaseiii_fm35.csv,FM35,continuous
+MRI,F35 III_7    WAS MRI DONE?,phaseiii_fm35.csv,FM35,continuous
+SEDATION,F35 III_7A   SEDATION,phaseiii_fm35.csv,FM35,continuous
+HRSNPO,F35 III_8    HOURS NPO?,phaseiii_fm35.csv,FM35,continuous
+TCD,F35 III_3    WAS TCD PERFORMED?,phaseiii_fm35.csv,FM35,continuous
+F80III8,F35 III_8    WAS FORM 80 SUBMITTED?,phaseiii_fm35.csv,FM35,continuous
+GEN_CMNT,F35 IV_1C    GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm35.csv,FM35,continuous
+VIS_DT_DAYS,F35 I_5      SUBJECT CLINICAL VISIT START DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm35.csv,FM35,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm36.csv,FM36,continuous
+FORM,F36 FORM     STUDY FORM NUMBER,phaseiii_fm36.csv,FM36,continuous
+REV,F36 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm36.csv,FM36,continuous
+VISIT,F36 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm36.csv,FM36,categorical
+SEQNO,F36 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm36.csv,FM36,continuous
+EOT_PLAN,F36 II_1A    END OF RANDOMIZED STUDY TREATMENT: PLANNED END OF RANDOMIZED TREATMENT AT 2-YEARS,phaseiii_fm36.csv,FM36,continuous
+EOT_INAC,F36 II_1B    END OF RANDOMIZED STUDY TREATMENT: INACTIVE FOLLOW-UP STATUS,phaseiii_fm36.csv,FM36,continuous
+EOT_RELO,F36 II_1C    END OF RANDOMIZED STUDY TREATMENT: PERMANENT RELOCATION TO AREA WITH NO BABY HUG CLINIC,phaseiii_fm36.csv,FM36,continuous
+EOT_WCON,F36 II_1D    END OF RANDOMIZED STUDY TREATMENT: WITHDREW CONSENT,phaseiii_fm36.csv,FM36,continuous
+EOT_KIDN,F36 II_1E    END OF RANDOMIZED STUDY TREATMENT: RENAL FAILURE OR CHRONIC DIALYSIS REQUIRING CESSATION OF STUDY TREATMENT,phaseiii_fm36.csv,FM36,continuous
+EOT_MB,F36 II_1F    END OF RANDOMIZED STUDY TREATMENT: BONE MARROW STATUS REQUIRING CESSATION OF STUDY TREATMENT,phaseiii_fm36.csv,FM36,continuous
+EOT_STRK,F36 II_1G    END OF RANDOMIZED STUDY TREATMENT: STROKE,phaseiii_fm36.csv,FM36,continuous
+EOT_CHTR,F36 II_1H    END OF RANDOMIZED STUDY TREATMENT: PLACEMENT ON CHRONIC TRANSFUSION PROGRAM,phaseiii_fm36.csv,FM36,continuous
+EOT_BMT,F36 II_1I    END OF RANDOMIZED STUDY TREATMENT: BONE MARROW TRANSPLANTATION,phaseiii_fm36.csv,FM36,continuous
+EOT_DTH,F36 II_1J    END OF RANDOMIZED STUDY TREATMENT: DEATH,phaseiii_fm36.csv,FM36,continuous
+EOT_OTHR,F36 II_1K    END OF RANDOMIZED STUDY TREATMENT: OTHER CONDITION REQUIRING END OF STUDY TREATMENT,phaseiii_fm36.csv,FM36,continuous
+F80II2,F36 II_2     FORM 80 SUBMITTED?,phaseiii_fm36.csv,FM36,continuous
+SPC_HEM,F36 III_1A   SPECIMEN LABEL: HEMATOLOGY (0.5 ML EDTA LAVENDER TOP),phaseiii_fm36.csv,FM36,continuous
+SPCHEMND,F36 III_1AND SPECIMEN FOR HEMATOLOGY NOT COLLECTED,phaseiii_fm36.csv,FM36,continuous
+SPC_BIOC,F36 III_1B   SPECIMEN LABEL: BIOCHEMISTRY COLLECTED JUST PRIOR TO URINE OSMOLALITY SPECIMEN (1.0 ML RED TOP),phaseiii_fm36.csv,FM36,continuous
+SPCBIOND,F36 III_1BND BIOCHEMISTRY SPECIMEN NOT COLLECTED,phaseiii_fm36.csv,FM36,continuous
+SPC_PITC,F36 III_1C   SPECIMEN LABEL: PITTED CELL COUNT COLLECTED AND PREPARED WITHIN 1 HOUR OF COLLECTION(0.1 ML EDTA LAVENDER TOP),phaseiii_fm36.csv,FM36,continuous
+SPCPITND,F36 III_1CND PITTED CELL COUNT SPECIMEN NOT COLLECTED,phaseiii_fm36.csv,FM36,continuous
+SPC_GYTO,F36 III_1D   SPECIMEN LABEL: CYTOGENETICS (4.0 ML NA HEPARIN GREEN TOP),phaseiii_fm36.csv,FM36,continuous
+SPCGYTND,F36 III_1DND SPECIMEN FOR CYTOGENETICS NOT COLLECTED,phaseiii_fm36.csv,FM36,continuous
+SPC_DNA,F36 III_1E   SPECIMEN LABEL: DNA (3.0 ML EDTA LAVENDER TOP),phaseiii_fm36.csv,FM36,continuous
+SPCDNAND,F36 III_1END SPECIMEN FOR DNA (3.0 ML EDTA LAVENDER TOP) NOT COLLECTED,phaseiii_fm36.csv,FM36,continuous
+SPC_IMMN,F36 III_1F   SPECIMEN LABEL: IMMUNOLOGY (RECORD LABELS ON FORM 42),phaseiii_fm36.csv,FM36,continuous
+F80III2,F36 III_2    FORM 80 SUBMITTED?,phaseiii_fm36.csv,FM36,continuous
+LIVRCM,F36 IV_1A    PALPABLE LIVER CM,phaseiii_fm36.csv,FM36,continuous
+LIVRCMND,F36 IV_1AND  PALPABLE LIVER NOT DONE,phaseiii_fm36.csv,FM36,continuous
+SPLNMDCL,F36 IV_1B1   MIDCLAVICULAR LINE CM,phaseiii_fm36.csv,FM36,continuous
+SPLNMCND,F36 IV_1B1ND MIDCLAVICULAR LINE NOT DONE,phaseiii_fm36.csv,FM36,continuous
+SPLNINTC,F36 IV_1B2   ANTERIOR AXILLARY LINE CM,phaseiii_fm36.csv,FM36,continuous
+SPLNICND,F36 IV_1B2ND ANTERIOR AXILLARY LINE NOT DONE,phaseiii_fm36.csv,FM36,continuous
+REDCELLS,F36 IV_2A    URINALYSIS: DEGREE OF RED CELLS,phaseiii_fm36.csv,FM36,continuous
+WHTCELLS,F36 IV_2B    URINALYSIS: DEGREE OF WHITE CELLS,phaseiii_fm36.csv,FM36,continuous
+URN_PH,F36 IV_2C    URINALYSIS: URINE PH VALUE,phaseiii_fm36.csv,FM36,continuous
+URN_PHND,F36 IV_2CND  URINALYSIS  PH NOT DONE,phaseiii_fm36.csv,FM36,continuous
+URNPR,F36 IV_2D    URINALYSIS: DEGREE OF PROTEIN,phaseiii_fm36.csv,FM36,continuous
+URNHB,F36 IV_2E    URINALYSIS: DEGREE OF HEMOGLOBIN,phaseiii_fm36.csv,FM36,continuous
+URINSG,F36 IV_2F    URINALYSIS: URINE SPECIFIC GRAVITY,phaseiii_fm36.csv,FM36,continuous
+URINSGND,F36 IV_2FND  URINALYSIS: SPECIFIC GRAVITY NOT DONE,phaseiii_fm36.csv,FM36,continuous
+O2SAT,F36 IV_3A    O2 SATURATION,phaseiii_fm36.csv,FM36,continuous
+O2SATND,F36 IV_3AND  O2 SATURATION NOT DONE,phaseiii_fm36.csv,FM36,continuous
+O2SATSM,F36 IV_3B    SECOND MEASUREMENT OF O2 SATURATION,phaseiii_fm36.csv,FM36,continuous
+O2SATSND,F36 IV_3BND  SECOND MEASUREMENT NOT DONE,phaseiii_fm36.csv,FM36,continuous
+SPC_PNCL,F36 IV_4     WAS PENICILLIN COMPLIANCE SPECIMEN COLLECTED,phaseiii_fm36.csv,FM36,continuous
+SPPNCLND,F36 IV_4ND   PENICILLIN COMPLIANCE SPECIMEN COLLECTED NOT DONE,phaseiii_fm36.csv,FM36,continuous
+BAYLEYS,F36 IV_5     WAS FORM 40 - BAYLEY'S ADMINISTERED?,phaseiii_fm36.csv,FM36,continuous
+VINELAND,F36 IV_6     WAS FORM 41 - VINELAND ADMINISTERED TO PARENTS?,phaseiii_fm36.csv,FM36,continuous
+NRLGQUES,F36 IV_7     WAS FORM 43 - NEUROLOGICAL QUESTIONNAIRE ADMINISTERED?,phaseiii_fm36.csv,FM36,continuous
+URN_NPO,F36 IV_8A    HOW MANY HOURS NPO?,phaseiii_fm36.csv,FM36,continuous
+URINOS,F36 IV_8B    SPECIMEN LABEL: URINE OSMOLALITY COLLECTED JUST AFTER BIOCHEMISTRY SPECIMEN,phaseiii_fm36.csv,FM36,continuous
+URINOSND,F36 IV_8BND  URINE OSMOLALITY SPECIMEN NOT COLLECTED,phaseiii_fm36.csv,FM36,continuous
+MRI,F36 IV_9A    WAS MRI DONE?,phaseiii_fm36.csv,FM36,continuous
+MRINP,"F36 IV_9A1   IF NO, REASON NOT PERFORMED",phaseiii_fm36.csv,FM36,continuous
+MRINP_SP,"F36 IV_9A1A  IF NO, REASON NOT PERFORMED, SPECIFY",phaseiii_fm36.csv,FM36,continuous
+MRA,F36 IV_9B    WAS MRA DONE?,phaseiii_fm36.csv,FM36,continuous
+MRANP,"F36 IV_9B1   IF NO, REASON NOT PERFORMED",phaseiii_fm36.csv,FM36,continuous
+MRANP_SP,"F36 IV_9B1A  IF NO, REASON NOT PERFORMED, SPECIFY",phaseiii_fm36.csv,FM36,continuous
+MRS,F36 IV_9C    WAS MRS DONE?,phaseiii_fm36.csv,FM36,continuous
+MRSNP,"F36 IV_9C1   IF NO, REASON NOT PERFORMED",phaseiii_fm36.csv,FM36,continuous
+MRSNP_SP,"F36 IV_9C1A  IF NO, REASON NOT PERFORMED, SPECIFY",phaseiii_fm36.csv,FM36,continuous
+SEDATION,F36 IV_9D    SEDATION,phaseiii_fm36.csv,FM36,continuous
+MRI_NPO,F36 IV_9E    HOW MANY HOURS NPO,phaseiii_fm36.csv,FM36,continuous
+LVSPSCAN,F36 IV_10    WAS LIVER-SPLEEN SCAN PERFORMED,phaseiii_fm36.csv,FM36,continuous
+LVSPSCNP,"F36 IV_10A   IF NO, REASON NOT PERFORMED",phaseiii_fm36.csv,FM36,continuous
+LVSNP_SP,F36 IV_10A1  SPECIFY THE OTHER REASON NOT PERFORMED,phaseiii_fm36.csv,FM36,continuous
+EOT_ABDS,F36 IV_11A   WAS ABDOMINAL SONOGRAM PERFORMED,phaseiii_fm36.csv,FM36,continuous
+EOTABDNP,"F36 IV_11A1  IF NO, REASON NOT PERFORMED",phaseiii_fm36.csv,FM36,continuous
+ABDNP_SP,F36 IV_11A1A SPECIFY THE OTHER REASON NOT PERFORMED,phaseiii_fm36.csv,FM36,continuous
+ABD_NPO,F36 IV_11B   HOW MANY HOURS NPO,phaseiii_fm36.csv,FM36,continuous
+EOT_TCD,F36 IV_12    WAS TRANSCRANIAL DOPPLER ATTEMPTED,phaseiii_fm36.csv,FM36,continuous
+EOTTCDNP,"F36 IV_12A   IF NO, REASON NOT ATTEMPTED",phaseiii_fm36.csv,FM36,continuous
+TCDNP_SP,F36 IV_12A1  SPECIFY THE OTHER REASON NOT ATTEMPTED,phaseiii_fm36.csv,FM36,continuous
+F80IV13,F36 IV_13    FORM 80 SUBMITTED,phaseiii_fm36.csv,FM36,continuous
+TRSTDTND,"F36 V_1ND    DATE STARTED, N/D",phaseiii_fm36.csv,FM36,continuous
+PRDTRAHR,F36 V_1AHR   PRE-DTPA TIME HOUR,phaseiii_fm36.csv,FM36,continuous
+PRDTRAMN,F36 V_1AMN   PRE-DTPA TIME MINUTES,phaseiii_fm36.csv,FM36,continuous
+DTPAHR,F36 V_1BHR   DTPA ADMINISTERED HOUR,phaseiii_fm36.csv,FM36,continuous
+DTPAMN,F36 V_1BMN   DTPA ADMINISTERED MINUTES,phaseiii_fm36.csv,FM36,continuous
+DTPAND,F36 V_1BND   DTPA ADMINISTERED  N/D,phaseiii_fm36.csv,FM36,continuous
+DTPADOSE,F36 V_1C     DOSE,phaseiii_fm36.csv,FM36,continuous
+DTDOSEND,F36 V_1CND   DOSE N/D,phaseiii_fm36.csv,FM36,continuous
+ONEHR,F36 V_2AHR   ONE-HOUR TIME HOUR,phaseiii_fm36.csv,FM36,continuous
+ONEMN,F36 V_2AMN   ONE-HOUR TIME MINUTES,phaseiii_fm36.csv,FM36,continuous
+ONEDTPA,F36 V_2B     DTPA MEASUREMENT,phaseiii_fm36.csv,FM36,continuous
+ONE_ND,F36 V_2BND   DTPA MEASUREMENT N/D,phaseiii_fm36.csv,FM36,continuous
+ONEDTPA2,F36 V_2C     SECOND DTPA MEASUREMENT,phaseiii_fm36.csv,FM36,continuous
+ONE_ND2,F36 V_2CND   SECOND DTPA MEASUREMENT N/D,phaseiii_fm36.csv,FM36,continuous
+ONEHULBL,F36 V_2D     TUBE LABEL (3 ML IN EDTA),phaseiii_fm36.csv,FM36,continuous
+TWOHR,F36 V_3AHR   TWO-HOUR TIME HOUR,phaseiii_fm36.csv,FM36,continuous
+TWOMN,F36 V_3AMN   TWO-HOUR TIME MINUTES,phaseiii_fm36.csv,FM36,continuous
+TWODTPA,F36 V_3B     DTPA MEASUREMENT,phaseiii_fm36.csv,FM36,continuous
+TWO_ND,F36 V_3BND   DTPA MEASUREMENT N/D,phaseiii_fm36.csv,FM36,continuous
+TWODTPA2,F36 V_3C     SECOND DTPA MEASUREMENT,phaseiii_fm36.csv,FM36,continuous
+TWO_ND2,F36 V_3CND   SECOND DTPA MEASUREMENT N/D,phaseiii_fm36.csv,FM36,continuous
+TWOHULBL,F36 V_3D     TUBE LABEL (3 ML IN EDTA),phaseiii_fm36.csv,FM36,continuous
+FORHR,F36 V_4AHR   FOUR-HOUR TIME  HOUR,phaseiii_fm36.csv,FM36,continuous
+FORMN,F36 V_4AMN   FOUR-HOUR TIME  MINUTES,phaseiii_fm36.csv,FM36,continuous
+FORDTPA,F36 V_4B     DTPA MEASUREMENT,phaseiii_fm36.csv,FM36,continuous
+FOR_ND,F36 V_4BND   DTPA MEASUREMENT N/D,phaseiii_fm36.csv,FM36,continuous
+FORDTPA2,F36 V_4C     SECOND DTPA MEASUREMENT,phaseiii_fm36.csv,FM36,continuous
+FOR_ND2,F36 V_4CND   SECOND DTPA MEASUREMENT N/D,phaseiii_fm36.csv,FM36,continuous
+FORHULBL,F36 V_4D     TUBE LABEL (3 ML IN EDTA),phaseiii_fm36.csv,FM36,continuous
+GFRDTP_A,F36 V_5A     GFR FROM DTPA ML/MIN,phaseiii_fm36.csv,FM36,continuous
+GFRA_ND,F36 V_5AND   GFR FROM DTPA ML/MIN ND,phaseiii_fm36.csv,FM36,continuous
+GFRDTP_B,F36 V_5B     GFR FROM DTPA ML/MIN/M2,phaseiii_fm36.csv,FM36,continuous
+GFRB_ND,F36 V_5BND   GFR FROM DTPA ML/MIN/M2 ND,phaseiii_fm36.csv,FM36,continuous
+GFRDTP_C,F36 V_5C     GFR FROM DTPA ML/MIN/1.73M2,phaseiii_fm36.csv,FM36,continuous
+GFRC_ND,F36 V_5CND   GFR FROM DTPA ML/MIN/1.73M2 ND,phaseiii_fm36.csv,FM36,continuous
+F80V7,F36 V_6      FORM 80 SUBMITTED,phaseiii_fm36.csv,FM36,continuous
+TEMP,F36 V_1A    TEMPERATURE,phaseiii_fm36.csv,FM36,continuous
+TEMPMEAS,F36 V_1ADE  TYPE OF TEMPERATURE DEGREES F/C,phaseiii_fm36.csv,FM36,continuous
+TEMPND,F36 V_1AND  TEMPERATURE NOT MEASURED,phaseiii_fm36.csv,FM36,continuous
+PULSE,F36 V_1B    PULSE,phaseiii_fm36.csv,FM36,continuous
+PULSEND,F36 V_1BND  PULSE NOT MEASURED,phaseiii_fm36.csv,FM36,continuous
+RESP,F36 V_1C    RESPIRATION,phaseiii_fm36.csv,FM36,continuous
+RESPND,F36 V_1CND  RESPIRATION NOT MEASURED,phaseiii_fm36.csv,FM36,continuous
+HEIGHT1,F36 V_2A    CHILD'S RECUMBENT LENGTH MEASUREMENT #1,phaseiii_fm36.csv,FM36,continuous
+HEIGHTND,F36 V_2AND  CHILD'S RECUMBENT LENGTH MEASUREMENT #1 NOT DONE,phaseiii_fm36.csv,FM36,continuous
+HEIGHT2,F36 V_2B    CHILD'S RECUMBENT LENGTH MEASUREMENT #2,phaseiii_fm36.csv,FM36,continuous
+HEIGHT3,F36 V_2C    CHILD'S RECUMBENT LENGTH MEASUREMENT #3,phaseiii_fm36.csv,FM36,categorical
+HEIGHT,F36          CHILD'S AVERAGE OF RECUMBENT LENGTH,phaseiii_fm36.csv,FM36,continuous
+HAIRHGHT,F36 V_2D    RATE HAIR STYLE INTERFERENCE ON CHILD'S LENGTH,phaseiii_fm36.csv,FM36,continuous
+WEIGHT1,F36 VI_3A    CHILD'S WEIGHT MEASUREMENT # 1,phaseiii_fm36.csv,FM36,continuous
+WEIGHTND,F36 VI_3AND  CHILD'S WEIGHT MEASUREMENT # 1 NOT DONE,phaseiii_fm36.csv,FM36,continuous
+WEIGHT2,F36 VI_3B    CHILD'S WEIGHT MEASUREMENT # 2,phaseiii_fm36.csv,FM36,continuous
+WEIGHT3,F36 VI_3C    CHILD'S WEIGHT MEASUREMENT # 3,phaseiii_fm36.csv,FM36,categorical
+WEIGHT,F36          CHILD'S AVERAGE WEIGHT,phaseiii_fm36.csv,FM36,continuous
+HEADC1,F36 V_4A    CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #1,phaseiii_fm36.csv,FM36,continuous
+HEADCND,F36 V_4AND  CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #1 NOT DONE,phaseiii_fm36.csv,FM36,continuous
+HEADC2,F36 V_4B    CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #2,phaseiii_fm36.csv,FM36,continuous
+HEADC3,F36 V_4C    CHILD'S HEAD CIRCUMFERENCE MEASUREMENT #3,phaseiii_fm36.csv,FM36,categorical
+HEADC,F36          CHILD'S AVERAGE OF HEAD CIRCUMFERENCE,phaseiii_fm36.csv,FM36,continuous
+HAIR,F36 V_4D    RATE HAIR STYLE INTERFERENCE ON CHILD'S HEAD CIRCUMFERENCE,phaseiii_fm36.csv,FM36,continuous
+N_EVTS,F36 V_6     NUMBER OF REPORTABLE EVENTS,phaseiii_fm36.csv,FM36,continuous
+V_EVTSNA,F36 V_6NA   NUMBER OF REPORTABLE EVENTS NOT APPLICABLE,phaseiii_fm36.csv,FM36,continuous
+FEVER31,F36 V_7A    FEVER MORE THAN 101.5 DEGREES F. (38.4 DEGREES C.),phaseiii_fm36.csv,FM36,continuous
+VACCINE,F36 V_7B    ANY VACCINATIONS SINCE LAST VISIT?,phaseiii_fm36.csv,FM36,continuous
+PENCILN,F36 V_8A    DID THE CHILD TAKE THEIR NIGHT-TIME DOSE OF TWICE DAILY  PROPHYLATIC PENICILLIN LAST NIGHT?,phaseiii_fm36.csv,FM36,continuous
+PENDOSE,F36 V_8B    HOW MANY DOSES OF PENICILLIN OR SIMILAR ANTIBIOTIC WERE MISSED IN THE LAST WEEK?,phaseiii_fm36.csv,FM36,continuous
+PENNA,F36 V_8BNA  DOSES OF PENICILLIN SIMILAR ANTIBIOTIC MISSED IN THE LAST WEEK ( NOT APPLICABLE),phaseiii_fm36.csv,FM36,continuous
+RECORDRX,F36 V_9A    RECORD RX #,phaseiii_fm36.csv,FM36,continuous
+RXNORET,F36 V_9ANA  RECORD RX # NOT RETURNED,phaseiii_fm36.csv,FM36,continuous
+VOLLFT,F36 V_9B    APPROXIMATELY HOW MUCH VOLUME IS LEFT?,phaseiii_fm36.csv,FM36,continuous
+VOLNA,F36 V_9BNA  VOLUME LEFT(NOT APPLICABLE),phaseiii_fm36.csv,FM36,continuous
+IRRTRT,F36 V_9C    ANY IRREGULAR TREATMENT ADMINISTRATION SINCE LAST VISIT?,phaseiii_fm36.csv,FM36,continuous
+F80VI9,F36 VI_9     FORM 80 SUBMITTED?,phaseiii_fm36.csv,FM36,continuous
+GEN_CMNT,F36 VII_1C   GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm36.csv,FM36,continuous
+ANTIB,"F36 V_8A1    IF NO, DID THE CHILD TAKE ANOTHER ANTIBIOTIC?",phaseiii_fm36.csv,FM36,continuous
+ANTIB_SP,F36 V_8A1A   SPECIFY,phaseiii_fm36.csv,FM36,continuous
+FORM22,F36 IV_11    WAS FORM 22 - DTPA/GFR PERFORMED,phaseiii_fm36.csv,FM36,continuous
+NEW_BTTL,"F36 IV_11A   IF YES, NEW STUDY TREATMENT BOTTLE USED",phaseiii_fm36.csv,FM36,continuous
+TXBOTNO,"F36 IV_11A1  IF YES, RECORD BOTTLE NUMBER USED",phaseiii_fm36.csv,FM36,continuous
+VIS_DT_DAYS,F36 I_5      SUBJECT CLINICAL VISIT START DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm36.csv,FM36,continuous
+TRSTRTDT_DAYS,F36 V_1      DATE STARTED (recode: number of days after date of eligibility or ineligibility),phaseiii_fm36.csv,FM36,continuous
+ANM_DT_DAYS,F36 V_5      ANTHROPOMETRY MEASUREMENT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm36.csv,FM36,continuous
+URIN_DT_DAYS,F36 IV_2G    URINALYSIS: DATE PERFORMED (recode: number of days after date of eligibility or ineligibility),phaseiii_fm36.csv,FM36,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm37.csv,FM37,continuous
+FORM,F37 FORM     STUDY FORM NUMBER,phaseiii_fm37.csv,FM37,continuous
+REV,F37 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm37.csv,FM37,continuous
+VISIT,F37 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm37.csv,FM37,categorical
+SEQNO,F37 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm37.csv,FM37,continuous
+UNSCHVIS,F37 II_1A    ARE THESE LAB RESULTS FOR AN UNSCHEDULED VISIT THAT RESULTED IN A TOXICITY OR ALERT?,phaseiii_fm37.csv,FM37,continuous
+LABEL,F37 II_1B    LABEL NUMBER PUT ON LAB SPECIMENS,phaseiii_fm37.csv,FM37,continuous
+WBC,F37 II_2A    WHITE BLOOD CELL COUNT (WBC),phaseiii_fm37.csv,FM37,continuous
+RBC,F37 II_2B    RED BLOOD CELL COUNT (RBC),phaseiii_fm37.csv,FM37,continuous
+HB,F37 II_2C    HEMOGLOBIN,phaseiii_fm37.csv,FM37,continuous
+PCV,F37 II_2D    HEMATOCRIT,phaseiii_fm37.csv,FM37,continuous
+PLAT,F37 II_2E    PLATELET COUNT,phaseiii_fm37.csv,FM37,continuous
+DIFFTYPE,F37 II_3A    DIFFERENTIAL TYPE,phaseiii_fm37.csv,FM37,continuous
+NEUT_CT,F37 II_3B    ABSOLUTE NEUTROPHIL COUNT (ANC),phaseiii_fm37.csv,FM37,continuous
+NEUT_PT,F37 II_3C    NEUTROPHILS (% OF WBC),phaseiii_fm37.csv,FM37,continuous
+LYMPH_CT,F37          LYMPHOCYTE COUNT,phaseiii_fm37.csv,FM37,continuous
+LYMPH_PT,F37 II_3D    LYMPHOCYTES (% OF WBC),phaseiii_fm37.csv,FM37,continuous
+MONO_CT,F37          MONOOCYTE COUNT,phaseiii_fm37.csv,FM37,continuous
+MONO_PT,F37 II_3E    MONOCYTES (% OF WBC),phaseiii_fm37.csv,FM37,continuous
+NRBC,F37 II_3F    NUCLEATED RED BLOOD CELLS (NRBC),phaseiii_fm37.csv,FM37,continuous
+CWBC,"F37 II_3F1   IF NOT 0, CORRECTED WBC COUNT",phaseiii_fm37.csv,FM37,continuous
+RETIC_PT,F37 II_3G    RETICULOCYTES (% OF RBC),phaseiii_fm37.csv,FM37,continuous
+RETIC_CT,F37 II_3H    RETICULOCYTE COUNT,phaseiii_fm37.csv,FM37,continuous
+MCV,F37 II_3I    MCV,phaseiii_fm37.csv,FM37,continuous
+GEN_CMNT,F37 III_1C   GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm37.csv,FM37,continuous
+VIS_DT_DAYS,F37 I_5      SUBJECT CLINICAL VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm37.csv,FM37,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm38.csv,FM38,continuous
+FORM,F38 FORM     STUDY FORM NUMBER,phaseiii_fm38.csv,FM38,continuous
+REV,F38 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm38.csv,FM38,continuous
+VISIT,F38 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm38.csv,FM38,categorical
+SEQNO,F38 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm38.csv,FM38,continuous
+CONCUR,F38 II_1     IS THIS STUDY RESTART VISIT CONCURRENT WITH A ROUTINE STUDY VISIT?,phaseiii_fm38.csv,FM38,continuous
+TXBOTNO,F38 II_1A    RECORD BOTTLE NUMBER DISPENSED,phaseiii_fm38.csv,FM38,continuous
+TXDDOSMG,F38 II_1B1   DAILY DOSE MG (USE TREATMENT RECOMMENDATION SENT AFTER HOLD WAS LIFTED),phaseiii_fm38.csv,FM38,continuous
+TXDDOSML,F38 II_1B2   DAILY DOSE ML (USE TREATMENT RECOMMENDATION SENT AFTER HOLD WAS LIFTED),phaseiii_fm38.csv,FM38,continuous
+VOLDISP,F38 II_1C    VOLUME DISPENSED,phaseiii_fm38.csv,FM38,continuous
+GEN_CMNT,F38 III_1C   GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm38.csv,FM38,continuous
+VIS_DT_DAYS,F38 I_5      SUBJECT CLINICAL VISIT RESTART DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm38.csv,FM38,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm39.csv,FM39,continuous
+FORM,F39 FORM     STUDY FORM NUMBER,phaseiii_fm39.csv,FM39,continuous
+REV,F39 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm39.csv,FM39,continuous
+VISIT,F39 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm39.csv,FM39,continuous
+SEQNO,F39 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm39.csv,FM39,continuous
+RECORDRX,F39 II_1A    RECORD RX #,phaseiii_fm39.csv,FM39,continuous
+RXNORET,F39 II_1ANR  RECORD RX # NOT RETURNED,phaseiii_fm39.csv,FM39,continuous
+VOLLFT,F39 II_1B    APPROXIMATELY HOW MUCH VOLUME IS LEFT?,phaseiii_fm39.csv,FM39,continuous
+VOLNA,F39 II_1BNA  VOLUME LEFT (NOT APPLICABLE),phaseiii_fm39.csv,FM39,continuous
+TXBOTNO,F39 II_2A    NEW BOTTLE NUMBER DISPENSED,phaseiii_fm39.csv,FM39,continuous
+TXDDOSMG,F39 II_2B1   DAILY DOSE MG,phaseiii_fm39.csv,FM39,continuous
+TXDDOSML,F39 II_2B2   DAILY DOSE ML,phaseiii_fm39.csv,FM39,continuous
+VOLDISP,F39 II_2C    VOLUME DISPENSED,phaseiii_fm39.csv,FM39,continuous
+BOTRN,F39 II_2D    REASON NEW BOTTLE DISPENSED,phaseiii_fm39.csv,FM39,continuous
+BOTRN_SP,F39 II_2DA   SPECFY THE OTHER REASONS WHY NEW BOTTLE DISPENSED,phaseiii_fm39.csv,FM39,continuous
+GEN_CMNT,F39 III_1C   GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm39.csv,FM39,continuous
+VIS_DT_DAYS,F39 I_5      DRUG DISPENSING DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm39.csv,FM39,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm40.csv,FM40,continuous
+FORM,F40 FORM     STUDY FORM NUMBER,phaseiii_fm40.csv,FM40,continuous
+REV,F40 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm40.csv,FM40,continuous
+VISIT,F40 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm40.csv,FM40,categorical
+SEQNO,F40 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm40.csv,FM40,continuous
+ADJ_MO,F40 II_1A    ADJUSTMENT FOR PREMATURITY: MONTH,phaseiii_fm40.csv,FM40,continuous
+ADJ_DAYS,F40 II_1B    ADJUSTMENT FOR PREMATURITY: DAYS,phaseiii_fm40.csv,FM40,continuous
+MLCHAGYR,"F40 III_AYR  MENTAL SCALE CHRONOLOGICAL AGE, YEARS",phaseiii_fm40.csv,FM40,continuous
+MLCHAGMN,"F40 III_AMO  MENTAL SCALE CHRONOLOGICAL AGE,  MONTHS",phaseiii_fm40.csv,FM40,continuous
+MLPMAGYR,"F40 III_BYR  MENTAL SCALE IF PREMATURE, CORRECTED AGE,  YEARS",phaseiii_fm40.csv,FM40,continuous
+MLPMAGMN,"F40 III_BMO  MENTAL SCALE IF PREMATURE, CORRECTED AGE,  MONTHS",phaseiii_fm40.csv,FM40,continuous
+MLSTROW,F40 III_C1   MENTAL SCALE STARTING ROW,phaseiii_fm40.csv,FM40,continuous
+MLENDROW,F40 III_C2   MENTAL SCALE ENDING ROW,phaseiii_fm40.csv,FM40,continuous
+MENRAW,F40 III_179  MENTAL SCALE RAW SCORE,phaseiii_fm40.csv,FM40,continuous
+MENMDI,F40 III_180  MENTAL SCALE MDI SCORE,phaseiii_fm40.csv,FM40,continuous
+MEN95CIL,F40 III_181A MENTAL SCALE 95% CI LOW BOUND,phaseiii_fm40.csv,FM40,continuous
+MEN95CIH,F40 III_181B MENTAL SCALE 95% CI HIGH BOUND,phaseiii_fm40.csv,FM40,continuous
+MRCHAGYR,"F40 IV_AYR   MOTOR SCALE CHRONOLOGICAL AGE,  YEARS",phaseiii_fm40.csv,FM40,continuous
+MRCHAGMN,"F40 IV_AMO   MOTOR SCALE CHRONOLOGICAL AGE, MONTHS",phaseiii_fm40.csv,FM40,continuous
+MRPMAGYR,"F40 IV_BYR   MOTOR SCALE IF PREMATURE, CORRECTED AGE,  YEARS",phaseiii_fm40.csv,FM40,continuous
+MRPMAGMN,"F40 IV_BMO   MOTOR SCALE IF PREMATURE, CORRECTED AGE,  MONTHS",phaseiii_fm40.csv,FM40,continuous
+MRSTROW,F40 IV_C1    MOTOR SCALE STARTING ROW,phaseiii_fm40.csv,FM40,continuous
+MRENDROW,F40 IV_C2    MOTOR SCALE ENDING ROW,phaseiii_fm40.csv,FM40,continuous
+MOTRAW,F40 IV_112   MOTOR SCALE RAW SCORE,phaseiii_fm40.csv,FM40,continuous
+MOTPDI,F40 IV_113   MOTOR SCALE PDI SCORE,phaseiii_fm40.csv,FM40,continuous
+MOT95CIL,F40 IV_114A  MOTOR SCALE 95% CI LOW BOUND,phaseiii_fm40.csv,FM40,continuous
+MOT95CIH,F40 IV_114B  MOTOR SCALE 95% CI HIGH BOUND,phaseiii_fm40.csv,FM40,continuous
+BRCHAGYR,"F40 V_AYR    BEHAVIOR RATING SCALE CHRONOLOGICAL AGE,  YEARS",phaseiii_fm40.csv,FM40,continuous
+BRCHAGMN,"F40 V_AMO    BEHAVIOR RATING SCALE CHRONOLOGICAL AGE,  MONTHS",phaseiii_fm40.csv,FM40,continuous
+BRPMAGYR,"F40 V_BYR    BEHAVIOR RATING SCALE IF PREMATURE, CORRECTED AGE,  YEARS",phaseiii_fm40.csv,FM40,continuous
+BRPMAGMN,"F40 V_BMO    BEHAVIOR RATING SCALE IF PREMATURE, CORRECTED AGE,  MONTHS",phaseiii_fm40.csv,FM40,continuous
+BEHRAW,F40 V_31     BEHAVIOR RATING SCALE RAW SCORE,phaseiii_fm40.csv,FM40,continuous
+BEHPCTL,F40 V_32     BEHAVIOR RATING SCALE PERCENTILE,phaseiii_fm40.csv,FM40,continuous
+GEN_CMNT,F40 VL_1C    GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm40.csv,FM40,continuous
+VIS_DT_DAYS,F40 I_5      VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm40.csv,FM40,continuous
+CARE40G,"F40 II_2     CAREGIVER'S RELATIONSHIP TO CHILD (regrouped: 1 = Mother, 2 = Father, 3 = Grandparent, 4 = Other)",phaseiii_fm40.csv,FM40,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm41.csv,FM41,continuous
+FORM,F41 FORM     STUDY FORM NUMBER,phaseiii_fm41.csv,FM41,continuous
+REV,F41 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm41.csv,FM41,continuous
+VISIT,F41 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm41.csv,FM41,categorical
+SEQNO,F41 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm41.csv,FM41,continuous
+CHRAGEYR,"F41 II_1YR   CHRONOLOGICAL AGE, YEARS",phaseiii_fm41.csv,FM41,continuous
+CHRAGEMN,F41 II_1MN   CHRONOLOGICAL AGE: MONTHS,phaseiii_fm41.csv,FM41,continuous
+CDSTROW,F41 III_A1   COMMUNICATIONS DOMAIN STARTING ROW,phaseiii_fm41.csv,FM41,continuous
+CDENDROW,F41 III_A2   COMMUNICATIONS DOMAIN ENDING ROW,phaseiii_fm41.csv,FM41,continuous
+COMRAW,F41 III_B68  COMMUNICATIONS DOMAIN RAW SCORE,phaseiii_fm41.csv,FM41,continuous
+COMSTRD,F41 III_B69  COMMUNICATIONS DOMAIN STANDARD SCORE,phaseiii_fm41.csv,FM41,continuous
+COM95CL,F41 III_B70  COMMUNICATIONS DOMAIN 95% CONFIDENCE LEVEL,phaseiii_fm41.csv,FM41,continuous
+COMPCTL,F41 III_B71  COMMUNICATIONS DOMAIN PERCENTILE RANK,phaseiii_fm41.csv,FM41,continuous
+DDSTROW,F41 IV_A1    DAILY LIVING SKILLS STARTING ROWS,phaseiii_fm41.csv,FM41,continuous
+DDENDROW,F41 IV_A2    DAILY LIVING SKILLS ENDING ROWS,phaseiii_fm41.csv,FM41,continuous
+DLSRAW,F41 IV_B93   DAILY LIVING SKILLS DOMAIN RAW SCORE,phaseiii_fm41.csv,FM41,continuous
+DLSSTRD,F41 IV_B94   DAILY LIVING SKILLS STANDARD SCORE,phaseiii_fm41.csv,FM41,continuous
+DLS95CL,F41 IV_B95   DAILY LIVING SKILLS 95% CONFIDENCE LEVEL,phaseiii_fm41.csv,FM41,continuous
+DLSPCTL,F41 IV_B96   DAILY LIVING SKILLS PERCENTILE RANK,phaseiii_fm41.csv,FM41,continuous
+SDSTROW,F41 V_A1     SOCIALIZATION DOMAIN STARTING ROW,phaseiii_fm41.csv,FM41,continuous
+SDENDROW,F41 V_A2     SOCIALIZATION DOMAIN ENDING ROW,phaseiii_fm41.csv,FM41,continuous
+SOCRAW,F41 V_B67    SOCIALIZATION DOMAIN RAW SCORE,phaseiii_fm41.csv,FM41,continuous
+SOCSTRD,F41 V_B68    SOCIALIZATION DOMAIN STANDARD SCORE,phaseiii_fm41.csv,FM41,continuous
+SOC95CL,F41 V_B69    SOCIALIZATION DOMAIN 95% CONFIDENCE LEVEL,phaseiii_fm41.csv,FM41,continuous
+SOCPCTL,F41 V_B70    SOCIALIZATION DOMAIN PERCENTILE RANK,phaseiii_fm41.csv,FM41,continuous
+MSSTROW,F41 V1_A1    MOTOR SKILLS STARTING ROW,phaseiii_fm41.csv,FM41,continuous
+MSENDROW,F41 V1_A2    MOTOR SKILLS  ENDING ROW,phaseiii_fm41.csv,FM41,continuous
+MTSKRAW,F41 VI_B37   MOTOR SKILLS DOMAIN RAW SCORE,phaseiii_fm41.csv,FM41,continuous
+MTSKSTRD,F41 VI_B38   MOTOR SKILLS STANDARD SCORE,phaseiii_fm41.csv,FM41,continuous
+MTSK95CL,F41 VI_B39   MOTOR SKILLS 95% CONFIDENCE LEVEL,phaseiii_fm41.csv,FM41,continuous
+MTSKPCTL,F41 VI_B40   MOTOR SKILLS PERCENTILE RANK,phaseiii_fm41.csv,FM41,continuous
+GEN_CMNT,F41 VLL_1C   GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm41.csv,FM41,continuous
+VIS_DT_DAYS,F41 I_5      VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm41.csv,FM41,continuous
+CARE41G,"F41 II_2     CAREGIVER'S RELATIONSHIP TO CHILD (regrouped: 1 = Mother, 2 = Father, 3 = Grandparent, 4 = Other)",phaseiii_fm41.csv,FM41,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm42.csv,FM42,continuous
+FORM,F42 FORM     STUDY FORM NUMBER,phaseiii_fm42.csv,FM42,continuous
+REV,F42 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm42.csv,FM42,continuous
+VISIT,F42 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm42.csv,FM42,categorical
+SEQNO,F42 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm42.csv,FM42,continuous
+HB2WSEQ,F42 II_2     HEP B 0-2 WEEKS VACCINATION SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+HB2WND,F42 II_2AND  HEP B  0-2 WEEKS VACCINATION NOT DONE,phaseiii_fm42.csv,FM42,continuous
+DT6WSEQ,F42 II_3A    6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS DTP/DTAP  SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+DT6WND,F42 II_3AND  6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS DTP/DTAP  NOT DONE,phaseiii_fm42.csv,FM42,continuous
+HO6WSEQ,F42 II_3B    6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS HBOC/HIB SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+HO6WND,F42 II_3BND  6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS HBOC/HIB NOT DONE,phaseiii_fm42.csv,FM42,continuous
+OP6WSEQ,F42 II_3C    6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS OPV/IPV SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+OP6WND,F42 II_3CND  6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS OPV/IPV NOT DONE,phaseiii_fm42.csv,FM42,continuous
+PN6WSEQ,F42 II_3D    6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS PNEUMO (PCV7) SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+PN6WND,F42 II_3DND  6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS PNEUMO (PCV7) NOT DONE,phaseiii_fm42.csv,FM42,continuous
+HB6WSEQ,F42 II_3E    6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS HEP B SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+HB6WND,F42 II_3END  6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS HEP B NOT DONE,phaseiii_fm42.csv,FM42,continuous
+DT4MSEQ,F42 II_4A    4-MONTHS OF AGE VACCINATIONS DTP/DTAP SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+DT4MND,F42 II_4AND  4-MONTHS OF AGE VACCINATIONS DTP/DTAP NOT DONE,phaseiii_fm42.csv,FM42,continuous
+HO4MSEQ,F42 II_4B    4-MONTHS OF AGE VACCINATIONS HBOC/HIB SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+HO4MND,F42 II_4BND  4-MONTHS OF AGE VACCINATIONS HBOC/HIB NOT DONE,phaseiii_fm42.csv,FM42,continuous
+OP4MSEQ,F42 II_4C    4-MONTHS OF AGE VACCINATIONS OPV/IPV SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+OP4MND,F42 II_4CND  4-MONTHS OF AGE VACCINATIONS OPV/IPV NOT DONE,phaseiii_fm42.csv,FM42,continuous
+PN4MSEQ,F42 II_4D    4-MONTHS OF AGE VACCINATIONS PNEUMO (PCV 7) SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+PN4MND,F42 II_4DND  4-MONTHS OF AGE VACCINATIONS PNEUMO (PCV 7) NOT DONE,phaseiii_fm42.csv,FM42,continuous
+DT6MSEQ,F42 II_5A    6-MONTHS OF AGE VACCINATIONS DTP/DTAP SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+DT6MND,F42 II_5AND  6-MONTHS OF AGE VACCINATIONS DTP/DTAP NOT DONE,phaseiii_fm42.csv,FM42,continuous
+HO6MSEQ,F42 II_5B    6-MONTHS OF AGE VACCINATIONS HBOC/HIB SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+HO6MND,F42 II_5BND  6-MONTHS OF AGE VACCINATIONS HBOC/HIB NOT DONE,phaseiii_fm42.csv,FM42,continuous
+PN6MSEQ,F42 II_5C    6-MONTHS OF AGE VACCINATIONS PNEUMO (PCV 7) SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+PN6MND,F42 II_5CND  6-MONTHS OF AGE VACCINATIONS PNEUMO (PCV 7) NOT DONE,phaseiii_fm42.csv,FM42,continuous
+DT12MSEQ,F42 II_6A    6-18 MONTHS OF AGE VACCINATIONS DTP/DTAP SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+DT12MND,F42 II_6AND  6-18 MONTHS OF AGE VACCINATIONS DTP/DTAP NOT DONE,phaseiii_fm42.csv,FM42,continuous
+HO12MSEQ,F42 II_6B    6-18 MONTHS OF AGE VACCINATIONS HBOC/HIB SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+HO12MND,F42 II_6BND  6-18 MONTHS OF AGE VACCINATIONS HBOC/HIB NOT DONE,phaseiii_fm42.csv,FM42,continuous
+OP12MSEQ,F42 II_6C    6-18 MONTHS OF AGE VACCINATIONS SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+OP12MND,F42 II_6CND  6-18 MONTHS OF AGE VACCINATIONS IPV NOT DONE,phaseiii_fm42.csv,FM42,continuous
+PN12MSEQ,F42 II_6D    6-18 MONTHS OF AGE VACCINATIONS PNEUMO (PCV 7) SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+PN12MND,F42 II_6DND  6-18 MONTHS OF AGE VACCINATIONS PNEUMO (PCV 7) NOT DONE,phaseiii_fm42.csv,FM42,continuous
+HB12MSQ1,F42 II_6E    6-18 MONTHS OF AGE VACCINATIONS HEP B,phaseiii_fm42.csv,FM42,continuous
+HB12MND1,F42 II_6END  6-18 MONTHS OF AGE VACCINATIONS HEP B NOT DONE,phaseiii_fm42.csv,FM42,continuous
+MM12MSEQ,F42 II_6F    6-18 MONTHS OF AGE VACCINATIONS MMR SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+MM12MND,F42 II_6FND  6-18 MONTHS OF AGE VACCINATIONS MMR NOT DONE,phaseiii_fm42.csv,FM42,continuous
+VR12MSEQ,F42 II_6G    6-18 MONTHS OF AGE VACCINATIONS VARICELLA SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+VR12MND,F42 II_6GND  6-18 MONTHS OF AGE VACCINATIONS VARICELLA NOT DONE,phaseiii_fm42.csv,FM42,continuous
+OPBLND,F42 II_8AND  SERUM OPSONOPHAGOCYTIC + PNEUMOCOCAL ANTIBODY NOT DONE,phaseiii_fm42.csv,FM42,continuous
+OPBLLBL,F42 II_8B    STUDY ENTRY (PRE-TREATMENT): TUBE LABEL (3.0 CC IN RED TUBE),phaseiii_fm42.csv,FM42,continuous
+CD4BLND,F42 II_8CND  STUDY ENTRY (PRE-TREATMENT): NAIVE AND MEMORY CD4/CD8 NOT DONE,phaseiii_fm42.csv,FM42,continuous
+CD4BLLBL,F42 II_8D    STUDY ENTRY (PRE-TREATMENT): TUBE LABEL (0.5 CC IN PURPLE TUBE),phaseiii_fm42.csv,FM42,continuous
+MMA12MND,F42 II_9AND  2-6 WEEKS AFTER MMR: ANTIBODY TO MMR NOT DONE,phaseiii_fm42.csv,FM42,continuous
+MMA12MLB,F42 II_9B    2-6 WEEKS AFTER MMR: TUBE LABEL (1.2 CC IN RED TUBE),phaseiii_fm42.csv,FM42,continuous
+PCAB2YND,F42 II_10AND 23-MONTH-OF-AGE BLOOD SAMPLES: ANTIBODY RESPONSE TO PNEUMO 23 NOT DONE,phaseiii_fm42.csv,FM42,continuous
+PCAB2YLB,F42 II_10B   23-MONTH-OF-AGE BLOOD SAMPLES: TUBE LABEL (3.0 CC IN RED TUBE),phaseiii_fm42.csv,FM42,continuous
+MMA2YND,F42 II_10CND 23-MONTH-OF-AGE BLOOD SAMPLES: ANTIBODY RESPONSE TO MMR NOT DONE,phaseiii_fm42.csv,FM42,continuous
+MMA2YLBL,F42 II_10D   23-MONTH-OF-AGE BLOOD SAMPLES: TUBE LABEL (1.2 CC IN RED TUBE),phaseiii_fm42.csv,FM42,continuous
+CD42YND,F42 II_10END 23-MONTH-OF-AGE BLOOD SAMPLES: NAIVE AND MEMORY CD4/CD8 NOT DONE,phaseiii_fm42.csv,FM42,continuous
+CD42YLBL,F42 II_10F   23-MONTH-OF-AGE BLOOD SAMPLES: TUBE LABEL (0.5 CC IN PURPLE TUBE),phaseiii_fm42.csv,FM42,continuous
+PN2YSEQ,F42 II_11A   24-MONTH OF AGE VACCINATION PNEUMO 23 (23 PS) SEQUENCE IN SERIES,phaseiii_fm42.csv,FM42,continuous
+PN2YND,F42 II_11AND 24-MONTH OF AGE VACCINATION PNEUMO 23 (23 PS) NOT DONE,phaseiii_fm42.csv,FM42,continuous
+OC2YND,F42 II_12AND 2-8 WEEKS AFTER 24-MONTH OF AGE VACCINATIONS: SERUM OPSONOPHAGOCYTIC + PNEUMOCOCAL ANTIBODY NOT DONE,phaseiii_fm42.csv,FM42,continuous
+OC2YLBL,F42 II_12B   2-8 WEEKS AFTER 24-MONTH OF AGE VACCINATIONS: TUBE LABEL (3.0 CC IN RED TUBE),phaseiii_fm42.csv,FM42,continuous
+OCAEOSND,F42 II_13AND STUDY EXIT: SERUM OPSONOPHAGOCYTIC + PNEUMOCOCCAL ANTIBODY NOT DONE,phaseiii_fm42.csv,FM42,continuous
+OCAEOSLB,F42 II_13B   STUDY EXIT: TUBE LABEL (3.0 CC IN RED TUBE),phaseiii_fm42.csv,FM42,continuous
+MMAEOSND,F42 II_13CND STUDY EXIT: ANTIBODY RESPONSE TO MMR NOT DONE,phaseiii_fm42.csv,FM42,continuous
+MMAEOSLB,F42 II_13D   STUDY EXIT: TUBE LABEL (1.2 CC IN RED TUBE),phaseiii_fm42.csv,FM42,continuous
+CD4EDSND,F42 II_13END STUDY EXIT: NAIVE AND MEMORY CD4/CD8 CELLS NOT DONE,phaseiii_fm42.csv,FM42,continuous
+CD4EDSLB,F42 II_13F   STUDY EXIT: TUBE LABEL (0.5 CC IN PURPLE TUBE),phaseiii_fm42.csv,FM42,continuous
+GEN_CMNT,F42 III_1C   GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm42.csv,FM42,continuous
+VIS_DT_DAYS,F42 I_5      VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+HB2WDT_DAYS,F42 II_2ADT  HEP B 0-2 WEEKS VACCINATION DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+DT6WDT_DAYS,F42 II_3ADT  6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS DTP/DTAP DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+HO6WDT_DAYS,F42 II_3BDT  6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS HBOC/HIB DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+OP6WDT_DAYS,F42 II_3CDT  6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS OPV/IPV DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+PN6WDT_DAYS,F42 II_3DDT  6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS PNEUMO (PCV7) DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+HB6WDT_DAYS,F42 II_3EDT  6-WEEKS TO 2-MONTHS OF AGE VACCINATIONS HEP B DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+DT4MDT_DAYS,F42 II_4ADT  4-MONTHS OF AGE VACCINATIONS DTP/DTAP DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+HO4MDT_DAYS,F42 II_4BDT  4-MONTHS OF AGE VACCINATIONS HBOC/HIB DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+OP4MDT_DAYS,F42 II_4CDT  4-MONTHS OF AGE VACCINATIONS OPV/IPV DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+PN4MDT_DAYS,F42 II_4DDT  4-MONTHS OF AGE VACCINATIONS PNEUMO (PCV 7) DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+DT6MDT_DAYS,F42 II_5ADT  6-MONTHS OF AGE VACCINATIONS DTP/DTAP DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+HO6MDT_DAYS,F42 II_5BDT  6-MONTHS OF AGE VACCINATIONS HBOC/HIB DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+PN6MDT_DAYS,F42 II_5CDT  6-MONTHS OF AGE VACCINATIONS PNEUMO (PCV 7) DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+DT12MDT_DAYS,F42 II_6ADT  6-18 MONTHS OF AGE VACCINATIONS DTP/DTAP DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+HO12MDT_DAYS,F42 II_6BDT  6-18 MONTHS OF AGE VACCINATIONS HBOC/HIB DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+OP12MDT_DAYS,F42 II_6CDT  6-18 MONTHS OF AGE VACCINATIONS IPV DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+PN12MDT_DAYS,F42 II_6DDT  6-18 MONTHS OF AGE VACCINATIONS PNEUMO (PCV 7) DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+HB12MDT1_DAYS,F42 II_6EDT  6-18 MONTHS OF AGE VACCINATIONS HEP B DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+MM12MDT_DAYS,F42 II_6FDT  6-18 MONTHS OF AGE VACCINATIONS MMR DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+VR12MDT_DAYS,F42 II_6GDT  6-18 MONTHS OF AGE VACCINATIONS VARICELLA DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+INFLU1_DAYS,"F42 II_7A    DATE OF YEARLY INFLUENZA VACCINES, A (recode: number of days after date of eligibility or ineligibility)",phaseiii_fm42.csv,FM42,continuous
+INFLU2_DAYS,"F42 II_7B    DATE OF YEARLY INFLUENZA VACCINES, B (recode: number of days after date of eligibility or ineligibility)",phaseiii_fm42.csv,FM42,continuous
+INFLU3_DAYS,"F42 II_7C    DATE OF YEARLY INFLUENZA VACCINES, C (recode: number of days after date of eligibility or ineligibility)",phaseiii_fm42.csv,FM42,continuous
+INFLU4_DAYS,"F42 II_7D    DATE OF YEARLY INFLUENZA VACCINES, D (recode: number of days after date of eligibility or ineligibility)",phaseiii_fm42.csv,FM42,continuous
+OPBLDT_DAYS,F42 II_8ADT  STUDY ENTRY (PRE-TREATMENT): SERUM OPSONOPHAGOCYTIC + PNEUMOCOCAL ANTIBODY DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+CD4BLDT_DAYS,F42 II_8CDT  STUDY ENTRY (PRE-TREATMENT): NAIVE AND MEMORY CD4/CD8 DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+MMA12MDT_DAYS,F42 II_9ADT  2-6 WEEKS AFTER MMR: ANTIBODY TO MMR DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+PCAB2YDT_DAYS,F42 II_10ADT 23-MONTH-OF-AGE BLOOD SAMPLES: ANTIBODY RESPONSE TO PNEUMO 23 DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+MMA2YDT_DAYS,F42 II_10CDT 23-MONTH-OF-AGE BLOOD SAMPLES: ANTIBODY RESPONSE TO MMR DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+CD42YDT_DAYS,F42 II_10EDT 23-MONTH-OF-AGE BLOOD SAMPLES: NAIVE AND MEMORY CD4/CD8 DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+PN2YDT_DAYS,F42 II_11ADT 24-MONTH OF AGE VACCINATION PNEUMO 23 (23 PS) DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+OC2YDT_DAYS,F42 II_12ADT 2-8 WEEKS AFTER 24-MONTH OF AGE VACCINATIONS: SERUM OPSONOPHAGOCYTIC + PNEUMOCOCAL ANTIBODY DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+OCAEOSDT_DAYS,F42 II_13ADT STUDY EXIT: SERUM OPSONOPHAGOCYTIC + PNEUMOCOCCAL ANTIBODY DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+MMAEOSDT_DAYS,F42 II_13CDT STUDY EXIT: ANTIBODY RESPONSE TO MMR DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+CD4EDSDT_DAYS,F42 II_13EDT STUDY EXIT: NAIVE AND MEMORY CD4/CD8 CELLS DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm42.csv,FM42,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm43.csv,FM43,continuous
+FORM,F43 FORM     STUDY FORM NUMBER,phaseiii_fm43.csv,FM43,continuous
+REV,F43 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm43.csv,FM43,continuous
+VISIT,F43 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm43.csv,FM43,categorical
+SEQNO,F43 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm43.csv,FM43,continuous
+HANDED,F43 II_1     WHICH HAND DOES YOUR CHILD PREFER TO?,phaseiii_fm43.csv,FM43,continuous
+SWALLOW,F43 II_2     HOW WOULD YOU DESCRIBE YOUR CHILD'S ABILITY TO SWALLOW?,phaseiii_fm43.csv,FM43,continuous
+WALKCLMB,F43 II_3     HOW WOULD YOU DESCRIBE YOUR CHILD'S ABILITY TO WALK AND CLIMB STAIRS?,phaseiii_fm43.csv,FM43,continuous
+DIAPNITE,F43 II_4A    DESCRIBE YOUR CHILD'S TOILETING: ROUTINELY WEARS DIAPERS AT NIGHT,phaseiii_fm43.csv,FM43,continuous
+WETSNITE,F43 II_4B    DESCRIBE YOUR CHILD'S TOILETING: WETS AT NIGHT,phaseiii_fm43.csv,FM43,continuous
+DIAP_DAY,F43 II_4C    DESCRIBE YOUR CHILD'S TOILETING: ROUTINELY WEARS DIAPERS IN DAYTIME,phaseiii_fm43.csv,FM43,continuous
+WET_ACC,"F43 II_4C1   IF NOT WEARING DIAPERS IN DAYTIME, CURRENTLY EXPERIENCING WETTING ACCIDENTS",phaseiii_fm43.csv,FM43,continuous
+TINGNUMB,"F43 II_5     DOES YOUR CHILD HAVE TINGLING, NUMBNESS, PINS AND NEEDLES, ELECTRIC SHOCK OR A BURNING SENSATION IN HIS/HER HANDS OR FEET?",phaseiii_fm43.csv,FM43,continuous
+SEIZURE,F43 II_6     HAS YOUR CHILD EVER HAD A SEIZURE OR CONVULSION?,phaseiii_fm43.csv,FM43,continuous
+SENSLOSS,F43 III_1    DOES THE CHILD HAVE SENSORY LOSS OR SENSORY DIMINISHMENT?,phaseiii_fm43.csv,FM43,continuous
+DESCLOSR,"F43 III_1AR  WHICH BEST DESCRIBES THE CHANGE,  RIGHT",phaseiii_fm43.csv,FM43,continuous
+DESCLOSL,"F43 III_1AL  WHICH BEST DESCRIBES THE CHANGE,  LEFT",phaseiii_fm43.csv,FM43,continuous
+LOSSSTRG,F43 III_2    DOES THE CHILD HAVE LOSS OR DIMINISHMENT OF MOTOR FUNCTION?,phaseiii_fm43.csv,FM43,continuous
+LOSSSTRU,F43 III_2A1  LOSS OF STREHGTH: RIGHT UPPER,phaseiii_fm43.csv,FM43,continuous
+LOSSSTLU,F43 III_2A2  LOSS OF STREHGTH: LEFT UPPER,phaseiii_fm43.csv,FM43,continuous
+LOSSSTRL,F43 III_2A3  LOSS OF STREHGTH: RIGHT LOWER,phaseiii_fm43.csv,FM43,continuous
+LOSSSTLL,F43 III_2A4  LOSS OF STREHGTH: LEFT LOWER,phaseiii_fm43.csv,FM43,continuous
+LOSSGMTR,F43 III_2A5  NONFOCAL IMPAIRMENT OF GROSS MOTOR DEVELOPMENT,phaseiii_fm43.csv,FM43,continuous
+LOSSFMTR,F43 III_2A6  NONFOCAL IMPAIRMENT OF FINE MOTOR SKILLS,phaseiii_fm43.csv,FM43,continuous
+LOSSTONE,F43 III_2B   WHICH BEST DESCRIBES THE CHANGE IN TONE?,phaseiii_fm43.csv,FM43,continuous
+RFLXBICR,"F43 IV_1R    A BICEPS REFLEX,  RIGHT",phaseiii_fm43.csv,FM43,continuous
+RFLXBICL,"F43 IV_1L    A BICEPS REFLEX,  LEFT",phaseiii_fm43.csv,FM43,continuous
+RFLXKJR,"F43 IV_2R    KNEE JERK,  RIGHT",phaseiii_fm43.csv,FM43,continuous
+RFLXKJL,"F43 IV_2L    KNEE JERK,  LEFT",phaseiii_fm43.csv,FM43,continuous
+RFLXAJR,"F43 IV_3R    ANKLE JERK,  RIGHT",phaseiii_fm43.csv,FM43,continuous
+RFLXAJL,"F43 IV_3L    ANKLE JERK,  LEFT",phaseiii_fm43.csv,FM43,continuous
+RFLXACR,"F43 IV_4R    ANKLE CLONUS,  RIGHT",phaseiii_fm43.csv,FM43,continuous
+RFLXACL,"F43 IV_4L    ANKLES CLONUS,  LEFT",phaseiii_fm43.csv,FM43,continuous
+RFLXARR,"F43 IV_5R    CROSSED ADDUCTOR RESPONSE, RIGHT",phaseiii_fm43.csv,FM43,continuous
+RFLXARL,"F43 IV_5L    CROSSED ADDUCTOR RESPONSE,  LEFT",phaseiii_fm43.csv,FM43,continuous
+RFLXUPTR,"F43 IV_6R    UPGOING TOE,  RIGHT",phaseiii_fm43.csv,FM43,continuous
+RFLXUPTL,"F43 IV_6L    UPGOING TOE,  LEFT",phaseiii_fm43.csv,FM43,continuous
+WALKINDE,F43 V_1      DOES THE CHILD ORDINARILY WALK INDEPENDENTLY?,phaseiii_fm43.csv,FM43,continuous
+CRWL9IN,F43 V_1A1    CRAWLS ON FOUR LIMBS FOR 9 INCHES OR MORE,phaseiii_fm43.csv,FM43,continuous
+PULL2STD,F43 V_1A2    PULLS-TO-STAND,phaseiii_fm43.csv,FM43,continuous
+STND3SEC,F43 V_1A3    STANDS ALONE FOR AT LEAST 3 SECONDS,phaseiii_fm43.csv,FM43,continuous
+STND30S,F43 V_1A4    STANDS ALONE FOR AT LEAST 30 SECONDS,phaseiii_fm43.csv,FM43,continuous
+STEP3SPT,F43 V_1A5    TAKES AT LEAST 3 STEPS WITH SUPPORT,phaseiii_fm43.csv,FM43,continuous
+STEP3HOL,F43 V_1A6    TAKES AT LEAST 3 STEPS HOLDING ONTO FURNITURE,phaseiii_fm43.csv,FM43,continuous
+STEP3ALN,F43 V_1A7    TAKES AT LEAST 3 STEPS WITHOUT SUPPORT,phaseiii_fm43.csv,FM43,continuous
+STDUPALN,F43 V_1A8    GETS UP OFF FLOOR TO STANDING WITHOUT HELP,phaseiii_fm43.csv,FM43,continuous
+WALK6FT,F43 V_1A9    WALKS INDEPENDENTLY FOR AT LEAST 6 FEET,phaseiii_fm43.csv,FM43,continuous
+KNEEFLXR,"F43 V_1B1R   KNEE FLEXION,  RIGHT",phaseiii_fm43.csv,FM43,continuous
+KNEEFLXL,"F43 V_1B1L   KNEE FLEXION,  LEFT",phaseiii_fm43.csv,FM43,continuous
+KNEHYPER,"F43 V_1B2R   KNEE HYPEREXTENSION,  RIGHT",phaseiii_fm43.csv,FM43,continuous
+KNEHYPEL,"F43 V_1B2L   KNEE HYPEREXTENSION, LEFT",phaseiii_fm43.csv,FM43,continuous
+TOEWALKR,"F43 V_1B3R   TOE WALKING,  RIGHT",phaseiii_fm43.csv,FM43,continuous
+TOEWALKL,"F43 V_1B3L   TOE WALKING,  LEFT",phaseiii_fm43.csv,FM43,continuous
+CIRCGTR,"F43 V_1B4R   CIRCUMDUCTING GAIT,  RIGHT",phaseiii_fm43.csv,FM43,continuous
+CIRCGTL,"F43 V_1B4L   CIRCUMDUCTING GAIT,  LEFT",phaseiii_fm43.csv,FM43,continuous
+DECRSWNR,"F43 V_1B5R   DECREASING ARM SWING,  RIGHT",phaseiii_fm43.csv,FM43,continuous
+DECRSWNL,"F43 V_1B5L   DECREASING ARM SWING,  LEFT",phaseiii_fm43.csv,FM43,continuous
+CORARMPR,"F43 V_1B6R   CORTICAL ARM POSTURE,  RIGHT",phaseiii_fm43.csv,FM43,continuous
+CORARMPL,"F43 V_1B6L   CORTICAL ARM POSTURE,  LEFT",phaseiii_fm43.csv,FM43,continuous
+HYPOTOND,F43 VI_1AD   TONE HYPOTONIA DISTRIBUTION,phaseiii_fm43.csv,FM43,continuous
+HYPOTONS,F43 VI_1AS   TONE HYPOTONIA SEVERITY,phaseiii_fm43.csv,FM43,continuous
+HYPRTOND,F43 VI_1BD   TONE HYPERTONIA DISTRIBUTION,phaseiii_fm43.csv,FM43,continuous
+HYPRTONS,F43 VI_1BS   TONE HYPERTONIA SEVERITY,phaseiii_fm43.csv,FM43,continuous
+DIAGNOS,F43 VI_2     ARE ANY OF THE DIAGNOSES LISTED BELOW PRESENT TODAY?,phaseiii_fm43.csv,FM43,continuous
+DIAGN_A,F43 VI_2ADS  DIAGNOSIS  A,phaseiii_fm43.csv,FM43,continuous
+DIAGN_AS,F43 VI_2ASI  DIAGNOSIS  A SIDE,phaseiii_fm43.csv,FM43,continuous
+DIAGNASP,"F43 VI_2ASP  DIAGNOSIS A,  SPECIFY",phaseiii_fm43.csv,FM43,continuous
+DIAGN_B,F43 VI_2BDS  DIAGNOSIS B,phaseiii_fm43.csv,FM43,continuous
+DIAGN_BS,F43 VI_2BSI  DIAGNOSIS B SIDE,phaseiii_fm43.csv,FM43,continuous
+DIAGNBSP,"F43 VI_2BSP  DIAGNOSIS B,  SPECIFY",phaseiii_fm43.csv,FM43,continuous
+DIAGN_C,F43 VI_2CDS  DIAGNOSIS C,phaseiii_fm43.csv,FM43,continuous
+DIAGN_CS,F43 VI_2CSI  DIAGNOSIS C SIDE,phaseiii_fm43.csv,FM43,continuous
+DIAGNCSP,"F43 VI_2CSP  DIAGNOSIS C,  SPECIFY",phaseiii_fm43.csv,FM43,continuous
+NEURSTA1,"F43 VII_1    FROM A NEUROLOGICAL STANDPOINT, WHAT DO YOU THINK THE STATUS OF THE PATIENT IS SINCE LAST ASSESSMENT?",phaseiii_fm43.csv,FM43,continuous
+NEURSTA2,"F43 VII_2    FROM A NEUROLOGICAL STANDPOINT, WHAT DO YOU THINK THE STATUS OF THE PATIENT IS SINCE INITITAL BASELINE ASSESSMENT?",phaseiii_fm43.csv,FM43,continuous
+NEW_STRK,F43 VII_3A   SUMMARY FINDINGS NEW STROKE,phaseiii_fm43.csv,FM43,continuous
+NEW_TIA,F43 VII_3B   SUMMARY FINDINGS NEW TIA,phaseiii_fm43.csv,FM43,continuous
+F80VII4,F43 VII_4    FORM 80 SUBMITTED?,phaseiii_fm43.csv,FM43,continuous
+GEN_CMNT,F43 VII_1C   GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm43.csv,FM43,continuous
+VIS_DT_DAYS,F43 I_5      TESTING DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm43.csv,FM43,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm44.csv,FM44,continuous
+FORM,F44 FORM     STUDY FORM NUMBER,phaseiii_fm44.csv,FM44,continuous
+REV,F44 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm44.csv,FM44,continuous
+VISIT,F44 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm44.csv,FM44,categorical
+SEQNO,F44 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm44.csv,FM44,continuous
+CAMTYPE,F44 II_1     CAMERA MANUFACTURER,phaseiii_fm44.csv,FM44,categorical
+CAMMODEL,F44 II-2     CAMERA MODEL,phaseiii_fm44.csv,FM44,categorical
+COLLIMAT,F44 II_3     COLLIMATOR,phaseiii_fm44.csv,FM44,categorical
+SUPCOLLD,F44 II_4     SUPPLIER OF TC-SULFUR COLLOID,phaseiii_fm44.csv,FM44,categorical
+DOSINJ44,F44 II_5     DOSE INJECTED,phaseiii_fm44.csv,FM44,continuous
+INJ44HR,"F44 II_6HR   TIME OF INJECTION (24-HOUR CLOCK), HOUR",phaseiii_fm44.csv,FM44,continuous
+INJ44MN,"F44 II_6MN   TIME OF INJECTION (24-HOUR CLOCK), MINUTE",phaseiii_fm44.csv,FM44,continuous
+IMSTRHR,"F44 II_7HR   TIME IMAGING STARTED, HOUR",phaseiii_fm44.csv,FM44,continuous
+IMSTRMN,"F44 II_7MN   TIME IMAGING STARTED, MINUTE",phaseiii_fm44.csv,FM44,continuous
+IMCOMHR,"F44 II_8HR   TIME IMAGING COMPLETED, HOUR",phaseiii_fm44.csv,FM44,continuous
+IMCOMMN,"F44 II_8MN   TIME IMAGING COMPLETED, MINUTE",phaseiii_fm44.csv,FM44,continuous
+CAMANGLE,F44 II_9     CAMERA ANGLE,phaseiii_fm44.csv,FM44,continuous
+ANTPOSMN,"F44 II_10MN  TRUE POSTERIOR IMAGING TIME (MIN:SEC), MINUTE",phaseiii_fm44.csv,FM44,continuous
+ANTPOSSC,"F44 II_10SC  TRUE POSTERIOR IMAGING TIME (MIN:SEC), SECOND",phaseiii_fm44.csv,FM44,continuous
+OBLIMCNT,F44 II_11    RIGHT POSTERIOR OBLIQUE IMAGE COUNTS:,phaseiii_fm44.csv,FM44,continuous
+LSSCNLBL,F44 II_12    FILM LABEL,phaseiii_fm44.csv,FM44,continuous
+AOI400K,F44 II_13A   400 K IMAGE ADEQUATE?,phaseiii_fm44.csv,FM44,continuous
+AOITIMED,F44 II_13B   TIMED IMAGE ADEQUATE?,phaseiii_fm44.csv,FM44,continuous
+KASPLTOT,F44 III_1A1A 400K IMAGE: ANTERIOR VIEW SPLEEN TOTAL COUNTS,phaseiii_fm44.csv,FM44,continuous
+KASPLPIX,F44 III_1A1B 400K IMAGE: ANTERIOR VIEW SPLEEN # PIXELS IN ROI,phaseiii_fm44.csv,FM44,continuous
+KASPLCNT,F44 III_1A1C 400K IMAGE: ANTERIOR VIEW SPLEEN COUNTS/PIXEL,phaseiii_fm44.csv,FM44,continuous
+KALIVTOT,F44 III_1A2A 400K IMAGE: ANTERIOR VIEW LIVER TOTAL COUNTS,phaseiii_fm44.csv,FM44,continuous
+KALIVPIX,F44 III_1A2B 400K IMAGE: ANTERIOR VIEW LIVER # PIXELS IN ROI,phaseiii_fm44.csv,FM44,continuous
+KALIVCNT,F44 III_1A2C 400K IMAGE: ANTERIOR VIEW LIVER COUNTS/PIXEL,phaseiii_fm44.csv,FM44,continuous
+KPSPLTOT,F44 III_1B1A 400K IMAGE: POSTERIOR VIEW SPLEEN TOTAL COUNTS,phaseiii_fm44.csv,FM44,continuous
+KPSPLPIX,F44 III_1B1B 400K IMAGE: POSTERIOR VIEW SPLEEN # PIXELS IN ROI,phaseiii_fm44.csv,FM44,continuous
+KPSPLCNT,F44 III_1B1C 400K IMAGE: POSTERIOR VIEW SPLEEN COUNTS/PIXEL,phaseiii_fm44.csv,FM44,continuous
+KPLIVTOT,F44 III_1B2A 400K IMAGE: POSTERIOR VIEW LIVER TOTAL COUNTS,phaseiii_fm44.csv,FM44,continuous
+KPLIVPIX,F44 III_1B2B 400K IMAGE: POSTERIOR VIEW LIVER # PIXELS IN ROI,phaseiii_fm44.csv,FM44,continuous
+KPLIVCNT,F44 III_1B2C 400K IMAGE: POSTERIOR VIEW LIVER COUNTS/PIXEL,phaseiii_fm44.csv,FM44,continuous
+KSLRTTOT,F44 III_1C1  400K IMAGE: SPLEEN/LIVER RATIO TOTAL COUNTS,phaseiii_fm44.csv,FM44,continuous
+KSLRTCNT,F44 III_1C2  400K IMAGE: SPLEEN/LIVER RATIO COUNTS/PIXEL,phaseiii_fm44.csv,FM44,continuous
+TASPLTOT,F44 III_2A1A TIMED IMAGE: LEFT ANTERIOR OBLIQUE VIEW SPLEEN TOTAL COUNTS,phaseiii_fm44.csv,FM44,continuous
+TASPLPIX,F44 III_2A1B TIMED IMAGE: LEFT ANTERIOR OBLIQUE VIEW SPLEEN # PIXELS IN ROI,phaseiii_fm44.csv,FM44,continuous
+TASPLCNT,F44 III_2A1C TIMED IMAGE: LEFT ANTERIOR OBLIQUE VIEW SPLEEN COUNTS/PIXEL,phaseiii_fm44.csv,FM44,continuous
+TALIVTOT,F44 III_2A2A TIMED IMAGE: LEFT ANTERIOR OBLIQUE VIEW LIVER TOTAL COUNTS,phaseiii_fm44.csv,FM44,continuous
+TALIVPIX,F44 III_2A2B TIMED IMAGE: LEFT ANTERIOR OBLIQUE VIEW LIVER # PIXELS IN ROI,phaseiii_fm44.csv,FM44,continuous
+TALIVCNT,F44 III_2A2C TIMED IMAGE: LEFT ANTERIOR OBLIQUE VIEW LIVER COUNTS/PIXEL,phaseiii_fm44.csv,FM44,continuous
+TPSPLTOT,F44 III_2B1A TIMED IMAGE: RIGHT ANTERIOR OBLIQUE VIEW SPLEEN TOTAL COUNTS,phaseiii_fm44.csv,FM44,continuous
+TPSPLPIX,F44 III_2B1B TIMED IMAGE: RIGHT ANTERIOR OBLIQUE VIEW SPLEEN # PIXELS IN ROI,phaseiii_fm44.csv,FM44,continuous
+TPSPLCNT,F44 III_2B1C TIMED IMAGE: RIGHT  ANTERIOR OBLIQUE VIEW SPLEEN COUNTS/PIXEL,phaseiii_fm44.csv,FM44,continuous
+TPLIVTOT,F44 III_2B2A TIMED IMAGE: RIGHT ANTERIOR OBLIQUE VIEW LIVER TOTAL COUNTS,phaseiii_fm44.csv,FM44,continuous
+TPLIVPIX,F44 III_2B2B TIMED IMAGE: RIGHT ANTERIOR OBLIQUE VIEW LIVER # PIXELS IN ROI,phaseiii_fm44.csv,FM44,continuous
+TPLIVCNT,F44 III_2B2C TIMED IMAGE: RIGHT ANTERIOR OBLIQUE VIEW LIVER COUNTS/PIXEL,phaseiii_fm44.csv,FM44,continuous
+TSLRTTOT,F44 III_2C1  TIMED IMAGE: SPLEEN/LIVER RATIO TOTAL COUNTS,phaseiii_fm44.csv,FM44,continuous
+TSLRTCNT,F44 III_2C2  TIMED IMAGE: SPLEEN/LIVER RATIO COUNTS/PIXEL,phaseiii_fm44.csv,FM44,continuous
+GEN_CMNT,F44 IV_1C    GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm44.csv,FM44,continuous
+VIS_DT_DAYS,F44 I_V      PROCEDURE DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm44.csv,FM44,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm45.csv,FM45,continuous
+FORM,F45 FORM     STUDY FORM NUMBER,phaseiii_fm45.csv,FM45,continuous
+REV,F45 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm45.csv,FM45,continuous
+VISIT,F45 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm45.csv,FM45,categorical
+SEQNO,F45 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm45.csv,FM45,continuous
+ABDSEQPT,F45 II_1     EQUIPMENT,phaseiii_fm45.csv,FM45,categorical
+ABDSTRNS,F45 II_2     TRANSDUCER,phaseiii_fm45.csv,FM45,categorical
+STATUS45,"F45 II_4     QUALITY OF STUDY, FORM 45",phaseiii_fm45.csv,FM45,continuous
+SONO_LBL,F45 II_5     FILM LABEL,phaseiii_fm45.csv,FM45,continuous
+GEN_CMNT,F45 IV_1C    GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm45.csv,FM45,continuous
+VIS_DT_DAYS,F45 I_5      PROCEDURE DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm45.csv,FM45,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm46.csv,FM46,continuous
+FORM,F46 FORM     STUDY FORM NUMBER,phaseiii_fm46.csv,FM46,continuous
+REV,F46 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm46.csv,FM46,continuous
+VISIT,F46 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm46.csv,FM46,categorical
+SEQNO,F46 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm46.csv,FM46,continuous
+TCDMNUM,F46 II_2     TCD MACHINE SERIAL NUMBER,phaseiii_fm46.csv,FM46,categorical
+PTNTPOS,F46 II_3     PATIENT'S POSITION DURING EXAM,phaseiii_fm46.csv,FM46,continuous
+POS_SP,"F46 II_3A    PATIENT'S POSITION DURING EXAM,  SPECIFY",phaseiii_fm46.csv,FM46,continuous
+PTNTCALM,"F46 III_1A   PATIENT'S COOPERATIVENESS DURING THE EXAM,  CALM",phaseiii_fm46.csv,FM46,continuous
+PTNTCACT,"F46 III_1B   PATIENT'S COOPERATIVENESS DURING THE EXAM,  VERY ACTIVE",phaseiii_fm46.csv,FM46,continuous
+PTNTCRY,"F46 III_1C   PATIENT'S COOPERATIVENESS DURING THE EXAM, CRYING/SCREAMING",phaseiii_fm46.csv,FM46,continuous
+COMPEXAM,F46 III_2    COMPLETENESS OF EXAM,phaseiii_fm46.csv,FM46,continuous
+INCEXAM,F46 III_2A   REASON FOR INCOMPLETE EXAM,phaseiii_fm46.csv,FM46,continuous
+INCEX_SP,"F46 III_2A1  REASON FOR INCOMPLETE EXAM,  SPECIFY",phaseiii_fm46.csv,FM46,continuous
+TCD_LBL,F46 III_2B   TCD LABEL,phaseiii_fm46.csv,FM46,continuous
+GEN_CMNT,F46 IV_1C    GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm46.csv,FM46,continuous
+VIS_DT_DAYS,F46 I_5      PROCEDURE DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm46.csv,FM46,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm47.csv,FM47,continuous
+FORM,F47 FORM     STUDY FORM NUMBER,phaseiii_fm47.csv,FM47,continuous
+REV,F47 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm47.csv,FM47,continuous
+VISIT,F47 I_4VIS   SUBJECT CLINICAL VISIT NUMBER,phaseiii_fm47.csv,FM47,categorical
+SEQNO,F47 I_4SEQ   SUBJECT VISIT SEQUENCE NUMBER,phaseiii_fm47.csv,FM47,continuous
+MRI,F47 II_1     MRI INTERPRETABLE?,phaseiii_fm47.csv,FM47,continuous
+MRI_LBL,F47 II_2     MRI FILM LABEL,phaseiii_fm47.csv,FM47,continuous
+MRA,F47 II_3     MRA INTERPRETABLE?,phaseiii_fm47.csv,FM47,continuous
+STENOSIS,F47 II_3A    GREATER THAN 50% STENOSIS?,phaseiii_fm47.csv,FM47,continuous
+MRA_LBL,F47 II_4     MRA FILM LABEL,phaseiii_fm47.csv,FM47,continuous
+GEN_CMNT,F47 III_1C   GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm47.csv,FM47,continuous
+VIS_DT_DAYS,F47 I_5      FILM DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm47.csv,FM47,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm51.csv,FM51,continuous
+FORM,F51 FORM     STUDY FORM NUMBER,phaseiii_fm51.csv,FM51,continuous
+REV,F51 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm51.csv,FM51,continuous
+VISIT,F51 I_4VIS   WEEK OF VISIT,phaseiii_fm51.csv,FM51,categorical
+REASON,F51 II_1     PLEASE INDICATE WHY THIS FORM IS BEING SUBMITTED.,phaseiii_fm51.csv,FM51,continuous
+SUPPLE,F51 III_1A   DID THE PATIENT RECEIVE SUPPLEMENTS?,phaseiii_fm51.csv,FM51,continuous
+ANTIBIOT,F51 III_2A   DID THE PATIENT RECEIVE ANTIBIOTICS?,phaseiii_fm51.csv,FM51,continuous
+ANALGES,F51 III_3A   DID THE PATIENT RECEIVE ANALGESICS?,phaseiii_fm51.csv,FM51,continuous
+PULMONAR,F51 III_4A   DID THE PATIENT RECEIVE PULMONARY MEDICATIONS?,phaseiii_fm51.csv,FM51,continuous
+TOPICALS,F51 III_5A   WAS THE PATIENT USING TOPICAL MEDICATIONS?,phaseiii_fm51.csv,FM51,continuous
+OTHER,F51 III_6A   WAS THE PATIENT USING ANY OTHER MEDICATIONS?,phaseiii_fm51.csv,FM51,continuous
+GEN_CMNT,F51          GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm51.csv,FM51,continuous
+VIS_DT_DAYS,F51 I_5      CONCOMITANT MEDICATIONS COLLECTION START DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm51.csv,FM51,continuous
+EVENT_DT_DAYS,F51 II_2     DATE OF CORRESPONDING EVENT (recode: number of days after date of eligibility or ineligibility),phaseiii_fm51.csv,FM51,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm51a.csv,FM51A,continuous
+FORM,F51AFORM     STUDY FORM NUMBER,phaseiii_fm51a.csv,FM51A,categorical
+REV,F51AREV      NUMBER OF THE FORM REVISONS,phaseiii_fm51a.csv,FM51A,continuous
+VISIT,F51AI_4VIS   WEEK OF VISIT,phaseiii_fm51a.csv,FM51A,categorical
+SEQNO,F51ASEQNO    SEQUENCE NUMBER OF THE VISIT,phaseiii_fm51a.csv,FM51A,continuous
+ADD_MED,F51AINTERNAL ADDITIONAL MEDICATION,phaseiii_fm51a.csv,FM51A,continuous
+MED_TYPE,F51AINTERNAL MEDICATION TYPE (THIS FIELD IS AUTO-POPULATED),phaseiii_fm51a.csv,FM51A,continuous
+MED_CD,F51AINTERNAL MEDICATION CODE (THIS FIELD IS AUTO-POPULATED),phaseiii_fm51a.csv,FM51A,continuous
+MED_NAME,F51A         MEDICATION NAME (THIS FIELD IS AUTO-POPULATED),phaseiii_fm51a.csv,FM51A,categorical
+NOT_RECD,F51A(A)      NOT RECEIVED,phaseiii_fm51a.csv,FM51A,continuous
+W3DPK,F51A(B)      WITHIN 3 DAYS OF PK COLLECTION,phaseiii_fm51a.csv,FM51A,continuous
+W7DPK,F51A(C)      WITHIN 7 DAYS OF SAE ONSET,phaseiii_fm51a.csv,FM51A,continuous
+CLOS_SAE,F51A(D)      UNTIL CLOSE OF SAE,phaseiii_fm51a.csv,FM51A,continuous
+GEN_CMNT,F51AIV_1C    GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm51a.csv,FM51A,continuous
+MAIN,F51AINTERNAL ANSWER TO THE LEADING QUESTION (THIS FIELD IS AUTO-POPULATED),phaseiii_fm51a.csv,FM51A,continuous
+VIS_DT_DAYS,F51A         CONCOMITANT MEDICATIONS COLLECTION START DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm51a.csv,FM51A,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm52.csv,FM52,continuous
+FORM,F52 FORM     STUDY FORM NUMBER,phaseiii_fm52.csv,FM52,continuous
+REV,F52 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm52.csv,FM52,continuous
+VISIT,F52 I_4VIS   VISIT NUMBER,phaseiii_fm52.csv,FM52,continuous
+SEQNO,F52 I_4SEQ   SEQUENCE NUMBER OF THE VISIT,phaseiii_fm52.csv,FM52,continuous
+TR_TYPE,F52 II_1     TRANSFUSION TYPE,phaseiii_fm52.csv,FM52,continuous
+TRVOLPR2,F52 II_2B    VOLUME OF PACKED RED CELLS TRANSFUSED,phaseiii_fm52.csv,FM52,continuous
+TR_SP,F52 II_5     REASON FOR TRANSFUSION,phaseiii_fm52.csv,FM52,continuous
+GEN_CMNT,F52 III_1C   GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm52.csv,FM52,continuous
+VIS_DT_DAYS,F52 I_5      TRANSFUSION DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm52.csv,FM52,continuous
+TSTRT_DT_DAYS,F52 II_3     TRANSFUSION START DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm52.csv,FM52,continuous
+TSTOP_DT_DAYS,F52 II_4     TRANSFUSION STOP DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm52.csv,FM52,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm64.csv,FM64,continuous
+FORM,F64 FORM     STUDY FORM NUMBER,phaseiii_fm64.csv,FM64,continuous
+REV,F64 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm64.csv,FM64,continuous
+VISIT,F64 I_4VIS   VISIT NUMBER,phaseiii_fm64.csv,FM64,continuous
+SEQNO,F64 I_4SEQ   SEQUENCE NUMBER OF THE VISIT,phaseiii_fm64.csv,FM64,continuous
+STOPBY,F64 II_1     STOP ORDER INITIATED BY,phaseiii_fm64.csv,FM64,continuous
+TPSTOPTX,F64 II_2     TYPE OF STOP ORDER,phaseiii_fm64.csv,FM64,continuous
+CCSTOPTX,F64 II_3     IS CLINICAL CENTER STAFF DIRECTED TO CONTACT THE PATIENT'S CAREGIVER AND INSTRUCT HIM/HER TO STOP TAK STDY MED TO THE PATIENT?,phaseiii_fm64.csv,FM64,continuous
+CCCONTPT,F64 III_1    DID THE CLINICAL CENTER STAFF CONTACT THE PATIENT'S CAREGIVER?,phaseiii_fm64.csv,FM64,continuous
+CONTHR,"F64 III_1BHR STOP ORDER TIME,  HOUR",phaseiii_fm64.csv,FM64,continuous
+CONTMN,"F64 III_1BMN STOP ORDER TIME,  MINUTES",phaseiii_fm64.csv,FM64,continuous
+ATTMCONT,F64 III_2A   HOW MANY ATTEMPTS WERE MADE TO CONTACT THE PATIENT?,phaseiii_fm64.csv,FM64,continuous
+ENDCONHR,"F64 III_2B2HRCONTACT ATTEMPTS ENDED,  HOUR",phaseiii_fm64.csv,FM64,continuous
+ENDCONMN,"F64 III_2B2MNCONTACT ATTEMPTS ENDED,  MINUTES",phaseiii_fm64.csv,FM64,continuous
+PTAGR,F64 III_3    DID PATIENT'S CAREGIVER AGREE TO STOP TAKING ALL STUDY TREATMENTS?,phaseiii_fm64.csv,FM64,continuous
+PTAGRTRN,F64 III_4    DID PATIENT'S CAREGIVER AGREE TO RETURN ALL UNUSED STUDY MEDICATION AT NEXT CLINIC VISIT?,phaseiii_fm64.csv,FM64,continuous
+GEN_CMNT,F64 IV_1C    GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm64.csv,FM64,continuous
+VIS_DT_DAYS,F64 I_5      DATE OF ORDER (recode: number of days after date of eligibility or ineligibility),phaseiii_fm64.csv,FM64,continuous
+CCCONTDT_DAYS,F64 III_1ADT STOP ORDER DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm64.csv,FM64,continuous
+ENDCONDT_DAYS,F64 III_2B1DTDATE AND TIME CONTACT ATTEMPTS ENDED (recode: number of days after date of eligibility or ineligibility),phaseiii_fm64.csv,FM64,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm65.csv,FM65,continuous
+FORM,F65 FORM     STUDY FORM NUMBER,phaseiii_fm65.csv,FM65,continuous
+REV,F65 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm65.csv,FM65,continuous
+VISIT,F65 I_4VIS   VISIT NUMBER,phaseiii_fm65.csv,FM65,continuous
+SEQNO,F65 I_4SEQ   SEQUENCE NUMBER OF THE VISIT,phaseiii_fm65.csv,FM65,continuous
+RESTRTTY,F65 II_1     TYPE OF RESTART,phaseiii_fm65.csv,FM65,continuous
+PATUNSTN,F65 II_2     DID PATIENT'S CAREGIVER RECEIVE AND UNDERSTAND INSTRUCTION?,phaseiii_fm65.csv,FM65,continuous
+GEN_CMNT,F65 III_1C   GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm65.csv,FM65,continuous
+VIS_DT_DAYS,F65 I_5      DATE OF ORDER (recode: number of days after date of eligibility or ineligibility),phaseiii_fm65.csv,FM65,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm66.csv,FM66,continuous
+FORM,F66 FORM     STUDY FORM NUMBER,phaseiii_fm66.csv,FM66,continuous
+REV,F66 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm66.csv,FM66,continuous
+VISIT,F66 I_4VIS   VISIT NUMBER,phaseiii_fm66.csv,FM66,continuous
+SEQNO,F66 I_4SEQ   SEQUENCE NUMBER OF THE VISIT,phaseiii_fm66.csv,FM66,continuous
+MEDEMERG,F66 II_3A    MEDICAL EMERGENCY,phaseiii_fm66.csv,FM66,continuous
+NONMEDEM,F66 II_3B    NON-MEDICAL EMERGENCY,phaseiii_fm66.csv,FM66,continuous
+OVERDOSE,F66 II_3C    POSSIBLE OR REAL STUDY TREATMENT OVERDOSE,phaseiii_fm66.csv,FM66,continuous
+DOSOTHER,F66 II_3D    OTHER REASONS FOR DOSING IRREGULARITY OCCURRENCE,phaseiii_fm66.csv,FM66,continuous
+DOS_SP,"F66 II_3D_1  IF OTHER, SPECIFY THE REASONS",phaseiii_fm66.csv,FM66,continuous
+UNBLIND,F66 III_1    WAS THE PATIENT UNBLINDED?,phaseiii_fm66.csv,FM66,continuous
+INDPRINV,F66 III_4A   PRINCIPAL INVESTIGATOR,phaseiii_fm66.csv,FM66,continuous
+INDCOORD,F66 III_4B   CLINIC COORDINATOR,phaseiii_fm66.csv,FM66,continuous
+INDPTNT,F66 III_4C   PATIENT/FAMILY,phaseiii_fm66.csv,FM66,continuous
+INDOTHER,F66 III_4D   OTHER INDIVIDUALS INFORMED OF THE ASSIGNED STUDY TREATMENT,phaseiii_fm66.csv,FM66,continuous
+GEN_CMNT,F66 IV_1C    GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm66.csv,FM66,continuous
+VIS_DT_DAYS,F66 I_5      DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm66.csv,FM66,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm80.csv,FM80,continuous
+FORM,F80 FORM     STUDY FORM NUMBER,phaseiii_fm80.csv,FM80,continuous
+REV,F80 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm80.csv,FM80,continuous
+VISIT,F80 I_4VIS   VISIT NUMBER,phaseiii_fm80.csv,FM80,categorical
+SEQNO,F80 I_4SEQ   SEQUENCE NUMBER OF THE VISIT,phaseiii_fm80.csv,FM80,continuous
+FORM2,F80          FORM,phaseiii_fm80.csv,FM80,continuous
+REV2,F80          REV,phaseiii_fm80.csv,FM80,continuous
+PAGE,F80          PAGE,phaseiii_fm80.csv,FM80,continuous
+GEN_CMNT,F80          GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm80.csv,FM80,continuous
+VIS_DT_DAYS,F80 I_5      DATE OF REFERENCED FORM (recode: number of days after date of eligibility or ineligibility),phaseiii_fm80.csv,FM80,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm81.csv,FM81,continuous
+FORM,F81 FORM     STUDY FORM NUMBER,phaseiii_fm81.csv,FM81,continuous
+REV,F81 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm81.csv,FM81,continuous
+VISIT,F81 I_4VIS   VISIT NUMBER,phaseiii_fm81.csv,FM81,categorical
+SEQNO,F81 I_4SEQ   SEQUENCE NUMBER OF THE VISIT,phaseiii_fm81.csv,FM81,continuous
+MRI_LBL,F81 II_3     FILM LABEL,phaseiii_fm81.csv,FM81,continuous
+QUAL81,F81 II_4     SCAN QUALITY,phaseiii_fm81.csv,FM81,continuous
+VOLUM81,F81 II_5     VOLUMETRICS,phaseiii_fm81.csv,FM81,continuous
+STATUS81,"F81 II_6     CURRENT READING STATUS, FORM 81",phaseiii_fm81.csv,FM81,continuous
+F80II5A,"F81 II_6A    IF CURRENT READING STATUS IS (2) OR (3), FORM 80 SUBMITTED?",phaseiii_fm81.csv,FM81,continuous
+ATROPHY,F81 II_7     GENERAL APPEARANCE,phaseiii_fm81.csv,FM81,continuous
+ATR_GENL,F81 II_7A    IS THE ATROPHY GENERAL?,phaseiii_fm81.csv,FM81,continuous
+ATRGSULC,F81 II_7A1   GENERAL: SULCAL,phaseiii_fm81.csv,FM81,continuous
+ATRGVENT,F81 II_7A2   GENERAL: VENTRICULAR,phaseiii_fm81.csv,FM81,continuous
+ATR_SEV,F81 II_7A3   GENERAL: LEVEL OF SEVERITY,phaseiii_fm81.csv,FM81,continuous
+ATR_FOCL,F81 II_7B    FOCAL,phaseiii_fm81.csv,FM81,continuous
+ATRFSULC,F81 II_7B1   FOCAL: SULCAL,phaseiii_fm81.csv,FM81,continuous
+ATRFVENT,F81 II_7B2   FOCAL: VENTRICULAR,phaseiii_fm81.csv,FM81,continuous
+FOCAL_SP,F81 II_7B3SP FOCAL: SPECIFY AREA,phaseiii_fm81.csv,FM81,continuous
+FINDINGS,F81 III_1    DISCREET FINDINGS,phaseiii_fm81.csv,FM81,continuous
+LSNA_SID,F81 III_1ASIDLESION SIDE A,phaseiii_fm81.csv,FM81,categorical
+LSNA_TYP,F81 III_1ATYPLESION TYPE A,phaseiii_fm81.csv,FM81,categorical
+LSNA_SIZ,F81 III_1ASIZLESION SIZE A,phaseiii_fm81.csv,FM81,continuous
+LSNA_LC1,F81 III_1A1  LESION LOCATION A1,phaseiii_fm81.csv,FM81,continuous
+LSNA_LC2,F81 III_1A2  LESION LOCATION A2,phaseiii_fm81.csv,FM81,continuous
+LSNA_LC3,F81 III_1A3  LESION LOCATION A3,phaseiii_fm81.csv,FM81,continuous
+LSNA_LC4,F81 III_1A4  LESION LOCATION A4,phaseiii_fm81.csv,FM81,continuous
+LSNB_SID,F81 III_1BSIDLESION SIDE B,phaseiii_fm81.csv,FM81,categorical
+LSNB_TYP,F81 III_1BTYPLESION TYPE B,phaseiii_fm81.csv,FM81,categorical
+LSNB_SIZ,F81 III_1BSIZLESION SIZE B,phaseiii_fm81.csv,FM81,continuous
+LSNB_LC1,F81 III_1B1  LESION LOCATION B1,phaseiii_fm81.csv,FM81,continuous
+LSNB_LC2,F81 III_1B2  LESION LOCATION B2,phaseiii_fm81.csv,FM81,continuous
+LSNB_LC3,F81 III_1B3  LESION LOCATION B3,phaseiii_fm81.csv,FM81,continuous
+LSNB_LC4,F81 III_1B4  LESION LOCATION B4,phaseiii_fm81.csv,FM81,continuous
+LSNC_SID,F81 III_1CSIDLESION SIDE C,phaseiii_fm81.csv,FM81,categorical
+LSNC_TYP,F81 III_1CTYPLESION TYPE C,phaseiii_fm81.csv,FM81,categorical
+LSNC_SIZ,F81 III_1CSIZLESION SIZE C,phaseiii_fm81.csv,FM81,continuous
+LSNC_LC1,F81 III_1C1  LESION LOCATION C1,phaseiii_fm81.csv,FM81,continuous
+LSNC_LC2,F81 III_1C2  LESION LOCATION C2,phaseiii_fm81.csv,FM81,continuous
+LSNC_LC3,F81 III_1C3  LESION LOCATION C3,phaseiii_fm81.csv,FM81,continuous
+LSNC_LC4,F81 III_1C4  LESION LOCATION C4,phaseiii_fm81.csv,FM81,continuous
+LSND_SID,F81 III_1DSIDLESION SIDE D,phaseiii_fm81.csv,FM81,categorical
+LSND_TYP,F81 III_1DTYPLESION TYPE D,phaseiii_fm81.csv,FM81,categorical
+LSND_SIZ,F81 III_1DSIZLESION  SIZE D,phaseiii_fm81.csv,FM81,continuous
+LSND_LC1,F81 III_1D1  LESION LOCATION D1,phaseiii_fm81.csv,FM81,continuous
+LSND_LC2,F81 III_1D2  LESION LOCATION D2,phaseiii_fm81.csv,FM81,continuous
+LSND_LC3,F81 III_1D3  LESION LOCATION D3,phaseiii_fm81.csv,FM81,continuous
+LSND_LC4,F81 III_1D4  LESION LOCATION D4,phaseiii_fm81.csv,FM81,continuous
+LSNE_SID,F81 III_1ESIDLESION SIDE E,phaseiii_fm81.csv,FM81,categorical
+LSNE_TYP,F81 III_1ETYPLESION TYPE E,phaseiii_fm81.csv,FM81,continuous
+LSNE_SIZ,F81 III_1ESIZLESION SIZE E,phaseiii_fm81.csv,FM81,continuous
+LSNE_LC1,F81 III_1E1  LESION LOCATION E1,phaseiii_fm81.csv,FM81,continuous
+LSNE_LC2,F81 III_1E2  LESION LOCATION E2,phaseiii_fm81.csv,FM81,continuous
+LSNE_LC3,F81 III_1E3  LESION LOCATION E3,phaseiii_fm81.csv,FM81,continuous
+LSNE_LC4,F81 III_1E4  LESION LOCATION E4,phaseiii_fm81.csv,FM81,continuous
+VRIICC_R,"F81 III_2AR  VASCULAR REGION OF INFARCT: ICC,  RIGHT",phaseiii_fm81.csv,FM81,continuous
+VRIICC_L,"F81 III_2AL  VASCULAR REGION OF INFARCT: ICC,  LEFT",phaseiii_fm81.csv,FM81,continuous
+VRIICS_R,"F81 III_2BR  VASCULAR REGION OF INFARCT: ICS,  RIGHT",phaseiii_fm81.csv,FM81,continuous
+VRIICS_L,"F81 III_2BL  VASCULAR REGION OF INFARCT: ICS,  LEFT",phaseiii_fm81.csv,FM81,continuous
+VRIMCA_R,"F81 III_2CR  VASCULAR REGION OF INFARCT: MCA, RIGHT",phaseiii_fm81.csv,FM81,continuous
+VRIMCA_L,"F81 III_2CL  VASCULAR REGION OF INFARCT: MCA, LEFT",phaseiii_fm81.csv,FM81,continuous
+VRIACA_R,"F81 III_2DR  VASCULAR REGION OF INFARCT: ACA,  RIGHT",phaseiii_fm81.csv,FM81,continuous
+VRIACA_L,"F81 III_2DL  VASCULAR REGION OF INFARCT: ACA,  LEFT",phaseiii_fm81.csv,FM81,continuous
+VRIPCA_R,"F81 III_2ER  VASCULAR REGION OF INFARCT: PCA,  RIGHT",phaseiii_fm81.csv,FM81,continuous
+VRIPCA_L,"F81 III_2EL  VASCULAR REGION OF INFARCT: PCA,  LEFT",phaseiii_fm81.csv,FM81,continuous
+VRIBSL,F81 III_2F   VASCULAR REGION OF INFARCT: BASILAR,phaseiii_fm81.csv,FM81,continuous
+VRIABZ,F81 III_2G   VASCULAR REGION OF INFARCT: ANTERIOR BORDER ZONE,phaseiii_fm81.csv,FM81,continuous
+VRIPBZ,F81 III_2H   VASCULAR REGION OF INFARCT: POSTERIOR BORDER ZONE,phaseiii_fm81.csv,FM81,continuous
+VRICSB,F81 III_2I   VASCULAR REGION OF INFARCT: CENTRUM SEMIOVALE BORDER ZONE,phaseiii_fm81.csv,FM81,continuous
+VRISTR,F81 III_2J   VASCULAR REGION OF INFARCT: STRIATUM (LENTICULOSTRIATES),phaseiii_fm81.csv,FM81,continuous
+BONY_CHG,F81 III_4    BONY CHANGES,phaseiii_fm81.csv,FM81,continuous
+F80III4A,"F81 III_4A   IF BONE CHANGES IS FOCAL ABNORMALITY, FORM 80 SUBMITTED?",phaseiii_fm81.csv,FM81,continuous
+OTHLESN,F81 III_5    OTHER LESIONS,phaseiii_fm81.csv,FM81,continuous
+DWIFAVAI,F81 III_6    ARE DWI FILMS AVAILABLE FOR THIS REVIEW?,phaseiii_fm81.csv,FM81,continuous
+F80III6A,"F81 III_6A   IF YES, FORM 80 SUBMITTED",phaseiii_fm81.csv,FM81,continuous
+GEN_CMNT,F81 IV_1C    GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm81.csv,FM81,continuous
+VIS_DT_DAYS,F81 I_5      FILM DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm81.csv,FM81,continuous
+RDR81_DT_DAYS,F81 II_2DT   DATE READ (recode: number of days after date of eligibility or ineligibility),phaseiii_fm81.csv,FM81,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm82.csv,FM82,continuous
+FORM,F82 FORM     STUDY FORM NUMBER,phaseiii_fm82.csv,FM82,continuous
+REV,F82 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm82.csv,FM82,continuous
+VISIT,F82 I_4VIS   VISIT NUMBER,phaseiii_fm82.csv,FM82,categorical
+SEQNO,F82 I_4SEQ   SEQUENCE NUMBER OF THE VISIT,phaseiii_fm82.csv,FM82,continuous
+MRA_LBL,F82 II_3     FILM LABEL,phaseiii_fm82.csv,FM82,continuous
+QUAL82,F82 II_4     SCAN QUALITY,phaseiii_fm82.csv,FM82,continuous
+STATUS82,F82 II_5     CURRENT STATUS OF THIS READING,phaseiii_fm82.csv,FM82,continuous
+ORRICA,F82 III_1A   RIGHT ICA OVERALL RATING,phaseiii_fm82.csv,FM82,continuous
+ABRICA,F82 III_1B   RIGHT ICA  DESCRIPTION OF ABNORMALITY,phaseiii_fm82.csv,FM82,continuous
+LSSRICA,F82 III_1C   RIGHT ICA  LENGTH OF STENOTIC SEGMENT,phaseiii_fm82.csv,FM82,continuous
+INVSEGR1,F82 III_1D1  RIGHT ICA  INVOLVED SEGMENTS ONE,phaseiii_fm82.csv,FM82,continuous
+INVSEGR2,F82 III_1D2  RIGHT ICA  INVOLVED SEGMENTS TWO,phaseiii_fm82.csv,FM82,continuous
+INVSEGR3,F82 III_1D3  RIGHT ICA  INVOLVED SEGMENTS THREE,phaseiii_fm82.csv,FM82,continuous
+INVSEGR4,F82 III_1D4  RIGHT ICA  INVOLVED SEGMENTS FOUR,phaseiii_fm82.csv,FM82,continuous
+ORRMCA,F82 III_2A   RIGHT MCA OVERALL RATING,phaseiii_fm82.csv,FM82,continuous
+ABRMCA,F82 III_2B   RIGHT MCA DESCRIPTION OF ABNORMALITY,phaseiii_fm82.csv,FM82,continuous
+LSSRMCA,F82 III_2C   RIGHT MCA LENGHT OF STENOTIC SEGMENT,phaseiii_fm82.csv,FM82,continuous
+ORRACA,F82 III_3A   RIGHT ACA OVERALL RATING,phaseiii_fm82.csv,FM82,continuous
+ABRACA,F82 III_3B   RIGHT ACA DESCRIPTION OF ABNORMALITY,phaseiii_fm82.csv,FM82,continuous
+LSSRACA,F82 III_3C   RIGHT ACA LENGTH OF STENOTIC SEGMENT,phaseiii_fm82.csv,FM82,continuous
+ORLICA,F82 III_4A   LEFT ICA OVERALL RATING,phaseiii_fm82.csv,FM82,continuous
+ABLICA,F82 III_4B   LEFT ICA DESCRIPTION OF ABNORMALITY,phaseiii_fm82.csv,FM82,continuous
+LSSLICA,F82 III_4C   LEFT ICA LENGHT OF STENOTIC SEGMENT,phaseiii_fm82.csv,FM82,continuous
+INVSEGL1,F82 III_4D1  LEFT ICA INVOLVED SEGMENT ONE,phaseiii_fm82.csv,FM82,continuous
+INVSEGL2,F82 III_4D2  LEFT ICA INVOLVED SEGMENT TWO,phaseiii_fm82.csv,FM82,continuous
+INVSEGL3,F82 III_4D3  LEFT ICA INVOLVED SEGMENT THREE,phaseiii_fm82.csv,FM82,continuous
+INVSEGL4,F82 III_4D4  LEFT ICA INVOLVED SEGMENT FOUR,phaseiii_fm82.csv,FM82,continuous
+ORLMCA,F82 III_5A   LEFT MCA OVERALL RATING,phaseiii_fm82.csv,FM82,continuous
+ABLMCA,F82 III_5B   LEFT MCA DESCRIPTION OF ABNORMALITY,phaseiii_fm82.csv,FM82,continuous
+LSSLMCA,F82 III_5C   LEFT MCA LENGTH OF STENOTIC SEGMENT,phaseiii_fm82.csv,FM82,continuous
+ORLACA,F82 III_6A   LEFT ACA OVERALL RATING,phaseiii_fm82.csv,FM82,continuous
+ABLACA,F82 III_6B   LEFT ACA DESCRIPTION OF ABNORMALITY,phaseiii_fm82.csv,FM82,continuous
+LSSLACA,F82 III_6C   LEFT ACA LENGTH OF STENOTIC SEGMENT,phaseiii_fm82.csv,FM82,continuous
+ORBASIL,F82 III_7A   BASILAR OVERALL RATING,phaseiii_fm82.csv,FM82,continuous
+LSSBASIL,F82 III_7C   BASILAR LENGHT OF STENOTIC SEGMENT,phaseiii_fm82.csv,FM82,continuous
+ORMRA,F82 III_8A   OVERALL MRA OVERALL RATING,phaseiii_fm82.csv,FM82,continuous
+ABMRA,F82 III_8B   OVERALL MRA DESCRIPTION OF ABNORMALITY,phaseiii_fm82.csv,FM82,continuous
+LSSMRA,F82 III_8C   OVERALL MRA LENGHT OF STENOTIC SEGMENT,phaseiii_fm82.csv,FM82,continuous
+INVSEG1,F82 III_8D1  OVERALL MRA INVOLVED SEGMENT ONE,phaseiii_fm82.csv,FM82,continuous
+INVSEG2,F82 III_8D2  OVERALL MRA INVOLVED SEGMENT TWO,phaseiii_fm82.csv,FM82,continuous
+INVSEG3,F82 III_8D3  OVERALL MRA INVOLVED SEGMENT THREE,phaseiii_fm82.csv,FM82,continuous
+INVSEG4,F82 III_8D4  OVERALL MRA INVOLVED SEGMENT FOUR,phaseiii_fm82.csv,FM82,continuous
+BLDVSLS,F82 III_9    COLLATERAL BLOOD VESSELS (MARK ONE):,phaseiii_fm82.csv,FM82,continuous
+FM80III7,"F82 III_10   IF NARRATIVE PROVIDED, COMPLETE FORM 80",phaseiii_fm82.csv,FM82,continuous
+GEN_CMNT,F82 IV_1C    GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm82.csv,FM82,continuous
+VIS_DT_DAYS,F82 I_5      FILM DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm82.csv,FM82,continuous
+RDR82_DT_DAYS,F82 II_2     DATE READ (recode: number of days after date of eligibility or ineligibility),phaseiii_fm82.csv,FM82,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm84.csv,FM84,continuous
+FORM,F84 FORM     STUDY FORM NUMBER,phaseiii_fm84.csv,FM84,continuous
+REV,F84 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm84.csv,FM84,continuous
+VISIT,F84 I_4VIS   VISIT NUMBER,phaseiii_fm84.csv,FM84,categorical
+SEQNO,F84 I_4SEQ   SEQUENCE NUMBER OF THE VISIT,phaseiii_fm84.csv,FM84,continuous
+LSSCNLBL,F84 II-3     FILM LABEL NUMBER,phaseiii_fm84.csv,FM84,continuous
+QUAL84,F84 II_4     CURRENT STATUS OF THIS READING,phaseiii_fm84.csv,FM84,continuous
+F80II3A,"F84 II_4A    IF ITEM 4 IS (2), SUBMIT FORM 80",phaseiii_fm84.csv,FM84,continuous
+SPLUPT84,F84 III_1    SPLENIC UPTAKE,phaseiii_fm84.csv,FM84,continuous
+GEN_CMNT,F84 IV_1C    GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm84.csv,FM84,continuous
+VIS_DT_DAYS,F84 I_5      PROCEDURE DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm84.csv,FM84,continuous
+RD84_DT_DAYS,F84 II_2     DATE OF READING (recode: number of days after date of eligibility or ineligibility),phaseiii_fm84.csv,FM84,continuous
+ID,Unique patient identifier (randomized),phaseiii_fm85.csv,FM85,continuous
+FORM,F85 FORM     STUDY FORM NUMBER,phaseiii_fm85.csv,FM85,continuous
+REV,F85 REV      NUMBER OF THE FORM REVISONS,phaseiii_fm85.csv,FM85,continuous
+VISIT,F85 I_4VIS   VISIT NUMBER,phaseiii_fm85.csv,FM85,categorical
+SEQNO,F85 I_4SEQ   SEQUENCE NUMBER OF THE VISIT,phaseiii_fm85.csv,FM85,continuous
+STATUS85,F85 II_3     CURRENT STATUS OF THIS READING,phaseiii_fm85.csv,FM85,continuous
+F80II3A,"F85 II_3A    IF STATUS85 IS (2) OR (3), SUBMIT FORM 80",phaseiii_fm85.csv,FM85,continuous
+GALBLA85,F85 III_1    GALLBLADDER,phaseiii_fm85.csv,FM85,continuous
+GBWALL85,F85 III_1A   GALLBLADDER: WALL,phaseiii_fm85.csv,FM85,continuous
+GBCDV85,F85 III_1B   GALLBLADDER: COLOR DOPPLER VASCULARITY,phaseiii_fm85.csv,FM85,continuous
+GBNSTN85,F85 III_1C1  GALLBLADDER: NUMBER OF STONES,phaseiii_fm85.csv,FM85,continuous
+GBMSTN85,F85 III_1C2  GALLBLADDER: MULTIPLE STONES NOT COUNTABLE,phaseiii_fm85.csv,FM85,continuous
+GBLGST85,F85 III_1D   GALLBLADDER: LARGEST STONE,phaseiii_fm85.csv,FM85,continuous
+GBLGSTNA,F85 III_1DNA GALLBLADDER: LARGEST STONE ( NOT APPLICABLE),phaseiii_fm85.csv,FM85,continuous
+GBSFM85,F85 III_1E   GALLBLADDER: STONES FREELY MOBILE,phaseiii_fm85.csv,FM85,continuous
+GBCBD85,F85 III_1F1  GALLBLADDER: COMMON BILE DUCT,phaseiii_fm85.csv,FM85,continuous
+GBPAND85,F85 III_1F2  GALLBLADDER: PANCREATIC DUCT,phaseiii_fm85.csv,FM85,continuous
+GBIHEP85,F85 III_1F3  GALLBLADDER: INTRAHEPATIC DUCTS,phaseiii_fm85.csv,FM85,continuous
+GBSLDG85,F85 III_1G   GALLBLADDER: SLUDGE,phaseiii_fm85.csv,FM85,continuous
+GBPRFL85,F85 III_1H   GALLBLADDER: PERICHOLECYSTIC FLUID,phaseiii_fm85.csv,FM85,continuous
+SPLEEN85,F85 III_2    SPLEEN PRESENCE,phaseiii_fm85.csv,FM85,continuous
+ACCSPL85,F85 III_2A   SPLEEN: ACCESSORY SPLEEN(S),phaseiii_fm85.csv,FM85,continuous
+SPLCLN85,F85 III_2B   SPLEEN: CEPHALOCAUDAD LENGTH,phaseiii_fm85.csv,FM85,continuous
+SPLTRN85,F85 III_2C   SPLEEN: TRANSVERSE,phaseiii_fm85.csv,FM85,continuous
+SPLANP85,F85 III_2D   SPLEEN: ANTERIOR - POSTERIOR,phaseiii_fm85.csv,FM85,continuous
+SPLVOL85,F85 III_2E   SPLEEN: ESTIMATED TOTAL SPLEEN VOLUME,phaseiii_fm85.csv,FM85,continuous
+SPLVOLND,F85 III_2END SPLEEN: TOTAL SPLEEN VOLUME NOT DONE,phaseiii_fm85.csv,FM85,continuous
+SPLHOM85,F85 III_2F   SPLEEN: HOMOGENEITY,phaseiii_fm85.csv,FM85,continuous
+F80III2F,"F85 III_2F1  SPLEEN: IF INHOMOGENEOUS, SUBMIT FORM 80",phaseiii_fm85.csv,FM85,continuous
+RKIDN85,F85 III_3    RIGHT KIDNEY,phaseiii_fm85.csv,FM85,continuous
+RKVOL85,F85 III_3A   RIGHT KIDNEY: ESTIMATED VOLUME,phaseiii_fm85.csv,FM85,continuous
+RKRPAR85,F85 III_3B   RIGHT KIDNEY: RENAL PARENCHYMA,phaseiii_fm85.csv,FM85,continuous
+RKRPEX85,"F85 III_3B1  IF ABNORMAL, EXPLAIN:",phaseiii_fm85.csv,FM85,continuous
+RKECHO85,F85 III_3C   RIGHT KIDNEY: ECHOGENICITY,phaseiii_fm85.csv,FM85,continuous
+RKECEX85,"F85 III_3C1  IF ABNORMAL, EXPLAIN:",phaseiii_fm85.csv,FM85,continuous
+LKID85,F85 III_4    LEFT KIDNEY,phaseiii_fm85.csv,FM85,continuous
+LKVOL85,F85 III_4A   LEFT KIDNEY: ESTIMATED VOLUME,phaseiii_fm85.csv,FM85,continuous
+LKRPAR85,F85 III_4B   LEFT KIDNEY: RENAL PARENCHYMA,phaseiii_fm85.csv,FM85,continuous
+LKRPEX85,"F85 III_4B1  LEFT KIDNEY: IF ABNORMAL, EXPLAIN:",phaseiii_fm85.csv,FM85,continuous
+LKECHO85,F85 III_4C   LEFT KIDNEY: ECHOGENICITY,phaseiii_fm85.csv,FM85,continuous
+LKECEX85,"F85 III_4C1  LEFT KIDNEY: IF ABNORMAL, EXPLAIN:",phaseiii_fm85.csv,FM85,continuous
+LVRENL85,F85 III_5    LIVER ENLARGED,phaseiii_fm85.csv,FM85,continuous
+ABDABN85,F85 III_6    ANY OTHER ABDOMINAL ABNORMALITIES,phaseiii_fm85.csv,FM85,continuous
+F80III5A,"F85 III_6A   IF YES, SUBMIT FORM 80",phaseiii_fm85.csv,FM85,continuous
+GEN_CMNT,F85 IV_1C    GENERAL COMMENTS REGARDING TO THE FILLED OUT FORM,phaseiii_fm85.csv,FM85,continuous
+SPLVLCAL,F85          SPLEEN: CALCULATED TOTAL SPLEEN VOLUME,phaseiii_fm85.csv,FM85,continuous
+VIS_DT_DAYS,F85 I_5      PROCEDURE DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fm85.csv,FM85,continuous
+RDR85_DT_DAYS,F85 II_2     DATE OF READING (recode: number of days after date of eligibility or ineligibility),phaseiii_fm85.csv,FM85,continuous
+ID,Unique patient identifier (randomized),phaseiii_fmcomment.csv,FMCOMMENT,continuous
+FORM,FORM NUMBER,phaseiii_fmcomment.csv,FMCOMMENT,continuous
+REV,FORM REVISION NUMBER,phaseiii_fmcomment.csv,FMCOMMENT,continuous
+VISIT,VISIT NUMBER,phaseiii_fmcomment.csv,FMCOMMENT,categorical
+SEQNO,FORM SEQUENCE NUMBER,phaseiii_fmcomment.csv,FMCOMMENT,continuous
+COL_NAME,COMMENT FIELD,phaseiii_fmcomment.csv,FMCOMMENT,categorical
+VIS_DT_DAYS,VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_fmcomment.csv,FMCOMMENT,continuous
+ID,Unique patient identifier (randomized),phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,continuous
+MMA12MLB,TUBE LABEL: BASELINE,phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,continuous
+BOX_NUM,BOX NUMBER,phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,continuous
+MEASLES_12M,MEASLES ANTIBODY INDEX: BASELINE,phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,continuous
+MUMPS_12M,MUMPS ANTIBODY INDEX: BASELINE,phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,continuous
+RUBELLA_12M,RUBELLA ANTIBODY INDEX: BASELINE,phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,categorical
+MMA2YLBL,TUBE LABEL: AT AGE OF TWO YEARS,phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,continuous
+MEASLES_2Y,MEASLES ANTIBODY INDEX: AT AGE OF 24 MONTHS,phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,categorical
+MUMPS_2Y,MUMPS ANTIBODY INDEX: AT AGE OF 24 MONTHS,phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,continuous
+RUBELLA_2Y,RUBELLA ANTIBODY INDEX: AT AGE OF 24 MONTHS,phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,categorical
+MMAEOSLB,TUBE LABEL: EXIT,phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,continuous
+MEASLES_EOS,MEASLES ANTIBODY INDEX: EXIT,phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,categorical
+MUMPS_EOS,MUMPS ANTIBODY INDEX: EXIT,phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,continuous
+RUBELLA_EOS,RUBELLA ANTIBODY INDEX: EXIT,phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,categorical
+MMA12MDT_DAYS,DATE OF ANTIBODY TO MMR AT BASELINE (recode: number of days after date of eligibility or ineligibility),phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,continuous
+MMA2YDT_DAYS,DATE OF ANTIBODY RESPONSE TO MMR AT AGE OF TWO YEARS (recode: number of days after date of eligibility or ineligibility),phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,continuous
+MMAEOSDT_DAYS,DATE OF ANTIBODY RESPONSE TO MMR AT STUDY EXIT (recode: number of days after date of eligibility or ineligibility),phaseiii_immunology_mmr.csv,IMMUNOLOGY_MMR,continuous
+ID,Unique patient identifier (randomized),phaseiii_inventory.csv,INVENTORY,continuous
+ELIGSTAT,STATUS OF ELIGIBILITY (1 = ELIGIBLE; 2 = INELIGIBLE),phaseiii_inventory.csv,INVENTORY,continuous
+TRT_GRP,TREATMENT GROUP (1 = HU; 2 = Placebo),phaseiii_inventory.csv,INVENTORY,continuous
+MTD,MAXIMUM TOLERANCE DOSE (mg),phaseiii_inventory.csv,INVENTORY,continuous
+MTD_VIS,VISIT OF REACHING MAXIMUM TOLERANCE DOSE,phaseiii_inventory.csv,INVENTORY,continuous
+KIT,DRUG KIT NUMBER,phaseiii_inventory.csv,INVENTORY,categorical
+MTD_VIS_ACT,ACTUAL VISIT OF REACHING MAXIMUM TOLERANCE DOSE,phaseiii_inventory.csv,INVENTORY,continuous
+SEQNO,SUBJECT SEQUENCE NUMBER,phaseiii_inventory.csv,INVENTORY,continuous
+TRT_AGE,AGE AT TREATMENT INITIATION (MONTH),phaseiii_inventory.csv,INVENTORY,continuous
+SIBLING_RAND,RANDOMIZED ID OF SIBLINGS,phaseiii_inventory.csv,INVENTORY,continuous
+MATCH_ID_RAND,RANDOMIZED ID OF MATCHED SUBJECT,phaseiii_inventory.csv,INVENTORY,continuous
+SCRN_DT_DAYS,DATE OF SCREENING (recode: number of days after date of eligibility or ineligibility),phaseiii_inventory.csv,INVENTORY,continuous
+TRT_DT_DAYS,DATE OF TREATMENT INITIATION (recode: number of days after date of eligibility or ineligibility),phaseiii_inventory.csv,INVENTORY,continuous
+DEATH_DT_DAYS,DATE OF DEATH (recode: number of days after date of eligibility or ineligibility),phaseiii_inventory.csv,INVENTORY,continuous
+EXIT_DT_DAYS,DATE OF EXIT (recode: number of days after date of eligibility or ineligibility),phaseiii_inventory.csv,INVENTORY,continuous
+ID,Unique patient identifier (randomized),phaseiii_labs.csv,LABS,continuous
+FORM,FORM NUMBER,phaseiii_labs.csv,LABS,continuous
+VISIT,VISIT NUMBER,phaseiii_labs.csv,LABS,categorical
+LABEL,SAMPLE LABEL,phaseiii_labs.csv,LABS,continuous
+LAB,LABORATORY TYPE,phaseiii_labs.csv,LABS,categorical
+HB,HEMOGLOBIN (HB) (g/dL),phaseiii_labs.csv,LABS,categorical
+PCV,PACKED CELL VOLUME (%),phaseiii_labs.csv,LABS,categorical
+HBF,FETAL HEMOGLOBIN (HBF) (%),phaseiii_labs.csv,LABS,categorical
+MCV,MEAN CORPUSCULAR VOLUME (MCV) (fL),phaseiii_labs.csv,LABS,categorical
+PLAT,PLATELET COUNT (K/mm^3),phaseiii_labs.csv,LABS,categorical
+NEUT_PT,NEUTROPHILS (% OF WBC),phaseiii_labs.csv,LABS,categorical
+LYMPH_PT,LYMPHOCYTES (%OF WBC),phaseiii_labs.csv,LABS,categorical
+RETIC_PT,RETICULOCYTES (%OF RBC),phaseiii_labs.csv,LABS,categorical
+NEUT_CT,NEUTROPHIL COUNT (K/mm^3),phaseiii_labs.csv,LABS,categorical
+LYMPH_CT,LYMPHOCYTE COUNT,phaseiii_labs.csv,LABS,categorical
+RETIC_CT,RETICULOCYTE COUNT (K/mm^3),phaseiii_labs.csv,LABS,categorical
+WBC,WHITE BLOOD CELL COUNT (K/mm^3),phaseiii_labs.csv,LABS,categorical
+RBC,RED BLOOD CELL COUNT (M/mm^3),phaseiii_labs.csv,LABS,categorical
+MCH,MEAN CORPUSCULAR HB (PG),phaseiii_labs.csv,LABS,categorical
+MCHC,MEAN CORPUSCULAR HB CONCENTRATION (g/dL),phaseiii_labs.csv,LABS,categorical
+NRBC,NUCLEATED RED BLOOD CELLS (% of WBC),phaseiii_labs.csv,LABS,categorical
+CWBC,CORRECTED WBC (K/mm^3),phaseiii_labs.csv,LABS,categorical
+F_CELL,FETAL CELLS BY CYTOFLOW (%),phaseiii_labs.csv,LABS,categorical
+MONO_CT,MONOCYTE COUNT,phaseiii_labs.csv,LABS,categorical
+MONO_PT,MONOCYTE (%),phaseiii_labs.csv,LABS,categorical
+CREAT,SERUM CREATININE (mg/dL),phaseiii_labs.csv,LABS,categorical
+T_BILI,TOTAL BILIRUBIN (mg/dL),phaseiii_labs.csv,LABS,categorical
+UREA_N,UREA N (mg/dL),phaseiii_labs.csv,LABS,categorical
+ALT,ALANINE TRANSAMINASE (ALT) (/dL),phaseiii_labs.csv,LABS,categorical
+FERRITIN,FERRITIN (ng/mL),phaseiii_labs.csv,LABS,categorical
+D_BILI,DIRECT BILIRUBIN (mg/dL),phaseiii_labs.csv,LABS,categorical
+CA,CALCIUM (mg/dL),phaseiii_labs.csv,LABS,categorical
+PO4,INORGANIC PHOSPHOROUS (mg/dL),phaseiii_labs.csv,LABS,categorical
+MG,MAGNESIUM (mg/dL),phaseiii_labs.csv,LABS,categorical
+CREAT_H,CREATININE BY HPLC (mg/dL),phaseiii_labs.csv,LABS,categorical
+PIT_CELL,PITTED CELLS (%),phaseiii_labs.csv,LABS,continuous
+PENICIL,PENICILLIN (1 = YES; 2 = NO),phaseiii_labs.csv,LABS,continuous
+HBA_PCT,GEL ELECTROPHORESIS %HBA,phaseiii_labs.csv,LABS,categorical
+HBA2_PCT,GEL ELECTROPHORESIS %HBA2,phaseiii_labs.csv,LABS,categorical
+HBS_PCT,GEL ELECTROPHORESIS %HBS,phaseiii_labs.csv,LABS,categorical
+HBF_PCT,GE L ELECTROPHORESIS %HBF,phaseiii_labs.csv,LABS,categorical
+HBOTHR,GEL ELECTROPHHORESIS % OTHER,phaseiii_labs.csv,LABS,categorical
+S_OSMO,SERUM OSMOLALITY (MOSM),phaseiii_labs.csv,LABS,categorical
+U_OSMO,URINE OSMOLALITY (MOSM),phaseiii_labs.csv,LABS,categorical
+NAIV_CD4,NAIVE CD4 COUNT (/uL),phaseiii_labs.csv,LABS,categorical
+NAIV_CD8,NAIVE CD8 COUNT (/uL),phaseiii_labs.csv,LABS,categorical
+MEM_CD4,MEMORY CD4 COUNT (/uL),phaseiii_labs.csv,LABS,categorical
+MEM_CD8,MEMORY CD8 COUNT (/uL),phaseiii_labs.csv,LABS,categorical
+ABS_CD4,ABS CD4 COUNT (/uL),phaseiii_labs.csv,LABS,categorical
+ABS_CD8,ABS CD8 COUNT (/uL),phaseiii_labs.csv,LABS,categorical
+WBC_IMM,WBC (/uL),phaseiii_labs.csv,LABS,continuous
+LYMPHIMM,LYMPHOCYTES %,phaseiii_labs.csv,LABS,continuous
+LYMCTIMM,LYMPHOCYTES COUNT (K/mm^3),phaseiii_labs.csv,LABS,categorical
+PER_CD3,CD3 %,phaseiii_labs.csv,LABS,continuous
+PER_CD4,CD4 %,phaseiii_labs.csv,LABS,continuous
+PER_CD8,CD8 %,phaseiii_labs.csv,LABS,continuous
+CD4PP,CD4+CD45RA/CD45RO +/+,phaseiii_labs.csv,LABS,continuous
+CD4PM,CD4+CD45RA/CD45RO +/-,phaseiii_labs.csv,LABS,continuous
+CD4MP,CD4+CD45RA/CD45RO -/+,phaseiii_labs.csv,LABS,continuous
+CD4MM,CD4+CD45RA/CD45RO -/-,phaseiii_labs.csv,LABS,continuous
+CD8PP,CD8+CD45RA/CD45RO +/+,phaseiii_labs.csv,LABS,continuous
+CD8PM,CD8+CD45RA/CD45RO +/-,phaseiii_labs.csv,LABS,continuous
+CD8MP,CD8+CD45RA/CD45RO -/+,phaseiii_labs.csv,LABS,continuous
+CD8MM,CD8+CD45RA/CD45RO -/-,phaseiii_labs.csv,LABS,continuous
+VIS_DT_DAYS,VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_labs.csv,LABS,continuous
+LABDATE_DAYS,DATE RECEIVED BY LAB (recode: number of days after date of eligibility or ineligibility),phaseiii_labs.csv,LABS,continuous
+ID,Unique patient identifier (randomized),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+FORM,FORM NUMBER,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+VISIT,VISIT NUMBER,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,categorical
+LABEL,SAMPLE LABEL,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+LAB,LABORATORY TYPE,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,categorical
+HB,HEMOGLOBIN (HB) (g/dL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+PCV,PACKED CELL VOLUME (%),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+HBF,FETAL HEMOGLOBIN (HBF) (%),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+MCV,MEAN CORPUSCULAR VOLUME (MCV) (fL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+PLAT,PLATELET COUNT (K/mm^3),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+NEUT_PT,NEUTROPHILS (% OF WBC),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+LYMPH_PT,LYMPHOCYTES (%OF WBC),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+RETIC_PT,RETICULOCYTES (%OF RBC),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+NEUT_CT,NEUTROPHIL COUNT (K/mm^3),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+LYMPH_CT,LYMPHOCYTE COUNT,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+RETIC_CT,RETICULOCYTE COUNT (K/mm^3),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+WBC,WHITE BLOOD CELL COUNT (K/mm^3),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+RBC,RED BLOOD CELL COUNT (M/mm^3),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+MCH,MEAN CORPUSCULAR HB (PG),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+MCHC,MEAN CORPUSCULAR HB CONCENTRATION (g/dL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+NRBC,NUCLEATED RED BLOOD CELLS (% of WBC),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+CWBC,CORRECTED WBC (K/mm^3),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+F_CELL,FETAL CELLS BY CYTOFLOW (%),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+MONO_CT,MONOCYTE COUNT,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+MONO_PT,MONOCYTE (%),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+HBA_PCT,GEL ELECTROPHORESIS %HBA,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+HBA2_PCT,GEL ELECTROPHORESIS %HBA2,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+HBS_PCT,GEL ELECTROPHORESIS %HBS,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+HBF_PCT,GE L ELECTROPHORESIS %HBF,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+HBOTHR,GEL ELECTROPHHORESIS % OTHER,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+S_OSMO,SERUM OSMOLALITY (MOSM),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+U_OSMO,URINE OSMOLALITY (MOSM),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+CREAT,SERUM CREATININE (mg/dL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+T_BILI,TOTAL BILIRUBIN (mg/dL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+UREA_N,UREA N (mg/dL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+ALT,ALANINE TRANSAMINASE (ALT) (/dL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+FERRITIN,FERRITIN (ng/mL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+D_BILI,DIRECT BILIRUBIN (mg/dL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+CA,CALCIUM (mg/dL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+PO4,INORGANIC PHOSPHOROUS (mg/dL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+MG,MAGNESIUM (mg/dL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+CREAT_H,CREATININE BY HPLC (mg/dL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+PIT_CELL,PITTED CELLS (%),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+PENICIL,PENICILLIN (1 = YES; 2 = NO),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+NAIV_CD4,NAIVE CD4 COUNT (/uL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+NAIV_CD8,NAIVE CD8 COUNT (/uL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+MEM_CD4,MEMORY CD4 COUNT (/uL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+MEM_CD8,MEMORY CD8 COUNT (/uL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+ABS_CD4,ABS CD4 COUNT (/uL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+ABS_CD8,ABS CD8 COUNT (/uL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+WBC_IMM,WBC (/uL),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+LYMPHIMM,LYMPHOCYTES %,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+LYMCTIMM,LYMPHOCYTES COUNT (K/mm^3),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+PER_CD3,CD3 %,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+PER_CD4,CD4 %,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+PER_CD8,CD8 %,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+CD4PP,CD4+CD45RA/CD45RO +/+,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+CD4PM,CD4+CD45RA/CD45RO +/-,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+CD4MP,CD4+CD45RA/CD45RO -/+,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+CD4MM,CD4+CD45RA/CD45RO -/-,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+CD8PP,CD8+CD45RA/CD45RO +/+,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+CD8PM,CD8+CD45RA/CD45RO +/-,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+CD8MP,CD8+CD45RA/CD45RO -/+,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+CD8MM,CD8+CD45RA/CD45RO -/-,phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+VIS_DT_DAYS,VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+LABDATE_DAYS,DATE RECEIVED BY LAB (recode: number of days after date of eligibility or ineligibility),phaseiii_labs_central_numeric.csv,LABS_CENTRAL_NUMERIC,continuous
+ID,Unique patient identifier (randomized),phaseiii_labs_history.csv,LABS_HISTORY,continuous
+FORM,FORM NUMBER,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+VISIT,VISIT NUMBER,phaseiii_labs_history.csv,LABS_HISTORY,categorical
+LABEL,SAMPLE LABEL,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+LAB,LABORATORY TYPE,phaseiii_labs_history.csv,LABS_HISTORY,categorical
+HB,HEMOGLOBIN (HB) (g/dL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+PCV,PACKED CELL VOLUME (%),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+HBF,FETAL HEMOGLOBIN (HBF) (%),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+MCV,MEAN CORPUSCULAR VOLUME (MCV) (fL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+PLAT,PLATELET COUNT (K/mm^3),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+NEUT_PT,NEUTROPHILS (% OF WBC),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+LYMPH_PT,LYMPHOCYTES (%OF WBC),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+RETIC_PT,RETICULOCYTES (%OF RBC),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+NEUT_CT,NEUTROPHIL COUNT (K/mm^3),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+LYMPH_CT,LYMPHOCYTE COUNT,phaseiii_labs_history.csv,LABS_HISTORY,categorical
+RETIC_CT,RETICULOCYTE COUNT (K/mm^3),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+WBC,WHITE BLOOD CELL COUNT (K/mm^3),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+RBC,RED BLOOD CELL COUNT (M/mm^3),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+MCH,MEAN CORPUSCULAR HB (PG),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+MCHC,MEAN CORPUSCULAR HB CONCENTRATION (g/dL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+NRBC,NUCLEATED RED BLOOD CELLS (% of WBC),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+CWBC,CORRECTED WBC (K/mm^3),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+F_CELL,FETAL CELLS BY CYTOFLOW (%),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+MONO_CT,MONOCYTE COUNT,phaseiii_labs_history.csv,LABS_HISTORY,categorical
+MONO_PT,MONOCYTE (%),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+CREAT,SERUM CREATININE (mg/dL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+T_BILI,TOTAL BILIRUBIN (mg/dL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+UREA_N,UREA N (mg/dL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+ALT,ALANINE TRANSAMINASE (ALT) (/dL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+FERRITIN,FERRITIN (ng/mL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+D_BILI,DIRECT BILIRUBIN (mg/dL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+CA,CALCIUM (mg/dL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+PO4,INORGANIC PHOSPHOROUS (mg/dL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+MG,MAGNESIUM (mg/dL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+CREAT_H,CREATININE BY HPLC (mg/dL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+PIT_CELL,PITTED CELLS (%),phaseiii_labs_history.csv,LABS_HISTORY,continuous
+PENICIL,PENICILLIN (1 = YES; 2 = NO),phaseiii_labs_history.csv,LABS_HISTORY,continuous
+HBA_PCT,GEL ELECTROPHORESIS %HBA,phaseiii_labs_history.csv,LABS_HISTORY,categorical
+HBA2_PCT,GEL ELECTROPHORESIS %HBA2,phaseiii_labs_history.csv,LABS_HISTORY,categorical
+HBS_PCT,GEL ELECTROPHORESIS %HBS,phaseiii_labs_history.csv,LABS_HISTORY,categorical
+HBF_PCT,GE L ELECTROPHORESIS %HBF,phaseiii_labs_history.csv,LABS_HISTORY,categorical
+HBOTHR,GEL ELECTROPHHORESIS % OTHER,phaseiii_labs_history.csv,LABS_HISTORY,categorical
+S_OSMO,SERUM OSMOLALITY (MOSM),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+U_OSMO,URINE OSMOLALITY (MOSM),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+NAIV_CD4,NAIVE CD4 COUNT (/uL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+NAIV_CD8,NAIVE CD8 COUNT (/uL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+MEM_CD4,MEMORY CD4 COUNT (/uL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+MEM_CD8,MEMORY CD8 COUNT (/uL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+ABS_CD4,ABS CD4 COUNT (/uL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+ABS_CD8,ABS CD8 COUNT (/uL),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+WBC_IMM,WBC (/uL),phaseiii_labs_history.csv,LABS_HISTORY,continuous
+LYMPHIMM,LYMPHOCYTES %,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+LYMCTIMM,LYMPHOCYTES COUNT (K/mm^3),phaseiii_labs_history.csv,LABS_HISTORY,categorical
+PER_CD3,CD3 %,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+PER_CD4,CD4 %,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+PER_CD8,CD8 %,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+CD4PP,CD4+CD45RA/CD45RO +/+,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+CD4PM,CD4+CD45RA/CD45RO +/-,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+CD4MP,CD4+CD45RA/CD45RO -/+,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+CD4MM,CD4+CD45RA/CD45RO -/-,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+CD8PP,CD8+CD45RA/CD45RO +/+,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+CD8PM,CD8+CD45RA/CD45RO +/-,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+CD8MP,CD8+CD45RA/CD45RO -/+,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+CD8MM,CD8+CD45RA/CD45RO -/-,phaseiii_labs_history.csv,LABS_HISTORY,continuous
+VIS_DT_DAYS,VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_labs_history.csv,LABS_HISTORY,continuous
+LABDATE_DAYS,DATE RECEIVED BY LAB (recode: number of days after date of eligibility or ineligibility),phaseiii_labs_history.csv,LABS_HISTORY,continuous
+ID,Unique patient identifier (randomized),phaseiii_protocol_dev.csv,PROTOCOL_DEV,continuous
+DVSEQ,Sequence number,phaseiii_protocol_dev.csv,PROTOCOL_DEV,continuous
+VIOLATION_DT_DAYS,VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_protocol_dev.csv,PROTOCOL_DEV,continuous
+ID,Unique patient identifier (randomized),phaseiii_titration.csv,TITRATION,continuous
+EXP,EXPECTED VISIT NUMBER,phaseiii_titration.csv,TITRATION,categorical
+VISIT,ACTUAL VISIT NUMBER,phaseiii_titration.csv,TITRATION,categorical
+TIT_DOSE,TIT_DOSE (mg),phaseiii_titration.csv,TITRATION,continuous
+CUR_DOSE,CURRENT DOSE (mg),phaseiii_titration.csv,TITRATION,continuous
+TOXSTAT,TOXICITY STATUS(1 = YES; 2 = NO; 3 = MISSED VISIT),phaseiii_titration.csv,TITRATION,continuous
+STOPSTAT,STOP REASON (1 = TOXICITY; 2 = PHYSICIAN ORDER),phaseiii_titration.csv,TITRATION,continuous
+ISSUE_STOP,ISSUE STOP (1 = YES; 2= NO;),phaseiii_titration.csv,TITRATION,continuous
+RESOLVED,ISSUE RESOLVED? (1 = YES; 2 = NO;),phaseiii_titration.csv,TITRATION,continuous
+WKNONTOX,TIME WITHOUT TOXICITY (WEEK),phaseiii_titration.csv,TITRATION,continuous
+NEW_DOSE,NEW DOSE (mg),phaseiii_titration.csv,TITRATION,continuous
+WEIGHT,SUBJECT WEIGHT (kg),phaseiii_titration.csv,TITRATION,continuous
+MTD_FLG,MTD FLAG (1 = YES; 0 = NO),phaseiii_titration.csv,TITRATION,continuous
+VIS_DT_DAYS,ACTUAL VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_titration.csv,TITRATION,continuous
+STOP_DT_DAYS,STOP DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_titration.csv,TITRATION,continuous
+ID,Unique patient identifier (randomized),phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,continuous
+VISIT,VISIT NUMBER,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,categorical
+LABEL,LABEL NUMBER,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,continuous
+SPECTYPE,SPECIMEN TYPE,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,categorical
+BANDANL,CHROMOSOME BANDING ANALYSIS,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,categorical
+RESOLUTN,Resolution (Bands),phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,continuous
+BA_MPANL,NUMBER OF METAPHASES ANALYZED,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,continuous
+BA_MPKRT,NUMBER OF METAPHASES KARYOTYPED,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,continuous
+CHROMS,NUMBER OF CHROMOSOMES,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,continuous
+CHRTYPE,SEX CHROMOSOME TYPE,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,categorical
+BA_ABN,CLONAL CYTOGENETIC ABNORMALITIES,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,categorical
+BREAKANL,CHROMOSOME BREAKAGE ANALYSIS,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,categorical
+BR_MPANL,NUMBER OF METAPHASES ANALYZED FOR CHROMOSOME BREAKAGE ANALYSIS,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,continuous
+CHRBREAK,NUMBER OF CHROMOSOME BREAKS,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,continuous
+CMBREAK,NUMBER OF CHROMATID BREAKS,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,continuous
+BR_CELL,BREAKS/CELL,phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,continuous
+ID.1,,phaseiii_v_cytogenetics.csv,,continuous
+VIS_DT_DAYS,VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,continuous
+LABDATE_DAYS,DATE OF SPECIMEN RECEIVED (recode: number of days after date of eligibility or ineligibility),phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,continuous
+REPDATE_DAYS,DATE OF REPORT (recode: number of days after date of eligibility or ineligibility),phaseiii_v_cytogenetics.csv,V_CYTOGENETICS,continuous
+ID,Unique patient identifier (randomized),phaseiii_v_dna_vdj.csv,V_DNA_VDJ,continuous
+LABEL,SAMPLE LABEL,phaseiii_v_dna_vdj.csv,V_DNA_VDJ,categorical
+VISIT,VISIT NUMBER,phaseiii_v_dna_vdj.csv,V_DNA_VDJ,categorical
+BLOOD_ML,BLOOD(ml),phaseiii_v_dna_vdj.csv,V_DNA_VDJ,continuous
+PBMC,PBMC DNA(ug),phaseiii_v_dna_vdj.csv,V_DNA_VDJ,continuous
+PMN,PMN TOTAL(ug),phaseiii_v_dna_vdj.csv,V_DNA_VDJ,continuous
+TESTING,VDJ TESTING,phaseiii_v_dna_vdj.csv,V_DNA_VDJ,categorical
+PCRAVG,AVERAGE PCR,phaseiii_v_dna_vdj.csv,V_DNA_VDJ,continuous
+PCRAVGR,INVERSE AVERAGE PCR,phaseiii_v_dna_vdj.csv,V_DNA_VDJ,continuous
+HJB_STAT,HJB STATUS,phaseiii_v_dna_vdj.csv,V_DNA_VDJ,categorical
+PCTRETIC,YOUNG RETICULOCYTES(%),phaseiii_v_dna_vdj.csv,V_DNA_VDJ,continuous
+YRETWHJB,YOUNG RETICULOCYTES WITH HJB(%),phaseiii_v_dna_vdj.csv,V_DNA_VDJ,continuous
+PRBCWHJB,MATURE RBC WITH HJB(%),phaseiii_v_dna_vdj.csv,V_DNA_VDJ,continuous
+MATRBC,MATURE RBC WITH HJB(No.),phaseiii_v_dna_vdj.csv,V_DNA_VDJ,continuous
+LABDATE_DAYS,DATE OF SPECIMEN RECEIVED (recode: number of days after date of eligibility or ineligibility),phaseiii_v_dna_vdj.csv,V_DNA_VDJ,continuous
+ID,Unique patient identifier (randomized),phaseiii_v_tcd.csv,V_TCD,continuous
+VISIT,VISIT NUMBER,phaseiii_v_tcd.csv,V_TCD,categorical
+LABEL,LABEL NUMBER,phaseiii_v_tcd.csv,V_TCD,continuous
+RESULTS,RESULTS,phaseiii_v_tcd.csv,V_TCD,categorical
+HDIAM,HEAD DIAMETER (cm),phaseiii_v_tcd.csv,V_TCD,continuous
+LM1DE,Left Side M-1: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+LM1M,Left Side M-1: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LM1S,Left Side M-1: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LM1D,Left Side M-1: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LM1PI,Left Side M-1: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+LM1RI,Left Side M-1: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+LMCADE,Left Side MCA: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+LMCAM,Left Side MCA: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LMCAS,Left Side MCA: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LMCAD,Left Side MCA: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LMCAPI,Left Side MCA: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+LMCARI,Left Side MCA: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+LBIFDE,Left Side BIF: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+LBIFM,Left Side BIF: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LBIFS,Left Side BIF: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LBIFD,Left Side BIF: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LBIFPI,Left Side BIF: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+LBIFRI,Left Side BIF: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+LACADE,Left Side ACA: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+LACAM,Left Side ACA: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LACAS,Left Side ACA: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LACAD,Left Side ACA: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LACAPI,Left Side ACA: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+LACARI,Left Side ACA: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+LICADE,Left Side dICA: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+LICAM,Left Side dICA: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LICAS,Left Side dICA: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LICAD,Left Side dICA: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LICAPI,Left Side dICA: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+LICARI,Left Side dICA: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+LPCADE,Left Side PCA: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+LPCAM,Left Side PCA: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LPCAS,Left Side PCA: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LPCAD,Left Side PCA: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LPCAPI,Left Side PCA: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+LPCARI,Left Side PCA: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+LTOBDE,Left Side TOB: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+LTOBM,Left Side TOB: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LTOBS,Left Side TOB: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LTOBD,Left Side TOB: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+LTOBPI,Left Side TOB: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+LTOBRI,Left Side TOB: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RM1DE,Right Side M-1: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+RM1M,Right Side M-1: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RM1S,Right Side M-1: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RM1D,Right Side M-1: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RM1PI,Right Side M-1: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RM1RI,Right Side M-1: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RMCADE,Right Side MCA: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+RMCAM,Right Side MCA: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RMCAS,Right Side MCA: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RMCAD,Right Side MCA: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RMCAPI,Right Side MCA: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RMCARI,Right Side MCA: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RBIFDE,Right Side BIF: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+RBIFM,Right Side BIF: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RBIFS,Right Side BIF: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RBIFD,Right Side BIF: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RBIFPI,Right Side BIF: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RBIFRI,Right Side BIF: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RACADE,Right Side ACA: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+RACAM,Right Side ACA: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RACAS,Right Side ACA: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RACAD,Right Side ACA: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RACAPI,Right Side ACA: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RACARI,Right Side ACA: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RICADE,Right Side dICA: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+RICAM,Right Side dICA: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RICAS,Right Side dICA: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RICAD,Right Side dICA: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RICAPI,Right Side dICA: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RICARI,Right Side dICA: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RPCADE,Right Side PCA: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+RPCAM,Right Side PCA: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RPCAS,Right Side PCA: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RPCAD,Right Side PCA: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RPCAPI,Right Side PCA: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RPCARI,Right Side PCA: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RTOBDE,Right Side TOB: Depth,phaseiii_v_tcd.csv,V_TCD,continuous
+RTOBM,Right Side TOB: Mean Velocity (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RTOBS,Right Side TOB: Waveform Systolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RTOBD,Right Side TOB: Waveform Diastolic Measurement (cm/s),phaseiii_v_tcd.csv,V_TCD,continuous
+RTOBPI,Right Side TOB: Waveform Pulsatility Index,phaseiii_v_tcd.csv,V_TCD,continuous
+RTOBRI,Right Side TOB: Waveform Resistance Index,phaseiii_v_tcd.csv,V_TCD,continuous
+VIS_DT_DAYS,VISIT DATE (recode: number of days after date of eligibility or ineligibility),phaseiii_v_tcd.csv,V_TCD,continuous
+ID,Unique patient identifier (randomized),phaseiii_visit_vis_stat.csv,VISIT_VIS_STAT,continuous
+VISIT,VISIT NUMBER,phaseiii_visit_vis_stat.csv,VISIT_VIS_STAT,categorical
+VIS_STAT,VISIT STATUS (1 = VISITED; 2 = MISSED; 3 = UNEXPECTED),phaseiii_visit_vis_stat.csv,VISIT_VIS_STAT,continuous
+LIWIN_DAYS,LOWER VISIT WINDOW: IDEAL (recode: number of days after date of eligibility or ineligibility),phaseiii_visit_vis_stat.csv,VISIT_VIS_STAT,continuous
+UIWIN_DAYS,UPPER VISIT WINDOW: IDEAL (recode: number of days after date of eligibility or ineligibility),phaseiii_visit_vis_stat.csv,VISIT_VIS_STAT,continuous
+LWIN_DAYS,LOWER VISIT WINDOW: EXTENDED (recode: number of days after date of eligibility or ineligibility),phaseiii_visit_vis_stat.csv,VISIT_VIS_STAT,continuous
+UWIN_DAYS,UPPER VISIT WINDOW: EXTENDED (recode: number of days after date of eligibility or ineligibility),phaseiii_visit_vis_stat.csv,VISIT_VIS_STAT,continuous
