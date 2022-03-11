@@ -140,6 +140,12 @@ proc export data=fusitest.vdj
 	delimiter=',';
 run;
 
+* Issues with UTF-8 encoding export. Changing code to account for this;
+* Sample code found online;
+*filename output '/path/filename.csv' encoding="utf-8";
+*proc export data=mylib.mydata out=output dbms=csv;
+*run;
+
 
 FILENAME REFFILE2 '/home/sasuser/babyhug/formats_fus_ii.csv' TERMSTR=NL;
 
@@ -153,148 +159,194 @@ RUN;
 libname fusii '/home/sasuser/babyhug/FUS_II';
 proc format lib=fusii cntlin = work.import2;
 
-proc export data=fusii.abdsono
+
+filename output '/home/sasuser/babyhug/output2/fusii_abdsono.csv' encoding='utf-8';
+proc export data=fusii.abdsono outfile=output dbms=csv;
+run;
+*proc export data=fusii.abdsono
 		outfile="/home/sasuser/babyhug/output/fusii_abdsono.csv";
-	delimiter=',';
-run;
+*	delimiter=',';
+*run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_creatinine.csv" encoding = 'utf-8';
+
 proc export data=fusii.creatinine
-		outfile="/home/sasuser/babyhug/output/fusii_creatinine.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+
+filename output "/home/sasuser/babyhug/output2/fusii_cystatin.csv" encoding = 'utf-8';
 proc export data=fusii.cystatin
-		outfile="/home/sasuser/babyhug/output/fusii_cystatin.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+
+
+filename output "/home/sasuser/babyhug/output2/fusii_echo.csv" encoding = 'utf-8';
 proc export data=fusii.echo
-		outfile="/home/sasuser/babyhug/output/fusii_echo.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm001.csv" encoding = 'utf-8';
 proc export data=fusii.fm001
-		outfile="/home/sasuser/babyhug/output/fusii_fm001.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
 
+filename output "/home/sasuser/babyhug/output2/fusii_fm003.csv" encoding = 'utf-8';
 proc export data=fusii.fm003
-		outfile="/home/sasuser/babyhug/output/fusii_fm003.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm004
-		outfile="/home/sasuser/babyhug/output/fusii_fm004.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm010
-		outfile="/home/sasuser/babyhug/output/fusii_fm010.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm012
-		outfile="/home/sasuser/babyhug/output/fusii_fm012.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm013
-		outfile="/home/sasuser/babyhug/output/fusii_fm013.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm014
-		outfile="/home/sasuser/babyhug/output/fusii_fm014.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm015
-		outfile="/home/sasuser/babyhug/output/fusii_fm015.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm020
-		outfile="/home/sasuser/babyhug/output/fusii_fm020.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm021
-		outfile="/home/sasuser/babyhug/output/fusii_fm021.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm023
-		outfile="/home/sasuser/babyhug/output/fusii_fm023.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm026
-		outfile="/home/sasuser/babyhug/output/fusii_fm026.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm027
-		outfile="/home/sasuser/babyhug/output/fusii_fm027.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm028
-		outfile="/home/sasuser/babyhug/output/fusii_fm028.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm029
-		outfile="/home/sasuser/babyhug/output/fusii_fm029.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm030
-		outfile="/home/sasuser/babyhug/output/fusii_fm030.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm031
-		outfile="/home/sasuser/babyhug/output/fusii_fm031.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm032
-		outfile="/home/sasuser/babyhug/output/fusii_fm032.csv";
-	delimiter=',';
-run;
-proc export data=fusii.fm033
-		outfile="/home/sasuser/babyhug/output/fusii_fm033.csv";
-	delimiter=',';
+		outfile=output dbms = 'csv';
 run;
 
+filename output "/home/sasuser/babyhug/output2/fusii_fm004.csv" encoding = 'utf-8';
+proc export data=fusii.fm004
+		outfile=output dbms='csv';
+run;
+
+
+
+
+
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm010.csv" encoding='utf-8';
+proc export data=fusii.fm010
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm012.csv" encoding='utf-8';
+proc export data=fusii.fm012
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm013.csv" encoding='utf-8';
+proc export data=fusii.fm013
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm014.csv" encoding='utf-8';
+proc export data=fusii.fm014
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm015.csv" encoding='utf-8';
+proc export data=fusii.fm015
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm020.csv" encoding='utf-8';
+proc export data=fusii.fm020
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm021.csv" encoding='utf-8';
+proc export data=fusii.fm021
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm023.csv" encoding='utf-8';
+proc export data=fusii.fm023
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm026.csv" encoding='utf-8';
+proc export data=fusii.fm026
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm027.csv" encoding='utf-8';
+proc export data=fusii.fm027
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm028.csv" encoding='utf-8';
+proc export data=fusii.fm028
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm029.csv" encoding='utf-8';
+proc export data=fusii.fm029
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm030.csv" encoding='utf-8';
+proc export data=fusii.fm030
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm031.csv" encoding='utf-8';
+proc export data=fusii.fm031
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm032.csv" encoding='utf-8';
+proc export data=fusii.fm032
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fm033.csv" encoding='utf-8';
+proc export data=fusii.fm033
+		outfile=output dbms='csv';
+run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_fusii_majorevents.csv" encoding='utf-8';
 proc export data=fusii.fusii_majorevents
-		outfile="/home/sasuser/babyhug/output/fusii_fusii_majorevents.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_hbf.csv" encoding='utf-8';
 proc export data=fusii.hbf
-		outfile="/home/sasuser/babyhug/output/fusii_hbf.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_hjb.csv" encoding='utf-8';
 proc export data=fusii.hjb
-		outfile="/home/sasuser/babyhug/output/fusii_hjb.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_liverspleenscan.csv" encoding='utf-8';
 proc export data=fusii.liverspleenscan
-		outfile="/home/sasuser/babyhug/output/fusii_liverspleenscan.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_metadata.csv" encoding='utf-8';
 proc export data=fusii.metadata
-		outfile="/home/sasuser/babyhug/output/fusii_metadata.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_mra.csv" encoding='utf-8';
 proc export data=fusii.mra
-		outfile="/home/sasuser/babyhug/output/fusii_mra.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_mri.csv" encoding='utf-8';
 proc export data=fusii.mri
-		outfile="/home/sasuser/babyhug/output/fusii_mri.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_pitted_cell.csv" encoding='utf-8';
 proc export data=fusii.pitted_cell
-		outfile="/home/sasuser/babyhug/output/fusii_pitted_cell.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_tcd.csv" encoding='utf-8';
 proc export data=fusii.tcd
-		outfile="/home/sasuser/babyhug/output/fusii_tcd.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_urine.csv" encoding='utf-8';
 proc export data=fusii.urine
-		outfile="/home/sasuser/babyhug/output/fusii_urine.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_vdj.csv" encoding='utf-8';
 proc export data=fusii.vdj
-		outfile="/home/sasuser/babyhug/output/fusii_vdj.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
+filename output "/home/sasuser/babyhug/output2/fusii_vsit_dtl_visit.csv" encoding='utf-8';
 proc export data=fusii.vsit_dtl_visit
-		outfile="/home/sasuser/babyhug/output/fusii_vsit_dtl_visit.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
+
 
 
 filename reffile3 '/home/sasuser/babyhug/formats_rct.csv' termstr = NL;
