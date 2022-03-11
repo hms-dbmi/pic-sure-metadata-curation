@@ -1,0 +1,159 @@
+varname,LABEL,file,MEMNAME,picsure_type
+DUMMYCRID,Dummy CIBMTR Recipient ID,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+STROKEHI,Stroke post HCT,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+ACSPSHI,Acute chest syndrome post HCT,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+VOCPSHI,Vaso-occlusive pain post HCT,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+RCMVPR,Recipient CMV serostatus,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+TXNUM,Transplant number,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+TXTYPE,Transplant type,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+SEX,Sex,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+ETHNICIT,Ethnicity,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+DONORF,Donor type,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+GRAFTYPE,Graft type,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+YEARTX,Year of transplant,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+COUNTRY,Country of HCT institution,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+AGE,"Patient age at transplant, years",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXSURV,"Time from HCT to date of last contact or death, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+DUMMYCCN,Dummy CIBMTR Center Number,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+AGEGPFF,"Patient age at transplant, years (grouped)",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+KPS,Karnofsky/Lansky score at HCT,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+HCTCIGPF,HCT-comorbidity index,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+SUBDIS1F,Disease genotype,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+ATGF,ATG/Alemtuzumab given as conditioning regimen/GVHD prophylaxis,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+YEARGPF,Year of transplant (grouped),curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+DEAD,Survival status at last contact,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+GVHD_FINAL,GVHD prophylaxis,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+CONDGRPF,Conditioning intensity,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+CONDGRP_FINAL,Conditioning regimen,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+HLA_FINAL,Donor-recipient HLA matching,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+FLAG_LANCET,Cases from 2019 Lancet Heamatology publication,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+FLAG_BLOOD,Cases from 2016 Blood publication,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+AGVHD,"Acute graft versus host disease, grades II-IV",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+INTXAGVHD,"Time from HCT to acute graft-vs-host disease, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+CGVHD,Chronic graft-vs-host disease,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+INTXCGVHD,"Time from HCT to chronic graft-vs-host disease, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+ANC,Neutrophil engraftment,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+INTXANC,"Time from HCT to neutrophil engraftment, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+PLATELET,Platelet recovery,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+INTXPLATELET,"Time from HCT to platelet recovery, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+GF,Graft failure,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+INTXGF,"Time from HCT to graft failure, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+EFS,Event-free survival (Graft failure or death are the events),curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+DWOAGVHD,"Death without acute graft versus host disease, grades II-IV",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+DWOCGVHD,Death without chronic graft-vs-host disease,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+DWOANC,Death without neutrophil engraftment,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+DWOPLATELET,Death without platelet recovery,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+DWOGF,Death without graft failure,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+SCDMAL_FINAL,Secondary malignancy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+INTXSCDMAL,"Time from HCT to second malignancy, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+SCREATPR,Serum creatinine pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+SCREUNIT,Serum creatinine pre-conditioning unit,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+SCREAULN,Normal upper limit of serum creatinine for center,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+HB1PR,Hemoglobin pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+HB1UNPR,Hemoglobin pre-conditioning unit,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+HCTFPR,RBC transfused <30 prior to hemoglobin test,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+FUNGHXPR,Clinically significant fungal infection at any time pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+SCREPRKW,Serum creatinine known pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+SCRENUNT,"Normal upper limit of serum creatinine for center, unit",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+SALBPRKW,Serum albumin known pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+SALBUMPR,Serum albumin pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+SALBUNIT,Serum albumin pre-conditioning unit,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+SALBMULN,Normal upper limit of serum albumin for center,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+SALBNUNT,"Normal upper limit of serum albumin for center, unit",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+HB1PRKW,Hemoglobin known pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+IPNPSHI,"Did patient develop Ipn, ARDS, or IPS following HCT?",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+PULMABHI,Did patient develop other non-infectious pulmonary abnormality following HCT?,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+EINTUBHI,Intubation or mechanical ventilation post-HCT,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+EXTUBAHI,Successfully extubated following intubation,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+TMAPSHI,TMA post-HCT,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+TMARSLHI,Did TMA resolve?,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+AVNPSHI,Avascular necrosis,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+CATAPSHI,Cataracts,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+CHFPSHI,Congestive heart failure,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+GODYPSHI,Gonadal dysfunction requiring horomone therapy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+GRWDPSHI,Growth hormone deficiency/ short stature,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+HCYSPSHI,Hemorrhagic cystitis,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+INFAPSHI,Myocardial infarction/unstable angina,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+PANCPSHI,Pancreatitis,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+ADIALYHI,Acute renal failure requiring dialysis,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+ADIASTLS,Patient still on dialysis,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+CKDNPSHI,Chronic kidney disease,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+CDIASTLS,Patient still on dialysis,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+ARRHYTHI,Arrhythmia,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+CADPSHI,Coronary artery disease,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+HTNRXHI,Hypertension (HTN) requiring therapy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+HTNSTLS,Patient still receiving HTN therapy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+DVTPEHI,Deep vein thrombosis (DVT)/pulmonary embolism (PE),curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+DVTCATHI,DVT catheter related,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+CNSHEMHI,CNS hemorrhage,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+ENCEPHHI,Encephalopathy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+NEUROPHI,Neuropathy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+SEIZPSHI,Seizures,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+STRKPSHI,Stroke,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+DIABRXHI,Diabetes/hyperglycemia requiring chronic treatment,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+DIABSTLS,Patient still receiving diabetes therapy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+GRWDRXHI,Therapy given for growth hormone deficiency,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+HYPORXHI,Hypothyroidism requiring treatment,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+OSTJAWHI,Osteonecrosis of the jaw,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+OSTEOPHI,Osteoporosis,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+OSTFXHI,Osteoporotic fracture,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+DEPRRXHI,Depression requiring therapy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+ANXIRXHI,Anxiety requiring therapy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+PTSDRXHI,Post-traumatic stress disorder (PTSD) requiring therapy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+HYLIRXHI,Hyperlipidemia requiring therapy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+HYLISTLS,Patient still receiving hyperlipidemia therapy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+IRONRXHI,Iron overload requiring therapy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+MUCORXHI,Mucositis requiring therapy,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+OMSGRDHI,OMS grade,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+LIVBXPR,Liver biopsy performed pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+FIBROPR,Fibrosis present pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+ACSPR,Acute chest syndrome (ACS) pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+NACS2YR,Number of ACS syndromes within 2 years pre-HCT,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+EXCHTFPR,Require exchange transfusion,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+INTUBAPR,Intubation or mechanical ventilation for ACS pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+RBCTRFPR,Transfusion of RBC for ACS pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+SNEPHRPR,Sickle neuropathy pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+STROKEPR,Stroke pre-conditioning,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+VOC2YPR,Vaso-occlusive cirsis requiring hospitalization within 2 years pre-HCT,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+VOCFRQPR,Frequency of hospitalizations for vaso-occlusive crises,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+SCATXRSN,Primary reason for HCT,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+SNEPHRHI,Sickle neuropathy post-HCT,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+HBEPPSHI,Hemoglobin electrophoresis performed post-HCT,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+INTXINTUB,"Time from HCT to intubation, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+VOD,VOD post-HCT,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+INTXVOD,"Time from HCT to VOD, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXTMA,"Time from HCT to TMA, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXADIAL,"Time from HCT to acute renal failure, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXCDIAL,"Time from HCT to chronic kidney disease, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+ARRHYTH_TYPE,Type of arrythmia,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+INTXARRHYTH,"Time from HCT to arrhythmia, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXCHF,"Time from HCT to congestive heart failure, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXINFAP,"Time from HCT to myocardial infarction, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXHTN,"Time from HCT to HTN, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXDVT,"Time from HCT to DVT, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXCNS,"Time from HCT to CNS hemorrhage, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXENC,"Time from HCT to encephalopathy, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXNEURO,"Time from HCT to neuropathy, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXSEIZ,"Time from HCT to seizures, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXSTROKE,"Time from HCT to stroke, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXDIAB,"Time from HCT to diabetes, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXGHD,"Time from HCT to growth hormone deficiency, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXHYPO,"Time from HCT to hypothyroidism, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXPANC,"Time from HCT to pancreatitis, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXGOD,"Time from HCT to gonadal dysfunction, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXCYST,"Time from HCT to hemorrhagic cystitis, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXAVN,"Time from HCT to avascular necrosis, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXOSTEO,"Time from HCT to osteoporosis, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXDEPR,"Time from HCT to depression, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXANX,"Time from HCT to anxiety, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXPTSD,"Time from HCT to PTSD, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXCATA,"Time from HCT to Cataracts, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXHYLIP,"Time from HCT to hyperlipidemia, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTXIRON,"Time from HCT to iron overload, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+IRON_TRT,Type of therapy for iron overload,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+INTXMUCOS,"Time from HCT to mucositis, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+KPSPT,Most recent Karnofsky/Lansky score post-HCT,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+OTHORGPSHI,Other organ impairment or disorder,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
+INTSCREPR,"Time from serum creatinine test pre-conditioning to transplant, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+INTSALBPR,"Time from serum albumin test pre-conditioning to transplant, months",curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,continuous
+RACEG,Race (regrouped):,curesc_year2_v2_decoded.csv,CURESC_YEAR2_V2,categorical
