@@ -1,0 +1,1562 @@
+varname,LABEL,file,MEMNAME,picsure_type
+subject_id,Subject ID,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+redcap_repeat_instrument,Repeat Instrument,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_c_redcap_repeat_instance,C_redcap_repeat_instance,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+coral,Enrolled in RED CORAL,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+coralreef,Enrolled in RED CORAL Detailed,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+cx_covid_yn,COVID-19 test done,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+cx_covid_test_count,Total known number of COVID-19 tests completed,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+cx_covid_pos_ever_yn,Any positive COVID-19 test?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+cx_covid_pos_first_dt,Specimen collection day for first positive COVID-19 test,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+cx_covid_pos_first_tm,Specimen collection time for first positive COVID-19 test,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+cx_covid1_pos_yn,Was the patient's positive COVID-19 test also their first test?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+cx_covid1_result,Results of subject's first COVID-19 test,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+cx_covid1_spec_dt,Specimen collection day for first COVID-19 test,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+cx_covid1_spec_tm,Specimen collection time for first COVID-19 test,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_yn,Was COVID-19 associated with an admission to a study hospital?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_cause,Did COVID-19 contribute to need for hospital admission?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_cause_other,"Reason for admission if other than COVID-19 symptoms, disease, or associated complications",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_admit_dt,Day of first admission to study hospital,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+admit_admit_tm,Time of first admission to study hospital,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_ed_yn,Did this admission occur via the study hospital's ED?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_ed_arrival_dt,Study hospital ED arrival day for ED visit leading to first hospital admission,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+admit_ed_arrival_tm,Study hospital ED arrival time for ED visit leading to first hospital admission,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+elig_fever,History of self reported feverishness or measured fever of 38C (100.4F),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+elig_cough,Cough,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+elig_dyspnea,Dyspnea (shortness of breath) OR tachypnea*,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+elig_ari,"Clinical suspicion of acute respiratory infection (ARI) despite not meeting criteria above (e.g. hypoxemia, diagnosis of pneumonia, bilateral pulmonary opacities)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+elig_eval_coral,Is patient being evaluated for retrospective (RED CORAL) or prospective (BLUE CORAL) cohort?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+elig_prisoner,Known to be a prisoner or otherwise in legal custody at time of admission to the hospital,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+elig_priorenroll,Previous admission for COVID-19,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+elig_icu,Was patient admitted to ICU during hospitalization?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+elig_cmo,"On day of screening for prospective CORAL enrollment cohort, was patient on comfort care or expected to transition to comfort care?",redcoral_decoded_newsearch.csv,REDCORAL,continuous
+enroll_coral,Enrolled in CORAL?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+enroll_coralreef,Enrolled in RED CORAL detailed data collection?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+enroll_coral_date,CORAL enrollment day,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+enroll_isaric_date,ISARIC enrollment day,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+sex,Sex,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+race,Race,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+ethnicity,Hispanic ethnicity,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+pregnant,Pregnant (Y/N),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+pregnant_weeks,Gestational age,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+admit_source,Patient location/living situation prior to onset of current illness episode,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_source_other,Specify other patient location/living situation prior to onset of current illness episode,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+exposure_hcw,Is patient a healthcare worker?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+exposure_labworker,Is patient a medical laboratory worker?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+smoking,Cigarette or tobacco smoking,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+vaping,Vaping,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_admit_type,Hospital admission type,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_admit_resourcelimit,Any indication in admission documentation of external triage limitations on access to intensive care?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_transfer_yn,Patient transferred from another facility?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_transfer_why___1,Reason for transfer (choice=Regionalized COVID-19 care),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_transfer_why___2,Reason for transfer (choice=Capacity issues at other hospital),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_transfer_why___3,Reason for transfer (choice=Need for higher level of care),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_transfer_why___9,Reason for transfer (choice=Other/unknown),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_transfer_admitdt,Day first arrived at sending/referring facility,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+goals_advancedirect,Advanced directives or POLST in place before hospital admission?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+goals_limit,Patient limitations on life-sustaining therapy on admission,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+goals_self,Is patient able to make medical decisions on admission?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+goals_surrougate,Does patient have surrogate decision makers/next of kin?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+function_prioradmit,Hospital admission in the past 12 months,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+function_prioradmit_count,How many hospital admissions in past year?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+function_prioradmit_days,How many days in acute care hospital in last 30 days,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+function_edadmit,ED visit in the past 12 months,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+function_walk,"Patient able to walk independently (>50', use of gait aid permitted)?",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+function_adls,Patient able to perform activities of daily living (ADLs) independently?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+function_frailty,Frailty scale,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_onset_known,Is the symptom onset date known?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_onset_date,Onset day of first/earliest symptom,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+symptom_fever,Fever,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_chills,Chills/rigors/shivering,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_cough,Cough,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_cough_prod,Cough with sputum production,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_sorethroat,Sore throat,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_rhinorhea,Runny nose (rhinorrhoea),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_wheeze,Wheezing,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_chestpain,Chest pain,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_myalgia,Muscle aches (myalgia),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_arthralgia,Joint pain (arthralgia),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_fatigue,Fatigue/malaise,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_dyspnea,"Shortness of breath (dyspnea) at rest,  with exertion or lying flat (orthopnea)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_edema,Swelling (edema),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptoms_nonamb,Unable to walk,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_headache,Headache,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_confusion,Altered consciousness or confusion,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_seizure,Seizures,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_syncope,Fainting (syncope),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_anosmia,Loss or impairment of sense of smell (anosmia),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_ageusia,Loss or impairment of sense of taste (ageusia),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_abdpain,Abdominal pain,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_nausea,Nausea/vomiting,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_diarrhea,Diarrhea,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_conjunctivitis,Conjunctivitis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_bleeding,Bleeding/hemorrhage,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_bleeding_site,Bleeding site,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+symptom_other,Other sign or symptom,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+symptom_cough_hemop,Cough with hemoptysis (coughing up blood),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+symptom_retractions,Lower chest wall indrawing/retractions,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+symptom_rash,Rash,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+symptom_skinulcer,Skin ulcers,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+symptom_lad,Lymphadenopathy (swollen glands/lymph nodes),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_charlson_mi,Charlson--Myocardial infarction,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_chf,Charlson--Congestive heart failure,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_arrhth_atrial,Atrial arrhythmia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_arrhth_other,Other (non-atrial) arrhythmia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_htn,Hypertension,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_pvd,Charlson--Peripheral vascular disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_cva_mild,Charlson--Cerebrovascular disease (with mild or no residual or TIA),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_hemiplegia,Charlson--Hemiplegia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_dementia,Charlson--Dementia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_pulm,Charlson--Chronic pulmonary disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_copd,COPD/emphysema/chronic bronchitis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_ild,Interstitial lung disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_asthma,Asthma,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_homeo2,Home respiratory support,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_homeo2_amount,Highest amount of oxygen used at baseline base,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_charlson_pud,Charlson--Peptic ulcer disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_liver_mild,Charlson--Mild liver disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_liver_sev,Charlson--Moderate or severe liver disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_dm_mild,Charlson--Diabetes without end-organ damage,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_dm_severe,Charlson--Diabetes with end-organ damage,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_ctd,Charlson--Connective tissue disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_renal_sev,Charlson--Moderate or severe renal disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_dialysis,Chronic dialysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_tumor_no,Charlson--Tumor without metastases,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_tumor_mets,Charlson--Metastatic solid tumor,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_leukemia,Charlson--Leukemia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_lymphoma,Charlson--Lymphoma,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_charlson_aids,Charlson--AIDS,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_hiv,HIV,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_tb,Tuberculosis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_etoh,Alcohol abuse,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_drugs,Drug abuse,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_depression,Depression,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_ptsd,PTSD,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_anxiety,Anxiety,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_isaric_cardiac,Chronic cardiac disease (ISARIC summary comorbidity),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_isaric_pulm,Chronic pulmonary disease (ISARIC summary comorbidity),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_isaric_neuro,Chronic neurologic disorder (ISARIC summary comorbidity),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_isaric_liver,Chronic liver disease (ISARIC summary comorbidity),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_isaric_dm,Diabetes (ISARIC summary comorbidity),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_isaric_ckd,Chronic kidney disease (ISARIC summary comorbidity),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_isaric_neoplasm,Malignant neoplasm (ISARIC summary comorbidity),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_isaric_malnut,Malnutrition (BMI < 18.5),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_obesity,Obesity (BMI 30),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_obesity_c3,Morbid/class III obesity (BMI 40),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_isaric_asplenia,Asplenia (functional or surgical lack of spleen),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_other,Other relevant risk factor/comorbidity,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_home_exp,Is patient known to have received medication(s) as part of a COVID-19 research trial prior to study hospital arrival?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_exp_blind,Was patient's treatment assignment blinded?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_exp_specb,"For blinded studies, list the treatment assignment possibilities/options.",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_exp_specu,"For unblinded/open-label studies, list the treatment assignment patient received.",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_acei,ACE inhibitors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_arbs,Angiotensin receptor blockers (ARBs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+home_meds_htn_other,Other anti-hypertensive,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_nsaids,NSAIDs (non-steroidal anti-inflammatory drugs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_asa,Aspirin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_statin,Statin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_steroidpo,Chronic systemic/oral steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_steroidinh,Chronic inhaled steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_immsupp,Immunosuppressive medication,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_haart,Antiretroviral therapy (ART/HAART) for HIV/AIDS,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_chloroquine,Chloroquine,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_hcq,Hydroxychloroquine (plaquenil),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_hcq_chronic,Reason for hydroxychloroquine or chloroquine?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_azithro,Azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_home_azithro_chronic,Reason for azithromycin?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+vs_hosp_first_temp,Temperature (C),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_hr,Heart rate,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_rr,Respiratory rate,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_sbp,Systolic blood pressure,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_dbp,Diastolic blood pressure,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_map,First mean arterial pressure,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_o2sat,Oxygen saturation (%),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_fio2,FiO2 at time of oxygen sat,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_o2supp,Oxygen support at time of first O2 sat,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_gcs_avail,Was GCS explicitly documented?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+vs_hosp_first_gcs,GCS,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_weight,First weight (kg),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_height,First height (cm),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_bmi,First BMI (auto-calculated),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_rass,First RASS,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_cam,First CAM,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+vs_hosp24_temp_low,Lowest temperature (C),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp24_temp_high,Highest temperature (C),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp24_hr_low,Lowest HR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp24_hr_high,Highest HR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp24_rr_low,Lowest RR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp24_rr_high,Highest RR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp24_sbp_low,Lowest SBP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp24_sbp_high,Highest SBP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp24_map_low,Lowest MAP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp24_map_high,Highest MAP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp24_o2sat_low,Lowest O2 sat (%),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp24_fio2_high,FiO2 at time of lowest O2 sat,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp24_gcs_low,Lowest GCS,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_capref,Sternal capillary refill time >2 seconds,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_dehyd,Dehydrated,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_avpu,AVPU available,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_first_armcirc,Mid-upper arm circumference (cm),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+temp_vsyn,Temperate on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+hr_vsyn,Heart rate on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+rr_vsyn,Respiratory rate on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+sysbp_vsyn,Systolic blood pressure on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+diabp_vsyn,Diastolic blood pressure on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+oxy_vsyn,Oxygen saturation on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+gcs_vsyn,Glasgow Coma Score on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+height_vsyn,Height on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+weight_vsyn,Weight on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_wbc,White blood count,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_lymph,Lymphocyte count,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_pmn,Neutrophil count (ANC),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_platelet,Platelets,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_hct,Hematocrit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_hgb,Hemoglobin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_lactate,Lactate,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_ptt,PTT,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_pt,PT,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_inr,INR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_ast,AST,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_alt,ALT,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_bili,Total bilirubin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_alb,Albumin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_na,Sodium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_k,Potassium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_hco3,Serum bicarbonate (HCO3),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_bun,BUN,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_cr,Creatinine,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_gluc,Glucose,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_pct,Procalcitonin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_crp,CRP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_ldh,LDH,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_ck,CK,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_trop,Troponin I,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_bnp,BNP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_esr,ESR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_ddimer,D-dimer,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_ferritin,Ferritin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_il6,IL-6,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_pao2,First PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_fio2,FiO2 at time of first PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_ph,pH at time of first PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_first_paco2,PaCO2 at time of first PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_24h_wbc_low,Lowest WBC,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_24h_wbc_high,Highest WBC,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_24h_hct_low,Lowest Hct,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_24h_hct_high,Highest Hct,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_24h_na_low,Lowest sodium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_24h_na_high,Highest sodium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_24h_k_low,Lowest potassium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_24h_k_high,Highest potassium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_24h_pao2_lowest,Lowest PaO2 within 24h of hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_24h_fio2_low,FiO2 at time of lowest PaO2.,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_24h_ph_low,pH from ABG with lowest PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_24h_vent_low,On ventilator at time of lowest PaO2?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+hb_lbyn,Haemoglobin on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+hb_lborresu,Haemoglobin Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+hb_lborresu_oth,Haemoglobin Unit - Specify Other,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+wbc_lbyn,WBC count on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+wbc_lborresu,WBC count Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+haematocrit_lbyn,Haematocrit on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+plt_lbyn,Platelets on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+plt_lborresu,Platelets Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+aptt_lbyn,APTT/APTR on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+pt_lbyn,PT on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+inr_lbyn,INR on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+alt_lbyn,ALT/SGPT on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+alt_lborresu,ALT/SGPT Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+bil_lbyn,Total Bilirubin on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+bil_lborresu,Total Bilirubin Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+bil_lborresu_oth,Total Bilirubin Unit - Specify other,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+ast_lbyn,AST/SGOT on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ast_lborresu,AST/SGOT Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ast_lborresu_oth,AST/SGOT Unit - Specify Other,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+bun_lbyn,Urea (BUN) on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+bun_lborresu,Urea (BUN) Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+bun_lborresu_oth,Urea (BUN) Unit - Specify Other,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+lactate_lbyn,Lactate on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lactate_lborresu,Lactate Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+creat_lbyn,Creatinine on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+creat_lborresu,Creatinine Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+creat_lborresu_oth,Creatinine Unit - Specify Other,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+sodium_lbyn,Sodium on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+sodium_lborresu,Sodium Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+potassium_lbyn,Potassium on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+potassium_lborresu,Potassium Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+procal_lbyn,Procalcitonin on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+procal_lborresu,Procalcitonin Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+crp_lbyn,CRP on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+crp_lborresu,CRP Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ldh_lbyn,LDH on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ldh_lborresu,LDH Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+crekin_lbyn,Creatine kinase on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+crekin_lborresu,Creatine kinase Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+troponin_lbyn,Troponin on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+troponin_lborresu,Troponin Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+esr_lbyn,ESR on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+esr_lborresu,ESR Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ddimer_lbyn,D-dimer on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ddimer_lborresu,D-dimer Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ferritin_lbyn,Ferritin on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ferritin_lborresu,Ferritin Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+il6_lbyn,IL-6 on admission available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+il6_lborresu,IL-6 Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_24h_icu,ICU or ICU step-down/intermediate care unit admission,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_24h_o2therapy,"Nasal cannula, face mask, or HFNC oxygen therapy",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_24h_o2flow,"Maximum O2 flow via NC, face mask, or HFNC",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_24h_o2mode,Most intense method used to give support,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_24h_nippv,"Non-invasive ventilation (e.g. BiPAP, CPAP)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_24h_vent,Invasive ventilation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_24h_pressor,Inotropes/vasopressors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_24h_pressor_dose,Dose of vasopressors/inotropes,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_24h_ecmo,ECMO,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_24h_prone,Prone positioning,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_24h_ino,Treated with inhaled pulmonary vasodilators (nitric oxide [iNO] or epoprostenol [Flolan]),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_24h_nmb,Therapeutic neuromuscular blockade / therapeutic paralysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_24h_rrt,Renal replacement therapy / dialysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_24h_o2source,Source of oxygen,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_24h_exp,Was a medication given as part of a research trial?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_exp_blind,Was patient's treatment assignment blinded?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_exp_specb,"For blinded studies, list the treatment assignment possibilities/options.",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_exp_specu,"For unblinded/open-label studies, list the treatment assignment patient received.",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_hcq,Hydroxychloroquine (plaquenil),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_remdesivir,Remdesivir,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_toci,Tocilizumab (Actemra),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___0,Other medication(s) relevant for targeted COVID-19 treatment (choice=None),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___1,Other medication(s) relevant for targeted COVID-19 treatment (choice=Chloroquine),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___2,Other medication(s) relevant for targeted COVID-19 treatment (choice=Lopinavir/ritonavir (Kaletra)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___3,Other medication(s) relevant for targeted COVID-19 treatment (choice=Other HIV protease inhibitor),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___4,Other medication(s) relevant for targeted COVID-19 treatment (choice=Interferon alpha),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___5,Other medication(s) relevant for targeted COVID-19 treatment (choice=Interferon beta),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___6,Other medication(s) relevant for targeted COVID-19 treatment (choice=Ribavirin),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___7,Other medication(s) relevant for targeted COVID-19 treatment (choice=Oseltamivir (Tamiflu)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___8,Other medication(s) relevant for targeted COVID-19 treatment (choice=Baloxavir),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___9,Other medication(s) relevant for targeted COVID-19 treatment (choice=Sarulimab (Kevzara)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___10,Other medication(s) relevant for targeted COVID-19 treatment (choice=Anakinra (Kinaret)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___11,Other medication(s) relevant for targeted COVID-19 treatment (choice=IV vitamin C),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___12,Other medication(s) relevant for targeted COVID-19 treatment (choice=Transfusion of convalescent plasma),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other___99,Other medication(s) relevant for targeted COVID-19 treatment (choice=Other),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_other_oth,List other medication(s) given to treat acute illness,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_antiviral_yn,Antiviral (excluding meds given as part of placebo-controlled RCT),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_24h_azithro,Azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_otherabx,Antibiotics other than azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_sedatives___0,Sedatives used for patient while on ventilator (choice=None),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_sedatives___1,Sedatives used for patient while on ventilator (choice=Propofol),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_sedatives___2,Sedatives used for patient while on ventilator (choice=Dexmedetomidine (Precedex)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_sedatives___3,Sedatives used for patient while on ventilator (choice=Benzodiazepine (continuous infusion)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_sedatives___4,Sedatives used for patient while on ventilator (choice=Benzodiazepine (intermittent bolus)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_sedatives___5,Sedatives used for patient while on ventilator (choice=Ketamine),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_sedatives___9,Sedatives used for patient while on ventilator (choice=Other),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_vteppx,Prophylactic anticoagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_anticoag,Therapeutic anticoagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_lytic,Fibrinolytic (lytic) therapy,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_nsaid,NSAIDs (non-steroidal anti-inflammatory drugs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_acei,ACE inhibitors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_arb,Angiotensin receptor blockers (ARBs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_cs_yn,"Any steroids (oral, IV, or inhaled)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_cs_iv,IV steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_cs_po,Oral/enteric steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_cs_inh,Inhaled steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_cs_pred,Total prednisone administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_24h_cs_mp,"Total methylprednisolone (Solumedrol, Medrol) administered (in mg) during 24h period",redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_24h_cs_hct,Total hydrocortisone administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_24h_cs_dex,Total dexamethasone (Decadron) administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_24h_cs_plone,Total prednisolone administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_24h_fluids_iv,Received >2L IV fluids  within first 24 hours of hospital arrival?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_24h_fungal,Anti-fungal,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_24h_malaria,Anti-malarial,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_24h_fluids_oral,Oral/orogastric fluids,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+date_dly,Day of assessment,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_inpt_dly,Was patient in the hospital at any point on this study day?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_death_dly,Is patient known to have died on or before this date?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_icu_dly,Did patient spend any time in an ICU or ICU step-down/intermediate care unit during this calendar day?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+vs_hosp_temp_dly,Temperature (C),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_hr_dly,Heart rate,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_rr_dly,Respiratory rate,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_sbp_dly,Systolic blood pressure,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_dbp_dly,Diastolic blood pressure,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_map_dly,Mean arterial pressure,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_o2sat_dly,Oxygen saturation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_fio2_dly,FiO2 at time of oxygen sat.,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_gcs_avail_dly,Was GCS explicitly documented?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+vs_hosp_gcs_dly,GCS,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_rass_dly,RASS,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_cam_dly,CAM status,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+vs_hosp_uop_dly,Urine output (mL),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_netoutput_dly,24-hour total output (mL),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_netintake_dly,24-hour total intake (mL),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_wbc_dly,WBC,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_lymph_dly,Lymphocyte count,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_platelet_dly,Platelets,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_hct_dly,Hematocrit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_hgb_dly,Hemoglobin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_lactate_dly,Lactate,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_inr_dly,INR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_ast_dly,AST,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_alt_dly,ALT,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_bili_dly,Total bilirubin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_alb_dly,Albumin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_k_dly,Potassium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_hco3_dly,Serum bicarbonate (HCO3),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_bun_dly,BUN,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_cr_dly,Creatinine,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_pct_dly,Procalcitonin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_crp_dly,CRP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_ldh_dly,LDH,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_ck_dly,CK,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_trop_dly,Troponin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_bnp_dly,BNP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_ddimer_dly,D-dimer,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_ferritin_dly,Ferritin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_il6_dly,IL-6,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_pao2_dly,PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_fio2_dly,FiO2 at time of PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_ph_dly,pH at time of PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_paco2_dly,PaCO2 at time of PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_gcs_l_dly,Lowest GCS,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+vs_hosp_map_l_dly,Lowest MAP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_cr_h_dly,Highest creatinine,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_bili_h_dly,Highest total bilirubin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_platelet_l_dly,Lowest platelets,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_pao2_l_dly,Lowest PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_pf_l_dly,FiO2 accompanying lowest PaO2.,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_sao2_l_dly,Lowest O2 sat (%),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_sf_l_dly,FiO2 accompanying lowest O2 sat,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dx_ecg_yn_dly,Did patient have an electrocardiogram (ECG) during the calendar day?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_ecg_qtc_dly,QTc duration (ms),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_o2therapy_dly,"Nasal cannula, face mask, or HFNC oxygen therapy",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_o2flow_dly,"Maximum O2 flow via NC, face mask, or HFNC",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_o2mode_dly,Most intense method used to give support,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_nippv_dly,"Non-invasive ventilation (e.g. BiPAP, CPAP)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_vent_dly,Invasive ventilation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_pressor_dly,Inotropes/vasopressors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_pressor_dose_dly,Dose of vasopressors/inotropes,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_ecmo_dly,ECMO,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_ino_dly,Treated with inhaled pulmonary vasodilators (nitric oxide [iNO] or epoprostenol [Flolan]),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_nmb_dly,Therapeutic neuromuscular blockade / therapeutic paralysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_prone_dly,Prone positioning,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_prone_dly_sup_dt,First day turned prone-->supine for day,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_prone_dly_sup_tm,First time turned prone-->supine for day,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_prone_dly_prn_dt,First day turned supine-->prone for day,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_prone_dly_prn_tm,First time turned supine-->prone for day,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_rrt_dly,Renal replacement therapy / dialysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_vent_dly_mode,Ventilator mode,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_vent_dly_vtset,Set tidal volume (mL),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_vent_dly_pcset,Set inspiratory pressure (cmH2O),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_vent_dly_psset,Pressure support set (cmH2O),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_vent_dly_vtact,Actual tidal volume (mL),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_vent_dly_peak,Peak pressure (cmH2O),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_vent_dly_plateau,Plateau pressure (cmH2O),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_vent_dly_rrset,Set respiratory rate (RR),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_vent_dly_rractual,Actual/total respiratory rate (RR),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_vent_dly_ve,Total minute ventilation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_vent_dly_peep,"Positive end-expiratory pressure (PEEP, cmH20)",redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_vent_dly_fio2,FiO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_vent_dly_o2sat,O2 sat (%),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_vent_dly_ieset,Set I:E ratio,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_vent_dly_ieact,Actual I:E ratio,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_hcq_dly,Hydroxychloroquine (plaquenil),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_remdesivir_dly,Remdesivir,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_toci_dly,Tocilizumab (Actemra),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___0,Other medication(s) relevant for targeted COVID-19 treatment (choice=None),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___1,Other medication(s) relevant for targeted COVID-19 treatment (choice=Chloroquine),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___2,Other medication(s) relevant for targeted COVID-19 treatment (choice=Lopinavir/ritonavir (Kaletra)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___3,Other medication(s) relevant for targeted COVID-19 treatment (choice=Other HIV protease inhibitor),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___4,Other medication(s) relevant for targeted COVID-19 treatment (choice=Interferon alpha),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___5,Other medication(s) relevant for targeted COVID-19 treatment (choice=Interferon beta),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___6,Other medication(s) relevant for targeted COVID-19 treatment (choice=Ribavirin),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___7,Other medication(s) relevant for targeted COVID-19 treatment (choice=Oseltamivir (Tamiflu)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___8,Other medication(s) relevant for targeted COVID-19 treatment (choice=Baloxavir),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___9,Other medication(s) relevant for targeted COVID-19 treatment (choice=Sarulimab (Kevzara)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___10,Other medication(s) relevant for targeted COVID-19 treatment (choice=Anakinra (Kinaret)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___11,Other medication(s) relevant for targeted COVID-19 treatment (choice=IV vitamin C),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___12,Other medication(s) relevant for targeted COVID-19 treatment (choice=Transfusion of convalescent plasma),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_dly___99,Other medication(s) relevant for targeted COVID-19 treatment (choice=Other),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_other_oth_dly,List other medication(s) given to treat acute illness,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_antiviral_yn_dly,Antiviral (excluding meds given as part of placebo-controlled RCT),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_azithro_dly,Azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_abx_dly,Antibiotics other than azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_sedatives_dly___0,Sedatives used for patient while on ventilator (choice=None),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_sedatives_dly___1,Sedatives used for patient while on ventilator (choice=Propofol),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_sedatives_dly___2,Sedatives used for patient while on ventilator (choice=Dexmedetomidine (Precedex)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_sedatives_dly___3,Sedatives used for patient while on ventilator (choice=Benzodiazepine (continuous infusion)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_sedatives_dly___4,Sedatives used for patient while on ventilator (choice=Benzodiazepine (intermittent bolus)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_sedatives_dly___5,Sedatives used for patient while on ventilator (choice=Ketamine),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_sedatives_dly___9,Sedatives used for patient while on ventilator (choice=Other),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_vteppx_dly,Prophylactic anticoagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_anticoag_dly,Therapeutic anticoagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_lytic_dly,Fibrinolytic (lytic) therapy,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_nsaid_dly,NSAIDs (non-steroidal anti-inflammatory drugs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_acei_dly,ACE inhibitors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_arb_dly,Angiotensin receptor blockers (ARBs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_diuretic_dly,Diuretics,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_cs_yn_dly,"Any steroids (oral, IV, or inhaled)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_cs_iv_dly,IV steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_cs_po_dly,Oral/enteric steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_cs_inh_dly,Inhaled steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_cs_pred_dly,Total prednisone administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_cs_mp_dly,"Total methylprednisolone (Solumedrol, Medrol) administered (in mg) during 24h period",redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_cs_hct_dly,Total hydrocortisone administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_cs_dex_dly,Total dexamethasone (Decadron) administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_cs_plone_dly,Total prednisolone administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_ordinal_dly,WHO ordinal outcome scale (8-point version),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_temp_vsyn,Temperate available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_hr_vsyn,Heart rate available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_rr_vsyn,Respiratory rate available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+systolic_vsyn,Systolic blood pressure available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+diastolic_vsyn,Diastolic blood pressure available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_dehydration_vsorres,Severe dehydration?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_stercap_vsorres,Sternal capillary refill time >2 seconds?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_gcs_vsyn,Glasgow Coma Score available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_oxy_vsyn,Oxygen saturation available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_avpu_vsyn,AVPU available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_cough_ceoccur_v2,Cough,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_coughsput_ceoccur_v2,Cough: with sputum production,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_sorethroat_ceoccur,Sore throat,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_chestpain_ceoccur_v2,Chest pain,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_shortbreath_ceoccur,Shortness of breath,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_confusion_ceoccur_v2,Confusion,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_seizures_cecoccur_v2,Seizures,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_vomit_ceoccur_v2,Vomiting / Nausea,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_diarrhoea_ceoccur_v2,Diarrhoea,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_conjunct_ceoccur_v2,Conjunctivitis,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_myalgia_ceoccur_v2,Myalgia,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_other_ceoccur_v2,Other sign or symptom,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_hb_lbyn,Haemoglobin available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_hb_lborresu,Haemoglobin Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_hb_lborresu_oth,Haemoglobin Unit - Specify Other,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+daily_wbc_lbyn,WBC count available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_wbc_lborresu,WBC count Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_haematocrit_lbyn,Haematocrit available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_plt_lbyn,Platelets available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_plt_lborresu,Platelets Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_aptt_lbyn,APTT/APTR available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_pt_lbyn,PT available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_inr_lbyn,INR available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_alt_lbyn,ALT/SGPT available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_alt_lborresu,ALT/SGPT Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_bil_lbyn,Total Bilirubin available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_bil_lborresu,Total Bilirubin Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_bil_lborresu_oth,Total Bilirubin Unit - Specify other,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+daily_ast_lbyn,AST/SGOT available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_ast_lborresu,AST/SGOT Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_ast_lborresu_oth,AST/SGOT Unit - Specify Other,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+daily_bun_lbyn,Urea (BUN) available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_bun_lborresu,Urea (BUN) Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_bun_lborresu_oth,Urea (BUN) Unit - Specify Other,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+daily_lactate_lbyn,Lactate available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_lactate_lborresu,Lactate Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_creat_lbyn,Creatinine available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_creat_lborresu,Creatinine Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_creat_lborresu_oth,Creatinine Unit - Specify Other,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+daily_sodium_lbyn,Sodium available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_potassium_lbyn,Potassium available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_potassium_lborresu,Potassium Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_procal_lbyn,Procalcitonin on available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_procal_lborresu,Procalcitonin Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_crp_lbyn,CRP available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_crp_lborresu,CRP Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_ldh_lbyn,LDH available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_ldh_lborresu,LDH Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_crekin_lbyn,Creatine kinase available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_crekin_lborresu,Creatine kinase Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_troponin_lbyn,Troponin available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_troponin_lborresu,Troponin Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_esr_lbyn,ESR available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_ddimer_lbyn,D-dimer available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_ddimer_lborresu,D-dimer Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_ferritin_lbyn,Ferritin available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_ferritin_lborresu,Ferritin Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_il6_lbyn,IL-6  available?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_il6_lborresu,IL-6 Unit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_oral_fluids_cmyn,Oral/orogastric fluids?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_iv_fluids_cmyn,Intravenous fluids?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_antifung_cmyn,Antifungal agent?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_antimal_cmyn,Antimalarial agent?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+daily_oxygen_cmtrt,"Oxygen therapy - if Yes, Source of oxygen",redcoral_decoded_newsearch.csv,REDCORAL,continuous
+abg_dt_dly,Day of ABG,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+abg_tm_dly,Time of ABG,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+abg_ph_dly,pH,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+abg_paco2_dly,PaCO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+abg_pao2_dly,PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+abg_fio2_dly,FiO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_dt_dly,Day of ventilator check,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_tm_dly,Time of ventilator check,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+ventck_mode_dly,Ventilator mode,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+ventck_vtset_dly,Set tidal volume (mL),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_pcset_dly,Set inspiratory pressure (cmH2O),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_psset_dly,Pressure support set (cmH2O),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_vtact_dly,Actual tidal volume (mL),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_peak_dly,Peak pressure (cmH2O),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_plateau_dly,Plateau pressure (cmH2O),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_rrset_dly,Set respiratory rate (RR),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_rractual_dly,Actual/total respiratory rate (RR),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_ve_dly,Total minute ventilation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_peep_dly,"Positive end-expiratory pressure (PEEP, cmH20)",redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_fio2_dly,FiO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_o2sat_dly,O2 sat (%),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_ieset_dly,Set I:E ratio,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+ventck_ieact_dly,Actual I:E ratio,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+review_last_date,Day of last data update,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+admit_dc_dt,Hospital discharge/death day,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+admit_dc_tm,Hospital discharge/death time,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo,Hospital disposition at discharge,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_other,Other hospital discharge,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_late_death_yn,Is patient known to have died after hospital discharge?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_death_date,Death day,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dispo_death_cause,Cause of death,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_death_cause_other,Other cause of death,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_death_autopsy,Was an autopsy performed?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_yn,Were there any limitations of life-sustaining therapy at the time of death?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_icu___0,Limitation on ICU transfer? Reason(s)? (choice=No limitations),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_icu___1,Limitation on ICU transfer? Reason(s)? (choice=Limitation due to patient goals),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_icu___2,Limitation on ICU transfer? Reason(s)? (choice=Limitation due to hospital policy),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_icu___3,Limitation on ICU transfer? Reason(s)? (choice=Limitation due to MD decision (outside of crisis management)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_icu___8,Limitation on ICU transfer? Reason(s)? (choice=Limitation for other reason),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_icu___9,"Limitation on ICU transfer? Reason(s)? (choice=Limitation, reason unknown)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_cpr___0,Limitation on CPR (e.g. DNR)? Reason(s)? (choice=No limitations),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_cpr___1,Limitation on CPR (e.g. DNR)? Reason(s)? (choice=Limitation due to patient goals),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_cpr___2,Limitation on CPR (e.g. DNR)? Reason(s)? (choice=Limitation due to hospital policy),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_cpr___3,Limitation on CPR (e.g. DNR)? Reason(s)? (choice=Limitation due to MD decision (outside of crisis management)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_cpr___8,Limitation on CPR (e.g. DNR)? Reason(s)? (choice=Limitation for other reason),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_cpr___9,"Limitation on CPR (e.g. DNR)? Reason(s)? (choice=Limitation, reason unknown)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_vent___0,Limitation on intubation (e.g. DNI)? Reason(s)? (choice=No limitations),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_vent___1,Limitation on intubation (e.g. DNI)? Reason(s)? (choice=Limitation due to patient goals),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_vent___2,Limitation on intubation (e.g. DNI)? Reason(s)? (choice=Limitation due to hospital policy),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_vent___3,Limitation on intubation (e.g. DNI)? Reason(s)? (choice=Limitation due to MD decision (outside of crisis management)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_vent___8,Limitation on intubation (e.g. DNI)? Reason(s)? (choice=Limitation for other reason),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_vent___9,"Limitation on intubation (e.g. DNI)? Reason(s)? (choice=Limitation, reason unknown)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_pressors___0,Limitation on vasopressors? Reason(s)? (choice=No limitations),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_pressors___1,Limitation on vasopressors? Reason(s)? (choice=Limitation due to patient goals),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_pressors___2,Limitation on vasopressors? Reason(s)? (choice=Limitation due to hospital policy),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_pressors___3,Limitation on vasopressors? Reason(s)? (choice=Limitation due to MD decision (outside of crisis management)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_pressors___8,Limitation on vasopressors? Reason(s)? (choice=Limitation for other reason),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_pressors___9,"Limitation on vasopressors? Reason(s)? (choice=Limitation, reason unknown)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_rrt___0,Limitation on dialysis? Reason(s)? (choice=No limitations),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_rrt___1,Limitation on dialysis? Reason(s)? (choice=Limitation due to patient goals),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_rrt___2,Limitation on dialysis? Reason(s)? (choice=Limitation due to hospital policy),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_rrt___3,Limitation on dialysis? Reason(s)? (choice=Limitation due to MD decision (outside of crisis management)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_rrt___8,Limitation on dialysis? Reason(s)? (choice=Limitation for other reason),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_rrt___9,"Limitation on dialysis? Reason(s)? (choice=Limitation, reason unknown)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_cmo_yn,Was patient placed on comfort-focused care or made comfort measures only prior to death?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_txlimit_cmo_date,Day patient was placed on comfort-focused care or made comfort measures only,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dispo_function,How does ability to self-care at discharge compare versus before illness?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_function_walk,"At discharge, patient able to walk independently (>50', use of gait aid permitted)?",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_function_adls,"At discharge, patient able to perform ADLs independently?",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+infect_pulm,Did patient have a pulmonary infection?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+infect_nonpulm_yn___0,Did patient have a non-pulmonary infection? (choice=None),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+infect_nonpulm_yn___2,Did patient have a non-pulmonary infection? (choice=Urinary tract),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+infect_nonpulm_yn___3,"Did patient have a non-pulmonary infection? (choice=Intraabdominal, gastrointestinal, biliary)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+infect_nonpulm_yn___4,Did patient have a non-pulmonary infection? (choice=CNS/meningitis),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+infect_nonpulm_yn___5,Did patient have a non-pulmonary infection? (choice=Skin and soft tissue),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+infect_nonpulm_yn___6,Did patient have a non-pulmonary infection? (choice=Primary bloodstream/endocarditis),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+infect_nonpulm_yn___7,"Did patient have a non-pulmonary infection? (choice=Osteoarticular (bones & joints, discitis))",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+infect_nonpulm_yn___8,Did patient have a non-pulmonary infection? (choice=Other specific non-pulmonary source),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+infect_nonpulm_yn___9,Did patient have a non-pulmonary infection? (choice=Multiple non-pulmonary sources),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+infect_nonpulm_yn___10,"Did patient have a non-pulmonary infection? (choice=Non-pulmonary infection, source unclear)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_oxygen,"Discharged on new or increased nasal cannula,  face mask, or high-flow oxygen therapy?",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_oxygen_level,Level of new oxygen support,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_nippv,Discharged on new or increased non-invasive positive pressure ventilation (NIPPV/BiPAP/CPAP) for ongoing respiratory support?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_vent,Discharged on new mechanical ventilation?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_trach,Discharged with a new tracheotomy?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_trach_level,Level of support via tracheostomy,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dispo_dialysis,Discharged on new dialysis?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_icu,Did patient spend any time in an ICU or ICU step-down/intermediate care unit during this admission?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_icu_cnt,Number of times patient admitted to ICU during encounter,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_tot_icu_end,Was patient in ICU at time of hospital death or discharge?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+icu_date_admit1,Day of first ICU admission,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+icu_date_dc1,Day of first ICU discharge,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+icu_date_admit2,Day of second ICU admission,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+icu_date_dc2,Day of second discharge,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+icu_date_admit3,Day of third ICU admission,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+icu_date_dc3,Day of  third ICU discharge,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+icu_date_admit4,Day of fourth ICU admission,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+icu_date_dc4,Day of  FINAL ICU discharge,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_tot_o2therapy,"Nasal cannula, face mask, or HFNC oxygen therapy",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_o2flow,"Maximum O2 flow via NC, face mask, or HFNC",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_o2mode___1,Methods used to provide oxygen support (choice=Nasal cannula),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_o2mode___3,Methods used to provide oxygen support (choice=Simple mask),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_o2mode___4,Methods used to provide oxygen support (choice=Mask with reservoir),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_o2mode___2,Methods used to provide oxygen support (choice=HFNC),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_o2_days,Total days of inpatient oxygen therapy up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_tot_nippv,"Non-invasive ventilation (e.g. BiPAP, CPAP)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_nippv_days,Total days of inpatient NIPPV therapy up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_tot_vent,Invasive ventilation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_vent_cnt,Number of episodes of mechanical ventilation during encounter,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_tot_vent_end,Was patient on invasive mechanical ventilation at time of hospital death or discharge?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_intub1_date,Day of first intubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_extub1_date,Day of first extubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_intub2_date,Day of second intubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_extub2_date,Day of second extubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_intub3_date,Day of third intubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_extub3_date,Day of  third extubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_intub4_date,Day of fourth intubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_extub4_date,Day of  FINAL extubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_tot_pressor,Inotropes/vasopressors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_pressor_days,Total days of inpatient vasopressor therapy up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_tot_ecmo,ECMO,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_ecmo_days,Total days on ECMO therapy up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_tot_prone,Prone positioning,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_prone_days,Total days of proning therapy up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_tot_ino,Treated with inhaled pulmonary vasodilators (nitric oxide [iNO] or epoprostenol [Flolan]),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_ino_days,Total days received inhaled pulmonary vasodilators up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_tot_nmb,Therapeutic neuromuscular blockade / therapeutic paralysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_nmb_days,Total days received therapeutic neuromuscular blockade up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hosp_tot_dialysis,Renal replacement therapy / dialysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_crrt,Received continuous renal replacement therapy at any point during this admission,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+tx_hosp_tot_rrt_days,Total days of inpatient dialysis/renal replacement therapy therapy up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+tx_hospt_tot_o2source,Source of oxygen,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dx_hosp_image_chest,Did patient have chest X-ray or chest CT during the admission?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_hosp_image_cxr_cnt,Total number of chest X-rays,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dx_hosp_image_cxr_res,Airspace opacities on chest X-ray,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_hosp_image_cxr_eff,Pleural effusion on chest X-ray,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_hosp_image_ct_cnt,Total number of chest CTs,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dx_hosp_image_ct_res,Airspace opacities on chest CT,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_hosp_image_ctabd_count,Total number of abdominal or abdominal/pelvis CTs,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dx_hosp_image_tte_cnt,Total number of formal echocardiagrams (TEE or TTE) available for upload,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dx_hosp_image_pocus_cnt,"Total number of informal/point-of-care ultrasounds with stored images available (includes echocardiagrams, lung ultrasound, and other informal point-of-care ultrasound)",redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dx_hosp_image_ecg_cnt,Total number of electrocardiograms (ECGs) available for upload,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dx_hosp_image_tele_cnt,Total number of telemetry files for upload,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dx_micro_influenza,Influenza,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_influenza_type,Influenza type,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_othercorona,Non-COVID coronavirus,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_otherresp,Other respiratory pathogens detected via molecular testing?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_other___1,What respiratory pathogens were detected? (choice=True-positive bacterial pulmonary culture),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_other___2,What respiratory pathogens were detected? (choice=True-positive fungal pulmonary culture),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_other___3,What respiratory pathogens were detected? (choice=Strep urine antigen),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_other___4,What respiratory pathogens were detected? (choice=Legionella urine antigen),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_other___5,What respiratory pathogens were detected? (choice=RSV),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_other___6,What respiratory pathogens were detected? (choice=Metapneumovirus),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_other___7,What respiratory pathogens were detected? (choice=Parainfluenza),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_other___8,What respiratory pathogens were detected? (choice=Adenovirus),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_other___9,What respiratory pathogens were detected? (choice=Rhinovirus),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_other___10,What respiratory pathogens were detected? (choice=Mycoplasma),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_other___11,What respiratory pathogens were detected? (choice=Chlamydia pneumoniae),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_other___99,What respiratory pathogens were detected? (choice=Other),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_cx_bact,True positive bacterial pulmonary culture?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_cx_fungal,True positive fungal pulmonary culture?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_resp_spec,Specify culture(s) or other result,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_hiv,HIV test during admission,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_urine,True positive urine culture?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_blood,True positive blood culture?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_other,Other true-positive culture?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_cdiff,C difficile assay positive,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+dx_micro_vhf,Viral hemorrhagic fever,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dx_micro_pubhealth,Other pathogen of public interest detected,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dx_micro_malaria_falc,Falciparum malaria,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+dx_micro_malaria_other,Non-falciparum malaria,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comp_seizure,Seizures,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_meningitis,Meningitis/encephalitis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_stroke,Stroke/cerebrovascular accident (CVA),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_stroke_ischemic,Ischemic/embolic stroke,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_stroke_hemorrhagic,Hemorrhagic stroke,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_arrhyth_afib,Atrial fibrillation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_arrhyth_ventric,Ventricular arrhythmia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_endocarditis,Endocarditis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_carditis,Myocarditis/pericarditis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_arrest,Cardiac arrest,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_stemi,ST-elevation MI (STEMI),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_nstemi,Non-ST elevation MI (NSTEMI) or other cardiac ischemia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_chf,Congestive heart failure (CHF) / cardiomyopathy,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_pna,Pneumonia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_bronchiol,Bronchiolitis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_ards,ARDS,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_artischemia,Acute arterial thromboembolism excluding stroke/CVA or yocardial infarction,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_vte,Acute venous thromboembolism,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_pe,Pulmonary embolism (PE),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_dvt,Deep vein thrombosis (DVT) of proximal or central vein,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_shock,Shock (use of vasopressors),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_bacteremia,Bacteremia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_coagulopathy,Coagulation disorder / disseminated intravascular coagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_hypoglycemia,Symptomatic hypoglycemia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_bleeding,Bleeding,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_anemia,Anemia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_panc,Pancreatitis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_aki,Acute renal injury/failure,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_ali,Liver dysfunction/failure,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comp_other,Other complication,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_tot_exp,Was a medication given as part of a research trial?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_exp_blind,Was patient's treatment assignment blinded?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_exp_specb,"For blinded studies, list the treatment assignment possibilities/options.",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_exp_specu,"For unblinded/open-label studies, list the treatment assignment patient received.",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_hcq,Hydroxychloroquine (plaquenil),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_remdesivir,Remdesivir,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_toci,Tocilizumab (Actemra),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___0,Other medication(s) relevant for targeted COVID-19 treatment (choice=None),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___1,Other medication(s) relevant for targeted COVID-19 treatment (choice=Chloroquine),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___2,Other medication(s) relevant for targeted COVID-19 treatment (choice=Lopinavir/ritonavir (Kaletra)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___3,Other medication(s) relevant for targeted COVID-19 treatment (choice=Other HIV protease inhibitor),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___4,Other medication(s) relevant for targeted COVID-19 treatment (choice=Interferon alpha),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___5,Other medication(s) relevant for targeted COVID-19 treatment (choice=Interferon beta),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___6,Other medication(s) relevant for targeted COVID-19 treatment (choice=Ribavirin),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___7,Other medication(s) relevant for targeted COVID-19 treatment (choice=Oseltamivir (Tamiflu)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___8,Other medication(s) relevant for targeted COVID-19 treatment (choice=Baloxavir),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___9,Other medication(s) relevant for targeted COVID-19 treatment (choice=Sarulimab (Kevzara)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___10,Other medication(s) relevant for targeted COVID-19 treatment (choice=Anakinra (Kinaret)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___11,Other medication(s) relevant for targeted COVID-19 treatment (choice=IV vitamin C),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___12,Other medication(s) relevant for targeted COVID-19 treatment (choice=Transfusion of convalescent plasma),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other___99,Other medication(s) relevant for targeted COVID-19 treatment (choice=Other),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_other_oth,List other medication(s) given to treat acute illness,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_antiviral_yn,Antiviral (excluding meds given as part of placebo-controlled RCT),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_tot_azithro,Azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_otherabx,Antibiotics other than azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_vteppx,Prophylactic anticoagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_anticoag,Therapeutic anticoagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_lytic,Fibrinolytic (lytic) therapy,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_nsaid,NSAIDs (non-steroidal anti-inflammatory drugs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_acei,ACE inhibitors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_arb,Angiotensin receptor blockers (ARBs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_cs_yn,"Any steroids (oral, IV, or inhaled)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_cs_iv,IV steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_cs_po,Oral/enteric steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_cs_inh,Inhaled steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+meds_hosp_tot_fluids_iv,IV fluids,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_tot_fluids_oral,Oral/orogastric fluids,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_tot_fungal,Anti-fungal,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+meds_hosp_tot_malaria,Anti-malarial,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+language_pref,What is the patient's preferred language?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+language_pref_other,Please specify preferred language:,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+language_english_yn,Does the patient speak English?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+charlson,Charlson score,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+admit_hosp_los,Total hospital length of stay (from hospital admit),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+admit_icu_los,Total ICU length of stay (from hospital admit),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+admit_vfd,VFD from admission to hospital discharge or day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+admit_hfd,Hospital-free days from hospital admit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+cx_covid1_spectype,COVID-19 specimen #1 type (e.g. nasopharyngeal swab),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+cx_covid1_facility_type,Setting in which patient had first COVID testing,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+cx_covid1_order_dt,COVID-19 test #1 order day,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+cx_covid1_order_tm,COVID-19 test #1 order time,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+cx_covid1_result_dt,COVID-19 test #1 result day,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+cx_covid1_result_tm,COVID-19 test #1 result time,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+cx_covid_pos_spectype,COVID-19 specimen type for first positive test,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+cx_covid_pos_facility_type,Setting in which patient had their first positive COVID PCR,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+cx_covid_pos_order_dt,Order day for first positive COVID-19 PCR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+cx_covid_pos_order_tm,Order time for first positive COVID-19 PCR,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+cx_covid_pos_result_dt,Result day for first positive COVID-19 PCR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+cx_covid_pos_result_tm,Result time for first positive COVID-19 PCR,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+lab_hosp_worst_wbc,Lowest WBC after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_lymph,Lowest lymphocyte count after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_pmn,Highest neutrophil count after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_platelet,Lowest platelet after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_hct,Lowest hematocrit after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_hgb,Lowest hemoglobin after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_lactate,Highest lactate after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_ptt,Highest aPTT after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_inr,Highest INR after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_ast,Highest AST after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_alt,Highest ALT after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_bili,Highest total bilirubin after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_alb,Lowest albumin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_k,Highest potassium after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_hco3,Lowest serum bicarbonate (HCO3),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_bun,Highest BUN after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_cr,Highest creatinine after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_pct,Highest procalcitonin after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_ldh,Highest LDH after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_crp,Highest CRP after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_ferritin,Highest ferritin after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_trop,Highest troponin after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_bnp,Highest BNP after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_ddimer,Highest D-dimer after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_ck,Highest CK after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+lab_hosp_worst_il6,Highest Il-6 after hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+comorb_elix_arrhyth,Elixhauser-Cardiac arrhythmias,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_valve,Elixhauser-Valvular disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_chf,Elixhauser-Congestive heart failure,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_pulmhtn,Elixhauser-Pulmonary circulation disorder,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_pvd,Elixhauser-Peripheral vascular disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_htn_mild,"Elixhauser-Hypertension, uncomplicated",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_htn_severe,"Elixhauser-Hypertension, complicated",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_neuro,Elixhauser-Other neurologic disorders,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_pulm,Elixhauser-Chronic pulmonary disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_ctd,Elixhauser-Connective tissue disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_pud,Elixhauser-Peptic ulcer disease without bleeding,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_aids,Elixhauser-AIDS,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_liver,Elixhauser-Liver disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_dm_mild,Elixhauser-Diabetes without end-organ damage,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_paralysis,Elixhauser-Paralysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_renal_sev,Elixhauser-Renal failure,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_dm_severe,"Elixhauser-Diabetes with end-organ damage (retinopathy, neuropathy, nephropathy)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_hypothyroid,Elixhauser-Hypothyroidism,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_tumor_no,Elixhauser-Solid tumor with metastasis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_lymphoma,Elixhauser-Lymphoma,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_tumor_mets,Elixhauser-Metastatic solid tumor,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_coag,Elixhauser-Coagulopathy,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_obesity,Elixhauser-Obesity,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_wtloss,Elixhauser-Weight loss,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_lytes,Elixhauser-Fluid and electrolyte disorders,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_anemia_loss,Elixhauser-Blood loss anemia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+comorb_elix_amemia_def,Elixhauser-Deficiency anemias,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_1,ICD-10 code #1,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_2,ICD-10 code #2,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_3,ICD-10 code #3,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_4,ICD-10 code #4,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_5,ICD-10 code #5,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_6,ICD-10 code #6,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_7,ICD-10 code #7,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_8,ICD-10 code #8,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_9,ICD-10 code #9,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_10,ICD-10 code #10,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_11,ICD-10 code #11,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_12,ICD-10 code #12,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_13,ICD-10 code #13,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_14,ICD-10 code #14,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_15,ICD-10 code #15,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_16,ICD-10 code #16,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_17,ICD-10 code #17,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_18,ICD-10 code #18,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_19,ICD-10 code #19,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_20,ICD-10 code #20,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_21,ICD-10 code #21,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_22,ICD-10 code #22,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_23,ICD-10 code #23,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_24,ICD-10 code #24,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_25,ICD-10 code #25,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_26,ICD-10 code #26,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_27,ICD-10 code #27,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_28,ICD-10 code #28,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_29,ICD-10 code #29,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_30,ICD-10 code #30,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_31,ICD-10 code #31,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_32,ICD-10 code #32,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_33,ICD-10 code #33,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_34,ICD-10 code #34,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_35,ICD-10 code #35,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_36,ICD-10 code #36,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_37,ICD-10 code #37,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_38,ICD-10 code #38,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+admit_icd10_39,ICD-10 code #39,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+admit_icd10_40,ICD-10 code #40,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_RED_ELIGIBLE,Patient eligible for RED CORAL (YES/NO),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_RED_EXCLUSION,"If C_RED_ELIGIBLE=”Yes”, nature of exclusion.",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_cx_covid_yn,COVID-19 test done,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_cx_covid_pos_ever_yn,Any positive COVID-19 test?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_cx_covid_pos_first_dt,Specimen collection day for first positive test,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_cx_covid_pos_first_tm,Specimen collection time for first positive test,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_admit_yn,Was COVID-19 associated with an admission to a study hospital?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_admit_cause,Did COVID-19 contribute to need for hospital admission?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_admit_cause_other,"Reason for admission if other than COVID-19 symptoms, disease, or associated complications",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_admit_admit_dt,Day of first admission to study hospital,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_admit_admit_tm,Time of first admission to study hospital,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_ADMIT_DT,Calendar day of admission to study hospital,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_admit_ed_yn,Did this admission occur via the study hospital's ED?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_admit_ed_arrival_dt,Study hospital ED arrival day for ED visit leading to first hospital admission,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_admit_ed_arrival_tm,Study hospital ED arrival time for ED visit leading to first hospital admission,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_elig_fever,History of self reported feverishness or measured fever of >38>C (>100.4>F),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_elig_cough,Cough,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_elig_dyspnea,Dyspnea (shortness of breath) OR tachypnea*,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_elig_eval_coral,Is patient being evaluated for retrospective (RED CORAL) or prospective (BLUE CORAL) cohort?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_elig_prisoner,Known to be a prisoner or otherwise in legal custody at time of admission to the hospital,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_elig_priorenroll,Previous admission for COVID-19,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_DETAIL,Detailed data collection done (Yes/No),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_AGE,Patient age,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_sex,Sex,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_race,Race,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_ethnicity,Hispanic ethnicity,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_pregnant,Pregnant (Y/N),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_pregnant_weeks,Gestational age,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_admit_source,Patient location/living situation prior to onset of current illness episode,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_admit_source_other,Specify other patient location/living situation prior to onset of current illness episode,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_exposure_hcw,Is patient a healthcare worker?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_smoking,Cigarette or tobacco smoking,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_vaping,Vaping,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_admit_admit_type,Hospital admission type,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_admit_admit_resourcelimit,Any indication in admission documentation of external triage limitations on access to intensive care?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_admit_transfer_why___1,Reason for transfer (choice=Regionalized COVID-19 care),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_admit_transfer_why___2,Reason for transfer (choice=Capacity issues at other hospital),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_admit_transfer_why___3,Reason for transfer (choice=Need for higher level of care),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_admit_transfer_why___9,Reason for transfer (choice=Other/unknown),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_goals_advancedirect,Advanced directives or POLST in place before hospital admission?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_goals_limit,Patient limitations on life-sustaining therapy on admission,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_goals_self,Is patient able to make medical decisions on admission?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_goals_surrougate,Does patient have surrogate decision makers/next of kin?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_function_prioradmit,Hospital admission in the past 12 months,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_function_prioradmit_count,How many hospital admissions in past year?,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_function_prioradmit_days,How many days in acute care hospital in last 30 days,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_function_edadmit,ED visit in the past 12 months,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_function_walk,"Patient able to walk independently (>50', use of gait aid permitted)?",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_function_adls,Patient able to perform activities of daily living (ADLs) independently?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_function_frailty,Frailty scale,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_exp,Was a medication given as part of a research trial?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_exp_blind,Was patient's treatment assignment blinded?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_exp_specb,"For blinded studies, list the treatment assignment possibilities/options.",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_exp_specu,"For unblinded/open-label studies, list the treatment assignment patient received.",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_hcq,Hydroxychloroquine (plaquenil),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_remdesivir,Remdesivir,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_toci,Tocilizumab (Actemra),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___0,Other medication(s) relevant for targeted COVID-19 treatment (choice=None),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___1,Other medication(s) relevant for targeted COVID-19 treatment (choice=Chloroquine),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___2,Other medication(s) relevant for targeted COVID-19 treatment (choice=Lopinavir/ritonavir (Kaletra)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___3,Other medication(s) relevant for targeted COVID-19 treatment (choice=Other HIV protease inhibitor),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___4,Other medication(s) relevant for targeted COVID-19 treatment (choice=Interferon alpha),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___5,Other medication(s) relevant for targeted COVID-19 treatment (choice=Interferon beta),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___6,Other medication(s) relevant for targeted COVID-19 treatment (choice=Ribavirin),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___7,Other medication(s) relevant for targeted COVID-19 treatment (choice=Oseltamivir (Tamiflu)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___8,Other medication(s) relevant for targeted COVID-19 treatment (choice=Baloxavir),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___9,Other medication(s) relevant for targeted COVID-19 treatment (choice=Sarulimab (Kevzara)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___10,Other medication(s) relevant for targeted COVID-19 treatment (choice=Anakinra (Kinaret)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___11,Other medication(s) relevant for targeted COVID-19 treatment (choice=IV vitamin C),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___12,Other medication(s) relevant for targeted COVID-19 treatment (choice=Transfusion of convalescent plasma),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other___99,Other medication(s) relevant for targeted COVID-19 treatment (choice=Other),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_other_oth,List other medication(s) given to treat acute illness,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_azithro,Azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_otherabx,Antibiotics other than azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_sedatives___0,Sedatives used for patient while on ventilator (choice=None),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_sedatives___1,Sedatives used for patient while on ventilator (choice=Propofol),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_sedatives___2,Sedatives used for patient while on ventilator (choice=Dexmedetomidine (Precedex)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_sedatives___3,Sedatives used for patient while on ventilator (choice=Benzodiazepine (continuous infusion)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_sedatives___4,Sedatives used for patient while on ventilator (choice=Benzodiazepine (intermittent bolus)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_sedatives___5,Sedatives used for patient while on ventilator (choice=Ketamine),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_sedatives___9,Sedatives used for patient while on ventilator (choice=Other),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_vteppx,Prophylactic anticoagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_anticoag,Therapeutic anticoagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_lytic,Fibrinolytic (lytic) therapy,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_nsaid,NSAIDs (non-steroidal anti-inflammatory drugs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_acei,ACE inhibitors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_arb,Angiotensin receptor blockers (ARBs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_cs_yn,"Any steroids (oral, IV, or inhaled)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_cs_iv,IV steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_cs_po,Oral/enteric steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_cs_inh,Inhaled steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_24h_cs_pred,Total prednisone administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_meds_hosp_24h_cs_mp,"Total methylprednisolone (Solumedrol, Medrol) administered (in mg) during 24h period",redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_meds_hosp_24h_cs_hct,Total hydrocortisone administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_meds_hosp_24h_cs_dex,Total dexamethasone (Decadron) administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_meds_hosp_24h_cs_plone,Total prednisolone administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_meds_hosp_24h_fluids_iv,Received >2L IV fluids within first 24 hours of hospital arrival?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_lab_hosp_first_wbc,White blood count,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_24h_wbc_low,Lowest WBC,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_24h_wbc_high,Highest WBC,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_lymph,Lymphocyte count,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_pmn,Neutrophil count (ANC),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_platelet,Platelets,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_hct,Hematocrit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_24h_hct_low,Lowest Hct,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_24h_hct_high,Highest Hct,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_hgb,Hemoglobin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_lactate,Lactate,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_ptt,PTT,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_pt,PT,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_inr,INR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_ast,AST,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_alt,ALT,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_bili,Total bilirubin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_alb,Albumin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_na,Sodium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_24h_na_low,Lowest sodium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_24h_na_high,Highest sodium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_k,Potassium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_24h_k_low,Lowest potassium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_24h_k_high,Highest potassium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_hco3,Serum bicarbonate (HCO3),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_bun,BUN,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_cr,Creatinine,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_gluc,Glucose,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_pct,Procalcitonin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_crp,CRP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_ldh,LDH,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_ck,CK,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_trop,Troponin I,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_bnp,BNP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_esr,ESR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_ddimer,D-dimer,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_ferritin,Ferritin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_il6,IL-6,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_pao2,First PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_fio2,FiO2 at time of first PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_ph,pH at time of first PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_first_paco2,PaCO2 at time of first PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_24h_pao2_lowest,Lowest PaO2 within 24h of hospital arrival,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_24h_fio2_low,FiO2 at time of lowest PaO2.,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_24h_ph_low,pH from ABG with lowest PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_24h_vent_low,On ventilator at time of lowest PaO2?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_24h_icu,ICU or ICU step-down/intermediate care unit admission,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_24h_o2therapy,"Nasal cannula, face mask, or HFNC oxygen therapy",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_24h_o2flow,"Maximum O2 flow via NC, face mask, or HFNC",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_24h_o2mode,Most intense method used to give support,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_24h_nippv,"Non-invasive ventilation (e.g. BiPAP, CPAP)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_24h_vent,Invasive ventilation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_24h_pressor,Inotropes/vasopressors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_24h_pressor_dose,Dose of vasopressors/inotropes,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_24h_ecmo,ECMO,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_24h_prone,Prone positioning,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_24h_ino,Treated with inhaled pulmonary vasodilators (nitric oxide [iNO] or epoprostenol [Flolan]),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_24h_nmb,Therapeutic neuromuscular blockade / therapeutic paralysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_24h_rrt,Renal replacement therapy / dialysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_vs_hosp_first_temp,Temperature (>C),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_hr,Heart rate,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_rr,Respiratory rate,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_sbp,Systolic blood pressure,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_dbp,Diastolic blood pressure,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_map,First mean arterial pressure,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_o2sat,Oxygen saturation (%),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_fio2,FiO2 at time of oxygen sat,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_o2supp,Oxygen support at time of first O2 sat,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_gcs_avail,Was GCS explicitly documented?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_vs_hosp_first_gcs,GCS,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_weight,First weight (kg),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_height,First height (cm),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_bmi,First BMI (auto-calculated),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_rass,First RASS,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_first_cam,First CAM,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_vs_hosp24_temp_low,Lowest temperature (>C),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp24_temp_high,Highest temperature (>C),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp24_hr_low,Lowest HR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp24_hr_high,Highest HR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp24_rr_low,Lowest RR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp24_rr_high,Highest RR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp24_sbp_low,Lowest SBP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp24_sbp_high,Highest SBP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp24_map_low,Lowest MAP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp24_map_high,Highest MAP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp24_o2sat_low,Lowest O2 sat (%),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp24_fio2_high,FiO2 at time of lowest O2 sat,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp24_gcs_low,Lowest GCS,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_NUM_SYMPTOMS,Number of symptoms noted,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_fever_combo,Calculated variable combining admission signs and symptoms fever and eligibility (YES/NO),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_fever,Fever,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_cough_combo,Calculated variable combining admission signs and symptoms cough/cough with sputum production and eligibility,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_cough,Cough,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_cough_prod,Cough with sputum production,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dyspnea_combo,"Calculated variable combining admission signs and symptoms Shortness of breath (dyspnea) at rest, with exertion or lying flat (orthopnea) and eligibility",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_dyspnea,"Shortness of breath (dyspnea) at rest, with exertion or lying flat (orthopnea)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_chills,Chills/rigors/shivering,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_sorethroat,Sore throat,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_rhinorhea,Runny nose (rhinorrhoea),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_wheeze,Wheezing,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_chestpain,Chest pain,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_myalgia,Muscle aches (myalgia),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_arthralgia,Joint pain (arthralgia),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_fatigue,Fatigue/malaise,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_edema,Swelling (edema),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptoms_nonamb,Unable to walk,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_headache,Headache,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_confusion,Altered consciousness or confusion,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_seizure,Seizures,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_syncope,Fainting (syncope),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_anosmia,Loss or impairment of sense of smell (anosmia),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_ageusia,Loss or impairment of sense of taste (ageusia),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_abdpain,Abdominal pain,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_nausea,Nausea/vomiting,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_diarrhea,Diarrhea,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_conjunctivitis,Conjunctivitis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_bleeding,Bleeding/hemorrhage,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_bleeding_site,Bleeding site,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_mi,Charlson--Myocardial infarction,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_chf,Charlson--Congestive heart failure,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_arrhth_atrial,Atrial arrhythmia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_arrhth_other,Other (non-atrial) arrhythmia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_htn,Hypertension,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_pvd,Charlson--Peripheral vascular disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_cva_mild,Charlson--Cerebrovascular disease (with mild or no residual or TIA),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_hemiplegia,Charlson--Hemiplegia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_dementia,Charlson--Dementia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_pulm,Charlson--Chronic pulmonary disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_copd,COPD/emphysema/chronic bronchitis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_ild,Interstitial lung disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_asthma,Asthma,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_homeo2,Home respiratory support,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_homeo2_amount,Highest amount of oxygen used at baseline base,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_comorb_charlson_pud,Charlson--Peptic ulcer disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_liver_mild,Charlson--Mild liver disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_liver_sev,Charlson--Moderate or severe liver disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_dm_mild,Charlson--Diabetes without end-organ damage,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_dm_severe,Charlson--Diabetes with end-organ damage,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_ctd,Charlson--Connective tissue disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_renal_sev,Charlson--Moderate or severe renal disease,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_dialysis,Chronic dialysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_tumor_no,Charlson--Tumor without metastases,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_omorb_charlson_tumor_mets,Charlson--Metastatic solid tumor,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_leukemia,Charlson--Leukemia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_lymphoma,Charlson--Lymphoma,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_charlson_aids,Charlson--AIDS,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_hiv,HIV,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_tb,Tuberculosis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_elix_etoh,Alcohol abuse,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_elix_drugs,Drug abuse,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_elix_depression,Depression,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_ptsd,PTSD,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comorb_anxiety,Anxiety,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_CHARLSON_MI,Calculated Charlson myocardial infarction component (0/1),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_CHF,Calculated Charlson CHF component (0/1),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_PVD,Calculated Charlson peripheral vascular disease component (0/1),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_CVA_TIA,Calculated Charlson CIA or TIA component (0/1),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_DEMENTIA,Calculated Charlson dementia component (0/1),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_COPD,Calculated Charlson COPD component (0/1),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_CONNECTIVE,Calculated Charlson connective tissue disease component (0/1),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_PEPTIC,Calculated Charlson peptic ulcer disease component (0/1),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_LIVER,Calculated Charlson liver disease component (0/1/3),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_DIABETES,Calculated Charlson diabetes mellitus component (0/1/2),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_HEMIPLEGIA,Calculated Charlson hemiplegia component (0/2),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_CKD,Calculated Charlson moderate to severe chronic kidney disease component (0/2),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_SOLID_TUMOR,Calculated Charlson solid tumor component (0/2/6),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_LEUKEMIA,Calculated Charlson leukemia component (0/2),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_LYMPHOMA,Calculated Charlson lymphoma component (0/2),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_AIDS,Calculated Charlson AIDS component (0/6),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_AGE,"Calculated Charlson age component (0 < 50, 1 50-59, 2 60-69, 3 70-79, 4 >=80)",redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_INDEX_NO_AGE,Calculated Charlson score without age component,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_CHARLSON_INDEX,Calculated Charlson Comorbidity Index (CCI),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_meds_home_exp,Is patient known to have received medication(s) as part of a COVID-19 research trial prior to study hospital arrival?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_exp_blind,Was patient's treatment assignment blinded?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_exp_specb,"For blinded studies, list the treatment assignment possibilities/options.",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_exp_specu,"For unblinded/open-label studies, list the treatment assignment patient received.",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_acei,ACE inhibitors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_arbs,Angiotensin receptor blockers (ARBs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_home_meds_htn_other,Other anti-hypertensive,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_nsaids,NSAIDs (non-steroidal anti-inflammatory drugs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_asa,Aspirin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_statin,Statin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_steroidpo,Chronic systemic/oral steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_steroidinh,Chronic inhaled steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_immsupp,Immunosuppressive medication,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_haart,Antiretroviral therapy (ART/HAART) for HIV/AIDS,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_chloroquine,Chloroquine,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_hcq,Hydroxychloroquine (plaquenil),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_hcq_chronic,Reason for hydroxychloroquine or chloroquine?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_azithro,Azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_home_azithro_chronic,Reason for azithromycin?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_seizure,Seizures,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_meningitis,Meningitis/encephalitis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_stroke,Stroke/cerebrovascular accident (CVA),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_stroke_ischemic,Ischemic/embolic stroke,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_stroke_hemorrhagic,Hemorrhagic stroke,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_arrhyth_afib,Atrial fibrillation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_arrhyth_ventric,Ventricular arrhythmia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_endocarditis,Endocarditis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_carditis,Myocarditis/pericarditis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_arrest,Cardiac arrest,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_stemi,ST-elevation MI (STEMI),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_nstemi,Non-ST elevation MI (NSTEMI) or other cardiac ischemia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_chf,Congestive heart failure (CHF) / cardiomyopathy,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_pna,Pneumonia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_bronchiol,Bronchiolitis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_ards,ARDS,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_artischemia,Acute arterial thromboembolism excluding stroke/CVA or yocardial infarction,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_vte,Acute venous thromboembolism,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_pe,Pulmonary embolism (PE),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_dvt,Deep vein thrombosis (DVT) of proximal or central vein,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_shock,Shock (use of vasopressors),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_bacteremia,Bacteremia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_coagulopathy,Coagulation disorder / disseminated intravascular coagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_hypoglycemia,Symptomatic hypoglycemia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_bleeding,Bleeding,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_anemia,Anemia,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_panc,Pancreatitis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_aki,Acute renal injury/failure,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_comp_ali,Liver dysfunction/failure,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_hosp_image_chest,Did patient have chest X-ray or chest CT during the admission?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_hosp_image_cxr_cnt,Total number of chest X-rays,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_dx_hosp_image_cxr_res,Airspace opacities on chest X-ray,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_hosp_image_cxr_eff,Pleural effusion on chest X-ray,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_hosp_image_ct_cnt,Total number of chest CTs,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_dx_hosp_image_ct_res,Airspace opacities on chest CT,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_hosp_image_ctabd_count,Total number of abdominal or abdominal/pelvis CTs,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_dx_hosp_image_tte_cnt,Total number of formal echocardiagrams (TEE or TTE) available for upload,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_dx_hosp_image_pocus_cnt,"Total number of informal/point-of-care ultrasounds with stored images available (includes echocardiagrams, lung ultrasound, and other informal point-of-care ultrasound)",redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_dx_hosp_image_ecg_cnt,Total number of electrocardiograms (ECGs) available for upload,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_dx_hosp_image_tele_cnt,Total number of telemetry files for upload,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_dx_micro_influenza,Influenza,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_influenza_type,Influenza type,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_othercorona,Non-COVID coronavirus,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_otherresp,Other respiratory pathogens detected via molecular testing?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_other___1,What respiratory pathogens were detected? (choice=True-positive bacterial pulmonary culture),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_other___2,What respiratory pathogens were detected? (choice=True-positive fungal pulmonary culture),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_other___3,What respiratory pathogens were detected? (choice=Strep urine antigen),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_other___4,What respiratory pathogens were detected? (choice=Legionella urine antigen),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_other___5,What respiratory pathogens were detected? (choice=RSV),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_other___6,What respiratory pathogens were detected? (choice=Metapneumovirus),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_other___7,What respiratory pathogens were detected? (choice=Parainfluenza),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_other___8,What respiratory pathogens were detected? (choice=Adenovirus),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_other___9,What respiratory pathogens were detected? (choice=Rhinovirus),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_other___10,What respiratory pathogens were detected? (choice=Mycoplasma),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_other___11,What respiratory pathogens were detected? (choice=Chlamydia pneumoniae),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_other___99,What respiratory pathogens were detected? (choice=Other),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_cx_bact,True positive bacterial pulmonary culture?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_cx_fungal,True positive fungal pulmonary culture?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_resp_spec,Specify culture(s) or other result,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_hiv,HIV test during admission,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_urine,True positive urine culture?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_blood,True positive blood culture?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_other,Other true-positive culture?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_micro_cdiff,C difficile assay positive,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_exp,Was a medication given as part of a research trial?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_exp_blind,Was patient's treatment assignment blinded?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_exp_specb,"For blinded studies, list the treatment assignment possibilities/options.",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_exp_specu,"For unblinded/open-label studies, list the treatment assignment patient received.",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_hcq,Hydroxychloroquine (plaquenil),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_remdesivir,Remdesivir,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_toci,Tocilizumab (Actemra),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___0,Other medication(s) relevant for targeted COVID-19 treatment (choice=None),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___1,Other medication(s) relevant for targeted COVID-19 treatment (choice=Chloroquine),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___2,Other medication(s) relevant for targeted COVID-19 treatment (choice=Lopinavir/ritonavir (Kaletra)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___3,Other medication(s) relevant for targeted COVID-19 treatment (choice=Other HIV protease inhibitor),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___4,Other medication(s) relevant for targeted COVID-19 treatment (choice=Interferon alpha),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___5,Other medication(s) relevant for targeted COVID-19 treatment (choice=Interferon beta),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___6,Other medication(s) relevant for targeted COVID-19 treatment (choice=Ribavirin),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___7,Other medication(s) relevant for targeted COVID-19 treatment (choice=Oseltamivir (Tamiflu)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___8,Other medication(s) relevant for targeted COVID-19 treatment (choice=Baloxavir),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___9,Other medication(s) relevant for targeted COVID-19 treatment (choice=Sarulimab (Kevzara)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___10,Other medication(s) relevant for targeted COVID-19 treatment (choice=Anakinra (Kinaret)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___11,Other medication(s) relevant for targeted COVID-19 treatment (choice=IV vitamin C),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___12,Other medication(s) relevant for targeted COVID-19 treatment (choice=Transfusion of convalescent plasma),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other___99,Other medication(s) relevant for targeted COVID-19 treatment (choice=Other),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_other_oth,List other medication(s) given to treat acute illness,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_azithro,Azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_otherabx,Antibiotics other than azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_vteppx,Prophylactic anticoagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_anticoag,Therapeutic anticoagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_lytic,Fibrinolytic (lytic) therapy,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_nsaid,NSAIDs (non-steroidal anti-inflammatory drugs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_acei,ACE inhibitors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_arb,Angiotensin receptor blockers (ARBs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_cs_yn,"Any steroids (oral, IV, or inhaled)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_cs_iv,IV steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_cs_po,Oral/enteric steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_tot_cs_inh,Inhaled steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_DIED,YES if patient expired at hospital discharge or captured as a late death.,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_death_cause,Cause of death,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_death_cause_other,Other cause of death,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_death_autopsy,Was an autopsy performed?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_yn,Were there any limitations of life-sustaining therapy at the time of death?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_icu___0,Limitation on ICU transfer? Reason(s)? (choice=No limitations),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_icu___1,Limitation on ICU transfer? Reason(s)? (choice=Limitation due to patient goals),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_icu___2,Limitation on ICU transfer? Reason(s)? (choice=Limitation due to hospital policy),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_icu___3,Limitation on ICU transfer? Reason(s)? (choice=Limitation due to MD decision (outside of crisis management)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_icu___8,Limitation on ICU transfer? Reason(s)? (choice=Limitation for other reason),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_icu___9,"Limitation on ICU transfer? Reason(s)? (choice=Limitation, reason unknown)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_cpr___0,Limitation on CPR (e.g. DNR)? Reason(s)? (choice=No limitations),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_cpr___1,Limitation on CPR (e.g. DNR)? Reason(s)? (choice=Limitation due to patient goals),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_cpr___2,Limitation on CPR (e.g. DNR)? Reason(s)? (choice=Limitation due to hospital policy),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_cpr___3,Limitation on CPR (e.g. DNR)? Reason(s)? (choice=Limitation due to MD decision (outside of crisis management)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_cpr___8,Limitation on CPR (e.g. DNR)? Reason(s)? (choice=Limitation for other reason),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_cpr___9,"Limitation on CPR (e.g. DNR)? Reason(s)? (choice=Limitation, reason unknown)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_vent___0,Limitation on intubation (e.g. DNI)? Reason(s)? (choice=No limitations),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_vent___1,Limitation on intubation (e.g. DNI)? Reason(s)? (choice=Limitation due to patient goals),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_vent___2,Limitation on intubation (e.g. DNI)? Reason(s)? (choice=Limitation due to hospital policy),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_vent___3,Limitation on intubation (e.g. DNI)? Reason(s)? (choice=Limitation due to MD decision (outside of crisis management)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_vent___8,Limitation on intubation (e.g. DNI)? Reason(s)? (choice=Limitation for other reason),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_vent___9,"Limitation on intubation (e.g. DNI)? Reason(s)? (choice=Limitation, reason unknown)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_pressors___0,Limitation on vasopressors? Reason(s)? (choice=No limitations),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_pressors___1,Limitation on vasopressors? Reason(s)? (choice=Limitation due to patient goals),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_pressors___2,Limitation on vasopressors? Reason(s)? (choice=Limitation due to hospital policy),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_pressors___3,Limitation on vasopressors? Reason(s)? (choice=Limitation due to MD decision (outside of crisis management)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_pressors___8,Limitation on vasopressors? Reason(s)? (choice=Limitation for other reason),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_pressors___9,"Limitation on vasopressors? Reason(s)? (choice=Limitation, reason unknown)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_rrt___0,Limitation on dialysis? Reason(s)? (choice=No limitations),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_rrt___1,Limitation on dialysis? Reason(s)? (choice=Limitation due to patient goals),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_rrt___2,Limitation on dialysis? Reason(s)? (choice=Limitation due to hospital policy),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_rrt___3,Limitation on dialysis? Reason(s)? (choice=Limitation due to MD decision (outside of crisis management)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_rrt___8,Limitation on dialysis? Reason(s)? (choice=Limitation for other reason),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_rrt___9,"Limitation on dialysis? Reason(s)? (choice=Limitation, reason unknown)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_cmo_yn,Was patient placed on comfort-focused care or made comfort measures only prior to death?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_txlimit_cmo_date,"Day patient was placed on ""comfort-focused care"" or made ""comfort measures only""",redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_dispo_function,How does ability to self-care at discharge compare versus before illness?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_function_walk,"At discharge, patient able to walk independently (>50', use of gait aid permitted)?",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_function_adls,"At discharge, patient able to perform ADLs independently?",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_infect_pulm,Did patient have a pulmonary infection?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_infect_nonpulm_yn___0,Did patient have a non-pulmonary infection? (choice=None),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_infect_nonpulm_yn___2,Did patient have a non-pulmonary infection? (choice=Urinary tract),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_infect_nonpulm_yn___3,"Did patient have a non-pulmonary infection? (choice=Intraabdominal, gastrointestinal, biliary)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_infect_nonpulm_yn___4,Did patient have a non-pulmonary infection? (choice=CNS/meningitis),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_infect_nonpulm_yn___5,Did patient have a non-pulmonary infection? (choice=Skin and soft tissue),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_infect_nonpulm_yn___6,Did patient have a non-pulmonary infection? (choice=Primary bloodstream/endocarditis),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_infect_nonpulm_yn___7,"Did patient have a non-pulmonary infection? (choice=Osteoarticular (bones & joints, discitis))",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_infect_nonpulm_yn___8,Did patient have a non-pulmonary infection? (choice=Other specific non-pulmonary source),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_infect_nonpulm_yn___9,Did patient have a non-pulmonary infection? (choice=Multiple non-pulmonary sources),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_infect_nonpulm_yn___10,"Did patient have a non-pulmonary infection? (choice=Non-pulmonary infection, source unclear)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_oxygen,"Discharged on new or increased nasal cannula, face mask, or high-flow oxygen therapy?",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_oxygen_level,Level of new oxygen support,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_nippv,Discharged on new or increased non-invasive positive pressure ventilation (NIPPV/BiPAP/CPAP) for ongoing respiratory support?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_vent,Discharged on new mechanical ventilation?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_trach,Discharged with a new tracheotomy?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_trach_level,Level of support via tracheostomy,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_dialysis,Discharged on new dialysis?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_o2therapy,"Nasal cannula, face mask, or HFNC oxygen therapy",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_o2flow,"Maximum O2 flow via NC, face mask, or HFNC",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_o2mode___1,Methods used to provide oxygen support (choice=Nasal cannula),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_o2mode___3,Methods used to provide oxygen support (choice=Simple mask),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_o2mode___4,Methods used to provide oxygen support (choice=Mask with reservoir),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_o2mode___2,Methods used to provide oxygen support (choice=HFNC),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_nippv,"Non-invasive ventilation (e.g. BiPAP, CPAP)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_nippv_days,Total days of inpatient NIPPV therapy up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_tot_pressor,Inotropes/vasopressors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_pressor_days,Total days of inpatient vasopressor therapy up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_tot_ecmo,ECMO,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_ecmo_days,Total days on ECMO therapy up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_tot_prone,Prone positioning,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_C_tx_hosp_tot_prone_days,Total days of proning therapy up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_tot_ino,Treated with inhaled pulmonary vasodilators (nitric oxide [iNO] or epoprostenol [Flolan]),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_ino_days,Total days received inhaled pulmonary vasodilators up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_tot_nmb,Therapeutic neuromuscular blockade / therapeutic paralysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_nmb_days,Total days received therapeutic neuromuscular blockade up to and including day 28,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_tot_dialysis,Renal replacement therapy / dialysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_crrt,Received continuous renal replacement therapy at any point during this admission,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_onset_known,Is the symptom onset date known?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_symptom_onset_date,Onset day of first/earliest symptom,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_SYMPTOM_ONSET_DAY,Calendar days before hospital admission of onset of first/earliest symptom,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_admit_transfer_yn,Patient transferred from another facility?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_admit_transfer_admitdt,Day first arrived at sending/referring facility,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_ED_ARRIVAL_DT,Study hospital ED arrival calendar day for ED visit leading to first hospital admission,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_admit_dc_dt,Hospital discharge/death day,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_admit_dc_tm,Hospital discharge/death time,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_ADMIT_DC_DT_1,Hospital discharge/death day,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_DISPO,Hospital disposition at discharge,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dispo_other,Other hospital discharge,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_HOSP_LOS,Hospital length of stay in calendar days,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_SUM28_OR_DISCH,First of either hospital discharge day or day 28 of hospital admission,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_DISCHARGE_BY_DAY28,Patient discharged from study hospital on or before day 28 (YES/NO),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_DAY28_MORTALITY,Day 28 mortality,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_DAY60_MORTALITY,Day 60 mortality,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_TX_HOSP_TOT_ICU,Did patient spend any time in an ICU or ICU step-down/intermediate care unit during this admission?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_TX_HOSP_TOT_ICU_CNT,Number of times patient admitted to ICU during encounter,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_TX_HOSP_TOT_ICU_END,Was patient in ICU at time of hospital death or discharge?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_ICU_DATE_ADMIT1,Day of first ICU admission,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_ICU_DATE_DC1,Day of first ICU discharge,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_ICU_DATE_ADMIT2,Day of second ICU admission,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_ICU_DATE_DC2,Day of second ICU discharge,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_icu_date_admit3,Day of third ICU admission,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_icu_date_dc3,Day of third ICU discharge,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_icu_date_admit4,Date of fourth ICU admission,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_icu_date_dc4,Date of FINAL ICU discharge,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_ICU_LOS,ICU length of stay in calendar days,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_ICUDISCHARGE_BY_DAY28,Patient discharged (dead or alive) from ICU on or before study day 28 (YES/NO; MISSING IF NEVER IN ICU),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_vent,Invasive ventilation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_tot_vent_cnt,Number of episodes of mechanical ventilation during encounter,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_tot_vent_end,Was patient on invasive mechanical ventilation at time of hospital death or discharge?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_INT_PTA,Intubated before arrival at study hospital (YES),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_intub1_date,Day of first intubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_extub1_date,Day of first extubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_intub2_date,Day of second intubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_extub2_date,Day of second extubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_intub3_date,Day of third intubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_extub3_date,Day of third extubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_intub4_date,Date of fourth intubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_extub4_date,Date of FINAL extubation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_DMV_IN_HOSP,Days of mechanical ventilation in hospital,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_date_dly,Day of assessment,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_ICU_IMCU_FLOOR,Patient in ICU or IMCU on calendar day (ICU/IMCU/FLOOR),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_inpt_dly,Was patient in the hospital at any point on this study day?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_death_dly,Is patient known to have died on or before this date?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_vs_hosp_temp_dly,Temperature (>C),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_hr_dly,Heart rate,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_rr_dly,Respiratory rate,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_sbp_dly,Systolic blood pressure,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_dbp_dly,Diastolic blood pressure,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_map_dly,Mean arterial pressure,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_map_l_dly,Lowest MAP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_o2sat_dly,Oxygen saturation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_fio2_dly,FiO2 at time of oxygen sat.,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_gcs_avail_dly,Was GCS explicitly documented?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_vs_hosp_gcs_dly,GCS,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_gcs_l_dly,Lowest GCS,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_rass_dly,RASS,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_cam_dly,CAM status,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_rrt_dly,Renal replacement therapy / dialysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_vs_hosp_netoutput_dly,24-hour total output (mL),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_vs_hosp_netintake_dly,24-hour total intake (mL),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_wbc_dly,WBC,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_lymph_dly,Lymphocyte count,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_platelet_dly,Platelets,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_platelet_l_dly,Lowest platelets,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_hct_dly,Hematocrit,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_hgb_dly,Hemoglobin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_lactate_dly,Lactate,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_inr_dly,INR,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_ast_dly,AST,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_alt_dly,ALT,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_bili_dly,Total bilirubin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_bili_h_dly,Highest total bilirubin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_alb_dly,Albumin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_k_dly,Potassium,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_hco3_dly,Serum bicarbonate (HCO3),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_bun_dly,BUN,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_cr_dly,Creatinine,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_cr_h_dly,Highest creatinine,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_pct_dly,Procalcitonin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_crp_dly,CRP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_ldh_dly,LDH,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_ck_dly,CK,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_trop_dly,Troponin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_bnp_dly,BNP,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_ddimer_dly,D-dimer,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_ferritin_dly,Ferritin,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_il6_dly,IL-6,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_pao2_dly,PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_fio2_dly,FiO2 at time of PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_ph_dly,pH at time of PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_paco2_dly,PaCO2 at time of PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_pao2_l_dly,Lowest PaO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_pf_l_dly,FiO2 accompanying lowest PaO2.,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_sao2_l_dly,Lowest O2 sat (%),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_lab_hosp_sf_l_dly,FiO2 accompanying lowest O2 sat,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_dx_ecg_yn_dly,Did patient have an electrocardiogram (ECG) during the calendar day?,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_dx_ecg_qtc_dly,QTc duration (ms),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_o2therapy_dly,"Nasal cannula, face mask, or HFNC oxygen therapy",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_o2flow_dly,"Maximum O2 flow via NC, face mask, or HFNC",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_o2mode_dly,Most intense method used to give support,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_nippv_dly,"Non-invasive ventilation (e.g. BiPAP, CPAP)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_vent_dly,Invasive ventilation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_pressor_dly,Inotropes/vasopressors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_pressor_dose_dly,Dose of vasopressors/inotropes,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_ecmo_dly,ECMO,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_ino_dly,Treated with inhaled pulmonary vasodilators (nitric oxide [iNO] or epoprostenol [Flolan]),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_nmb_dly,Therapeutic neuromuscular blockade / therapeutic paralysis,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_prone_dly,Prone positioning,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_vent_dly_mode,Ventilator mode,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_tx_hosp_vent_dly_vtset,Set tidal volume (mL),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_vent_dly_pcset,Set inspiratory pressure (cmH2O),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_vent_dly_psset,Pressure support set (cmH2O),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_vent_dly_vtact,Actual tidal volume (mL),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_vent_dly_peak,Peak pressure (cmH2O),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_vent_dly_plateau,Plateau pressure (cmH2O),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_vent_dly_rrset,Set respiratory rate (RR),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_vent_dly_rractual,Actual/total respiratory rate (RR),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_vent_dly_ve,Total minute ventilation,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_vent_dly_peep,"Positive end-expiratory pressure (PEEP, cmH20)",redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_vent_dly_fio2,FiO2,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_vent_dly_o2sat,O2 sat (%),redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_vent_dly_ieset,Set I:E ratio,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_tx_hosp_vent_dly_ieact,Actual I:E ratio,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_meds_hosp_hcq_dly,Hydroxychloroquine (plaquenil),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_remdesivir_dly,Remdesivir,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_toci_dly,Tocilizumab (Actemra),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___0,Other medication(s) relevant for targeted COVID-19 treatment (choice=None),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___1,Other medication(s) relevant for targeted COVID-19 treatment (choice=Chloroquine),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___2,Other medication(s) relevant for targeted COVID-19 treatment (choice=Lopinavir/ritonavir (Kaletra)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___3,Other medication(s) relevant for targeted COVID-19 treatment (choice=Other HIV protease inhibitor),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___4,Other medication(s) relevant for targeted COVID-19 treatment (choice=Interferon alpha),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___5,Other medication(s) relevant for targeted COVID-19 treatment (choice=Interferon beta),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___6,Other medication(s) relevant for targeted COVID-19 treatment (choice=Ribavirin),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___7,Other medication(s) relevant for targeted COVID-19 treatment (choice=Oseltamivir (Tamiflu)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___8,Other medication(s) relevant for targeted COVID-19 treatment (choice=Baloxavir),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___9,Other medication(s) relevant for targeted COVID-19 treatment (choice=Sarulimab (Kevzara)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___10,Other medication(s) relevant for targeted COVID-19 treatment (choice=Anakinra (Kinaret)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___11,Other medication(s) relevant for targeted COVID-19 treatment (choice=IV vitamin C),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___12,Other medication(s) relevant for targeted COVID-19 treatment (choice=Transfusion of convalescent plasma),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_dly___99,Other medication(s) relevant for targeted COVID-19 treatment (choice=Other),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_other_oth_dly,List other medication(s) given to treat acute illness,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_azithro_dly,Azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_abx_dly,Antibiotics other than azithromycin,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_sedatives_dly___0,Sedatives used for patient while on ventilator (choice=None),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_sedatives_dly___1,Sedatives used for patient while on ventilator (choice=Propofol),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_sedatives_dly___2,Sedatives used for patient while on ventilator (choice=Dexmedetomidine (Precedex)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_sedatives_dly___3,Sedatives used for patient while on ventilator (choice=Benzodiazepine (continuous infusion)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_sedatives_dly___4,Sedatives used for patient while on ventilator (choice=Benzodiazepine (intermittent bolus)),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_sedatives_dly___5,Sedatives used for patient while on ventilator (choice=Ketamine),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_sedatives_dly___9,Sedatives used for patient while on ventilator (choice=Other),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_vteppx_dly,Prophylactic anticoagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_anticoag_dly,Therapeutic anticoagulation,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_lytic_dly,Fibrinolytic (lytic) therapy,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_nsaid_dly,NSAIDs (non-steroidal anti-inflammatory drugs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_acei_dly,ACE inhibitors,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_arb_dly,Angiotensin receptor blockers (ARBs),redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_diuretic_dly,Diuretics,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_cs_yn_dly,"Any steroids (oral, IV, or inhaled)",redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_cs_iv_dly,IV steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_cs_po_dly,Oral/enteric steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_cs_inh_dly,Inhaled steroids,redcoral_decoded_newsearch.csv,REDCORAL,categorical
+d_C_meds_hosp_cs_pred_dly,Total prednisone administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_meds_hosp_cs_mp_dly,"Total methylprednisolone (Solumedrol, Medrol) administered (in mg) during 24h period",redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_meds_hosp_cs_hct_dly,Total hydrocortisone administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_meds_hosp_cs_dex_dly,Total dexamethasone (Decadron) administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous
+d_C_meds_hosp_cs_plone_dly,Total prednisolone administered (in mg) during 24h period,redcoral_decoded_newsearch.csv,REDCORAL,continuous

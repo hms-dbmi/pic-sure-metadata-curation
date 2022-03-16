@@ -36,12 +36,12 @@ proc contents data=work.import2 out=redcoral.fmts;
 run;
 
 * Export decoded data as the CSV file;
+filename output "/home/sasuser/red_coral/redcoral_decoded_newsearch.csv" encoding = 'utf-8';
 proc export data=redcoral.redcoral 
-		outfile="/home/sasuser/red_coral/redcoral_decoded_newsearch.csv";
-	delimiter=',';
+		outfile=output dbms='csv';
 run;
 
 * Save dataset contents as metadata - later saved as CSV to use for JSON metadata correction;
 proc datasets lib=redcoral;
-contents data=_ALL_ out=fusitest.metadata;
+contents data=_ALL_ out=redcoral.metadata;
 run;

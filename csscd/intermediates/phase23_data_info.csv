@@ -1,0 +1,1750 @@
+varname,LABEL,file,MEMNAME,picsure_type
+ANONID,ANONYMIZED ID #,phase23_abg_pubn.csv,ABG_PUBN,continuous
+ABGID2,FOLLOW-UP IDENTIFIER,phase23_abg_pubn.csv,ABG_PUBN,continuous
+ABGVERS,FORM VERSION,phase23_abg_pubn.csv,ABG_PUBN,categorical
+ABGPO2,41 BLOOD GAS - PO2(MMHG) READING,phase23_abg_pubn.csv,ABG_PUBN,continuous
+ABGPCO2,42 BLOOD GAS - PCO2(MMHG) READING,phase23_abg_pubn.csv,ABG_PUBN,continuous
+ABGPH,43 BLOOD GAS - PH READING,phase23_abg_pubn.csv,ABG_PUBN,continuous
+ABGBTMP,44 BODY TEMP AT TIME BLOOD WAS DRAWN,phase23_abg_pubn.csv,ABG_PUBN,categorical
+ABGPOX,5 WAS PULSE OXIMETRY PERFORMED,phase23_abg_pubn.csv,ABG_PUBN,categorical
+ABGPOSAT,51 %O2 SATURATION BY PULSE OXIMETRY,phase23_abg_pubn.csv,ABG_PUBN,categorical
+ABGCOOX,6 WAS CO-OXIMETRY PERFORMED,phase23_abg_pubn.csv,ABG_PUBN,categorical
+ABGCOSAT,61 %O2 SATURATION BY CO-OXIMETRY,phase23_abg_pubn.csv,ABG_PUBN,categorical
+ABGCARB,62 CARBOXYHEMOGLOBIN,phase23_abg_pubn.csv,ABG_PUBN,categorical
+ABGMETH,63 METHEMOGLOBIN,phase23_abg_pubn.csv,ABG_PUBN,categorical
+ABGIRPT,BLOOD GAS INSTITUTIONAL REPORT RECEIVED,phase23_abg_pubn.csv,ABG_PUBN,categorical
+ABGTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_abg_pubn.csv,ABG_PUBN,categorical
+ABGOVERS,VERSION DATA TRANSCRIBED FROM,phase23_abg_pubn.csv,ABG_PUBN,categorical
+abg_days,# of days phase 2 entry to arterial blood gas draw,phase23_abg_pubn.csv,ABG_PUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_acbcpubn.csv,ACBCPUBN,continuous
+SES,SOCIOECONOMIC STATUS,phase23_acbcpubn.csv,ACBCPUBN,continuous
+ANUM,VERSION YEAR,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TOTSPORT,I. TOTAL # SPORTS PLAYED,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TIMSPORA,Ia.1 TIME SPENT DOING SPORT A,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SKILLSPA,Ia.2 SKILL LEVEL OF SPORT A,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TIMSPORB,Ib.1 TIME SPENT DOING SPORT B,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SKILLSPB,Ib.2 SKILL LEVEL OF SPORT B,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TIMSPORC,Ic.1 TIME SPENT DOING SPORT C,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SKILLSPC,Ic.2 SKILL LEVEL OF SPORT C,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TOTACTIV,II. TOTAL # ACTIVITIES,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TIMEACTA,IIa.1 TIME SPENT ON ACTIVITY A,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SKILACTA,IIa.2 SKILL LEVEL OF ACTIVITY A,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TIMEACTB,IIb.1 TIME SPENT ON ACTIVITY B,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SKILACTB,IIb.2 SKILL LEVEL OF ACTIVITY B,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TIMEACTC,IIc.1 TIME SPENT ON ACTIVITY C,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SKILACTC,IIc.2 SKILL LEVEL OF ACTIVITY C,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TOTORGAN,III. TOTAL # ORGANIZATIONS,phase23_acbcpubn.csv,ACBCPUBN,continuous
+HOWACTA,IIIa. HOW ACTIVE IN ORGANIZATION A,phase23_acbcpubn.csv,ACBCPUBN,categorical
+HOWACTB,IIIb. HOW ACTIVE IN ORGANIZATION B,phase23_acbcpubn.csv,ACBCPUBN,categorical
+HOWACTC,IIIc. HOW ACTIVE IN ORGANIZATION C,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TOTJOB,IV. TOTAL # JOBS OR CHORES,phase23_acbcpubn.csv,ACBCPUBN,continuous
+HOWELLJA,IVa. HOW WELL CARRIES OUT CHORE A,phase23_acbcpubn.csv,ACBCPUBN,categorical
+HOWELLJB,IVb. HOW WELL CARRIES OUT CHORE B,phase23_acbcpubn.csv,ACBCPUBN,categorical
+HOWELLJC,IVc. HOW WELL CARRIES OUT CHORE C,phase23_acbcpubn.csv,ACBCPUBN,categorical
+NUMFRIEN,V.1 NUMBER OF CLOSE FRIENDS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TIMWEEKF,V.2 NUMBER OF TIMES/WEEK WITH FRIENDS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+GETALSIB,VI.a GETS ALONG WITH SIBLINGS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+GETALPEE,VI.b GETS ALONG WITH PEERS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+GETALPAR,VI.c BEHAVE WITH PARENTS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+PLAYWORK,VI.d PLAY & WORK BY HIM/HERSELF,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SUBJECTA,VII.1a CURRENT SCHOOL PERFORMANCE SUBJ A,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SUBJECTB,VII.1b CURRENT SCHOOL PERFORMANCE SUBJ B,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SUBJECTC,VII.1c CURRENT SCHOOL PERFORMANCE SUBJ C,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SUBJECTD,VII.1d CURRENT SCHOOL PERFORMANCE SUBJ D,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SUBJECTE,VII.1e CURRENT SCHOOL PERFORMANCE SUBJ E,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SUBJECTF,VII.1f CURRENT SCHOOL PERFORMANCE SUBJ F,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SUBJECTG,VII.1g CURRENT SCHOOL PERFORMANCE SUBJ G,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SPECCLAS,VII.2 IN SPECIAL CLASS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+REPGRADE,VII.3 EVER REPEATED A GRADE,phase23_acbcpubn.csv,ACBCPUBN,categorical
+OACAPRO,VII.4 ANY OTHER PROBLEMS IN SCHOOL,phase23_acbcpubn.csv,ACBCPUBN,categorical
+ACTYOUNG,VIII.1 ACTS TOO YOUNG,phase23_acbcpubn.csv,ACBCPUBN,categorical
+ALLERGY,VIII.2 ALLERGIES,phase23_acbcpubn.csv,ACBCPUBN,categorical
+ARGUES,VIII.3 ARGUES A LOT,phase23_acbcpubn.csv,ACBCPUBN,categorical
+ASTHMA,VIII.4 ASTHMA,phase23_acbcpubn.csv,ACBCPUBN,categorical
+BEHVOSEX,VIII.5 BEHAVES LIKE OPPOSITE SEX,phase23_acbcpubn.csv,ACBCPUBN,categorical
+BMOUTTOI,VIII.6 BOWEL MOVEMENTS OUTSIDE TOILET,phase23_acbcpubn.csv,ACBCPUBN,categorical
+BRAGGING,"VIII.7 BRAGGING, BOASTING",phase23_acbcpubn.csv,ACBCPUBN,categorical
+CANTCONC,VIII.8 CANT CONCENTRATE,phase23_acbcpubn.csv,ACBCPUBN,categorical
+OBSESSIO,VIII.9 CANT GET MIND OFF CERT THOUGHTS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+RESTLESS,VIII.10 CANT SIT STILL/RESTLESS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TOODEP,VIII.11 CLINGS TO ADULTS/ TOO DEPENDENT,phase23_acbcpubn.csv,ACBCPUBN,categorical
+LONELIN,VIII.12 COMPLAINS OF LONELINESS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+CONFUSED,VIII.13 CONFUSED,phase23_acbcpubn.csv,ACBCPUBN,categorical
+CRIES,VIII.14 CRIES A LOT,phase23_acbcpubn.csv,ACBCPUBN,categorical
+CRUELAN,VIII.15 CRUEL TO ANIMALS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+CRUELOTH,VIII.16 CRUELTY TO OTHERS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+DAYDREAM,VIII.17 DAYDREAMS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+DEMATTEN,VIII.19 DEMANDS A LOT OF ATTENTION,phase23_acbcpubn.csv,ACBCPUBN,categorical
+DESTROWN,VIII.20 DESTROYS HIS/HER OWN THINGS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+DESTROTH,VIII.21 DESTROYS OTHERS' THINGS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+DISOBHOM,VIII.22 DISOBEDIENT AT HOME,phase23_acbcpubn.csv,ACBCPUBN,categorical
+DISOBSCH,VIII.23 DISOBEDIENT AT SCHOOL,phase23_acbcpubn.csv,ACBCPUBN,categorical
+DSNTEATW,VIII.24 DOESNT EAT WELL,phase23_acbcpubn.csv,ACBCPUBN,categorical
+DSNTGALO,VIII.25 DOESNT GET ALONG W/ OTHER KIDS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+DSNTGUIL,VIII.26 DOESNT SEEM TO FEEL GUILTY,phase23_acbcpubn.csv,ACBCPUBN,categorical
+JEALOUS,VIII.27 EASILY JEALOUS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+EATNONFO,VIII.28 EATS OR DRINKS NONFOODS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+FEARS,VIII.29 FEARS CERT ANIMALS OR SITUATIONS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+FEARSCHL,VIII.30 FEARS GOING TO SCHOOL,phase23_acbcpubn.csv,ACBCPUBN,categorical
+FEARDOBD,VIII.31 FEARS MIGHT DO SOMETHING BAD,phase23_acbcpubn.csv,ACBCPUBN,categorical
+PERFECT,VIII.32 FEELS HAS TO BE PERFECT,phase23_acbcpubn.csv,ACBCPUBN,categorical
+FEARNOLV,VIII.33 FEELS NO ONE LOVES HIM/HER,phase23_acbcpubn.csv,ACBCPUBN,categorical
+OTHOTGH,VIII.34 FEELS OTHERS OUT TO GET HIM/HER,phase23_acbcpubn.csv,ACBCPUBN,categorical
+INFERIOR,VIII.35 FEELS WORTHLESS OR INFERIOR,phase23_acbcpubn.csv,ACBCPUBN,categorical
+ACCPRONE,VIII.36 ACCIDENT-PRONE,phase23_acbcpubn.csv,ACBCPUBN,categorical
+GETSFIGH,VIII.37 GETS IN MANY FIGHTS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TEASED,VIII.38 GETS TEASED A LOT,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TROUBCHI,VIII.39 HANGS W/ CHILDREN GET IN TROUBLE,phase23_acbcpubn.csv,ACBCPUBN,categorical
+HEARSOUN,VIII.40 HEARS THINGS THAT AREN'T THERE,phase23_acbcpubn.csv,ACBCPUBN,categorical
+IMPULSIV,VIII.41 IMPULSIVE,phase23_acbcpubn.csv,ACBCPUBN,categorical
+LIKEBEAL,VIII.42 LIKES TO BE ALONE,phase23_acbcpubn.csv,ACBCPUBN,categorical
+LYCHEAT,VIII.43 LYING OR CHEATING,phase23_acbcpubn.csv,ACBCPUBN,categorical
+BITEFING,VIII.44 BITES FINGERNAILS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+NERVOUS,VIII.45 NERVOUS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TWITCH,VIII.46 TWITCHING,phase23_acbcpubn.csv,ACBCPUBN,categorical
+NIGHTMAR,VIII.47 HAS NIGHTMARES,phase23_acbcpubn.csv,ACBCPUBN,categorical
+DISLIKED,VIII.48 NOT LIKED BY OTHER CHILDREN,phase23_acbcpubn.csv,ACBCPUBN,categorical
+CONSTIP,VIII.49 CONSTIPATED,phase23_acbcpubn.csv,ACBCPUBN,categorical
+ANXIOUS,VIII.50 TOO FEARFUL OR ANXIOUS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+FEELDIZZ,VIII.51 FEELS DIZZY,phase23_acbcpubn.csv,ACBCPUBN,categorical
+FEELGUIL,VIII.52 FEELS TOO GUILTY,phase23_acbcpubn.csv,ACBCPUBN,categorical
+OVEREATS,VIII.53 OVEREATING,phase23_acbcpubn.csv,ACBCPUBN,categorical
+OVERTIRE,VIII.54 OVERTIRED,phase23_acbcpubn.csv,ACBCPUBN,categorical
+OVERWT,VIII.55 OVERWEIGHT,phase23_acbcpubn.csv,ACBCPUBN,categorical
+PAINS,VIII.56a ACHES OR PAINS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+HEADACHE,VIII.56b HEADACHES,phase23_acbcpubn.csv,ACBCPUBN,categorical
+NAUSEA,"VIII.56c NAUSEA, FEELS SICK",phase23_acbcpubn.csv,ACBCPUBN,categorical
+EYEPROB,VIII.56d EYE PROBLEMS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+RASHES,VIII.56e RASHES OR OTHER SKIN PROBLEMS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+STOMACHE,VIII.56f STOMACHACHES OR CRAMPS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+VOMITING,VIII.56g VOMITING,phase23_acbcpubn.csv,ACBCPUBN,categorical
+OTHER,VIII.56h OTHER PHYSICAL PROBLEM,phase23_acbcpubn.csv,ACBCPUBN,categorical
+ATTAKPEO,VIII.57 PHYSICALLY ATTACKS PEOPLE,phase23_acbcpubn.csv,ACBCPUBN,categorical
+PICKBODY,"VIII.58 PICKS BODY PARTS (NOSE,SKIN)",phase23_acbcpubn.csv,ACBCPUBN,categorical
+PLSEXPUB,VIII.59 PLAYS WITH SEX PARTS IN PUBLIC,phase23_acbcpubn.csv,ACBCPUBN,categorical
+PLAYSEXP,VIII.60 PLAYS WITH SEX PARTS TOO MUCH,phase23_acbcpubn.csv,ACBCPUBN,categorical
+POORSCHL,VIII.61 POOR SCHOOL WORK,phase23_acbcpubn.csv,ACBCPUBN,categorical
+CLUMSY,VIII.62 CLUMSY,phase23_acbcpubn.csv,ACBCPUBN,categorical
+PLOLDKID,VIII.63 PREFERS PLAYING W/ OLDER KIDS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+PLYOUKID,VIII.64 PREFERS PLAYING W/ YOUNGER KIDS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+NOTALK,VIII.65 REFUSES TO TALK,phase23_acbcpubn.csv,ACBCPUBN,categorical
+REPEATAC,VIII.66 REPEATS CERTAIN ACTS OVER & OVER,phase23_acbcpubn.csv,ACBCPUBN,categorical
+RUNSAWAY,VIII.67 RUNS AWAY FROM HOME,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SCREAMS,VIII.68 SCREAMS A LOT,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SECRETIV,VIII.69 SECRETIVE,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SEETHING,VIII.70 SEES THINGS NOT THERE,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SELFCONS,VIII.71 SELF-CONSCIOUS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SETFIRES,VIII.72 SETS FIRES,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SEXPROB,VIII.73 SEXUAL PROBLEMS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+CLOWNING,VIII.74 SHOWING OFF OR CLOWNING,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SHY,VIII.75 SHY,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SLEELESS,VIII.76 SLEEPS LESS THAN MOST,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SLEEPMOR,VIII.77 SLEEPS MORE THAN MOST,phase23_acbcpubn.csv,ACBCPUBN,categorical
+PLAYSWBM,VIII.78 SMEARS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SPEEPROB,VIII.79 SPEECH PROBLEMS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+STARBLAN,VIII.80 STARES BLANKLY,phase23_acbcpubn.csv,ACBCPUBN,categorical
+STEALHOM,VIII.81 STEALS AT HOME,phase23_acbcpubn.csv,ACBCPUBN,categorical
+STEALOHO,VIII.82 STEALS OUTSIDE OF HOME,phase23_acbcpubn.csv,ACBCPUBN,categorical
+STORTHNG,VIII.83 STORES UP THINGS DOESN'T NEED,phase23_acbcpubn.csv,ACBCPUBN,categorical
+STRANBEH,VIII.84 STRANGE BEHAVIOR,phase23_acbcpubn.csv,ACBCPUBN,categorical
+STRANIDE,VIII.85 STRANGE IDEAS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+STUBBORN,"VIII.86 STUBBORN, SULLEN OR IRRITABLE",phase23_acbcpubn.csv,ACBCPUBN,categorical
+SUDMOOCH,VIII.87 SUDDEN CHANGES IN MOOD,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SULKS,VIII.88 SULKS A LOT,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SUSPICI,VIII.89 SUSPICIOUS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SWEARING,VIII.90 SWEARING,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TKWKSLEE,VIII.92 TALKS OR WALKS IN SLEEP,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TKTOOMUC,VIII.93 TALKS TOO MUCH,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TEASES,VIII.94 TEASES A LOT,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TANTRUMS,VIII.95 TEMPER TANTRUMS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+THINKSEX,VIII.96 THINKS ABOUT SEX TOO MUCH,phase23_acbcpubn.csv,ACBCPUBN,categorical
+THREATEN,VIII.97 THREATENS PEOPLE,phase23_acbcpubn.csv,ACBCPUBN,categorical
+THUMBSUC,VIII.98 THUMB-SUCKING,phase23_acbcpubn.csv,ACBCPUBN,categorical
+NEATNESS,VIII.99 TOO CONCERNED WITH NEATNESS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TROUSLEE,VIII.100 TROUBLE SLEEPING,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TRUANCY,VIII.101 TRUANCY,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SLOWMOV,VIII.102 UNDERACTIVE,phase23_acbcpubn.csv,ACBCPUBN,categorical
+SAD,"VIII.103 UNHAPPY, DEPRESSED",phase23_acbcpubn.csv,ACBCPUBN,categorical
+LOUD,VIII.104 UNUSUALLY LOUD,phase23_acbcpubn.csv,ACBCPUBN,categorical
+ALCOHOL,VIII.105 USES ALCOHOL OR DRUGS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+VANDAL,VIII.106 VANDALISM,phase23_acbcpubn.csv,ACBCPUBN,categorical
+WETSSELF,VIII.107 WETS SELF DURING DAY,phase23_acbcpubn.csv,ACBCPUBN,categorical
+WETSBED,VIII.108 WETS THE BED,phase23_acbcpubn.csv,ACBCPUBN,categorical
+WHINING,VIII.109 WHINING,phase23_acbcpubn.csv,ACBCPUBN,categorical
+WITHDRAW,VIII.111 WITHDRAWN,phase23_acbcpubn.csv,ACBCPUBN,categorical
+WORRYING,VIII.112 WORRYING,phase23_acbcpubn.csv,ACBCPUBN,categorical
+LASTOTH,VIII.113 OTHER PROBLEMS,phase23_acbcpubn.csv,ACBCPUBN,categorical
+TACTSCAL,T ACTIVITIES SCALE,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TSOCSCAL,T SOCIAL SCALE,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TSCHSCAL,T SCHOOL SCALE,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TTOTSOCO,T TOTAL SOCIAL COMPETENCE,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTOT1,BPH TOTAL SCALE I,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTOT2,BPH TOTAL SCALE II,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTOT3,BPH TOTAL SCALE III,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTOT4,BPH TOTAL SCALE IV,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTOT5,BPH TOTAL SCALE V,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTOT6,BPH TOTAL SCALE VI,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTOT7,BPH TOTAL SCALE VII,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTOT8,BPH TOTAL SCALE VIII,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTOT9,BPH TOTAL SCALE IX,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTSS1,BPH T SCORE SCALE I,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTSS2,BPH T SCORE SCALE II,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTSS3,BPH T SCORE SCALE III,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTSS4,BPH T SCORE SCALE IV,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTSS5,BPH T SCORE SCALE V,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTSS6,BPH T SCORE SCALE VI,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTSS7,BPH T SCORE SCALE VII,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTSS8,BPH T SCORE SCALE VIII,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHTSS9,BPH T SCORE SCALE IX,phase23_acbcpubn.csv,ACBCPUBN,continuous
+BPHNIT12,BPH NUMBER ITEMS SCORED 1 2,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TOTBPHS,TOTAL BPH SCORE,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TSTOTBPH,T SCORE TOTAL BPH,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TOTINTS,TOTAL INTERNALIZING SCORE,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TSTOTINT,T SCORE TOTAL INTERNALIZING,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TOTEXTS,TOTAL EXTERNALIZING SCORE,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TSTOTEXT,T SCORE TOTAL EXTERNALIZING,phase23_acbcpubn.csv,ACBCPUBN,continuous
+CLTS1,CLINICAL T SCALE I,phase23_acbcpubn.csv,ACBCPUBN,continuous
+CLTS2,CLINICAL T SCALE II,phase23_acbcpubn.csv,ACBCPUBN,continuous
+CLTS3,CLINICAL T SCALE III,phase23_acbcpubn.csv,ACBCPUBN,continuous
+CLTS4,CLINICAL T SCALE IV,phase23_acbcpubn.csv,ACBCPUBN,continuous
+CLTS5,CLINICAL T SCALE V,phase23_acbcpubn.csv,ACBCPUBN,continuous
+CLTS6,CLINICAL T SCALE VI,phase23_acbcpubn.csv,ACBCPUBN,continuous
+CLTS7,CLINICAL T SCALE VII,phase23_acbcpubn.csv,ACBCPUBN,continuous
+CLTS8,CLINICAL T SCALE VIII,phase23_acbcpubn.csv,ACBCPUBN,continuous
+CLTS9,CLINICAL T SCALE IX,phase23_acbcpubn.csv,ACBCPUBN,continuous
+PROTYPEA,PROFILE TYPE A,phase23_acbcpubn.csv,ACBCPUBN,continuous
+PROTYPEB,PROFILE TYPE B,phase23_acbcpubn.csv,ACBCPUBN,continuous
+PROTYPEC,PROFILE TYPE C,phase23_acbcpubn.csv,ACBCPUBN,continuous
+PROTYPED,PROFILE TYPE D,phase23_acbcpubn.csv,ACBCPUBN,continuous
+PROTYPEE,PROFILE TYPE E,phase23_acbcpubn.csv,ACBCPUBN,continuous
+PROTYPEF,PROFILE TYPE F,phase23_acbcpubn.csv,ACBCPUBN,continuous
+PROTYPEG,PROFILE TYPE G,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TOTACTSC,TOTAL ACTIVITIES SCORE,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TOTSOCSC,TOTAL SOCIAL SCORE,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TOTSCHSC,TOTAL SCHOOL SCORE,phase23_acbcpubn.csv,ACBCPUBN,continuous
+TOTSOCCO,TOTAL SOCIAL COMPETENCE SCORE,phase23_acbcpubn.csv,ACBCPUBN,continuous
+ACBCID2,FOLLOW-UP IDENTIFIER,phase23_acbcpubn.csv,ACBCPUBN,continuous
+acbc_dys,# of days phase 2 entry to ACBC test,phase23_acbcpubn.csv,ACBCPUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_acc_pubn.csv,ACC_PUBN,continuous
+ACCID2,FOLLOW-UP IDENTIFIER,phase23_acc_pubn.csv,ACC_PUBN,continuous
+ACCVERS,FORM VERSION,phase23_acc_pubn.csv,ACC_PUBN,categorical
+ACCBNO,DATA ENTRY BATCH NUMBER,phase23_acc_pubn.csv,ACC_PUBN,continuous
+ACCASSMT,5 ACCURATE ASSMNT OF NEUROPSYCH FUNCTION,phase23_acc_pubn.csv,ACC_PUBN,categorical
+ACCRSN,51 REASONS WHY ASSESSMENT NOT ACCURATE,phase23_acc_pubn.csv,ACC_PUBN,categorical
+ACCOTRSN,52 SPECIFY REASON ASSMNT NOT ACCURATE,phase23_acc_pubn.csv,ACC_PUBN,categorical
+ACCTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_acc_pubn.csv,ACC_PUBN,categorical
+ACCOVERS,VERSION DATA TRANSCRIBED FROM,phase23_acc_pubn.csv,ACC_PUBN,categorical
+CHG_FLAG,QC CHANGE STATUS VARIABLE,phase23_acc_pubn.csv,ACC_PUBN,categorical
+acc_days,# of days phase 2 entry to neuropsych test,phase23_acc_pubn.csv,ACC_PUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_cva_pubn.csv,CVA_PUBN,continuous
+CVVERS,FORM VERSION,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVBNO,DATA ENTRY BATCH NUMBER,phase23_cva_pubn.csv,CVA_PUBN,continuous
+CVWHERE,4 WHERE WAS PT SEEN FOR THIS EVENT,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVTYPE,5 TYPE OF CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVHOSP,6 WAS PT HOSPITALIZED FOR THIS EVENT,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVTRANS,7 PT TRANSFUSED W/IN 3 MOS BEFORE EVENT,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVHBA,71 %A IMMED PRIOR TO 1ST TX FOR THIS CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVCBCHB,72 HB IMMED PRIOR TO 1ST TX FOR THIS CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVCONS,8A LOST CONSCIOUSNESS WEEK PRIOR TO CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVCMENT,8B CHANGE IN MENTAL STATUS WEEK PRIOR TO,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVSPDIF,8C LOSS/DIFFICULTY W/SPEECH WK PRIOR TO,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVPARAL,8D PARALYSIS/WEAKNESS WEEK PRIOR TO CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVSWDIF,8E DIFFICULTY W/SWALLOWING WEEK PRIOR TO,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVVISDIF,8F DIFFICULTY W/VISION WEEK PRIOR TO CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVDIZZ,8G LOST BALANCE/WAS DIZZY WEEK PRIOR TO,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVSEIZ,8H HAD SEIZURE IN WEEK PRIOR TO CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVHACHE,8I HAD HEADACHE IN WEEK PRIOR TO CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVACFEV,9A HAD ACUTE FEBRILE EV IN WEEK PRIOR TO,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVPAINEV,9B HAD PAIN EVENT IN WEEK PRIOR TO CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVACCHSY,9C HAD ACUTE CHEST IN WEEK PRIOR TO CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVACANEM,9D HAD ACUTE ANEMIA IN WEEK PRIOR TO CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVGENANT,9E HAD GENERAL ANESTHESIA WEEK PRIOR TO,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVPRIAP,9F HAD PRIAPISM IN WEEK PRIOR TO CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVMRI,10A RESULTS OF MRI OF BRAIN,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVCTSCN,10B RESULTS OF CT SCAN OF BRAIN,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVPETSCN,10C RESULTS OF PET SCAN OF BRAIN,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVMRA,10D RESULTS OF MRA OF BRAIN,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVART,10E RESULTS OF ARTERIOGRAM,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVTCD,10F RESULTS OF TRANSCRANIAL DOPPLER,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVNEUEVL,11 WAS CSSCD NEURO EVAL FORM COMPLETED,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVEVENT,12 OTHER EVENTS ASSOCIATED W/THIS CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVTRANSN,13 WAS PATIENT TRANSFUSED FOR THIS CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVDIE,14 DIE AS RESULT OF COMPLICATION OF CVA,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_cva_pubn.csv,CVA_PUBN,categorical
+CVOVERS,VERSION DATA TRANSCRIBED FROM,phase23_cva_pubn.csv,CVA_PUBN,continuous
+ADJUDIC,ADJUDICATED EVENT?,phase23_cva_pubn.csv,CVA_PUBN,categorical
+cv_days,# of days phase 2 entry to CVA,phase23_cva_pubn.csv,CVA_PUBN,continuous
+cv_addys,# of days phase 2 entry to Hosp Admission,phase23_cva_pubn.csv,CVA_PUBN,continuous
+cv_dsdys,# of days phase 2 entry to Hosp discharge,phase23_cva_pubn.csv,CVA_PUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_cvaadpub.csv,CVAADPUB,continuous
+DY_STRK,YOUNKIN STROKE DECISION,phase23_cvaadpub.csv,CVAADPUB,categorical
+DY_STRKT,YOUNKIN STROKE TYPE,phase23_cvaadpub.csv,CVAADPUB,categorical
+DY_OTHDX,YOUNKIN OTHER DIAGNOSIS,phase23_cvaadpub.csv,CVAADPUB,categorical
+DD_STRK,DEWITT STROKE DECISION,phase23_cvaadpub.csv,CVAADPUB,categorical
+DD_STRKT,DEWITT STROKE TYPE,phase23_cvaadpub.csv,CVAADPUB,categorical
+DD_OTHDX,DEWITT OTHER DIAGNOSIS,phase23_cvaadpub.csv,CVAADPUB,categorical
+NS_STRK,SANCHEZ STROKE DECISION,phase23_cvaadpub.csv,CVAADPUB,categorical
+NS_STRKT,SANCHEZ STROKE TYPE,phase23_cvaadpub.csv,CVAADPUB,categorical
+NS_OTHDX,SANCHEZ OTHER DIAGNOSIS,phase23_cvaadpub.csv,CVAADPUB,categorical
+REVWRS,NUMBER OF REVIEWERS,phase23_cvaadpub.csv,CVAADPUB,continuous
+AGREE_N,NUMBER OF AGREEMENTS,phase23_cvaadpub.csv,CVAADPUB,continuous
+STRK,ADJ: FINAL STROKE CLASSIFICATION,phase23_cvaadpub.csv,CVAADPUB,categorical
+STRKT,ADJ: FINAL STROKE TYPE CLASSIFICATION,phase23_cvaadpub.csv,CVAADPUB,categorical
+cva_dys2,# of days phase 2 entry to neuro event,phase23_cvaadpub.csv,CVAADPUB,continuous
+cva_dys1,# of days phase 1 entry to neuro event,phase23_cvaadpub.csv,CVAADPUB,continuous
+ANONID,ANONYMIZED ID #,phase23_dth_pubn.csv,DTH_PUBN,continuous
+DTHVERS,FORM VERSION,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHCOHRT,4 STUDY COHORT,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHRLP,102 RELATION TIME DTH & PRESENT TO HOSP,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHSUMR,DEATH SUMMARY RECEIVED,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHCERT,11 COPY OF DEATH CERTIFICATE AVAILABLE,phase23_dth_pubn.csv,DTH_PUBN,continuous
+DTHCND2,112B OTHER SIGNIFICANT CONDITION 2,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHCND2C,OTHER SIGNIFICANT CONDITION 2 ICD-9 CODE,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHCND3,112C OTHER SIGNIFICANT CONDITION 3,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHCND3C,OTHER SIGNIFICANT CONDITION 3 ICD-9 CODE,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHCERTR,DEATH CERTIFICATE ATTACHED,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHINFF,12A DTH INFO OBTAINED FROM IMMED FAMILY,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHINFM,12A1 FAMILY RELATION TO DECEASED SPECIFY,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHINFFR,12B DTH INFO OBTAINED FROM FRND/COWORKR,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHINFMP,12C DTH INFO OBTAINED FROM MED PERSONEL,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHINFMR,12D DTH INFO OBTAINED FROM MED RECORDS,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHINFOT,12E DTH INFO OBTAINED FROM OTHER,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHATPSY,13 WAS AN AUTOPSY PERFORMED,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHATPR,AUTOPSY REPORT RECEIVED,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHEV,15 EXPER NEW EV SINCE LAST VISIT,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHSPEVT,EXPER NEW EV SINCE LAST VISIT SPECIFY,phase23_dth_pubn.csv,DTH_PUBN,continuous
+DTHCOMM,16 SUMMARY OF EV & CIRCUMSTANCE OF DTH,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHOVERS,VERSION DATA TRANSCRIBED FROM,phase23_dth_pubn.csv,DTH_PUBN,categorical
+DTHICSE,14 IMMEDIATE CAUSE OF DEATH,phase23_dth_pubn.csv,DTH_PUBN,categorical
+dth_dys2,# of days phase 2 entry to death,phase23_dth_pubn.csv,DTH_PUBN,continuous
+dth_dys1,# of days phase 1 entry to death,phase23_dth_pubn.csv,DTH_PUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESID2,FOLLOW-UP LINK #,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESBNO,FES BATCH NUMBER,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESFORM,FORM VERSION,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAGE,AGE OF RESPONDENT,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRSEX,GENDER OF RESPONDENT,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESREL,RELATIONSHIP TO PATIENT,phase23_fes_pubn.csv,FES_PUBN,categorical
+TESTNO,Test Time Code,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW1,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW2,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW3,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW4,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW5,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW6,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW7,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW8,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW9,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW10,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW11,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW12,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW13,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW14,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW15,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW16,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW17,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW18,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW19,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW20,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW21,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW22,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW23,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW24,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW25,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW26,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW27,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW28,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW29,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW30,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW31,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW32,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW33,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW34,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW35,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW36,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW37,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW38,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW39,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW40,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW41,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW42,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW43,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW44,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW45,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW46,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW47,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW48,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW49,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW50,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW51,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW52,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW53,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW54,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW55,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW56,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW57,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW58,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW59,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW60,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW61,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW62,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW63,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW64,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW65,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW66,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW67,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW68,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW69,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW70,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW71,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW72,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW73,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW74,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW75,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW76,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW77,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW78,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW79,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW80,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW81,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW82,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW83,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW84,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW85,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW86,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESRAW87,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW88,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW89,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,categorical
+FESRAW90,FES Raw Item,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESCOHT,FES T-Score - Cohesion,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESEXPT,FES T-Score - Expressive,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESCONT,FES T-Score - Conflict,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESINDT,FES T-Score - Independence,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESACHT,FES T-Score - Achievement,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESINTT,FES T-Score - Int./Cult.,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESACTT,FES T-Score - Active/Rec.,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESMORT,FES T-Score - Moral/Rel.,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESORGT,FES T-Score - Organization,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESCTRT,FES T-Score - Control,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESSFS,FES Supportiveness Factor,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESDCFS,FES Disorganized Conflict Factor,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESCFS,FES Controlling Factor,phase23_fes_pubn.csv,FES_PUBN,continuous
+FESFRIS,FES Family Relationships Index,phase23_fes_pubn.csv,FES_PUBN,continuous
+TIME,"Relative Visit Time (1st, 2nd...)",phase23_fes_pubn.csv,FES_PUBN,continuous
+exm_days,# of days phase 2 entry to exam,phase23_fes_pubn.csv,FES_PUBN,continuous
+HXEVHS,FAMILY HISTORY OF STROKE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXEVHA,FAMILY HSITORY OF ASTHMA,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXNOWALK,ASSISTANCE NEEDED TO GET AROUND,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+ANONID,ANONYMIZED ID #,phase23_hxp_pubn.csv,HXP_PUBN,continuous
+HXID2,FOLLOW-UP IDENTIFIER,phase23_hxp_pubn.csv,HXP_PUBN,continuous
+HXBNO,DATA ENTRY BATCH NUMBER,phase23_hxp_pubn.csv,HXP_PUBN,continuous
+HXVERS,FORM VERSION,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPIN,4 PERSON INTERVIEWED,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMEDS,5 PT TAKING MEDS PRESCRIBED BY PHYSICIAN,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMPEN,51A TAKING PENICILLIN,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMPENLV,52A PCN STARTED SINCE LAST STUDY VISIT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMERYTH,51B TAKING ERYTHROMYCIN,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMERYLV,52B ERYTHROMYCN STARTED SINCE LAST VISIT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMFOL,51C TAKING FOLATE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMFOLLV,52C FOLATE STARTED SINCE LAST VISIT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMASM,51D TAKING ASTHMA MEDICATION,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMASMLV,52D ASTHMA MED STARTED SINCE LAST VISIT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMASMT,53 SPECIFY ASTHMA MEDICATION,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMPPN,51E TAKING ANALGESICS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMPPNLV,52E ANALGESICS STARTED SINCE LAST VISIT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMIRC,51F TAKING IRON CHELATORS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMIRCLV,52F IRON CHELATOR START SINCE LAST VISIT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMIRCT,54 SPECIFY IRON CHELATOR,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCONP,51G TAKING ORAL CONTRACEPTIVES,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCONPLV,52G ORAL CNTRACPT START SINCE LAST VISIT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMOTH,51H TAKING OTHER MEDICATION,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMOTHLV,52H OTHER MED STARTED SINCE LAST VISIT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXRPBUTY,62 PT PARTICIPATING IN BUTYRATE STUDY,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOTHPRO,63 PT PARTICIPATING IN OTHER STUDY,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXRX,8 SINCE LAST VISIT PT SEEN FOR ANY EVENT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCVA,81A PT EXPERIENCE STROKE/TIA,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCVAN,82A TOTAL # UNIQUE EVENTS STROKE/TIA,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSEIZR,81B PT EXPERIENCE SEIZURES,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSEIZN,82B TOTAL # UNIQUE EVENTS SEIZURES,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSPLS,81C PT EXPERIENCE SPLENIC SEQUESTRATION,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSPLSN,82C TOTAL # UNIQUE EVENTS SPLEN SEQUEST,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXAPC,81D PT EXPERIENCE APLASTIC CRISIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXAPCN,82D TOTAL # UNIQUE EVENTS APLAST CRISIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSEP,81E PT EXPERIENCE SEPSIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSEPN,82E TOTAL # UNIQUE EVENTS SEPSIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPNEU,81F PT EXPERIENCE PNEUMONIA/ACUTE CHEST,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPNEUN,82F TOTAL # UNIQUE EVENTS PNEUMONIA/ACS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMENI,81G PT EXPERIENCE MENINGITIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMENIN,82G TOTAL # UNIQUE EVENTS MENINGITIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOSTEO,81H PT EXPERIENCE OSTEOMYELITIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOSTEON,82H TOTAL # UNIQUE EVENTS OSTEOMYELITIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPRI,81I PT EXPERIENCE PRIAPISM,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPRIN,82I TOTAL # UNIQUE EVENTS PRIAPISM,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXTRANS,81J PT HAVE TRANSFUSION,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXTRANSN,82J TOTAL # UNIQUE EVENTS TRANSFUSION,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXTRANSY,83J # TRANSFUSIONS AT YOUR INSTITUTION,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXTRANSS,85J WHERE SEEN FOR MOST RECENT TX,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSURG,81K PT HAVE SURGERY,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSURGN,82K TOTAL # UNIQUE EVENTS SURGERY,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPC,81L PT EXPERIENCE SICKLE PAIN CRISIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPCN,82L TOTAL # UNIQUE EVENTS PAIN CRISIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPCYI,83L # PAIN CRISES AT YOUR INSTITUTION,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPCS,85L WHERE SEEN FOR MOST RECENT CRISIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOTHRX,81M PT EXPERIENCE OTHER,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOTHRT,87 OTHER EVENT SPECIFY,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOTHRXC,OTHER EVENT ICD-9 CODE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOTHRXN,82M TOTAL # UNIQUE EVENTS OTHER,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOTHRXY,83M # OTHER EVENTS AT YOUR INSTITUTION,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXENUR,101 PT CURRENTLY HAVE PROBLEM W/ENURESIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXENURN,1011 # NIGHTS/MONTH EXPERIENCES ENURESIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXGETUP,102 PT GETS UP DURING NIGHT TO URINATE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXGETUPN,1021 # NIGHTS/MONTH GETS UP TO URINATE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXDIFBR,11 HAVE DIFFICULTY BREATHING WHEN ASLEEP,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSNORE,12 DOES PATIENT SNORE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSTBR,13 PT EVER STOP BREATHING WHILE SLEEPING,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMPER,14 PT BEGUN PERIOD SINCE LAST STDY VISIT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSCH,16 IS PATIENT ENROLLED IN SCHOOL,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSCHLG,161 LAST GRADE COMPLETED BY PATIENT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXREPGR,162 HAS PATIENT EVER REPEATED A GRADE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXWALK,17 PT ABLE TO WALK UP 5 STEPS W/OUT HELP,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXHSENUM,19 # PEOPLE LIVE IN PTS HOUSE BESIDES PT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMOTHER,191A # MOTHER/STEPMOTHER,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXFATHER,191B # FATHER/STEPFATHER,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSIS,191C # SISTERS/STEPSISTERS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXBRO,191D # BROTHERS/STEPBROTHERS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOTHF1,191E # OTHER FEMALE RELATIVES,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOTHM1,191F # OTHER MALE RELATIVES,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOTHF2,191G # OTHER UNRELATED FEMALES,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOTHM2,191H # OTHER UNRELATED MALES,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXHSETOT,191I TOTAL NUMBER,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXANINC,20 HOUSEHOLDS TOTAL ANNUAL INCOME,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPFST1,21 EXTENT SCD AFFECTED PTS LIFE IN 6 MOS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPFST2,22 OVERALL DEGREE OF DISABILITY IN 6 MOS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCMPLU,23A PT EVER EXPERIENCED LEG ULCERS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCMPANH,23B PT EVER EXPER ASEPTIC NECROSIS-HIP,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCMPANS,23C PT EVER EXPER ASEPTIC NECRO-SHOULDER,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCMPSCR,23D PT EVER EXPER SC RETINOPATHY,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCTRN,24 IS PT CURRENTLY ON A CHRONIC TX PROG,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCTRNLV,241 IS THIS NEW SINCE LAST STUDY VISIT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCTRNCV,242A INDICATION-STROKE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCTRNPN,242B INDICATION-RECURRENT PAIN EPISODES,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCTRNO,242C INDICATION-OTHER,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCTRNOT,242C1 OTHER REASON FOR TX SPECIFY,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXASTH,251A PT CARRY DX OF ASTHMA,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCHRTF,251B PT CARRY DX OF CHRON HEART DISEASE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCHRTFT,25B1 TYPE OF CHRON HEART DISEASE SPECIFY,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCHRTFC,CHRONIC HEART DISEASE ICD-9 CODE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCLIVF,251C PT CARRY DX OF CHRON LIVER DISEASE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCLIVFT,25C1 TYPE OF CHRON LIVER DISEASE SPECIFY,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCLIVFC,CHRONIC LIVER DISEASE ICD-9 CODE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCRENF,251D PT CARRY DX OF CHRON RENAL DISEASE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCRENFT,25D1 TYPE OF CHRON RENAL DISEASE SPECIFY,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCRENFC,CHRONIC RENAL DISEASE ICD-9 CODE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXIRNOV,251E PT CARRY DX OF IRON OVERLOAD,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXDIAB,251F PT CARRY DX OF DIABETES,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXRHFEV,251G PT CARRY DX OF RHEUMATIC FEVER,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXTB,251H PT CARRY DX OF TUBERCULOSIS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSEIZ,251J PT CARRY DX OF SEIZURE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXHIVP,251K PT CARRY DX OF HIV POSITIVITY,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXLDIS,251L PT CARRY DX OF LEARNING DISABLITY,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXADD,251M PT CARRY DX OF ATTENTION DEFICIT,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXDYSL,251N PT CARRY DX OF DYSLEXIA,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXEBLL,251O PT CARRY DX OF ELEVATED BLOOD LEAD,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCDIS,251Q PT CARRY DX OF OTHER CHRON DISEASE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCORRL,26 DOES PATIENT WEAR CORRECTIVE LENSES,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXFLUYR,28 RCVD FLU VIRUS VACCINATION IN PAST YR,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXFLU,291A PT EVER RCVD H INFLUENZA VACCINE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXVPNE,292B PT EVER RCVD PNEUMOCOCCUS VACCINE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXVHEPB,291C PT EVER RCVD HEPATITIS B VACCINE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXVMENIN,291D PT EVER RCVD MENINGOCOCCUS VACCINE,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXBSTAT,30 IS PATIENT ON SPECIAL B STATUS,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXTRSL,31 TRANSLATOR NEEDED TO COMPLETE FORM,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOVERS,VERSION DATA TRANSCRIBED FROM,phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPCARE,PERSON INTERVIEW PRIMARY CAREGIVER (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMIRN,TAKING IRON (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMIRNLV,IRON STARTED SINCE LAST STDY VISIT (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMPROPS,TAKING RANDOMIZED DRUG FOR PROPS (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXMPRLV,PROPS STARTED SINCE LAST STDY VISIT(PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCONPC,ORAL CONTRACEPTIVES CODE (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOTHC,OTHER DRUG CODE (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXRCHPRO,PARTICIP IN OTHR RESEARCH PROTOCOL (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPROPS,IS PT PARTICIPATING IN PROPS2 (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXLIVS,PT TREATED FOR HEPATIC SEQUEST (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXLIVSN,# TIMES SEEN FOR HEPATIC SEQUEST (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSCHDM,PAST 2 WK PT MISS WHOLE DAY SCHOOL (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXNSCHDM,# DIFFRENT WHOLE DAYS MISS SCHOOL (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXNSCHDH,# DUE TO PTS HEALTH RELATED PROBS (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSCHDL,# DAYS ARRIVE LATE/LEAVE SCH EARLY (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXSCHDIL,PAST 2 WKS PT ATTEND SCHOOL ILL (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXNSCHDI,# DAYS ATTENDED SCHOOL ILL (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXTEASC,TEACHER KNOW PT HAS SICKLE CELL (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXREC,PT ABLE TO PARTIC IN RECREATION (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXRECD,# DAYS UNABLE TO PARTIC PAST 2 WKS (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXRECLM,REASON FOR THIS LIMITATION (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXHLTHY,HLTHY ENOUGH TO DO THINGS WANTS TO (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXHLTH1,RATE PTS HEALTH TO OTHERS SAME AGE (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXHLTH2,RATE PTS HLTH TO OTHERS W/SC (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXHLTH3,RATE SELF HLTH TO OTHERS SAME AGE (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXPRINC,HOUSEHOLD PRIMARY SOURCE OF INCOME (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOPRINC,OTHER SOURCE OF INCOME SPECIFY (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXREF,REFERRED FOR TESTS SINCE LAST VST (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXTEST1,ADDITIONAL TEST 1 (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOUT1,OUTCOME TEST 1 (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXRX1,WAS TRTMENT RECOMMENDED AS RESULT (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXRXT1,SPECIFY RECOMMENDED TREATMENT 1 (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXTEST2,ADDITIONAL TEST 2 (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOUT2,OUTCOME TEST 2 (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXRX2,WAS TRTMENT RECOMMENDED AS RESULT (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXRXT2,SPECIFY RECOMMENDED TREATMENT 2 (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXTEST3,ADDITIONAL TEST 3 (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXOUT3,OUTCOME TEST 3 (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXRX3,WAS TRTMENT RECOMMENDED AS RESULT (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXRXT3,SPECIFY RECOMMENDED TREATMENT 3 (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+HXCTRNOC,OTHER INDICATION FOR CHRON TX CODE (PH2),phase23_hxp_pubn.csv,HXP_PUBN,categorical
+hxp_days,# of days phase 2 entry to interview date,phase23_hxp_pubn.csv,HXP_PUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_int_pubn.csv,INT_PUBN,continuous
+INTID2,FOLLOW-UP IDENTIFIER,phase23_int_pubn.csv,INT_PUBN,categorical
+INTVERS,FORM VERSION,phase23_int_pubn.csv,INT_PUBN,categorical
+INTBNO,DATA ENTRY BATCH NUMBER,phase23_int_pubn.csv,INT_PUBN,continuous
+INTALIVE,4 IS PATIENT ALIVE,phase23_int_pubn.csv,INT_PUBN,categorical
+INTMOVE,5 HAS PATIENT MOVED,phase23_int_pubn.csv,INT_PUBN,categorical
+INTADDR,51A DO YOU HAVE PTS CURRENT ADDRESS,phase23_int_pubn.csv,INT_PUBN,categorical
+INTPHONE,51B DO YOU HAVE PTS CURRENT PHONE #,phase23_int_pubn.csv,INT_PUBN,categorical
+INTFUCL,52 PT CONTIN FOLLOWED AT CSSCD CLINIC,phase23_int_pubn.csv,INT_PUBN,categorical
+INTREFSL,6 IS PATIENT REFUSING TO PARTICIPATE,phase23_int_pubn.csv,INT_PUBN,categorical
+INTTRNSF,7 TRANSFERRED TO OTHR HLTHCARE FACIL,phase23_int_pubn.csv,INT_PUBN,categorical
+INTTRRSN,71 REASON TRANSFER TO OTHER FACILITY,phase23_int_pubn.csv,INT_PUBN,categorical
+INTREFER,9 PT BEEN REFERRED FOR TESTS/CONSULTS,phase23_int_pubn.csv,INT_PUBN,categorical
+INTHEAR,91A HEARING EVALUATION/CONSULTATION,phase23_int_pubn.csv,INT_PUBN,categorical
+INTSPEEC,91B SPEECH EVALUATION/CONSULTATION,phase23_int_pubn.csv,INT_PUBN,categorical
+INTOPTHM,91C OPTHALMOLOGY CONSULTATION,phase23_int_pubn.csv,INT_PUBN,categorical
+INTDELAY,91D DEVELOPMENTAL DELAY CONSULTATION,phase23_int_pubn.csv,INT_PUBN,categorical
+INTNEURO,91E NEUROLOGICAL CONSULTATION,phase23_int_pubn.csv,INT_PUBN,categorical
+INTIMAGE,91F ADDITIONAL NEUROIMAGING STUDIES,phase23_int_pubn.csv,INT_PUBN,categorical
+INTOSA,91G OBSTRUCTIVE SLEEP APNEA,phase23_int_pubn.csv,INT_PUBN,categorical
+INTOTHER,91H OTHER TEST/CONSULTATION,phase23_int_pubn.csv,INT_PUBN,categorical
+INTTSTSP,91H1 OTHER TEST/CONSULT SPECIFY,phase23_int_pubn.csv,INT_PUBN,categorical
+INTPE,10 WAS PT SEEN FOR THIS ANNUAL EXAM,phase23_int_pubn.csv,INT_PUBN,categorical
+INTPERSN,101 REASON PT NOT SEEN FOR ANN EXAM,phase23_int_pubn.csv,INT_PUBN,categorical
+INTREFS,102 PARENT REFUSE OTHR REASON SPECIFY,phase23_int_pubn.csv,INT_PUBN,categorical
+INTOTHS,103 OTHER REASON SPECIFY,phase23_int_pubn.csv,INT_PUBN,categorical
+INTMRI,111 STATUS OF MRI OF BRAIN,phase23_int_pubn.csv,INT_PUBN,categorical
+INTNP,112 STATUS OF NEUROPSYCH TESTS,phase23_int_pubn.csv,INT_PUBN,categorical
+INTPSY,113 STATUS OF PSYCHOSOCIAL TESTS,phase23_int_pubn.csv,INT_PUBN,categorical
+INTPFT,114 STATUS OF PULMONARY FUNCT TESTS,phase23_int_pubn.csv,INT_PUBN,categorical
+INTABG,115 STATUS OF ARTERIAL BLOOD GASES,phase23_int_pubn.csv,INT_PUBN,categorical
+INTTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_int_pubn.csv,INT_PUBN,categorical
+INTOVERS,VERSION DATA TRANSCRIBED FROM,phase23_int_pubn.csv,INT_PUBN,categorical
+INTCONSF,CONSULTATION FORM RECEIVED (PH2),phase23_int_pubn.csv,INT_PUBN,categorical
+int_days,# of days phase 2 entry to date interim form completed,phase23_int_pubn.csv,INT_PUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_lab_pubn.csv,LAB_PUBN,continuous
+LABID2,FOLLOW-UP IDENTIFIER,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABVERS,FORM VERSION,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABBNO,DATA ENTRY BATCH NUMBER,phase23_lab_pubn.csv,LAB_PUBN,continuous
+LABTRANS,4 PT TRANSFUSED W/IN PAST 4 MONTHS,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABCBCWB,52A CBC - WHITE BLOOD CELL COUNT,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABCBCRB,52B CBC - RED BLOOD CELL COUNT,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABCBCHB,52C CBC - HEMOGLOBIN,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABCBCHC,52D CBC - HEMATOCRIT,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABCBCMV,52E CBC - MEAN CELL VOLUME,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABCBCMH,52F CBC - MEAN CELL HEMOGLOBIN,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABCBCMC,52G CBC - MCHC,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABPLATE,6 PLATELET COUNT,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABHBF,72 HEMOGLOBIN F PERCENT,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABFMTH,73 TESTING METHOD FOR HEMOGLOBIN F,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABFSPF,731 SPECIFY OTHER METHOD HBF TEST,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABCRTN,82A SERUM CREATININE,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABBUN,82B BLOOD UREA NITROGEN,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABALKPH,82C ALKALINE PHOSPHATASE,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABSGOT,82D AST(SGOT),phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABSGPT,82E ALT(SGPT),phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABBLRBN,82F TOTAL BILIRUBIN,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABDBILI,82G DIRECT BILIRUBIN,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABURA,82H URIC ACID,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABURPRO,92A URINE PROTEIN,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABURHB,92B URINE HEMOGLOBIN,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABIRPT,LAB INSTITUTIONAL REPORTS RECEIVED,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABOVERS,VERSION DATA TRANSCRIBED FROM,phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABHBS,HEMOGLOBIN ELECTROPHORESIS %S (PH2),phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABHBC,HEMOGLOBIN ELECTROPHORESIS %C (PH2),phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABHBA,HEMOGLOBIN ELECTROPHORESIS %A (PH2),phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABFUL,%HBF LAB UPPER LIMIT OF NORMAL (PH2),phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABHBA2,HEMOGLOBIN ELECTROPHORESIS %A2 (PH2),phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABA2MTH,TESTING METHOD FOR HEMOGLOBIN A2 (PH2),phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABA2SPF,OTHER TEST METHOD FOR HBA2 (PH2),phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABA2UL,%HBA2 LAB UPPER LIMIT OF NORMAL (PH2),phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABDIAG,DIAGNOSIS (PH2),phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABDIAGS,SPECIFY OTHER DIAGNOSIS (PH2),phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABOMTH,METH OTHER THAN ELECTROPHORESIS (PH2),phase23_lab_pubn.csv,LAB_PUBN,categorical
+LABOSPF,SPECIFY OTHER METHOD USED (PH2),phase23_lab_pubn.csv,LAB_PUBN,categorical
+lab_dys,# of days phase 2 entry to CBC Sample,phase23_lab_pubn.csv,LAB_PUBN,continuous
+lab2_dys,# of days phase 2 entry to serum chemistry sample,phase23_lab_pubn.csv,LAB_PUBN,continuous
+lab3_dys,# of days phase 2 entry to urine sample,phase23_lab_pubn.csv,LAB_PUBN,continuous
+labf_dys,# of days phase 2 entry to fetal hemoglobin sample,phase23_lab_pubn.csv,LAB_PUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_lisrpubn.csv,LISRPUBN,continuous
+LISID2,FOLLOW-UP IDENTIFIER,phase23_lisrpubn.csv,LISRPUBN,continuous
+LISVERS,FORM VERSION,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISADDR,31 HOW LONG LIVED AT PRESENT ADDRESS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISNEWH,32 MOVED TO NEW HOME IN PAST 12 MONTHS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISHOMES,321 HOW IS NEW HOME MOVED TO,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPLIVW,4 WHO DO YOU LIVE WITH NOW,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTOTB,TOTAL NUMBER OF BROTHERS/STEPBROTHERS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBAGE1,511 AGE OF BROTHER 1,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBAGE2,512 AGE OF BROTHER 2,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBAGE3,513 AGE OF BROTHER 3,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBAGE4,514 AGE OF BROTHER 4,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBLIV,51A NUMBER OF BROTHERS THAT LIVE WITH PT,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTOTS,TOTAL NUMBER OF SISTERS/STEPSISTERS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSAGE1,521 AGE OF SISTER 1,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSAGE2,522 AGE OF SISTER 2,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSAGE3,523 AGE OF SISTER 3,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSAGE4,524 AGE OF SISTER 4,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSLIV,52A NUMBER OF SISTERS THAT LIVE WITH PT,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISNEWMN,61 PST 12 MO SOMEONE NEW MOVED INTO HOME,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISNEWMS,611 RESULT OF NEW PERSON MOVING IN,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMOUT,62 PST 12 MO SOMEONE MOVED OUT OF HOME,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMOUTS,621 RESULT OF PERSON MOVING OUT,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPRSEP,71 IN PAST 12 MO PARENTS SEPARATED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPRDIV,72 IN PAST 12 MO PARENTS DIVORCED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMADI,73 PAST 12 MO MOTHER/FEMALE GUARD DIED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPADI,74 PAST 12 MO FATHER/MALE GUARD DIED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSDI,75 PAST 12 MO BROTHER/SISTER DIED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMAREM,76 PAST 12 MO MOM RE/MARRIED/NEW MATE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMARMS,761 RESULT OF MOM RE/MARRIED/NEW MATE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPAREM,77 PAST 12 MO DAD RE/MARRIED/NEW MATE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPARMS,771 RESULT OF DAD RE/MARRIED/NEW MATE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISKEPTU,81 IS HOME/NEIGHBORHOOD WELL KEPT UP,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSPACE,82 DO YOU HAVE ENOUGH SPACE/PRIVACY,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISHEAT,83 IS THERE ENOUGH HEAT IN THE WINTER,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISCOOL,84 IS IT COOL ENOUGH IN THE SUMMER,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISQUIET,85 IS IT QUIET ENOUGH,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSAFE,86 IS SAFE ENOUGH TO WALK ALONE AT NIGHT,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMEDC,91 CAN YOU AFFORD GOOD MED/DENTAL CARE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFDCL,92 CAN YOU AFFORD ENOUGH FOOD/CLOTHING,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISLIVE,93 CAN YOU AFFORD A NICE PLACE TO LIVE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISOTHTH,94 CAN YOU AFFORD OTHER THINGS YOU NEED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISACTET,95 CAN YOU AFFORD ACTIVITIES/ENTERTAINMT,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISEXTRA,96 CAN YOU AFFORD EXTRA THINGS YOU WANT,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSTOLE,101 IN PAST 12 MO WERE BELONGINGS STOLEN,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBURGL,102 IN PAST 12 MO YOUR HOME BURGLARIZED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISATTAK,103 IN PAST 12 MO YOU PERSONALY ATTACKED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISHOSP,104 IN PAST 12 MO WERE YOU HOSPITALIZED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISACCID,105 IN PAST 12 MO YOU HAVE ACCDENT/INJRY,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISHLTIM,106 IN PAST 12 MO YOUR HEALTH IMPROVED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISWORK,11 ARE YOU WORKING RIGHT NOW,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISHELDJ,111 HOW LONG HAVE YOU HELD YOUR JOB,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMALFE,12 MOM/STEPMOM CURRENTLY IN YOUR LIFE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMAWKN,13 MOM/STEPMOM CURRENTLY WORKING,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMAJBC,JOB CODE - CURRENTLY NOT ASSIGNED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMASCH,15 # YRS OF SCHOOL MOM/STEPMOM COMPLETED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMBTR,161 RELATIONSHIP W/MOM CHANGE FOR BETTER,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMWRS,162 RELATIONSHIP W/MOM CHANGE FOR WORSE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMACC,163 MOM HAD SERIOUS ACCIDENT OR INJURY,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMHOSP,164 MOM HOSPITALIZED FOR ANY REASON,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMILL,165 MOM RECOVERED FROM ILLNESS/EMOT PROB,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMLSTJ,166 MOM LOST HER JOB,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMWORK,167 MOM WENT BACK TO WORK AFTER UNEMPLOY,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMHELP,171 CAN YOU COUNT ON MOM FOR HELP,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMARGU,172 DO YOU HAVE ARGUMENTS/FIGHTS W/MOM,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMCRIT,173 IS MOM CRITICAL/DISAPPROVING OF YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMFEEL,174 MOM UNDERSTND HOW U FEEL ABOUT THING,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMNERV,175 DOES MOM GET ON YOUR NERVES,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMCHR,176 MOM CHEER YOU UP WHEN SAD/WORRIED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMANGR,177 MOM GET ANGRY/LOSE TEMPER WITH YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMRSPT,178 DOES MOM RESPECT YOUR OPINION,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMEXP,179 DOES MOM EXPECT TOO MUCH FROM YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMFUN,"1710 DO YOU HAVE FUN, LAUGH, JOKE W/MOM",phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMSTRT,1711 IS MOM TOO STRICT WITH YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMPRES,1712 MOM PUT 2 MUCH PRESS ON U 2 DO WELL,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPALFE,18 DAD/STEPDAD CURRENTLY IN YOUR LIFE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPAWKN,19 DAD/STEPDAD CURRENTLY WORKING,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPASCH,21 # YRS OF SCHOOL DAD/STEPDAD COMPLETED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPBTR,221 RELATIONSHIP W/DAD CHANGE FOR BETTER,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPWRS,222 RELATIONSHIP W/DAD CHANGE FOR WORSE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPACC,223 DAD HAD SERIOUS ACCIDENT OR INJURY,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPHOSP,224 DAD HOSPITALIZED FOR ANY REASON,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPILL,225 DAD RECOVERED FROM ILLNESS/EMOT PROB,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPLSTJ,226 DAD LOST HIS JOB,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPWORK,227 DAD WENT BACK TO WORK AFTER UNEMPLOY,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPHELP,231 CAN YOU COUNT ON DAD FOR HELP,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPARGU,232 DO YOU HAVE ARGUMENTS/FIGHTS W/DAD,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPCRIT,233 IS DAD CRITICAL/DISAPPROVING OF YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPFEEL,234 DAD UNDERSTND HOW YOU FEEL,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPNERV,235 DOES DAD GET ON YOUR NERVES,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPCHR,236 DAD CHEER YOU UP WHEN SAD/WORRIED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPANGR,237 DAD GET ANGRY/LOSE TEMPER WITH YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPRSPT,238 DOES DAD RESPECT YOUR OPINION,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPEXP,239 DOES DAD EXPECT TOO MUCH FROM YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPFUN,"2310 DO YOU HAVE FUN, LAUGH, JOKE W/DAD",phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPSTRT,2311 IS DAD TOO STRICT WITH YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISPPRES,2312 DAD PUT 2 MUCH PRESS ON U 2 DO WELL,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBRSIS,24 DO YOU HAVE ANY BROTHERS/SISTERS?,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSTEP,25 DO YOU HAVE ANY STEPBROS/STEPSISTERS?,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSBTR,261 RELATIONSHP SIS/BRO CHNGE FOR BETTER,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSWRS,262 RELATIONSHP SIS/BRO CHANGE FOR WORSE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSACC,263 SIS/BRO HAD SERIOUS ACCIDENT/INJURY,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSHSP,264 SIS/BRO HOSPITALIZED FOR ANY REASON,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSILL,265 SIS/BRO RECOVER FROM ILL/EMOT PROB,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSBTH,266 BIRTH OF A NEW SISTER/BROTHER,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSHLP,271 CAN YOU COUNT ON HIM/HER FOR HELP,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSARG,272 DO YOU HVE ARGUMNTS/FIGHTS W/HIM/HER,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSCRT,273 IS HE/SHE CRITICAL/DISAPPROVE OF YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSFEL,274 HE/SHE UNDERSTND HOW FEEL ABT THINGS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSNRV,275 DOES HE/SHE GET ON YOUR NERVES,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSCHR,276 HE/SHE CHEER YOU UP WHEN SAD/WORRIED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSANG,277 HE/SHE GET ANGRY/LOSE TEMPER W/YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSRSP,278 DOES HE/SHE RESPECT YOUR OPINION,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSEXP,279 DOES HE/SHE EXPECT TOO MUCH FROM YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSFUN,"2710 DO U HAVE FUN,LAUGH,JOKE W/HIM/HER",phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSSUP,2711 DOES HE/SHE ACT SUPERIOR TO YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRELAT,281 HOW MANY RELATIVES FEEL CLOSE TO,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRTME,282 HOW OFT SPEND TIME W/THOSE RELATIVES,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRBTR,291 RELATIONSHP W/RELAT CHNGE FOR BETTER,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRWSE,292 RELATIONSHP W/RELAT CHANGE FOR WORSE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRACC,293 RELATIVE HAD SERIOUS ACCIDENT/INJURY,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRILL,294 RELATIVE BECAME ILL/HAD MEDICAL PROB,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISREMOT,295 RELATIVE HAD EMOTIONAL/MENTAL PROBS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRECIL,296 RELATIVE RECOVER FROM ILL/EMOT PROB,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRDIED,297 A RELATIVE DIED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRMVD,298 A RELATIVE MOVED FAR AWAY,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRHELP,301 CAN YOU COUNT ON THEM FOR HELP,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRARGU,302 DO YOU HVE ARGUMNTS/FIGHTS WITH THEM,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRCRIT,303 ARE THEY CRITICAL/DISAPPROVE OF YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRFEEL,304 THEY UNDRSTND HOW U FEEL ABT THINGS?,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRNERV,305 DOES THEY GET ON YOUR NERVES,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRCHR,306 HE/SHE CHEER YOU UP WHEN SAD/WORRIED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRANGR,307 DO THEY GET ANGRY/LOSE TEMPER W/YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRRSPT,308 DO THEY RESPECT YOUR OPINION,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISREXP,309 DO THEY EXPECT TOO MUCH FROM YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRFUN,"3010 DO U HAVE FUN,LAUGH,JOKE W/THEM",phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMOTH,3 IS YOUR MOM CURRENTLY IN YOUR LIFE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSMOTH,4 IS STEPMOM CURRENTLY IN YOUR LIFE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISMMEDC,5 STEP/MOM HAVE ANY MEDICAL CONDITIONS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFATH,7 IS YOUR DAD CURRENTLY IN YOUR LIFE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSFATH,8 IS STEPDAD CURRENTLY IN YOUR LIFE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFMEDC,9 STEP/DAD HAVE ANY MEDICAL CONDITIONS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBRSS,11 DO YOU HAVE ANY BROTHERS OR SISTERS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSBRSS,12 DO YOU HAVE ANY STEP BROTHERS/SISTERS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBSMED,13 BRO/SIS HAVE ANY MEDICAL CONDITIONS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LIS1ADLT,15 DO YOU LIVE WITH ONLY ONE ADULT,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISARGU,161 DO THEY HAVE ARGUEMENTS OR FIGHTS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISCRIT,162 R CRITICAL/DISAPPROV OF EACH OTHER,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISNERVS,163 DO THEY GET ON EACH OTHERS NERVES,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISANGRY,164 GET ANGRY/LOSE TEMPER W/EACH OTHER,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISEXPCT,165 THEY EXPECT TOO MUCH FROM EACH OTHER,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTEAM,31 PAST 12 MO DID U MAKE A TEAM/CLUB,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTRYOT,32 TRIED OUT FOR TEAM-DID NOT MAKE IT,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTRBLS,33 PAST 12 MO GOT IN TROUBLE IN SCHOOL,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSUSCH,34 PAST 12 MO WAS SUSPENDED FROM SCHOOL,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISHELD,35 PAST 12 MO HELD BACK A YEAR IN SCHOOL,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISAWARD,36 GOT AN AWARD FOR SCHOOL ACHIEVEMENT,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTINFL,37 DID REALLY GOOD TEACHER INFLUENCE YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSCGRP,38 DID U GET INTO SCHOOL GRP YOU WANTED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISDROP,39 PAST 12 MO DID SCHOOL FRIENDS DROP U,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISNEWS,310 PAST 12 MO DID YOU CHANGE SCHOOLS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISNEWSS,3101 HOW IS NEW SCHOOL,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISNUMCL,4 NUMBER OF SCHOOL CLUBS/ORG U BELONG TO,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSARGU,51 ARGUE/FIGHT W/ANY STUDENTS AT SCHOOL,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSCRIT,52 ANY STUDENTS CRITICAL/DISAPPROVE OF U,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSNERV,53 STUDENTS AT SCHOOL GET ON YOUR NERVES,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSANG,54 STUDENTS GET ANGRY/LOSE TEMPER W/YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSEXP,55 ANY STUDENTS EXPECT TOO MUCH OF YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSPRES,56 2 MUCH PRESSURE TO COMPETE W/OTH STUD,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTHELP,61 CAN U COUNT ON TEACHER/COACH FOR HELP,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTARGU,62 HAVE ARGUMENTS/FIGHT W/TEACHER/COACH,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTCRIT,63 TCHR/COACH CRITICAL/DISAPPROVE OF YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTFEEL,64 TCHR/COACH UNDERSTND HOW YOU FEEL,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTNERV,65 DO ANY TCHR/COACH GET ON YOUR NERVES,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTCHR,66 TCHR/COACH CHEER YOU WHEN SAD/WORRIED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTANGR,67 TCHR/COACH GET ANGRY/LOSE TEMPER W/ U,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTRSPT,68 DO TEACHER/COACH RESPECT YOUR OPINION,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTEXP,69 TEACHER/COACH EXPECT TOO MUCH FROM U,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTFUN,"610 HAVE FUN, LAUGH, JOKE W/TCHR/COACH",phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFPERS,71 HOW MANY CLOSE FRIENDS DO YOU HAVE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFINTH,72 HOW OFTEN ARE IN TOUCH W/CLOSE FRNDS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFBTR,81 PAST 12 MO FRNDSHP CHANGED FOR BETTER,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFWRS,82 PAST 12 MO FRNDSHIP CHANGED FOR WORSE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISNEWFR,83 PAST 12 MO U JOINED NEW GROUP FRIENDS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISNEWBF,84 PAST 12 MO YOU MADE A NEW BEST FRIEND,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFDROP,85 PAST 12 MO A GRP OF FRNDS DROPPED YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISOTM,86 U MADE CLUB/TEAM OUTSIDE OF SCHOOL,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISOTRY,87 TRIED OUT CLUB/TEAM-DID NOT MAKE IT,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFDIED,88 PAST 12 MO A FRIEND DIED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFMVD,89 PAST 12 MO A FRIEND MOVED AWAY,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFHELP,91 CAN U COUNT ON YOUR FRIENDS FOR HELP,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFARGU,92 HAVE ARGUMENTS/FIGHT W/FRIENDS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFCRIT,93 FRIENDS CRITICAL/DISAPPROVING OF YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFFEEL,94 FRNDS UNDERSTND HOW U FEEL ABT THINGS,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFNERV,95 DO ANY FRIENDS GET ON YOUR NERVES,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFCHR,96 FRNDS CHEER YOU UP WHEN SAD/WORRIED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFANGR,97 FRNDS GET ANGRY/LOSE TEMPER WITH YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFRSPC,98 FRIENDS RESPECT YOUR OPINION,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFEXP,99 FRIENDS EXPECT TOO MUCH FROM YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFFUN,"910 YOU HAVE FUN, LAUGH, JOKE W/FRIENDS",phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFPRES,911 FRNDS PRESSURE U TO SMOKE/DRINK/DRUG,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISCLOUT,10 # CLUBS/ORGS BELONG TO OUTSIDE SCHOOL,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRELIG,11 HOW OFTEN U ATTEND RELIGIOUS SERVICES,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSDATE,121 PAST 12 MO DID YOU START DATING,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISFLOVE,122 PAST 12 MO DID YOU FALL IN LOVE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISREJCT,123 PAST 12 MO REJECTD BY SOMEONE U LIKE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISSTDY,124 PAST 12 MO DID U START GOING STEADY,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBRKUP,125 PAST 12 MO DID U BREAK UP W/SOMEONE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRELCB,126 RELTIONSHP W/BOY/GIRLFRND GET BETTER,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISRECW,127 RELTIONSHP W/BOY/GIRLFRND GET WORSE,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISCBGFR,13 DO YOU CURRENTLY HAVE BOY/GIRLFRIEND,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBGHLP,141 CAN U COUNT ON BOY/GIRLFRND FOR HELP,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBGARG,142 HAVE ARGUMENTS/FIGHT W/BOY/GIRLFRND,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBGCRT,143 BOY/GIRLFRND CRITICAL/DISAPPRVE OF U,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBGFEL,144 BOY/GIRLFRND UNDERSTND HOW YOU FEEL,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBGNRV,145 DOES BOY/GIRLFRND GET ON YOUR NERVES,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBGCHR,146 HE/SHE CHEER YOU UP WHEN SAD/WORRIED,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBGANG,147 HE/SHE GET ANGRY/LOSE TEMPER W/YOU,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBGRSP,148 DOES HE/SHE RESPECT YOUR OPINION,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBGEXP,1410 DOES HE/SHE EXPECT TOO MUCH FROM U,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISBGFUN,"1411 YOU HAVE FUN, LAUGH, JOKE W/HIM/HER",phase23_lisrpubn.csv,LISRPUBN,categorical
+LISCOMM,ADDITIONAL COMMENTS BY PATIENT RE LISR,phase23_lisrpubn.csv,LISRPUBN,categorical
+LISTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_lisrpubn.csv,LISRPUBN,continuous
+LISOVERS,VERSION DATA TRANSCRIBED FROM,phase23_lisrpubn.csv,LISRPUBN,categorical
+lis_days,# of days phase 2 entry to date test given,phase23_lisrpubn.csv,LISRPUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_mra_pubn.csv,MRA_PUBN,continuous
+SCAN_ID,A3 DEPARTMENT FILM/SCAN ID NUMBER,phase23_mra_pubn.csv,MRA_PUBN,categorical
+ON_TAPE,A31 MRA DATA AVAILABLE ON TAPE/OP-DISK,phase23_mra_pubn.csv,MRA_PUBN,categorical
+ADEQUATE,A4 MRA FILMS ADEQUATE FOR INTERPRET,phase23_mra_pubn.csv,MRA_PUBN,categorical
+INADREAS,A4A REASON MRA FILMS INADEQUATE,phase23_mra_pubn.csv,MRA_PUBN,categorical
+REAS_SP,A4B SPECIFY REASON INADEQUATE,phase23_mra_pubn.csv,MRA_PUBN,categorical
+MACHINE,A6 MACHINE/MODEL,phase23_mra_pubn.csv,MRA_PUBN,categorical
+ECHOTIME,A7 ECHO TIME (ms),phase23_mra_pubn.csv,MRA_PUBN,categorical
+MATRIX1,A8A MATRIX (1st dim),phase23_mra_pubn.csv,MRA_PUBN,categorical
+MATRIX2,A8B MATRIX (2nd dim),phase23_mra_pubn.csv,MRA_PUBN,categorical
+FLDVIEW1,A9A FIELD OF VIEW (cm),phase23_mra_pubn.csv,MRA_PUBN,categorical
+FLDVIEWA,"A9B1 FIELD OF VIEW (cm) - RECT, 1st DIM",phase23_mra_pubn.csv,MRA_PUBN,categorical
+FLDVIEWB,"A9B2 FIELD OF VIEW (cm) - RECT, 2nd DIM",phase23_mra_pubn.csv,MRA_PUBN,categorical
+COMPPREV,C1 IS IT COMPARED TO PREVIOUS SCAN,phase23_mra_pubn.csv,MRA_PUBN,categorical
+IREP_REC,C2 INSTITUTIONAL REPORT RECEIVED,phase23_mra_pubn.csv,MRA_PUBN,categorical
+ACCEPTED,D3 STUDY ACCEPTED,phase23_mra_pubn.csv,MRA_PUBN,categorical
+REJ_REAS,D3A REASON NOT ACCEPTED,phase23_mra_pubn.csv,MRA_PUBN,categorical
+SCANQUAL,D4 SCAN QUALITY,phase23_mra_pubn.csv,MRA_PUBN,categorical
+SOURCE,D5A SOURCE AVAIL FOR REVIEW,phase23_mra_pubn.csv,MRA_PUBN,categorical
+TARGETED,D5B TARGETED AVAIL FOR REVIEW,phase23_mra_pubn.csv,MRA_PUBN,categorical
+UNSEGPAR,D5C UNSEGMENTED PARAX AVAIL FOR REVIEW,phase23_mra_pubn.csv,MRA_PUBN,categorical
+RICA_A,E1A RIGHT ICA - RATING,phase23_mra_pubn.csv,MRA_PUBN,categorical
+RICA_B1,E1B1 RIGHT ICA - COMP STATUS TO BASELN,phase23_mra_pubn.csv,MRA_PUBN,categorical
+RMCA_A,E2A RIGHT MCA - RATING,phase23_mra_pubn.csv,MRA_PUBN,categorical
+RMCA_B1,E2B1 RIGHT MCA - COMP STATUS TO BASELN,phase23_mra_pubn.csv,MRA_PUBN,categorical
+RACA_A,E3A RIGHT ACA - RATING,phase23_mra_pubn.csv,MRA_PUBN,categorical
+RACA_B1,E3B1 RIGHT ACA - COMP STATUS TO BASELN,phase23_mra_pubn.csv,MRA_PUBN,categorical
+RPCA_A,E4A RIGHT PCA - RATING,phase23_mra_pubn.csv,MRA_PUBN,categorical
+RPCA_B1,E4B1 RIGHT PCA - COMP STATUS TO BASELN,phase23_mra_pubn.csv,MRA_PUBN,categorical
+LICA_A,E5A LEFT ICA - RATING,phase23_mra_pubn.csv,MRA_PUBN,categorical
+LICA_B1,E5B1 LEFT ICA - COMP STATUS TO BASELN,phase23_mra_pubn.csv,MRA_PUBN,categorical
+LMCA_A,E6A LEFT MCA - RATING,phase23_mra_pubn.csv,MRA_PUBN,categorical
+LMCA_B1,E6B1 LEFT ACA - COMP STATUS TO BASELN,phase23_mra_pubn.csv,MRA_PUBN,categorical
+LACA_A,E7A LEFT ACA - RATING,phase23_mra_pubn.csv,MRA_PUBN,categorical
+LACA_B1,E7B1 LEFT ACA - COMP STATUS TO BASELN,phase23_mra_pubn.csv,MRA_PUBN,categorical
+LPCA_A,E8A LEFT PCA - RATING,phase23_mra_pubn.csv,MRA_PUBN,categorical
+LPCA_B1,E8B1 LEFT PCA - COMP STATUS TO BASELN,phase23_mra_pubn.csv,MRA_PUBN,categorical
+BASILRA,E9A BASILAR - RATING,phase23_mra_pubn.csv,MRA_PUBN,categorical
+BASILRB1,E9B1 BASILAR - COMP STATUS TO BASELN,phase23_mra_pubn.csv,MRA_PUBN,categorical
+RPCOA_A,E10A RIGHT PCoA - RATING,phase23_mra_pubn.csv,MRA_PUBN,categorical
+RPCOA_B1,E10B1 RIGHT PCoA - COMP STATUS TO BASELN,phase23_mra_pubn.csv,MRA_PUBN,categorical
+LPCOA_A,E11A LEFT PCoA - RATING,phase23_mra_pubn.csv,MRA_PUBN,categorical
+LPCOA_B1,E11B1 LEFT PCoA - COMP STATUS TO BASELN,phase23_mra_pubn.csv,MRA_PUBN,categorical
+RHBLD_A,E12A ROBUSTNESS RT HEMISPHERE BLD FLOW,phase23_mra_pubn.csv,MRA_PUBN,categorical
+RHBLD_B1,E12B1 RT HEM BLD FLOW - STATUS TO BASELN,phase23_mra_pubn.csv,MRA_PUBN,categorical
+LHBLD_A,E13A ROBUSTNESS LFT HEMISPHERE BLD FLOW,phase23_mra_pubn.csv,MRA_PUBN,categorical
+LHBLD_B1,E13B1 LFT HEM BLD FLOW - STATUS TO BASE,phase23_mra_pubn.csv,MRA_PUBN,categorical
+COMMENTS,COMMENTS,phase23_mra_pubn.csv,MRA_PUBN,categorical
+COMM_TXT,COMMENTS,phase23_mra_pubn.csv,MRA_PUBN,categorical
+REJ_TEXT,D3B SPECIFY OTHER REASON NOT ACCEPTED,phase23_mra_pubn.csv,MRA_PUBN,categorical
+MRAID2,FOLLOW-UP IDENTIFIER,phase23_mra_pubn.csv,MRA_PUBN,continuous
+REASINC,REASON INCOMPLETE 1,phase23_mra_pubn.csv,MRA_PUBN,categorical
+REASINC2,REASON INCOMPLETE 2,phase23_mra_pubn.csv,MRA_PUBN,categorical
+mra_days,# of days phase 2 entry to date of procedure,phase23_mra_pubn.csv,MRA_PUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRIID2,FOLLOW-UP IDENTIFIER,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRIGAPP,9 MRI GENERAL APPEARANCE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIACQG,91A IS THE ATROPHY GENERAL,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIGSUL,91A1 GENERAL ATROPHY SULCAL,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIGVENT,91A2 GENERAL ATROPHY VENTRICULAR,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIGSEV,91A3 GENERAL ATROPHY LEVEL OF SEVERITY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIACQF,91B IS THE ATROPHY FOCAL,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIFSUL,91B1 FOCAL ATROPHY SULCAL,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIFVENT,91B2 FOCAL ATROPHY VENTRICULAR,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIFSPEC,91B3 SPECIFY AREA OF FOCAL ATROPHY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIGSTP,92A STATUS GENERAL ATROPHY TO PREV STUDY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIGSTB,92B STATUS GENERAL ATROPHY TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIFSTP,92B STATUS FOCAL ATROPHY TO PREV STUDY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIFSTB,92B STATUS FOCAL ATROPHY TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIRICC,111A VASCULATURE RIGHT ICC,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILICC,111B VASCULATURE LEFT ICC,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIRICS,112A VASCULATURE RIGHT ICS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILICS,112B VASCULATURE LEFT ICS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIRMCA,113A VASCULATURE RIGHT MCA,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILMCA,113B VASCULATURE LEFT MCA,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIRACA,114A VASCULATURE RIGHT ACA,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILACA,114B VASCULATURE LEFT ACA,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIRPCA,115A VASCULATURE RIGHT PCA,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILPCA,115B VASCULATURE LEFT PCA,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIBAS,116 VASCULATURE BASILAR,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRICBV,117 COLLATERAL BLOOD VESSELS,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRICBVP,118A PROGRESS VASC ABNORM SINCE LAST MRI,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRICBVPV,119 SPECIFY VESSELS W/PROGRESS ABNORMAL,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRICBVB,118B PROGRESS VASC ABNORM SINCE BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRICBVBV,1110 SPECIFY VESSELS W/PROGRESS ABNORMAL,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIBONE,12 BONY CHANGES,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIBONAB,121 BONY CHANGE FOCAL ABNORMALTY SPECIFY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIBONEP,COMPARISON OF BONES TO PREVIOUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIBONEB,COMPARISON OF BONES TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIOTABN,OTHER ABNORMALITIES,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIABN1,OTHER ABNORMALITY 1 SPECIFY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRI_N,NUMBER OF MRI FILMS,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRI_NA,NUMBER OF ACCEPTED MRI FILMS,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRI_NAS,NUMBER OF ACCEPTED AND SCHEDULED MRIs,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRI_ID,MRI IDENTIFIER (ACCEPTED MRIs),phase23_mri_pubn.csv,MRI_PUBN,continuous
+SOURCE,SOURCE FILE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIFILNO,3 DEPARTMENT FILM/SCAN ID NUMBER,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIDONTP,31 IS MRI FILM/SCAN DATA AVAIL ON TAPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIRSNP,41 REASON MRI PERFORMED,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIORSN,"42 OTHER REASON (NEW,FOLLOW-UP,OTHER)",phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIORSP,422 OTHER SPECIFY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISPNE,43 SPECIFY TYPE OF NEUROLOGICAL EVENT,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRIIRPT,INSTITUTIONAL REPORT RECEIVED/NOT RECVD,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISTNUM,MRI STUDY NUMBER,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRIQUAL,8 MRI SCAN QUALITY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIDE1,10 DISCREET FINDINGS LESION 1 SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRITYPE1,10 DISCREET FINDINGS LESION 1 TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIZE1,10 DISCREET FINDINGS LESION 1 SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRILOC11,10 DISCREET FINDINGS LESION 1 LOCATION 1,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC12,10 DISCREET FINDINGS LESION 1 LOCATION 2,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC13,10 DISCREET FINDINGS LESION 1 LOCATION 3,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC14,10 DISCREET FINDINGS LESION 1 LOCATION 4,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC1B,10 DIS FIND LES 1 STATUS COMP BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC1P,10 DIS FIND LES 1 STATUS COMP PREV STUDY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIDE2,10 DISCREET FINDINGS LESION 2 SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRITYPE2,10 DISCREET FINDINGS LESION 2 TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIZE2,10 DISCREET FINDINGS LESION 2 SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRILOC21,10 DISCREET FINDINGS LESION 2 LOCATION 1,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC22,10 DISCREET FINDINGS LESION 2 LOCATION 2,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC23,10 DISCREET FINDINGS LESION 2 LOCATION 3,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC24,10 DISCREET FINDINGS LESION 2 LOCATION 4,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC2B,10 DIS FIND LES 2 STATUS COMP BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC2P,10 DIS FIND LES 2 STATUS COMP PREV STUDY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIDE3,10 DISCREET FINDINGS LESION 3 SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRITYPE3,10 DISCREET FINDINGS LESION 3 TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIZE3,10 DISCREET FINDINGS LESION 3 SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRILOC31,10 DISCREET FINDINGS LESION 3 LOCATION 1,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC32,10 DISCREET FINDINGS LESION 3 LOCATION 2,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC33,10 DISCREET FINDINGS LESION 3 LOCATION 3,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC34,10 DISCREET FINDINGS LESION 3 LOCATION 4,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC3B,10 DIS FIND LES 3 STATUS COMP BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC3P,10 DIS FIND LES 3 STATUS COMP PREV STUDY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIDE4,10 DISCREET FINDINGS LESION 4 SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRITYPE4,10 DISCREET FINDINGS LESION 4 TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIZE4,10 DISCREET FINDINGS LESION 4 SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRILOC41,10 DISCREET FINDINGS LESION 4 LOCATION 1,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC42,10 DISCREET FINDINGS LESION 4 LOCATION 2,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC43,10 DISCREET FINDINGS LESION 4 LOCATION 3,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC44,10 DISCREET FINDINGS LESION 4 LOCATION 4,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC4B,10 DIS FIND LES 4 STATUS COMP BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC4P,10 DIS FIND LES 4 STATUS COMP PREV STUDY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIDE5,10 DISCREET FINDINGS LESION 5 SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRITYPE5,10 DISCREET FINDINGS LESION 5 TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIZE5,10 DISCREET FINDINGS LESION 5 SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRILOC51,10 DISCREET FINDINGS LESION 5 LOCATION 1,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC52,10 DISCREET FINDINGS LESION 5 LOCATION 2,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC53,10 DISCREET FINDINGS LESION 5 LOCATION 3,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC54,10 DISCREET FINDINGS LESION 5 LOCATION 4,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRILOC5B,10 DIS FIND LES 5 STATUS COMP BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC5P,10 DIS FIND LES 5 STATUS COMP PREV STUDY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIDE6,10 DISCREET FINDINGS LESION 6 SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRITYPE6,10 DISCREET FINDINGS LESION 6 TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIZE6,10 DISCREET FINDINGS LESION 6 SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRILOC61,10 DISCREET FINDINGS LESION 6 LOCATION 1,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC62,10 DISCREET FINDINGS LESION 6 LOCATION 2,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC63,10 DISCREET FINDINGS LESION 6 LOCATION 3,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC64,10 DISCREET FINDINGS LESION 6 LOCATION 4,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRILOC6B,10 DIS FIND LES 6 STATUS COMP BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC6P,10 DIS FIND LES 6 STATUS COMP PREV STUDY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIDE7,10 DISCREET FINDINGS LESION 7 SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRITYPE7,10 DISCREET FINDINGS LESION 7 TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRISIZE7,10 DISCREET FINDINGS LESION 7 SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRILOC71,10 DISCREET FINDINGS LESION 7 LOCATION 1,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC72,10 DISCREET FINDINGS LESION 7 LOCATION 2,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC73,10 DISCREET FINDINGS LESION 7 LOCATION 3,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRILOC74,10 DISCREET FINDINGS LESION 7 LOCATION 4,phase23_mri_pubn.csv,MRI_PUBN,continuous
+MRILOC7B,10 DIS FIND LES 7 STATUS COMP BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+MRILOC7P,10 DIS FIND LES 7 STATUS COMP PREV STUDY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UDESC1,UPDATED LESION DESCRIPTION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIDE1,UPDATED LESION SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UTYPE1,UPDATED LESION TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIZE1,UPDATED LESION SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+ULOC1,UPDATED LESION LOCATION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UEXNT1,UPDATED LESION EXTENT,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPB1,UPDATED COMPARISON TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPP1,UPDATED COMPARISON TO PREVIOUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UDESC2,UPDATED LESION DESCRIPTION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIDE2,UPDATED LESION SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UTYPE2,UPDATED LESION TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIZE2,UPDATED LESION SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+ULOC2,UPDATED LESION LOCATION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UEXNT2,UPDATED LESION EXTENT,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPB2,UPDATED COMPARISON TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPP2,UPDATED COMPARISON TO PREVIOUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UDESC3,UPDATED LESION DESCRIPTION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIDE3,UPDATED LESION SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UTYPE3,UPDATED LESION TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIZE3,UPDATED LESION SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+ULOC3,UPDATED LESION LOCATION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UEXNT3,UPDATED LESION EXTENT,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPB3,UPDATED COMPARISON TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPP3,UPDATED COMPARISON TO PREVIOUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UDESC4,UPDATED LESION DESCRIPTION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIDE4,UPDATED LESION SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UTYPE4,UPDATED LESION TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIZE4,UPDATED LESION SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+ULOC4,UPDATED LESION LOCATION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UEXNT4,UPDATED LESION EXTENT,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPB4,UPDATED COMPARISON TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPP4,UPDATED COMPARISON TO PREVIOUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UDESC5,UPDATED LESION DESCRIPTION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIDE5,UPDATED LESION SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UTYPE5,UPDATED LESION TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIZE5,UPDATED LESION SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+ULOC5,UPDATED LESION LOCATION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UEXNT5,UPDATED LESION EXTENT,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPB5,UPDATED COMPARISON TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPP5,UPDATED COMPARISON TO PREVIOUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UDESC6,UPDATED LESION DESCRIPTION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIDE6,UPDATED LESION SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UTYPE6,UPDATED LESION TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIZE6,UPDATED LESION SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+ULOC6,UPDATED LESION LOCATION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UEXNT6,UPDATED LESION EXTENT,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPB6,UPDATED COMPARISON TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPP6,UPDATED COMPARISON TO PREVIOUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UDESC7,UPDATED LESION DESCRIPTION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIDE7,UPDATED LESION SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UTYPE7,UPDATED LESION TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIZE7,UPDATED LESION SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+ULOC7,UPDATED LESION LOCATION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UEXNT7,UPDATED LESION EXTENT,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPB7,UPDATED COMPARISON TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPP7,UPDATED COMPARISON TO PREVIOUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UDESC8,UPDATED LESION DESCRIPTION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIDE8,UPDATED LESION SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UTYPE8,UPDATED LESION TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIZE8,UPDATED LESION SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+ULOC8,UPDATED LESION LOCATION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UEXNT8,UPDATED LESION EXTENT,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPB8,UPDATED COMPARISON TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPP8,UPDATED COMPARISON TO PREVIOUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UDESC9,UPDATED LESION DESCRIPTION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIDE9,UPDATED LESION SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UTYPE9,UPDATED LESION TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIZE9,UPDATED LESION SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+ULOC9,UPDATED LESION LOCATION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UEXNT9,UPDATED LESION EXTENT,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPB9,UPDATED COMPARISON TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPP9,UPDATED COMPARISON TO PREVIOUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UDESC10,UPDATED LESION DESCRIPTION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIDE10,UPDATED LESION SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UTYPE10,UPDATED LESION TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIZE10,UPDATED LESION SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+ULOC10,UPDATED LESION LOCATION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UEXNT10,UPDATED LESION EXTENT,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPB10,UPDATED COMPARISON TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPP10,UPDATED COMPARISON TO PREVIOUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UDESC11,UPDATED LESION DESCRIPTION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIDE11,UPDATED LESION SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UTYPE11,UPDATED LESION TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIZE11,UPDATED LESION SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+ULOC11,UPDATED LESION LOCATION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UEXNT11,UPDATED LESION EXTENT,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPB11,UPDATED COMPARISON TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPP11,UPDATED COMPARISON TO PREVIOUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UDESC12,UPDATED LESION DESCRIPTION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIDE12,UPDATED LESION SIDE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UTYPE12,UPDATED LESION TYPE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+USIZE12,UPDATED LESION SIZE,phase23_mri_pubn.csv,MRI_PUBN,continuous
+ULOC12,UPDATED LESION LOCATION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UEXNT12,UPDATED LESION EXTENT,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPB12,UPDATED COMPARISON TO BASELINE,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UCMPP12,UPDATED COMPARISON TO PREVIOUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UBASELES,(UPDATED) BASELINE LESION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ULESION,(UPDATED) INFARCT/LESION EVIDENT ON MRI,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UANYNEW,(UPDATED) AT LEAST ONE NEW LESION,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UANYLOST,(UPDATED) AT LEAST ONE LESION LOST,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UANYIMPB,(UPDATED) BASE. COMP INDICATES IMPROVED,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UANYIMPP,(UPDATED) PREV. COMP INDICATES IMPROVED,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UANYWRSB,(UPDATED) BASE. COMP INDICATES WORSENING,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UANYWRSP,(UPDATED) PREV. COMP INDICATES WORSENING,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ULFR_CT,(UPDATED) LESION IN L FRONTAL CORTEX,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ULFR_WM,(UPDATED) LESION IN L FRONTAL W MATTER,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ULTM_CT,(UPDATED) LESION IN L TEMPORAL CORTEX,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ULTM_WM,(UPDATED) LESION IN L TEMPORAL W MATTER,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ULPA_CT,(UPDATED) LESION IN L PARIETAL CORTEX,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ULPA_WM,(UPDATED) LESION IN L PARIETAL W MATTER,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ULOC_CT,(UPDATED) LESION IN L OCCIPITAL CORTEX,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ULOC_WM,(UPDATED) LESION IN L OCCIPITAL W MATTER,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ULBASAL,(UPDATED) LESION IN L BASAL/THALAMUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ULCAPCR,(UPDATED) LESION IN L CAPSULAR/CORONA,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ULBSTEM,(UPDATED) LESION IN L BRAIN STEM,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ULCEREB,(UPDATED) LESION IN L CEREBELLUM,phase23_mri_pubn.csv,MRI_PUBN,categorical
+URFR_CT,(UPDATED) LESION IN R FRONTAL CORTEX,phase23_mri_pubn.csv,MRI_PUBN,categorical
+URFR_WM,(UPDATED) LESION IN R FRONTAL W MATTER,phase23_mri_pubn.csv,MRI_PUBN,categorical
+URTM_CT,(UPDATED) LESION IN R TEMPORAL CORTEX,phase23_mri_pubn.csv,MRI_PUBN,categorical
+URTM_WM,(UPDATED) LESION IN R TEMPORAL W MATTER,phase23_mri_pubn.csv,MRI_PUBN,categorical
+URPA_CT,(UPDATED) LESION IN R PARIETAL CORTEX,phase23_mri_pubn.csv,MRI_PUBN,categorical
+URPA_WM,(UPDATED) LESION IN R PARIETAL W MATTER,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UROC_CT,(UPDATED) LESION IN R OCCIPITAL CORTEX,phase23_mri_pubn.csv,MRI_PUBN,categorical
+UROC_WM,(UPDATED) LESION IN R OCCIPITAL W MATTER,phase23_mri_pubn.csv,MRI_PUBN,categorical
+URBASAL,(UPDATED) LESION IN R BASAL/THALAMUS,phase23_mri_pubn.csv,MRI_PUBN,categorical
+URCAPCR,(UPDATED) LESION IN R CAPSULAR/CORONA,phase23_mri_pubn.csv,MRI_PUBN,categorical
+URBSTEM,(UPDATED) LESION IN R BRAIN STEM,phase23_mri_pubn.csv,MRI_PUBN,categorical
+URCEREB,(UPDATED) LESION IN R CEREBELLUM,phase23_mri_pubn.csv,MRI_PUBN,categorical
+ATR_UPD,STUDY RE-REVIEWED FOR ATROPHY,phase23_mri_pubn.csv,MRI_PUBN,categorical
+mri_days,# of days phase 2 entry to date of MRI,phase23_mri_pubn.csv,MRI_PUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_ncvapubn.csv,NCVAPUBN,continuous
+EVID2,FOLLOW-UP IDENTIFIER,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVVERS,FORM VERSION,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVBNO,DATA ENTRY BATCH NUMBER,phase23_ncvapubn.csv,NCVAPUBN,continuous
+EVICD1,EVENT ICD-9 CODE 1,phase23_ncvapubn.csv,NCVAPUBN,continuous
+EVW1WK,6 PT SEEN FOR SAME EV IN WEEK PRECEDING,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVSAME,61 IS THIS A CONTINUATION OF PREVIOUS EV,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVHOSP,7 ADMITTED TO HOSPITAL BECAUSE OF EVENT,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVBLDS,81A BLOOD CULTURE DONE,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVBLDR,82A BLOOD CULTURE RESULTS,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVBLDO,83A ORGANISM IDENTIFIED IN BLOOD CULTURE,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVBLDOC,BLOOD CULTURE ORGANISM CODE,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVURNS,81B URINE CULTURE DONE,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVURNR,82B URINE CULTURE RESULTS,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVURNO,83B ORGANISM IDENTIFIED IN URINE CULTURE,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVURNOC,URINE CULTURE ORGANISM CODE,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVTHRS,81C THROAT CULTURE DONE,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVTHRR,82C THROAT CULTURE RESULTS,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVTHRO,83C ORGANISM IDENTIFIED THROAT CULTURE,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVTHROC,THROAT CULTURE ORGANISM CODE,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVOTHS,81D OTHER CULTURE DONE,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVOTHR,82D OTHER CULTURE RESULTS,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVOTHO,83D ORGANISM IDENTIFIED IN OTHER CULTURE,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVOTHOC,OTHER CULTURE ORGANSISM CODE,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVCULTFR,8D1 SOURCE OF OTHER CULTURE SPECIFY,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVSER,9 WERE SEROLOGICAL STUDIES PERFORMED,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVSERN1,91A SEROLOGICAL STUDY 1 SPECIFY,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVSERR1,92A SEROLOGICAL STUDY 1 RESULTS,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVSERN2,91B SEROLOGICAL STUDY 2 SPECIFY,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVSERR2,92B SEROLOGICAL STUDY 2 RESULTS,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVSERN3,91C SEROLOGICAL STUDY 3 SPECIFY,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVSERR3,92C SEROLOGICAL STUDY 3 RESULTS,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVASEVNT,10 OTHER EVNTS ASSOC. W/ THIS EVENT,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVVENT,11 DID PT REQUIRE VENTILATOR SUPPORT,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVVENTD,111 # OF DAYS PATIENT ON VENTILATOR,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVTRANS,12 WAS PT TRANSFUSED FOR THIS EVENT,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVDIE,13 DID PT DIE AS RESULT OF THIS EVENT,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVNTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVNOVERS,VERSION DATA TRANSCRIBED FROM,phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVINFECT,WAS THE EVENT AN INFECTION (PH2),phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVCULT,WAS SPECIFIC ORGANISM IDENTIFIED (PH2),phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVORGN,SPECIFY ORGANISM IDENTIFIED (PH2),phase23_ncvapubn.csv,NCVAPUBN,categorical
+EVORGC,ORGANISM CODE (PH2),phase23_ncvapubn.csv,NCVAPUBN,categorical
+ev_dys1,# of days phase 1 entry to event date,phase23_ncvapubn.csv,NCVAPUBN,continuous
+ev_dys2,# of days phase 2 entry to event date,phase23_ncvapubn.csv,NCVAPUBN,continuous
+ev_addys,# of days phase 2 entry to hosp admission date,phase23_ncvapubn.csv,NCVAPUBN,continuous
+ev_dsdys,# of days phase 2 entry to hosp discharge date,phase23_ncvapubn.csv,NCVAPUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_ne_pubn.csv,NE_PUBN,continuous
+NEID2,FOLLOW-UP IDENTIFIER,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEVERS,FORM VERSION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEBNO,DATA ENTRY BATCH NUMBER,phase23_ne_pubn.csv,NE_PUBN,continuous
+NEPOS,1A POSITION OF PERSON PERFORMING EXAM,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEOTHPOS,1A4 OTHER POSITION OF PERSON SPECIFY,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEPOSNR,4 LEVEL OF CONSCIOUSNESS,phase23_ne_pubn.csv,NE_PUBN,categorical
+NELNFCA,5 DESCRIBE PATIENTS LANGUAGE FUNCTION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEDOMEYE,6A WHICH SIDE IS DOMINANT - EYE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEDOMHND,6B WHICH SIDE IS DOMINANT - HAND,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEDOMFT,6C WHICH SIDE IS DOMINANT - FOOT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEVAR,7A11 VISUAL ACUITY W/OUT CORR LENS - R,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEVAL,7A12 VISUAL ACUITY W/OUT CORR LENS - L,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEVACR,7A21 VISUAL ACUITY W/ CORRECT LENS - R,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEVACL,7A22 VISUAL ACUITY W/ CORRECT LENS - L,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEPUPRR,7B1 PUPILLARY REFLEXES - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEPUPRL,7B2 PUPILLARY REFLEXES - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEEXMVR,7C1 EXTRAOCULAR MOVEMENTS - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEEXMVL,7C2 EXTRAOCULAR MOVEMENTS - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEFACSR,7D1 FACIAL SENSATION - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEFACSL,7D2 FACIAL SENSATION - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEFACPR,7E1 FACIAL POWER - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEFACPL,7E2 FACIAL POWER - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEPALRR,7F1 PALATAL REFLEX - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEPALRL,7F2 PALATAL REFLEX - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETONGMR,7G1 TONGUE MOVEMENTS - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETONGML,7G2 TONGUE MOVEMENTS - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NENYGTR,7H1 NYSTAGMUS ON GAZE TOWARD - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NENYGTL,7H2 NYSTAGMUS ON GAZE TOWARD - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NENYVGR,7I1 NYSTAGMUS ON VERTICAL GAZE - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NENYVGL,7I2 NYSTAGMUS ON VERTICAL GAZE - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEHRNSR,7J1 HORNERS SYNDROME - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEHRNSL,7J2 HORNERS SYNDROME - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEMSTRU,8A1A MUSCLE TONE - RIGHT UPPER,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEMSTRL,8A1B MUSCLE TONE - RIGHT LOWER,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEMSTLU,8A2A MUSCLE TONE - LEFT UPPER,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEMSTLL,8A2B MUSCLE TONE - LEFT LOWER,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEMOPRU,8B1A1 MOTOR POWER - RIGHT UPPER,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEMOPRUA,8B1A2 ABNORMAL MOTOR POWER LOCATION RU,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEMOPRL,8B1B1 MOTOR POWER - RIGHT LOWER,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEMOPRLA,8B1B2 ABNORMAL MOTOR POWER LOCATION RL,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEMOPLU,8B2A1 MOTOR POWER - LEFT UPPER,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEMOPLUA,8B2A2 ABNORMAL MOTOR POWER LOCATION LU,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEMOPLL,8B2B1 MOTOR POWER - LEFT LOWER,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEMOPLLA,8B2B2 ABNORMAL MOTOR POWER LOCATION LL,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEDRIFT,8B3 DOES PATIENT DEMONSTRATE DRIFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEDRIFTL,8B31 LOCATION OF DRIFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEINVRU,8C1A INVOLUNTARY MOVEMENT - RIGHT UPPER,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEINVLU,8C2A INVOLUNTARY MOVEMENT - LEFT UPPER,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEINVRL,8C1B INVOLUNTARY MOVEMENT - RIGHT LOWER,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEINVLL,8C2B INVOLUNTARY MOVEMENT - LEFT LOWER,phase23_ne_pubn.csv,NE_PUBN,categorical
+NERMBRG,8D ROMBERG,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEGAIT,8E DESCRIBE PTS COORDINATION & GAIT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NELIMP,8E1 GAIT & COORDINATION - LIMP,phase23_ne_pubn.csv,NE_PUBN,categorical
+NECRBFNR,91A UPPER FINGER - NOSE - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NECRBFNL,92A UPPER FINGER - NOSE - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NECRBHSR,91B LOWER HEEL - SHIN - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NECRBHSL,92B LOWER HEEL - SHIN - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NECRBRMR,91C RAPID ALTERNATING MOVEMENT - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NECRBRML,92C RAPID ALTERNATING MOVEMENT - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEBICR,10A1A1 RIGHT BICEP REFLEX CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEBICRC,10A1A2 RIGHT BICEP CLONUS CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETRICR,10A1B1 RIGHT TRICEP REFLEX CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETRICRC,10A1B2 RIGHT TRICEP CLONUS CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEULNR,10A1C1 RIGHT ULNAR REFLEX CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEULNRC,10A1C2 RIGHT ULNAR CLONUS CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NERADR,10A1D1 RIGHT RADIAL REFLEX CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NERADRC,10A1D2 RIGHT RADIAL CLONUS CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEKNEER,10A1E1 RIGHT KNEE REFLEX CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEKNEERC,10A1E2 RIGHT KNEE CLONUS CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEANKLR,10A1F1 RIGHT ANKLE REFLEX CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEANKLRC,10A1F2 RIGHT ANKLE CLONUS CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEBICL,10A2A1 LEFT BICEP REFLEX CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEBICLC,10A2A2 LEFT BICEP CLONUS CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETRICL,10A2B1 LEFT TRICEP REFLEX CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETRICLC,10A2B2 LEFT TRICEP CLONUS CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEULNL,10A2C1 LEFT ULNAR REFLEX CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEULNLC,10A2C2 LEFT ULNAR CLONUS CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NERADL,10A2D1 LEFT RADIAL REFLEX CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NERADLC,10A2D2 LEFT RADIAL CLONUS CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEKNEEL,10A2E1 LEFT KNEE REFLEX CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEKNEELC,10A2E2 LEFT KNEE CLONUS CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEANKLL,10A2F1 LEFT ANKLE REFLEX CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEANKLLC,10A2F2 LEFT ANKLE CLONUS CODE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEPLNRR,10B1 PLANTAR REFLEXES - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEPLNRL,10B2 PLANTAR REFLEXES - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEARMLTA,11A TACTILE SENSATION LEFT ARM/HAND,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEARMRTA,11B TACTILE SENSATION RIGHT ARM/HAND,phase23_ne_pubn.csv,NE_PUBN,categorical
+NELEGLTA,11C TACTILE SENSATION LEFT LEG/FOOT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NELEGRTA,11D TACTILE SENSATION RIGHT LEG/FOOT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETRKLTA,11E TACTILE SENSATION LEFT TRUNK,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETRKRTA,11F TACTILE SENSATION RIGHT TRUNK,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEOVERS,VERSION DATA TRANSCRIBED FROM,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEINFCT,>=10 YRS DESC PTS INTELLECT FUNCT (PH2),phase23_ne_pubn.csv,NE_PUBN,categorical
+NELNFCB,<10 YRS LANG FUNCT DEFICITS NOTED (PH2),phase23_ne_pubn.csv,NE_PUBN,categorical
+NELNFCC,CHANGE FROM PREVIOUS LANG FUNCT (PH2),phase23_ne_pubn.csv,NE_PUBN,categorical
+NEBLINDR,ABNORM VIS ACUITY-PT BLIND RT EYE (PH2),phase23_ne_pubn.csv,NE_PUBN,categorical
+NEBLINDL,ABNORM VIS ACUITY-PT BLIND LFT EYE (PH2),phase23_ne_pubn.csv,NE_PUBN,categorical
+NECRNRR,CORNEAL REFLEX - RIGHT EYE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NECRNRL,CORNEAL REFLEX - LEFT EYE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEWEBERR,WEBER TEST - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEWEBERL,WEBER TEST - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NERINNER,RINNE TEST - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NERINNEL,RINNE TEST - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEARMLPN,SENSORY LEFT ARM/HAND PAIN,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEARMLVB,SENSORY LEFT ARM/HAND VIBRATION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEARMLPO,SENSORY LEFT ARM/HAND POSITION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEARMRPN,SENSORY RIGHT ARM/HAND PAIN,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEARMRVB,SENSORY RIGHT ARM/HAND VIBRATION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEARMRPO,SENSORY RIGHT ARM/HAND POSITION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NELEGLPN,SENSORY LEFT LEG/FOOT PAIN,phase23_ne_pubn.csv,NE_PUBN,categorical
+NELEGLVB,SENSORY LEFT LEG/FOOT VIBRATION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NELEGLPO,SENSORY LEFT LEG/FOOT POSITION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NELEGRPN,SENSORY RIGHT LEG/FOOT PAIN,phase23_ne_pubn.csv,NE_PUBN,categorical
+NELEGRVB,SENSORY RIGHT LEG/FOOT VIBRATION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NELEGRPO,SENSORY RIGHT LEG/FOOT POSITION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETRKLPN,SENSORY LEFT TRUNK PAIN,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETRKLVB,SENSORY LEFT TRUNK VIBRATION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETRKLPO,SENSORY LEFT TRUNK POSITION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETRKRPN,SENSORY RIGHT TRUNK PAIN,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETRKRVB,SENSORY RIGHT TRUNK VIBRATION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NETRKRPO,SENSORY RIGHT TRUNK POSITION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NESADLPN,SENSORY LEFT SADDLE PAIN,phase23_ne_pubn.csv,NE_PUBN,categorical
+NESADLVB,SENSORY LEFT SADDLE VIBRATION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NESADLPO,SENSORY LEFT SADDLE POSITION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NESADLTA,SENSORY LEFT SADDLE TACTILE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NESADRPN,SENSORY RIGHT SADDLE PAIN,phase23_ne_pubn.csv,NE_PUBN,categorical
+NESADRVB,SENSORY RIGHT SADDLE VIBRATION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NESADRPO,SENSORY RIGHT SADDLE POSITION,phase23_ne_pubn.csv,NE_PUBN,categorical
+NESADRTA,SENSORY RIGHT SADDLE TACTILE,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEVSACR,VISUAL ACUITY - RIGHT,phase23_ne_pubn.csv,NE_PUBN,categorical
+NEVSACL,VISUAL ACUITY - LEFT,phase23_ne_pubn.csv,NE_PUBN,categorical
+ne_days,# of days phase 2 entry to date of neurological exam,phase23_ne_pubn.csv,NE_PUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_npc_pubn.csv,NPC_PUBN,continuous
+NPCID2,FOLLOW-UP IDENTIFIER,phase23_npc_pubn.csv,NPC_PUBN,continuous
+NPCVERS,FORM VERSION,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCBNO,DATA ENTRY BATCH NUMBER,phase23_npc_pubn.csv,NPC_PUBN,continuous
+NPCEXAM,4 EXAM NUMBER,phase23_npc_pubn.csv,NPC_PUBN,continuous
+AGE17,5 IS PATIENT >16 YEARS OLD,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSVIQ,51A WISC-R/3 VERBAL IQ SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCIVIQ,51B WISC-R/3 VERBAL IQ INDEX SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSPIQ,52A WISC-R/3 PERFORMANCE IQ SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCIPIQ,52B WISC-R/3 PERFORMANCE IQ INDEX SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSFSIQ,53A WISC-R/3 FULL SCALE IQ SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCIFSIQ,53B WISC-R/3 FULL SCALE IQ INDEX SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSVC,54A WISC3 VERBAL COMPREHENS SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCIVC,54B WISC3 VERBAL COMPREHENS INDEX SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSPO,55A WISC3 PERCEPT ORGANIZE SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCIPO,55B WISC3 PERCEPT ORGANIZE INDEX SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSFD,56A WISC3 FREEDOM DISTRCT SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCIFD,56B WISC3 FREEDOM DISTRCT INDEX SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSPS,57A WISC3 PROCESSING SPEED SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCIPS,57B WISC3 PROCESSING SPEED INDEX SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRPIC,58A WISC-R/3 PICTR COMPLETION RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSPIC,58B WISC-R/3 PICTR COMPLET SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRINFO,59A WISC-R/3 INFORMATION RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSINFO,59B WISC-R/3 INFORMATION SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRCOD,510A WISC-R/3 CODING RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSCOD,510B WISC-R/3 CODING SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRSIM,511A WISC-R/3 SIMILARITIES RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSSIM,511B WISC-R/3 SIMILARITIES SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRPARR,512A WISC-R/3 PICTR ARRANGEMNT RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSPARR,512B WISC-R/3 PICTR ARRANGE SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRARIT,513A WISC-R/3 ARITHMETIC RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSARIT,513B WISC-R/3 ARITHMETIC SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRBD,514A WISC-R/3 BLOCK DESIGN RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSBD,514B WISC-R/3 BLOCK DESIGN SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRVOCB,515A WISC-R/3 VOCABULARY RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSVOCB,515B WISC-R/3 VOCABULARY SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCROA,516A WISC-R/3 OBJECT ASSEMBLY RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSOA,516B WISC-R/3 OBJ ASSEMBLY SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRCOMP,517A WISC-R/3 COMPREHENSION RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSCOMP,517B WISC-R/3 COMPREHENSION SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRSS,518A WISC3 SYMBOL SEARCH RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSSS,518B WISC3 SYMBOL SEARCH SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRDS,519A WISC-R/3 DIGIT SPAN RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSDS,519B WISC-R/3 DIGIT SPAN SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASVIQ,61A WAISR VERBAL IQ SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPAIVIQ,61B WAISR VERBAL IQ IQ SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASPIQ,62A WAISR PERFORMANCE IQ SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPAIPIQ,62B WAISR PERFORMANCE IQ IQ SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASFSIQ,63A WAISR FULL SCALE IQ SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPAIFSIQ,63B WAISR FULL SCALE IQ IQ SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPARINFO,64A WAISR INFORMATION RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASINFO,64B WAISR INFORMATION SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPARDS,65A WAISR DIGIT SPAN RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASDS,65B WAISR DIGIT SPAN SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPARVOCB,66A WAISR VOCABULARY RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASVOCB,66B WAISR VOCABULARY SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPARARIT,67A WAISR ARITHMETIC RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASARIT,67B WAISR ARITHMETIC SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPARCOMP,68A WAISR COMPREHENSION RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASCOMP,68B WAISR COMPREHENSION SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPARSIM,69A WAISR SIMILARITIES RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASSIM,69B WAISR SIMILARITIES SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPARPIC,610A WAISR PICTURE COMPLETION RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASPIC,610B WAISR PICTURE COMPLETE SCALE SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPARPARR,611A WAISR PICTURE ARRANGEMENT RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASPARR,611B WAISR PICT ARRANGEMENT SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPARBD,612A WAISR BLOCK DESIGN RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASBD,612B WAISR BLOCK DESIGN SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPAROA,613A WAISR OBJECT ASSEMBLY RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASOA,613B WAISR OBJECT ASSEMBLY SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPARDSYM,614A WAISR DIGIT SYMBOL RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPASDSYM,614B WAISR DIGIT SYMBOL SCALED SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCWJARC,71B WJACH BROAD READ AGE BASED STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCWJRLW,71AA WJACH LETTER WORD INDENT RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCWJALW,71AB WJACH LETTER WRD AGE BASE STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCWJRWA,71BA WJACH WORD ATTACK RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCWJAWA,71BB WJACH WRD ATTACK AGE BASE STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCWJRPC,71CA WJACH PASSAGE COMPREHENSN RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCWJAPC,71CB WJACH PASS COMP AGE BASED STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCWJAMC,72B WJACH BROAD MATH AGE BASED STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCWJRCA,72AA WJACH CALCULATION RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCWJACA,72AB WJACH CALCULATN AGE BASED STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCWJRAP,72BA WJACH APPLIED PROBLEMS RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCWJAAP,72BB WJACH APP PROBS AGE BASED STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSPEED,81B WJCA PROCESS SPEED CLUSTER STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRVM,81AA WJCA VISUAL MATCHING RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSVM,81AB WJCA VISUAL MATCHING STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRCO,81BA WJCA CROSS OUT RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSCO,81BB WJCA CROSS OUT STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSTMEM,82B WJCA SHRT TRM MEMORY CLUST STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRSENT,82AA WJCA MEMORY FOR SENTENCES RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSSENT,82AB WJCA MEMORY FOR SENTENCES STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRWORD,82BA WJCA MEMORY FOR WORDS RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSWORD,82BB WJCA MEMORY FOR WORDS STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRAS,83A WJCA ANALYSIS/SYNTHESIS RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSAS,83B WJCA ANALYSIS/SYNTHESIS STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRSR,84A WJCA SPATIAL RELATIONS RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCSSR,84B WJCA SPATIAL RELATIONS STD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCVMIRS,91 VMI RAW SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCVMISS,92 VMI STANDARD SCORE,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCVMIAY,93A VMI AGE EQUIVALENT YEARS,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCVMIAM,93B VMI AGE EQUIVALENT MONTHS,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCHAND,101 WHATS PTS HAND DOMINANCE FOR WRITING,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRPEG,101A TOTAL PEGS - RIGHT HAND,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCLPEG,101B TOTAL PEGS - LEFT HAND,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCRNCOR,11A TACTILE PERCEPTION # CORRECT R HAND,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCLNCOR,11B TACTILE PERCEPTION # CORRECT L HAND,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCNE,12 NEURO EVAL W/IN 3 MO THIS EVALUATION,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCOVERS,VERSION DATA TRANSCRIBED FROM,phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCOVANP,OVFT ANIMALS - NUMBER PRODUCED (PH2),phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCOVAC,OVFT ANIMALS - CONFABULATION (PH2),phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCOVAP,OVFT ANIMALS - PERSEVERATIONS (PH2),phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCOVFNP,OVFT FOODS - NUMBER PRODUCED (PH2),phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCOVFC,OVFT FOODS - CONFABULATION (PH2),phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCOVFP,OVFT FOODS - PERSEVERATIONS (PH2),phase23_npc_pubn.csv,NPC_PUBN,categorical
+NPCABNNE,WAS NEURO EXAM IN ANY WAY ABNORMAL (PH2),phase23_npc_pubn.csv,NPC_PUBN,categorical
+npc_days,# of days phase 2 entry to date of neuropsychological exam,phase23_npc_pubn.csv,NPC_PUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_npp_pubn.csv,NPP_PUBN,continuous
+NPPID2,FOLLOW-UP IDENTIFIER,phase23_npp_pubn.csv,NPP_PUBN,continuous
+NPPVERS,FORM VERSION,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPBNO,DATA ENTRY BATCH NUMBER,phase23_npp_pubn.csv,NPP_PUBN,continuous
+NPPACBCO,41 ACHENBACH TEST ABLE TO BE COMPLETED,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPACBLB,42 LANG BARRIER COMPROMISE ADMIN OF ACBC,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPFESCO,51 FES ABLE TO BE COMPLETED,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPFESLB,52 LANG BARRIER COMPROMISE ADMIN OF FES,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPPPVTR,61 PPVT RAW SCORE,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPPPVTS,62 PPVT SCALED SCORE,phase23_npp_pubn.csv,NPP_PUBN,categorical
+PPVTSEX,64 GENDER OF PERSON COMPLETING PPVT,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPMOM,7 ARE YOU PTS MOTHER OR LEGAL GUARDIAN,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPRELP,71 SPECIFY YOUR RELATIONSHIP TO PATIENT,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPLIVPT,72 DO YOU LIVE WITH PATIENT,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPHOMHR,911 # HRS/DAY IS CARE PROVIDED,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPCLAPL,10 CURRENT TYPE CLASS PLACEMENT FOR PT,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPHRCP1,102 HRS/DAY IN SPECIAL CLASS PLACEMENT 1,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPHRCP2,103 HRS/DAY IN SPECIAL CLASS PLACEMENT 2,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPINT,11 ANY INTERVENTN ASSIST PROVIDED TO PT,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPINTTY,111 TYPE OF INTERVENTION ASSIST PROVIDED,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPLANG1,12 WHAT LANGUAGES SPOKEN IN HOUSEHOLD,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPOLASP,121 FAM MEMBRS SPEAK OTHER THAN ENGLISH,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPSIBS,13 HOW MANY SIBLINGS LIVE WITH PATIENT,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPBIORD,131 WHAT IS PATIENTS BIRTH ORDER,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPMARST,14 WHAT IS YOUR MARITAL STATUS,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPCHMST,141 MARITAL STATUS CHANGED IN LAST 6 MOS,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPLVSIT,15 WHAT IS YOUR LIVING SITUATION LIKE,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPED,16 CATEGORY DESCRIBES EDUCATIONAL BKGRND,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPEMPLY,17 CURRENTLY WORKING/WORKED LAST 12 MOS,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPHRSWK,TOTAL NUMBER HOURS WORKED PER DAY,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPWORKC,JOB CODE,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPJOBC,JOB TITLE CODE,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPCSTAT,18 WHICH BEST DESCRIBES CURRENT STATUS,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPMC,20 TYPE OF MEDICAL COVERAGE DO YOU HAVE,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPSCHDM,21 # WHOLE DAYS MISSED SCHOOL IN PST YR,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPEVAL,22 CHILD HAD PSYCH EVAL W/IN LAST 12 MO,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPEVCOD,PSYCHOLOGICAL EVALUATION CONDUCTED CODE,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPSCHIN,23 HAVE YOU OBTAINED SCHOOL INFORMATION,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPSCRSN,231 REASON FOR NOT OBTAINING INFORMATION,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPSCISN,INSTITUTIONAL REPORT RECEIVED,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_npp_pubn.csv,NPP_PUBN,categorical
+NPPOVERS,VERSION DATA TRANSCRIBED FROM,phase23_npp_pubn.csv,NPP_PUBN,categorical
+PPVTAGE,AGE OF PERSON COMPLETING PPVT,phase23_npp_pubn.csv,NPP_PUBN,categorical
+SEFLAG,EDIT STATUS,phase23_npp_pubn.csv,NPP_PUBN,continuous
+npp_days,# of days phase 2 entry to date of neuropsychological exam,phase23_npp_pubn.csv,NPP_PUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_pep_pubn.csv,PEP_PUBN,continuous
+PEID2,FOLLOW-UP IDENTIFIER,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PEVERS,FORM VERSION,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PEBNO,DATA ENTRY BATCH NUMBER,phase23_pep_pubn.csv,PEP_PUBN,continuous
+PEHGT,4 HEIGHT,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PEWGT,5 WEIGHT,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PEBPS,6A SYSTOLIC BLOOD PRESSURE-SUPINE,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PEBPD,6B DIASTOLIC BLOOD PRESSURE-DIASTOLIC,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PETONSIL,7 DIST BETW MEDIAL SURFACES OF TONSILS,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PELVRSZ,8 LIVER - DIST BELOW RCM AT MCL (CM),phase23_pep_pubn.csv,PEP_PUBN,categorical
+PESPLTP,9 SPLEEN - DIST BELOW LCM AT MCL (CM),phase23_pep_pubn.csv,PEP_PUBN,categorical
+PERHPLM,10A PAIN/LIMITATION OF MOTION IN R HIP,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PELHPLM,10B PAIN/MOTION LIMITATION IN L HIP,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PERSHLM,10C PAIN/MOTION LIMITATION IN R SHOULDER,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PELSHLM,10D PAIN/MOTION LIMITATION IN L SHOULDER,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PE_NEURO,11 NEUROLOGICAL EXAM PERFORMED,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PETRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PEOVERS,VERSION DATA TRANSCRIBED FROM,phase23_pep_pubn.csv,PEP_PUBN,categorical
+PERKNLM,PAIN/MOTION LIMITATION IN R KNEE (PH 2),phase23_pep_pubn.csv,PEP_PUBN,categorical
+PELKNLM,PAIN/MOTION LIMITATION IN L KNEE (PH 2),phase23_pep_pubn.csv,PEP_PUBN,categorical
+PERANLM,PAIN/MOTION LIMITATION IN R ANKLE (PH 2),phase23_pep_pubn.csv,PEP_PUBN,categorical
+PELANLM,PAIN/MOTION LIMITATION IN L ANKLE (PH 2),phase23_pep_pubn.csv,PEP_PUBN,categorical
+PEOTHLM,OTHER SITE OF PAIN/LIMITATION (PH 2),phase23_pep_pubn.csv,PEP_PUBN,categorical
+PEEXLM,LOCATION OF PAIN/LIMITATION (PH 2),phase23_pep_pubn.csv,PEP_PUBN,categorical
+PEABNE,ABNORMAL NEUROLOGICAL EXAM (PH 2),phase23_pep_pubn.csv,PEP_PUBN,categorical
+pe_days,# of days phase 2 entry to date of physical exam,phase23_pep_pubn.csv,PEP_PUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_pfifpubn.csv,PFIFPUBN,continuous
+PFIFID2,FOLLOW-UP IDENTIFIER,phase23_pfifpubn.csv,PFIFPUBN,continuous
+PFIFVERS,FORM VERSION,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIFBNO,DATA ENTRY BATCH NUMBER,phase23_pfifpubn.csv,PFIFPUBN,continuous
+PFICODE,2 CODE NO OF PERSON COMPLETING FORM,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIACS,4 PT HAD ACS/PNEUMONIA IN PAST 60 DAYS,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIARI,5 HAD ACUTE RESP ILLNESS IN LAST MONTH,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIOACUT,6 OTHER ACUTE CONDIT INTERFERE W/TEST,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFICOOP,7 PT ABLE TO COOPERATE W/ PF TESTING,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIDIFBR,8 HAVE DIFFICULTY BREATHING ASLEEP,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFISNORE,9 DOES PATIENT SNORE,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFISTBR,10 DOES PT STOP BREATHING WHILE ASLEEP,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIWZHX,11 DOES PT HAVE HISTORY OF WHEEZING,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIASTHX,12 DOES PT HAVE HISTORY OF ASTHMA,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIASMED,121 PT CURRENTLY ON ASTHMA MEDICATION,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFISTER,122A IS PATIENT TAKING STEROIDS,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFISSTER,122A1 PT TAKING SYSTEMIC STEROIDS,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIISTER,122A2 PT TAKING INHALED STEROIDS,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIBSYM,122B PT TAKING BETA-SYMPATHOMETICS,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFITHEO,122C PT TAKING THEOPHYLLINE,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFICROM,122D PT TAKING CROMOLYN OR NEDOCROMIL,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIACHOL,122E PT TAKING ANTICHOLINERGICS,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIOMED,122F PT TAKING OTHER MEDS FOR ASTHMA,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIOMEDT,122F1 OTHR ASTHMA MEDICATION SPECIFY,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIHSSMK,14 IS THERE HOUSEHOLD MEMBER WHO SMOKES,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIPCSG,15 HAS PT HAD PULMONARY/CARDIAC SURGERY,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIPCSG1,151A CARDIAC/PULMONARY PROCEDURE CODE,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIPCSG2,151B CARDIAC/PULMONARY PROCEDURE CODE,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIPCSG3,151C CARDIAC/PULMONARY PROCEDURE CODE,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFITOSG,16 PT HAD TONSILLECTOMY/ADENOIDECTOMY,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFITOSGR,161 REASON FOR TONSILLECT/ADENOIDECT,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFITOSGC,1611 REASON FOR TONSILL/ADENOID CODE,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFITOAGE,162 AGE SURGERY PERFORMED,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIMEDS,17 PT TAKEN MEDICATIONS IN PAST 24 HRS,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIRALES,18A PHYSICAL EXAM LUNGS - RALES,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIRN,18B PHYSICAL EXAM LUNGS - RHONCHI,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIWZ,18C PHYSICAL EXAM LUNGS - WHEEZING,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIMBR,18D PHYS EXAM LUNGS - MOUTH BREATHING,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIORAB,18E PHYS EXAM LUNGS - OTHR ABNORMALITY,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIORABT,18E1 OTHER LUNG ABNORMALITY SPECIFY,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFITRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIOVERS,VERSION DATA TRANSCRIBED FROM,phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIABLE,FREE OF ILLNESS & ABLE TO DO PFT (PH2),phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIURIOR,PT HAD URI IN PAST 30 DAYS (PH2),phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFIOMEDC,OTHER ASTHMA MED SPECIFY CODE (PH2),phase23_pfifpubn.csv,PFIFPUBN,categorical
+PFITODIS,ESTIMATED TONSILLAR DISTANCE (PH2),phase23_pfifpubn.csv,PFIFPUBN,categorical
+pfi_days,# of days phase 2 entry to date of interview,phase23_pfifpubn.csv,PFIFPUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_pftppubn.csv,PFTPPUBN,continuous
+PFTID2,FOLLOW-UP IDENTIFIER,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTVERS,FORM VERSION,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTBNO,DATA ENTRY BATCH NUMBER,phase23_pftppubn.csv,PFTPPUBN,continuous
+PFTCODE,2 CODE NO OF PERSON COMPLETING FORM,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTHGT,4 HEIGHT,phase23_pftppubn.csv,PFTPPUBN,continuous
+PFTWGT,5 WEIGHT,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTSIT,6 SITTING HEIGHT,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTARMSP,7 ARM SPAN,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTFVC,81 FORCED VITAL CAPACITY,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTFEV,82 FORCED EXPIRATORY VOLUME,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFFEVFVC,83 FEV/FVC,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTFEFP,84A FORCED EXPIR FLOW RATE PEAK FLOW,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTFEF50,84B FORCED EXPIR @ 50% VITAL CAPACITY,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTFEF25,84C FORCED EXPIR @ 25% VITAL CAPACITY,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTFEF,84D FORCED EXPIR FLOW RATE FEF 25-75%,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTBRON,9 SPIROM VAL OBTAIN AFT BRONCHODIL USED,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTBRONT,91 TYPE/DOSAGE OF BRONCHODILATOR USED,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTFVCA,921 AFT BRONCHO FORCED VITAL CAPACITY,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTFEVA,922 AFT BRONCHO FORCED EXPIRATORY VOL,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFEVFVCA,923 AFT BRONCHO FEV/FVC,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTFEFPA,924A FORCED EXP FL RATE AT PEAK FLOW,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFFEF50A,924B FORCED EXPIR @ 50% VIT CAPACITY,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFFEF25A,924C FORCED EXPIR @ 25% VIT CAPACITY,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTFEFA,924D FORCED EXP FL RATE FEF 25-75%,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTTLNGC,101 TOTAL LUNG CAPACITY,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTFRESC,102 FUNCTIONAL RESIDUAL CAPACITY,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTRESVL,103 RESIDUAL VOLUME,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTRVTLC,104 RV/TLC,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTLVMS,105 MEASUREMENTS OBTAINED BY,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTDCCO,111 DIFFUSING CAPACITY CO,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTDCHB,112 DIFFUSING CAPACITY HEMOGLOBIN,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTSBTLC,113 DIFF CAPACITY SINGLE BREATH TLC,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTSBRV,114 DIFF CAP SINGLE BREATH RESID VOL,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTTEST,12 QUALITY OF TEST,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTPO2,131 ARTERIAL BLOOD GAS PO2,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTPCO2,132 ARTERIAL BLOOD GAS PCO2,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTPH,133 ARTERIAL BLOOD GAS PH,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTBTMP,134 BODY TEMP AT TIME ABG BLOOD DRAWN,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTPOXDN,14 WAS PULSE OXIMETRY PERFORMED,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTPPSAT,141 %O2 SATURATION BY PULSE OXIMETRY,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTCOOX,15 WAS CO-OXIMETRY PERFORMED,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTCOSAT,151 %O2 SATURATION BY CO-OXIMETRY,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTCARBX,152 CARBOXYHEMOGLOBIN,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTMETHE,153 METHEMOGLOBIN,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTIRPT,INSTITUTIONAL REPORTS RECEIVED,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTOVERS,VERSION DATA TRANSCRIBED FROM,phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTPOX,O2 SAT MEASURED BY PULSE OXIMETRY (PH2),phase23_pftppubn.csv,PFTPPUBN,categorical
+SATMETH,O2 SATURATION METHOD (PH2),phase23_pftppubn.csv,PFTPPUBN,categorical
+PFTBSA,BODY SURFACE AREA (PH2),phase23_pftppubn.csv,PFTPPUBN,categorical
+pft_days,# of days phase 2 entry to date of test,phase23_pftppubn.csv,PFTPPUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_prlnpubn.csv,PRLNPUBN,continuous
+PSMID2,FOLLOW-UP IDENTIFIER,phase23_prlnpubn.csv,PRLNPUBN,continuous
+PSMBNO,DATA ENTRY BATCH NUMBER,phase23_prlnpubn.csv,PRLNPUBN,continuous
+PSMVERS,FORM VERSION,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMEQ,3A I FEEL I AM A PERSON OF WORTH,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMGQAL,3B I FEEL I HAVE # OF GOOD QUALITIES,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMFAIL,3C I FEEL THAT I AM A FAILURE,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMDOTH,3D ABLE TO DO THINGS AS WELL AS MOST,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMPROUD,3E I DO NOT HAVE MUCH TO BE PROUD OF,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMPOSAT,3F I TAKE POS ATTITUDE TOWARD MYSELF,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMSATIS,"3G ON WHOLE, I AM SATISFIED W/ MYSELF",phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMRSPCT,3H COULD HAVE MORE RESPECT FOR MYSELF,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMUSELS,3I I CERTAINLY FEEL USELESS AT TIMES,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMNOGD,3J AT TIMES I THINK IM NO GOOD AT ALL,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMLOOKS,3K FEEL GOOD ABOUT HOW MY BODY LOOKS,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMEMB,3L EMBARASS AROUND OTHRS MY BODY LOOKS,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMNOWAY,3M REALLY NO WAY CAN SOLVE PROBS HAVE,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMPUSH,3N FEEL BEING PUSHED AROUND IN LIFE,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMCNTRL,3O LITTLE CONTRL OVR THING HAPN TO ME,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMDOANY,3P CAN DO ABOUT ANYTHING SET MIND TO,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMHLPLS,3Q OFT FEEL HELPLSS DEALING W/ PROBS,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMFUTR,3R WHAT HAPPEN IN FUTURE DEPEND ON ME,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMCHG,3S LITTLE CAN DO CHANGE THINGS IN LIFE,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_prlnpubn.csv,PRLNPUBN,categorical
+PSMOVERS,VERSION DATA TRANSCRIBED FROM,phase23_prlnpubn.csv,PRLNPUBN,categorical
+psm_days,# of days phase 2 entry to date pearlin scale administered,phase23_prlnpubn.csv,PRLNPUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_pvtqpubn.csv,PVTQPUBN,continuous
+PQID2,FOLLOW-UP IDENTIFIER,phase23_pvtqpubn.csv,PVTQPUBN,continuous
+PQVERS,FORM VERSION,phase23_pvtqpubn.csv,PVTQPUBN,categorical
+PQBNO,DATA ENTRY BATCH NUMBER,phase23_pvtqpubn.csv,PVTQPUBN,continuous
+PQADMIN,4 WAS PPVT ADMIN TO PARENT/GUARDIAN,phase23_pvtqpubn.csv,PVTQPUBN,categorical
+PQREL,5 RELATIONSHIP OF PERSON TESTED TO PT,phase23_pvtqpubn.csv,PVTQPUBN,categorical
+PQOTHREL,51 OTHER RELATIONSHIP SPECIFY,phase23_pvtqpubn.csv,PVTQPUBN,categorical
+PQHLANG,6 LANGUAGE USUALLY SPOKEN IN HOME,phase23_pvtqpubn.csv,PVTQPUBN,categorical
+PQACC,7 ACC ASSESS OF PARENT/GUARD ABILITY,phase23_pvtqpubn.csv,PVTQPUBN,categorical
+PQTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_pvtqpubn.csv,PVTQPUBN,categorical
+PQOVERS,VERSION DATA TRANSCRIBED FROM,phase23_pvtqpubn.csv,PVTQPUBN,categorical
+pq_days,# of days phase 2 entry to date of test,phase23_pvtqpubn.csv,PVTQPUBN,continuous
+ANONID,ANONYMIZED ID #,phase23_rost2n3p.csv,ROST2N3P,continuous
+AGE_DOE,AGE AT DATE OF PHASE 1 ENTRY (DAYS),phase23_rost2n3p.csv,ROST2N3P,continuous
+PHASE2,ENROLLED IN PHASE 2,phase23_rost2n3p.csv,ROST2N3P,categorical
+PHASE3,ENROLLED IN PHASE 3,phase23_rost2n3p.csv,ROST2N3P,categorical
+DXSOURCE,SOURCE OF HEMOGLOBIN DIAGNOSIS,phase23_rost2n3p.csv,ROST2N3P,categorical
+HEMO,CDC HEMOGLOBIN DIAGNOSIS,phase23_rost2n3p.csv,ROST2N3P,categorical
+SEX,GENDER,phase23_rost2n3p.csv,ROST2N3P,categorical
+RACE,RACE,phase23_rost2n3p.csv,ROST2N3P,categorical
+PTYPE,PROTOCOL TYPE DURING PHASE 1,phase23_rost2n3p.csv,ROST2N3P,categorical
+DIED,DIED?,phase23_rost2n3p.csv,ROST2N3P,categorical
+HEMO2,LOCAL HEMOGLOBIN DIAGNOSIS,phase23_rost2n3p.csv,ROST2N3P,categorical
+SETNO,# OF SERA SAMPLE DATES,phase23_rost2n3p.csv,ROST2N3P,continuous
+AGE_DOE2,AGE AT DATE OF PHASE 2 ENTRY (YRS),phase23_rost2n3p.csv,ROST2N3P,continuous
+AGE_DOE3,AGE AT DATE OF PHASE 3 ENTRY (YRS),phase23_rost2n3p.csv,ROST2N3P,continuous
+AGE_EOF,AGE AT END OF FOLLOW-UP (YRS),phase23_rost2n3p.csv,ROST2N3P,continuous
+FUDAYS,# days under study (Phase 2 and 3),phase23_rost2n3p.csv,ROST2N3P,continuous
+daysp2p1,# of days phase 1 entry to phase 2 entry,phase23_rost2n3p.csv,ROST2N3P,continuous
+daysp3p1,# of days phase 1 entry to phase 3 entry,phase23_rost2n3p.csv,ROST2N3P,continuous
+ANONID,ANONYMIZED ID #,phase23_tx_pubn.csv,TX_PUBN,continuous
+TXVERS,FORM VERSION,phase23_tx_pubn.csv,TX_PUBN,categorical
+TXBNO,DATA ENTRY BATCH NUMBER,phase23_tx_pubn.csv,TX_PUBN,continuous
+TXCODE,2 CODE NO OF PERSON COMPLETING FORM,phase23_tx_pubn.csv,TX_PUBN,categorical
+TXRSN,4 REASON FOR TRANSFUSION,phase23_tx_pubn.csv,TX_PUBN,categorical
+TXOTHRSN,411 OTHR REASON FOR TX SPECIFY TYPE,phase23_tx_pubn.csv,TX_PUBN,categorical
+TXCHRN,5 IS PATIENT IN A CHRONIC TX PROGRAM,phase23_tx_pubn.csv,TX_PUBN,categorical
+TXRSNCHR,51 REASON FOR CHRONIC TRANSFUSION,phase23_tx_pubn.csv,TX_PUBN,categorical
+TXORSCHR,511 OTH REASON FOR CHRON TX SPECIFY,phase23_tx_pubn.csv,TX_PUBN,categorical
+TXTYPE,6 TYPE OF TRANSFUSION,phase23_tx_pubn.csv,TX_PUBN,categorical
+TXPRHB,71 HEMOGLOBIN IMMED PRIOR TO THIS TX,phase23_tx_pubn.csv,TX_PUBN,categorical
+TXPRHBA,73 HEMOGLOBIN A% IMMED PRIOR TO TX,phase23_tx_pubn.csv,TX_PUBN,categorical
+TXTRNSC,DATA TRANSCRIBED FROM OLDER VERSION,phase23_tx_pubn.csv,TX_PUBN,categorical
+TXOVERS,VERSION DATA TRANSCRIBED FROM,phase23_tx_pubn.csv,TX_PUBN,categorical
+TXPRHBS,HEMOGLOBIN S% IMMED PRIOR TO TX,phase23_tx_pubn.csv,TX_PUBN,categorical
+tx_days,# of days phase 2 entry to date of transfusion,phase23_tx_pubn.csv,TX_PUBN,continuous

@@ -1,0 +1,531 @@
+varname,LABEL,file,MEMNAME,picsure_type
+RAND_ID,Randomized ID,pfu_demo.csv,DEMO,categorical
+RACE,Ethnicity,pfu_demo.csv,DEMO,categorical
+GENDER,Gender,pfu_demo.csv,DEMO,categorical
+PFUENRO,"MSH PFU Enrolled 1=Yes, 0=NO",pfu_demo.csv,DEMO,categorical
+RAND_ID,Randomized ID,pfu_fm40.csv,FM40,categorical
+AV,Annual Visit,pfu_fm40.csv,FM40,categorical
+INF_CONS,Has patient signed informed consent?,pfu_fm40.csv,FM40,categorical
+F40_PGS,Number of pages of attachements,pfu_fm40.csv,FM40,continuous
+F40_AV01,AV01 status,pfu_fm40.csv,FM40,categorical
+F40_AV02,AV02 status,pfu_fm40.csv,FM40,continuous
+F40_AV03,AV03 status,pfu_fm40.csv,FM40,continuous
+F40_AV04,AV04 status,pfu_fm40.csv,FM40,continuous
+F40_AV05,AV05 status,pfu_fm40.csv,FM40,continuous
+RAND_ID,Randomized ID,pfu_fm42.csv,FM42,categorical
+AV,Annual Visit,pfu_fm42.csv,FM42,categorical
+SF_1,In general health is...,pfu_fm42.csv,FM42,categorical
+SF_2,"Compared to one year ago, rate health no",pfu_fm42.csv,FM42,categorical
+SF_3A,Limit vigorous activities,pfu_fm42.csv,FM42,categorical
+SF_3B,Limit moderate activities,pfu_fm42.csv,FM42,categorical
+SF_3C,Limit liftingor carrying groceries,pfu_fm42.csv,FM42,categorical
+SF_3D,Limit climbing several flights of stairs,pfu_fm42.csv,FM42,categorical
+SF_3E,Limit climbing one flight of stairs,pfu_fm42.csv,FM42,categorical
+SF_3F,"Limit bending, kneeling or stooping",pfu_fm42.csv,FM42,categorical
+SF_3G,Limit walking more than a mile,pfu_fm42.csv,FM42,categorical
+SF_3H,Limit walking several blocks,pfu_fm42.csv,FM42,categorical
+SF_3I,Limit walking one block,pfu_fm42.csv,FM42,categorical
+SF_3J,Limit Bathing or dressing self,pfu_fm42.csv,FM42,categorical
+SF_4A,Physical health limited amount of time,pfu_fm42.csv,FM42,categorical
+SF_4B,Physical health - accomplished less,pfu_fm42.csv,FM42,categorical
+SF_4C,Physical health - limited kind of activi,pfu_fm42.csv,FM42,categorical
+SF_4D,Physical health - difficulty performing,pfu_fm42.csv,FM42,categorical
+SF_5A,Emotional health - limited amount of tim,pfu_fm42.csv,FM42,categorical
+SF_5B,Emotional health - accomplished less,pfu_fm42.csv,FM42,categorical
+SF_5C,Emotional health - limited amount of tim,pfu_fm42.csv,FM42,categorical
+SF_6,4 weeks - health interfered with social,pfu_fm42.csv,FM42,categorical
+SF_7,4 weeks - how much bodily pain,pfu_fm42.csv,FM42,categorical
+SF_8,4 weeks - pain interfered with normal wo,pfu_fm42.csv,FM42,categorical
+SF_9A,4 weeks full of pep,pfu_fm42.csv,FM42,categorical
+SF_9B,4 weeks very nervous,pfu_fm42.csv,FM42,categorical
+SF_9C,4 weeks down in the dumps,pfu_fm42.csv,FM42,categorical
+SF_9D,4 weeks calm and peaceful,pfu_fm42.csv,FM42,categorical
+SF_9E,4 weeks lots of energy,pfu_fm42.csv,FM42,categorical
+SF_9F,4 weeks down hearted and blue,pfu_fm42.csv,FM42,categorical
+SF_9G,4 weeks worn out,pfu_fm42.csv,FM42,categorical
+SF_9H,4 weeks happy,pfu_fm42.csv,FM42,categorical
+SF_9I,4 weeks tired,pfu_fm42.csv,FM42,categorical
+SF_9J,4 weeks physical health limits social ac,pfu_fm42.csv,FM42,categorical
+SF_10A,Get sick easier,pfu_fm42.csv,FM42,categorical
+SF_10B,Healthy as anybody,pfu_fm42.csv,FM42,categorical
+SF_10C,Expect health to get worse,pfu_fm42.csv,FM42,categorical
+SF_10D,Health is excellent,pfu_fm42.csv,FM42,categorical
+UNDSTD,Patient had difficulty understanding,pfu_fm42.csv,FM42,categorical
+RAND_ID,Randomized ID,pfu_fm43.csv,FM43,categorical
+AV,Annual Visit,pfu_fm43.csv,FM43,categorical
+PULSE,Pulse (beats/minute),pfu_fm43.csv,FM43,continuous
+SBP,SBP,pfu_fm43.csv,FM43,continuous
+DBP,DBP,pfu_fm43.csv,FM43,continuous
+RESPRATE,Respiratory rate,pfu_fm43.csv,FM43,continuous
+WEIGHT,Weight (kg),pfu_fm43.csv,FM43,continuous
+LYMP_CER,Cervical lymphandenopathy,pfu_fm43.csv,FM43,categorical
+LYMP_ANC,Axillary lymphandenopathy,pfu_fm43.csv,FM43,categorical
+LYMP_GRN,Groin lymphandenopathy,pfu_fm43.csv,FM43,categorical
+LYMP_OTH,Other lymphandenopathy,pfu_fm43.csv,FM43,categorical
+LUNGCLR,Lung fields clear,pfu_fm43.csv,FM43,categorical
+SINUS,Sinus rhythm,pfu_fm43.csv,FM43,categorical
+S3GALLOP,S3 gallop,pfu_fm43.csv,FM43,categorical
+MURMURS,Murmurs,pfu_fm43.csv,FM43,categorical
+MURMTYPE,Murmur type,pfu_fm43.csv,FM43,categorical
+LIVER,Liver span(cm),pfu_fm43.csv,FM43,continuous
+LIV_RUQ,RUQ liver tenderness,pfu_fm43.csv,FM43,categorical
+LIV_RLQ,RLQ liver tenderness,pfu_fm43.csv,FM43,categorical
+LIV_LUQ,LUQ liver tenderness,pfu_fm43.csv,FM43,categorical
+LIV_LLQ,LLQ liver tenderness,pfu_fm43.csv,FM43,categorical
+CHR_TO,Chronic transfusion,pfu_fm43.csv,FM43,categorical
+IMMUNO,Immunosuppression,pfu_fm43.csv,FM43,categorical
+INFECT,Serious infection,pfu_fm43.csv,FM43,categorical
+CHST_HX,Chest syndrome,pfu_fm43.csv,FM43,categorical
+STRK_HX,Stroke,pfu_fm43.csv,FM43,categorical
+CHF_HX,Chronic heart failure,pfu_fm43.csv,FM43,categorical
+CPF_HX,Chronic pulmonary failure,pfu_fm43.csv,FM43,categorical
+CHOL_HX,Cholecystectomy,pfu_fm43.csv,FM43,categorical
+SKINULCR,Skin/leg ulcers,pfu_fm43.csv,FM43,categorical
+SKIN_HX,Skin rash,pfu_fm43.csv,FM43,categorical
+OTH_HX,Other skin abnormality,pfu_fm43.csv,FM43,categorical
+NAIL_HX,Nail abnormality,pfu_fm43.csv,FM43,categorical
+HRLOS_HX,Hair loss,pfu_fm43.csv,FM43,categorical
+GIDIS_HX,Serious GI disturbance,pfu_fm43.csv,FM43,categorical
+BLEED_HX,Bleeding tendency,pfu_fm43.csv,FM43,categorical
+HEMAT_HX,Hematuria,pfu_fm43.csv,FM43,categorical
+PRIAP_HX,Priapism,pfu_fm43.csv,FM43,categorical
+IMPOT_HX,Impotence,pfu_fm43.csv,FM43,categorical
+SCLERAL,Scleral icterus,pfu_fm43.csv,FM43,categorical
+APLAS_HX,Aplastic anemia,pfu_fm43.csv,FM43,categorical
+CALEU_HX,Ever had cancer or luekemia,pfu_fm43.csv,FM43,categorical
+FAMCA_HX,Family history of cancer or luekemia,pfu_fm43.csv,FM43,categorical
+TOBACCO,Regular tobacco user,pfu_fm43.csv,FM43,categorical
+PIPES,Pipes,pfu_fm43.csv,FM43,categorical
+CIGARS,Cigars,pfu_fm43.csv,FM43,categorical
+CIGRTS,Cigarettes,pfu_fm43.csv,FM43,categorical
+TOB_AGE,How old when began tobacco,pfu_fm43.csv,FM43,continuous
+PACK_YRS,Pack-years (cigarettes),pfu_fm43.csv,FM43,continuous
+ALC_CUR,Current use of alcohol,pfu_fm43.csv,FM43,categorical
+ALC_HIGH,Highest use of alcohol,pfu_fm43.csv,FM43,categorical
+ALC_YRS,Total years of alcohol use,pfu_fm43.csv,FM43,categorical
+CAEXPRSK,Exposure to mutagenic agents,pfu_fm43.csv,FM43,categorical
+RADEXP,Exposure to radiation other than diagnos,pfu_fm43.csv,FM43,categorical
+HEPAT_HX,History of hepatitis,pfu_fm43.csv,FM43,categorical
+GRAVID,Pregnancies since last visit,pfu_fm43.csv,FM43,continuous
+CUR_PREG,Currently pregnant,pfu_fm43.csv,FM43,categorical
+P4_MOYR,Pregnancy 4 started,pfu_fm43.csv,FM43,continuous
+F43_PGS,Total pages attached,pfu_fm43.csv,FM43,continuous
+CHEWTOB,Smokeless tobacco,pfu_fm43.csv,FM43,categorical
+RAND_ID,Randomized ID,pfu_fm44.csv,FM44,categorical
+AV,Annual Visit,pfu_fm44.csv,FM44,categorical
+HU_ACC,Access to HU therapy,pfu_fm44.csv,FM44,categorical
+NOHU_R1,No HU - inadequate insurance,pfu_fm44.csv,FM44,continuous
+NOHU_R2,No HU - other,pfu_fm44.csv,FM44,continuous
+HURX,Prescribed HU since last visit,pfu_fm44.csv,FM44,categorical
+HUTYPE01,Type of Therapy month 01,pfu_fm44.csv,FM44,categorical
+HUDOSE01,Avg daily dose (mg) month 01,pfu_fm44.csv,FM44,continuous
+HUCOMP01,Overall compliance month 01,pfu_fm44.csv,FM44,continuous
+HUTYPE02,Type of Therapy month 02,pfu_fm44.csv,FM44,categorical
+HUDOSE02,Avg daily dose (mg) month 02,pfu_fm44.csv,FM44,continuous
+HUCOMP02,Overall compliance month 02,pfu_fm44.csv,FM44,continuous
+HUTYPE03,Type of Therapy month 03,pfu_fm44.csv,FM44,categorical
+HUDOSE03,Avg daily dose (mg) month 03,pfu_fm44.csv,FM44,continuous
+HUCOMP03,Overall compliance month 03,pfu_fm44.csv,FM44,continuous
+HUTYPE04,Type of Therapy month 04,pfu_fm44.csv,FM44,categorical
+HUDOSE04,Avg daily dose (mg) month 04,pfu_fm44.csv,FM44,continuous
+HUCOMP04,Overall compliance month 04,pfu_fm44.csv,FM44,continuous
+HUTYPE05,Type of Therapy month 05,pfu_fm44.csv,FM44,categorical
+HUDOSE05,Avg daily dose (mg) month 05,pfu_fm44.csv,FM44,continuous
+HUCOMP05,Overall compliance month 05,pfu_fm44.csv,FM44,continuous
+HUTYPE06,Type of Therapy month 06,pfu_fm44.csv,FM44,categorical
+HUDOSE06,Avg daily dose (mg) month 06,pfu_fm44.csv,FM44,continuous
+HUCOMP06,Overall compliance month 06,pfu_fm44.csv,FM44,continuous
+HUTYPE07,Type of Therapy month 07,pfu_fm44.csv,FM44,categorical
+HUDOSE07,Avg daily dose (mg) month 07,pfu_fm44.csv,FM44,continuous
+HUCOMP07,Overall compliance month 07,pfu_fm44.csv,FM44,continuous
+HUTYPE08,Type of Therapy month 08,pfu_fm44.csv,FM44,categorical
+HUDOSE08,Avg daily dose (mg) month 08,pfu_fm44.csv,FM44,continuous
+HUCOMP08,Overall compliance month 08,pfu_fm44.csv,FM44,continuous
+HUTYPE09,Type of Therapy month 09,pfu_fm44.csv,FM44,categorical
+HUDOSE09,Avg daily dose (mg) month 09,pfu_fm44.csv,FM44,continuous
+HUCOMP09,Overall compliance month 09,pfu_fm44.csv,FM44,continuous
+HUTYPE10,Type of Therapy month 10,pfu_fm44.csv,FM44,categorical
+HUDOSE10,Avg daily dose (mg) month 10,pfu_fm44.csv,FM44,continuous
+HUCOMP10,Overall compliance month 10,pfu_fm44.csv,FM44,continuous
+HUTYPE11,Type of Therapy month 11,pfu_fm44.csv,FM44,categorical
+HUDOSE11,Avg daily dose (mg) month 11,pfu_fm44.csv,FM44,continuous
+HUCOMP11,Overall compliance month 11,pfu_fm44.csv,FM44,continuous
+HUTYPE12,Type of Therapy month 12,pfu_fm44.csv,FM44,categorical
+HUDOSE12,Avg daily dose (mg) month 12,pfu_fm44.csv,FM44,continuous
+HUCOMP12,Overall compliance month 12,pfu_fm44.csv,FM44,continuous
+HUTYPE13,Type of Therapy month 13,pfu_fm44.csv,FM44,categorical
+HUDOSE13,Avg daily dose (mg) month 13,pfu_fm44.csv,FM44,continuous
+HUCOMP13,Overall compliance month 13,pfu_fm44.csv,FM44,continuous
+HUTYPE14,Type of Therapy month 14,pfu_fm44.csv,FM44,categorical
+HUDOSE14,Avg daily dose (mg) month 14,pfu_fm44.csv,FM44,continuous
+HUCOMP14,Overall compliance month 14,pfu_fm44.csv,FM44,continuous
+HUTYPE15,Type of Therapy month 15,pfu_fm44.csv,FM44,categorical
+HUDOSE15,Avg daily dose (mg) month 15,pfu_fm44.csv,FM44,continuous
+HUCOMP15,Overall compliance month 15,pfu_fm44.csv,FM44,continuous
+HUTYPE16,Type of Therapy month 16,pfu_fm44.csv,FM44,categorical
+HUDOSE16,Avg daily dose (mg) month 16,pfu_fm44.csv,FM44,continuous
+HUCOMP16,Overall compliance month 16,pfu_fm44.csv,FM44,continuous
+HUTYPE17,Type of Therapy month 17,pfu_fm44.csv,FM44,categorical
+HUDOSE17,Avg daily dose (mg) month 17,pfu_fm44.csv,FM44,continuous
+HUCOMP17,Overall compliance month 17,pfu_fm44.csv,FM44,continuous
+HUTYPE18,Type of Therapy month 18,pfu_fm44.csv,FM44,categorical
+HUDOSE18,Avg daily dose (mg) month 18,pfu_fm44.csv,FM44,continuous
+HUCOMP18,Overall compliance month 18,pfu_fm44.csv,FM44,continuous
+HUTYPE19,Type of Therapy month 19,pfu_fm44.csv,FM44,categorical
+HUDOSE19,Avg daily dose (mg) month 19,pfu_fm44.csv,FM44,continuous
+HUCOMP19,Overall compliance month 19,pfu_fm44.csv,FM44,continuous
+HUTYPE20,Type of Therapy month 20,pfu_fm44.csv,FM44,categorical
+HUDOSE20,Avg daily dose (mg) month 20,pfu_fm44.csv,FM44,continuous
+HUCOMP20,Overall compliance month 20,pfu_fm44.csv,FM44,continuous
+HUTYPE21,Type of Therapy month 21,pfu_fm44.csv,FM44,categorical
+HUDOSE21,Avg daily dose (mg) month 21,pfu_fm44.csv,FM44,continuous
+HUCOMP21,Overall compliance month 21,pfu_fm44.csv,FM44,continuous
+HUTYPE22,Type of Therapy month 22,pfu_fm44.csv,FM44,categorical
+HUDOSE22,Avg daily dose (mg) month 22,pfu_fm44.csv,FM44,continuous
+HUCOMP22,Overall compliance month 22,pfu_fm44.csv,FM44,continuous
+HUTYPE23,Type of Therapy month 23,pfu_fm44.csv,FM44,categorical
+HUDOSE23,Avg daily dose (mg) month 23,pfu_fm44.csv,FM44,continuous
+HUCOMP23,Overall compliance month 23,pfu_fm44.csv,FM44,continuous
+HUTYPE24,Type of Therapy month 24,pfu_fm44.csv,FM44,categorical
+HUDOSE24,Avg daily dose (mg) month 24,pfu_fm44.csv,FM44,continuous
+HUCOMP24,Overall compliance month 24,pfu_fm44.csv,FM44,continuous
+HUSE_SRC,Source of information about HU useage,pfu_fm44.csv,FM44,categorical
+HUTYPE25,Type of Therapy month 25,pfu_fm44.csv,FM44,categorical
+HUDOSE25,Avg daily dose (mg) month 25,pfu_fm44.csv,FM44,continuous
+HUCOMP25,Overall compliance month 25,pfu_fm44.csv,FM44,continuous
+HUTYPE26,Type of Therapy month 26,pfu_fm44.csv,FM44,categorical
+HUDOSE26,Avg daily dose (mg) month 26,pfu_fm44.csv,FM44,continuous
+HUCOMP26,Overall compliance month 26,pfu_fm44.csv,FM44,continuous
+HUTYPE27,Type of Therapy month 27,pfu_fm44.csv,FM44,categorical
+HUDOSE27,Avg daily dose (mg) month 27,pfu_fm44.csv,FM44,continuous
+HUCOMP27,Overall compliance month 27,pfu_fm44.csv,FM44,continuous
+HUTYPE28,Type of Therapy month 28,pfu_fm44.csv,FM44,categorical
+HUDOSE28,Avg daily dose (mg) month 28,pfu_fm44.csv,FM44,continuous
+HUCOMP28,Overall compliance month 28,pfu_fm44.csv,FM44,continuous
+HUTYPE29,Type of Therapy month 29,pfu_fm44.csv,FM44,categorical
+HUDOSE29,Avg daily dose (mg) month 29,pfu_fm44.csv,FM44,continuous
+HUCOMP29,Overall compliance month 29,pfu_fm44.csv,FM44,continuous
+HUTYPE30,Type of Therapy month 30,pfu_fm44.csv,FM44,categorical
+HUDOSE30,Avg daily dose (mg) month 30,pfu_fm44.csv,FM44,continuous
+HUCOMP30,Overall compliance month 30,pfu_fm44.csv,FM44,continuous
+HUTYPE31,Type of Therapy month 31,pfu_fm44.csv,FM44,categorical
+HUDOSE31,Avg daily dose (mg) month 31,pfu_fm44.csv,FM44,continuous
+HUCOMP31,Overall compliance month 31,pfu_fm44.csv,FM44,continuous
+HUTYPE32,Type of Therapy month 32,pfu_fm44.csv,FM44,categorical
+HUDOSE32,Avg daily dose (mg) month 32,pfu_fm44.csv,FM44,continuous
+HUCOMP32,Overall compliance month 32,pfu_fm44.csv,FM44,continuous
+HUTYPE33,Type of Therapy month 33,pfu_fm44.csv,FM44,categorical
+HUDOSE33,Avg daily dose (mg) month 33,pfu_fm44.csv,FM44,continuous
+HUCOMP33,Overall compliance month 33,pfu_fm44.csv,FM44,continuous
+HUTYPE34,Type of Therapy month 34,pfu_fm44.csv,FM44,categorical
+HUDOSE34,Avg daily dose (mg) month 34,pfu_fm44.csv,FM44,continuous
+HUCOMP34,Overall compliance month 34,pfu_fm44.csv,FM44,continuous
+HUTYPE35,Type of Therapy month 35,pfu_fm44.csv,FM44,categorical
+HUDOSE35,Avg daily dose (mg) month 35,pfu_fm44.csv,FM44,continuous
+HUCOMP35,Overall compliance month 35,pfu_fm44.csv,FM44,continuous
+HUTYPE36,Type of Therapy month 36,pfu_fm44.csv,FM44,categorical
+HUDOSE36,Avg daily dose (mg) month 36,pfu_fm44.csv,FM44,continuous
+HUCOMP36,Overall compliance month 36,pfu_fm44.csv,FM44,continuous
+HUTYPE37,Type of Therapy month 37,pfu_fm44.csv,FM44,categorical
+HUDOSE37,Avg daily dose (mg) month 37,pfu_fm44.csv,FM44,continuous
+HUCOMP37,Overall compliance month 37,pfu_fm44.csv,FM44,continuous
+HUTYPE38,Type of Therapy month 38,pfu_fm44.csv,FM44,categorical
+HUDOSE38,Avg daily dose (mg) month 38,pfu_fm44.csv,FM44,continuous
+HUCOMP38,Overall compliance month 38,pfu_fm44.csv,FM44,continuous
+HUTYPE39,Type of Therapy month 39,pfu_fm44.csv,FM44,categorical
+HUDOSE39,Avg daily dose (mg) month 39,pfu_fm44.csv,FM44,continuous
+HUCOMP39,Overall compliance month 39,pfu_fm44.csv,FM44,continuous
+HUTYPE40,Type of Therapy month 40,pfu_fm44.csv,FM44,categorical
+HUDOSE40,Avg daily dose (mg) month 40,pfu_fm44.csv,FM44,continuous
+HUCOMP40,Overall compliance month 40,pfu_fm44.csv,FM44,continuous
+HUTYPE41,Type of Therapy month 41,pfu_fm44.csv,FM44,categorical
+HUDOSE41,Avg daily dose (mg) month 41,pfu_fm44.csv,FM44,continuous
+HUCOMP41,Overall compliance month 41,pfu_fm44.csv,FM44,continuous
+HUTYPE42,Type of Therapy month 42,pfu_fm44.csv,FM44,categorical
+HUDOSE42,Avg daily dose (mg) month 42,pfu_fm44.csv,FM44,continuous
+HUCOMP42,Overall compliance month 42,pfu_fm44.csv,FM44,continuous
+HUTYPE43,Type of Therapy month 43,pfu_fm44.csv,FM44,categorical
+HUDOSE43,Avg daily dose (mg) month 43,pfu_fm44.csv,FM44,continuous
+HUCOMP43,Overall compliance month 43,pfu_fm44.csv,FM44,continuous
+HUTYPE44,Type of Therapy month 44,pfu_fm44.csv,FM44,categorical
+HUDOSE44,Avg daily dose (mg) month 44,pfu_fm44.csv,FM44,continuous
+HUCOMP44,Overall compliance month 44,pfu_fm44.csv,FM44,continuous
+HUTYPE45,Type of Therapy month 45,pfu_fm44.csv,FM44,categorical
+HUDOSE45,Avg daily dose (mg) month 45,pfu_fm44.csv,FM44,continuous
+HUCOMP45,Overall compliance month 45,pfu_fm44.csv,FM44,continuous
+HUTYPE46,Type of Therapy month 46,pfu_fm44.csv,FM44,categorical
+HUDOSE46,Avg daily dose (mg) month 46,pfu_fm44.csv,FM44,continuous
+HUCOMP46,Overall compliance month 46,pfu_fm44.csv,FM44,continuous
+HUTYPE47,Type of Therapy month 47,pfu_fm44.csv,FM44,categorical
+HUDOSE47,Avg daily dose (mg) month 47,pfu_fm44.csv,FM44,continuous
+HUCOMP47,Overall compliance month 47,pfu_fm44.csv,FM44,continuous
+HUTYPE48,Type of Therapy month 48,pfu_fm44.csv,FM44,categorical
+HUDOSE48,Avg daily dose (mg) month 48,pfu_fm44.csv,FM44,continuous
+HUCOMP48,Overall compliance month 48,pfu_fm44.csv,FM44,continuous
+HUTYPE49,Type of Therapy month 49,pfu_fm44.csv,FM44,categorical
+HUDOSE49,Avg daily dose (mg) month 49,pfu_fm44.csv,FM44,continuous
+HUCOMP49,Overall compliance month 49,pfu_fm44.csv,FM44,continuous
+HUTYPE50,Type of Therapy month 50,pfu_fm44.csv,FM44,categorical
+HUDOSE50,Avg daily dose (mg) month 50,pfu_fm44.csv,FM44,continuous
+HUCOMP50,Overall compliance month 50,pfu_fm44.csv,FM44,continuous
+HUTYPE51,Type of Therapy month 51,pfu_fm44.csv,FM44,categorical
+HUDOSE51,Avg daily dose (mg) month 51,pfu_fm44.csv,FM44,continuous
+HUCOMP51,Overall compliance month 51,pfu_fm44.csv,FM44,continuous
+HUTYPE52,Type of Therapy month 52,pfu_fm44.csv,FM44,categorical
+HUDOSE52,Avg daily dose (mg) month 52,pfu_fm44.csv,FM44,continuous
+HUCOMP52,Overall compliance month 52,pfu_fm44.csv,FM44,continuous
+HUTYPE53,Type of Therapy month 53,pfu_fm44.csv,FM44,categorical
+HUDOSE53,Avg daily dose (mg) month 53,pfu_fm44.csv,FM44,continuous
+HUCOMP53,Overall compliance month 53,pfu_fm44.csv,FM44,continuous
+HUTYPE54,Type of Therapy month 54,pfu_fm44.csv,FM44,categorical
+HUDOSE54,Avg daily dose (mg) month 54,pfu_fm44.csv,FM44,continuous
+HUCOMP54,Overall compliance month 54,pfu_fm44.csv,FM44,continuous
+HUTYPE55,Type of Therapy month 55,pfu_fm44.csv,FM44,categorical
+HUDOSE55,Avg daily dose (mg) month 55,pfu_fm44.csv,FM44,continuous
+HUCOMP55,Overall compliance month 55,pfu_fm44.csv,FM44,continuous
+HUTYPE56,Type of Therapy month 56,pfu_fm44.csv,FM44,categorical
+HUDOSE56,Avg daily dose (mg) month 56,pfu_fm44.csv,FM44,continuous
+HUCOMP56,Overall compliance month 56,pfu_fm44.csv,FM44,continuous
+HUTYPE57,Type of Therapy month 57,pfu_fm44.csv,FM44,categorical
+HUDOSE57,Avg daily dose (mg) month 57,pfu_fm44.csv,FM44,continuous
+HUCOMP57,Overall compliance month 57,pfu_fm44.csv,FM44,continuous
+HUTYPE58,Type of Therapy month 58,pfu_fm44.csv,FM44,categorical
+HUDOSE58,Avg daily dose (mg) month 58,pfu_fm44.csv,FM44,continuous
+HUCOMP58,Overall compliance month 58,pfu_fm44.csv,FM44,continuous
+HUTYPE59,Type of Therapy month 59,pfu_fm44.csv,FM44,categorical
+HUDOSE59,Avg daily dose (mg) month 59,pfu_fm44.csv,FM44,continuous
+HUCOMP59,Overall compliance month 59,pfu_fm44.csv,FM44,continuous
+HUTYPE60,Type of Therapy month 60,pfu_fm44.csv,FM44,categorical
+HUDOSE60,Avg daily dose (mg) month 60,pfu_fm44.csv,FM44,continuous
+HUCOMP60,Overall compliance month 60,pfu_fm44.csv,FM44,continuous
+HUTYPE61,Type of Therapy month 61,pfu_fm44.csv,FM44,categorical
+HUDOSE61,Avg daily dose (mg) month 61,pfu_fm44.csv,FM44,continuous
+HUCOMP61,Overall compliance month 61,pfu_fm44.csv,FM44,continuous
+HUTYPE62,Type of Therapy month 62,pfu_fm44.csv,FM44,categorical
+HUDOSE62,Avg daily dose (mg) month 62,pfu_fm44.csv,FM44,continuous
+HUCOMP62,Overall compliance month 62,pfu_fm44.csv,FM44,continuous
+HUTYPE63,Type of Therapy month 63,pfu_fm44.csv,FM44,categorical
+HUDOSE63,Avg daily dose (mg) month 63,pfu_fm44.csv,FM44,continuous
+HUCOMP63,Overall compliance month 63,pfu_fm44.csv,FM44,continuous
+HUTYPE64,Type of Therapy month 64,pfu_fm44.csv,FM44,categorical
+HUDOSE64,Avg daily dose (mg) month 64,pfu_fm44.csv,FM44,continuous
+HUCOMP64,Overall compliance month 64,pfu_fm44.csv,FM44,continuous
+HUTYPE65,Type of Therapy month 65,pfu_fm44.csv,FM44,categorical
+HUDOSE65,Avg daily dose (mg) month 65,pfu_fm44.csv,FM44,continuous
+HUCOMP65,Overall compliance month 65,pfu_fm44.csv,FM44,continuous
+HUTYPE66,Type of Therapy month 66,pfu_fm44.csv,FM44,categorical
+HUDOSE66,Avg daily dose (mg) month 66,pfu_fm44.csv,FM44,continuous
+HUCOMP66,Overall compliance month 66,pfu_fm44.csv,FM44,continuous
+HUTYPE67,Type of Therapy month 67,pfu_fm44.csv,FM44,categorical
+HUDOSE67,Avg daily dose (mg) month 67,pfu_fm44.csv,FM44,continuous
+HUCOMP67,Overall compliance month 67,pfu_fm44.csv,FM44,continuous
+HUTYPE68,Type of Therapy month 68,pfu_fm44.csv,FM44,categorical
+HUDOSE68,Avg daily dose (mg) month 68,pfu_fm44.csv,FM44,continuous
+HUCOMP68,Overall compliance month 68,pfu_fm44.csv,FM44,continuous
+HUTYPE69,Type of Therapy month 69,pfu_fm44.csv,FM44,categorical
+HUDOSE69,Avg daily dose (mg) month 69,pfu_fm44.csv,FM44,continuous
+HUCOMP69,Overall compliance month 69,pfu_fm44.csv,FM44,continuous
+HUTYPE70,Type of Therapy month 70,pfu_fm44.csv,FM44,categorical
+HUDOSE70,Avg daily dose (mg) month 70,pfu_fm44.csv,FM44,continuous
+HUCOMP70,Overall compliance month 70,pfu_fm44.csv,FM44,continuous
+HUTYPE71,Type of Therapy month 71,pfu_fm44.csv,FM44,categorical
+HUDOSE71,Avg daily dose (mg) month 71,pfu_fm44.csv,FM44,continuous
+HUCOMP71,Overall compliance month 71,pfu_fm44.csv,FM44,continuous
+HUTYPE72,Type of Therapy month 72,pfu_fm44.csv,FM44,categorical
+HUDOSE72,Avg daily dose (mg) month 72,pfu_fm44.csv,FM44,continuous
+HUCOMP72,Overall compliance month 72,pfu_fm44.csv,FM44,continuous
+HUTYPE73,Type of Therapy month 73,pfu_fm44.csv,FM44,categorical
+HUDOSE73,Avg daily dose (mg) month 73,pfu_fm44.csv,FM44,continuous
+HUCOMP73,Overall compliance month 73,pfu_fm44.csv,FM44,continuous
+HUTYPE74,Type of Therapy month 74,pfu_fm44.csv,FM44,categorical
+HUDOSE74,Avg daily dose (mg) month 74,pfu_fm44.csv,FM44,continuous
+HUCOMP74,Overall compliance month 74,pfu_fm44.csv,FM44,continuous
+HUTYPE75,Type of Therapy month 75,pfu_fm44.csv,FM44,categorical
+HUDOSE75,Avg daily dose (mg) month 75,pfu_fm44.csv,FM44,continuous
+HUCOMP75,Overall compliance month 75,pfu_fm44.csv,FM44,continuous
+HUTYPE76,Type of Therapy month 76,pfu_fm44.csv,FM44,categorical
+HUDOSE76,Avg daily dose (mg) month 76,pfu_fm44.csv,FM44,continuous
+HUCOMP76,Overall compliance month 76,pfu_fm44.csv,FM44,continuous
+HUTYPE77,Type of Therapy month 77,pfu_fm44.csv,FM44,categorical
+HUDOSE77,Avg daily dose (mg) month 77,pfu_fm44.csv,FM44,continuous
+HUCOMP77,Overall compliance month 77,pfu_fm44.csv,FM44,continuous
+HUTYPE78,Type of Therapy month 78,pfu_fm44.csv,FM44,categorical
+HUDOSE78,Avg daily dose (mg) month 78,pfu_fm44.csv,FM44,continuous
+HUCOMP78,Overall compliance month 78,pfu_fm44.csv,FM44,continuous
+HUTYPE79,Type of Therapy month 79,pfu_fm44.csv,FM44,categorical
+HUDOSE79,Avg daily dose (mg) month 79,pfu_fm44.csv,FM44,continuous
+HUCOMP79,Overall compliance month 79,pfu_fm44.csv,FM44,continuous
+HUTYPE80,Type of Therapy month 80,pfu_fm44.csv,FM44,categorical
+HUDOSE80,Avg daily dose (mg) month 80,pfu_fm44.csv,FM44,continuous
+HUCOMP80,Overall compliance month 80,pfu_fm44.csv,FM44,continuous
+HUTYPE81,Type of Therapy month 81,pfu_fm44.csv,FM44,categorical
+HUDOSE81,Avg daily dose (mg) month 81,pfu_fm44.csv,FM44,continuous
+HUCOMP81,Overall compliance month 81,pfu_fm44.csv,FM44,continuous
+HUTYPE82,Type of Therapy month 82,pfu_fm44.csv,FM44,categorical
+HUDOSE82,Avg daily dose (mg) month 82,pfu_fm44.csv,FM44,continuous
+HUCOMP82,Overall compliance month 82,pfu_fm44.csv,FM44,continuous
+HUTYPE83,Type of Therapy month 83,pfu_fm44.csv,FM44,categorical
+HUDOSE83,Avg daily dose (mg) month 83,pfu_fm44.csv,FM44,continuous
+HUCOMP83,Overall compliance month 83,pfu_fm44.csv,FM44,continuous
+HUTYPE84,Type of Therapy month 84,pfu_fm44.csv,FM44,categorical
+HUDOSE84,Avg daily dose (mg) month 84,pfu_fm44.csv,FM44,continuous
+HUCOMP84,Overall compliance month 84,pfu_fm44.csv,FM44,continuous
+RAND_ID,Randomized ID,pfu_fm47.csv,FM47,categorical
+AV,Annual Visit,pfu_fm47.csv,FM47,categorical
+CXRAY_ST,CXR status,pfu_fm47.csv,FM47,categorical
+CXRAYINT,CXR interpretation,pfu_fm47.csv,FM47,categorical
+RAND_ID,Randomized ID,pfu_fm48.csv,FM48,categorical
+AV,Annual Visit,pfu_fm48.csv,FM48,categorical
+ECG_PERF,Was ECG performed,pfu_fm48.csv,FM48,categorical
+SINUS_RT,ECG rate (beats/min),pfu_fm48.csv,FM48,continuous
+SIN_RHY,Normal sinus rhythm,pfu_fm48.csv,FM48,categorical
+ATR_FIB,Atrial fibrillation,pfu_fm48.csv,FM48,categorical
+ATR_PMB,Atrial premature beats,pfu_fm48.csv,FM48,categorical
+ATR_FLU,Atrial flutter,pfu_fm48.csv,FM48,categorical
+PVB,Premature ventricular beats,pfu_fm48.csv,FM48,categorical
+OT_ARRHY,Other arrhythmia,pfu_fm48.csv,FM48,categorical
+ECG_NORM,ECG reading,pfu_fm48.csv,FM48,categorical
+P_PULM,P Pulmonale,pfu_fm48.csv,FM48,categorical
+I_RBBB,Incomplete RBBB,pfu_fm48.csv,FM48,categorical
+C_RBBB,Complete RBBB,pfu_fm48.csv,FM48,categorical
+C_LBBB,Complete LBBB,pfu_fm48.csv,FM48,categorical
+RVH,Right ventricular hypertrophy,pfu_fm48.csv,FM48,categorical
+LVH,Left ventricular hypertrophy,pfu_fm48.csv,FM48,categorical
+LVQSR,Low voltage QSR,pfu_fm48.csv,FM48,categorical
+TWV_INV,T wave inversion,pfu_fm48.csv,FM48,categorical
+ST_ELEV,ST elevation,pfu_fm48.csv,FM48,categorical
+ST_DEP,ST depression,pfu_fm48.csv,FM48,categorical
+Q_WVS,Q waves,pfu_fm48.csv,FM48,categorical
+ECG_RECM,ECG supportive of diagnosis of recent MI,pfu_fm48.csv,FM48,categorical
+ECGOLDMI,ECG supportive of diagnosis of old MI,pfu_fm48.csv,FM48,categorical
+ECGOTHR,ECG other,pfu_fm48.csv,FM48,categorical
+RAND_ID,Randomized ID,pfu_fm49.csv,FM49,categorical
+AV,Annual Visit,pfu_fm49.csv,FM49,categorical
+HGB,Hemoglobin,pfu_fm49.csv,FM49,continuous
+PCV,Packed cell volume,pfu_fm49.csv,FM49,continuous
+MCV,Mean corpusular volume,pfu_fm49.csv,FM49,continuous
+WBC,White blood cell count,pfu_fm49.csv,FM49,continuous
+MCH,Mean corpusular hemoglobin,pfu_fm49.csv,FM49,continuous
+MCHC,Mean corpusular hemoglobin concentration,pfu_fm49.csv,FM49,continuous
+RBC,Red blood cell count,pfu_fm49.csv,FM49,continuous
+PLATELET,Platelets,pfu_fm49.csv,FM49,continuous
+RETIC_CT,Reticulocyte count,pfu_fm49.csv,FM49,continuous
+RDW,RBC distribution,pfu_fm49.csv,FM49,continuous
+RBC_MYEL,RBC abnormalities of myelodysplastic syn,pfu_fm49.csv,FM49,categorical
+LYMPHS,Lymphocytes,pfu_fm49.csv,FM49,continuous
+NEUTS,Neutrophils (bands+polys),pfu_fm49.csv,FM49,continuous
+MONOS,Monocytes,pfu_fm49.csv,FM49,continuous
+BASOS,Basophils,pfu_fm49.csv,FM49,continuous
+EOS,Eosinophils,pfu_fm49.csv,FM49,continuous
+UREA_NIT,Urea nitrogen,pfu_fm49.csv,FM49,continuous
+ALT,Alanine aminotransferase,pfu_fm49.csv,FM49,continuous
+AST,Aspartate aminotransferase,pfu_fm49.csv,FM49,continuous
+URIC_A,Uric acid,pfu_fm49.csv,FM49,continuous
+CREAT,Creatinine,pfu_fm49.csv,FM49,continuous
+GLUCOSE,Glucose,pfu_fm49.csv,FM49,continuous
+CALCIUM,Calcium,pfu_fm49.csv,FM49,continuous
+PHOSPH,Phosphate,pfu_fm49.csv,FM49,continuous
+TOT_BILI,Bilirubin(total),pfu_fm49.csv,FM49,continuous
+DIR_BILI,Bilirubin(direct),pfu_fm49.csv,FM49,continuous
+ALBUMIN,Albumin,pfu_fm49.csv,FM49,continuous
+TOT_PROT,Total protein,pfu_fm49.csv,FM49,continuous
+ALK_PHOS,Alkaline phosphatase,pfu_fm49.csv,FM49,continuous
+URI_RBC,Red blood cells present-Urinalysis,pfu_fm49.csv,FM49,categorical
+URI_WBC,White blood cells present-Urinalysis,pfu_fm49.csv,FM49,categorical
+RAND_ID,Randomized ID,pfu_fm50.csv,FM50,categorical
+AV,Annual Visit,pfu_fm50.csv,FM50,categorical
+DEAD,Death,pfu_fm50.csv,FM50,categorical
+STROKE,Stroke,pfu_fm50.csv,FM50,categorical
+REN_FAIL,Renal failure,pfu_fm50.csv,FM50,categorical
+HEP_FAIL,Hepatic failure,pfu_fm50.csv,FM50,categorical
+CANCER,Cancer,pfu_fm50.csv,FM50,categorical
+SEPS_INF,Sepsis or other serious infection,pfu_fm50.csv,FM50,categorical
+LIVE_BTH,Live birth,pfu_fm50.csv,FM50,categorical
+PREG_TRM,Stillbirth/ miscarriage/ abortion,pfu_fm50.csv,FM50,categorical
+RAND_ID,Randomized ID,pfu_fm55.csv,FM55,categorical
+AV,Annual Visit,pfu_fm55.csv,FM55,categorical
+EVT_CODE,Classification,pfu_fm55.csv,FM55,categorical
+RAND_ID,Randomized ID,pfu_fm66.csv,FM66,categorical
+AV,Annual Visit,pfu_fm66.csv,FM66,categorical
+VSTAT66,Vital status,pfu_fm66.csv,FM66,categorical
+HUHISTRY,Hydroxyurea usage,pfu_fm66.csv,FM66,categorical
+RAND_ID,MSH Trail Randmized ID,pfu_hu_usag2.csv,HU_USAG2,categorical
+DRUG,MSH randomly assigned study treatment,pfu_hu_usag2.csv,HU_USAG2,categorical
+STOPTYPE,MSH Trial treatment stop type,pfu_hu_usag2.csv,HU_USAG2,categorical
+ADHRX_ID,Est overall compliance during MSH Trial,pfu_hu_usag2.csv,HU_USAG2,continuous
+P_POS,% of MSH Trial 2-wk visits w/ +serum HU,pfu_hu_usag2.csv,HU_USAG2,continuous
+RTOX_N,N MSH Trial 2-wk visits w/ real toxicity,pfu_hu_usag2.csv,HU_USAG2,continuous
+HUMTHMSH,Months on HU during MSH trial,pfu_hu_usag2.csv,HU_USAG2,continuous
+HURXAV01,Prescribed HU since last visit,pfu_hu_usag2.csv,HU_USAG2,continuous
+HURXAV02,Prescribed HU since last visit,pfu_hu_usag2.csv,HU_USAG2,continuous
+HURXAV03,Prescribed HU since last visit,pfu_hu_usag2.csv,HU_USAG2,continuous
+HURXAV04,Prescribed HU since last visit,pfu_hu_usag2.csv,HU_USAG2,continuous
+HURXAV05,Prescribed HU since last visit,pfu_hu_usag2.csv,HU_USAG2,continuous
+HURX,When prescribed HU,pfu_hu_usag2.csv,HU_USAG2,continuous
+DOSEAV01,Avg Daily Dose 12 Months pre-AV01,pfu_hu_usag2.csv,HU_USAG2,continuous
+DOSEAV02,Avg Daily Dose 12 Months pre-AV02,pfu_hu_usag2.csv,HU_USAG2,continuous
+DOSEAV03,Avg Daily Dose 12 Months pre-AV03,pfu_hu_usag2.csv,HU_USAG2,continuous
+DOSEAV04,Avg Daily Dose 12 Months pre-AV04,pfu_hu_usag2.csv,HU_USAG2,continuous
+DOSEAV05,Avg Daily Dose 12 Months pre-AV05,pfu_hu_usag2.csv,HU_USAG2,continuous
+COMPAV01,Compliance in 12 months before AV01,pfu_hu_usag2.csv,HU_USAG2,continuous
+COMPAV02,Compliance in 12 months before AV02,pfu_hu_usag2.csv,HU_USAG2,continuous
+COMPAV03,Compliance in 12 months before AV03,pfu_hu_usag2.csv,HU_USAG2,continuous
+COMPAV04,Compliance in 12 months before AV04,pfu_hu_usag2.csv,HU_USAG2,continuous
+COMPAV05,Compliance in 12 months before AV05,pfu_hu_usag2.csv,HU_USAG2,continuous
+DSE3AV01,Avg Daily Dose 3 Months pre-AV01,pfu_hu_usag2.csv,HU_USAG2,continuous
+DSE3AV02,Avg Daily Dose 3 Months pre-AV02,pfu_hu_usag2.csv,HU_USAG2,continuous
+DSE3AV03,Avg Daily Dose 3 Months pre-AV03,pfu_hu_usag2.csv,HU_USAG2,continuous
+DSE3AV04,Avg Daily Dose 3 Months pre-AV04,pfu_hu_usag2.csv,HU_USAG2,continuous
+DSE3AV05,Avg Daily Dose 3 Months pre-AV05,pfu_hu_usag2.csv,HU_USAG2,continuous
+CMP3AV01,Compliance in 3 months before AV01,pfu_hu_usag2.csv,HU_USAG2,continuous
+CMP3AV02,Compliance in 3 months before AV02,pfu_hu_usag2.csv,HU_USAG2,continuous
+CMP3AV03,Compliance in 3 months before AV03,pfu_hu_usag2.csv,HU_USAG2,continuous
+CMP3AV04,Compliance in 3 months before AV04,pfu_hu_usag2.csv,HU_USAG2,continuous
+CMP3AV05,Compliance in 3 months before AV05,pfu_hu_usag2.csv,HU_USAG2,continuous
+HUMTHFUP,Months on HU in MSH Follow-Up,pfu_hu_usag2.csv,HU_USAG2,continuous
+AVG_DOSE,Mean daily dose during Follow-Up,pfu_hu_usag2.csv,HU_USAG2,continuous
+AVG_COMP,Est compliance during Follow-Up,pfu_hu_usag2.csv,HU_USAG2,continuous
+HUFUP_ST,Months from MSH Close-Out HU started,pfu_hu_usag2.csv,HU_USAG2,continuous
+EVER_HU,HU: 1-Always 1.5-Sometime  2-Never,pfu_hu_usag2.csv,HU_USAG2,categorical
+HU_CROSS,Actual HU: MSH Trial&Follow-Up,pfu_hu_usag2.csv,HU_USAG2,categorical
+HU_FUP,1=on HU in Fup; 2=off HU in Fup; 3=HU Un,pfu_hu_usag2.csv,HU_USAG2,categorical
+HUMTHTOT,Months on HU in MSH Trial&Follow-Up,pfu_hu_usag2.csv,HU_USAG2,continuous
+TOTALFUP,Total months from MSH enrollment to cut-,pfu_hu_usag2.csv,HU_USAG2,continuous
+TOTHUCMP,Est compliance over MSH Trial&Follow-up,pfu_hu_usag2.csv,HU_USAG2,continuous
+MTH_AV01,Month of AV01,pfu_hu_usag2.csv,HU_USAG2,continuous
+MTH_AV02,Month of AV02,pfu_hu_usag2.csv,HU_USAG2,continuous
+MTH_AV03,Month of AV03,pfu_hu_usag2.csv,HU_USAG2,continuous
+MTH_AV04,Month of AV04,pfu_hu_usag2.csv,HU_USAG2,continuous
+MTH_AV05,Month of AV05,pfu_hu_usag2.csv,HU_USAG2,continuous
+MTH_LAST,Month Last Seen,pfu_hu_usag2.csv,HU_USAG2,continuous
+MSHUAV01,Months on HU in 12 months before AV01,pfu_hu_usag2.csv,HU_USAG2,continuous
+MSHU3AV1,Months on HU in 3 months before AV01,pfu_hu_usag2.csv,HU_USAG2,continuous
+MSHUAV02,Months on HU in 12 months before AV02,pfu_hu_usag2.csv,HU_USAG2,continuous
+MSHU3AV2,Months on HU in 3 months before AV02,pfu_hu_usag2.csv,HU_USAG2,continuous
+MSHUAV03,Months on HU in 12 months before AV03,pfu_hu_usag2.csv,HU_USAG2,continuous
+MSHU3AV3,Months on HU in 3 months before AV03,pfu_hu_usag2.csv,HU_USAG2,continuous
+MSHUAV04,Months on HU in 12 months before AV04,pfu_hu_usag2.csv,HU_USAG2,continuous
+MSHU3AV4,Months on HU in 3 months before AV04,pfu_hu_usag2.csv,HU_USAG2,continuous
+MSHUAV05,Months on HU in 12 months before AV05,pfu_hu_usag2.csv,HU_USAG2,continuous
+MSHU3AV5,Months on HU in 3 months before AV05,pfu_hu_usag2.csv,HU_USAG2,continuous
+MSHULT12,Months on HU in 12 months before Last Se,pfu_hu_usag2.csv,HU_USAG2,continuous
+MSHULT03,Months on HU in 3 months before Last See,pfu_hu_usag2.csv,HU_USAG2,continuous
+DSELST12,Avg Daily Dose 12 Months pre-Last Seen,pfu_hu_usag2.csv,HU_USAG2,continuous
+DSELST03,Avg Daily Dose 3 Months pre-Last Seen,pfu_hu_usag2.csv,HU_USAG2,continuous
+CMPLST12,Compliance in 12 month pre-Last Seen,pfu_hu_usag2.csv,HU_USAG2,continuous
+CMPLST03,Compliance in 3 Months pre-Last Seen,pfu_hu_usag2.csv,HU_USAG2,continuous
+NMOLSTYR,N months of HU in last year of Fup,pfu_hu_usag2.csv,HU_USAG2,continuous
+PFUENRO,,pfu_patevts.csv,PATEVTS,continuous
+FV,MSH visit number,pfu_patevts.csv,PATEVTS,categorical
+AV,Annual Visit,pfu_patevts.csv,PATEVTS,categorical
+DEAD,Death,pfu_patevts.csv,PATEVTS,categorical
+STROKE,Stroke,pfu_patevts.csv,PATEVTS,categorical
+REN_FAIL,Renal failure,pfu_patevts.csv,PATEVTS,categorical
+HEP_FAIL,Hepatic failure,pfu_patevts.csv,PATEVTS,categorical
+CANCER,Cancer,pfu_patevts.csv,PATEVTS,categorical
+SEPS_INF,Sepsis or other serious infection,pfu_patevts.csv,PATEVTS,categorical
+LIVE_BTH,Live birth,pfu_patevts.csv,PATEVTS,categorical
+PREG_TRM,Stillbirth/ miscarriage/ abortion,pfu_patevts.csv,PATEVTS,categorical
+DRUG,MSH randomly assigned study treatment,pfu_patevts.csv,PATEVTS,categorical
+RAND_ID,Randomized ID,pfu_patevts.csv,PATEVTS,categorical
+EVT_TIME,days since MSH randomization date,pfu_patevts.csv,PATEVTS,continuous

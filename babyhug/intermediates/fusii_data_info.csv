@@ -1,0 +1,1755 @@
+varname,LABEL,file,MEMNAME,picsure_type
+ID,Unique patient identifier (randomized),fusii_abdsono.csv,ABDSONO,continuous
+FORM_ID,Form ID,fusii_abdsono.csv,ABDSONO,continuous
+SPEC_ID,Specimen ID,fusii_abdsono.csv,ABDSONO,categorical
+VISIT_NBR,Visit Number,fusii_abdsono.csv,ABDSONO,categorical
+ABDRDRSIG,F041 II.2. Reader Signature,fusii_abdsono.csv,ABDSONO,categorical
+ABDRDRNBR,F041 II.3. Reader Number,fusii_abdsono.csv,ABDSONO,continuous
+QLTY1_SP,"F041 II.4.A. If returned for reprocessing, explain:",fusii_abdsono.csv,ABDSONO,categorical
+QLTY3_SP,"F041 II.4.B. If inadequate, explain:",fusii_abdsono.csv,ABDSONO,categorical
+INHOM_SP,"F041 III.2.F.1 *1. If inhomogeneous, explain:",fusii_abdsono.csv,ABDSONO,categorical
+RKRPEX,"F041 III.3.B.1. *1. If abnormal, explain:",fusii_abdsono.csv,ABDSONO,categorical
+RKECEX,"F041 III.3.C.1. *1. If abnormal, explain:",fusii_abdsono.csv,ABDSONO,categorical
+LKRPEX,"F041 III.4.B.1 * 1. If abnormal, explain:",fusii_abdsono.csv,ABDSONO,categorical
+LKECEX,"F041 III.4.C.1. *1. If abnormal, explain:",fusii_abdsono.csv,ABDSONO,categorical
+ABOABNEX,"F041 III.6.A. *A. If yes, explain:",fusii_abdsono.csv,ABDSONO,categorical
+GBCDV,F041 III.1.B. Color Doppler Vascularity,fusii_abdsono.csv,ABDSONO,continuous
+GBMSTN,F041 III.1.C.2. 2. Multiple stones not countable,fusii_abdsono.csv,ABDSONO,continuous
+GBLGSTNA,F041 III.1.D.NA N/A,fusii_abdsono.csv,ABDSONO,continuous
+GBCBD,F041 III.1.F.1. Common bile duct,fusii_abdsono.csv,ABDSONO,continuous
+GBSLDG,F041 III.1.G. Sludge,fusii_abdsono.csv,ABDSONO,continuous
+SPLEEN,F041 III.2. Spleen,fusii_abdsono.csv,ABDSONO,continuous
+ACCSPL,F041 III.2.A. Accessory spleen(s),fusii_abdsono.csv,ABDSONO,continuous
+SPLVOLND,F041 III.2.E.ND Spleen Volume Not Done,fusii_abdsono.csv,ABDSONO,continuous
+SPLHOM,F041 III.2.F. Homogeneity,fusii_abdsono.csv,ABDSONO,continuous
+RKID,F041 III.3. Right Kidney Present,fusii_abdsono.csv,ABDSONO,continuous
+RKRPAR,F041 III.3.B. Renal parenchyma,fusii_abdsono.csv,ABDSONO,continuous
+RKECHO,F041 III.3.C. Echogenicity,fusii_abdsono.csv,ABDSONO,continuous
+LKID,F041 III.4. Left Kidney,fusii_abdsono.csv,ABDSONO,continuous
+LKRPAR,F041 III.4.B. Renal parenchyma,fusii_abdsono.csv,ABDSONO,continuous
+LKECHO,F041 III.4.C. Echogenicity,fusii_abdsono.csv,ABDSONO,continuous
+GBPRFL,F041 III.1.H. Pericholecystic fluid,fusii_abdsono.csv,ABDSONO,continuous
+ABD_QLTY,F041 II.4. Current Status of this Reading:,fusii_abdsono.csv,ABDSONO,categorical
+GALBLA,F041 III.1. Gallbladder,fusii_abdsono.csv,ABDSONO,categorical
+GBWALL,"F041 III.1.A If Present, thickness of wall",fusii_abdsono.csv,ABDSONO,categorical
+GBSFM,F041 III.1.E. Stones Freely Mobile?,fusii_abdsono.csv,ABDSONO,categorical
+SPLTRN,F041 III.2.C. Transverse,fusii_abdsono.csv,ABDSONO,categorical
+RKVOL,F041 III.3.A. Estimated volume,fusii_abdsono.csv,ABDSONO,categorical
+LKVOL,F041 III.4.A. Estimated volume,fusii_abdsono.csv,ABDSONO,categorical
+TEST,Test Type,fusii_abdsono.csv,ABDSONO,categorical
+ABOABN,F041 III.6. Any other abnormalities,fusii_abdsono.csv,ABDSONO,continuous
+GBIHEP,F041 III.1.F.3. Intrahepatic ducts,fusii_abdsono.csv,ABDSONO,continuous
+GBLGST,F041 III.1.D. Largest stone,fusii_abdsono.csv,ABDSONO,continuous
+GBNSTN,F041 III.1.C.1. 1. Number of Stones,fusii_abdsono.csv,ABDSONO,continuous
+GBPAND,F041 III.1.F.2. Pancreatic duct,fusii_abdsono.csv,ABDSONO,continuous
+LVRENL,F041 III.5. Liver enlarged,fusii_abdsono.csv,ABDSONO,continuous
+SPLANP,F041 III.2.D. Anterior - Posterior Length,fusii_abdsono.csv,ABDSONO,continuous
+SPLCLN,F041 III.2.B. Cephalocaudad length,fusii_abdsono.csv,ABDSONO,continuous
+SPLVOL,F041 III.2.E. Estimated total spleen volume,fusii_abdsono.csv,ABDSONO,continuous
+VISIT_DT_DAYS,Visit Date (recode: number of days after date of initial follow-up visit),fusii_abdsono.csv,ABDSONO,continuous
+REVIEW_RETURN_DATE_DAYS,REVIEW RETURN DATE (recode: number of days after date of initial follow-up visit),fusii_abdsono.csv,ABDSONO,continuous
+ID,Unique patient identifier (randomized),fusii_creatinine.csv,CREATININE,continuous
+SPECIMEN_TYPE,Specimen Type,fusii_creatinine.csv,CREATININE,categorical
+VISIT_NBR,Visit Number,fusii_creatinine.csv,CREATININE,categorical
+CREATININE_LABEL,F003 II.6A Label Number:,fusii_creatinine.csv,CREATININE,categorical
+CREATININE_SHIP_HR,F003 II.5D.HR Time Shipped:,fusii_creatinine.csv,CREATININE,continuous
+CREATININE_SHIP_MN,F003 II.5D.MN Minute creatinine shipped,fusii_creatinine.csv,CREATININE,continuous
+CREATININE_TM,Creatinine/BUN Time Collected,fusii_creatinine.csv,CREATININE,categorical
+CREATININE_ND,Creatinine/BUN Not Done,fusii_creatinine.csv,CREATININE,continuous
+CREATININE_SENT_YN,Was the sample sent to GHSU Core Lab?,fusii_creatinine.csv,CREATININE,continuous
+CREATININE_LBL,F003 II.6A Label Number: (5 Digits only),fusii_creatinine.csv,CREATININE,continuous
+SPEC_ID,Specimen ID,fusii_creatinine.csv,CREATININE,categorical
+S_CREAT,Serum Creatinine,fusii_creatinine.csv,CREATININE,continuous
+BUN,Blood Urea Nitrogen,fusii_creatinine.csv,CREATININE,continuous
+CONDITION,condition,fusii_creatinine.csv,CREATININE,categorical
+COMMENTS,Comments,fusii_creatinine.csv,CREATININE,categorical
+VISIT_DT_DAYS,Visit Date (recode: number of days after date of initial follow-up visit),fusii_creatinine.csv,CREATININE,continuous
+CREATININE_DT_DAYS,F003 II.6B Date Collected: (recode: number of days after date of initial follow-up visit),fusii_creatinine.csv,CREATININE,continuous
+CREATININE_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_creatinine.csv,CREATININE,continuous
+COLLECTDATE_DAYS,Collect Date (recode: number of days after date of initial follow-up visit),fusii_creatinine.csv,CREATININE,continuous
+DATE_RECEIVED_DAYS,Date Received (recode: number of days after date of initial follow-up visit),fusii_creatinine.csv,CREATININE,continuous
+ID,Unique patient identifier (randomized),fusii_cystatin.csv,CYSTATIN,continuous
+SPECIMEN_TYPE,Specimen Type,fusii_cystatin.csv,CYSTATIN,categorical
+VISIT_NBR,Visit Number,fusii_cystatin.csv,CYSTATIN,categorical
+CYSTATIN_LABEL,F003 II.4A Label Number:,fusii_cystatin.csv,CYSTATIN,categorical
+CYSTATIN_LBL,F003 II.4A Label Number: (5 Digits only),fusii_cystatin.csv,CYSTATIN,continuous
+CYSTATIN_ND,cystatin/BUN Not Done,fusii_cystatin.csv,CYSTATIN,continuous
+CYSTATIN_SENT_YN,Was the sample sent to Baylor Core Lab?,fusii_cystatin.csv,CYSTATIN,continuous
+CYSTATIN_SHIP_HR,F003 II.3D.HR Time Shipped:,fusii_cystatin.csv,CYSTATIN,continuous
+CYSTATIN_SHIP_MN,F003 II.3D.MN Minute cystatin shipped,fusii_cystatin.csv,CYSTATIN,continuous
+CYSTATIN_TM,cystatin/BUN Time Collected,fusii_cystatin.csv,CYSTATIN,categorical
+CYSTATIN_C_1,1st Cystatin C,fusii_cystatin.csv,CYSTATIN,continuous
+CYSTATIN_C_2,2nd Cystatin C,fusii_cystatin.csv,CYSTATIN,continuous
+CYSTATIN_C_AVERAGE,Average Cystatin C,fusii_cystatin.csv,CYSTATIN,continuous
+VISIT_DT_DAYS,F003 Visit Date (recode: number of days after date of initial follow-up visit),fusii_cystatin.csv,CYSTATIN,continuous
+CYSTATIN_DT_DAYS,F003 II.4B Date Collected: (recode: number of days after date of initial follow-up visit),fusii_cystatin.csv,CYSTATIN,continuous
+CYSTATIN_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_cystatin.csv,CYSTATIN,continuous
+ID,Unique patient identifier (randomized),fusii_echo.csv,ECHO,continuous
+VISIT_NBR,Visit Number,fusii_echo.csv,ECHO,categorical
+LABEL_FM32,F032 II.5 Label Number:,fusii_echo.csv,ECHO,categorical
+LABEL5,Label (5 digit format),fusii_echo.csv,ECHO,continuous
+ECHO_COMP,F032 III.1 Was the echocardiogram completed?,fusii_echo.csv,ECHO,continuous
+ECHO_SENT_YN,1. Was the Echocardiogram data sent to Core Lab?,fusii_echo.csv,ECHO,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_echo.csv,ECHO,continuous
+FORM_ID,Form ID,fusii_echo.csv,ECHO,continuous
+REVISION,Form Revision,fusii_echo.csv,ECHO,continuous
+SEQ_NBR,Sequence Number,fusii_echo.csv,ECHO,continuous
+SOURCE,F032 II.3 Source indication:,fusii_echo.csv,ECHO,continuous
+PT_STATE,F032 II.4 Patient state:,fusii_echo.csv,ECHO,continuous
+HEIGHT,F032 II.6 Height:,fusii_echo.csv,ECHO,continuous
+WEIGHT,F032 II.7 Weight:,fusii_echo.csv,ECHO,continuous
+TEMPF,F032 II.8.a.i i.,fusii_echo.csv,ECHO,continuous
+TEMPC,F032 II.8.a.ii ii.,fusii_echo.csv,ECHO,continuous
+HEARTRATE,Heart Rate per min,fusii_echo.csv,ECHO,continuous
+RESP,F032 II.10 Respiratory rate:,fusii_echo.csv,ECHO,continuous
+BP_SYSTOLIC,F032 II.11.a a.  Systolic:,fusii_echo.csv,ECHO,continuous
+BP_DIASTOLIC,F032 II.11.b b.  Diastolic,fusii_echo.csv,ECHO,continuous
+ILLNESS,F032 II.12 Were there any illnesses at today's visit?,fusii_echo.csv,ECHO,continuous
+COMPLICATIONS,F032 III.3 Were there any complications from the echocardiogram?,fusii_echo.csv,ECHO,continuous
+BP_SYSTOLIC_1ST,F032 III.4.a.i Systolic Blood Pressure,fusii_echo.csv,ECHO,continuous
+BP_DIASTOLIC_1ST,F032 III.4.b.i Diastolic Blood Pressure,fusii_echo.csv,ECHO,continuous
+BP_MEAN_1ST,F032 III.4.c.i Mean Blood Pressure,fusii_echo.csv,ECHO,continuous
+BP_SYSTOLIC_2ND,F032 III.4.a.ii Systolic Blood Pressure,fusii_echo.csv,ECHO,continuous
+BP_DIASTOLIC_2ND,F032 III.4.b.ii Diastolic Blood Pressure,fusii_echo.csv,ECHO,continuous
+BP_MEAN_2ND,F032 III.4.c.ii Mean Blood Pressure,fusii_echo.csv,ECHO,continuous
+BP_SYSTOLIC_3RD,F032 III.4.aiii Systolic Blood Pressure,fusii_echo.csv,ECHO,continuous
+BP_DIASTOLIC_3RD,F032 III.4.biii Diastolic Blood Pressure,fusii_echo.csv,ECHO,continuous
+BP_MEAN_3RD,F032 III.4.ciii Mean Blood Pressure,fusii_echo.csv,ECHO,continuous
+MMODE_STRIP,F032 III.5.a a.  M-mode strip chart,fusii_echo.csv,ECHO,continuous
+DOPPLER_STRIP,F032 III.5.b b.  Doppler strip chart,fusii_echo.csv,ECHO,continuous
+PERICARDIAL_EFF,F032 IV.1 Pericardial effusion (End diastolic measurement):,fusii_echo.csv,ECHO,continuous
+AORTIC_MV,F032 IV.2,fusii_echo.csv,ECHO,continuous
+AORTIC_MV_NA,F032 IV.2NA N/A,fusii_echo.csv,ECHO,continuous
+AORTIC_REG,F032 IV.3 Aortic regurgitation:,fusii_echo.csv,ECHO,continuous
+AORTIC_VEG,F032 IV.4 Aortic vegetation:,fusii_echo.csv,ECHO,continuous
+PULMONIC_MV,F032 IV.5 Pulmonic valve maximum velocity:,fusii_echo.csv,ECHO,continuous
+PULMONIC_MV_NA,F032 IV.5NA N/A,fusii_echo.csv,ECHO,continuous
+PULMONIC_REG,F032 IV.6 Pulmonic regurgitation:,fusii_echo.csv,ECHO,continuous
+PULMONIC_VEG,F032 IV.7 Pulmonic vegetation:,fusii_echo.csv,ECHO,continuous
+MITRAL_MV,F032 IV.8,fusii_echo.csv,ECHO,continuous
+MITRAL_MV_NA,F032 IV.8NA N/A,fusii_echo.csv,ECHO,continuous
+MITRAL_REG,F032 IV.9 Mitral regurgitation:,fusii_echo.csv,ECHO,continuous
+MITRAL_VEG,F032 IV.10 Mitral vegetation:,fusii_echo.csv,ECHO,continuous
+TRICUSPID_MV,F032 IV.11,fusii_echo.csv,ECHO,continuous
+TRICUSPID_MV_NA,F032 IV.11NA N/A,fusii_echo.csv,ECHO,continuous
+TRICUSPID_REG,F032 IV.12 Tricuspid regurgitation:,fusii_echo.csv,ECHO,continuous
+TRICUSPID_VEG,F032 IV.13 Tricuspid vegetation:,fusii_echo.csv,ECHO,continuous
+ATRIAL_R,F032 IV.14.a a.  Right atrial enlargement,fusii_echo.csv,ECHO,continuous
+ATRIAL_L,F032 IV.14.b b.  Left atrial enlargement,fusii_echo.csv,ECHO,continuous
+INVTR_SPTL_POS,F032 IV.15 Interventricular septal position in late systole:,fusii_echo.csv,ECHO,continuous
+DIASTOLIC_SEPTAL,F032 IV.16 Diastolic septal flattening:,fusii_echo.csv,ECHO,continuous
+REGIONAL_WALL_MOTION,F032 IV.17 Regional wall motion abnormalities:,fusii_echo.csv,ECHO,continuous
+CV_ABNORMAL_MORE,F032 IV.18 Are there any additional cardiovascular abnormalities that were identified during this procedure  and not documented in a previous question on this f,fusii_echo.csv,ECHO,continuous
+CV_ABNORMAL_ABSENT,F032 IV.22 Are there any cardiovascular abnormalities not  documented in previous questions that were  identified on the last echocardiogram that are no  longer,fusii_echo.csv,ECHO,continuous
+BNP,F032 V.1 BNP Result,fusii_echo.csv,ECHO,continuous
+CV_ABNORMAL,F032 IV.18 Are there any cardiovascular abnormalities that were identified during this procedure?,fusii_echo.csv,ECHO,continuous
+P18_STATUS1,Status DX 1,fusii_echo.csv,ECHO,continuous
+P18_STATUS2,Status DX 2,fusii_echo.csv,ECHO,continuous
+COMPLICATION_SP,*a. What were the complications?  (Specify):,fusii_echo.csv,ECHO,categorical
+P18_DX1,DX 1 Code:,fusii_echo.csv,ECHO,continuous
+P18_DX2,DX 2 Code:,fusii_echo.csv,ECHO,continuous
+BP_METHOD,c. Method:,fusii_echo.csv,ECHO,continuous
+CARETAKER_OBJ,b. Caretaker objects to participation,fusii_echo.csv,ECHO,continuous
+COMPLIC_DURING,d. Subject developed complications during procedure,fusii_echo.csv,ECHO,continuous
+EQUIP_AVAIL,a. Equipment availability,fusii_echo.csv,ECHO,continuous
+ILLNESS_SUB,"c. Illness of subject, test cancelled by physician",fusii_echo.csv,ECHO,continuous
+INCOM_OTHER,e. Other (specify),fusii_echo.csv,ECHO,continuous
+INCOM_UNK,f. Unknown,fusii_echo.csv,ECHO,continuous
+THERM_PLACE,b. Thermometer placement:,fusii_echo.csv,ECHO,continuous
+FM32_ND,Echocardiogram Performance: data was not collected:,fusii_echo.csv,ECHO,continuous
+ILLNESS_NUM,"If Yes, how many illnesses?",fusii_echo.csv,ECHO,continuous
+CV_ABNORMAL_NUM,"18a. If Yes, how many cardiovascular abnormalities?",fusii_echo.csv,ECHO,continuous
+BSA,Body Surface Area,fusii_echo.csv,ECHO,continuous
+AORTICSIZECM,Aortic valve annulus size (cm),fusii_echo.csv,ECHO,continuous
+ROOTSIZECM,Aortic root size (cm),fusii_echo.csv,ECHO,continuous
+ASCAORTACM,Ascending aorta size (cm),fusii_echo.csv,ECHO,continuous
+RRINTERVAL1MSEC,RRInterval1 (msec),fusii_echo.csv,ECHO,continuous
+RRINTERVALMSECD10,RR interval for calculation of Heart rate (msec/10),fusii_echo.csv,ECHO,continuous
+HRPMIN,Hrpmin,fusii_echo.csv,ECHO,continuous
+SHORTENDODIASTOLECM2,Endocardial short axis end diastole dimension area (cm^2),fusii_echo.csv,ECHO,continuous
+SHORTEPIDIASOLECM2,Short Axis Epicardial end diastole area (cm^2),fusii_echo.csv,ECHO,continuous
+LONGENDODIASTOLECM,4 Chamber Long axis ednocardial end diastole dimension (cms),fusii_echo.csv,ECHO,continuous
+LONGEPIDIASTOLECM,4 Chamber long axis epicardial length (cms),fusii_echo.csv,ECHO,continuous
+EDVEPI56XEDAXEDLCM3,Epicardial end diastolic volume (cm^3),fusii_echo.csv,ECHO,continuous
+EDVEND56XEDAXEDLCM3,Endocardial enddiastole volume (cm^3),fusii_echo.csv,ECHO,continuous
+MASSAREALENGTHMETHODGM,Left ventricle mass by area legth method (gms),fusii_echo.csv,ECHO,continuous
+AORTICVTICM,Velocity time integral for Left ventricle outflow (cm),fusii_echo.csv,ECHO,continuous
+MITRALA,' MitralB(Lvejectiontime)=',fusii_echo.csv,ECHO,continuous
+MITRALBLVEJECTIONTIME,MitralBLvejectiontime,fusii_echo.csv,ECHO,continuous
+LVMPI,Left Ventricle Myocardial Performance Index,fusii_echo.csv,ECHO,continuous
+ETC,Etcorrected=ET/heartrate,fusii_echo.csv,ECHO,continuous
+VCF,VCF=SF/Etc/100,fusii_echo.csv,ECHO,continuous
+MITRALECMPS,Mitral valve peak early velocity (cm/s),fusii_echo.csv,ECHO,continuous
+MITRALACMPS,Mitral valve atrial velocity (cm/s),fusii_echo.csv,ECHO,continuous
+EDURATIONMSEC,Mitral valve E wave duration (msec),fusii_echo.csv,ECHO,continuous
+ADURATIONMSEC,Mitral valve A wave duration,fusii_echo.csv,ECHO,continuous
+DECELTIMEMSEC,Mitral valev E wave Deceleration time (msec),fusii_echo.csv,ECHO,continuous
+EARATIO,Mitral valve pulse E A ratio,fusii_echo.csv,ECHO,continuous
+PULMVEINSCMPS,Pulmonary vein Systolic wave velocity,fusii_echo.csv,ECHO,continuous
+PULMVEINDCMPS,PulmVeinD (cm/s),fusii_echo.csv,ECHO,continuous
+PULMADURATIONMSEC,PulmAduration (msec),fusii_echo.csv,ECHO,continuous
+PULMAVELOCITYCMPS,PulmAvelocity (cm/s),fusii_echo.csv,ECHO,continuous
+PULMVEINS_D,Pulmonary vein S/D ratio,fusii_echo.csv,ECHO,continuous
+TDIESEPTALCMPS,Tissue Doppler Early Septal velocity (cm/s),fusii_echo.csv,ECHO,continuous
+TDIASEPTALCMPS,Tissue Doppler Septal Atrial velocity (cm/s),fusii_echo.csv,ECHO,continuous
+TDIS1SEPTALCMPS,TDIS1Septal (cm/s),fusii_echo.csv,ECHO,continuous
+TDIS2SEPTALCMPS,Tissue Doppler septal Systolic velocity (cm/s),fusii_echo.csv,ECHO,continuous
+TDIELATERALCMPS,Tissue Doppler Early Mitral valve lateral annulus  (cm/s),fusii_echo.csv,ECHO,continuous
+TDIALATERALCMPS,Tissue Doppler Mitral valve A lateral velocity  (cm/s),fusii_echo.csv,ECHO,continuous
+TDIS1LATERALCMPS,TDIS1lateral (cm/s),fusii_echo.csv,ECHO,continuous
+TDIS2LATERALCMPS,TDIS2lateralcmps,fusii_echo.csv,ECHO,continuous
+RVECMPS,Right free wall Tissue Doppler Early velocity (cm/s),fusii_echo.csv,ECHO,continuous
+RVACMPS,Right free wall (tricuspid valve) tissue Doppler A velocty (cm/s),fusii_echo.csv,ECHO,continuous
+RVS1CMPS,RVS1 (cm/s),fusii_echo.csv,ECHO,continuous
+RVS2CMPS,Tissue Doppler Right Free wall (Tricuspid valve) systolic velocity cm/s),fusii_echo.csv,ECHO,continuous
+TDIRVAMSEC,TDIRVA (msec),fusii_echo.csv,ECHO,continuous
+TDIRVBMSEC,TDIRVB (msec),fusii_echo.csv,ECHO,continuous
+EEPRIMESEPTAL,E /Eprime septal ratio,fusii_echo.csv,ECHO,continuous
+EEPRIMELATEARAL,E/E prime lateral mitral annulus ratio,fusii_echo.csv,ECHO,continuous
+MEANEESEPTALLATERAL,mean E/E prime septal and lateral,fusii_echo.csv,ECHO,continuous
+RVTDIMPI,Right ventricle myocardial performance index as measure by Tissue Doppler imaging,fusii_echo.csv,ECHO,continuous
+IVSDCM,End diastolic septal thickness (cm),fusii_echo.csv,ECHO,continuous
+LVIDDCM,Left ventricle internal dimensions in end diastolic (cm),fusii_echo.csv,ECHO,continuous
+PWDDCM,Post wall end diastolic dimensions (cm),fusii_echo.csv,ECHO,continuous
+IVSSCM,Septal end Systolic thickness (cm),fusii_echo.csv,ECHO,continuous
+LVIDSCM,Left ventricle internal dimensions in end systolic (cm),fusii_echo.csv,ECHO,continuous
+PWDSCM,post wall thickness in end systolic (cm),fusii_echo.csv,ECHO,continuous
+SHORTENINGFRACTION,Shortening Fraction,fusii_echo.csv,ECHO,continuous
+LVTOTALDIMENSUMCM,Left ventricle total dimensions from the septum to posterior wall (cm),fusii_echo.csv,ECHO,continuous
+LVTOTALDIMENCUBEDCM3,cube of total dimensions (cm^3),fusii_echo.csv,ECHO,continuous
+LVINTERNALDIMCUBEDCM3,cube of internal dimension of left ventricle (cm^3),fusii_echo.csv,ECHO,continuous
+LEFTVENTRICLEMASSGM,Leftventriclemass: 0.8{1.04[(LVED + left ventricular posterior wall thickness + interventricular septal thickness)3 - LVED3]} + 0.6 (gm),fusii_echo.csv,ECHO,continuous
+TREGUR,Tricuspid regurgitation,fusii_echo.csv,ECHO,continuous
+MREGURG,Mitral Regurgitation,fusii_echo.csv,ECHO,continuous
+MITRAL4CHCM,Mitral valve annulus length in four chamber view (cm),fusii_echo.csv,ECHO,continuous
+LVMIDCAVITYCM,Left ventricle mid cavity length in end diastole (cm),fusii_echo.csv,ECHO,continuous
+TRICUSPID4CHCM,Tricupsid valve annulus dimension in 4 chamber (cm),fusii_echo.csv,ECHO,continuous
+RVMIDCAVITYCM,Right ventricle mid cavity dimensions in end diastole (cm),fusii_echo.csv,ECHO,continuous
+TRVELOCITYCMPS,Tricupsid valve peak velocity (cm/s),fusii_echo.csv,ECHO,continuous
+TRGRADIENTMMHG,Tricuspid regurgitation gradient (mmHg),fusii_echo.csv,ECHO,continuous
+SDMSEC,Right ventricle Systolic time (msec),fusii_echo.csv,ECHO,continuous
+DDMSEC,Right ventricle Diastolic duration (msec),fusii_echo.csv,ECHO,continuous
+SD_DDRATIO,SD:DD ratio,fusii_echo.csv,ECHO,continuous
+PVEJECTIOTIMEMSEC,Pulmonary valve ejection time (msec),fusii_echo.csv,ECHO,continuous
+PVVTICM,Tpulmonary valve Velocity time integral (cm),fusii_echo.csv,ECHO,continuous
+PIENDDIASTOLEMMHG,Pulmonay valve end diastolic gradient (mm Hg),fusii_echo.csv,ECHO,continuous
+VPLV,Left ventricle velocity of propogation,fusii_echo.csv,ECHO,continuous
+LABEL_RESULTS,Results Label,fusii_echo.csv,ECHO,continuous
+VISIT_DT_DAYS,F032 Visit Date (recode: number of days after date of initial follow-up visit),fusii_echo.csv,ECHO,continuous
+ECHO_DAYS,F032 II.1 Date of echocardiogram visit: (recode: number of days after date of initial follow-up visit),fusii_echo.csv,ECHO,continuous
+ECHO_SENT_DT_DAYS,2. Data sent date: (recode: number of days after date of initial follow-up visit),fusii_echo.csv,ECHO,continuous
+DATEECHO_DAYS,Date of visit or echo (recode: number of days after date of initial follow-up visit),fusii_echo.csv,ECHO,continuous
+AGE_YR,Age at F032 Visit (Years portion),fusii_echo.csv,ECHO,continuous
+AGE_MON,Age at F032 Visit (Months portion),fusii_echo.csv,ECHO,continuous
+ID,Unique patient identifier (randomized),fusii_fm001.csv,FM001,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm001.csv,FM001,continuous
+FORM_ID,Form ID,fusii_fm001.csv,FM001,continuous
+REVISION,Form Revision,fusii_fm001.csv,FM001,continuous
+VISIT_NBR,Visit Number,fusii_fm001.csv,FM001,continuous
+SEQ_NBR,Sequence Number,fusii_fm001.csv,FM001,continuous
+TREAT_COMPLET_1,F001 II.1. Did this child complete at least 24 mos of follow-up in BABY HUG Follow-up I?,fusii_fm001.csv,FM001,continuous
+TRANSPLANT,"F001 II.2. Has this child had a stem cell transplant since December 31, 2011?",fusii_fm001.csv,FM001,continuous
+FOLLOWUP_STUDY,F001 II.3. Has informed consent been obtained?,fusii_fm001.csv,FM001,continuous
+DATA_CONSENT,F001 II.4.B. Consent for data file to include child's information?,fusii_fm001.csv,FM001,continuous
+BLOOD_SAVE_CONSENT,F001 II.4.C. Consent for blood specimens to be saved indefinitely?,fusii_fm001.csv,FM001,continuous
+BLOOD_FUTURE_CONSENT,F001 II.4.E. Consent for blood specimens to be used for future research on sickle cell disease and related disorders?,fusii_fm001.csv,FM001,continuous
+DNA_CONSENT,F001 II.4.G. Consent for DNA testing to be performed on blood samples?,fusii_fm001.csv,FM001,continuous
+ASSENT,F001 II.4.H. Was Assent signed?,fusii_fm001.csv,FM001,continuous
+FOLLOWUP_GROUP,F001 II.5. Follow-up Group,fusii_fm001.csv,FM001,continuous
+URINE_SAVE_CONSENT,F001 II.4.D. Consent for urine specimens to be saved indefinitely?,fusii_fm001.csv,FM001,continuous
+URINE_FUTURE_CONSENT,F001 II.4.F. Consent for urine specimens to be used for future research on sickle cell disease and related disorders?,fusii_fm001.csv,FM001,continuous
+RECONSENT_YN,1. Has subject been reconsented?,fusii_fm001.csv,FM001,continuous
+DATA_RECONSENT,B. Reconsent for data file to include child’s information?,fusii_fm001.csv,FM001,continuous
+BLOOD_SAVE_RECONSENT,C. Reconsent for blood specimens to be saved indefinitely?,fusii_fm001.csv,FM001,continuous
+URINE_SAVE_RECONSENT,D. Reconsent for urine to be saved indefinitely?,fusii_fm001.csv,FM001,continuous
+BLOOD_FUTURE_RECONSENT,E. Reconsent for blood samples to be used for future research on sickle cell disease and related disorders?,fusii_fm001.csv,FM001,continuous
+URINE_FUTURE_RECONSENT,F. Reconsent for urine samples to be used for future research on sickle cell disease and related disorders?,fusii_fm001.csv,FM001,continuous
+DNA_RECONSENT,G. Reconsent for DNA testing to be performed on blood samples?,fusii_fm001.csv,FM001,continuous
+ASSENT_RECONSENT,H. Was Assent signed?,fusii_fm001.csv,FM001,continuous
+FOLLOWUP_GROUP_RECONSENT,2. Follow-up Group:,fusii_fm001.csv,FM001,continuous
+CONSENT_DT_DAYS,F001 II.4.A. Consent Date: (recode: number of days after date of initial follow-up visit),fusii_fm001.csv,FM001,continuous
+VISIT_DT_RECONSENT_DAYS,Visit Date: (recode: number of days after date of initial follow-up visit),fusii_fm001.csv,FM001,continuous
+RECONSENT_DT_DAYS,A. Reconsent Date: (recode: number of days after date of initial follow-up visit),fusii_fm001.csv,FM001,continuous
+ID,Unique patient identifier (randomized),fusii_fm003.csv,FM003,continuous
+VISIT_NBR,Visit Number,fusii_fm003.csv,FM003,categorical
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm003.csv,FM003,continuous
+FORM_ID,Form ID,fusii_fm003.csv,FM003,continuous
+REVISION,Form Revision,fusii_fm003.csv,FM003,continuous
+SEQ_NBR,Sequence Number,fusii_fm003.csv,FM003,continuous
+URINE_LABEL,F003 II.2A Label number:,fusii_fm003.csv,FM003,categorical
+URINE_SHIP_HR,F003 II.1D.HR Time Shipped:,fusii_fm003.csv,FM003,continuous
+URINE_SHIP_MN,F003 II.1D.MN Minutes urine shipped,fusii_fm003.csv,FM003,continuous
+URN_NPO,Urine Hours NPO,fusii_fm003.csv,FM003,continuous
+BLOOD_LABEL,F003 II.3A Label number:,fusii_fm003.csv,FM003,categorical
+BLOOD_SHIP_HR,F003 II.2D.HR Time Shipped:,fusii_fm003.csv,FM003,continuous
+BLOOD_SHIP_MN,F003 II.2D.MN Minute blood shipped,fusii_fm003.csv,FM003,continuous
+CYSTATIN_LABEL,F003 II.4A Label Number:,fusii_fm003.csv,FM003,categorical
+CYSTATIN_SHIP_HR,F003 II.3D.HR Time Shipped:,fusii_fm003.csv,FM003,continuous
+CYSTATIN_SHIP_MN,F003 II.3D.MN Minute cystatin shipped,fusii_fm003.csv,FM003,continuous
+HBF_LABEL,F003 II.5A Label Number:,fusii_fm003.csv,FM003,categorical
+HBF_SHIP_HR,F003 II.4D.HR Time Shipped:,fusii_fm003.csv,FM003,continuous
+HBF_SHIP_MN,F003 II.4D.MN Minute HbF shipped,fusii_fm003.csv,FM003,continuous
+CREATININE_LABEL,F003 II.6A Label Number:,fusii_fm003.csv,FM003,categorical
+CREATININE_SHIP_HR,F003 II.5D.HR Time Shipped:,fusii_fm003.csv,FM003,continuous
+CREATININE_SHIP_MN,F003 II.5D.MN Minute creatinine shipped,fusii_fm003.csv,FM003,continuous
+CELL_LABEL,F003 II.7A Label Number,fusii_fm003.csv,FM003,categorical
+CELL_SHIP_HR,F003 II.6D.HR Time Shipped:,fusii_fm003.csv,FM003,continuous
+CELL_SHIP_MN,F003 II.6D.MN Minute pitted cells shipped,fusii_fm003.csv,FM003,continuous
+HJB_LABEL,F003 II.8A Label Number:,fusii_fm003.csv,FM003,categorical
+HJB_SHIP_HR,F003 II.7D.HR Time Shipped:,fusii_fm003.csv,FM003,continuous
+HJB_SHIP_MN,F003 II.7D.MN Minute HJB shipped,fusii_fm003.csv,FM003,continuous
+VDJ_LABEL,F003 II.9A Label Number:,fusii_fm003.csv,FM003,categorical
+VDJ_SHIP_HR,F003 II.8D.HR Time Shipped:,fusii_fm003.csv,FM003,continuous
+VDJ_SHIP_MN,F003 II.8D.MN Minute VDJ shipped,fusii_fm003.csv,FM003,continuous
+URINE_STORED_LABEL,F003 II.1A Label number:,fusii_fm003.csv,FM003,categorical
+BLOOD_TM,Blood Time Collected,fusii_fm003.csv,FM003,categorical
+CELL_TM,Pitted Cell Time Collected,fusii_fm003.csv,FM003,categorical
+CREATININE_TM,Creatinine/BUN Time Collected,fusii_fm003.csv,FM003,categorical
+CYSTATIN_TM,Cystatin C Time Collected,fusii_fm003.csv,FM003,categorical
+HBF_TM,HBF Time Collected,fusii_fm003.csv,FM003,categorical
+HJB_TM,HJB Time Collected,fusii_fm003.csv,FM003,categorical
+URINE_TM,Urine Time Collected,fusii_fm003.csv,FM003,categorical
+URINE_STORED_TM,Urine for Storage Time Collected,fusii_fm003.csv,FM003,categorical
+VDJ_TM,VDJ Time Collected,fusii_fm003.csv,FM003,categorical
+BLOOD_ND,Blood Not Done,fusii_fm003.csv,FM003,categorical
+CELL_ND,Pitted Cell Not Done,fusii_fm003.csv,FM003,categorical
+CREATININE_ND,Creatinine/BUN Not Done,fusii_fm003.csv,FM003,categorical
+CYSTATIN_ND,Cystatin C Not Done,fusii_fm003.csv,FM003,categorical
+HBF_ND,HBF Not Done,fusii_fm003.csv,FM003,categorical
+HJB_ND,HJB Not Done,fusii_fm003.csv,FM003,categorical
+URINE_ND,Urine Not Done,fusii_fm003.csv,FM003,categorical
+URINE_STORED_ND,Urine for Storage Not Done,fusii_fm003.csv,FM003,categorical
+VDJ_ND,VDJ Not Done,fusii_fm003.csv,FM003,categorical
+FM03_ND,Central Lab Collection was not done:,fusii_fm003.csv,FM003,categorical
+URINE_STORED_SENT_YN,Was the sample sent to Core Lab?,fusii_fm003.csv,FM003,continuous
+URINE_SENT_YN,Was the sample sent to GHSU Core Lab?,fusii_fm003.csv,FM003,continuous
+BLOOD_SENT_YN,Was the sample sent to GHSU Core Lab?,fusii_fm003.csv,FM003,continuous
+CYSTATIN_SENT_YN,Was the sample sent to Baylor Core Lab?,fusii_fm003.csv,FM003,continuous
+HBF_SENT_YN,Was the sample sent to GHSU Core Lab?,fusii_fm003.csv,FM003,continuous
+CREATININE_SENT_YN,Was the sample sent to GHSU Core Lab?,fusii_fm003.csv,FM003,continuous
+CELL_SENT_YN,Was the sample sent to Special Testing Lab?,fusii_fm003.csv,FM003,continuous
+HJB_SENT_YN,Was the sample sent to Core Lab?,fusii_fm003.csv,FM003,continuous
+VDJ_SENT_YN,Was the sample sent to Core Lab?,fusii_fm003.csv,FM003,continuous
+VISIT_DT_DAYS,F003 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+URINE_DT_DAYS,F003 II.2B Date collected: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+BLOOD_DT_DAYS,F003 II.3B Date Collected: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+CYSTATIN_DT_DAYS,F003 II.4B Date Collected: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+HBF_DT_DAYS,F003 II.5B Date Collected: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+CREATININE_DT_DAYS,F003 II.6B Date Collected: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+CELL_DT_DAYS,F003 II.7B Date Collected (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+HJB_DT_DAYS,F003 II.8B Date Collected: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+VDJ_DT_DAYS,F003 II.9B Date Collected: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+URINE_STORED_DT_DAYS,F003 II.1B Date collected: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+URINE_STORED_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+URINE_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+BLOOD_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+CYSTATIN_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+HBF_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+CREATININE_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+CELL_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+HJB_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+VDJ_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_fm003.csv,FM003,continuous
+ID,Unique patient identifier (randomized),fusii_fm004.csv,FM004,continuous
+VISIT_NBR,Visit Number,fusii_fm004.csv,FM004,categorical
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm004.csv,FM004,continuous
+FORM_ID,Form ID,fusii_fm004.csv,FM004,continuous
+REVISION,Form Revision,fusii_fm004.csv,FM004,continuous
+SEQ_NBR,Sequence Number,fusii_fm004.csv,FM004,continuous
+WBC,F004 II.1.A. White Blood Cell Count (WBC),fusii_fm004.csv,FM004,continuous
+RBC,F004 II.1.B. Red Blood Cell Count (RBC),fusii_fm004.csv,FM004,continuous
+HB,F004 II.1.C. Hemoglobin,fusii_fm004.csv,FM004,continuous
+PCV,F004 II.1.D. Hematocrit,fusii_fm004.csv,FM004,continuous
+PLAT,F004 II.1.E. Platelet Count,fusii_fm004.csv,FM004,continuous
+DIFFTYPE,F004 II.2.A. Differential Type:,fusii_fm004.csv,FM004,continuous
+NEUT_CT,F004 II.2.B. Absolute Neutrophil Count,fusii_fm004.csv,FM004,continuous
+NEUT_PT,F004 II.2.C. Neutrophils (% of WBC),fusii_fm004.csv,FM004,continuous
+LYMPH_PT,F004 II.2.D. Lymphocytes (% of WBC),fusii_fm004.csv,FM004,continuous
+MONO_PT,F004 II.2.E. Monocytes (% of WBC),fusii_fm004.csv,FM004,continuous
+NRBC,F004 II.2.F. Nucleated Red Blood Cells (nRBC)*,fusii_fm004.csv,FM004,continuous
+CWBC,"F004 II.2.F.1. If not 0, corrected WBC Count?",fusii_fm004.csv,FM004,continuous
+RETIC_PT,F004 II.2.G. Reticulocytes (% of RBC),fusii_fm004.csv,FM004,continuous
+RETIC_CT,F004 II.2.H. Absolute Reticulocyte count,fusii_fm004.csv,FM004,continuous
+MCV,F004 II.2.I. MCV,fusii_fm004.csv,FM004,continuous
+LDH,F004 II.3.A. LDH,fusii_fm004.csv,FM004,continuous
+T_BILI,"F004 II.3.B. Bilirubin, Total",fusii_fm004.csv,FM004,continuous
+D_BILI,"F004 II.3.C. Bilirubin, Direct",fusii_fm004.csv,FM004,continuous
+ALT,F004 II.3.D. ALT,fusii_fm004.csv,FM004,continuous
+U_OSMO,F004 II.4.A. Urine Osmolality (Active-Entry/Exit Only),fusii_fm004.csv,FM004,continuous
+URN_NPO,F004 II.4.A.1. Hours NPO,fusii_fm004.csv,FM004,continuous
+FM04_ND,Local Laboratory Results: data was not collected:,fusii_fm004.csv,FM004,categorical
+VISIT_DT_DAYS,F004 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm004.csv,FM004,continuous
+ID,Unique patient identifier (randomized),fusii_fm010.csv,FM010,continuous
+FORM_ID,Form ID,fusii_fm010.csv,FM010,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm010.csv,FM010,continuous
+VISIT_NBR,Visit Number,fusii_fm010.csv,FM010,categorical
+REVISION,Form Revision,fusii_fm010.csv,FM010,continuous
+VISIT,F010 II.1 Visit,fusii_fm010.csv,FM010,continuous
+SEQ_NBR,Sequence Number,fusii_fm010.csv,FM010,continuous
+PATIENT_CONTACT,F010 II.4 Any patient contact during this interval?,fusii_fm010.csv,FM010,continuous
+HU_PRESCRIBED,F010 III.1 Was the patient prescribed HU at any time during this interval?,fusii_fm010.csv,FM010,continuous
+HU_DOSE_WEIGHT,F010 III.1.A.1 1. Dose at the first time it was prescribed this interval:,fusii_fm010.csv,FM010,continuous
+HU_DOSE_FORM,F010 III.1.A.2 2. Dose form:,fusii_fm010.csv,FM010,continuous
+HU_INTERVAL_END,F010 III.2 Was the patient still being prescribed HU at the end of the interval?,fusii_fm010.csv,FM010,continuous
+HU_DOSE_WEIGHT2,F010 III.2.A.1 1. Dose at the end of the interval,fusii_fm010.csv,FM010,continuous
+HU_DOSE_FORM2,F010 III.2.A.2 2. Dose form,fusii_fm010.csv,FM010,continuous
+HU_TOXICITY,F010 III.3 Did the patient have HU held because of possible drug toxicity during this interval?,fusii_fm010.csv,FM010,continuous
+LOW_ANC,1. Low ANC,fusii_fm010.csv,FM010,continuous
+LOW_HGB,2. Low Hgb,fusii_fm010.csv,FM010,continuous
+LOW_PHS,3. Low PHs,fusii_fm010.csv,FM010,continuous
+OTHER_INFECTION,4. Other bacterial or viral infection,fusii_fm010.csv,FM010,continuous
+OTHER_TOXICITY_FTR,5. Other,fusii_fm010.csv,FM010,continuous
+HU_TOXICITY_SP,"F010 III.3.A.5a a. If Other, then specify:",fusii_fm010.csv,FM010,categorical
+HU_TREAT_WEEKS,F010 III.4 Estimate how many weeks during this interval the patient actually took HU:,fusii_fm010.csv,FM010,continuous
+BLOOD_COLLECT,F010 IV.1 Were any blood specimens collected for clinical reasons during this interval?,fusii_fm010.csv,FM010,continuous
+BLOOD_COLLECT_REASON,"F010 IV.1.rsn A. If no, reason",fusii_fm010.csv,FM010,categorical
+FIRST_HEMGLOBIN,F010 IV.2.B Hemoglobin,fusii_fm010.csv,FM010,continuous
+FIRST_MCV,F010 IV.2.C MCV,fusii_fm010.csv,FM010,continuous
+FIRST_RETIC_CNT,F010 IV.2.D Reticulocyte (% of RBC),fusii_fm010.csv,FM010,continuous
+FIRST_RETIC_NOT_DONE,D. First Reticulocytes,fusii_fm010.csv,FM010,continuous
+FIRST_WBC_ACOUNT,F010 IV.2.E White Blood Cell Count,fusii_fm010.csv,FM010,continuous
+FIRST_NEUTROPHIL_CNT,F010 IV.2.F Absolute Neutrophil Count,fusii_fm010.csv,FM010,continuous
+FIRST_NEUTROPHIL_NOT_DONE,F. Absolute Neutrophil Count,fusii_fm010.csv,FM010,continuous
+FIRST_PLATELETS_CNT,F010 IV.2.G Platelet Count,fusii_fm010.csv,FM010,continuous
+FIRST_RBC,F010 IV.2.H Red Blood Cell Count,fusii_fm010.csv,FM010,continuous
+LAST_CBC_NOT_DONE,Last CBC in interval,fusii_fm010.csv,FM010,continuous
+LAST_HEMGLOBIN,F010 IV.3.B Hemoglobin,fusii_fm010.csv,FM010,continuous
+LAST_MCV,F010 IV.3.C MCV,fusii_fm010.csv,FM010,continuous
+LAST_RETIC_CNT,F010 IV.3.D Reticulotyte (% of RBC),fusii_fm010.csv,FM010,continuous
+LAST_RETIC_NOT_DONE,D. Last Reticulocytes,fusii_fm010.csv,FM010,continuous
+LAST_WBC_ACOUNT,F010 IV.3.E White Blood Cell Count,fusii_fm010.csv,FM010,continuous
+LAST_NEUTROPHIL_CNT,F010 IV.3.F Absolute Neutrophil Count,fusii_fm010.csv,FM010,continuous
+LAST_NEUTROPHIL_NOT_DONE,F. Absolute Neutrophil Count,fusii_fm010.csv,FM010,continuous
+LAST_PLATELETS_CNT,F010 IV.3.G Platelet Count,fusii_fm010.csv,FM010,continuous
+LAST_RBC,F010 IV.3.H Red Blood Cell Count,fusii_fm010.csv,FM010,continuous
+LAB_VALUES,F010 IV.4 Were any of the following laboratory values obtained during this interval?,fusii_fm010.csv,FM010,continuous
+NO_LAB_REASON,"*A. If No, reason:",fusii_fm010.csv,FM010,continuous
+NOLAB_REASON_SP,"F010 IV.4.A.a a. If Other, specify:",fusii_fm010.csv,FM010,categorical
+CREATININE_VALUE,F010 IV.4.B.2 2. Creatinine Value:,fusii_fm010.csv,FM010,continuous
+CREATININE_NOT_DONE,B. Creatinine,fusii_fm010.csv,FM010,continuous
+ALT_VALUE,F010 IV.4.C.2 2. ALT Value:,fusii_fm010.csv,FM010,continuous
+ALT_NOT_DONE,C. ALT,fusii_fm010.csv,FM010,continuous
+GGT_VALUE,F010 IV.4.D.2 2. GGT Value:,fusii_fm010.csv,FM010,continuous
+GGT_NOT_DONE,D. GGT,fusii_fm010.csv,FM010,continuous
+FETAL_HEMO_VAL,F010 IV.4.E.2 2. Fetal Hemoglobin Value:,fusii_fm010.csv,FM010,continuous
+FETAL_NOT_DONE,E. Fetal Hemoglobin,fusii_fm010.csv,FM010,continuous
+LDH_VALUE,F010 IV.4.F.2 2. Value:,fusii_fm010.csv,FM010,continuous
+LDH_NOT_DONE,F. LDH,fusii_fm010.csv,FM010,continuous
+BILI_VALUE,F010 IV.4.G.2 2. Value:,fusii_fm010.csv,FM010,continuous
+BILI_NOT_DONE,G. Bilirubin,fusii_fm010.csv,FM010,continuous
+TCD_IMAGE_YN,F010 V.1 Were any TCDs performed during this interval?,fusii_fm010.csv,FM010,continuous
+TCD1_RESULT,#1 TCD Results:,fusii_fm010.csv,FM010,continuous
+TCD2_RESULT,#2 TCD Results:,fusii_fm010.csv,FM010,continuous
+TCD_NUM,"*If Yes, how many TCD’s performed during this interval?",fusii_fm010.csv,FM010,continuous
+TCD3_RESULT,#3 TCD Results:,fusii_fm010.csv,FM010,continuous
+TCD4_RESULT,#4 TCD Results:,fusii_fm010.csv,FM010,continuous
+TCD5_RESULT,#5 TCD Results:,fusii_fm010.csv,FM010,continuous
+TCD6_RESULT,#6 TCD Results:,fusii_fm010.csv,FM010,continuous
+MRI_NOT_DONE,2.MRI,fusii_fm010.csv,FM010,continuous
+MRI_UNKNOWN,"F010 V.2.A0 Performed per protocol, results unknown",fusii_fm010.csv,FM010,continuous
+MRI_RESULTS,"F010 V.2.A. If MRI Done, result:",fusii_fm010.csv,FM010,continuous
+MRI_RESULTS_SP,"F010 V.2.A.1 1. If Other, specify",fusii_fm010.csv,FM010,categorical
+MRI_PASSIVE,Is this test the closest to Age 10?,fusii_fm010.csv,FM010,continuous
+MRA_NOT_DONE,3. MRA,fusii_fm010.csv,FM010,continuous
+MRA_UNKNOWN,"F010 V.3.A0 Performed per protocol, results unknown",fusii_fm010.csv,FM010,continuous
+MRA_ABNORMAL,"F010 V.3.A If MRA done, any result abnormal?",fusii_fm010.csv,FM010,continuous
+MRA_PASSIVE,Is this test the closest to Age 10?,fusii_fm010.csv,FM010,continuous
+PFT_NOT_DONE,4.  PFTs,fusii_fm010.csv,FM010,continuous
+PFT_ABNORMAL,"F010 V.4.A If Pulmonary Function Tests done, any result abnormal?",fusii_fm010.csv,FM010,continuous
+PFT_PASSIVE,Is this test the closest to Age 10?,fusii_fm010.csv,FM010,continuous
+CARDIAC_NOT_DONE,5. Cardiac Echo,fusii_fm010.csv,FM010,continuous
+CARDIAC_UNKNOWN,"F010 V.5.A0 Performed per protocol, results unknown",fusii_fm010.csv,FM010,continuous
+CARDIAC_ABNORMAL,"F010 V.5.A If Cardiac Echo done, any result abnormal?",fusii_fm010.csv,FM010,continuous
+CARDIAC_PASSIVE,Is this test the closest to Age 10?,fusii_fm010.csv,FM010,continuous
+LIVSP_NOT_DONE,6. L/S Scan,fusii_fm010.csv,FM010,continuous
+LIVSP_UNKNOWN,"F010 V.6.A0 Performed per protocol, results unknown",fusii_fm010.csv,FM010,continuous
+LIVSP_ABNORMAL,"F010 V.6.A If L/S Scan done, any result abnormal?",fusii_fm010.csv,FM010,continuous
+LIVSP_PASSIVE,Is this test the closest to Age 10?,fusii_fm010.csv,FM010,continuous
+ABD_NOT_DONE,7. Abdominal Sonogram,fusii_fm010.csv,FM010,continuous
+ABD_UNKNOWN,"F010 V.7.A0 Performed per protocol, results unknown",fusii_fm010.csv,FM010,continuous
+ABD_ABNORMAL,"F010 V.7.A If Abdominal Sonogram done, any result abnormal?",fusii_fm010.csv,FM010,continuous
+ABD_PASSIVE,Is this test the closest to Age 10?,fusii_fm010.csv,FM010,continuous
+EEG_NOT_DONE,1. EEG,fusii_fm010.csv,FM010,continuous
+EEG_ABNORMAL,"F010 VI.1.A If EEG done, any result abnormal?",fusii_fm010.csv,FM010,continuous
+CT_NOT_DONE,2. CT,fusii_fm010.csv,FM010,continuous
+CT_ABNORMAL,"F010 VI.2.A If CT done, any result abnormal?",fusii_fm010.csv,FM010,continuous
+NEUROPSYCH_NOT_DONE,3. Neuropsych,fusii_fm010.csv,FM010,continuous
+NEUROPSYCH_ABNORMAL,"F010 VI.3.A If neuropsychology testing done, any result abnormal?",fusii_fm010.csv,FM010,continuous
+NEUROPSYCH_SP,F010 VI.3.A.1 1. Specify test:,fusii_fm010.csv,FM010,categorical
+OTHER_TEST_DONE,F010 VI.4 Other clinical tests done:,fusii_fm010.csv,FM010,continuous
+CLINIC_VISITS,"F010 VII.1.A During this interval how many times was this patient seen in clinic (not ER, day unit, or hospital)?",fusii_fm010.csv,FM010,continuous
+PERIODIC_CLIN_VIS,F010 VII.1.B.1 1.Routine Clinical Visit (physical examination by sickle cell team),fusii_fm010.csv,FM010,continuous
+HU_TOXICITY_ASSESS,F010 VII.1.B.2 2. HU toxicity assessment (blood count check to monitor HU therapy and possible side effects),fusii_fm010.csv,FM010,continuous
+OTHER_VISITS,F010 VII.1.B.3 3. Other clinical service (including follow-up of crisis event and general pediatrics),fusii_fm010.csv,FM010,continuous
+OTHER_VISITS_2,F010 VII.1.B.4 4. Other,fusii_fm010.csv,FM010,continuous
+ER_VISITS,F010 VII.2.A How many times was this patient seen in an ER or day hospital during this interval (in your facility or another):,fusii_fm010.csv,FM010,continuous
+ACUTE_SPLENIC_SEQUES,F010 VII.2.B.1 1. Acute splenic sequestration crisis,fusii_fm010.csv,FM010,continuous
+ACUTE_CHEST_SYNDROME,F010 VII.2.B.2 2. Acute chest syndrome,fusii_fm010.csv,FM010,continuous
+STROKE_SEIZURE,F010 VII.2.B.3 3. Neurologic event (stroke or seizure),fusii_fm010.csv,FM010,continuous
+APLASTIC_CRISIS,F010 VII.2.B.4 4. Aplastic Crisis,fusii_fm010.csv,FM010,continuous
+URINARY_TRACT_INFECT,F010 VII.2.B.5 5. Urinary tract infection,fusii_fm010.csv,FM010,continuous
+FEVER_FEBRILE,F010 VII.2.B.6 6. Fever or febrile illness including URI/sinusitis/cold/flu,fusii_fm010.csv,FM010,continuous
+NO_FEVER,"F010 VII.2.B.7 7. Other acute illness, no fever",fusii_fm010.csv,FM010,continuous
+TRAUMA,F010 VII.2.B.8 8. Trauma including broken bones and sprains,fusii_fm010.csv,FM010,continuous
+PAIN,F010 VII.2.B.9 9. Sickle Cell Pain Crisis (including dactylitis),fusii_fm010.csv,FM010,continuous
+OTHER_CRISIS,F010 VII.2.B.10 10. Other,fusii_fm010.csv,FM010,continuous
+HOSPITAL_TIMES,F010 VII.3 How many times was the patient admitted to the hospital during this interval (in your facility or another)?,fusii_fm010.csv,FM010,continuous
+DIAGNOSIS_STROKE,F010 VII.3.A.1 1. Neurologic event (stroke or seizure),fusii_fm010.csv,FM010,continuous
+DIAG_SPENIC_SEQUES,F010 VII.3.A.2 2. Acute splenic sequestration crisis,fusii_fm010.csv,FM010,continuous
+DIAGNOSIS_CHEST,F010 VII.3.A.3 3. Acute chest syndrome,fusii_fm010.csv,FM010,continuous
+DIAGNOSIS_APLASTIC,F010 VII.3.A.4 4. Aplastic Crisis,fusii_fm010.csv,FM010,continuous
+DIAGNOSIS_URINARY,F010 VII.3.A.5 5. Urinary tract infection,fusii_fm010.csv,FM010,continuous
+DIAGNOSIS_FEVER,F010 VII.3.A.6 6. Fever or febrile illness including URI/sinusitis/cold/flu,fusii_fm010.csv,FM010,continuous
+DIAGNOSIS_NO_FEVER,"F010 VII.3.A.7 7. Other acute illness, no fever",fusii_fm010.csv,FM010,continuous
+DIAGNOSIS_TRAUMA,F010 VII.3.A.8 8. Trauma including broken bones and sprains,fusii_fm010.csv,FM010,continuous
+DIAGNOSIS_PAIN,F010 VII.3.A.9 9. Sickle Cell Pain Crisis (including dactylitis),fusii_fm010.csv,FM010,continuous
+DIAGNOSIS_SURGERY,"F010 VII.3.A.10 10. Surgery (see part VII, item 5 below)",fusii_fm010.csv,FM010,continuous
+DIAGNOSIS_OTHER,F010 VII.3.A.11 11. Other:,fusii_fm010.csv,FM010,continuous
+DIAGNOSIS_OTHER_SP,"F010 VII.3.A11a a. If Other, specify:",fusii_fm010.csv,FM010,categorical
+PAIN2,F010 VII.4.A Has the child experienced pain (defined as pain lasting four hours or,fusii_fm010.csv,FM010,continuous
+PAIN_EPISODES,"F010 VII.4.A.1 1. If yes, how many episodes of pain has the patient experienced during  this interval?",fusii_fm010.csv,FM010,continuous
+SURGERY,F010 VII.5.A Did the patient have at least one surgery during this interval?,fusii_fm010.csv,FM010,continuous
+TONSILLECTOMY_ND,"a. Tonsillectomy, Adenoidectomy or both",fusii_fm010.csv,FM010,continuous
+SPLENECTOMY_ND,b. Splenectomy (open or  aparoscopic),fusii_fm010.csv,FM010,continuous
+CHOLECYSTECTOMY_ND,c. Cholecystectomy and/or ERCP,fusii_fm010.csv,FM010,continuous
+EAR_NOT_DONE,"d. Ear tubes, hernia repair, dental rehabilitation",fusii_fm010.csv,FM010,continuous
+SURGERY_OTHER,F010 VII.5.A.1e e. Other,fusii_fm010.csv,FM010,continuous
+CHRONIC_TRANSFUSION,F010 VII.6.A Was the patient on a chronic transfusion program during this interval (meaning scheduled transfusions every two-six weeks for three months or more),fusii_fm010.csv,FM010,continuous
+CHRONIC_TRANS_REASON,"F010 VII.6.A.1 1. If yes, what was the main reason for the chronic transfusion program:",fusii_fm010.csv,FM010,continuous
+CHRONIC_TRANS_SP,"F010 VII.6.A.1a a. If Other, specify:",fusii_fm010.csv,FM010,categorical
+EPISODIC_TRANSFUSION,"F010 VII.6.B Did the patient receive one or more episodic transfusion during this interval (meaning a transfusion, scheduled or not that was for a specific prob",fusii_fm010.csv,FM010,continuous
+EPISODIC_TRANS_RSN,"F010 VII.6.B.1 1. If yes, what was the main reason for the episodic transfusion(s)?",fusii_fm010.csv,FM010,continuous
+EPISODIC_TRANS_SP,"F010 VII.6.B.1a a. If Other, specify:",fusii_fm010.csv,FM010,categorical
+IRONOVLD,F010 VII.6.C Was iron overload assessed during this interval?,fusii_fm010.csv,FM010,continuous
+FERRITIN_HIGH,F010 VII.6.C.1 1.  Ferritin (highest value in interval),fusii_fm010.csv,FM010,continuous
+FERRISCAN_MRI,F010 VII.6.C.2 2.  Ferriscan or MRI,fusii_fm010.csv,FM010,continuous
+FERRISCAN_MRI_ND,2. Ferriscan or MRI,fusii_fm010.csv,FM010,continuous
+LIVER_BX,F010 VII.6.C.3 3.  Liver Bx,fusii_fm010.csv,FM010,continuous
+LIVER_BX_ND,3. Liver Bx,fusii_fm010.csv,FM010,continuous
+IRONTHPY,F010 VII.6.D Was iron chelation therapy prescribed during this interval?,fusii_fm010.csv,FM010,continuous
+IRON_MED,"F010 VII.6.D.1 1.  *If yes,",fusii_fm010.csv,FM010,continuous
+PHYSICAL_EXAM,F010 VIII.1 Was a physical examination performed during this interval?,fusii_fm010.csv,FM010,continuous
+FIRST_HEIGHT,F010 VIII.2.A.1 1. Height,fusii_fm010.csv,FM010,continuous
+FIRST_HEIGHT_NOT_DONE,First Height Not Done,fusii_fm010.csv,FM010,continuous
+FIRST_WEIGHT,F010 VIII.2.A.2 2. Weight,fusii_fm010.csv,FM010,continuous
+FIRST_WEIGHT_NOT_DONE,First Weight Not Done,fusii_fm010.csv,FM010,continuous
+SECOND_ENCOUNTER_ND,B. Second Encounter midpoint,fusii_fm010.csv,FM010,continuous
+SECOND_HEIGHT,F010 VIII.2.B.1 1. Height,fusii_fm010.csv,FM010,continuous
+SECOND_HEIGHT_ND,Second Height Not Done,fusii_fm010.csv,FM010,continuous
+SECOND_WEIGHT,F010 VIII.2.B.2 2. Weight,fusii_fm010.csv,FM010,continuous
+SECOND_WEIGHT_ND,Second Weight Not Done,fusii_fm010.csv,FM010,continuous
+LAST_ENCOUNTER_ND,C. Last or latest Visit,fusii_fm010.csv,FM010,continuous
+LAST_HEIGHT,F010 VIII.2.C.1 1. Height,fusii_fm010.csv,FM010,continuous
+LAST_HEIGHT_NOTDONE,Last Height Not Done,fusii_fm010.csv,FM010,continuous
+LAST_WEIGHT,F010 VIII.2C.2 2. Weight,fusii_fm010.csv,FM010,continuous
+LAST_WEIGHT_NOTDONE,Last Weight Not Done,fusii_fm010.csv,FM010,continuous
+SPLEEN_PALPABLE,F010 VIII.3.A Was the spleen reported to be palpable below the costal margin at any time during this interval?,fusii_fm010.csv,FM010,continuous
+MID_CLAVICULAR,F010 VIII.3.B.1 1. Mid-clavicular line,fusii_fm010.csv,FM010,continuous
+MID_CLA_NOTDONE,1. Mid-clavicular line,fusii_fm010.csv,FM010,continuous
+ANTEROR_AXILLARY,F010 VIII.3.B.2 2. Anterior axillary line,fusii_fm010.csv,FM010,continuous
+ANT_AXI_NOTDONE,2. Anterior axillary line,fusii_fm010.csv,FM010,continuous
+DIAG_SPLENIC_SEQU,F010 VIII.3.C Was the child diagnosed with acute splenic sequestration during this interval?,fusii_fm010.csv,FM010,continuous
+FM10_ND,Clinical Data Report: data was not collected:,fusii_fm010.csv,FM010,categorical
+VISIT_DT_DAYS,F010 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+INTERVAL_START_DT_DAYS,F010 II.2 Interval Start Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+INTERVAL_END_DT_DAYS,F010 II.3 Interval End Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+HU_END_DT_DAYS,"F010 III.2.B If No, what was the date the patient stopped being prescribed HU? (recode: number of days after date of initial follow-up visit)",fusii_fm010.csv,FM010,continuous
+FIRST_CBC_DT_DAYS,F010 IV.2.A Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+LAST_CBC_DT_DAYS,F010 IV.3.A Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+CREATININE_DT_DAYS,F010 IV.4.B.1 1. Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+ALT_DT_DAYS,F010 IV.4.C.1 1. Date (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+GGT_DT_DAYS,F010 IV.4.D.1 1. Date (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+FETAL_HEMOGLOBIN_DT_DAYS,F010 IV.4.E.1 1. Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+LDH_DT_DAYS,F010 IV.4.F.1 1. Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+BILI_DT_DAYS,F010 IV.4.G.1 1. Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+MRI_DT_DAYS,F010 V.2 MRI Date (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+MRA_DT_DAYS,F010 V.3 MRA Date (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+PFT_DT_DAYS,F010 V.4 PFTs Date (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+CARDIAC_DT_DAYS,F010 V.5 Cardiac Echo Date* (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+LIVSP_DT_DAYS,F010 V.6 L/S Scan Date* (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+ABD_DT_DAYS,F010 V.7 Abdominal Sonogram Date* (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+EEG_DT_DAYS,F010 VI.1 EEG Date (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+CT_DT_DAYS,F010 VI.2 CT Date (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+NEUROPSYCH_DT_DAYS,F010 VI.3 Neuropsych Date (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+TONSILLECTOMY_DT_DAYS,F010 VII.5.A.1a Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+SPLENECTOMY_DT_DAYS,F010 VII.5.A.1b Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+CHOLECYSTECTOMY_DT_DAYS,F010 VII.5.A.1c Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+EAR_DT_DAYS,F010 VII.5.A.1d Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+FIRST_ENCOUNTER_DT_DAYS,F010 VIII.2.A First Encounter Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+SECOND_ENCOUNTER_DT_DAYS,F010 VIII.2.B Second Encounter  midpoint Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+LAST_ENCOUNTER_DT_DAYS,F010 VIII.2.C Last or latest Visit         Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+SPLEEN_LARGEST_DT_DAYS,F010 VIII.3.B On what date was it the largest (most centimeters below costal margin) (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+TCD1_DT_DAYS,#1 TCD Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+TCD2_DT_DAYS,#2 TCD Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+TCD3_DT_DAYS,#3 TCD Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+TCD4_DT_DAYS,#4 TCD Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+TCD5_DT_DAYS,#5 TCD Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+TCD6_DT_DAYS,#6 TCD Date: (recode: number of days after date of initial follow-up visit),fusii_fm010.csv,FM010,continuous
+ID,Unique patient identifier (randomized),fusii_fm012.csv,FM012,continuous
+VISIT_NBR,Visit Number,fusii_fm012.csv,FM012,categorical
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm012.csv,FM012,continuous
+FORM_ID,Form ID,fusii_fm012.csv,FM012,continuous
+REVISION,Form Revision,fusii_fm012.csv,FM012,continuous
+SEQ_NBR,Sequence Number,fusii_fm012.csv,FM012,continuous
+END_PARTICIPATION,F012 II.1.A. Completed Follow-up Study II,fusii_fm012.csv,FM012,continuous
+INACTIVE,F012 II.1.B.1 Inactive follow-up status,fusii_fm012.csv,FM012,continuous
+RELOCATION,F012 II.1.B.2 Permanent relocation to area with no BABY HUG Clinic,fusii_fm012.csv,FM012,continuous
+WITHDRAW,F012 II.1.B.3. Withdrew consent,fusii_fm012.csv,FM012,continuous
+TRANSPLANT,F012 II.1.B.4. Stem Cell Transplant,fusii_fm012.csv,FM012,continuous
+DEATH,F012 II.1.B.5. Death,fusii_fm012.csv,FM012,continuous
+OTHER,F012 II.1.B.6. Other condition requiring end of participation,fusii_fm012.csv,FM012,continuous
+OTHER_SP,"a. * If Other, Specify:",fusii_fm012.csv,FM012,categorical
+RECONSENT_PART,4. Did subject reconsent to participate with NERI as the DCC.,fusii_fm012.csv,FM012,continuous
+VISIT_DT_DAYS,F012 1. Date of Interview (recode: number of days after date of initial follow-up visit),fusii_fm012.csv,FM012,continuous
+LAST_CONTACT_DT_DAYS,F012 II.2 Date of last contact with family (recode: number of days after date of initial follow-up visit),fusii_fm012.csv,FM012,continuous
+ID,Unique patient identifier (randomized),fusii_fm013.csv,FM013,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm013.csv,FM013,continuous
+FORM_ID,Form ID,fusii_fm013.csv,FM013,continuous
+REVISION,Form Revision,fusii_fm013.csv,FM013,continuous
+SEQ_NBR,Sequence Number,fusii_fm013.csv,FM013,continuous
+PTNTPOS,F013 II.2 Patient's position during exam,fusii_fm013.csv,FM013,continuous
+COMPEXAM,F013 III.1 Completeness of exam,fusii_fm013.csv,FM013,continuous
+INCEXAM,F013 III.1A Reason for incomplete exam,fusii_fm013.csv,FM013,continuous
+VISIT_NBR,Visit Number,fusii_fm013.csv,FM013,categorical
+INCEX_SP,**1. Specify:,fusii_fm013.csv,FM013,categorical
+POS_SP,*A. Specify:,fusii_fm013.csv,FM013,categorical
+TCD_LBL,B. TCD Label,fusii_fm013.csv,FM013,categorical
+FM13_ND,Transcranial Doppler Exam: data was not collected:,fusii_fm013.csv,FM013,categorical
+LSS_DATA_TRACK_NO,3. FedEx Tracking Number:,fusii_fm013.csv,FM013,continuous
+ABD_SONO_TRACK_NO,3. FedEx Tracking Number:,fusii_fm013.csv,FM013,continuous
+ECHO_TRACK_NO,3. FedEx Tracking Number:,fusii_fm013.csv,FM013,continuous
+MRIMRA_TRACK_NO,3. FedEx Tracking Number:,fusii_fm013.csv,FM013,categorical
+TCD_EXAM_SENT_YN,1. Was the TCD exam data sent to Core Lab?,fusii_fm013.csv,FM013,continuous
+TCD_EXAM_TRACK_NO,3. FedEx Tracking Number:,fusii_fm013.csv,FM013,categorical
+VISIT_DT_DAYS,F013 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm013.csv,FM013,continuous
+TCD_EXAM_SENT_DT_DAYS,F013 2. Data sent date: (recode: number of days after date of initial follow-up visit),fusii_fm013.csv,FM013,continuous
+ID,Unique patient identifier (randomized),fusii_fm014.csv,FM014,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm014.csv,FM014,continuous
+FORM_ID,Form ID,fusii_fm014.csv,FM014,continuous
+REVISION,Form Revision,fusii_fm014.csv,FM014,continuous
+SEQ_NBR,Sequence Number,fusii_fm014.csv,FM014,continuous
+HEIGHT,F014 II.1.A Height in centimeters:,fusii_fm014.csv,FM014,continuous
+WEIGHT,F014 II.1.B Weight in kilograms:,fusii_fm014.csv,FM014,continuous
+HEARTRATE,F014 II.1.C Heart rate in beats per minute:,fusii_fm014.csv,FM014,continuous
+RESP,F014 II.1.D Respiratory rate in breaths per minute:,fusii_fm014.csv,FM014,continuous
+BP_SYSTOLIC_1,F014 II.1.E1S 1.  Measurement,fusii_fm014.csv,FM014,continuous
+BP_DIASTOLIC_1,F014 II.1.E1D Diastolic,fusii_fm014.csv,FM014,continuous
+O2SAT,F014 II.1.F Oxygen saturation (room air):,fusii_fm014.csv,FM014,continuous
+ROOM_AIR,F014 II.1.F1 1.  Room air,fusii_fm014.csv,FM014,continuous
+PERC_02,F014 II.1.F1a *a. % oxygen,fusii_fm014.csv,FM014,continuous
+EYE,F014 II.3.B B.  Eyes,fusii_fm014.csv,FM014,continuous
+THROAT_EXUDATE,F014 II.3.E2 2.  Tonsillar Exudate present,fusii_fm014.csv,FM014,continuous
+NECK_NDLGST,"F014 II.3.F1 *1. If enlarged, describe largest",fusii_fm014.csv,FM014,continuous
+ABDOMEN,F014 II.3.I I.  Abdomen,fusii_fm014.csv,FM014,continuous
+LIVER,F014 II.3.J J.  Liver,fusii_fm014.csv,FM014,continuous
+LIVRCM,F014 II.3.J1 *1.     cm below right costal margin in  midclavicular line,fusii_fm014.csv,FM014,continuous
+MID_CLAVICULAR,F014 II.3.K1 *1.     cm below left costal margin in midclavicular line AND,fusii_fm014.csv,FM014,continuous
+ANTERIOR_AXILLARY,F014 II.3.K2 *2.     cm below left costal margin in anterior axillary line,fusii_fm014.csv,FM014,continuous
+MSULSKLTL,F014 II.3.L1 1.  Hip Range of Motion,fusii_fm014.csv,FM014,continuous
+LGULCER,F014 II.3.L2 2.  Leg Ulcer,fusii_fm014.csv,FM014,continuous
+NEUROBEH,F014 II.3.M1 1.  Behavior/Mental Status,fusii_fm014.csv,FM014,continuous
+NEUROLANG,F014 II.3.M2 2.  Language,fusii_fm014.csv,FM014,continuous
+NEUROCN,F014 II.3.M3 3.  Cranial Nerves,fusii_fm014.csv,FM014,continuous
+NEURODTR,F014 II.3.M4 4.  Deep Tendon Reflexes,fusii_fm014.csv,FM014,continuous
+NEUROMOT,"F014 II.3.M5 5.  Motor, Power and Tone",fusii_fm014.csv,FM014,continuous
+NEUROFMC,F014 II.3.M6 6.  Fine Motor Coordination,fusii_fm014.csv,FM014,continuous
+NEUROGAIT,F014 II.3.M7 7.  Gait,fusii_fm014.csv,FM014,continuous
+VISIT_NBR,Visit Number,fusii_fm014.csv,FM014,categorical
+CARDIAC_OTHER,*1. Describe:,fusii_fm014.csv,FM014,categorical
+CHEST_SPECIFY,*a. Specify:,fusii_fm014.csv,FM014,categorical
+MSUL_ABN,*a. Describe (include side),fusii_fm014.csv,FM014,categorical
+OTHER_EYE,"*1. If other, specify:",fusii_fm014.csv,FM014,categorical
+OTHER_NOSE,"*1. If other, specify:",fusii_fm014.csv,FM014,categorical
+OTHER_TONGUE,*1. Describe:,fusii_fm014.csv,FM014,categorical
+APPEARANCE,A. Appearance,fusii_fm014.csv,FM014,continuous
+CARDIAC,H. Cardiac,fusii_fm014.csv,FM014,continuous
+CHEST_CLEAR,1. Clear to auscultation (normal),fusii_fm014.csv,FM014,continuous
+CHEST_OTHER,6. Other,fusii_fm014.csv,FM014,continuous
+CHEST_RETRACTIONS,2. Retractions,fusii_fm014.csv,FM014,continuous
+CHEST_RONCHI,4. Ronchi or Rales,fusii_fm014.csv,FM014,continuous
+CHEST_TRANSAIRWAY,3. Transmitted upper airway sounds,fusii_fm014.csv,FM014,continuous
+CHEST_WHEEZING,5. Wheezing,fusii_fm014.csv,FM014,continuous
+F_BRSTS,"1. Female A. Breasts  Description of Stages for Breast Development:  I. Preadolescent form with papilla only  II. Breast bud with papilla as mound, aerola widening  III. Papilla and aerola larger and darker, no separation of aerola from breast contou",fusii_fm014.csv,FM014,continuous
+F_P_HAIR,"1. Female B. Pubic Hair  Description of Stages for Pubic Hair Development:  I. Child or pre-adolescent with no different hair pattern than on abdomen  II. Sparse growth of long, fine hairs at base of penis (males) or labia majora (females)  III. Dark",fusii_fm014.csv,FM014,continuous
+M_GNTLS,"2. Male A. Genitals  Description of Stages for Genitals Development: I. Preadolescent, penis usually less than 3 cm  II. Scrotum reddens and enlarges, testes start to enlarge, penis does not change  III. Scrotum enlarges further, testes enlarge, peni",fusii_fm014.csv,FM014,continuous
+M_P_HAIR,"2. Male B. Pubic Hair  Description of Stages for Pubic Hair Development:  I. Child or pre-adolescent with no different hair pattern than on abdomen  II. Sparse growth of long, fine hairs at base of penis (males) or labia majora (females)  III. Darker",fusii_fm014.csv,FM014,continuous
+NECK,F. Neck,fusii_fm014.csv,FM014,continuous
+NECK_RT,*2. Site:,fusii_fm014.csv,FM014,continuous
+NOSE,C. Nose,fusii_fm014.csv,FM014,continuous
+O2S_ND,F. Oxygen saturation,fusii_fm014.csv,FM014,continuous
+SITUATION,2. Situation where exam performed:,fusii_fm014.csv,FM014,continuous
+SPLEEN,K. Spleen,fusii_fm014.csv,FM014,continuous
+TONGUE,D. Tongue,fusii_fm014.csv,FM014,continuous
+TONSIL,1. Tonsils,fusii_fm014.csv,FM014,continuous
+TONSIL_ENL,*a. If enlarged:,fusii_fm014.csv,FM014,continuous
+FM14_ND,Physical Examination: data was not collected:,fusii_fm014.csv,FM014,categorical
+ANTEROR_AXILLARY,*2. Below left costal margin in anterior axillary line (cm),fusii_fm014.csv,FM014,continuous
+GENDER,Identify subject's gender:,fusii_fm014.csv,FM014,continuous
+VISIT_DT_DAYS,F014 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm014.csv,FM014,continuous
+ID,Unique patient identifier (randomized),fusii_fm015.csv,FM015,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm015.csv,FM015,continuous
+FORM_ID,Form ID,fusii_fm015.csv,FM015,continuous
+REVISION,Form Revision,fusii_fm015.csv,FM015,continuous
+VISIT_NBR,Visit Number,fusii_fm015.csv,FM015,categorical
+SEQ_NBR,Sequence Number,fusii_fm015.csv,FM015,continuous
+SNR_HLFT,F015 II.1.A A.  snore more than half the time?,fusii_fm015.csv,FM015,continuous
+SNORE,F015 II.1.B B.  always snore?,fusii_fm015.csv,FM015,continuous
+SNR_LOUD,F015 II.1.C C.  snore loudly?,fusii_fm015.csv,FM015,continuous
+BRTHLOUD,F015 II.1.D D.  have heavy or loud breathing?,fusii_fm015.csv,FM015,continuous
+BRTHTRBL,F015 II.1.E E.  have trouble breathing or struggle to breathe?,fusii_fm015.csv,FM015,continuous
+BRTHSTP,F015 II.2 Have you ever seen your child stop breathing during the night?,fusii_fm015.csv,FM015,continuous
+BRTHMTH,F015 II.3.A A.  tend to breathe through the mouth during the day?,fusii_fm015.csv,FM015,continuous
+DRYMTH,F015 II.3.B B.  have a dry mouth on waking up in the morning?,fusii_fm015.csv,FM015,continuous
+WETBED,"F015 II.3.C C.  ever, even occasionally, wet the bed?",fusii_fm015.csv,FM015,continuous
+WKPRFRSH,F015 II.3.D D.  wake up feeling unrefreshed in the morning?,fusii_fm015.csv,FM015,continuous
+SLP_PROB,F015 II.3.E E.  have a problem with sleepiness during the day?,fusii_fm015.csv,FM015,continuous
+SLPY_DAY,"F015 II.4 Has a teacher, supervisor or other adult commented that your child appears sleepy during the day?",fusii_fm015.csv,FM015,continuous
+WKP_HARD,F015 II.5 Is it hard to wake your child up in the morning?,fusii_fm015.csv,FM015,continuous
+WKP_HDCH,F015 II.6 Does your child wake up with headaches in the morning?,fusii_fm015.csv,FM015,continuous
+GROW_STP,F015 II.7 Did your child stop growing at a normal rate at any time since birth?,fusii_fm015.csv,FM015,continuous
+OVERWGHT,F015 II.8 Is you child overweight?,fusii_fm015.csv,FM015,continuous
+IGNRPPL,F015 II.9.A A. not seem to listen when spoken to directly?,fusii_fm015.csv,FM015,continuous
+DIFF_ORG,F015 II.9.B B.  have difficulty organizing tasks and activities?,fusii_fm015.csv,FM015,continuous
+DISTRACT,F015 II.9.C C.  seem easily distracted by things going on around him/her?,fusii_fm015.csv,FM015,continuous
+FIDGET,F015 II.9.D D.  fidget with hands or feet or squirm in seat?,fusii_fm015.csv,FM015,continuous
+OVERACT,F015 II.9.E E.  seem on the go or act as if driven by a motor?,fusii_fm015.csv,FM015,continuous
+INTRDOTH,"F015 II.9.F F.  interrupt or intrude on others (e.g., butt into conversations or games)?",fusii_fm015.csv,FM015,continuous
+WET_3MON,F015 III.1 Has your child wet the bed at night during the last 3 months?,fusii_fm015.csv,FM015,continuous
+WET_DAY,F015 III.6 Does your child urinate in his or her clothes during the day?,fusii_fm015.csv,FM015,continuous
+NT_URI,"F015 III.4 After going to bed, has your child ever woken up at night to urinate in the bathroom during the last 3 months?",fusii_fm015.csv,FM015,continuous
+WTBD_FM,"F015 III.7.A A.  Does your child have an immediate family member (parent, sibling) with history of bedwetting when a child?",fusii_fm015.csv,FM015,continuous
+FM_SCD,F015 III.7.B B.  Does the family member with bed wetting have sickle cell disease?,fusii_fm015.csv,FM015,continuous
+DRK_CAFF,"F015 III.8 Does your chld drink any caffeinated beverages (coffee, tea, energy drinks, soda with caffeine) after 4:00 p.m.?",fusii_fm015.csv,FM015,continuous
+DP_SLPER,F015 III.9 Is your child a deep sleeper?,fusii_fm015.csv,FM015,continuous
+CONST,F015 III.10 Does your child have constipation?,fusii_fm015.csv,FM015,continuous
+SOILY_UW,F015 III.11 Does your child soil their underwear with stool (more than a smear)?,fusii_fm015.csv,FM015,continuous
+ATTNDD,F015 III.12 Does your child have a diagnosis of attention deficit disorder?,fusii_fm015.csv,FM015,continuous
+DEVDELAY,F015 III.13 Does your child have a diagnosis of developmental delay?,fusii_fm015.csv,FM015,continuous
+FLURES_T,F015 III.3.A1 1.  Tried,fusii_fm015.csv,FM015,continuous
+FLURES_S,F015 III.3.A1a *a.  Successful,fusii_fm015.csv,FM015,continuous
+PROT_T,F015 III.3.B1 1.  Tried,fusii_fm015.csv,FM015,continuous
+PROT_S,F015 III.3.B1a *a.  Successful,fusii_fm015.csv,FM015,continuous
+WKP_T,F015 III.3.C1 1.  Tried,fusii_fm015.csv,FM015,continuous
+WKP_S,F015 III.3.C1a *a.  Successful,fusii_fm015.csv,FM015,continuous
+ALARM_T,F015 III.3.D1 1.  Tried,fusii_fm015.csv,FM015,continuous
+ALARM_S,F015 III.3.D1a *a.  Successful,fusii_fm015.csv,FM015,continuous
+DDAVP_T,F015 III.3.E1 1.  Tried,fusii_fm015.csv,FM015,continuous
+DDAVP_S,F015 III.3.E1a *a.  Successful,fusii_fm015.csv,FM015,continuous
+TOFR_T,F015 III.3.F1 1.  Tried,fusii_fm015.csv,FM015,continuous
+TOFR_S,F015 III.3.F1a *a.  Successful,fusii_fm015.csv,FM015,continuous
+THRPY_T,F015 III.3.G1 1.  Tried,fusii_fm015.csv,FM015,continuous
+THRPY_S,F015 III.3.G1a *a.  Successful,fusii_fm015.csv,FM015,continuous
+HU,F015 IV.1 Child is taking HU,fusii_fm015.csv,FM015,continuous
+FRGT_HU,F015 IV.1.A A.  Do you sometimes forget to give your child their hydroxyurea?,fusii_fm015.csv,FM015,continuous
+MISS_HU,"F015 IV.1.B B.  People sometimes miss taking their medications for reasons other than forgetting.  Thinking over the past two weeks, were there any days when yo",fusii_fm015.csv,FM015,continuous
+STPHU_1,"F015 IV.1.C C.  Have you ever cut back or stopped giving your child hydroxyurea  without telling your doctor, because your child felt worse when they  took it?",fusii_fm015.csv,FM015,continuous
+HU_TRVL,"F015 IV.1.D D.  When you travel or leave home, do you sometimes forget to bring  along your child's hydroxyurea?",fusii_fm015.csv,FM015,continuous
+HUYSTRDY,F015 IV.1.E E.  Did your child take their hydroxyurea yesterday?,fusii_fm015.csv,FM015,continuous
+STPHU_2,"F015 IV.1.F F.  When you feel like your child's sickle cell anemia is under control, do  you sometimes stop giving your child their hydroxyurea?",fusii_fm015.csv,FM015,continuous
+DIFF_HU,F015 IV.1.G G.  Taking hydroxyurea every day is a real inconvenience for some  people.  Do you ever feel hassled about sticking to your child's sickle  cell tre,fusii_fm015.csv,FM015,continuous
+DIFF_FRQ,F015 IV.1.H H.  How often do you have difficulty remembering to give your child all of their hydroxyuera?  (Please circle the correct number),fusii_fm015.csv,FM015,continuous
+MALE,F015 V.1 1.  Is the child male?,fusii_fm015.csv,FM015,continuous
+PRIAPWRD,F015 V.1.A A.  Have you ever heard the word priapism before?,fusii_fm015.csv,FM015,continuous
+PRIAP30M,F015 V.1.C C.  Has your son ever had a painful unwanted erection of the penis  that lasted 30 minutes or more?,fusii_fm015.csv,FM015,continuous
+PRIAP4HR,F015 V.1.D D.  Has your son ever had a painful erection of the penis that lasted 4 hours or more?,fusii_fm015.csv,FM015,continuous
+PRIAPEP1,F015 V.1.E E.  How many episodes of priapism has your son had in the last year?,fusii_fm015.csv,FM015,continuous
+PRIAPEP2,F015 V.1.F F.  How many episodes of priapism did your son have before the last year?,fusii_fm015.csv,FM015,continuous
+PRIAPAGE,F015 V.1.G G.  How old was your son when the first episode happened?,fusii_fm015.csv,FM015,continuous
+PICA_1,"F015 VI.1 Does your child (currently, or in the last 3 months) chew on, but not swallow, things that are not food (e.g., pencils, eraser, rim of cup)?",fusii_fm015.csv,FM015,continuous
+PICA_2,"F015 VI.2 Does your child (currently, or in the last 3 months) chew on <u>and</u> swallow things that are not food (e.g., diret, foam, hair)?",fusii_fm015.csv,FM015,continuous
+PICA_OBS,"F015 VI.3 Have other people (currently, or in the last 3 months) observed your child chewing on or eating non-food items?",fusii_fm015.csv,FM015,continuous
+GRADE,F015 VII.1 What is your child's current grade?,fusii_fm015.csv,FM015,continuous
+AGE_YR,F015 VII.2y,fusii_fm015.csv,FM015,continuous
+AGE_MON,F015 VII.2m,fusii_fm015.csv,FM015,continuous
+RPGRADE,F015 VII.3 Has your child ever been held back or repeated a grade?,fusii_fm015.csv,FM015,continuous
+RPTIMES,F015 VII.3.A A.  How many grades?,fusii_fm015.csv,FM015,continuous
+RPGRADE1,F015 VII.3.B1 GRADE 1,fusii_fm015.csv,FM015,continuous
+RPGRADE2,F015 VII.3.B2 GRADE 2,fusii_fm015.csv,FM015,continuous
+RPGRADE3,F015 VII.3.B3 GRADE 3,fusii_fm015.csv,FM015,continuous
+SNR_HLFT2,F015 II.1.A A.  snore more than half the time?,fusii_fm015.csv,FM015,continuous
+SNORE2,F015 II.1.B B.  always snore?,fusii_fm015.csv,FM015,continuous
+SNR_LOUD2,F015 II.1.C C.  snore loudly?,fusii_fm015.csv,FM015,continuous
+BRTHLOUD2,F015 II.1.D D.  have heavy or loud breathing?,fusii_fm015.csv,FM015,continuous
+BRTHTRBL2,F015 II.1.E E.  have trouble breathing or struggle to breathe?,fusii_fm015.csv,FM015,continuous
+BRTHSTP2,F015 II.2 Have you ever seen your child stop breathing during the night?,fusii_fm015.csv,FM015,continuous
+BRTHMTH2,F015 II.3.A A.  tend to breathe through the mouth during the day?,fusii_fm015.csv,FM015,continuous
+DRYMTH2,F015 II.3.B B.  have a dry mouth on waking up in the morning?,fusii_fm015.csv,FM015,continuous
+WETBED2,F015 II.3.C C.  occasionally wet the bed?,fusii_fm015.csv,FM015,continuous
+WKPRFRSH2,F015 II.3.D D.  wake up feeling unrefreshed in the morning?,fusii_fm015.csv,FM015,continuous
+SLP_PROB2,F015 II.3.E E.  have a problem with sleepiness during the day?,fusii_fm015.csv,FM015,continuous
+SLPY_DAY2,"F015 II.4 Has a teacher, supervisor or other adult commented  that your child appears sleepy during the day?",fusii_fm015.csv,FM015,continuous
+WKP_HARD2,F015 II.5 Is it hard to wake your child up in the morning?,fusii_fm015.csv,FM015,continuous
+WKP_HDCH2,F015 II.6 Does your child wake up with headaches in the morning?,fusii_fm015.csv,FM015,continuous
+GROW_STP2,F015 II.7 Did your child stop growing at a normal rate at any time since birth?,fusii_fm015.csv,FM015,continuous
+OVERWGHT2,F015 II.8 Is you child overweight?,fusii_fm015.csv,FM015,continuous
+IGNRPPL2,F015 II.9.A A. Does not seem to listen when spoken to directly,fusii_fm015.csv,FM015,continuous
+DIFF_ORG2,F015 II.9.B B.  Has difficulty organizing tasks and activities,fusii_fm015.csv,FM015,continuous
+DISTRACT2,F015 II.9.C C.  Is easily distracted by extraneous stimuli,fusii_fm015.csv,FM015,continuous
+FIDGET2,F015 II.9.D D.  Fidgets with hands or feet or squirms in seat,fusii_fm015.csv,FM015,continuous
+OVERACT2,F015 II.9.E E. Is on the go or act as if driven by a motor',fusii_fm015.csv,FM015,continuous
+INTRDOTH2,"F015 II.9.F F.  interrupts or intrudes on others (e.g., butt into  conversations or games)",fusii_fm015.csv,FM015,continuous
+ACCM_OSP,1. * Describe:,fusii_fm015.csv,FM015,categorical
+SRCOTHSP,*a. Specify:,fusii_fm015.csv,FM015,categorical
+ACCM_504,B. 504 plan,fusii_fm015.csv,FM015,continuous
+ACCM_IEP,C. IEP-individualized education plan,fusii_fm015.csv,FM015,continuous
+ACCM_OTH,E. Other,fusii_fm015.csv,FM015,continuous
+ACCM_SES,A. Special Education Services,fusii_fm015.csv,FM015,continuous
+ACCM_SPE,D. Special tutoring or classes not available to regular students,fusii_fm015.csv,FM015,continuous
+ACCMNONE,F. My child does not receive any accommodation for learning differences,fusii_fm015.csv,FM015,continuous
+NTURIFRQ,"5. If your child urinates in the bathroom during the night, how often?",fusii_fm015.csv,FM015,continuous
+SRC_DR,1. Doctor or nurse,fusii_fm015.csv,FM015,continuous
+SRC_FR,2. Friend or relative,fusii_fm015.csv,FM015,continuous
+SRC_INFO,3. Written information,fusii_fm015.csv,FM015,continuous
+SRC_OTH,4. Other,fusii_fm015.csv,FM015,continuous
+WET_FRQ,"2. If your child wet the bed during the last 3 months, how often have they wet the bed",fusii_fm015.csv,FM015,continuous
+FM15_ND,Questionnaire: data was not collected:,fusii_fm015.csv,FM015,categorical
+VISIT_DT_DAYS,F015 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm015.csv,FM015,continuous
+ID,Unique patient identifier (randomized),fusii_fm020.csv,FM020,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm020.csv,FM020,continuous
+FORM_ID,Form ID,fusii_fm020.csv,FM020,continuous
+REVISION,Form Revision,fusii_fm020.csv,FM020,continuous
+SEQ_NBR,Sequence Number,fusii_fm020.csv,FM020,continuous
+LIVER_SCAN,F020 II.1 Liver/Spleen Scan Performed?,fusii_fm020.csv,FM020,continuous
+ABDOMINAL_SONO,F020 II.2 Abdominal Sonogram Performed?,fusii_fm020.csv,FM020,continuous
+TCD,F020 II.3 TCD Performed?,fusii_fm020.csv,FM020,continuous
+PFT,F020 II.4 PFT Performed?,fusii_fm020.csv,FM020,continuous
+CARDIAC,F020 II.5 Cardiac Echocardiogram Performed?,fusii_fm020.csv,FM020,continuous
+MRIMRA,F020 II.6 MRI/MRA Performed?,fusii_fm020.csv,FM020,continuous
+VINELAND,F020 II.7 Vineland Performed?,fusii_fm020.csv,FM020,continuous
+PEDSQOL,F020 II.8 Peds QOL Performed?,fusii_fm020.csv,FM020,continuous
+CONNORCPT2,F020 II.9 Connor CPT II performed?,fusii_fm020.csv,FM020,continuous
+WISC4,F020 II.10 WISC IV Performed?,fusii_fm020.csv,FM020,continuous
+VISIT_NBR,Visit Number,fusii_fm020.csv,FM020,categorical
+FM20_ND,Special Tests (Age 10): data was not collected:,fusii_fm020.csv,FM020,categorical
+VISIT_DT_DAYS,F020 1. Date of Interview (recode: number of days after date of initial follow-up visit),fusii_fm020.csv,FM020,continuous
+LIVER_SCAN_DT_DAYS,F020 II.1A Date Liver/Spleen Scan Performed: (recode: number of days after date of initial follow-up visit),fusii_fm020.csv,FM020,continuous
+ABDOMINAL_SONO_DT_DAYS,F020 II.2A Date Abdominal Sonogram Performed: (recode: number of days after date of initial follow-up visit),fusii_fm020.csv,FM020,continuous
+TCD_DT_DAYS,F020 II.3A Date TCD Performed: (recode: number of days after date of initial follow-up visit),fusii_fm020.csv,FM020,continuous
+PFT_DT_DAYS,F020 II.4A Date PFT Performed: (recode: number of days after date of initial follow-up visit),fusii_fm020.csv,FM020,continuous
+CARDIAC_DT_DAYS,F020 II.5A Date Echocardiogram Performed: (recode: number of days after date of initial follow-up visit),fusii_fm020.csv,FM020,continuous
+MRIMRA_DT_DAYS,F020 II.6A Date MRI/MRA Performed: (recode: number of days after date of initial follow-up visit),fusii_fm020.csv,FM020,continuous
+VINELAND_DT_DAYS,F020 II.7A Date Vineland Performed: (recode: number of days after date of initial follow-up visit),fusii_fm020.csv,FM020,continuous
+PEDSQOL_DT_DAYS,F020 II.8A Date Peds QOL Performed: (recode: number of days after date of initial follow-up visit),fusii_fm020.csv,FM020,continuous
+CONNORCPT2_DT_DAYS,F020 II.9A Date Connor CPT II Performed: (recode: number of days after date of initial follow-up visit),fusii_fm020.csv,FM020,continuous
+WISC4_DT_DAYS,F020 II.10A Date WISC IV Performed: (recode: number of days after date of initial follow-up visit),fusii_fm020.csv,FM020,continuous
+ID,Unique patient identifier (randomized),fusii_fm021.csv,FM021,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm021.csv,FM021,continuous
+FORM_ID,Form ID,fusii_fm021.csv,FM021,continuous
+REVISION,Form Revision,fusii_fm021.csv,FM021,continuous
+VISIT_NBR,Visit Number,fusii_fm021.csv,FM021,categorical
+SEQ_NBR,Sequence Number,fusii_fm021.csv,FM021,continuous
+DOSINJ44,F021 II.5 Dose Injected:,fusii_fm021.csv,FM021,continuous
+CAMANGLE,F021 II.9 Camera Angle:,fusii_fm021.csv,FM021,continuous
+ANTPOSMN,F021 II.10MN True Posterior Imaging Time (min:sec):,fusii_fm021.csv,FM021,continuous
+ANTPOSSC,F021 II.10SC True Posterior Imaging Time (min:sec) SC:,fusii_fm021.csv,FM021,continuous
+OBLIMCNT,F021 II.11 Right Posterior Oblique Image Counts:,fusii_fm021.csv,FM021,continuous
+AOI400K,F021 II.13.A 400 K Image adequate:,fusii_fm021.csv,FM021,continuous
+AOITIMED,F021 II.13.B Timed Image adequate:,fusii_fm021.csv,FM021,continuous
+KASPLTOT,F021 III.1.A.1a a. Anterior View Spleen Total Counts:,fusii_fm021.csv,FM021,continuous
+KASPLPIX,F021 III.1.A.1b b. Anterior View Spleen # Pixels in ROI:,fusii_fm021.csv,FM021,continuous
+KASPLCNT,F021 III.1.A.1c c. Anterior View Spleen Counts/Pixel:,fusii_fm021.csv,FM021,continuous
+KALIVTOT,F021 III.1.A.2a a. Anterior View Liver Total Counts:,fusii_fm021.csv,FM021,continuous
+KALIVPIX,F021 III.1.A.2b b. Anterior View Liver # Pixels in ROI:,fusii_fm021.csv,FM021,continuous
+KALIVCNT,F021 III.1.A.2c c. Anterior View Liver Counts/Pixel:,fusii_fm021.csv,FM021,continuous
+KPSPLTOT,F021 III.1.B.1a a. Posterior View Spleen Total Counts:,fusii_fm021.csv,FM021,continuous
+KPSPLPIX,F021 III.1.B.1b b. Posterior View Spleen # Pixels in ROI:,fusii_fm021.csv,FM021,continuous
+KPSPLCNT,F021 III.1.B.1c c. Posterior View Spleen Counts/Pixel:,fusii_fm021.csv,FM021,continuous
+KPLIVTOT,F021 III.1.B.2a a. Posterior View Liver Total Counts:,fusii_fm021.csv,FM021,continuous
+KPLIVPIX,F021 III.1.B.2b b. Posterior View Liver # Pixels in ROI:,fusii_fm021.csv,FM021,continuous
+KPLIVCNT,F021 III.1.B.2c c. Posterior View Liver Counts/Pixel:,fusii_fm021.csv,FM021,continuous
+KSLRTTOT,F021 III.1.C.1 Spleen/Liver Ratio Total Counts:,fusii_fm021.csv,FM021,continuous
+KSLRTCNT,F021 III.1.C.2 Spleen/Liver Ratio Counts/Pixel:,fusii_fm021.csv,FM021,continuous
+TASPLTOT,F021 III.2.A.1a a. Timed Image Left Anterior Oblique View Spleen Total Counts:,fusii_fm021.csv,FM021,continuous
+TASPLPIX,F021 III.2.A.1b b. Timed Image Left Anterior Oblique View Spleen # Pixels in ROI:,fusii_fm021.csv,FM021,continuous
+TASPLCNT,F021 III.2.A.1c c. Timed Image Left Anterior Oblique View Spleen Counts/Pixel:,fusii_fm021.csv,FM021,continuous
+TALIVTOT,F021 III.2.A.2a a. Timed Image Left Anterior Oblique View Liver Total Counts:,fusii_fm021.csv,FM021,continuous
+TALIVPIX,F021 III.2.A.2b b. Timed Image Left Anterior Oblique View Liver # Pixels in ROI:,fusii_fm021.csv,FM021,continuous
+TALIVCNT,F021 III.2.A.2c c. Timed Image Left Anterior Oblique View Liver Counts/Pixel:,fusii_fm021.csv,FM021,continuous
+TPSPLTOT,F021 III.2.B.1a a. Timed Image Right Posterior Oblique View Spleen Total Counts:,fusii_fm021.csv,FM021,continuous
+TPSPLPIX,F021 III.2.B.1b b. Timed Image Right Posterior Oblique View Spleen # Pixels in ROI:,fusii_fm021.csv,FM021,continuous
+TPSPLCNT,F021 III.2.B.1c c. Timed Image Right  Posterior Oblique View Spleen Counts/Pixel:,fusii_fm021.csv,FM021,continuous
+TPLIVTOT,F021 III.2.B.2a a. Timed Image Right Posterior Oblique View Liver Total Counts:,fusii_fm021.csv,FM021,continuous
+TPLIVPIX,F021 III.2.B.2b b. Timed Image Right Posterior Oblique View Liver # Pixels in ROI,fusii_fm021.csv,FM021,continuous
+TPLIVCNT,F021 III.2.B.2c c. Timed Image Right Posterior Oblique View Liver Counts/Pixel:,fusii_fm021.csv,FM021,continuous
+TSLRTTOT,F021 III.2.C.1 Spleen/Liver Ratio Total Counts:,fusii_fm021.csv,FM021,continuous
+TSLRTCNT,F021 III.2.C.2 Spleen/Liver Ratio Counts/Pixel:,fusii_fm021.csv,FM021,continuous
+SIGNATURE,F021 IV.2 Signature:,fusii_fm021.csv,FM021,continuous
+CAMMODEL,2. Camera Model:,fusii_fm021.csv,FM021,categorical
+CAMTYPE,1. Camera Manufacturer:,fusii_fm021.csv,FM021,categorical
+COLLIMAT,3. Collimator:,fusii_fm021.csv,FM021,categorical
+LSSCNLBL,12. Film Label:,fusii_fm021.csv,FM021,categorical
+SUPCOLLD,4. Supplier of TC-Sulfur Colloid:,fusii_fm021.csv,FM021,categorical
+IMCOM_TIME,8. Time Imaging Completed,fusii_fm021.csv,FM021,categorical
+IMSTR_TIME,7. Time Imaging Started,fusii_fm021.csv,FM021,categorical
+INJ44_TIME,6. Time of Injection (24-Hour Clock),fusii_fm021.csv,FM021,categorical
+LSS_DATA_SENT_YN,1. Was the Liver-Spleen scan data sent to the Central Reviewer?,fusii_fm021.csv,FM021,continuous
+VISIT_DT_DAYS,F021 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm021.csv,FM021,continuous
+LSS_DATA_SENT_DT_DAYS,F021 2. Data sent date: (recode: number of days after date of initial follow-up visit),fusii_fm021.csv,FM021,continuous
+ID,Unique patient identifier (randomized),fusii_fm023.csv,FM023,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm023.csv,FM023,continuous
+FORM_ID,Form ID,fusii_fm023.csv,FM023,continuous
+REVISION,Form Revision,fusii_fm023.csv,FM023,continuous
+SEQ_NBR,Sequence Number,fusii_fm023.csv,FM023,continuous
+STATUS45,F023 II.3 Quality of study,fusii_fm023.csv,FM023,continuous
+SIGNATURE,F023 III.2 Signature,fusii_fm023.csv,FM023,continuous
+VISIT_NBR,Visit Number,fusii_fm023.csv,FM023,categorical
+ABDSEQPT,1. Equipment:,fusii_fm023.csv,FM023,categorical
+ABDSTRNS,2. Transducer:,fusii_fm023.csv,FM023,categorical
+SONO_LBL,4. Film Label:,fusii_fm023.csv,FM023,categorical
+ABD_SONO_SENT_YN,1. Was the Abdominal Sonogram data sent to the Central Reviewer?,fusii_fm023.csv,FM023,continuous
+VISIT_DT_DAYS,F023 1. Date of interview (recode: number of days after date of initial follow-up visit),fusii_fm023.csv,FM023,continuous
+ABD_SONO_SENT_DT_DAYS,F023 2. Data sent date: (recode: number of days after date of initial follow-up visit),fusii_fm023.csv,FM023,continuous
+ID,Unique patient identifier (randomized),fusii_fm026.csv,FM026,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm026.csv,FM026,continuous
+FORM_ID,Form ID,fusii_fm026.csv,FM026,continuous
+REVISION,Form Revision,fusii_fm026.csv,FM026,continuous
+SEQ_NBR,Sequence Number,fusii_fm026.csv,FM026,continuous
+TRANSPLANT_RSN,F026 II.3 Reason for Transplant in Sickle Cell Disease:,fusii_fm026.csv,FM026,continuous
+GRAFT_TYPE,F026 II.4 Type of Graft:,fusii_fm026.csv,FM026,continuous
+MATCHING_DEGREE,"F026 II.4.a For non-sibling donor, please indicate degree of matching",fusii_fm026.csv,FM026,continuous
+OTHER,F026 III.1.E Other,fusii_fm026.csv,FM026,continuous
+VISIT_NBR,Visit Number,fusii_fm026.csv,FM026,categorical
+TRANSPLANT_RSN_SP,a. Specify,fusii_fm026.csv,FM026,categorical
+FM26_ND,Stem Cell Transplant Report: data was not collected:,fusii_fm026.csv,FM026,categorical
+VISIT_DT_DAYS,F026 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm026.csv,FM026,continuous
+TRANSPLANT_DT_DAYS,F026 II.1 Date of Transplant: (recode: number of days after date of initial follow-up visit),fusii_fm026.csv,FM026,continuous
+DEATH_DT_DAYS,F026 III.1.A Death Date (recode: number of days after date of initial follow-up visit),fusii_fm026.csv,FM026,continuous
+GRAFTREJ_DT_DAYS,F026 III.1.B Graft Rejection Date (recode: number of days after date of initial follow-up visit),fusii_fm026.csv,FM026,continuous
+STABLE_DT_DAYS,F026 III.1.C Stable Mixed Chimerism Date (recode: number of days after date of initial follow-up visit),fusii_fm026.csv,FM026,continuous
+CURED_DT_DAYS,F026 III.1.D Cured of Sickle Cell Disease Date (recode: number of days after date of initial follow-up visit),fusii_fm026.csv,FM026,continuous
+TPCON_DT_DAYS,F026 II.1A Date started conditioning for transplant (recode: number of days after date of initial follow-up visit),fusii_fm026.csv,FM026,continuous
+ID,Unique patient identifier (randomized),fusii_fm027.csv,FM027,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm027.csv,FM027,continuous
+FORM_ID,Form ID,fusii_fm027.csv,FM027,continuous
+REVISION,Form Revision,fusii_fm027.csv,FM027,continuous
+VISIT_NBR,Visit Number,fusii_fm027.csv,FM027,categorical
+SEQ_NBR,Sequence Number,fusii_fm027.csv,FM027,continuous
+CHRAGEYR,F027 II.1.yr. Chronological Age:,fusii_fm027.csv,FM027,continuous
+CHRAGEMN,F027 II.1.mn.,fusii_fm027.csv,FM027,continuous
+CDSTROW,F027 III.1 Starting Row,fusii_fm027.csv,FM027,continuous
+CDENDROW,F027 III.2 Ending Row,fusii_fm027.csv,FM027,continuous
+COMRAW,F027 III.3 Raw Domain Score,fusii_fm027.csv,FM027,continuous
+COMSTRD,F027 III.4 Standard Score,fusii_fm027.csv,FM027,continuous
+COM95CL,F027 III.5 95% Conf. Level,fusii_fm027.csv,FM027,continuous
+COMPCTL,F027 III.6 Percentile Rank,fusii_fm027.csv,FM027,continuous
+DDSTROW,F027 IV.1 Starting Row,fusii_fm027.csv,FM027,continuous
+DDENDROW,F027 IV.2 Ending Row,fusii_fm027.csv,FM027,continuous
+DLSRAW,F027 IV.3 Raw Domain Score,fusii_fm027.csv,FM027,continuous
+DLSSTRD,F027 IV.4 Standard Score,fusii_fm027.csv,FM027,continuous
+DLS95CL,F027 IV.5 95% Conf. Level,fusii_fm027.csv,FM027,continuous
+DLSPCTL,F027 IV.6 Percentile Rank,fusii_fm027.csv,FM027,continuous
+SDSTROW,F027 V.1 Starting Row,fusii_fm027.csv,FM027,continuous
+SDENDROW,F027 V.2 Ending Row,fusii_fm027.csv,FM027,continuous
+SOCRAW,F027 V.3 Raw Domain Score,fusii_fm027.csv,FM027,continuous
+SOCSTRD,F027 V.4 Standard Score,fusii_fm027.csv,FM027,continuous
+SOC95CL,F027 V.5 95% Conf. Level,fusii_fm027.csv,FM027,continuous
+SOCPCTL,F027 V.6 Percentile Rank,fusii_fm027.csv,FM027,continuous
+MOTOR_ND_LN,F027 VI.nd,fusii_fm027.csv,FM027,continuous
+MSSTROW,F027 VI.1 Starting Row,fusii_fm027.csv,FM027,continuous
+MSENDROW,F027 VI.2 Ending Row,fusii_fm027.csv,FM027,continuous
+MTSKRAW,F027 VI.3 Raw Domain Score,fusii_fm027.csv,FM027,continuous
+MTSKSTRD,F027 VI.4 Standard Score,fusii_fm027.csv,FM027,continuous
+MTSK95CL,F027 VI.5 95% Conf. Level,fusii_fm027.csv,FM027,continuous
+MTSKPCTL,F027 VI.6 Percentile Rank,fusii_fm027.csv,FM027,continuous
+FM27_ND,Vineland Summary: data was not collected:,fusii_fm027.csv,FM027,categorical
+CARE_OTHER,"2a. If Other, Specify:",fusii_fm027.csv,FM027,continuous
+MOTOR_ND,Was Motor Skills NOT DONE,fusii_fm027.csv,FM027,continuous
+VISIT_DT_DAYS,F027 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm027.csv,FM027,continuous
+CARE41G,"F027 II.2. Caregiver's Relationship to Child (regrouped: 1 = Mother; 2 = Father; 3 = Grandparent, Other)",fusii_fm027.csv,FM027,continuous
+ID,Unique patient identifier (randomized),fusii_fm028.csv,FM028,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm028.csv,FM028,continuous
+FORM_ID,Form ID,fusii_fm028.csv,FM028,continuous
+REVISION,Form Revision,fusii_fm028.csv,FM028,continuous
+VISIT_NBR,Visit Number,fusii_fm028.csv,FM028,categorical
+SEQ_NBR,Sequence Number,fusii_fm028.csv,FM028,continuous
+FAIQ,F028 II.1 Full scale IQ:,fusii_fm028.csv,FM028,continuous
+VCI,F028 II.2 Verbal comprehension composite score:,fusii_fm028.csv,FM028,continuous
+PRI,F028 II.3 Perceptual reasoning composite score:,fusii_fm028.csv,FM028,continuous
+WMI,F028 II.4 Working memory composite score:,fusii_fm028.csv,FM028,continuous
+PSI,F028 II.5 Processing speed composite score:,fusii_fm028.csv,FM028,continuous
+BD,F028 II.6 Block design scaled score:,fusii_fm028.csv,FM028,continuous
+SI,F028 II.7 Similarities scaled score:,fusii_fm028.csv,FM028,continuous
+DS,F028 II.8 Digit span scaled score:,fusii_fm028.csv,FM028,continuous
+PC,F028 II.9 Picture concepts scaled score:,fusii_fm028.csv,FM028,continuous
+CD,F028 II.10 Coding scaled score:,fusii_fm028.csv,FM028,continuous
+VC,F028 II.11 Vocabulary scaled score:,fusii_fm028.csv,FM028,continuous
+LN,F028 II.12 Letter-number sequence scaled score:,fusii_fm028.csv,FM028,continuous
+MR,F028 II.13 Matrix reasoning scaled score:,fusii_fm028.csv,FM028,continuous
+CO,F028 II.14 Comprehension scaled score:,fusii_fm028.csv,FM028,continuous
+SS,F028 II.15 Symbol search scaled score:,fusii_fm028.csv,FM028,continuous
+VISIT_DT_DAYS,F028 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm028.csv,FM028,continuous
+ID,Unique patient identifier (randomized),fusii_fm029.csv,FM029,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm029.csv,FM029,continuous
+FORM_ID,Form ID,fusii_fm029.csv,FM029,continuous
+REVISION,Form Revision,fusii_fm029.csv,FM029,continuous
+VISIT_NBR,Visit Number,fusii_fm029.csv,FM029,categorical
+SEQ_NBR,Sequence Number,fusii_fm029.csv,FM029,continuous
+RLTNSHP,F029 II.1 1.  What is your relationship to this child (please check and/or circle)?,fusii_fm029.csv,FM029,continuous
+SEX,F029 II.2.B B.  Child is:,fusii_fm029.csv,FM029,continuous
+CHC_6M,"F029 II.5.A A.  Had a chronic health condition (defined as a physical or mental health  condition that has lasted or is expected to last at least 6 months, and",fusii_fm029.csv,FM029,continuous
+OVNT_12M,F029 II.5.B B.  Any overnight visits to the hospital?,fusii_fm029.csv,FM029,continuous
+OVNT_NUM,"F029 II.5.B.1 *1.  If YES, how many times?",fusii_fm029.csv,FM029,continuous
+ER_12M,F029 II.5.C C.  Any Emergency Room/Urgent Care Visits?,fusii_fm029.csv,FM029,continuous
+ER_NUM,"F029 II.5.C.1 *1.  If YES, how many times?",fusii_fm029.csv,FM029,continuous
+ABST_30D,F029 II.5.D D.  How many days did your child miss from school due to physical or  mental health?,fusii_fm029.csv,FM029,continuous
+SICK_30D,F029 II.5.E E.  How many days was your child sick in bed or too ill to play?,fusii_fm029.csv,FM029,continuous
+CARE_30D,F029 II.5.F F.  How many days did your child need someone to care for him/her due to  physical or mental health?,fusii_fm029.csv,FM029,continuous
+WKOTSDHM,F029 II.6 6.  Does caregiver work outside the home?,fusii_fm029.csv,FM029,continuous
+MSWK_30D,"F029 II.6.A *A.  In the past 30 days, how many days have you missed from work due to  your child's physical or mental health?",fusii_fm029.csv,FM029,continuous
+RTN_WK,F029 II.6.B.1 1.  Your daily routine at work,fusii_fm029.csv,FM029,continuous
+CONC_WK,F029 II.6.B.2 2.  Your ability to concentrate at work,fusii_fm029.csv,FM029,continuous
+GCRPT_A1,F029 III.1.A.1 1. It is hard for me to walk more than one block,fusii_fm029.csv,FM029,continuous
+GCRPT_A2,F029 III.1.A.2 2. It is hard for me to run,fusii_fm029.csv,FM029,continuous
+GCRPT_A3,F029 III.1.A.3 3. It is hard for me to do sports activity or exercise,fusii_fm029.csv,FM029,continuous
+GCRPT_A4,F029 III.1.A.4 4.  It is hard for me to lift something heavy,fusii_fm029.csv,FM029,continuous
+GCRPT_A5,F029 III.1.A.5 5. It is hard for me to take a bath or shower by myself,fusii_fm029.csv,FM029,continuous
+GCRPT_A6,F029 III.1.A.6 6. It is hard for me to do chores around the house,fusii_fm029.csv,FM029,continuous
+GCRPT_A7,F029 III.1.A.7 7.  I hurt or ache,fusii_fm029.csv,FM029,continuous
+GCRPT_A8,F029 III.1.A.8 8.  I have low energy,fusii_fm029.csv,FM029,continuous
+GCRPT_B1,F029 III.1.B.1 1.  I feel afraid or scared,fusii_fm029.csv,FM029,continuous
+GCRPT_B2,F029 III.1.B.2 2.  I feel sad or blue,fusii_fm029.csv,FM029,continuous
+GCRPT_B3,F029 III.1.B.3 3.   I feel angry,fusii_fm029.csv,FM029,continuous
+GCRPT_B4,F029 III.1.B.4 4.   I have trouble sleeping,fusii_fm029.csv,FM029,continuous
+GCRPT_B5,F029 III.1.B.5 5.  I worry about what will happen to me,fusii_fm029.csv,FM029,continuous
+GCRPT_C1,F029 III.1.C.1 1.  I have trouble getting along with other kids,fusii_fm029.csv,FM029,continuous
+GCRPT_C2,F029 III.1.C.2 2.  Other kids do not want to be my friend,fusii_fm029.csv,FM029,continuous
+GCRPT_C3,F029 III.1.C.3 3.   Other kids tease me,fusii_fm029.csv,FM029,continuous
+GCRPT_C4,F029 III.1.C.4 4.   I cannot do things that other kids my age can do,fusii_fm029.csv,FM029,continuous
+GCRPT_C5,F029 III.1.C.5 5.  It is hard to keep up when I play with other kids,fusii_fm029.csv,FM029,continuous
+GCRPT_D1,F029 III.1.D.1 1.  It is hard to pay attention in class,fusii_fm029.csv,FM029,continuous
+GCRPT_D2,F029 III.1.D.2 2.   I forget things,fusii_fm029.csv,FM029,continuous
+GCRPT_D3,F029 III.1.D.3 3.  I have trouble keeping up with my schoolwork,fusii_fm029.csv,FM029,continuous
+GCRPT_D4,F029 III.1.D.4 4.   I miss school because of not feeling well,fusii_fm029.csv,FM029,continuous
+GCRPT_D5,F029 III.1.D.5 5.   I miss school to go to the doctor or hospital,fusii_fm029.csv,FM029,continuous
+GPRPT_A1,F029 III.2.A.1 1.   Walking more than one block,fusii_fm029.csv,FM029,continuous
+GPRPT_A2,F029 III.2.A.2 2.   Running,fusii_fm029.csv,FM029,continuous
+GPRPT_A3,F029 III.2.A.3 3.   Participating in sports activity or exercise,fusii_fm029.csv,FM029,continuous
+GPRPT_A4,F029 III.2.A.4 4.  Lifting something heavy,fusii_fm029.csv,FM029,continuous
+GPRPT_A5,F029 III.2.A.5 5.   Taking a bath or shower by him or herself,fusii_fm029.csv,FM029,continuous
+GPRPT_A6,F029 III.2.A.6 6.   Doing chores around the house,fusii_fm029.csv,FM029,continuous
+GPRPT_A7,F029 III.2.A.7 7.   Having hurts or aches,fusii_fm029.csv,FM029,continuous
+GPRPT_A8,F029 III.2.A.8 8.   Low energy level,fusii_fm029.csv,FM029,continuous
+GPRPT_B1,F029 III.2.B.1 1.  Feeling afraid or scared,fusii_fm029.csv,FM029,continuous
+GPRPT_B2,F029 III.2.B.2 2.   Feeling sad or blue,fusii_fm029.csv,FM029,continuous
+GPRPT_B3,F029 III.2.B.3 3.  Feeling angry,fusii_fm029.csv,FM029,continuous
+GPRPT_B4,F029 III.2.B.4 4.   Trouble sleeping,fusii_fm029.csv,FM029,continuous
+GPRPT_B5,F029 III.2.B.5 5.   Worrying about what will happen to him or her,fusii_fm029.csv,FM029,continuous
+GPRPT_C1,F029 III.2.C.1 1.  Getting along with other children,fusii_fm029.csv,FM029,continuous
+GPRPT_C2,F029 III.2.C.2 2.   Other kids not wanting to be his or her friend,fusii_fm029.csv,FM029,continuous
+GPRPT_C3,F029 III.2.C.3 3.  Getting teased by other children,fusii_fm029.csv,FM029,continuous
+GPRPT_C4,F029 III.2.C.4 4.  Not able to do things that other children his or her age can do,fusii_fm029.csv,FM029,continuous
+GPRPT_C5,F029 III.2.C.5 5.  Keeping up when playing with other children,fusii_fm029.csv,FM029,continuous
+GPRPT_D1,F029 III.2.D.1 1.   Paying attention in class,fusii_fm029.csv,FM029,continuous
+GPRPT_D2,F029 III.2.D.2 2.   Forgetting things,fusii_fm029.csv,FM029,continuous
+GPRPT_D3,F029 III.2.D.3 3.  Keeping up with schoolwork,fusii_fm029.csv,FM029,continuous
+GPRPT_D4,F029 III.2.D.4 4.  Missing school because of not feeling well,fusii_fm029.csv,FM029,continuous
+GPRPT_D5,F029 III.2.D.5 5.   Missing school to go to the doctor or hospital,fusii_fm029.csv,FM029,continuous
+FCRPT_A1,F029 IV.1.A.1 1.  I feel tired,fusii_fm029.csv,FM029,continuous
+FCRPT_A2,F029 IV.1.A.2 2.   I feel physically weak (not strong),fusii_fm029.csv,FM029,continuous
+FCRPT_A3,F029 IV.1.A.3 3.  I feel too tired to do things that I like to do,fusii_fm029.csv,FM029,continuous
+FCRPT_A4,F029 IV.1.A.4 4.  I feel too tired to spend time with my friends,fusii_fm029.csv,FM029,continuous
+FCRPT_A5,F029 IV.1.A.5 5.  I have trouble finishing things,fusii_fm029.csv,FM029,continuous
+FCRPT_A6,F029 IV.1.A.6 6.   I have trouble starting things,fusii_fm029.csv,FM029,continuous
+FCRPT_B1,F029 IV.1.B.1 1.  I sleep a lot,fusii_fm029.csv,FM029,continuous
+FCRPT_B2,F029 IV.1.B.2 2.  It is hard for me to sleep through the night,fusii_fm029.csv,FM029,continuous
+FCRPT_B3,F029 IV.1.B.3 3.  I feel tired when I wake up in the morning,fusii_fm029.csv,FM029,continuous
+FCRPT_B4,F029 IV.1.B.4 4.  I rest a lot,fusii_fm029.csv,FM029,continuous
+FCRPT_B5,F029 IV.1.B.5 5.  I take a lot of naps,fusii_fm029.csv,FM029,continuous
+FCRPT_B6,F029 IV.1.B.6 6.  I spend a lot of time in bed,fusii_fm029.csv,FM029,continuous
+FCRPT_C1,F029 IV.1.C.1 1.  It is hard for me to keep my attention on things,fusii_fm029.csv,FM029,continuous
+FCRPT_C2,F029 IV.1.C.2 2.  It is hard for me to remember what people tell me,fusii_fm029.csv,FM029,continuous
+FCRPT_C3,F029 IV.1.C.3 3.  It is hard for me to remember what I just heard,fusii_fm029.csv,FM029,continuous
+FCRPT_C4,F029 IV.1.C.4 4.  It is hard for me to think quickly,fusii_fm029.csv,FM029,continuous
+FCRPT_C5,F029 IV.1.C.5 5.  I have trouble remembering what I was just thinking,fusii_fm029.csv,FM029,continuous
+FCRPT_C6,F029 IV.1.C.6 6.  I have trouble remembering more than one thing at a time,fusii_fm029.csv,FM029,continuous
+FPRPT_A1,F029 IV.2.A.1 1.  Feeling tired,fusii_fm029.csv,FM029,continuous
+FPRPT_A2,F029 IV.2.A.2 2.  Feeling physically weak (not strong),fusii_fm029.csv,FM029,continuous
+FPRPT_A3,F029 IV.2.A.3 3.  Feeling too tired to do things that he/she likes to do,fusii_fm029.csv,FM029,continuous
+FPRPT_A4,F029 IV.2.A.4 4.  Feeling too tired to spend time with his/her friends,fusii_fm029.csv,FM029,continuous
+FPRPT_A5,F029 IV.2.A.5 5.  Trouble finishing things,fusii_fm029.csv,FM029,continuous
+FPRPT_A6,F029 IV.2.A.6 6. Trouble starting things,fusii_fm029.csv,FM029,continuous
+FPRPT_B1,F029 IV.2.B.1 1. Sleeping a lot,fusii_fm029.csv,FM029,continuous
+FPRPT_B2,F029 IV.2.B.2 2. Difficulty sleeping through the night,fusii_fm029.csv,FM029,continuous
+FPRPT_B3,F029 IV.2.B.3 3. Feeling tired when he/she wakes up in the morning,fusii_fm029.csv,FM029,continuous
+FPRPT_B4,F029 IV.2.B.4 4.  Resting a lot,fusii_fm029.csv,FM029,continuous
+FPRPT_B5,F029 IV.2.B.5 5. Taking a lot of naps,fusii_fm029.csv,FM029,continuous
+FPRPT_B6,F029 IV.2.B.6 6. Spending a lot of time in bed,fusii_fm029.csv,FM029,continuous
+FPRPT_C1,F029 IV.2.C.1 1.  Difficulty keeping his/her attention on things,fusii_fm029.csv,FM029,continuous
+FPRPT_C2,F029 IV.2.C.2 2.  Difficulty remembering what people tell him/her,fusii_fm029.csv,FM029,continuous
+FPRPT_C3,F029 IV.2.C.3 3.  Difficulty remembering what he/she just heard,fusii_fm029.csv,FM029,continuous
+FPRPT_C4,F029 IV.2.C.4 4.  Difficulty thinking quickly,fusii_fm029.csv,FM029,continuous
+FPRPT_C5,F029 IV.2.C.5 5.  Trouble remembering what he/she was just thinking,fusii_fm029.csv,FM029,continuous
+FPRPT_C6,F029 IV.2.C.6 6. Trouble remembering more than one thing at a time,fusii_fm029.csv,FM029,continuous
+SCRPT_A1,F029 V.1.A.1 1.  I hurt a lot,fusii_fm029.csv,FM029,continuous
+SCRPT_A2,F029 V.1.A.2 2.  I hurt all over my body,fusii_fm029.csv,FM029,continuous
+SCRPT_A3,F029 V.1.A.3 3.  I hurt in my arms,fusii_fm029.csv,FM029,continuous
+SCRPT_A4,F029 V.1.A.4 4.  I hurt in my legs,fusii_fm029.csv,FM029,continuous
+SCRPT_A5,F029 V.1.A.5 5.  I hurt in my stomach,fusii_fm029.csv,FM029,continuous
+SCRPT_A6,F029 V.1.A.6 6.  I hurt in my chest,fusii_fm029.csv,FM029,continuous
+SCRPT_A7,F029 V.1.A.7 7.  I hurt in my back,fusii_fm029.csv,FM029,continuous
+SCRPT_A8,F029 V.1.A.8 8.  I have pain every day,fusii_fm029.csv,FM029,continuous
+SCRPT_A9,F029 V.1.A.9 9.  I have pain so much that I need medicine,fusii_fm029.csv,FM029,continuous
+SCRPT_B1,F029 V.1.B.1 1.  It is hard for me to do things because I might get pain,fusii_fm029.csv,FM029,continuous
+SCRPT_B2,F029 V.1.B.2 2.  I miss school when I have pain,fusii_fm029.csv,FM029,continuous
+SCRPT_B3,F029 V.1.B.3 3.  It is hard for me to run when I have pain,fusii_fm029.csv,FM029,continuous
+SCRPT_B4,F029 V.1.B.4 4.  It is hard to have fun when I have pain,fusii_fm029.csv,FM029,continuous
+SCRPT_B5,F029 V.1.B.5 5.  I have trouble moving when I have pain,fusii_fm029.csv,FM029,continuous
+SCRPT_B6,F029 V.1.B.6 6.  It is hard to stay standing when I have pain,fusii_fm029.csv,FM029,continuous
+SCRPT_B7,F029 V.1.B.7 7.  It is hard for me to take care of myself when I have pain,fusii_fm029.csv,FM029,continuous
+SCRPT_B8,F029 V.1.B.8 8.  It is hard for me to do what others can do because I might get pain,fusii_fm029.csv,FM029,continuous
+SCRPT_B9,F029 V.1.B.9 9.  I wake up at night when I have pain,fusii_fm029.csv,FM029,continuous
+SCRPT_B10,F029 V.1.B.10 10. I get tired when I have pain,fusii_fm029.csv,FM029,continuous
+SCRPT_C1,F029 V.1.C.1 1.  It is hard for me to manage my pain,fusii_fm029.csv,FM029,continuous
+SCRPT_C2,F029 V.1.C.2 2.  It is hard for me to control my pain,fusii_fm029.csv,FM029,continuous
+SCRPT_D1,F029 V.1.D.1 1.  I worry that I will have pain,fusii_fm029.csv,FM029,continuous
+SCRPT_D2,F029 V.1.D.2 2.  I worry that others will not know what to do if I have pain,fusii_fm029.csv,FM029,continuous
+SCRPT_D3,F029 V.1.D.3 3.  I worry when I am away from home,fusii_fm029.csv,FM029,continuous
+SCRPT_D4,F029 V.1.D.4 4.  I worry I might have to go to the emergency room,fusii_fm029.csv,FM029,continuous
+SCRPT_D5,F029 V.1.D.5 5.  I worry I might have to stay overnight in the hospital,fusii_fm029.csv,FM029,continuous
+SCRPT_E1,F029 V.1.E.1 1.  I worry I might have a stroke,fusii_fm029.csv,FM029,continuous
+SCRPT_E2,F029 V.1.E.2 2.  I worry I might have a chest crisis,fusii_fm029.csv,FM029,continuous
+SCRPT_F1,F029 V.1.F.1 1.  I feel mad I have sickle cell disease,fusii_fm029.csv,FM029,continuous
+SCRPT_F2,F029 V.1.F.2 2.  I feel mad when I have pain,fusii_fm029.csv,FM029,continuous
+SCRPT_G1,F029 V.1.G.1 1.  It is hard for me to remember to take my medicine,fusii_fm029.csv,FM029,continuous
+SCRPT_G2,F029 V.1.G.2 2.  I do not like how I feel after I take my medicine,fusii_fm029.csv,FM029,continuous
+SCRPT_G3,F029 V.1.G.3 3.  I do not like the way my medicine tastes,fusii_fm029.csv,FM029,continuous
+SCRPT_G4,F029 V.1.G.4 4.  My medicine makes me sleepy,fusii_fm029.csv,FM029,continuous
+SCRPT_G5,F029 V.1.G.5 5.  I worry about whether my medicine is working,fusii_fm029.csv,FM029,continuous
+SCRPT_G6,F029 V.1.G.6 6.  I worry about whether my treatments are working,fusii_fm029.csv,FM029,continuous
+SCRPT_G7,F029 V.1.G.7 7.  My medicine does not make me feel better,fusii_fm029.csv,FM029,continuous
+SCRPT_H1,F029 V.1.H.1 1.  It is hard for me to tell others when I am in pain,fusii_fm029.csv,FM029,continuous
+SCRPT_H2,F029 V.1.H.2 2.  It is hard for me to tell the doctors and nurses how I feel,fusii_fm029.csv,FM029,continuous
+SCRPT_H3,F029 V.1.H.3 3.  It is hard for me to ask the doctors and nurses questions,fusii_fm029.csv,FM029,continuous
+SCRPT_I1,F029 V.1.I.1 1.  It is hard for me when others do not understand about my sickle cell disease,fusii_fm029.csv,FM029,continuous
+SCRPT_I2,F029 V.1.I.2 2.  It is hard for me when others do not understand how much pain I feel,fusii_fm029.csv,FM029,continuous
+SCRPT_I3,F029 V.1.I.3 3.  It is hard for me to tell others I have sickle cell disease,fusii_fm029.csv,FM029,continuous
+SPRPT_A1,F029 V.2.A.1 1.  Hurting a lot,fusii_fm029.csv,FM029,continuous
+SPRPT_A2,F029 V.2.A.2 2.  Hurting all over his/her body,fusii_fm029.csv,FM029,continuous
+SPRPT_A3,F029 V.2.A.3 3.  Hurting in his/her arms,fusii_fm029.csv,FM029,continuous
+SPRPT_A4,F029 V.2.A.4 4.  Hurting in his/her legs,fusii_fm029.csv,FM029,continuous
+SPRPT_A5,F029 V.2.A.5 5.  Hurting in his/her stomach,fusii_fm029.csv,FM029,continuous
+SPRPT_A6,F029 V.2.A.6 6.  Hurting in his/her chest,fusii_fm029.csv,FM029,continuous
+SPRPT_A7,F029 V.2.A.7 7.  Hurting in his/her back,fusii_fm029.csv,FM029,continuous
+SPRPT_A8,F029 V.2.A.8 8.  Having pain every day,fusii_fm029.csv,FM029,continuous
+SPRPT_A9,F029 V.2.A.9 9.  Having so much pain that he/she has to take medicine,fusii_fm029.csv,FM029,continuous
+SPRPT_B1,F029 V.2.B.1 1.  It is hard for him/her to do things because he/she might get pain,fusii_fm029.csv,FM029,continuous
+SPRPT_B2,F029 V.2.B.2 2.  Missing school when he/she has pain,fusii_fm029.csv,FM029,continuous
+SPRPT_B3,F029 V.2.B.3 3.  It is hard for him/her to run when he/she has pain,fusii_fm029.csv,FM029,continuous
+SPRPT_B4,F029 V.2.B.4 4.  it is hard for him/her to have fun when having pain,fusii_fm029.csv,FM029,continuous
+SPRPT_B5,F029 V.2.B.5 5.  Having trouble moving around when he/she has pain,fusii_fm029.csv,FM029,continuous
+SPRPT_B6,F029 V.2.B.6 6.  It is hard for him/her to stay standing when he/she has pain,fusii_fm029.csv,FM029,continuous
+SPRPT_B7,F029 V.2.B.7 7.  It is hard for him/her to take care of himself/herself when he/she has pain,fusii_fm029.csv,FM029,continuous
+SPRPT_B8,F029 V.2.B.8 8.  It is hard for him/her to do what others can do because he/she might get pain,fusii_fm029.csv,FM029,continuous
+SPRPT_B9,F029 V.2.B.9 9.  Waking up at night when he/she has pain,fusii_fm029.csv,FM029,continuous
+SPRPT_B10,F029 V.2.B.10 10. Getting tired when he/she has pain,fusii_fm029.csv,FM029,continuous
+SPRPT_C1,F029 V.2.C.1 1.  It is hard for him/her to manage his/her pain,fusii_fm029.csv,FM029,continuous
+SPRPT_C2,F029 V.2.C.2 2.  It is hard for him/her to control his/her pain,fusii_fm029.csv,FM029,continuous
+SPRPT_D1,F029 V.2.D.1 1.  Worrying that he/she will have pain,fusii_fm029.csv,FM029,continuous
+SPRPT_D2,F029 V.2.D.2 2.  Worrying that other people will not know what to do if he/she has pain,fusii_fm029.csv,FM029,continuous
+SPRPT_D3,F029 V.2.D.3 3.  Worrying when he/she is away from home,fusii_fm029.csv,FM029,continuous
+SPRPT_D4,F029 V.2.D.4 4.  Worrying he/she might have to go to the emergency room,fusii_fm029.csv,FM029,continuous
+SPRPT_D5,F029 V.2.D.5 5.  Worrying he/she might have to stay overnight in the hospital,fusii_fm029.csv,FM029,continuous
+SPRPT_E1,F029 V.2.E.1 1.  Worrying he/she might have a stroke,fusii_fm029.csv,FM029,continuous
+SPRPT_E2,F029 V.2.E.2 2.  Worrying he/she might have a chest crisis,fusii_fm029.csv,FM029,continuous
+SPRPT_F1,F029 V.2.F.1 1.  Feeling mad about having sickle cell disease,fusii_fm029.csv,FM029,continuous
+SPRPT_F2,F029 V.2.F.2 2.  Feeling mad when he/she has pain,fusii_fm029.csv,FM029,continuous
+SPRPT_G1,F029 V.2.G.1 1.  It is hard for him/her to remember to take his/her medicine,fusii_fm029.csv,FM029,continuous
+SPRPT_G2,F029 V.2.G.2 2.  Not liking how he/she feels after taking medicine,fusii_fm029.csv,FM029,continuous
+SPRPT_G3,F029 V.2.G.3 3.  Not liking the way his/her medicine tastes,fusii_fm029.csv,FM029,continuous
+SPRPT_G4,F029 V.2.G.4 4.  Medicine making him/her sleepy,fusii_fm029.csv,FM029,continuous
+SPRPT_G5,F029 V.2.G.5 5.  Worrying about whether his/her medicine is working,fusii_fm029.csv,FM029,continuous
+SPRPT_G6,F029 V.2.G.6 6.  Worrying about whether his/her treatments are working,fusii_fm029.csv,FM029,continuous
+SPRPT_G7,F029 V.2.G.7 7.  Medicine not making him/her feel better,fusii_fm029.csv,FM029,continuous
+SPRPT_H1,F029 V.2.H.1 1.  It is hard for him/her to tell others when he/she is in pain,fusii_fm029.csv,FM029,continuous
+SPRPT_H2,F029 V.2.H.2 2.  It is hard for him/her to tell the doctors and nurses how he/she feels,fusii_fm029.csv,FM029,continuous
+SPRPT_H3,F029 V.2.H.3 3.  It is hard for him/her to ask the doctors and nurses questions,fusii_fm029.csv,FM029,continuous
+SPRPT_I1,F029 V.2.I.1 1.  It is hard for him/her when other people do not understand about his/her sickle cell disease,fusii_fm029.csv,FM029,continuous
+SPRPT_I2,F029 V.2.I.2 2.  It is hard for him/her when others do not understand how much pain he/she feels,fusii_fm029.csv,FM029,continuous
+SPRPT_I3,F029 V.2.I.3 3.  It is hard for him/her to tell others that he/she has a sickle cell disease,fusii_fm029.csv,FM029,continuous
+CHC_NAME,"1. If YES, what is the name of your child’s chronic health condition?",fusii_fm029.csv,FM029,categorical
+ER_RSN,2. What was wrong?,fusii_fm029.csv,FM029,categorical
+OVNT_RSN,2. What was wrong?,fusii_fm029.csv,FM029,categorical
+RLTN_SP,"*a.  If Other, specify:",fusii_fm029.csv,FM029,continuous
+FM29_ND,PEDSQL Age 8-12: data was not collected:,fusii_fm029.csv,FM029,categorical
+VISIT_DT_DAYS,F029 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm029.csv,FM029,continuous
+AGE_YR,Age at F029 Visit (Years portion),fusii_fm029.csv,FM029,continuous
+AGE_MON,Age at F029 Visit (Months portion),fusii_fm029.csv,FM029,continuous
+MRTLST_MG,"F029 II.3.A A.  Marital Status - Mother (regrouped: 1=Single,2=Married or Living with someone,3=Separated or Divorced)",fusii_fm029.csv,FM029,continuous
+MRTLST_FG,"F029 II.4.A A.  Marital Status - Father (regrouped: 1=Single,2=Married or Living with someone,3=Separated or Divorced)",fusii_fm029.csv,FM029,continuous
+EDU_MG,"F029 II.3.B B.  Highest level of education - Mother (regrouped: 3=6th-12th Grade or less,4=H.S. Graduate,5=Some college or certification,6=College grad,7=Graduate or prof degree)",fusii_fm029.csv,FM029,continuous
+EDU_FG,"F029 II.4.B B.  Highest level of education - Father (regrouped: 3=6th-12th Grade or less,4=H.S. Graduate,5=Some college or certification,6=College grad,7=Graduate or prof degree))",fusii_fm029.csv,FM029,continuous
+ID,Unique patient identifier (randomized),fusii_fm030.csv,FM030,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm030.csv,FM030,continuous
+FORM_ID,Form ID,fusii_fm030.csv,FM030,continuous
+REVISION,Form Revision,fusii_fm030.csv,FM030,continuous
+VISIT_NBR,Visit Number,fusii_fm030.csv,FM030,categorical
+SEQ_NBR,Sequence Number,fusii_fm030.csv,FM030,continuous
+OMI_V,F030 II.1.v Omissions Value,fusii_fm030.csv,FM030,continuous
+OMI_T,F030 II.1.t Omissions T-score,fusii_fm030.csv,FM030,continuous
+OMI_P,F030 II.1.p Omissions Percentile,fusii_fm030.csv,FM030,continuous
+COMMI_V,F030 II.2.v Commissions Value,fusii_fm030.csv,FM030,continuous
+COMMI_T,F030 II.2.t Commissions T-score,fusii_fm030.csv,FM030,continuous
+COMMI_P,F030 II.2.p Commissions Percentile,fusii_fm030.csv,FM030,continuous
+RT_V,F030 II.3.v Hit RT Value,fusii_fm030.csv,FM030,continuous
+RT_T,F030 II.3.t Hit RT T-score,fusii_fm030.csv,FM030,continuous
+RT_P,F030 II.3.p Hit RT Percentile,fusii_fm030.csv,FM030,continuous
+RTSE_V,F030 II.4.v Hit RT Std Error Value,fusii_fm030.csv,FM030,continuous
+RTSE_T,F030 II.4.t Hit RT Std Error T-score,fusii_fm030.csv,FM030,continuous
+RTSE_P,F030 II.4.p Hit RT Std Error Percentile,fusii_fm030.csv,FM030,continuous
+VARI_V,F030 II.5.v Variability Value,fusii_fm030.csv,FM030,continuous
+VARI_T,F030 II.5.t Variability T-score,fusii_fm030.csv,FM030,continuous
+VARI_P,F030 II.5.p Variability Percentile,fusii_fm030.csv,FM030,continuous
+DETECT_V,F030 II.6.v Detectability Value,fusii_fm030.csv,FM030,continuous
+DETECT_T,F030 II.6.t Detectability T-score,fusii_fm030.csv,FM030,continuous
+DETECT_P,F030 II.6.p Detectability Percentile,fusii_fm030.csv,FM030,continuous
+RESP_V,F030 II.7.v Response Style Value,fusii_fm030.csv,FM030,continuous
+RESP_T,F030 II.7.t Response Style T-score,fusii_fm030.csv,FM030,continuous
+RESP_P,F030 II.7.p Response Style Percentile,fusii_fm030.csv,FM030,continuous
+PERS_V,F030 II.8.v Perservations Value,fusii_fm030.csv,FM030,continuous
+PERS_T,F030 II.8.t Perservations T-score,fusii_fm030.csv,FM030,continuous
+PERS_P,F030 II.8.p Perservations Percentile,fusii_fm030.csv,FM030,continuous
+RTBCHG_V,F030 II.9.v Hit RT Block Change Value,fusii_fm030.csv,FM030,continuous
+RTBCHG_T,F030 II.9.t Hit RT Block Change T-score,fusii_fm030.csv,FM030,continuous
+RTBCHG_P,F030 II.9.p Hit RT Block Change Percentile,fusii_fm030.csv,FM030,continuous
+SEBCHG_V,F030 II.10.v Hit SE Block Change Value,fusii_fm030.csv,FM030,continuous
+SEBCHG_T,F030 II.10.t Hit SE Block Change T-score,fusii_fm030.csv,FM030,continuous
+SEBCHG_P,F030 II.10.p Hit SE Block Change Percentile,fusii_fm030.csv,FM030,continuous
+RTICHG_V,F030 II.11.v Hit RT ISI Change Value,fusii_fm030.csv,FM030,continuous
+RTICHG_T,F030 II.11.t Hit RT ISI Change T-score,fusii_fm030.csv,FM030,continuous
+RTICHG_P,F030 II.11.p Hit RT ISI Change Percentile,fusii_fm030.csv,FM030,continuous
+SEICHG_V,F030 II.12.v Hit SE ISI Change Value,fusii_fm030.csv,FM030,continuous
+SEICHG_T,F030 II.12.t Hit SE ISI Change T-score,fusii_fm030.csv,FM030,continuous
+SEICHG_P,F030 II.12.p Hit SE ISI Change Percentile,fusii_fm030.csv,FM030,continuous
+COMMI_G,Commissions guideline,fusii_fm030.csv,FM030,continuous
+DETECT_G,Detectability guideline,fusii_fm030.csv,FM030,continuous
+OMI_G,Omissions guideline,fusii_fm030.csv,FM030,continuous
+PERS_G,Perseverations guideline,fusii_fm030.csv,FM030,continuous
+RESP_G,Response style guideline,fusii_fm030.csv,FM030,continuous
+RT_G,HIT RT guideline,fusii_fm030.csv,FM030,continuous
+RTBCHG_G,Hit RT Block Change guideline,fusii_fm030.csv,FM030,continuous
+RTICHG_G,Hit RT ISI Change guideline,fusii_fm030.csv,FM030,continuous
+RTSE_G,HIT RT Std Error guideline,fusii_fm030.csv,FM030,continuous
+SEBCHG_G,Hit SE Block Change guideline,fusii_fm030.csv,FM030,continuous
+SEICHG_G,Hit SE ISI Change gudieline,fusii_fm030.csv,FM030,continuous
+VARI_G,Variability guideline,fusii_fm030.csv,FM030,continuous
+FM30_ND,Conners Continuous Performance Test-II (CPT-II): data was not collected:,fusii_fm030.csv,FM030,categorical
+VISIT_DT_DAYS,F030 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm030.csv,FM030,continuous
+ID,Unique patient identifier (randomized),fusii_fm031.csv,FM031,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm031.csv,FM031,continuous
+FORM_ID,Form ID,fusii_fm031.csv,FM031,continuous
+REVISION,Form Revision,fusii_fm031.csv,FM031,continuous
+SEQ_NBR,Sequence Number,fusii_fm031.csv,FM031,continuous
+HEIGHT,F031 II.1 Height,fusii_fm031.csv,FM031,continuous
+HT_METHOD,F031 II.1.A Height is measured by,fusii_fm031.csv,FM031,continuous
+WEIGHT,F031 II.2 Weight,fusii_fm031.csv,FM031,continuous
+WT_UNIT,F031 II.2.UNIT Weight unit,fusii_fm031.csv,FM031,continuous
+PREFEV1,F031 III.2.A.1 1. FEV1,fusii_fm031.csv,FM031,continuous
+PREFVC,F031 III.2.A.2 2. FVC,fusii_fm031.csv,FM031,continuous
+PREPEFR,F031 III.2.A.3 3. PEFR (FEF<sub>max</sub>),fusii_fm031.csv,FM031,continuous
+PREFEF25,F031 III.2.A.4 4. FEF25-75,fusii_fm031.csv,FM031,continuous
+PRE_RATIO,F031 III.2.A.5 5.  Ratio (FEV1/FVC),fusii_fm031.csv,FM031,continuous
+POSTFEV1,F031 III.3.C FEV1,fusii_fm031.csv,FM031,continuous
+POSTFVC,F031 III.3.D FVC,fusii_fm031.csv,FM031,continuous
+POSTPEFR,F031 III.3.E PEFR (FEF<sub>max</sub>),fusii_fm031.csv,FM031,continuous
+POSTFEF25,F031 III.3.F FEF25-75,fusii_fm031.csv,FM031,continuous
+POST_RATIO,F031 III.3.G Ratio (FEV1/FVC),fusii_fm031.csv,FM031,continuous
+LUNG_VOL,F031 IV.1 Lung volume,fusii_fm031.csv,FM031,continuous
+TLC,F031 IV.4 TLC,fusii_fm031.csv,FM031,continuous
+MAX_SVC,F031 IV.5 Maximum SVC,fusii_fm031.csv,FM031,continuous
+RV,F031 IV.6 RV,fusii_fm031.csv,FM031,continuous
+MEAN_FRC,F031 IV.7 Mean FRC (TGV),fusii_fm031.csv,FM031,continuous
+DLCO,F031 V.1 DLCO,fusii_fm031.csv,FM031,continuous
+MEAN_DLCO,F031 V.3 Mean DLCO (uncorrected for hemoglobin),fusii_fm031.csv,FM031,continuous
+HEMOGLOBIN,F031 V.4 Hemoglobin,fusii_fm031.csv,FM031,continuous
+VA,F031 V.5 Alveolar Volume,fusii_fm031.csv,FM031,continuous
+O2SAT,F031 VI.1 Oxygen saturation (room air):,fusii_fm031.csv,FM031,continuous
+PRE_EFFORT,F031 III.2.A.0 0. Was the participant's effort acceptable and reproducible according to ATS guidelines?,fusii_fm031.csv,FM031,continuous
+POST_EFFORT,F031 III.3.A.1 1. Was the participant's effort acceptable and reproducible according to ATS guidelines?,fusii_fm031.csv,FM031,continuous
+LUNG_3MANEU,F031 IV.1.A Was the participant able to perform 3 acceptable maneuvers?,fusii_fm031.csv,FM031,continuous
+DLCO_EFFORT,F031 V.1.A Was the participant's effort acceptable and reproducible according to ATS guidelines?,fusii_fm031.csv,FM031,continuous
+VISIT_NBR,Visit Number,fusii_fm031.csv,FM031,categorical
+BRONCH_SP,"1. If Other, specify:",fusii_fm031.csv,FM031,categorical
+DLCO_EFFORT_SP,"*1. If no or questionable, why was effort unacceptable, unreproducible, or questionable?",fusii_fm031.csv,FM031,categorical
+POST_EFFORT_SP,"*a. If no or questionable, why was effort unacceptable, unreproducible, or questionable?",fusii_fm031.csv,FM031,categorical
+PRE_EFFORT_SP,"0a. If no or questionable, why was effort unacceptable, unreproducible, or questionable?",fusii_fm031.csv,FM031,categorical
+BRONCH,B. Bronchodilator:,fusii_fm031.csv,FM031,continuous
+HEMOGLOBIN_ND,Hemoglobin NOT DONE,fusii_fm031.csv,FM031,continuous
+HT_UNIT,1a. Height Units,fusii_fm031.csv,FM031,continuous
+LUNG_VOL2,1. Lung volume:,fusii_fm031.csv,FM031,continuous
+LUNGV_TECH,3. Technique:,fusii_fm031.csv,FM031,continuous
+MAX_SVC_ND,Maximum SVC   NOT DONE,fusii_fm031.csv,FM031,continuous
+MEAN_DLCO_ND,Mean DLCO (uncorrected for hemoglobin) NOT DONE,fusii_fm031.csv,FM031,continuous
+MEAN_FRC_ND,Mean FRC (TGV) NOT DONE,fusii_fm031.csv,FM031,continuous
+O2S_ND,1. Oxygen saturation (room air) NOT DONE,fusii_fm031.csv,FM031,continuous
+POST_BRONCH_SPIROM_ND,A. Post-bronchodilator spirometry:,fusii_fm031.csv,FM031,continuous
+POST_RATIOND,"Ratio (FEV1/FVC),  NOT DONE",fusii_fm031.csv,FM031,continuous
+POSTFEF25_ND,"FEF 25-75,  NOT DONE",fusii_fm031.csv,FM031,continuous
+POSTFEV1_ND,"FEV1,  NOT DONE",fusii_fm031.csv,FM031,continuous
+POSTFVC_ND,"FVC,  NOT DONE",fusii_fm031.csv,FM031,continuous
+POSTPEFR_ND,"PEFR (FEFmax),  NOT DONE",fusii_fm031.csv,FM031,continuous
+PRE_BRONCH_SPIROM_ND,2. Pre-bronchodilator spirometry:,fusii_fm031.csv,FM031,continuous
+PRE_RATIOND,"Ratio (FEV1/FVC),  NOT DONE",fusii_fm031.csv,FM031,continuous
+PREFEF25_ND,"FEF 25-75,  NOT DONE",fusii_fm031.csv,FM031,continuous
+PREFEV1_ND,"FEV1,  NOT DONE",fusii_fm031.csv,FM031,continuous
+PREFVC_ND,"FVC,  NOT DONE",fusii_fm031.csv,FM031,continuous
+PREPEFR_ND,"PEFR (FEFmax),  NOT DONE",fusii_fm031.csv,FM031,continuous
+RV_ND,RV NOT DONE,fusii_fm031.csv,FM031,continuous
+SPIROMETRY_ND,Spirometry NOT DONE,fusii_fm031.csv,FM031,continuous
+TLC_ND,TLC  NOT DONE,fusii_fm031.csv,FM031,continuous
+VA_ND,Alveolar Volume NOT DONE,fusii_fm031.csv,FM031,continuous
+FM31_ND,Pulmonary Function Testing: data was not collected:,fusii_fm031.csv,FM031,categorical
+VISIT_DT_DAYS,F031 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm031.csv,FM031,continuous
+SPIROMETRY_DT_DAYS,F031 III.1 Date of spirometry (recode: number of days after date of initial follow-up visit),fusii_fm031.csv,FM031,continuous
+LUNG_VOL_DT_DAYS,F031 IV.2 Date lung volume performed (recode: number of days after date of initial follow-up visit),fusii_fm031.csv,FM031,continuous
+DLCO_DT_DAYS,F031 V.2 Date DLCO performed (recode: number of days after date of initial follow-up visit),fusii_fm031.csv,FM031,continuous
+ID,Unique patient identifier (randomized),fusii_fm032.csv,FM032,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm032.csv,FM032,continuous
+FORM_ID,Form ID,fusii_fm032.csv,FM032,continuous
+REVISION,Form Revision,fusii_fm032.csv,FM032,continuous
+SEQ_NBR,Sequence Number,fusii_fm032.csv,FM032,continuous
+SOURCE,F032 II.3 Source indication:,fusii_fm032.csv,FM032,continuous
+PT_STATE,F032 II.4 Patient state:,fusii_fm032.csv,FM032,continuous
+LABEL,F032 II.5 Label Number:,fusii_fm032.csv,FM032,categorical
+HEIGHT,F032 II.6 Height:,fusii_fm032.csv,FM032,continuous
+WEIGHT,F032 II.7 Weight:,fusii_fm032.csv,FM032,continuous
+TEMPF,F032 II.8.a.i i.,fusii_fm032.csv,FM032,continuous
+TEMPC,F032 II.8.a.ii ii.,fusii_fm032.csv,FM032,continuous
+HEARTRATE,F032 II.9 Heart rate:,fusii_fm032.csv,FM032,continuous
+RESP,F032 II.10 Respiratory rate:,fusii_fm032.csv,FM032,continuous
+BP_SYSTOLIC,F032 II.11.a a.  Systolic:,fusii_fm032.csv,FM032,continuous
+BP_DIASTOLIC,F032 II.11.b b.  Diastolic,fusii_fm032.csv,FM032,continuous
+ILLNESS,F032 II.12 Were there any illnesses at today's visit?,fusii_fm032.csv,FM032,continuous
+ECHO_COMP,F032 III.1 Was the echocardiogram completed?,fusii_fm032.csv,FM032,continuous
+COMPLICATIONS,F032 III.3 Were there any complications from the echocardiogram?,fusii_fm032.csv,FM032,continuous
+BP_SYSTOLIC_1ST,F032 III.4.a.i Systolic Blood Pressure,fusii_fm032.csv,FM032,continuous
+BP_DIASTOLIC_1ST,F032 III.4.b.i Diastolic Blood Pressure,fusii_fm032.csv,FM032,continuous
+BP_MEAN_1ST,F032 III.4.c.i Mean Blood Pressure,fusii_fm032.csv,FM032,continuous
+BP_SYSTOLIC_2ND,F032 III.4.a.ii Systolic Blood Pressure,fusii_fm032.csv,FM032,continuous
+BP_DIASTOLIC_2ND,F032 III.4.b.ii Diastolic Blood Pressure,fusii_fm032.csv,FM032,continuous
+BP_MEAN_2ND,F032 III.4.c.ii Mean Blood Pressure,fusii_fm032.csv,FM032,continuous
+BP_SYSTOLIC_3RD,F032 III.4.aiii Systolic Blood Pressure,fusii_fm032.csv,FM032,continuous
+BP_DIASTOLIC_3RD,F032 III.4.biii Diastolic Blood Pressure,fusii_fm032.csv,FM032,continuous
+BP_MEAN_3RD,F032 III.4.ciii Mean Blood Pressure,fusii_fm032.csv,FM032,continuous
+MMODE_STRIP,F032 III.5.a a.  M-mode strip chart,fusii_fm032.csv,FM032,continuous
+DOPPLER_STRIP,F032 III.5.b b.  Doppler strip chart,fusii_fm032.csv,FM032,continuous
+PERICARDIAL_EFF,F032 IV.1 Pericardial effusion (End diastolic measurement):,fusii_fm032.csv,FM032,continuous
+AORTIC_MV,F032 IV.2 Aortic valve maximum velocity,fusii_fm032.csv,FM032,continuous
+AORTIC_MV_NA,F032 IV.2NA N/A,fusii_fm032.csv,FM032,continuous
+AORTIC_REG,F032 IV.3 Aortic regurgitation:,fusii_fm032.csv,FM032,continuous
+AORTIC_VEG,F032 IV.4 Aortic vegetation:,fusii_fm032.csv,FM032,continuous
+PULMONIC_MV,F032 IV.5 Pulmonic valve maximum velocity:,fusii_fm032.csv,FM032,continuous
+PULMONIC_MV_NA,F032 IV.5NA N/A,fusii_fm032.csv,FM032,continuous
+PULMONIC_REG,F032 IV.6 Pulmonic regurgitation:,fusii_fm032.csv,FM032,continuous
+PULMONIC_VEG,F032 IV.7 Pulmonic vegetation:,fusii_fm032.csv,FM032,continuous
+MITRAL_MV,F032 IV.8 Mitral valve maximum velocity,fusii_fm032.csv,FM032,continuous
+MITRAL_MV_NA,F032 IV.8NA N/A,fusii_fm032.csv,FM032,continuous
+MITRAL_REG,F032 IV.9 Mitral regurgitation:,fusii_fm032.csv,FM032,continuous
+MITRAL_VEG,F032 IV.10 Mitral vegetation:,fusii_fm032.csv,FM032,continuous
+TRICUSPID_MV,F032 IV.11 Tricuspid valve maximum velocity,fusii_fm032.csv,FM032,continuous
+TRICUSPID_MV_NA,F032 IV.11NA N/A,fusii_fm032.csv,FM032,continuous
+TRICUSPID_REG,F032 IV.12 Tricuspid regurgitation:,fusii_fm032.csv,FM032,continuous
+TRICUSPID_VEG,F032 IV.13 Tricuspid vegetation:,fusii_fm032.csv,FM032,continuous
+ATRIAL_R,F032 IV.14.a a.  Right atrial enlargement,fusii_fm032.csv,FM032,continuous
+ATRIAL_L,F032 IV.14.b b.  Left atrial enlargement,fusii_fm032.csv,FM032,continuous
+INVTR_SPTL_POS,F032 IV.15 Interventricular septal position in late systole:,fusii_fm032.csv,FM032,continuous
+DIASTOLIC_SEPTAL,F032 IV.16 Diastolic septal flattening:,fusii_fm032.csv,FM032,continuous
+REGIONAL_WALL_MOTION,F032 IV.17 Regional wall motion abnormalities:,fusii_fm032.csv,FM032,continuous
+CV_ABNORMAL_MORE,F032 IV.18 Are there any additional cardiovascular abnormalities that were identified during this procedure  and not documented in a previous question on this f,fusii_fm032.csv,FM032,continuous
+CV_ABNORMAL_ABSENT,F032 IV.22 Are there any cardiovascular abnormalities not  documented in previous questions that were  identified on the last echocardiogram that are no  longer,fusii_fm032.csv,FM032,continuous
+BNP,F032 V.1 BNP Result,fusii_fm032.csv,FM032,continuous
+CV_ABNORMAL,F032 IV.18 Are there any cardiovascular abnormalities that were identified during this procedure?,fusii_fm032.csv,FM032,continuous
+P18_STATUS1,Status DX 1,fusii_fm032.csv,FM032,continuous
+P18_STATUS2,Status DX 2,fusii_fm032.csv,FM032,continuous
+VISIT_NBR,Visit Number,fusii_fm032.csv,FM032,categorical
+COMPLICATION_SP,*a. What were the complications?  (Specify):,fusii_fm032.csv,FM032,categorical
+P18_DX1,DX 1 Code:,fusii_fm032.csv,FM032,continuous
+P18_DX2,DX 2 Code:,fusii_fm032.csv,FM032,continuous
+BP_METHOD,c. Method:,fusii_fm032.csv,FM032,continuous
+CARETAKER_OBJ,b. Caretaker objects to participation,fusii_fm032.csv,FM032,continuous
+COMPLIC_DURING,d. Subject developed complications during procedure,fusii_fm032.csv,FM032,continuous
+EQUIP_AVAIL,a. Equipment availability,fusii_fm032.csv,FM032,continuous
+ILLNESS_SUB,"c. Illness of subject, test cancelled by physician",fusii_fm032.csv,FM032,continuous
+INCOM_OTHER,e. Other (specify),fusii_fm032.csv,FM032,continuous
+INCOM_UNK,f. Unknown,fusii_fm032.csv,FM032,continuous
+THERM_PLACE,b. Thermometer placement:,fusii_fm032.csv,FM032,continuous
+FM32_ND,Echocardiogram Performance: data was not collected:,fusii_fm032.csv,FM032,categorical
+CV_ABNORMAL_NUM,"18a. If Yes, how many cardiovascular abnormalities?",fusii_fm032.csv,FM032,continuous
+ECHO_SENT_YN,1. Was the Echocardiogram data sent to Core Lab?,fusii_fm032.csv,FM032,continuous
+VISIT_DT_DAYS,F032 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm032.csv,FM032,continuous
+ECHO_DAYS,F032 II.1 Date of echocardiogram visit: (recode: number of days after date of initial follow-up visit),fusii_fm032.csv,FM032,continuous
+ECHO_SENT_DT_DAYS,2. Data sent date: (recode: number of days after date of initial follow-up visit),fusii_fm032.csv,FM032,continuous
+AGE_YR,Age at F032 Visit (Years portion),fusii_fm032.csv,FM032,continuous
+AGE_MON,Age at F032 Visit (Months portion),fusii_fm032.csv,FM032,continuous
+ID,Unique patient identifier (randomized),fusii_fm033.csv,FM033,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_fm033.csv,FM033,continuous
+FORM_ID,Form ID,fusii_fm033.csv,FM033,continuous
+REVISION,Form Revision,fusii_fm033.csv,FM033,continuous
+SEQ_NBR,Sequence Number,fusii_fm033.csv,FM033,continuous
+SIGNATURE,F033 III.2 Signature,fusii_fm033.csv,FM033,continuous
+VISIT_NBR,Visit Number,fusii_fm033.csv,FM033,categorical
+MRA_LBL,3. MRA Film Label,fusii_fm033.csv,FM033,categorical
+MRI_LBL,2. MRI Film Label,fusii_fm033.csv,FM033,categorical
+MRIMRA_EQPT,1. Equipment:,fusii_fm033.csv,FM033,categorical
+MRIMRA_QUALITY,4. Scan Quality,fusii_fm033.csv,FM033,continuous
+FM33_ND,MRI/MRA Performance: data was not collected:,fusii_fm033.csv,FM033,continuous
+MRIMRA_SENT_YN,1. Was the MRI/MRA data sent to the Central Reviewer?,fusii_fm033.csv,FM033,continuous
+VISIT_DT_DAYS,F033 Visit Date (recode: number of days after date of initial follow-up visit),fusii_fm033.csv,FM033,continuous
+MRIMRA_SENT_DT_DAYS,F033 2. Data sent date: (recode: number of days after date of initial follow-up visit),fusii_fm033.csv,FM033,continuous
+ID,Unique patient identifier (randomized),fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,categorical
+MAJOR_EVENT,MAJOR EVENT,fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,categorical
+UNEXPECTED_AE,Unexpected Adverse Event,fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,categorical
+EVENTNAME,Event Name,fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,categorical
+LLT_CODE,LLT CODE,fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,categorical
+LLT_NAME,LLT NAME,fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,categorical
+PT_CODE,PT CODE,fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,categorical
+PT_TERM,PT TERM,fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,categorical
+HLT_CODE,HLT CODE,fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,continuous
+HLT_TERM,HLT TERM,fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,categorical
+HLGT_CODE,HLGT CODE,fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,continuous
+HLGT_TERM,HLGT TERM,fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,categorical
+SOC_CODE,SOC CODE,fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,continuous
+SOC_TERM,SOC TERM,fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,categorical
+ADMISSION_DT_DAYS,Admission Date (recode: number of days after date of initial follow-up visit),fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,continuous
+DISCHARGE_DT_DAYS,Discharge Date (recode: number of days after date of initial follow-up visit),fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,continuous
+ONSET_DT_DAYS,Onset Date (recode: number of days after date of initial follow-up visit),fusii_fusii_majorevents.csv,FUSII_MAJOREVENTS,continuous
+ID,Unique patient identifier (randomized),fusii_hbf.csv,HBF,continuous
+SPECIMEN_TYPE,Specimen Type,fusii_hbf.csv,HBF,categorical
+VISIT_NBR,Visit Number,fusii_hbf.csv,HBF,categorical
+HBF_LABEL,F003 II.5A Label Number:,fusii_hbf.csv,HBF,categorical
+HBF_SHIP_HR,F003 II.4D.HR Time Shipped:,fusii_hbf.csv,HBF,continuous
+HBF_SHIP_MN,F003 II.4D.MN Minute HbF shipped,fusii_hbf.csv,HBF,continuous
+HBF_TM,HBF Time Collected,fusii_hbf.csv,HBF,categorical
+HBF_ND,HBF Not Done,fusii_hbf.csv,HBF,continuous
+HBF_SENT_YN,Was the sample sent to GHSU Core Lab?,fusii_hbf.csv,HBF,continuous
+HBF_LBL,HbF Label Number (5 digits),fusii_hbf.csv,HBF,continuous
+SPEC_ID,Specimen ID,fusii_hbf.csv,HBF,categorical
+HBF_PCT,HbF Percent,fusii_hbf.csv,HBF,categorical
+CONDITION,condition,fusii_hbf.csv,HBF,categorical
+COMMENTS,Comments,fusii_hbf.csv,HBF,categorical
+VISIT_DT_DAYS,F003 Visit Date (recode: number of days after date of initial follow-up visit),fusii_hbf.csv,HBF,continuous
+HBF_DT_DAYS,F003 II.5B Date Collected: (recode: number of days after date of initial follow-up visit),fusii_hbf.csv,HBF,continuous
+HBF_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_hbf.csv,HBF,continuous
+COLLECTDATE_DAYS,Collect Date (recode: number of days after date of initial follow-up visit),fusii_hbf.csv,HBF,continuous
+DATE_RECEIVED_DAYS,Date Recieved (recode: number of days after date of initial follow-up visit),fusii_hbf.csv,HBF,continuous
+ID,Unique patient identifier (randomized),fusii_hjb.csv,HJB,continuous
+SPECIMEN_TYPE,Specimen Type,fusii_hjb.csv,HJB,categorical
+VISIT_NBR,Visit Number,fusii_hjb.csv,HJB,categorical
+HJB_LABEL,F003 II.8A Label Number:,fusii_hjb.csv,HJB,categorical
+HJB_SHIP_HR,F003 II.7D.HR Time Shipped:,fusii_hjb.csv,HJB,continuous
+HJB_SHIP_MN,F003 II.7D.MN Minute HJB shipped,fusii_hjb.csv,HJB,continuous
+HJB_TM,HJB Time Collected,fusii_hjb.csv,HJB,categorical
+HJB_ND,HJB Not Done,fusii_hjb.csv,HJB,continuous
+HJB_SENT_YN,Was the sample sent to Core Lab?,fusii_hjb.csv,HJB,continuous
+HJB_LBL,HJB Label Number (5 digits),fusii_hjb.csv,HJB,continuous
+PCTRETIC,YOUNG RETICULOCYTES(%),fusii_hjb.csv,HJB,continuous
+YRETWHJB,YOUNG RETICULOCYTES WITH HJB(%),fusii_hjb.csv,HJB,continuous
+PRBCWHJB,MATURE RBC WITH HJB(%),fusii_hjb.csv,HJB,continuous
+MATRBC,MATURE RBC WITH HJB(No.),fusii_hjb.csv,HJB,categorical
+VISIT_DT_DAYS,F003 Visit Date (recode: number of days after date of initial follow-up visit),fusii_hjb.csv,HJB,continuous
+HJB_DT_DAYS,F003 II.8B Date Collected: (recode: number of days after date of initial follow-up visit),fusii_hjb.csv,HJB,continuous
+HJB_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_hjb.csv,HJB,continuous
+ID,Unique patient identifier (randomized),fusii_liverspleenscan.csv,LIVERSPLEENSCAN,continuous
+FORM_ID,Form ID,fusii_liverspleenscan.csv,LIVERSPLEENSCAN,continuous
+SPEC_ID,Specimen ID,fusii_liverspleenscan.csv,LIVERSPLEENSCAN,categorical
+LS_LABEL5,Liver Spleen Label Number (5 digits),fusii_liverspleenscan.csv,LIVERSPLEENSCAN,continuous
+VISIT_NBR,Visit Number,fusii_liverspleenscan.csv,LIVERSPLEENSCAN,categorical
+QLTY_SP,"F040 II.4.A If inadequate, explain",fusii_liverspleenscan.csv,LIVERSPLEENSCAN,categorical
+TEST,Test Type,fusii_liverspleenscan.csv,LIVERSPLEENSCAN,categorical
+REVISION,Form Revision,fusii_liverspleenscan.csv,LIVERSPLEENSCAN,continuous
+SEQ_NBR,Sequence Number,fusii_liverspleenscan.csv,LIVERSPLEENSCAN,continuous
+LSRDRSIG,F040 II.2 Reader Signature,fusii_liverspleenscan.csv,LIVERSPLEENSCAN,continuous
+LSRDRNBR,F040 II.3 Reader Number,fusii_liverspleenscan.csv,LIVERSPLEENSCAN,continuous
+LSSCN_QLTY,F040 II.4. Current Status of this Reading,fusii_liverspleenscan.csv,LIVERSPLEENSCAN,continuous
+SPLUPT,F040 III.1 Splenic uptake (answer only one),fusii_liverspleenscan.csv,LIVERSPLEENSCAN,continuous
+SPL_DCRS,"F040 III.1.a. If decreased,",fusii_liverspleenscan.csv,LIVERSPLEENSCAN,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_liverspleenscan.csv,LIVERSPLEENSCAN,continuous
+SOURCE,Source,fusii_liverspleenscan.csv,LIVERSPLEENSCAN,categorical
+VISIT_DT_DAYS,Visit Date (recode: number of days after date of initial follow-up visit),fusii_liverspleenscan.csv,LIVERSPLEENSCAN,continuous
+REVIEW_RETURN_DATE_S_R_DAYS,REVIEW RETURN DATE S/R (recode: number of days after date of initial follow-up visit),fusii_liverspleenscan.csv,LIVERSPLEENSCAN,continuous
+ID,Unique patient identifier (randomized),fusii_mra.csv,MRA,continuous
+FORM_ID,Form ID,fusii_mra.csv,MRA,continuous
+SPEC_ID,Specimen ID,fusii_mra.csv,MRA,categorical
+MRA_LABEL5,MRA Label Number (5 digits),fusii_mra.csv,MRA,continuous
+VISIT_NBR,Visit Number,fusii_mra.csv,MRA,categorical
+TEST,Test Type,fusii_mra.csv,MRA,categorical
+SEQ_NBR,Sequence Number,fusii_mra.csv,MRA,continuous
+MRA_QUAL,F044 II.3. SCAN QUALITY (MARK ONE):,fusii_mra.csv,MRA,continuous
+MRA_STAT,F044 II.4. CURRENT STATUS OF THIS READING:,fusii_mra.csv,MRA,continuous
+ORRICA,F044 III.1.a. OVERALL RATING R ICA,fusii_mra.csv,MRA,continuous
+ORRMCA,F044 III.2.a. OVERALL RATING R MCA,fusii_mra.csv,MRA,continuous
+ORRACA,F044 III.3.a. OVERALL RATING R ACA,fusii_mra.csv,MRA,continuous
+ORLICA,F044 III.4.a. OVERALL RATING L ICA,fusii_mra.csv,MRA,continuous
+ORLMCA,F044 III.5.a. OVERALL RATING L MCA,fusii_mra.csv,MRA,continuous
+ORLACA,F044 III.6.a. OVERALL RATING L ACA,fusii_mra.csv,MRA,continuous
+ORBASIL,F044 III.7.a. OVERALL RATING Basilar,fusii_mra.csv,MRA,continuous
+ORMRA,F044 III.8.a. Overall rating MRA,fusii_mra.csv,MRA,continuous
+BLDVSLS,F044 III.9. Collateral Blood Vessels (Mark One):,fusii_mra.csv,MRA,continuous
+ABRICA,F044 III.1.b. Describe abnormality R ICA,fusii_mra.csv,MRA,continuous
+LSSRICA,F044 III.1.c. LENGTH OF STENOSIS R ICA,fusii_mra.csv,MRA,continuous
+INVSEGR1,F044 III.1.d1 INVOLVED SEGMENTS 1 R ICA,fusii_mra.csv,MRA,continuous
+INVSEGR2,F044 III.1.d2 INVOLVED SEGMENTS 2 R ICA,fusii_mra.csv,MRA,continuous
+INVSEGR3,F044 III.1.d3 INVOLVED SEGMENTS 3 R ICA,fusii_mra.csv,MRA,continuous
+INVSEGR4,F044 III.1.d4 INVOLVED SEGMENTS 4 R ICA,fusii_mra.csv,MRA,continuous
+ABRMCA,F044 III.2.b. Describe Abnormality R MCA,fusii_mra.csv,MRA,continuous
+LSSRMCA,F044 III.2.c. LENGTH OF STENOSIS R MCA,fusii_mra.csv,MRA,continuous
+ABLMCA,F044 III.5.b. Describe Abnormality L MCA,fusii_mra.csv,MRA,continuous
+LSSLMCA,F044 III.5.c. LENGTH OF STENOSIS L MCA,fusii_mra.csv,MRA,continuous
+ABMRA,F044 III.8.b. Describe abnormality MRA,fusii_mra.csv,MRA,continuous
+LSSMRA,F044 III.8.c. Length of stenosis overall MRA,fusii_mra.csv,MRA,continuous
+INVSEG1,F044 III.8.d.1 Overall MRA,fusii_mra.csv,MRA,continuous
+INVSEG2,F044 III.8.d.2. Overall MRA Segment 2 MRA,fusii_mra.csv,MRA,continuous
+INVSEG3,F044 III.8.d.3. Segment 3 MRA,fusii_mra.csv,MRA,continuous
+INVSEG4,F044 III.8.d.4. Segment 4 MRA,fusii_mra.csv,MRA,continuous
+MRARDRNO,F044 II.2. Reader Number:,fusii_mra.csv,MRA,categorical
+VISIT_DT_DAYS,Visit Date (recode: number of days after date of initial follow-up visit),fusii_mra.csv,MRA,continuous
+READ_RCVD_DATE_DAYS,Reading Received Date (recode: number of days after date of initial follow-up visit),fusii_mra.csv,MRA,continuous
+ID,Unique patient identifier (randomized),fusii_mri.csv,MRI,continuous
+TEST,Test Name,fusii_mri.csv,MRI,categorical
+VISIT_NBR,Visit Number,fusii_mri.csv,MRI,categorical
+FORM_ID,Form ID,fusii_mri.csv,MRI,continuous
+REVISION,Form Revision,fusii_mri.csv,MRI,continuous
+SEQ_NBR,Sequence Number,fusii_mri.csv,MRI,continuous
+SPEC_ID,Specimen ID,fusii_mri.csv,MRI,categorical
+MRI_QUAL,MRI Quality,fusii_mri.csv,MRI,continuous
+MRI_VOLU,MRI Volume,fusii_mri.csv,MRI,continuous
+MRI_STAT,MRI Status,fusii_mri.csv,MRI,continuous
+ATROPHY,F81 II_7 GENERAL APPEARANCE,fusii_mri.csv,MRI,continuous
+ATR_GENL,F81 II_7A IS THE ATROPHY GENERAL?,fusii_mri.csv,MRI,continuous
+ATRGSULC,F81 II_7A1 GENERAL: SULCAL,fusii_mri.csv,MRI,continuous
+ATRGVENT,F81 II_7A2 GENERAL: VENTRICULAR,fusii_mri.csv,MRI,continuous
+ATR_SEV,F81 II_7A3 GENERAL: LEVEL OF SEVERITY,fusii_mri.csv,MRI,continuous
+ATR_FOCL,F81 II_7B FOCAL,fusii_mri.csv,MRI,continuous
+ATRFSULC,F81 II_7B1 FOCAL: SULCAL,fusii_mri.csv,MRI,continuous
+ATRFVENT,F81 II_7B2 FOCAL: VENTRICULAR,fusii_mri.csv,MRI,continuous
+FOCAL_SP,F81 II_7B3SP FOCAL: SPECIFY AREA,fusii_mri.csv,MRI,continuous
+FINDINGS,F81 III_1 DISCREET FINDINGS,fusii_mri.csv,MRI,continuous
+LSNA_SID,F81 III_1ASIDLESION SIDE A,fusii_mri.csv,MRI,continuous
+LSNA_TYP,F81 III_1ATYPLESION TYPE A,fusii_mri.csv,MRI,continuous
+LSNA_SIZ,F81 III_1ASIZLESION SIZE A,fusii_mri.csv,MRI,continuous
+LSNA_LC1,F81 III_1A1 LESION LOCATION A1,fusii_mri.csv,MRI,continuous
+LSNA_LC2,F81 III_1A2 LESION LOCATION A2,fusii_mri.csv,MRI,continuous
+LSNA_LC3,F81 III_1A3 LESION LOCATION A3,fusii_mri.csv,MRI,continuous
+LSNA_LC4,F81 III_1A4 LESION LOCATION A4,fusii_mri.csv,MRI,continuous
+LSNB_SID,F81 III_1BSIDLESION SIDE B,fusii_mri.csv,MRI,continuous
+LSNB_TYP,F81 III_1BTYPLESION TYPE B,fusii_mri.csv,MRI,continuous
+LSNB_SIZ,F81 III_1BSIZLESION SIZE B,fusii_mri.csv,MRI,continuous
+LSNB_LC1,F81 III_1B1 LESION LOCATION B1,fusii_mri.csv,MRI,continuous
+LSNB_LC2,F81 III_1B2 LESION LOCATION B2,fusii_mri.csv,MRI,continuous
+LSNB_LC3,F81 III_1B3 LESION LOCATION B3,fusii_mri.csv,MRI,continuous
+LSNB_LC4,F81 III_1B4 LESION LOCATION B4,fusii_mri.csv,MRI,continuous
+LSNC_SID,F81 III_1CSIDLESION SIDE C,fusii_mri.csv,MRI,continuous
+LSNC_TYP,F81 III_1CTYPLESION TYPE C,fusii_mri.csv,MRI,continuous
+LSNC_SIZ,F81 III_1CSIZLESION SIZE C,fusii_mri.csv,MRI,continuous
+LSNC_LC1,F81 III_1C1 LESION LOCATION C1,fusii_mri.csv,MRI,continuous
+LSNC_LC2,F81 III_1C2 LESION LOCATION C2,fusii_mri.csv,MRI,continuous
+LSNC_LC3,F81 III_1C3 LESION LOCATION C3,fusii_mri.csv,MRI,continuous
+LSNC_LC4,F81 III_1C4 LESION LOCATION C4,fusii_mri.csv,MRI,continuous
+LSND_SID,F81 III_1DSIDLESION SIDE D,fusii_mri.csv,MRI,continuous
+LSND_TYP,F81 III_1DTYPLESION TYPE D,fusii_mri.csv,MRI,continuous
+LSND_SIZ,F81 III_1DSIZLESION SIZE D,fusii_mri.csv,MRI,continuous
+LSND_LC1,F81 III_1D1 LESION LOCATION D1,fusii_mri.csv,MRI,continuous
+LSND_LC2,F81 III_1D2 LESION LOCATION D2,fusii_mri.csv,MRI,continuous
+LSND_LC3,F81 III_1D3 LESION LOCATION D3,fusii_mri.csv,MRI,continuous
+LSND_LC4,F81 III_1D4 LESION LOCATION D4,fusii_mri.csv,MRI,continuous
+LSNE_SID,F81 III_1ESIDLESION SIDE E,fusii_mri.csv,MRI,continuous
+LSNE_TYP,F81 III_1ETYPLESION TYPE E,fusii_mri.csv,MRI,continuous
+LSNE_SIZ,F81 III_1ESIZLESION SIZE E,fusii_mri.csv,MRI,continuous
+LSNE_LC1,F81 III_1E1 LESION LOCATION E1,fusii_mri.csv,MRI,continuous
+LSNE_LC2,F81 III_1E2 LESION LOCATION E2,fusii_mri.csv,MRI,continuous
+LSNE_LC3,F81 III_1E3 LESION LOCATION E3,fusii_mri.csv,MRI,continuous
+LSNE_LC4,F81 III_1E4 LESION LOCATION E4,fusii_mri.csv,MRI,continuous
+LSNF_SID,F81 III_1FSIDLESION SIDE F,fusii_mri.csv,MRI,continuous
+LSNF_TYP,F81 III_FTYP LESION TYPE F,fusii_mri.csv,MRI,continuous
+LSNF_SIZ,F81 III_FSIZ LESION SIZE F,fusii_mri.csv,MRI,continuous
+LSNF_LC1,F81 III_1F1 LESION LOCATION F1,fusii_mri.csv,MRI,continuous
+LSNF_LC2,F81 III_1F2 LESION LOCATION F2,fusii_mri.csv,MRI,continuous
+LSNF_LC3,F81 III_1F3 LESION LOCATION F3,fusii_mri.csv,MRI,continuous
+LSNF_LC4,F81 III_1F4 LESION LOCATION F4,fusii_mri.csv,MRI,continuous
+LSNG_SID,F81 III_1GSIDLESION SIDE G,fusii_mri.csv,MRI,continuous
+LSNG_TYP,F81 III_1GTYPLESION TYPE G,fusii_mri.csv,MRI,continuous
+LSNG_SIZ,F81 III_1GSIZLESION SIZE G,fusii_mri.csv,MRI,continuous
+LSNG_LC1,F81 III_1G1 LESION LOCATION G1,fusii_mri.csv,MRI,continuous
+LSNG_LC2,F81 III_1G2 LESION LOCATION G2,fusii_mri.csv,MRI,continuous
+LSNG_LC3,F81 III_1G3 LESION LOCATION G3,fusii_mri.csv,MRI,continuous
+LSNG_LC4,F81 III_1G4 LESION LOCATION G4,fusii_mri.csv,MRI,continuous
+VRIICC_R,"F81 III_2AR VASCULAR REGION OF INFARCT: ICC, RIGHT",fusii_mri.csv,MRI,continuous
+VRIICC_L,"F81 III_2AL VASCULAR REGION OF INFARCT: ICC, LEFT",fusii_mri.csv,MRI,continuous
+VRIICS_R,"F81 III_2BR VASCULAR REGION OF INFARCT: ICS, RIGHT",fusii_mri.csv,MRI,continuous
+VRIICS_L,"F81 III_2BL VASCULAR REGION OF INFARCT: ICS, LEFT",fusii_mri.csv,MRI,continuous
+VRIMCA_R,"F81 III_2CR VASCULAR REGION OF INFARCT: MCA, RIGHT",fusii_mri.csv,MRI,continuous
+VRIMCA_L,"F81 III_2CL VASCULAR REGION OF INFARCT: MCA, LEFT",fusii_mri.csv,MRI,continuous
+VRIACA_R,"F81 III_2DR VASCULAR REGION OF INFARCT: ACA, RIGHT",fusii_mri.csv,MRI,continuous
+VRIACA_L,"F81 III_2DL VASCULAR REGION OF INFARCT: ACA, LEFT",fusii_mri.csv,MRI,continuous
+VRIPCA_R,"F81 III_2ER VASCULAR REGION OF INFARCT: PCA, RIGHT",fusii_mri.csv,MRI,continuous
+VRIPCA_L,"F81 III_2EL VASCULAR REGION OF INFARCT: PCA, LEFT",fusii_mri.csv,MRI,continuous
+VRIBSL,F81 III_2F VASCULAR REGION OF INFARCT: BASILAR,fusii_mri.csv,MRI,continuous
+VRIABZ,F81 III_2G VASCULAR REGION OF INFARCT: ANTERIOR BORDER ZONE,fusii_mri.csv,MRI,continuous
+VRIPBZ,F81 III_2H VASCULAR REGION OF INFARCT: POSTERIOR BORDER ZONE,fusii_mri.csv,MRI,continuous
+VRICSB,F81 III_2I VASCULAR REGION OF INFARCT: CENTRUM SEMIOVALE BORDER ZONE,fusii_mri.csv,MRI,continuous
+VRISTR,F81 III_2J VASCULAR REGION OF INFARCT: STRIATUM (LENTICULOSTRIATES),fusii_mri.csv,MRI,continuous
+BONY_CHG,F81 III_4 BONY CHANGES,fusii_mri.csv,MRI,continuous
+OTHLESN,F81 III_5 OTHER LESIONS,fusii_mri.csv,MRI,continuous
+DWIFAVAI,F81 III_6 ARE DWI FILMS AVAILABLE FOR THIS REVIEW?,fusii_mri.csv,MRI,continuous
+VISIT_DT_DAYS,Visit Date (recode: number of days after date of initial follow-up visit),fusii_mri.csv,MRI,continuous
+READ_RCVD_DATE_DAYS,Reading Received Date (recode: number of days after date of initial follow-up visit),fusii_mri.csv,MRI,continuous
+ID,Unique patient identifier (randomized),fusii_pitted_cell.csv,PITTED_CELL,continuous
+CELL_LBL,Pitted Cell Label Number,fusii_pitted_cell.csv,PITTED_CELL,continuous
+VISIT_NBR,Visit Number,fusii_pitted_cell.csv,PITTED_CELL,categorical
+CELL_SHIP_HR,F003 II.6D.HR Time Shipped:,fusii_pitted_cell.csv,PITTED_CELL,continuous
+CELL_SHIP_MN,F003 II.6D.MN Minute pitted cells shipped,fusii_pitted_cell.csv,PITTED_CELL,continuous
+PITTED_RESULT,Pitted Cell Result,fusii_pitted_cell.csv,PITTED_CELL,continuous
+VISIT_DT_DAYS,Visit Date (recode: number of days after date of initial follow-up visit),fusii_pitted_cell.csv,PITTED_CELL,continuous
+CELL_DT_DAYS,F003 II.7B Date Collected (recode: number of days after date of initial follow-up visit),fusii_pitted_cell.csv,PITTED_CELL,continuous
+ID,Unique patient identifier (randomized),fusii_tcd.csv,TCD,continuous
+VISIT_NBR,Visit Number,fusii_tcd.csv,TCD,categorical
+TCD_LBL,TCD Label,fusii_tcd.csv,TCD,categorical
+LABEL5,TCD Label (5 digits),fusii_tcd.csv,TCD,categorical
+RESULTS_DATASOURCE,DCC collected the data,fusii_tcd.csv,TCD,categorical
+PTNTPOS,F013 II.2 Patient's position during exam,fusii_tcd.csv,TCD,continuous
+COMPEXAM,F013 III.1 Completeness of exam,fusii_tcd.csv,TCD,continuous
+INCEXAM,F013 III.1A Reason for incomplete exam,fusii_tcd.csv,TCD,continuous
+INCEX_SP,"F013 III.1A Reason for incomplete exam, Specify",fusii_tcd.csv,TCD,categorical
+POS_SP,"F013 II.2 Patient's position during exam, Specify",fusii_tcd.csv,TCD,categorical
+FM13_ND,Transcranial Doppler Exam: data was not collected:,fusii_tcd.csv,TCD,categorical
+TCD_EXAM_SENT_YN,Was the TCD exam data sent to Core Lab?,fusii_tcd.csv,TCD,continuous
+TCD_EXAM_TRACK_NO,FedEx Tracking Number:,fusii_tcd.csv,TCD,categorical
+RESULTS,RESULTS,fusii_tcd.csv,TCD,categorical
+STUDY_ID,Study ID,fusii_tcd.csv,TCD,continuous
+FORM_INSTANCE_ID,Form Instance ID,fusii_tcd.csv,TCD,continuous
+FORM_ID,Form ID,fusii_tcd.csv,TCD,continuous
+REVISION,Form Revision,fusii_tcd.csv,TCD,continuous
+SEQ_NBR,Sequence Number,fusii_tcd.csv,TCD,continuous
+HDIAM,HEAD DIAMETER (cm),fusii_tcd.csv,TCD,continuous
+LM1DE,Left Side M-1: Depth,fusii_tcd.csv,TCD,continuous
+LM1M,Left Side M-1: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+LM1S,Left Side M-1: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LM1D,Left Side M-1: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LM1PI,Left Side M-1: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+LM1RI,Left Side M-1: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+LMCADE,Left Side MCA: Depth,fusii_tcd.csv,TCD,continuous
+LMCAM,Left Side MCA: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+LMCAS,Left Side MCA: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LMCAD,Left Side MCA: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LMCAPI,Left Side MCA: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+LMCARI,Left Side MCA: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+LBIFDE,Left Side BIF: Depth,fusii_tcd.csv,TCD,continuous
+LBIFM,Left Side BIF: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+LBIFS,Left Side BIF: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LBIFD,Left Side BIF: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LBIFPI,Left Side BIF: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+LBIFRI,Left Side BIF: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+LACADE,Left Side ACA: Depth,fusii_tcd.csv,TCD,continuous
+LACAM,Left Side ACA: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+LACAS,Left Side ACA: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LACAD,Left Side ACA: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LACAPI,Left Side ACA: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+LACARI,Left Side ACA: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+LICADE,Left Side dICA: Depth,fusii_tcd.csv,TCD,continuous
+LICAM,Left Side dICA: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+LICAS,Left Side dICA: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LICAD,Left Side dICA: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LICAPI,Left Side dICA: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+LICARI,Left Side dICA: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+LPCADE,Left Side PCA: Depth,fusii_tcd.csv,TCD,continuous
+LPCAM,Left Side PCA: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+LPCAS,Left Side PCA: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LPCAD,Left Side PCA: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LPCAPI,Left Side PCA: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+LPCARI,Left Side PCA: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+LTOBDE,Left Side TOB: Depth,fusii_tcd.csv,TCD,continuous
+LTOBM,Left Side TOB: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+LTOBS,Left Side TOB: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LTOBD,Left Side TOB: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+LTOBPI,Left Side TOB: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+LTOBRI,Left Side TOB: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+RM1DE,Right Side M-1: Depth,fusii_tcd.csv,TCD,continuous
+RM1M,Right Side M-1: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+RM1S,Right Side M-1: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RM1D,Right Side M-1: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RM1PI,Right Side M-1: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+RM1RI,Right Side M-1: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+RMCADE,Right Side MCA: Depth,fusii_tcd.csv,TCD,continuous
+RMCAM,Right Side MCA: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+RMCAS,Right Side MCA: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RMCAD,Right Side MCA: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RMCAPI,Right Side MCA: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+RMCARI,Right Side MCA: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+RBIFDE,Right Side BIF: Depth,fusii_tcd.csv,TCD,continuous
+RBIFM,Right Side BIF: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+RBIFS,Right Side BIF: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RBIFD,Right Side BIF: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RBIFPI,Right Side BIF: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+RBIFRI,Right Side BIF: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+RACADE,Right Side ACA: Depth,fusii_tcd.csv,TCD,continuous
+RACAM,Right Side ACA: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+RACAS,Right Side ACA: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RACAD,Right Side ACA: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RACAPI,Right Side ACA: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+RACARI,Right Side ACA: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+RICADE,Right Side dICA: Depth,fusii_tcd.csv,TCD,continuous
+RICAM,Right Side dICA: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+RICAS,Right Side dICA: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RICAD,Right Side dICA: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RICAPI,Right Side dICA: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+RICARI,Right Side dICA: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+RPCADE,Right Side PCA: Depth,fusii_tcd.csv,TCD,continuous
+RPCAM,Right Side PCA: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+RPCAS,Right Side PCA: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RPCAD,Right Side PCA: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RPCAPI,Right Side PCA: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+RPCARI,Right Side PCA: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+RTOBDE,Right Side TOB: Depth,fusii_tcd.csv,TCD,continuous
+RTOBM,Right Side TOB: Mean Velocity (cm/s),fusii_tcd.csv,TCD,continuous
+RTOBS,Right Side TOB: Waveform Systolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RTOBD,Right Side TOB: Waveform Diastolic Measurement (cm/s),fusii_tcd.csv,TCD,continuous
+RTOBPI,Right Side TOB: Waveform Pulsatility Index,fusii_tcd.csv,TCD,continuous
+RTOBRI,Right Side TOB: Waveform Resistance Index,fusii_tcd.csv,TCD,continuous
+COMMENT,Comment,fusii_tcd.csv,TCD,categorical
+VISIT_DT_DAYS,Visit Date (recode: number of days after date of initial follow-up visit),fusii_tcd.csv,TCD,continuous
+VISIT_DT_FM13_DAYS,Visit Date from Form FM13 (recode: number of days after date of initial follow-up visit),fusii_tcd.csv,TCD,continuous
+LABDATE_DAYS,Lab Date (recode: number of days after date of initial follow-up visit),fusii_tcd.csv,TCD,continuous
+TCD_EXAM_SENT_DT_DAYS,Data sent date: (recode: number of days after date of initial follow-up visit),fusii_tcd.csv,TCD,continuous
+ID,Unique patient identifier (randomized),fusii_urine.csv,URINE,continuous
+SPECIMEN_TYPE,Specimen Type,fusii_urine.csv,URINE,categorical
+VISIT_NBR,Visit Number,fusii_urine.csv,URINE,categorical
+URINE_LABEL,Urine Label,fusii_urine.csv,URINE,categorical
+URINE_LBL,"Urine Label, 5 digit",fusii_urine.csv,URINE,continuous
+URINE_ND,Urine Note Done,fusii_urine.csv,URINE,continuous
+URINE_SENT_YN,Was the sample sent to GHSU Core Lab?,fusii_urine.csv,URINE,continuous
+URINE_SHIP_HR,F003 II.1D.HR Time Shipped:,fusii_urine.csv,URINE,continuous
+URINE_SHIP_MN,F003 II.1D.MN Minutes urine shipped,fusii_urine.csv,URINE,continuous
+URINE_TM,Urine Time,fusii_urine.csv,URINE,categorical
+SPEC_ID,Urine Label,fusii_urine.csv,URINE,categorical
+UR_ALB_CREAT,Urine Microalbumin - Creatinine Ratio,fusii_urine.csv,URINE,categorical
+UR_CREATININE,Urine Creatinine,fusii_urine.csv,URINE,categorical
+UR_MICROALB,Urine Microalbumin,fusii_urine.csv,URINE,categorical
+CONDITION,Condition,fusii_urine.csv,URINE,categorical
+COMMENTS,Comments,fusii_urine.csv,URINE,categorical
+VISIT_DT_DAYS,Visit Date (recode: number of days after date of initial follow-up visit),fusii_urine.csv,URINE,continuous
+URINE_DT_DAYS,F003 II.2B Date collected (recode: number of days after date of initial follow-up visit),fusii_urine.csv,URINE,continuous
+URINE_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_urine.csv,URINE,continuous
+COLLECTDATE_DAYS,Collection Date (recode: number of days after date of initial follow-up visit),fusii_urine.csv,URINE,continuous
+DATE_RECEIVED_DAYS,Date Received (recode: number of days after date of initial follow-up visit),fusii_urine.csv,URINE,continuous
+ID,Unique patient identifier (randomized),fusii_vdj.csv,VDJ,continuous
+COMMENTS,SPECIMEN_TYPE,fusii_vdj.csv,VDJ,categorical
+VISIT_NBR,Visit Number,fusii_vdj.csv,VDJ,categorical
+VDJ_LABEL,F003 II.9A Label Number:,fusii_vdj.csv,VDJ,categorical
+VDJ_LBL,VDJ Label Number (5 digits),fusii_vdj.csv,VDJ,continuous
+VDJ_ND,VDJ Not Done,fusii_vdj.csv,VDJ,continuous
+VDJ_SENT_YN,Was the sample sent to Core Lab?,fusii_vdj.csv,VDJ,continuous
+VDJ_SHIP_HR,F003 II.8D.HR Time Shipped:,fusii_vdj.csv,VDJ,continuous
+VDJ_SHIP_MN,F003 II.8D.MN Minute VDJ shipped,fusii_vdj.csv,VDJ,continuous
+VDJ_TM,VDJ Time Collected,fusii_vdj.csv,VDJ,categorical
+PCRAVGR,INVERSE AVERAGE PCR,fusii_vdj.csv,VDJ,categorical
+VISIT_DT_DAYS,F003 Visit Date (recode: number of days after date of initial follow-up visit),fusii_vdj.csv,VDJ,continuous
+VDJ_DT_DAYS,F003 II.9B Date Collected: (recode: number of days after date of initial follow-up visit),fusii_vdj.csv,VDJ,continuous
+VDJ_SENT_DT_DAYS,D. Sample sent Date: (recode: number of days after date of initial follow-up visit),fusii_vdj.csv,VDJ,continuous
+ID,Unique patient identifier (randomized),fusii_vsit_dtl_visit.csv,VSIT_DTL_VISIT,continuous
+STUDY_ID,Study ID,fusii_vsit_dtl_visit.csv,VSIT_DTL_VISIT,continuous
+VISIT_ID,Visit ID,fusii_vsit_dtl_visit.csv,VSIT_DTL_VISIT,continuous
+VISIT_NBR,Visit Number,fusii_vsit_dtl_visit.csv,VSIT_DTL_VISIT,categorical
+ACCEPTABLE_BEGIN_DT_DAYS,Acceptable Begin Date (recode: number of days after date of initial follow-up visit),fusii_vsit_dtl_visit.csv,VSIT_DTL_VISIT,continuous
+IDEAL_BEGIN_DT_DAYS,Ideal Begin Date (recode: number of days after date of initial follow-up visit),fusii_vsit_dtl_visit.csv,VSIT_DTL_VISIT,continuous
+TARGET_DT_DAYS,Target Date (recode: number of days after date of initial follow-up visit),fusii_vsit_dtl_visit.csv,VSIT_DTL_VISIT,continuous
+IDEAL_END_DT_DAYS,Ideal End Date (recode: number of days after date of initial follow-up visit),fusii_vsit_dtl_visit.csv,VSIT_DTL_VISIT,continuous
+ACCEPTABLE_END_DT_DAYS,Acceptable End Date (recode: number of days after date of initial follow-up visit),fusii_vsit_dtl_visit.csv,VSIT_DTL_VISIT,continuous
+ACTUAL_VISIT_DT_DAYS,Actual Visit Date (recode: number of days after date of initial follow-up visit),fusii_vsit_dtl_visit.csv,VSIT_DTL_VISIT,continuous

@@ -112,8 +112,8 @@ scatxrsn scatxrsn.;
 run;
 
 * Export decoded data with encoded header;
-proc export data=hct.curesc_year2_v2 outfile="/home/sasuser/HCT_for_SCD/output/curesc_year2_v2_decoded.csv";
-	delimiter=',';
+filename output "/home/sasuser/HCT_for_SCD/output2/curesc_year2_v2_decoded.csv" encoding='utf-8';
+proc export data=hct.curesc_year2_v2 outfile=output dbms='csv';
 	run;
 
 * Save dataset contents as metadata - later saved as CSV to use for JSON metadata correction;

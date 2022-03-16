@@ -1,0 +1,835 @@
+varname,LABEL,file,MEMNAME,picsure_type
+RAND_ID,Randomized ID,ext1_demo.csv,DEMO,categorical
+RACE,Ethnicity,ext1_demo.csv,DEMO,categorical
+GENDER,Gender,ext1_demo.csv,DEMO,categorical
+PFUENRO,"MSH PFU Enrolled 1=Yes, 0=NO",ext1_demo.csv,DEMO,continuous
+RAND_ID,Randomized ID,ext1_fm41.csv,FM41,categorical
+AV,Annual Visit,ext1_fm41.csv,FM41,categorical
+HOUSE,The patients primary residence,ext1_fm41.csv,FM41,categorical
+ROOMS,How many rooms are in the patient's resi,ext1_fm41.csv,FM41,continuous
+EDUCATN,How much school has the patient complete,ext1_fm41.csv,FM41,categorical
+INCOME_P,Patients personal income last year,ext1_fm41.csv,FM41,categorical
+INCOME_H,Total household income last year,ext1_fm41.csv,FM41,categorical
+MARITAL,Patients marital status,ext1_fm41.csv,FM41,categorical
+PERSONS,Total number of patients in household,ext1_fm41.csv,FM41,continuous
+PRIVINS,Private insurance,ext1_fm41.csv,FM41,continuous
+MEDICARE,Medicare,ext1_fm41.csv,FM41,continuous
+MEDICAID,Medicaid,ext1_fm41.csv,FM41,continuous
+STATEINS,State program,ext1_fm41.csv,FM41,continuous
+EMPLYMNT,Employment status,ext1_fm41.csv,FM41,categorical
+UNEMP_YR,Time since last employed - yrs,ext1_fm41.csv,FM41,continuous
+UNEMP_MO,Time since last employed - mos,ext1_fm41.csv,FM41,continuous
+EMP_5YRS,Has the patient been employed w/in the l,ext1_fm41.csv,FM41,continuous
+OCCUPATN,Patient's main occupation,ext1_fm41.csv,FM41,categorical
+INDUSTRY,What kind of place does patient work for,ext1_fm41.csv,FM41,categorical
+YRS_WRKD,Total years of work,ext1_fm41.csv,FM41,continuous
+RAND_ID,Randomized ID,ext1_fm42.csv,FM42,categorical
+AV,Annual Visit,ext1_fm42.csv,FM42,categorical
+SF_1,In general health is...,ext1_fm42.csv,FM42,categorical
+SF_2,"Compared to one year ago, rate health no",ext1_fm42.csv,FM42,categorical
+SF_3A,Limit vigorous activities,ext1_fm42.csv,FM42,categorical
+SF_3B,Limit moderate activities,ext1_fm42.csv,FM42,categorical
+SF_3C,Limit liftingor carrying groceries,ext1_fm42.csv,FM42,categorical
+SF_3D,Limit climbing several flights of stairs,ext1_fm42.csv,FM42,categorical
+SF_3E,Limit climbing one flight of stairs,ext1_fm42.csv,FM42,categorical
+SF_3F,"Limit bending, kneeling or stooping",ext1_fm42.csv,FM42,categorical
+SF_3G,Limit walking more than a mile,ext1_fm42.csv,FM42,categorical
+SF_3H,Limit walking several blocks,ext1_fm42.csv,FM42,categorical
+SF_3I,Limit walking one block,ext1_fm42.csv,FM42,categorical
+SF_3J,Limit Bathing or dressing self,ext1_fm42.csv,FM42,categorical
+SF_4A,Physical health limited amount of time,ext1_fm42.csv,FM42,categorical
+SF_4B,Physical health - accomplished less,ext1_fm42.csv,FM42,categorical
+SF_4C,Physical health - limited kind of activi,ext1_fm42.csv,FM42,categorical
+SF_4D,Physical health - difficulty performing,ext1_fm42.csv,FM42,categorical
+SF_5A,Emotional health - limited amount of tim,ext1_fm42.csv,FM42,categorical
+SF_5B,Emotional health - accomplished less,ext1_fm42.csv,FM42,categorical
+SF_5C,Emotional health - limited amount of tim,ext1_fm42.csv,FM42,categorical
+SF_6,4 weeks - health interfered with social,ext1_fm42.csv,FM42,categorical
+SF_7,4 weeks - how much bodily pain,ext1_fm42.csv,FM42,categorical
+SF_8,4 weeks - pain interfered with normal wo,ext1_fm42.csv,FM42,categorical
+SF_9A,4 weeks full of pep,ext1_fm42.csv,FM42,categorical
+SF_9B,4 weeks very nervous,ext1_fm42.csv,FM42,categorical
+SF_9C,4 weeks down in the dumps,ext1_fm42.csv,FM42,categorical
+SF_9D,4 weeks calm and peaceful,ext1_fm42.csv,FM42,categorical
+SF_9E,4 weeks lots of energy,ext1_fm42.csv,FM42,categorical
+SF_9F,4 weeks down hearted and blue,ext1_fm42.csv,FM42,categorical
+SF_9G,4 weeks worn out,ext1_fm42.csv,FM42,categorical
+SF_9H,4 weeks happy,ext1_fm42.csv,FM42,categorical
+SF_9I,4 weeks tired,ext1_fm42.csv,FM42,categorical
+SF_9J,4 weeks physical health limits social ac,ext1_fm42.csv,FM42,categorical
+SF_10A,Get sick easier,ext1_fm42.csv,FM42,categorical
+SF_10B,Healthy as anybody,ext1_fm42.csv,FM42,categorical
+SF_10C,Expect health to get worse,ext1_fm42.csv,FM42,categorical
+SF_10D,Health is excellent,ext1_fm42.csv,FM42,categorical
+UNDSTD,Patient had difficulty understanding,ext1_fm42.csv,FM42,categorical
+RAND_ID,Randomized ID,ext1_fm43.csv,FM43,categorical
+AV,Annual Visit,ext1_fm43.csv,FM43,categorical
+PULSE,Pulse (beats/minute),ext1_fm43.csv,FM43,continuous
+SBP,SBP,ext1_fm43.csv,FM43,continuous
+DBP,DBP,ext1_fm43.csv,FM43,continuous
+RESPRATE,Respiratory rate,ext1_fm43.csv,FM43,continuous
+WEIGHT,Weight (kg),ext1_fm43.csv,FM43,continuous
+LYMP_CER,Cervical lymphandenopathy,ext1_fm43.csv,FM43,categorical
+LYMP_ANC,Axillary lymphandenopathy,ext1_fm43.csv,FM43,categorical
+LYMP_GRN,Groin lymphandenopathy,ext1_fm43.csv,FM43,categorical
+LYMP_OTH,Other lymphandenopathy,ext1_fm43.csv,FM43,categorical
+LUNGCLR,Lung fields clear,ext1_fm43.csv,FM43,categorical
+SINUS,Sinus rhythm,ext1_fm43.csv,FM43,categorical
+S3GALLOP,S3 gallop,ext1_fm43.csv,FM43,categorical
+MURMURS,Murmurs,ext1_fm43.csv,FM43,categorical
+MURMTYPE,Murmur type,ext1_fm43.csv,FM43,categorical
+LIVER,Liver span(cm),ext1_fm43.csv,FM43,continuous
+LIV_RUQ,RUQ liver tenderness,ext1_fm43.csv,FM43,categorical
+LIV_RLQ,RLQ liver tenderness,ext1_fm43.csv,FM43,categorical
+LIV_LUQ,LUQ liver tenderness,ext1_fm43.csv,FM43,categorical
+LIV_LLQ,LLQ liver tenderness,ext1_fm43.csv,FM43,categorical
+CHR_TO,Chronic transfusion,ext1_fm43.csv,FM43,categorical
+IMMUNO,Immunosuppression,ext1_fm43.csv,FM43,categorical
+INFECT,Serious infection,ext1_fm43.csv,FM43,categorical
+CHST_HX,Chest syndrome,ext1_fm43.csv,FM43,categorical
+STRK_HX,Stroke,ext1_fm43.csv,FM43,categorical
+CHF_HX,Chronic heart failure,ext1_fm43.csv,FM43,categorical
+CPF_HX,Chronic pulmonary failure,ext1_fm43.csv,FM43,categorical
+CHOL_HX,Cholecystectomy,ext1_fm43.csv,FM43,categorical
+SKINULCR,Skin/leg ulcers,ext1_fm43.csv,FM43,categorical
+SKIN_HX,Skin rash,ext1_fm43.csv,FM43,categorical
+OTH_HX,Other skin abnormality,ext1_fm43.csv,FM43,categorical
+NAIL_HX,Nail abnormality,ext1_fm43.csv,FM43,categorical
+HRLOS_HX,Hair loss,ext1_fm43.csv,FM43,categorical
+GIDIS_HX,Serious GI disturbance,ext1_fm43.csv,FM43,categorical
+BLEED_HX,Bleeding tendency,ext1_fm43.csv,FM43,categorical
+HEMAT_HX,Hematuria,ext1_fm43.csv,FM43,categorical
+PRIAP_HX,Priapism,ext1_fm43.csv,FM43,categorical
+IMPOT_HX,Impotence,ext1_fm43.csv,FM43,categorical
+SCLERAL,Scleral icterus,ext1_fm43.csv,FM43,categorical
+APLAS_HX,Aplastic anemia,ext1_fm43.csv,FM43,categorical
+CALEU_HX,Ever had cancer or luekemia,ext1_fm43.csv,FM43,categorical
+FAMCA_HX,Family history of cancer or luekemia,ext1_fm43.csv,FM43,categorical
+TOBACCO,Regular tobacco user,ext1_fm43.csv,FM43,categorical
+PIPES,Pipes,ext1_fm43.csv,FM43,categorical
+CIGARS,Cigars,ext1_fm43.csv,FM43,categorical
+CIGRTS,Cigarettes,ext1_fm43.csv,FM43,categorical
+CHEWTOB,Smokeless tobacco,ext1_fm43.csv,FM43,categorical
+TOB_AGE,How old when began tobacco,ext1_fm43.csv,FM43,continuous
+PACK_YRS,Pack-years (cigarettes),ext1_fm43.csv,FM43,continuous
+ALC_CUR,Current use of alcohol,ext1_fm43.csv,FM43,categorical
+ALC_HIGH,Highest use of alcohol,ext1_fm43.csv,FM43,categorical
+ALC_YRS,Total years of alcohol use,ext1_fm43.csv,FM43,categorical
+CAEXPRSK,Exposure to mutagenic agents,ext1_fm43.csv,FM43,categorical
+RADEXP,Exposure to radiation other than diagnos,ext1_fm43.csv,FM43,categorical
+HEPAT_HX,History of hepatitis,ext1_fm43.csv,FM43,categorical
+GRAVID,Pregnancies since last visit,ext1_fm43.csv,FM43,continuous
+CUR_PREG,Currently pregnant,ext1_fm43.csv,FM43,categorical
+F43_PGS,Total pages attached,ext1_fm43.csv,FM43,continuous
+AVAS_HX,AVAS_HX,ext1_fm43.csv,FM43,categorical
+P4_MOYR,Pregnancy 4 started,ext1_fm43.csv,FM43,continuous
+RAND_ID,Randomized ID,ext1_fm44.csv,FM44,categorical
+HUTYP85,Type of Therapy month 85,ext1_fm44.csv,FM44,continuous
+HUDOS85,Avg daily dose (mg) month 85,ext1_fm44.csv,FM44,continuous
+HUCOM85,Overall compliance month 85,ext1_fm44.csv,FM44,continuous
+HUTYP86,Type of Therapy month 86,ext1_fm44.csv,FM44,continuous
+HUDOS86,Avg daily dose (mg) month 86,ext1_fm44.csv,FM44,continuous
+HUCOM86,Overall compliance month 86,ext1_fm44.csv,FM44,continuous
+HUTYP87,Type of Therapy month 87,ext1_fm44.csv,FM44,continuous
+HUDOS87,Avg daily dose (mg) month 87,ext1_fm44.csv,FM44,continuous
+HUCOM87,Overall compliance month 87,ext1_fm44.csv,FM44,continuous
+HUTYP88,Type of Therapy month 88,ext1_fm44.csv,FM44,continuous
+HUDOS88,Avg daily dose (mg) month 88,ext1_fm44.csv,FM44,continuous
+HUCOM88,Overall compliance month 88,ext1_fm44.csv,FM44,continuous
+HUTYP89,Type of Therapy month 89,ext1_fm44.csv,FM44,continuous
+HUDOS89,Avg daily dose (mg) month 89,ext1_fm44.csv,FM44,continuous
+HUCOM89,Overall compliance month 89,ext1_fm44.csv,FM44,continuous
+HUTYP90,Type of Therapy month 90,ext1_fm44.csv,FM44,continuous
+HUDOS90,Avg daily dose (mg) month 90,ext1_fm44.csv,FM44,continuous
+HUCOM90,Overall compliance month 90,ext1_fm44.csv,FM44,continuous
+HUTYP91,Type of Therapy month 91,ext1_fm44.csv,FM44,continuous
+HUDOS91,Avg daily dose (mg) month 91,ext1_fm44.csv,FM44,continuous
+HUCOM91,Overall compliance month 91,ext1_fm44.csv,FM44,continuous
+HUTYP92,Type of Therapy month 92,ext1_fm44.csv,FM44,continuous
+HUDOS92,Avg daily dose (mg) month 92,ext1_fm44.csv,FM44,continuous
+HUCOM92,Overall compliance month 92,ext1_fm44.csv,FM44,continuous
+HUTYP93,Type of Therapy month 93,ext1_fm44.csv,FM44,continuous
+HUDOS93,Avg daily dose (mg) month 93,ext1_fm44.csv,FM44,continuous
+HUCOM93,Overall compliance month 93,ext1_fm44.csv,FM44,continuous
+HUTYP94,Type of Therapy month 94,ext1_fm44.csv,FM44,continuous
+HUDOS94,Avg daily dose (mg) month 94,ext1_fm44.csv,FM44,continuous
+HUCOM94,Overall compliance month 94,ext1_fm44.csv,FM44,continuous
+HUTYP95,Type of Therapy month 95,ext1_fm44.csv,FM44,continuous
+HUDOS95,Avg daily dose (mg) month 95,ext1_fm44.csv,FM44,continuous
+HUCOM95,Overall compliance month 95,ext1_fm44.csv,FM44,continuous
+HUTYP96,Type of Therapy month 96,ext1_fm44.csv,FM44,continuous
+HUDOS96,Avg daily dose (mg) month 96,ext1_fm44.csv,FM44,continuous
+HUCOM96,Overall compliance month 96,ext1_fm44.csv,FM44,continuous
+HUTYP97,Type of Therapy month 97,ext1_fm44.csv,FM44,continuous
+HUDOS97,Avg daily dose (mg) month 97,ext1_fm44.csv,FM44,continuous
+HUCOM97,Overall compliance month 97,ext1_fm44.csv,FM44,continuous
+HUTYP98,Type of Therapy month 98,ext1_fm44.csv,FM44,continuous
+HUDOS98,Avg daily dose (mg) month 98,ext1_fm44.csv,FM44,continuous
+HUCOM98,Overall compliance month 98,ext1_fm44.csv,FM44,continuous
+HUTYP99,Type of Therapy month 99,ext1_fm44.csv,FM44,continuous
+HUDOS99,Avg daily dose (mg) month 99,ext1_fm44.csv,FM44,continuous
+HUCOM99,Overall compliance month 99,ext1_fm44.csv,FM44,continuous
+HUTYP100,Type of Therapy month 100,ext1_fm44.csv,FM44,continuous
+HUDOS100,Avg daily dose (mg) month 100,ext1_fm44.csv,FM44,continuous
+HUCOM100,Overall compliance month 100,ext1_fm44.csv,FM44,continuous
+HUTYP101,Type of Therapy month 101,ext1_fm44.csv,FM44,continuous
+HUDOS101,Avg daily dose (mg) month 101,ext1_fm44.csv,FM44,continuous
+HUCOM101,Overall compliance month 101,ext1_fm44.csv,FM44,continuous
+HUTYP102,Type of Therapy month 102,ext1_fm44.csv,FM44,continuous
+HUDOS102,Avg daily dose (mg) month 102,ext1_fm44.csv,FM44,continuous
+HUCOM102,Overall compliance month 102,ext1_fm44.csv,FM44,continuous
+HUTYP103,Type of Therapy month 103,ext1_fm44.csv,FM44,continuous
+HUDOS103,Avg daily dose (mg) month 103,ext1_fm44.csv,FM44,continuous
+HUCOM103,Overall compliance month 103,ext1_fm44.csv,FM44,continuous
+HUTYP104,Type of Therapy month 104,ext1_fm44.csv,FM44,continuous
+HUDOS104,Avg daily dose (mg) month 104,ext1_fm44.csv,FM44,continuous
+HUCOM104,Overall compliance month 104,ext1_fm44.csv,FM44,continuous
+HUTYP105,Type of Therapy month 105,ext1_fm44.csv,FM44,continuous
+HUDOS105,Avg daily dose (mg) month 105,ext1_fm44.csv,FM44,continuous
+HUCOM105,Overall compliance month 105,ext1_fm44.csv,FM44,continuous
+HUTYP106,Type of Therapy month 106,ext1_fm44.csv,FM44,continuous
+HUDOS106,Avg daily dose (mg) month 106,ext1_fm44.csv,FM44,continuous
+HUCOM106,Overall compliance month 106,ext1_fm44.csv,FM44,continuous
+HUTYP107,Type of Therapy month 107,ext1_fm44.csv,FM44,continuous
+HUDOS107,Avg daily dose (mg) month 107,ext1_fm44.csv,FM44,continuous
+HUCOM107,Overall compliance month 107,ext1_fm44.csv,FM44,continuous
+HUTYP108,Type of Therapy month 108,ext1_fm44.csv,FM44,continuous
+HUDOS108,Avg daily dose (mg) month 108,ext1_fm44.csv,FM44,continuous
+HUCOM108,Overall compliance month 108,ext1_fm44.csv,FM44,continuous
+HUTYP109,Type of Therapy month 109,ext1_fm44.csv,FM44,continuous
+HUDOS109,Avg daily dose (mg) month 109,ext1_fm44.csv,FM44,continuous
+HUCOM109,Overall compliance month 109,ext1_fm44.csv,FM44,continuous
+HUTYP110,Type of Therapy month 110,ext1_fm44.csv,FM44,continuous
+HUDOS110,Avg daily dose (mg) month 110,ext1_fm44.csv,FM44,continuous
+HUCOM110,Overall compliance month 110,ext1_fm44.csv,FM44,continuous
+HUTYP111,Type of Therapy month 111,ext1_fm44.csv,FM44,continuous
+HUDOS111,Avg daily dose (mg) month 111,ext1_fm44.csv,FM44,continuous
+HUCOM111,Overall compliance month 111,ext1_fm44.csv,FM44,continuous
+HUTYP112,Type of Therapy month 112,ext1_fm44.csv,FM44,continuous
+HUDOS112,Avg daily dose (mg) month 112,ext1_fm44.csv,FM44,continuous
+HUCOM112,Overall compliance month 112,ext1_fm44.csv,FM44,continuous
+HUTYP113,Type of Therapy month 113,ext1_fm44.csv,FM44,continuous
+HUDOS113,Avg daily dose (mg) month 113,ext1_fm44.csv,FM44,continuous
+HUCOM113,Overall compliance month 113,ext1_fm44.csv,FM44,continuous
+HUTYP114,Type of Therapy month 114,ext1_fm44.csv,FM44,continuous
+HUDOS114,Avg daily dose (mg) month 114,ext1_fm44.csv,FM44,continuous
+HUCOM114,Overall compliance month 114,ext1_fm44.csv,FM44,continuous
+HUTYP115,Type of Therapy month 115,ext1_fm44.csv,FM44,continuous
+HUDOS115,Avg daily dose (mg) month 115,ext1_fm44.csv,FM44,continuous
+HUCOM115,Overall compliance month 115,ext1_fm44.csv,FM44,continuous
+HUTYP116,Type of Therapy month 116,ext1_fm44.csv,FM44,continuous
+HUDOS116,Avg daily dose (mg) month 116,ext1_fm44.csv,FM44,continuous
+HUCOM116,Overall compliance month 116,ext1_fm44.csv,FM44,continuous
+HUTYP117,Type of Therapy month 117,ext1_fm44.csv,FM44,continuous
+HUDOS117,Avg daily dose (mg) month 117,ext1_fm44.csv,FM44,continuous
+HUCOM117,Overall compliance month 117,ext1_fm44.csv,FM44,continuous
+HUTYP118,Type of Therapy month 118,ext1_fm44.csv,FM44,continuous
+HUDOS118,Avg daily dose (mg) month 118,ext1_fm44.csv,FM44,continuous
+HUCOM118,Overall compliance month 118,ext1_fm44.csv,FM44,continuous
+HUTYP119,Type of Therapy month 119,ext1_fm44.csv,FM44,continuous
+HUDOS119,Avg daily dose (mg) month 119,ext1_fm44.csv,FM44,continuous
+HUCOM119,Overall compliance month 119,ext1_fm44.csv,FM44,continuous
+HUTYP120,Type of Therapy month 120,ext1_fm44.csv,FM44,continuous
+HUDOS120,Avg daily dose (mg) month 120,ext1_fm44.csv,FM44,continuous
+HUCOM120,Overall compliance month 120,ext1_fm44.csv,FM44,continuous
+HUTYP121,Type of Therapy month 121,ext1_fm44.csv,FM44,continuous
+HUDOS121,Avg daily dose (mg) month 121,ext1_fm44.csv,FM44,continuous
+HUCOM121,Overall compliance month 121,ext1_fm44.csv,FM44,continuous
+HUTYP122,Type of Therapy month 122,ext1_fm44.csv,FM44,continuous
+HUDOS122,Avg daily dose (mg) month 122,ext1_fm44.csv,FM44,continuous
+HUCOM122,Overall compliance month 122,ext1_fm44.csv,FM44,continuous
+HUTYP123,Type of Therapy month 123,ext1_fm44.csv,FM44,continuous
+HUDOS123,Avg daily dose (mg) month 123,ext1_fm44.csv,FM44,continuous
+HUCOM123,Overall compliance month 123,ext1_fm44.csv,FM44,continuous
+HUTYP124,Type of Therapy month 124,ext1_fm44.csv,FM44,continuous
+HUDOS124,Avg daily dose (mg) month 124,ext1_fm44.csv,FM44,continuous
+HUCOM124,Overall compliance month 124,ext1_fm44.csv,FM44,continuous
+HUTYP125,Type of Therapy month 125,ext1_fm44.csv,FM44,continuous
+HUDOS125,Avg daily dose (mg) month 125,ext1_fm44.csv,FM44,continuous
+HUCOM125,Overall compliance month 125,ext1_fm44.csv,FM44,continuous
+HUTYP126,Type of Therapy month 126,ext1_fm44.csv,FM44,continuous
+HUDOS126,Avg daily dose (mg) month 126,ext1_fm44.csv,FM44,continuous
+HUCOM126,Overall compliance month 126,ext1_fm44.csv,FM44,continuous
+HUTYP127,Type of Therapy month 127,ext1_fm44.csv,FM44,continuous
+HUDOS127,Avg daily dose (mg) month 127,ext1_fm44.csv,FM44,continuous
+HUCOM127,Overall compliance month 127,ext1_fm44.csv,FM44,continuous
+HUTYP128,Type of Therapy month 128,ext1_fm44.csv,FM44,continuous
+HUDOS128,Avg daily dose (mg) month 128,ext1_fm44.csv,FM44,continuous
+HUCOM128,Overall compliance month 128,ext1_fm44.csv,FM44,continuous
+HUTYP129,Type of Therapy month 129,ext1_fm44.csv,FM44,continuous
+HUDOS129,Avg daily dose (mg) month 129,ext1_fm44.csv,FM44,continuous
+HUCOM129,Overall compliance month 129,ext1_fm44.csv,FM44,continuous
+HUTYP130,Type of Therapy month 130,ext1_fm44.csv,FM44,continuous
+HUDOS130,Avg daily dose (mg) month 130,ext1_fm44.csv,FM44,continuous
+HUCOM130,Overall compliance month 130,ext1_fm44.csv,FM44,continuous
+HUTYP131,Type of Therapy month 131,ext1_fm44.csv,FM44,continuous
+HUDOS131,Avg daily dose (mg) month 131,ext1_fm44.csv,FM44,continuous
+HUCOM131,Overall compliance month 131,ext1_fm44.csv,FM44,continuous
+HUTYP132,Type of Therapy month 132,ext1_fm44.csv,FM44,continuous
+HUDOS132,Avg daily dose (mg) month 132,ext1_fm44.csv,FM44,continuous
+HUCOM132,Overall compliance month 132,ext1_fm44.csv,FM44,continuous
+HUTYP133,Type of Therapy month 133,ext1_fm44.csv,FM44,continuous
+HUDOS133,Avg daily dose (mg) month 133,ext1_fm44.csv,FM44,continuous
+HUCOM133,Overall compliance month 133,ext1_fm44.csv,FM44,continuous
+HUTYP134,Type of Therapy month 134,ext1_fm44.csv,FM44,continuous
+HUDOS134,Avg daily dose (mg) month 134,ext1_fm44.csv,FM44,continuous
+HUCOM134,Overall compliance month 134,ext1_fm44.csv,FM44,continuous
+HUTYP135,Type of Therapy month 135,ext1_fm44.csv,FM44,continuous
+HUDOS135,Avg daily dose (mg) month 135,ext1_fm44.csv,FM44,continuous
+HUCOM135,Overall compliance month 135,ext1_fm44.csv,FM44,continuous
+HUTYP136,Type of Therapy month 136,ext1_fm44.csv,FM44,continuous
+HUDOS136,Avg daily dose (mg) month 136,ext1_fm44.csv,FM44,continuous
+HUCOM136,Overall compliance month 136,ext1_fm44.csv,FM44,continuous
+HUTYP137,Type of Therapy month 137,ext1_fm44.csv,FM44,continuous
+HUDOS137,Avg daily dose (mg) month 137,ext1_fm44.csv,FM44,continuous
+HUCOM137,Overall compliance month 137,ext1_fm44.csv,FM44,continuous
+HUTYP138,Type of Therapy month 138,ext1_fm44.csv,FM44,continuous
+HUDOS138,Avg daily dose (mg) month 138,ext1_fm44.csv,FM44,continuous
+HUCOM138,Overall compliance month 138,ext1_fm44.csv,FM44,continuous
+HUTYP139,Type of Therapy month 139,ext1_fm44.csv,FM44,continuous
+HUDOS139,Avg daily dose (mg) month 139,ext1_fm44.csv,FM44,continuous
+HUCOM139,Overall compliance month 139,ext1_fm44.csv,FM44,continuous
+HUTYP140,Type of Therapy month 140,ext1_fm44.csv,FM44,continuous
+HUDOS140,Avg daily dose (mg) month 140,ext1_fm44.csv,FM44,continuous
+HUCOM140,Overall compliance month 140,ext1_fm44.csv,FM44,continuous
+HUTYP141,Type of Therapy month 141,ext1_fm44.csv,FM44,continuous
+HUDOS141,Avg daily dose (mg) month 141,ext1_fm44.csv,FM44,continuous
+HUCOM141,Overall compliance month 141,ext1_fm44.csv,FM44,continuous
+HUTYP142,Type of Therapy month 142,ext1_fm44.csv,FM44,continuous
+HUDOS142,Avg daily dose (mg) month 142,ext1_fm44.csv,FM44,continuous
+HUCOM142,Overall compliance month 142,ext1_fm44.csv,FM44,continuous
+HUTYP143,Type of Therapy month 143,ext1_fm44.csv,FM44,continuous
+HUDOS143,Avg daily dose (mg) month 143,ext1_fm44.csv,FM44,continuous
+HUCOM143,Overall compliance month 143,ext1_fm44.csv,FM44,continuous
+HUTYP144,Type of Therapy month 144,ext1_fm44.csv,FM44,continuous
+HUDOS144,Avg daily dose (mg) month 144,ext1_fm44.csv,FM44,continuous
+HUCOM144,Overall compliance month 144,ext1_fm44.csv,FM44,continuous
+HUTYP145,Type of Therapy month 145,ext1_fm44.csv,FM44,continuous
+HUDOS145,Avg daily dose (mg) month 145,ext1_fm44.csv,FM44,continuous
+HUCOM145,Overall compliance month 145,ext1_fm44.csv,FM44,continuous
+HUTYP146,Type of Therapy month 146,ext1_fm44.csv,FM44,continuous
+HUDOS146,Avg daily dose (mg) month 146,ext1_fm44.csv,FM44,continuous
+HUCOM146,Overall compliance month 146,ext1_fm44.csv,FM44,continuous
+HUTYP147,Type of Therapy month 147,ext1_fm44.csv,FM44,continuous
+HUDOS147,Avg daily dose (mg) month 147,ext1_fm44.csv,FM44,continuous
+HUCOM147,Overall compliance month 147,ext1_fm44.csv,FM44,continuous
+HUTYP148,Type of Therapy month 148,ext1_fm44.csv,FM44,continuous
+HUDOS148,Avg daily dose (mg) month 148,ext1_fm44.csv,FM44,continuous
+HUCOM148,Overall compliance month 148,ext1_fm44.csv,FM44,continuous
+HUTYP149,Type of Therapy month 149,ext1_fm44.csv,FM44,continuous
+HUDOS149,Avg daily dose (mg) month 149,ext1_fm44.csv,FM44,continuous
+HUCOM149,Overall compliance month 149,ext1_fm44.csv,FM44,continuous
+HUTYP150,Type of Therapy month 150,ext1_fm44.csv,FM44,continuous
+HUDOS150,Avg daily dose (mg) month 150,ext1_fm44.csv,FM44,continuous
+HUCOM150,Overall compliance month 150,ext1_fm44.csv,FM44,continuous
+HUTYP151,Type of Therapy month 151,ext1_fm44.csv,FM44,continuous
+HUDOS151,Avg daily dose (mg) month 151,ext1_fm44.csv,FM44,continuous
+HUCOM151,Overall compliance month 151,ext1_fm44.csv,FM44,continuous
+HUTYP152,Type of Therapy month 152,ext1_fm44.csv,FM44,continuous
+HUDOS152,Avg daily dose (mg) month 152,ext1_fm44.csv,FM44,continuous
+HUCOM152,Overall compliance month 152,ext1_fm44.csv,FM44,continuous
+HUTYP153,Type of Therapy month 153,ext1_fm44.csv,FM44,continuous
+HUDOS153,Avg daily dose (mg) month 153,ext1_fm44.csv,FM44,continuous
+HUCOM153,Overall compliance month 153,ext1_fm44.csv,FM44,continuous
+HUTYP154,Type of Therapy month 154,ext1_fm44.csv,FM44,continuous
+HUDOS154,Avg daily dose (mg) month 154,ext1_fm44.csv,FM44,continuous
+HUCOM154,Overall compliance month 154,ext1_fm44.csv,FM44,continuous
+HUTYP155,Type of Therapy month 155,ext1_fm44.csv,FM44,continuous
+HUDOS155,Avg daily dose (mg) month 155,ext1_fm44.csv,FM44,continuous
+HUCOM155,Overall compliance month 155,ext1_fm44.csv,FM44,continuous
+HUTYP156,Type of Therapy month 156,ext1_fm44.csv,FM44,continuous
+HUDOS156,Avg daily dose (mg) month 156,ext1_fm44.csv,FM44,continuous
+HUCOM156,Overall compliance month 156,ext1_fm44.csv,FM44,continuous
+HUTYP157,Type of Therapy month 157,ext1_fm44.csv,FM44,continuous
+HUDOS157,Avg daily dose (mg) month 157,ext1_fm44.csv,FM44,continuous
+HUCOM157,Overall compliance month 157,ext1_fm44.csv,FM44,continuous
+HUTYP158,Type of Therapy month 158,ext1_fm44.csv,FM44,continuous
+HUDOS158,Avg daily dose (mg) month 158,ext1_fm44.csv,FM44,continuous
+HUCOM158,Overall compliance month 158,ext1_fm44.csv,FM44,continuous
+HUTYP159,Type of Therapy month 159,ext1_fm44.csv,FM44,continuous
+HUDOS159,Avg daily dose (mg) month 159,ext1_fm44.csv,FM44,continuous
+HUCOM159,Overall compliance month 159,ext1_fm44.csv,FM44,continuous
+HUTYP160,Type of Therapy month 160,ext1_fm44.csv,FM44,continuous
+HUDOS160,Avg daily dose (mg) month 160,ext1_fm44.csv,FM44,continuous
+HUCOM160,Overall compliance month 160,ext1_fm44.csv,FM44,continuous
+HUTYP161,Type of Therapy month 161,ext1_fm44.csv,FM44,continuous
+HUDOS161,Avg daily dose (mg) month 161,ext1_fm44.csv,FM44,continuous
+HUCOM161,Overall compliance month 161,ext1_fm44.csv,FM44,continuous
+HUTYP162,Type of Therapy month 162,ext1_fm44.csv,FM44,continuous
+HUDOS162,Avg daily dose (mg) month 162,ext1_fm44.csv,FM44,continuous
+HUCOM162,Overall compliance month 162,ext1_fm44.csv,FM44,continuous
+HUTYP163,Type of Therapy month 163,ext1_fm44.csv,FM44,continuous
+HUDOS163,Avg daily dose (mg) month 163,ext1_fm44.csv,FM44,continuous
+HUCOM163,Overall compliance month 163,ext1_fm44.csv,FM44,continuous
+HUTYP164,Type of Therapy month 164,ext1_fm44.csv,FM44,continuous
+HUDOS164,Avg daily dose (mg) month 164,ext1_fm44.csv,FM44,continuous
+HUCOM164,Overall compliance month 164,ext1_fm44.csv,FM44,continuous
+HUTYP165,Type of Therapy month 165,ext1_fm44.csv,FM44,continuous
+HUDOS165,Avg daily dose (mg) month 165,ext1_fm44.csv,FM44,continuous
+HUCOM165,Overall compliance month 165,ext1_fm44.csv,FM44,continuous
+HUTYP166,Type of Therapy month 166,ext1_fm44.csv,FM44,continuous
+HUDOS166,Avg daily dose (mg) month 166,ext1_fm44.csv,FM44,continuous
+HUCOM166,Overall compliance month 166,ext1_fm44.csv,FM44,continuous
+HUTYP167,Type of Therapy month 167,ext1_fm44.csv,FM44,continuous
+HUDOS167,Avg daily dose (mg) month 167,ext1_fm44.csv,FM44,continuous
+HUCOM167,Overall compliance month 167,ext1_fm44.csv,FM44,continuous
+HUTYP168,Type of Therapy month 168,ext1_fm44.csv,FM44,continuous
+HUDOS168,Avg daily dose (mg) month 168,ext1_fm44.csv,FM44,continuous
+HUCOM168,Overall compliance month 168,ext1_fm44.csv,FM44,continuous
+HUTYP169,Type of Therapy month 169,ext1_fm44.csv,FM44,continuous
+HUDOS169,Avg daily dose (mg) month 169,ext1_fm44.csv,FM44,continuous
+HUCOM169,Overall compliance month 169,ext1_fm44.csv,FM44,continuous
+HUTYP170,Type of Therapy month 170,ext1_fm44.csv,FM44,continuous
+HUDOS170,Avg daily dose (mg) month 170,ext1_fm44.csv,FM44,continuous
+HUCOM170,Overall compliance month 170,ext1_fm44.csv,FM44,continuous
+HUTYP171,Type of Therapy month 171,ext1_fm44.csv,FM44,continuous
+HUDOS171,Avg daily dose (mg) month 171,ext1_fm44.csv,FM44,continuous
+HUCOM171,Overall compliance month 171,ext1_fm44.csv,FM44,continuous
+HUTYP172,Type of Therapy month 172,ext1_fm44.csv,FM44,continuous
+HUDOS172,Avg daily dose (mg) month 172,ext1_fm44.csv,FM44,continuous
+HUCOM172,Overall compliance month 172,ext1_fm44.csv,FM44,continuous
+HUTYP173,Type of Therapy month 173,ext1_fm44.csv,FM44,continuous
+HUDOS173,Avg daily dose (mg) month 173,ext1_fm44.csv,FM44,continuous
+HUCOM173,Overall compliance month 173,ext1_fm44.csv,FM44,continuous
+HUTYP174,Type of Therapy month 174,ext1_fm44.csv,FM44,continuous
+HUDOS174,Avg daily dose (mg) month 174,ext1_fm44.csv,FM44,continuous
+HUCOM174,Overall compliance month 174,ext1_fm44.csv,FM44,continuous
+HUTYP175,Type of Therapy month 175,ext1_fm44.csv,FM44,continuous
+HUDOS175,Avg daily dose (mg) month 175,ext1_fm44.csv,FM44,continuous
+HUCOM175,Overall compliance month 175,ext1_fm44.csv,FM44,continuous
+RAND_ID,Randomized ID,ext1_fm45.csv,FM45,categorical
+AV,Annual Visit,ext1_fm45.csv,FM45,categorical
+PRS,Consent MSH - Present studies,ext1_fm45.csv,FM45,continuous
+PRSOTHCL,Consent Others - Present studies,ext1_fm45.csv,FM45,continuous
+PRSMSHLK,Delete link MSH - Present studies,ext1_fm45.csv,FM45,continuous
+PRSOTHLK,Delete link Other - Present studies,ext1_fm45.csv,FM45,continuous
+FUTMSHCL,Consent MSH - Future studies,ext1_fm45.csv,FM45,continuous
+FUTOTHCL,Consent Others - Future studies,ext1_fm45.csv,FM45,continuous
+FUTMSHLK,Delete link MSH - Future studies,ext1_fm45.csv,FM45,continuous
+FUTOTHLK,Delete link Other - Future studies,ext1_fm45.csv,FM45,continuous
+FUTMSHAN,Additional consent required - MSH,ext1_fm45.csv,FM45,continuous
+FUTOTHAN,Additional consent required - Other,ext1_fm45.csv,FM45,continuous
+SERUMLBL,Frozen serum label,ext1_fm45.csv,FM45,continuous
+CYTO1LBL,Heperarin tube label,ext1_fm45.csv,FM45,continuous
+CYTO2LBL,EDTA tube label,ext1_fm45.csv,FM45,continuous
+CYTO1_DT,Heperarin tube date (days since enrollment),ext1_fm45.csv,FM45,continuous
+CYTO2_DT,EDTA tube date (days since enrollment),ext1_fm45.csv,FM45,continuous
+SERUM_DT,Frozen serum date (days since enrollment),ext1_fm45.csv,FM45,continuous
+RAND_ID,Randomized ID,ext1_fm47.csv,FM47,categorical
+AV,Annual Visit,ext1_fm47.csv,FM47,categorical
+CXRAY_ST,CXR status,ext1_fm47.csv,FM47,categorical
+CXRAYINT,CXR interpretation,ext1_fm47.csv,FM47,categorical
+RAND_ID,Randomized ID,ext1_fm48.csv,FM48,categorical
+AV,Annual Visit,ext1_fm48.csv,FM48,categorical
+ECG_PERF,Was ECG performed,ext1_fm48.csv,FM48,categorical
+SINUS_RT,ECG rate (beats/min),ext1_fm48.csv,FM48,continuous
+SIN_RHY,Normal sinus rhythm,ext1_fm48.csv,FM48,categorical
+ATR_FIB,Atrial fibrillation,ext1_fm48.csv,FM48,categorical
+ATR_PMB,Atrial premature beats,ext1_fm48.csv,FM48,categorical
+ATR_FLU,Atrial flutter,ext1_fm48.csv,FM48,categorical
+PVB,Premature ventricular beats,ext1_fm48.csv,FM48,categorical
+OT_ARRHY,Other arrhythmia,ext1_fm48.csv,FM48,categorical
+ARRHY_SP,Specify other arrhythmia,ext1_fm48.csv,FM48,categorical
+ECG_NORM,ECG reading,ext1_fm48.csv,FM48,categorical
+P_PULM,P Pulmonale,ext1_fm48.csv,FM48,categorical
+I_RBBB,Incomplete RBBB,ext1_fm48.csv,FM48,categorical
+C_RBBB,Complete RBBB,ext1_fm48.csv,FM48,categorical
+C_LBBB,Complete LBBB,ext1_fm48.csv,FM48,categorical
+RVH,Right ventricular hypertrophy,ext1_fm48.csv,FM48,categorical
+LVH,Left ventricular hypertrophy,ext1_fm48.csv,FM48,categorical
+LVQSR,Low voltage QSR,ext1_fm48.csv,FM48,categorical
+TWV_INV,T wave inversion,ext1_fm48.csv,FM48,categorical
+ST_ELEV,ST elevation,ext1_fm48.csv,FM48,categorical
+ST_DEP,ST depression,ext1_fm48.csv,FM48,categorical
+Q_WVS,Q waves,ext1_fm48.csv,FM48,categorical
+ECG_RECM,ECG supportive of diagnosis of recent MI,ext1_fm48.csv,FM48,categorical
+ECGOLDMI,ECG supportive of diagnosis of old MI,ext1_fm48.csv,FM48,categorical
+ECGOTHR,Other,ext1_fm48.csv,FM48,categorical
+ECGOT_SP,Specify,ext1_fm48.csv,FM48,categorical
+F48_PGS,F48_PGS,ext1_fm48.csv,FM48,continuous
+RAND_ID,Randomized ID,ext1_fm49.csv,FM49,categorical
+AV,Annual Visit,ext1_fm49.csv,FM49,categorical
+HGB,Hemoglobin,ext1_fm49.csv,FM49,continuous
+PCV,Packed cell volume,ext1_fm49.csv,FM49,continuous
+MCV,Mean corpusular volume,ext1_fm49.csv,FM49,continuous
+WBC,White blood cell count,ext1_fm49.csv,FM49,continuous
+MCH,Mean corpusular hemoglobin,ext1_fm49.csv,FM49,continuous
+MCHC,Mean corpusular hemoglobin concentration,ext1_fm49.csv,FM49,continuous
+RBC,Red blood cell count,ext1_fm49.csv,FM49,continuous
+PLATELET,Platelets,ext1_fm49.csv,FM49,continuous
+RETIC_CT,Reticulocyte count,ext1_fm49.csv,FM49,continuous
+RDW,RBC distribution,ext1_fm49.csv,FM49,continuous
+RBC_MYEL,RBC abnormalities of myelodysplastic syn,ext1_fm49.csv,FM49,categorical
+LYMPHS,Lymphocytes,ext1_fm49.csv,FM49,continuous
+NEUTS,Neutrophils (bands+polys),ext1_fm49.csv,FM49,continuous
+MONOS,Monocytes,ext1_fm49.csv,FM49,continuous
+BASOS,Basophils,ext1_fm49.csv,FM49,continuous
+EOS,Eosinophils,ext1_fm49.csv,FM49,continuous
+UREA_NIT,Urea nitrogen,ext1_fm49.csv,FM49,continuous
+ALT,Alanine aminotransferase,ext1_fm49.csv,FM49,continuous
+AST,Aspartate aminotransferase,ext1_fm49.csv,FM49,continuous
+URIC_A,Uric acid,ext1_fm49.csv,FM49,continuous
+CREAT,Creatinine,ext1_fm49.csv,FM49,continuous
+GLUCOSE,Glucose,ext1_fm49.csv,FM49,continuous
+CALCIUM,Calcium,ext1_fm49.csv,FM49,continuous
+PHOSPH,Phosphate,ext1_fm49.csv,FM49,continuous
+TOT_BILI,Bilirubin(total),ext1_fm49.csv,FM49,continuous
+DIR_BILI,Bilirubin(direct),ext1_fm49.csv,FM49,continuous
+ALBUMIN,Albumin,ext1_fm49.csv,FM49,continuous
+TOT_PROT,Total protein,ext1_fm49.csv,FM49,continuous
+ALK_PHOS,Alkaline phosphatase,ext1_fm49.csv,FM49,continuous
+URI_RBC,Red blood cells present-Urinalysis,ext1_fm49.csv,FM49,categorical
+URI_WBC,White blood cells present-Urinalysis,ext1_fm49.csv,FM49,categorical
+FERRITIN,FERRITIN,ext1_fm49.csv,FM49,continuous
+RAND_ID,Randomized ID,ext1_fm50.csv,FM50,categorical
+AV,Annual Visit,ext1_fm50.csv,FM50,categorical
+DEAD,Death,ext1_fm50.csv,FM50,categorical
+STROKE,Stroke,ext1_fm50.csv,FM50,categorical
+REN_FAIL,Renal failure,ext1_fm50.csv,FM50,categorical
+HEP_FAIL,Hepatic failure,ext1_fm50.csv,FM50,categorical
+CANCER,Cancer,ext1_fm50.csv,FM50,categorical
+SEPS_INF,Sepsis or other serious infection,ext1_fm50.csv,FM50,categorical
+LIVE_BTH,Live birth,ext1_fm50.csv,FM50,categorical
+PREG_TRM,Stillbirth/ miscarriage/ abortion,ext1_fm50.csv,FM50,categorical
+RAND_ID,Randomized ID,ext1_fm55.csv,FM55,categorical
+AV,Annual Visit,ext1_fm55.csv,FM55,categorical
+EVT_CODE,Classification,ext1_fm55.csv,FM55,categorical
+RAND_ID,Randomized ID,ext1_fm66.csv,FM66,categorical
+AV,Annual Visit,ext1_fm66.csv,FM66,categorical
+VSTAT66,Vital Status,ext1_fm66.csv,FM66,categorical
+HUHISTRY,HU usage History,ext1_fm66.csv,FM66,categorical
+RAND_ID,Randomized ID,ext1_fm67.csv,FM67,categorical
+AV,Annual Visit,ext1_fm67.csv,FM67,categorical
+ACUTELTI,Acuetly Ill,ext1_fm67.csv,FM67,continuous
+SMOKE,Smoke,ext1_fm67.csv,FM67,continuous
+LASTSMOK,Last Smoke,ext1_fm67.csv,FM67,continuous
+SIXWEEKS,Six Weeks,ext1_fm67.csv,FM67,continuous
+ROOMAIR,Room Air,ext1_fm67.csv,FM67,continuous
+EXPLAIN,Explain,ext1_fm67.csv,FM67,continuous
+BLOODGAS,Arterial blood gas performed,ext1_fm67.csv,FM67,continuous
+PH,ph,ext1_fm67.csv,FM67,continuous
+PACO2,PaCO2,ext1_fm67.csv,FM67,continuous
+PAO2,PaO2,ext1_fm67.csv,FM67,continuous
+COOXIMET,Co-oximetry,ext1_fm67.csv,FM67,continuous
+CARBOXYH,Carboxyhemoglobin,ext1_fm67.csv,FM67,continuous
+METHEM,Methemoglobin,ext1_fm67.csv,FM67,continuous
+OXYHEM,Oxyhemoglobin,ext1_fm67.csv,FM67,continuous
+OXYSAT,Oxygen Saturation,ext1_fm67.csv,FM67,continuous
+PERCTO2,PercentO2,ext1_fm67.csv,FM67,continuous
+RAND_ID,Randomized ID,ext1_fm68.csv,FM68,categorical
+AV,Annual Visit,ext1_fm68.csv,FM68,categorical
+PRESPIRO,Pre-Bronchodilator spirometry performed,ext1_fm68.csv,FM68,continuous
+PREFEV,Pre-Bronchodilator,ext1_fm68.csv,FM68,continuous
+PREFVC,Pre-Bronchodilator,ext1_fm68.csv,FM68,continuous
+PREFEF25,Pre-Bronchodilator,ext1_fm68.csv,FM68,continuous
+PREFEF50,Pre-Bronchodilator,ext1_fm68.csv,FM68,continuous
+PREPEF,Pre-Bronchodilator,ext1_fm68.csv,FM68,continuous
+POSTSPIR,Post-Bronchodilator spirometry performed,ext1_fm68.csv,FM68,continuous
+POSTFEV,Post-Bronchodilator,ext1_fm68.csv,FM68,continuous
+POSTFVC,Post-Bronchodilator,ext1_fm68.csv,FM68,continuous
+POSTFE25,Post-Bronchodilator,ext1_fm68.csv,FM68,continuous
+POSTFE50,Post-Bronchodilator,ext1_fm68.csv,FM68,continuous
+POSTPEF,Post-Bronchodilator,ext1_fm68.csv,FM68,continuous
+HGT,Height in cm.,ext1_fm68.csv,FM68,continuous
+WGT,Weight in Kg,ext1_fm68.csv,FM68,continuous
+LUNGVOL,Lung vol. assessment performed,ext1_fm68.csv,FM68,continuous
+PLETHYSM,Plethysmography,ext1_fm68.csv,FM68,continuous
+HEDILUTI,Helium Dilution,ext1_fm68.csv,FM68,continuous
+OTHER,Other lung vol. measurment,ext1_fm68.csv,FM68,continuous
+SPECIFY,Specify Other method,ext1_fm68.csv,FM68,categorical
+LUNGCAP,Total Lung Capacity,ext1_fm68.csv,FM68,continuous
+RESIDCAP,Functional Residual Capacity,ext1_fm68.csv,FM68,continuous
+RESIDVOL,Residual Volume,ext1_fm68.csv,FM68,continuous
+CAPMEAS,Single breath capacity measured,ext1_fm68.csv,FM68,continuous
+BREATHCA,Single breath diffusing capacity,ext1_fm68.csv,FM68,continuous
+bmi,Body Mass Index (BMI),ext1_fm68.csv,FM68,continuous
+RAND_ID,Randomized ID,ext1_fm69.csv,FM69,categorical
+AV,Annual Visit,ext1_fm69.csv,FM69,categorical
+AB_HEART,Abnormality of the heart,ext1_fm69.csv,FM69,continuous
+CARDIOME,Cardiomegaly,ext1_fm69.csv,FM69,continuous
+OTHERCAR,Other Cardiac Abnormality,ext1_fm69.csv,FM69,continuous
+CARDABSP,Specify other cardiac abnormality,ext1_fm69.csv,FM69,categorical
+ARTENLAR,Pulmonary Artery Enlargement,ext1_fm69.csv,FM69,continuous
+OTHERABG,Other Abnormality of the Great Vessels,ext1_fm69.csv,FM69,continuous
+GVABSPEC,Specify other abnormality of the great v,ext1_fm69.csv,FM69,categorical
+AB_PULPA,Abnormality of the Pulmonary Parenchyma,ext1_fm69.csv,FM69,continuous
+PULFIBRO,Pulmonary Fibrosis,ext1_fm69.csv,FM69,continuous
+DIFFUSEP,Diffuse Pulmonary Fibrosis,ext1_fm69.csv,FM69,continuous
+LOCALPF,Localized Pulmonary Fibrosis,ext1_fm69.csv,FM69,continuous
+RULOBE,Right Upper Lobe,ext1_fm69.csv,FM69,continuous
+RULOBEPC,Right Upper Lobe % involved,ext1_fm69.csv,FM69,continuous
+RMLOBE,Right Middle Lobe,ext1_fm69.csv,FM69,continuous
+RMLOBEPC,Right Middle Lobe % involved,ext1_fm69.csv,FM69,continuous
+RLLOBE,Right Lower Lobe,ext1_fm69.csv,FM69,continuous
+RLLOBEPC,Right Lower Lobe % Involved,ext1_fm69.csv,FM69,continuous
+LULOBE,Left Upper Lobe,ext1_fm69.csv,FM69,continuous
+LULOBEPC,Left Upper Lobe % Involved,ext1_fm69.csv,FM69,continuous
+LMLOBE,Left Middle Lobe,ext1_fm69.csv,FM69,continuous
+LMLOBEPC,Left Middle Lobe % Involved,ext1_fm69.csv,FM69,continuous
+LLOBE,Left Lower Lobe       LLOBE%         = L,ext1_fm69.csv,FM69,continuous
+LLOBE_,LLOBE%,ext1_fm69.csv,FM69,continuous
+PULINFAR,Pulmonary Infarcts,ext1_fm69.csv,FM69,continuous
+LOCCONSO,Localized Consolidations,ext1_fm69.csv,FM69,continuous
+EMPHYSEM,Emphysema,ext1_fm69.csv,FM69,continuous
+DIFEMPHY,Diffuse Emphysema,ext1_fm69.csv,FM69,continuous
+LOCEMPHY,Localized Emphysema,ext1_fm69.csv,FM69,continuous
+OTHERPUL,Other Pulmonary Parenchyma abnormality,ext1_fm69.csv,FM69,continuous
+PULABSPE,Specify other pulmonary parenchyma abnor,ext1_fm69.csv,FM69,categorical
+AB_HILUM,Abnormality of the Hilum or Mediatinum,ext1_fm69.csv,FM69,continuous
+HILUMABS,Specify abnormality of Hilum or Mediasti,ext1_fm69.csv,FM69,categorical
+AB_PLEUR,Abnormality of the pleural cavity,ext1_fm69.csv,FM69,continuous
+DIFPLEUR,Diffuse Pleural Thickening,ext1_fm69.csv,FM69,continuous
+FOCPLEUR,Focal Pleural Thickening,ext1_fm69.csv,FM69,continuous
+PLEURALE,Pleural Effusion,ext1_fm69.csv,FM69,continuous
+OTHERPLE,Other Pleural Abnormality,ext1_fm69.csv,FM69,continuous
+PLEURABS,Specify other pleural abnormality,ext1_fm69.csv,FM69,categorical
+AB_BONTH,Abnormality of the bony thorax,ext1_fm69.csv,FM69,continuous
+BONYEROS,Bony erosions of sickle cell anemia,ext1_fm69.csv,FM69,continuous
+BONEINFA,Bone Infarcts,ext1_fm69.csv,FM69,continuous
+OTHERBON,Other bony abnormality,ext1_fm69.csv,FM69,continuous
+BONYABSP,Specify other bony abnormality,ext1_fm69.csv,FM69,categorical
+RAND_ID,Randomized ID,ext1_fm70.csv,FM70,categorical
+AV,Annual Visit,ext1_fm70.csv,FM70,categorical
+INF_CONS,Has patient signed informed consent?,ext1_fm70.csv,FM70,categorical
+F70_PGS,Number of pages of attachments,ext1_fm70.csv,FM70,continuous
+RAND_ID,MSH Trail Randmized ID,ext1_fup_labs.csv,FUP_LABS,categorical
+AV,Annual Visit,ext1_fup_labs.csv,FUP_LABS,categorical
+HGB,Hemoglobin,ext1_fup_labs.csv,FUP_LABS,continuous
+PCV,Packed cell volume,ext1_fup_labs.csv,FUP_LABS,continuous
+MCV,Mean corpusular volume,ext1_fup_labs.csv,FUP_LABS,continuous
+WBC,White blood cell count,ext1_fup_labs.csv,FUP_LABS,continuous
+MCH,Mean corpusular hemoglobin,ext1_fup_labs.csv,FUP_LABS,continuous
+MCHC,Mean corpusular hemoglobin concentration,ext1_fup_labs.csv,FUP_LABS,continuous
+RBC,Red blood cell count,ext1_fup_labs.csv,FUP_LABS,continuous
+PLATELET,Platelets,ext1_fup_labs.csv,FUP_LABS,continuous
+RETIC_CT,Reticulocyte count,ext1_fup_labs.csv,FUP_LABS,continuous
+RDW,RBC distribution,ext1_fup_labs.csv,FUP_LABS,continuous
+RBC_MYEL,RBC abnormalities of myelodysplastic syn,ext1_fup_labs.csv,FUP_LABS,continuous
+LYMPHS,Lymphocytes,ext1_fup_labs.csv,FUP_LABS,continuous
+NEUTS,Neutrophils (bands+polys),ext1_fup_labs.csv,FUP_LABS,continuous
+MONOS,Monocytes,ext1_fup_labs.csv,FUP_LABS,continuous
+BASOS,Basophils,ext1_fup_labs.csv,FUP_LABS,continuous
+EOS,Eosinophils,ext1_fup_labs.csv,FUP_LABS,continuous
+UREA_NIT,Urea nitrogen,ext1_fup_labs.csv,FUP_LABS,continuous
+ALT,Alanine aminotransferase,ext1_fup_labs.csv,FUP_LABS,continuous
+AST,Aspartate aminotransferase,ext1_fup_labs.csv,FUP_LABS,continuous
+URIC_A,Uric acid,ext1_fup_labs.csv,FUP_LABS,continuous
+CREAT,Creatinine,ext1_fup_labs.csv,FUP_LABS,continuous
+GLUCOSE,Glucose,ext1_fup_labs.csv,FUP_LABS,continuous
+CALCIUM,Calcium,ext1_fup_labs.csv,FUP_LABS,continuous
+PHOSPH,Phosphate,ext1_fup_labs.csv,FUP_LABS,continuous
+TOT_BILI,Bilirubin(total),ext1_fup_labs.csv,FUP_LABS,continuous
+DIR_BILI,Bilirubin(direct),ext1_fup_labs.csv,FUP_LABS,continuous
+ALBUMIN,Albumin,ext1_fup_labs.csv,FUP_LABS,continuous
+TOT_PROT,Total protein,ext1_fup_labs.csv,FUP_LABS,continuous
+ALK_PHOS,Alkaline phosphatase,ext1_fup_labs.csv,FUP_LABS,continuous
+URI_RBC,Red blood cells present-Urinalysis,ext1_fup_labs.csv,FUP_LABS,categorical
+URI_WBC,White blood cells present-Urinalysis,ext1_fup_labs.csv,FUP_LABS,categorical
+FERRITIN,FERRITIN,ext1_fup_labs.csv,FUP_LABS,continuous
+ANC,,ext1_fup_labs.csv,FUP_LABS,continuous
+HBF_PCT,,ext1_fup_labs.csv,FUP_LABS,continuous
+TRANSFUS,,ext1_fup_labs.csv,FUP_LABS,continuous
+RAND_ID,MSH Trail Randmized ID,ext1_hu_usag2.csv,HU_USAG2,categorical
+DRUG,MSH randomly assigned study treatment,ext1_hu_usag2.csv,HU_USAG2,categorical
+HUMTHMSH,Months on HU during MSH trial,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP85,Type of Therapy month 85,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS85,Avg daily dose (mg) month 85,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP86,Type of Therapy month 86,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS86,Avg daily dose (mg) month 86,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP87,Type of Therapy month 87,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS87,Avg daily dose (mg) month 87,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP88,Type of Therapy month 88,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS88,Avg daily dose (mg) month 88,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP89,Type of Therapy month 89,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS89,Avg daily dose (mg) month 89,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP90,Type of Therapy month 90,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS90,Avg daily dose (mg) month 90,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP91,Type of Therapy month 91,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS91,Avg daily dose (mg) month 91,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP92,Type of Therapy month 92,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS92,Avg daily dose (mg) month 92,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP93,Type of Therapy month 93,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS93,Avg daily dose (mg) month 93,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP94,Type of Therapy month 94,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS94,Avg daily dose (mg) month 94,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP95,Type of Therapy month 95,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS95,Avg daily dose (mg) month 95,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP96,Type of Therapy month 96,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS96,Avg daily dose (mg) month 96,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP97,Type of Therapy month 97,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS97,Avg daily dose (mg) month 97,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP98,Type of Therapy month 98,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS98,Avg daily dose (mg) month 98,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP99,Type of Therapy month 99,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS99,Avg daily dose (mg) month 99,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP100,Type of Therapy month 100,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS100,Avg daily dose (mg) month 100,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP101,Type of Therapy month 101,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS101,Avg daily dose (mg) month 101,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP102,Type of Therapy month 102,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS102,Avg daily dose (mg) month 102,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP103,Type of Therapy month 103,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS103,Avg daily dose (mg) month 103,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP104,Type of Therapy month 104,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS104,Avg daily dose (mg) month 104,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP105,Type of Therapy month 105,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS105,Avg daily dose (mg) month 105,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP106,Type of Therapy month 106,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS106,Avg daily dose (mg) month 106,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP107,Type of Therapy month 107,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS107,Avg daily dose (mg) month 107,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP108,Type of Therapy month 108,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS108,Avg daily dose (mg) month 108,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP109,Type of Therapy month 109,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS109,Avg daily dose (mg) month 109,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP110,Type of Therapy month 110,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS110,Avg daily dose (mg) month 110,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP111,Type of Therapy month 111,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS111,Avg daily dose (mg) month 111,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP112,Type of Therapy month 112,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS112,Avg daily dose (mg) month 112,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP113,Type of Therapy month 113,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS113,Avg daily dose (mg) month 113,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP114,Type of Therapy month 114,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS114,Avg daily dose (mg) month 114,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP115,Type of Therapy month 115,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS115,Avg daily dose (mg) month 115,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP116,Type of Therapy month 116,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS116,Avg daily dose (mg) month 116,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP117,Type of Therapy month 117,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS117,Avg daily dose (mg) month 117,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP118,Type of Therapy month 118,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS118,Avg daily dose (mg) month 118,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP119,Type of Therapy month 119,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS119,Avg daily dose (mg) month 119,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP120,Type of Therapy month 120,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS120,Avg daily dose (mg) month 120,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP121,Type of Therapy month 121,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS121,Avg daily dose (mg) month 121,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP122,Type of Therapy month 122,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS122,Avg daily dose (mg) month 122,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP123,Type of Therapy month 123,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS123,Avg daily dose (mg) month 123,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP124,Type of Therapy month 124,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS124,Avg daily dose (mg) month 124,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP125,Type of Therapy month 125,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS125,Avg daily dose (mg) month 125,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP126,Type of Therapy month 126,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS126,Avg daily dose (mg) month 126,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP127,Type of Therapy month 127,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS127,Avg daily dose (mg) month 127,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP128,Type of Therapy month 128,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS128,Avg daily dose (mg) month 128,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP129,Type of Therapy month 129,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS129,Avg daily dose (mg) month 129,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP130,Type of Therapy month 130,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS130,Avg daily dose (mg) month 130,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP131,Type of Therapy month 131,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS131,Avg daily dose (mg) month 131,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP132,Type of Therapy month 132,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS132,Avg daily dose (mg) month 132,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP133,Type of Therapy month 133,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS133,Avg daily dose (mg) month 133,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP134,Type of Therapy month 134,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS134,Avg daily dose (mg) month 134,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP135,Type of Therapy month 135,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS135,Avg daily dose (mg) month 135,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP136,Type of Therapy month 136,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS136,Avg daily dose (mg) month 136,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP137,Type of Therapy month 137,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS137,Avg daily dose (mg) month 137,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP138,Type of Therapy month 138,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS138,Avg daily dose (mg) month 138,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP139,Type of Therapy month 139,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS139,Avg daily dose (mg) month 139,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP140,Type of Therapy month 140,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS140,Avg daily dose (mg) month 140,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP141,Type of Therapy month 141,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS141,Avg daily dose (mg) month 141,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP142,Type of Therapy month 142,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS142,Avg daily dose (mg) month 142,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP143,Type of Therapy month 143,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS143,Avg daily dose (mg) month 143,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP144,Type of Therapy month 144,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS144,Avg daily dose (mg) month 144,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP145,Type of Therapy month 145,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS145,Avg daily dose (mg) month 145,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP146,Type of Therapy month 146,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS146,Avg daily dose (mg) month 146,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP147,Type of Therapy month 147,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS147,Avg daily dose (mg) month 147,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP148,Type of Therapy month 148,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS148,Avg daily dose (mg) month 148,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP149,Type of Therapy month 149,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS149,Avg daily dose (mg) month 149,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP150,Type of Therapy month 150,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS150,Avg daily dose (mg) month 150,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP151,Type of Therapy month 151,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS151,Avg daily dose (mg) month 151,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP152,Type of Therapy month 152,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS152,Avg daily dose (mg) month 152,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP153,Type of Therapy month 153,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS153,Avg daily dose (mg) month 153,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP154,Type of Therapy month 154,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS154,Avg daily dose (mg) month 154,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP155,Type of Therapy month 155,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS155,Avg daily dose (mg) month 155,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP156,Type of Therapy month 156,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS156,Avg daily dose (mg) month 156,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP157,Type of Therapy month 157,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS157,Avg daily dose (mg) month 157,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP158,Type of Therapy month 158,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS158,Avg daily dose (mg) month 158,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP159,Type of Therapy month 159,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS159,Avg daily dose (mg) month 159,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP160,Type of Therapy month 160,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS160,Avg daily dose (mg) month 160,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP161,Type of Therapy month 161,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS161,Avg daily dose (mg) month 161,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP162,Type of Therapy month 162,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS162,Avg daily dose (mg) month 162,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP163,Type of Therapy month 163,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS163,Avg daily dose (mg) month 163,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP164,Type of Therapy month 164,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS164,Avg daily dose (mg) month 164,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP165,Type of Therapy month 165,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS165,Avg daily dose (mg) month 165,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP166,Type of Therapy month 166,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS166,Avg daily dose (mg) month 166,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP167,Type of Therapy month 167,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS167,Avg daily dose (mg) month 167,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP168,Type of Therapy month 168,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS168,Avg daily dose (mg) month 168,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP169,Type of Therapy month 169,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS169,Avg daily dose (mg) month 169,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP170,Type of Therapy month 170,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS170,Avg daily dose (mg) month 170,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP171,Type of Therapy month 171,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS171,Avg daily dose (mg) month 171,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP172,Type of Therapy month 172,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS172,Avg daily dose (mg) month 172,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP173,Type of Therapy month 173,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS173,Avg daily dose (mg) month 173,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP174,Type of Therapy month 174,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS174,Avg daily dose (mg) month 174,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUTYP175,Type of Therapy month 175,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUDOS175,Avg daily dose (mg) month 175,ext1_hu_usag2.csv,HU_USAG2,continuous
+DOSEAV06,,ext1_hu_usag2.csv,HU_USAG2,continuous
+DOSEAV07,,ext1_hu_usag2.csv,HU_USAG2,continuous
+DOSEAV08,,ext1_hu_usag2.csv,HU_USAG2,continuous
+DOSEAV09,,ext1_hu_usag2.csv,HU_USAG2,continuous
+DOSEAV10,,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUMTHFUP,Months on HU in MSH Ext I,ext1_hu_usag2.csv,HU_USAG2,continuous
+AVG_DOSE,Est daily dose during Follow-up&Ext I,ext1_hu_usag2.csv,HU_USAG2,continuous
+AVG_COMP,Est compl. during Follow-up&Ext I,ext1_hu_usag2.csv,HU_USAG2,continuous
+HUMTHTOT,"Months on HU in MSH trial, Follow-up & E",ext1_hu_usag2.csv,HU_USAG2,continuous
+RAND_ID,MSH Trail Randmized ID,ext1_patevts.csv,PATEVTS,categorical
+AV,Annual Visit,ext1_patevts.csv,PATEVTS,categorical
+DEAD,Death,ext1_patevts.csv,PATEVTS,categorical
+STROKE,Stroke,ext1_patevts.csv,PATEVTS,categorical
+REN_FAIL,Renal failure,ext1_patevts.csv,PATEVTS,categorical
+HEP_FAIL,Hepatic failure,ext1_patevts.csv,PATEVTS,categorical
+CANCER,Cancer,ext1_patevts.csv,PATEVTS,continuous
+SEPS_INF,Sepsis or other serious infection,ext1_patevts.csv,PATEVTS,categorical
+LIVE_BTH,Live birth,ext1_patevts.csv,PATEVTS,categorical
+PREG_TRM,Stillbirth/ miscarriage/ abortion,ext1_patevts.csv,PATEVTS,categorical

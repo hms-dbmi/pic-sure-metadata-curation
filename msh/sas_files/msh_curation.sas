@@ -190,57 +190,44 @@ libname fmt2 '/home/sasuser/MSH/PFU/format';
 proc format cntlin = fmt2.pfu_fmts;
 
 libname pfu '/home/sasuser/MSH/PFU/Data';
-proc export data=pfu.demo outfile="/home/sasuser/MSH/output/pfu_demo.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/pfu_demo.csv" encoding='utf-8';
+proc export data=pfu.demo outfile=output dbms='csv';
 	run;
-proc export data=pfu.fm40 outfile="/home/sasuser/MSH/output/pfu_fm40.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/pfu_fm40.csv" encoding='utf-8';
+proc export data=pfu.fm40 outfile=output dbms='csv';
 	run;
-proc export data=pfu.fm42 outfile="/home/sasuser/MSH/output/pfu_fm42.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/pfu_fm42.csv" encoding='utf-8';
+proc export data=pfu.fm42 outfile=output dbms='csv';
 	run;
-proc export data=pfu.fm43 outfile="/home/sasuser/MSH/output/pfu_fm43.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/pfu_fm43.csv" encoding='utf-8';
+proc export data=pfu.fm43 outfile=output dbms='csv';
 	run;
-proc export data=pfu.fm44 outfile="/home/sasuser/MSH/output/pfu_fm44.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/pfu_fm44.csv" encoding='utf-8';
+proc export data=pfu.fm44 outfile=output dbms='csv';
 	run;
-proc export data=pfu.fm47 outfile="/home/sasuser/MSH/output/pfu_fm47.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/pfu_fm47.csv" encoding='utf-8';
+proc export data=pfu.fm47 outfile=output dbms='csv';
 	run;
-proc export data=pfu.fm48 outfile="/home/sasuser/MSH/output/pfu_fm48.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/pfu_fm48.csv" encoding='utf-8';
+proc export data=pfu.fm48 outfile=output dbms='csv';
 	run;
-proc export data=pfu.fm49 outfile="/home/sasuser/MSH/output/pfu_fm49.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/pfu_fm49.csv" encoding='utf-8';
+proc export data=pfu.fm49 outfile=output dbms='csv';
 	run;
-proc export data=pfu.fm50 outfile="/home/sasuser/MSH/output/pfu_fm50.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/pfu_fm50.csv" encoding='utf-8';
+proc export data=pfu.fm50 outfile=output dbms='csv';
 	run;
-proc export data=pfu.fm55 outfile="/home/sasuser/MSH/output/pfu_fm55.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/pfu_fm55.csv" encoding='utf-8';
+proc export data=pfu.fm55 outfile=output dbms='csv';
 	run;
-proc export data=pfu.fm66 outfile="/home/sasuser/MSH/output/pfu_fm66.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/pfu_fm66.csv" encoding='utf-8';
+proc export data=pfu.fm66 outfile=output dbms='csv';
 	run;
-proc export data=pfu.hu_usag2 outfile="/home/sasuser/MSH/output/pfu_hu_usag2.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/pfu_hu_usag2.csv" encoding='utf-8';
+proc export data=pfu.hu_usag2 outfile=output dbms='csv';
 	run;
-proc export data=pfu.patevts outfile="/home/sasuser/MSH/output/pfu_patevts.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/pfu_patevts.csv" encoding='utf-8';
+proc export data=pfu.patevts outfile=output dbms='csv';
 	run;
 
 
@@ -249,79 +236,71 @@ libname fmt3 '/home/sasuser/MSH/Ext_1/format';
 proc format cntlin = fmt3. ext1_fmts;
 libname ext1 '/home/sasuser/MSH/Ext_1/Data';
 
-proc export data=ext1.demo outfile="/home/sasuser/MSH/output/ext1_demo.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_demo.csv" encoding='utf-8';
+proc export data=ext1.demo outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm41 outfile="/home/sasuser/MSH/output/ext1_fm41.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm41.csv" encoding='utf-8';
+proc export data=ext1.fm41 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm42 outfile="/home/sasuser/MSH/output/ext1_fm42.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm42.csv" encoding='utf-8';
+proc export data=ext1.fm42 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm43 outfile="/home/sasuser/MSH/output/ext1_fm43.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm43.csv" encoding='utf-8';
+proc export data=ext1.fm43 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm44 outfile="/home/sasuser/MSH/output/ext1_fm44.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm44.csv" encoding='utf-8';
+proc export data=ext1.fm44 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm45 outfile="/home/sasuser/MSH/output/ext1_fm45.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm45.csv" encoding='utf-8';
+proc export data=ext1.fm45 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm47 outfile="/home/sasuser/MSH/output/ext1_fm47.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm47.csv" encoding='utf-8';
+proc export data=ext1.fm47 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm48 outfile="/home/sasuser/MSH/output/ext1_fm48.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm48.csv" encoding='utf-8';
+proc export data=ext1.fm48 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm49 outfile="/home/sasuser/MSH/output/ext1_fm49.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm49.csv" encoding='utf-8';
+proc export data=ext1.fm49 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm50 outfile="/home/sasuser/MSH/output/ext1_fm50.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm50.csv" encoding='utf-8';
+proc export data=ext1.fm50 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm55 outfile="/home/sasuser/MSH/output/ext1_fm55.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm55.csv" encoding='utf-8';
+proc export data=ext1.fm55 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm66 outfile="/home/sasuser/MSH/output/ext1_fm66.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm66.csv" encoding='utf-8';
+proc export data=ext1.fm66 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm67 outfile="/home/sasuser/MSH/output/ext1_fm67.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm67.csv" encoding='utf-8';
+proc export data=ext1.fm67 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm68 outfile="/home/sasuser/MSH/output/ext1_fm68.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm68.csv" encoding='utf-8';
+proc export data=ext1.fm68 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm69 outfile="/home/sasuser/MSH/output/ext1_fm69.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm69.csv" encoding='utf-8';
+proc export data=ext1.fm69 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fm70 outfile="/home/sasuser/MSH/output/ext1_fm70.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fm70.csv" encoding='utf-8';
+proc export data=ext1.fm70 outfile=output dbms='csv';
 	run;
-proc export data=ext1.fup_labs outfile="/home/sasuser/MSH/output/ext1_fup_labs.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_fup_labs.csv" encoding='utf-8';
+proc export data=ext1.fup_labs outfile=output dbms='csv';
 	run;
-proc export data=ext1.hu_usag2 outfile="/home/sasuser/MSH/output/ext1_hu_usag2.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_hu_usag2.csv" encoding='utf-8';
+proc export data=ext1.hu_usag2 outfile=output dbms='csv';
 	run;
-proc export data=ext1.patevts outfile="/home/sasuser/MSH/output/ext1_patevts.csv"
-	;
-	delimiter=',';
+filename output "/home/sasuser/MSH/output2/ext1_patevts.csv" encoding='utf-8';
+proc export data=ext1.patevts outfile=output dbms='csv';
 	run;
+	
+* Save dataset contents as metadata - later saved as CSV to use for JSON metadata correction;
+proc datasets lib=clinical;
+contents data=_ALL_ out=clinical.metadata;
+run;
+proc datasets lib=ext1;
+contents data=_ALL_ out=ext1.metadata;
+run;
+proc datasets lib=pfu;
+contents data=_ALL_ out=pfu.metadata;
+run;
