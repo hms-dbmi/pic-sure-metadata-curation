@@ -1,0 +1,125 @@
+---
+title: "Curate Metadata for ACTIV4A"
+author: "Simran Makwana"
+date: "4/18/2022"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+#install.packages("readxl")
+library(readxl)
+library(dplyr)
+```
+
+First, let's see what we can extract from the provided data dictionary.
+This data dictionary contains multiple sheets, so we will use the readxl package
+```{r}
+dd_path <- '../input/ACTIV-4a Mapping Data Dictionary 2021-06-10.xlsx'
+
+# fetch names of all sheets inside data dictionary
+sheets <- excel_sheets(dd_path)
+tibble <- lapply(sheets, function(x) read_excel(dd_path, sheet = x))
+data_frame <- lapply(tibble, as.data.frame)
+    
+# assigning names to data frames
+names(data_frame) <- sheets
+
+
+```
+
+```{r}
+# create one single dataframe
+df <- bind_rows((data_frame), .id = 'source')
+
+df2 <- df %>% 
+  select(VARNAME, VARDESC, source) %>%
+  rename('variable_id' = 'VARNAME',
+         'variable_name' = 'VARDESC',
+         'form_name' = 'source') %>%
+  mutate(variable_label_from_data_dictionary = variable_id)
+
+df3 <- df2
+
+```
+
+
+Read in variable metadata from SAS. (NOTE: to modify)
+```{r}
+#sas_metadata <- read.csv("../input/HCT_for_SCD_METADATA.csv")
+
+# Clean up sas metadata
+#sas_metadata <- sas_metadata %>% 
+#    select(MEMNAME, NAME, TYPE, LABEL) %>%
+#    rename(data_file_name = MEMNAME, variable_id = NAME, variable_label_from_data_file = LABEL, variable_type = TYPE) #%>%
+#    mutate(data_file_name = paste(tolower(data_file_name), '.sas7bdat', sep=''),
+#           variable_type = ifelse(variable_type==1, "continuous",
+#                                    ifelse(variable_type==2, "categorical", "data missing")),
+#           variable_id = tolower(variable_id)) %>%
+#    mutate(variable_type = ifelse(is.na(variable_type), "data missing", variable_type))
+
+#df3 <- full_join(df3, sas_metadata, by=c("variable_id")) %>%
+#  mutate(variable_type = ifelse(is.na(variable_type.x), variable_type.y, variable_type.x),
+#         variable_name = ifelse(is.na(variable_label_from_data_file), 
+#                                variable_label_from_data_dictionary, 
+#                                variable_label_from_data_file)) %>%
+#  select(-c(variable_type.x, variable_type.y)) 
+```
+
+
+## Create JSON file
+
+Start with variable metadata
+```{r}
+    
+variable_df <- df3 %>% unique() 
+ind <- 1
+for(ind in 1:nrow(variable_df)){
+  var_df <- df3 %>%
+    filter(variable_id == variable_df[ind, 'variable_id'],
+           variable_name == variable_df[ind, 'variable_name'],
+           #NOTE: add from SAS data_file_name == variable_df[ind, 'data_file_name'],
+           form_name == variable_df[ind, 'form_name']) %>%
+    select(variable_label_from_data_dictionary) #NOTE: add from SAS variable_label_from_data_file)
+  variable_df[ind, 'variable_metadata'] [[1]] <- list(var_df)
+}
+```
+
+Group variables into forms
+```{r}
+form_df <- df3 %>% select(form_name) %>% unique()
+for(ind in 1:nrow(form_df)){
+  f_df <- variable_df %>%
+    filter(form_name == variable_df[ind, 'form_name']) %>% #,
+           #data_file_name == variable_df[ind, 'data_file_name']) %>%   ##NOTE: uncomment line when sas info is added
+    select(variable_id, variable_name, variable_metadata)
+  form_df[ind, 'variable'] [[1]] <- list(f_df)
+}
+```
+
+Group forms into study
+```{r}
+study_df <- data.frame('study' = 'ACTIV4A', 
+                       'study_name' = 'COVID-19 ACTIV-4 ACUTE: A Multicenter, Adaptive, Randomized Controlled Platform Trial of the Safety and Efficacy of Antithrombotic Strategies in Hospitalized Adults with COVID-19 (ACTIV4A)',
+                       'study_phs_number' = 'phs002694', 
+                       'study_url' = 'https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002694.v1.p1')
+
+study_df[1, 'form'][[1]] <- list(form_df)
+
+
+
+```
+
+Write JSON
+
+```{r}
+my_json <- toJSON(study_df, pretty=FALSE)
+json_string <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/activ4a_metadata.json")
+writeLines(json_string, fileConn)
+close(fileConn)
+# This works for writing a JSON file without the escape characters
+```
+
