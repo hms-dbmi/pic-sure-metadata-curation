@@ -1,5 +1,5 @@
 ---
-title: "Curate Metadata for ACTIV4A"
+title: "Curate Metadata for ACTIV4B"
 author: "Simran Makwana"
 date: "4/18/2022"
 output: html_document
@@ -17,7 +17,7 @@ library(dplyr)
 First, let's see what we can extract from the provided data dictionary.
 This data dictionary contains multiple sheets, so we will use the readxl package
 ```{r}
-dd_path <- '../input/ACTIV-4a Mapping Data Dictionary 2021-06-10.xlsx'
+dd_path <- '../input/DataDict_ACTIV4b.xlsx'
 
 # fetch names of all sheets inside data dictionary
 sheets <- excel_sheets(dd_path)
@@ -101,10 +101,10 @@ for(ind in 1:nrow(form_df)){
 
 Group forms into study
 ```{r}
-study_df <- data.frame('study' = 'ACTIV4A', 
-                       'study_name' = 'COVID-19 ACTIV-4 ACUTE: A Multicenter, Adaptive, Randomized Controlled Platform Trial of the Safety and Efficacy of Antithrombotic Strategies in Hospitalized Adults with COVID-19 (ACTIV4A)',
-                       'study_phs_number' = 'phs002694', 
-                       'study_url' = 'https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002694.v1.p1')
+study_df <- data.frame('study' = 'ACTIV4B', 
+                       'study_name' = 'COVID-19 Outpatient Thrombosis Prevention Trial (ACTIV-4B)',
+                       'study_phs_number' = 'phs002710', 
+                       'study_url' = 'https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002710.v1.p1')
 
 study_df[1, 'form'][[1]] <- list(form_df)
 
@@ -117,7 +117,7 @@ Write JSON
 ```{r}
 my_json <- toJSON(study_df, pretty=FALSE)
 json_string <- as.character(my_json) # Convert to character/string
-fileConn <- file("../output/activ4a_metadata.json")
+fileConn <- file("../output/activ4b_metadata.json")
 writeLines(json_string, fileConn)
 close(fileConn)
 # This works for writing a JSON file without the escape characters
