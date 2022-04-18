@@ -34,14 +34,11 @@ names(data_frame) <- sheets
 # create one single dataframe
 df <- bind_rows((data_frame), .id = 'source')
 
-# rename source with variable group
-source_group_mapping <- data.frame('form_name' = sheets,
-                                   'source' = as.character(c(1:30)))
-
-df2 <- left_join(df, source_group_mapping) %>% 
-  select(VARNAME, VARDESC, form_name) %>%
+df2 <- df %>% 
+  select(VARNAME, VARDESC, source) %>%
   rename('variable_id' = 'VARNAME',
-         'variable_name' = 'VARDESC') %>%
+         'variable_name' = 'VARDESC',
+         'form_name' = 'source') %>%
   mutate(variable_label_from_data_dictionary = variable_id)
 
 df3 <- df2
@@ -120,7 +117,7 @@ Write JSON
 ```{r}
 my_json <- toJSON(study_df, pretty=FALSE)
 json_string <- as.character(my_json) # Convert to character/string
-fileConn <- file("../output/orchid_metadata.json")
+fileConn <- file("../output/activ4a_metadata.json")
 writeLines(json_string, fileConn)
 close(fileConn)
 # This works for writing a JSON file without the escape characters
