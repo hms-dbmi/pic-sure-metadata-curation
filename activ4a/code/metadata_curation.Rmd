@@ -1,0 +1,129 @@
+---
+title: "Curate Metadata for ACTIV4A"
+author: "Simran Makwana"
+date: "4/18/2022"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+```
+
+First, let's see what we can extract from the provided codebook
+```{r}
+codebook <- readxl::read_xlsx('../input/HCT_for_SCD_2021a/documentation/Codebook.xlsx')
+
+df <- codebook %>% 
+  select(`Variable name`, Description, `HCT status`, `CIBMTR Form number; (question numbers)`, `Computed Variable?`) 
+
+colnames(df) = c('variable_id', 'variable_name', 'variable_hct_status', 'form_id', 'variable_was_computed')
+
+df <- df %>% 
+  filter(!is.na(variable_id), !is.na(variable_name)) %>%
+  mutate(variable_was_computed = ifelse(variable_was_computed == "Y", "Yes", "No")) %>%
+  unique()
+
+# some variables have multiple forms. standardize the format manually
+write.csv(df, '../intermediates/df.csv', row.names = FALSE)
+
+df2 <- read.csv('../intermediates/manually_curated_df.csv') %>%
+  separate(form_id, into = c('form_id', 'variable_question_number_inform'), sep = '(?<=v[[:alnum:]])') %>%
+  mutate(variable_question_number_inform = str_trim(gsub('\\(|\\)', '', variable_question_number_inform)),
+         form_id = str_trim(form_id)) %>%
+  mutate(form_id = ifelse(form_id %in% c('2130  v1', '2130 v1', '2130v1'), '2130 v1', 
+                            ifelse(form_id == '2000v4', '2000 v4', 
+                                   ifelse(form_id == '2030v1', '2030 v1', 
+                                          ifelse(form_id == '2100v4', '2100 v4', form_id))))) %>% # clean up inconsistent form names
+  rename(variable_label_from_data_dictionary = variable_name)
+```
+
+We manually curated a file containing form descriptions using the forms.
+```{r}
+form_mapping <- read.csv('../intermediates/form_mapping.csv')
+
+df3 <- left_join(df2, form_mapping) %>%
+  mutate(form_name = ifelse(is.na(form_name), "Form Unknown", form_name)) %>%
+  #mutate(variable_label_from_data_dictionary = variable_name) %>%
+  left_join(codebook %>% select('Variable name', Type), by = c('variable_id' = 'Variable name')) %>%
+  rename('variable_type' = 'Type') %>%
+  mutate(variable_type = ifelse(variable_type == 'Num', 'continuous', 'categorical'))
+
+```
+Read in variable metadata from SAS.
+```{r}
+sas_metadata <- read.csv("../input/HCT_for_SCD_METADATA.csv")
+
+# Clean up sas metadata
+sas_metadata <- sas_metadata %>% 
+    select(MEMNAME, NAME, TYPE, LABEL) %>%
+    rename(data_file_name = MEMNAME, variable_id = NAME, variable_label_from_data_file = LABEL, variable_type = TYPE) %>%
+    mutate(data_file_name = paste(tolower(data_file_name), '.sas7bdat', sep=''),
+           variable_type = ifelse(variable_type==1, "continuous",
+                                    ifelse(variable_type==2, "categorical", "data missing")),
+           variable_id = tolower(variable_id)) %>%
+    mutate(variable_type = ifelse(is.na(variable_type), "data missing", variable_type))
+
+df3 <- full_join(df3, sas_metadata, by=c("variable_id")) %>%
+  mutate(variable_type = ifelse(is.na(variable_type.x), variable_type.y, variable_type.x),
+         variable_name = ifelse(is.na(variable_label_from_data_file), 
+                                variable_label_from_data_dictionary, 
+                                variable_label_from_data_file)) %>%
+  select(-c(variable_type.x, variable_type.y)) 
+```
+
+
+## Create JSON file
+
+Start with variable metadata
+```{r}
+variable_df <- df3 %>% unique()
+
+for(ind in 1:nrow(variable_df)){
+  var_df <- df3 %>%
+    filter(variable_id == variable_df[ind, 'variable_id'],
+           variable_name == variable_df[ind, 'variable_name'],
+           data_file_name == variable_df[ind, 'data_file_name'],
+           form_name == variable_df[ind, 'form_name']) %>%
+    select(variable_label_from_data_dictionary, variable_hct_status, variable_was_computed, variable_question_number_inform, variable_label_from_data_file)
+  variable_df[ind, 'variable_metadata'] [[1]] <- list(var_df)
+}
+```
+
+Group variables into forms
+```{r}
+form_df <- df3 %>% select(form_name, form_id, form_description, data_file_name) %>% unique()
+for(ind in 1:nrow(form_df)){
+  f_df <- variable_df %>%
+    filter(form_name == variable_df[ind, 'form_name'],
+           data_file_name == variable_df[ind, 'data_file_name']) %>%   ## uncomment line when sas info is added
+    select(variable_id, variable_name, variable_type, variable_metadata)
+  form_df[ind, 'variable'] [[1]] <- list(f_df)
+}
+```
+
+Group forms into study
+```{r}
+study_df <- data.frame('study' = 'HCT for SCD', 
+                       'study_name' = 'Hematopoietic Cell Transplant for Sickle Cell Disease',
+                       'study_phs_number' = 'phs002385', 
+                       'study_url' = 'https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002385.v1.p1')
+
+study_df[1, 'form'][[1]] <- list(form_df)
+
+
+
+```
+
+Write JSON
+
+```{r}
+my_json <- toJSON(study_df, pretty=FALSE)
+json_string <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/orchid_metadata.json")
+writeLines(json_string, fileConn)
+close(fileConn)
+# This works for writing a JSON file without the escape characters
+```
+
