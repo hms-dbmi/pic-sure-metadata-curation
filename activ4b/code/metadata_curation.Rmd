@@ -35,10 +35,11 @@ names(data_frame) <- sheets
 df <- bind_rows((data_frame), .id = 'source')
 
 df2 <- df %>% 
-  select(VARNAME, VARDESC, source) %>%
+  select(VARNAME, VARDESC, source, TYPE) %>%
   rename('variable_id' = 'VARNAME',
          'variable_name' = 'VARDESC',
-         'form_name' = 'source') %>%
+         'form_name' = 'source', 
+         'variable_type' = 'TYPE') %>% # NOTEL currently taken fromd ata dict
   mutate(variable_label_from_data_dictionary = variable_id)
 
 df3 <- df2
@@ -81,7 +82,8 @@ for(ind in 1:nrow(variable_df)){
     filter(variable_id == variable_df[ind, 'variable_id'],
            variable_name == variable_df[ind, 'variable_name'],
            #NOTE: add from SAS data_file_name == variable_df[ind, 'data_file_name'],
-           form_name == variable_df[ind, 'form_name']) %>%
+           form_name == variable_df[ind, 'form_name'],
+           variable_type == variable_df[ind, 'variable_type']) %>%
     select(variable_label_from_data_dictionary) #NOTE: add from SAS variable_label_from_data_file)
   variable_df[ind, 'variable_metadata'] [[1]] <- list(var_df)
 }
@@ -94,7 +96,7 @@ for(ind in 1:nrow(form_df)){
   f_df <- variable_df %>%
     filter(form_name == variable_df[ind, 'form_name']) %>% #,
            #data_file_name == variable_df[ind, 'data_file_name']) %>%   ##NOTE: uncomment line when sas info is added
-    select(variable_id, variable_name, variable_metadata)
+    select(variable_id, variable_name, variable_type, variable_metadata)
   form_df[ind, 'variable'] [[1]] <- list(f_df)
 }
 ```
