@@ -35,9 +35,10 @@ names(data_frame) <- sheets
 df <- bind_rows((data_frame), .id = 'source')
 
 df2 <- df %>% 
-  select(VARNAME, VARDESC, source) %>%
+  select(VARNAME, VARDESC, source, TYPE) %>%
   rename('variable_id' = 'VARNAME',
          'variable_name' = 'VARDESC',
+         'variable_type' = 'TYPE', #NOTE: type currently being used from data dictionary
          'form_name' = 'source') %>%
   mutate(variable_label_from_data_dictionary = variable_id)
 
@@ -81,7 +82,8 @@ for(ind in 1:nrow(variable_df)){
     filter(variable_id == variable_df[ind, 'variable_id'],
            variable_name == variable_df[ind, 'variable_name'],
            #NOTE: add from SAS data_file_name == variable_df[ind, 'data_file_name'],
-           form_name == variable_df[ind, 'form_name']) %>%
+           form_name == variable_df[ind, 'form_name'],
+           variable_type == variable_df[ind, 'variable_type']) %>%
     select(variable_label_from_data_dictionary) #NOTE: add from SAS variable_label_from_data_file)
   variable_df[ind, 'variable_metadata'] [[1]] <- list(var_df)
 }
