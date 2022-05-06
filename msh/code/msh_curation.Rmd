@@ -83,9 +83,9 @@ group_vars <- function(var_meta){
   rownames(var_group) <- NULL
   for(ind in 1:nrow(var_group)){
     vgdf <- var_meta %>%
-      filter(form_group_name == var_meta[ind, 'form_group_name'] &
-               ((form_name == var_meta[ind, 'form_name']) | (is.na(form_name) == is.na(var_meta[ind, 'form_name']))) &
-               data_file_name == var_meta[ind, 'data_file_name']) %>%
+      filter(form_group_name == var_group[ind, 'form_group_name'] &
+               ((form_name == var_group[ind, 'form_name']) | (is.na(form_name) == is.na(var_group[ind, 'form_name']))) &
+               data_file_name == var_group[ind, 'data_file_name']) %>%
       select(variable_id, variable_name, variable_type, variable_metadata)
     var_group[ind, 'variable'][[1]] <- list(vgdf)
   }
