@@ -1,0 +1,159 @@
+---
+title: "DCC Harmonized Curation"
+output: html_document
+---
+
+This notebook is a little different in that the goal of the JSON file is to provide the desired dataset IDs for certain variable IDs. The desired dataset IDs are determined by the PIC-SURE path and then outputted as JSON.
+
+Libraries
+```{r}
+library(tidyverse)
+library(pdftools)
+library(jsonlite)
+# Set working directory to pic-sure-metadata-curation/dcc_harmonized if necessary
+```
+
+Connect to pic-sure and pull all harmonized variables
+```{r}
+system(command = 'conda install -c conda-forge r-devtools --yes')
+devtools::install_github("hms-dbmi/pic-sure-r-client", ref="master", force=T, quiet=TRUE)
+devtools::install_github("hms-dbmi/pic-sure-r-adapter-hpds", ref="master", force=T, quiet=TRUE)
+devtools::install_github("hms-dbmi/pic-sure-biodatacatalyst-r-adapter-hpds", ref="new-search", force=T)
+library(hpds)
+```
+
+```{r}
+PICSURE_network_URL = "https://biodatacatalyst.integration.hms.harvard.edu/picsure"
+token_file <- "../input/token.txt"
+token <- scan(token_file, what = "character")
+connection <- picsure::connect(PICSURE_network_URL, token)
+authPicSure = bdc::use.authPicSure(connection)
+
+```
+
+Organize data as datatable
+```{r}
+
+
+```
+
+
+The main goal will be to create a nested JSON file.
+First, we will clean up the dataframe to be in the previously defined schema.
+```{r}
+raw <- df3 %>%
+  select(level_4, level_4_desc,
+         level_3, level_3_desc,
+         level_2, level_2_desc,
+         level_0, varname, variable_type,
+         LABEL, level_1, level_0_desc, level_1_desc) %>%
+  rename(variable_label_from_data_dictionary = level_1, #Variable level metdata
+         variable_label_from_data_file = LABEL,
+         variable_description = level_0_desc,
+         variable_additional_info = level_1_desc,
+         variable_id = level_0, #Variables
+         variable_name = varname,
+         #variable_type,
+         variable_group_name = level_2, #Variable group level
+         variable_group_description = level_2_desc,
+         form_name = level_3, # Form level
+         form_description = level_3_desc,
+         form_group_name = level_4,
+         form_group_description = level_4_desc)
+```
+
+
+Now we will add variable-level metadata information for each variable.
+```{r}
+variable_df <- raw %>% 
+  select(!c(variable_label_from_data_dictionary, variable_label_from_data_file, variable_description, variable_additional_info)) %>%
+  unique()
+rownames(variable_df) <- NULL
+
+for(ind in 1:nrow(variable_df)){
+  var_df <- raw %>% 
+    filter(form_group_name == variable_df[ind, 'form_group_name'] &
+             form_name == variable_df[ind, 'form_name'] &
+             variable_group_name == variable_df[ind, 'variable_group_name'] &
+             variable_id == variable_df[ind, 'variable_id']) %>%
+    select(variable_label_from_data_dictionary, variable_label_from_data_file, variable_description, variable_additional_info)
+  variable_df[ind, 'variable_metadata'] [[1]] <- list(var_df)
+}
+```
+
+Now we will add variables to variable groups.
+```{r}
+vargroup_df <- variable_df %>% 
+  select(!c(variable_id, variable_name, variable_type, variable_metadata)) %>%
+  unique()
+rownames(vargroup_df) <- NULL
+
+for(ind in 1:nrow(vargroup_df)){
+  vargroup <- variable_df %>%
+    filter(form_group_name == vargroup_df[ind, 'form_group_name'] &
+             form_name == vargroup_df[ind, 'form_name'] &
+             variable_group_name == vargroup_df[ind, 'variable_group_name']) %>%
+    select(variable_id, variable_name, variable_type, variable_metadata)
+  vargroup_df[ind, "variable"][[1]] <- list(vargroup)
+}
+```
+
+Now we will add form information.
+```{r}
+form_df <- vargroup_df %>%
+  select(!c(variable_group_name, variable_group_description, variable)) %>%
+  unique()
+rownames(form_df) <- NULL
+form_df$data_file_name <- "redcoral.sas7bdat"
+
+for(ind in 1:nrow(form_df)) {
+  fdf <- vargroup_df %>%
+    filter(form_group_name == form_df[ind, 'form_group_name'] &
+             form_name == form_df[ind, 'form_name']) %>%
+    select(variable_group_name, variable_group_description, variable)
+  form_df[ind, 'variable_group'][[1]] <- list(fdf)
+}
+```
+
+
+Now we will add form groups.
+```{r}
+form_groups <- form_df %>%
+  select(!c(form_name, form_description, data_file_name, variable_group)) %>%
+  unique()
+rownames(form_groups) <- NULL
+
+for(ind in 1:nrow(form_groups)) {
+  fgdf <- form_df %>%
+    filter(form_group_name == form_groups[ind, 'form_group_name']) %>%
+    select(form_name, form_description, data_file_name, variable_group)
+  form_groups[ind, 'form'][[1]] <- list(fgdf)
+}
+```
+
+Now we will add study information.
+```{r}
+study <- "RED CORAL"
+study_name <- "PETAL Repository of Electronic Data COVID-19 Observational Study (RED CORAL)"
+study_phs_number <- "phs002363"
+study_url <- "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002363.v1.p1"
+
+final_df <- data.frame(study, study_name, study_phs_number, study_url)
+
+final_df[1, 'form_group'][[1]] <- list(form_groups)
+
+my_json <- toJSON(final_df, pretty=FALSE)
+
+```
+
+
+Using the `write_json` function outputs quotations with escape characters ("/"). This causes problems with the JSON file format. This can be dealt with by converting the JSON object into a string and writing this to a text file.
+
+```{r}
+test_string_json <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/redcoral_metadata.json")
+writeLines(test_string_json, fileConn)
+close(fileConn)
+
+# This works for writing a JSON file without the escape characters
+```
