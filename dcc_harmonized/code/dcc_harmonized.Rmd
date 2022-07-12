@@ -1,0 +1,113 @@
+---
+title: "DCC Harmonized Curation"
+output: html_document
+---
+
+This notebook is a little different in that the goal of the JSON file is to provide the desired dataset IDs for certain variable IDs. The desired dataset IDs are determined by the PIC-SURE path and then outputted as JSON.
+
+Libraries
+```{r}
+library(tidyverse)
+library(pdftools)
+library(jsonlite)
+# Set working directory to pic-sure-metadata-curation/dcc_harmonized if necessary
+```
+
+Connect to pic-sure and pull all harmonized variables
+```{r}
+#system(command = 'conda install -c conda-forge r-devtools --yes')
+devtools::install_github("hms-dbmi/pic-sure-r-client", ref="master", force=T, quiet=TRUE)
+devtools::install_github("hms-dbmi/pic-sure-r-adapter-hpds", ref="master", force=T, quiet=TRUE)
+devtools::install_github("hms-dbmi/pic-sure-biodatacatalyst-r-adapter-hpds", ref="new-search", force=T)
+library(hpds)
+```
+
+```{r}
+PICSURE_network_URL = "https://biodatacatalyst.integration.hms.harvard.edu/picsure"
+token_file <- "../input/token.txt"
+token <- scan(token_file, what = "character")
+connection <- picsure::connect(PICSURE_network_URL, token)
+authPicSure = bdc::use.authPicSure(connection)
+
+```
+
+```{r}
+dictionary <- bdc::use.dictionary(connection) # set up the variable dictionary
+harmonized_dic <- bdc::find.in.dictionary(dictionary, "harmonized")
+harmonized_df <- bdc::extract.dataframe(harmonized_dic)
+head(harmonized_df)
+
+```
+
+Organize data as datatable
+```{r}
+my_split <- function(path){
+  return(strsplit(path, '\\\\')[[1]][3])
+}
+
+harmonized_df <- harmonized_df %>%
+  mutate(group_id = sapply(HPDS_PATH, my_split))
+
+raw <- harmonized_df
+
+```
+
+
+Now we will add variable-level metadata information for each variable.
+```{r}
+variable_df <- raw %>% 
+  select(var_id, var_name, group_id) %>%
+  unique()
+rownames(variable_df) <- NULL
+
+for(ind in 1:nrow(variable_df)){
+  var_df <- raw %>% 
+    filter(var_id == variable_df[ind, 'var_id'] &
+           var_name == variable_df[ind, 'var_name'] &
+           group_id == variable_df[ind, 'group_id']) %>%
+    select(var_description, data_type)
+  variable_df[ind, 'variable_metadata'] [[1]] <- list(var_df)
+}
+```
+
+Now we will add variables to variable groups.
+```{r}
+vargroup_df <- variable_df %>% 
+  select(group_id) %>%
+  unique()
+rownames(vargroup_df) <- NULL
+
+for(ind in 1:nrow(vargroup_df)){
+  vargroup <- variable_df %>%
+    filter(group_id == vargroup_df[ind, 'group_id']) %>%
+    select(var_id, var_name, variable_metadata)
+  vargroup_df[ind, "variable"][[1]] <- list(vargroup)
+}
+```
+
+Now we will add study information.
+```{r}
+study <- "DCC Harmonized data set"
+study_name <- "DCC Harmonized data set"
+study_phs_number <- "DCC Harmonized data set"
+study_url <- "https://topmed.nhlbi.nih.gov/dcc-pheno"
+
+final_df <- data.frame(study, study_name, study_phs_number, study_url)
+
+final_df[1, 'var_groups'][[1]] <- list(vargroup_df)
+
+my_json <- toJSON(final_df, pretty=FALSE)
+
+```
+
+
+Using the `write_json` function outputs quotations with escape characters ("/"). This causes problems with the JSON file format. This can be dealt with by converting the JSON object into a string and writing this to a text file.
+
+```{r}
+test_string_json <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/dcc_harmonized.json")
+writeLines(test_string_json, fileConn)
+close(fileConn)
+
+# This works for writing a JSON file without the escape characters
+```
