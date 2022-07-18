@@ -1,0 +1,194 @@
+---
+title: "Curate Metadata for C3PO"
+author: "Michael Corace"
+date: "7/6/2022"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+install.packages("readxl")
+library(readxl)
+library(dplyr)
+```
+To-Do
+******
+
+
+
+
+First, let's see what we can extract from the provided data dictionary.
+```{r}
+dd_path <- '../input/DataDictionary.csv'
+
+# read in the csv to a data frame
+data_dictionary_df <- read.csv(dd_path)
+```
+
+This study provides an additional decoding file, a Code List.
+Now we'll load in this file as well, and extract info we need from it.
+
+```{r}
+cl_path <- '../input/Codelist.csv'
+
+# read in the csv to a data frame
+codelist_df <- read.csv(cl_path)
+
+```
+
+This codelist has the coded variable ids and decoded names in the same field.
+So now we separate those into different columns to be used more easily.
+
+```{r}
+
+codelist_df$label_name_list <- vector(mode="character",length = length(codelist_df$label_list))
+
+for (i in 1:length(codelist_df$label_list)) {
+  #print(codelist_df$label_list[i])
+  label_name <- strsplit(codelist_df$label_list[i], "=")
+  
+  codelist_df$label_list[i] <- gsub('\"','',label_name[[1]][1])
+  codelist_df$label_name_list[i] <- gsub('\\\\','', gsub('\"','',label_name[[1]][2]))
+}
+
+```
+
+
+Build Variable Data Frame
+
+```{r}
+
+variable_df <- data.frame("form_name" = codelist_df$table_name,
+                          "variable_id" = codelist_df$label_list,
+                          "variable_name" = codelist_df$label_name_list,
+                          "variable_type" = rep(NA, length(codelist_df$label_list)),
+                          "variable_label_from_data_dictionary" = codelist_df$label_name_list,
+                          "variable_label_from_data_file" = rep(NA, length(codelist_df$label_list)))
+                          
+
+# Determine the type of each variable
+for(i in c(1:length(variable_df$variable_id))){
+  if(variable_df$variable_id[i] %in% data_dictionary_df$varname){
+    variable_df$variable_type[i] <- "ENCODED VALUE"
+  }else{
+    variable_df$variable_type[i] <- "numeric"
+  }
+  # add in variable metadata label
+  #variable_df$variable_metadata[i]$variable_label_from_data_dictionary <- variable_df$variable_name[i]
+}
+
+```
+
+
+Check all form files for any additional variables not contained within the lists
+This includes variables already on the list, but not associated with that specific form
+```{r}
+form_files_list <- list.files('../input/',pattern = 'unmapped')
+
+for(form in form_files_list){
+  vars <- colnames(read.table(paste0("../input/",form), head = TRUE, nrows=1, sep=",")[-1,])
+  for(v in vars){
+    if(!(v %in% variable_df$variable_id)){
+      #print(v)
+      #print(form)
+      # this was used to catch the 3 variables not listed, since it is a small number I just added them in manually
+    }else {
+        form_num <- paste0("Form",str_match(form,"CONNECTS_(.*?)_unmapped\\.csv")[,2])
+
+        if((v %in% variable_df$variable_id) && !(form_num %in% variable_df$form_name[which(variable_df$variable_id == v)] )){
+          variable_df <- rbind(variable_df, data.frame("form_name" = form_num,
+                                                       "variable_id" = v,
+                                                       "variable_name" = variable_df$variable_name[which(variable_df$variable_id == v)][1],
+                                                       "variable_type" = variable_df$variable_type[which(variable_df$variable_id == v)][1],
+                                                        "variable_label_from_data_dictionary" = variable_df$variable_label_from_data_dictionary[which(variable_df$variable_id == v)][1],
+                                                        "variable_label_from_data_file" = NA))
+        }
+    }
+  }
+}
+
+# There are 3 variables found in a form that have no description in the codelist or data dictionary
+# Upon review they are all from the same form, so I will just add them manually here
+
+variable_df <- rbind(variable_df, data.frame("form_name" = c("Form104","Form104","Form104"),
+                                                       "variable_id" = c("zCRFID","socname","ptname"),
+                                                       "variable_name" = c("zCRFID","socname","ptname"),
+                                                       "variable_type" = c("numeric","string","string"),
+                                                        "variable_label_from_data_dictionary" = c(NA,NA,NA),
+                                                        "variable_label_from_data_file" = c("zCRFID","socname","ptname")))
+
+```
+
+
+#### CONNECTS CDE DOMAINS ####
+Read in and save the CONNECTS CDE Domains
+These are Common Data Elements defined in the CONNECTS CDE MANUAL found at: https://nhlbi-connects.org/common_data_elements
+
+```{r}
+
+# CDE_list <- c("DM","MH","RSK","ORG","SYM","AE","CM","VS","LB","COVID","VAC","DS","DS","INT","HO")
+
+# Ensure each CDE Domain exists in the study, and save them in a data frame
+# for(CDE in CDE_list){
+#  if(file.exists(paste0("../input/",CDE,".csv"))){
+#    tmp_df <- read.csv(paste0("../input/",CDE,".csv"), check.names = F)
+#    assign(paste0(CDE,"_df"),tmp_df)
+#  }
+#}
+
+
+```
+#
+
+
+## Create JSON file
+
+Start with variable metadata
+```{r}
+#var_df <- variable_df %>% unique() 
+
+for(ind in 1:nrow(variable_df)){
+  meta_df <- variable_df[which(variable_df$variable_id == variable_df$variable_id[ind]),5:6]
+  variable_df[ind, 'variable_metadata'] [[1]] <- list(meta_df[1,])
+}
+variable_df<- variable_df[,c(1:4,7)]
+```
+
+Group variables into forms
+```{r}
+form_df <- variable_df %>% select(form_name) %>% unique()
+
+for(ind in 1:nrow(form_df)){
+  f_df <- variable_df[which(variable_df$form_name == form_df$form_name[ind]),c(2:5)]
+  form_df[ind,'variable'] [[1]] <-list(f_df)
+}
+```
+
+
+
+Group forms into study
+```{r}
+study_df <- data.frame('study' = 'C3PO', 
+                       'study_name' = 'Convalescent Plasma in Outpatients With COVID-19 (C3PO)',
+                       'study_phs_number' = 'phs002752', 
+                       'study_url' = 'https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002752.v1.p1')
+
+study_df[1, 'form'][[1]] <- list(form_df)
+
+
+
+```
+
+Write JSON
+
+```{r}
+my_json <- toJSON(study_df, pretty=FALSE)
+json_string <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/c3po_metadata.json")
+writeLines(json_string, fileConn)
+close(fileConn)
+# This works for writing a JSON file without the escape characters
+```
+
