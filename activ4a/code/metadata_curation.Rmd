@@ -1,6 +1,6 @@
 ---
 title: "Curate Metadata for ACTIV4A"
-author: "Simran Makwana"
+author: "Simran Makwana and Michael Corace"
 date: "4/18/2022"
 output: html_document
 ---
@@ -17,7 +17,7 @@ library(dplyr)
 First, let's see what we can extract from the provided data dictionary.
 This data dictionary contains multiple sheets, so we will use the readxl package
 ```{r}
-dd_path <- '../input/ACTIV-4a Mapping Data Dictionary 2021-06-10.xlsx'
+dd_path <- '../input/Data Dictionary 2022-01-04.xlsx'
 
 # fetch names of all sheets inside data dictionary
 sheets <- excel_sheets(dd_path)
@@ -72,32 +72,38 @@ Read in variable metadata from SAS. (NOTE: to modify)
 
 ## Create JSON file
 
+
+Reformat df
+```{r}
+
+variable_df <- data.frame(form_name = df3$form_name,
+                          variable_id = df3$variable_id,
+                          variable_name = df3$variable_name,
+                          variable_type = df3$variable_type,
+                          variable_label_from_data_dictionary = df3$variable_label_from_data_dictionary)
+
+```
+
 Start with variable metadata
 ```{r}
-    
-variable_df <- df3 %>% unique() 
-ind <- 1
+#var_df <- variable_df %>% unique() 
+variable_df <- df3
+
 for(ind in 1:nrow(variable_df)){
-  var_df <- df3 %>%
-    filter(variable_id == variable_df[ind, 'variable_id'],
-           variable_name == variable_df[ind, 'variable_name'],
-           #NOTE: add from SAS data_file_name == variable_df[ind, 'data_file_name'],
-           form_name == variable_df[ind, 'form_name'],
-           variable_type == variable_df[ind, 'variable_type']) %>%
-    select(variable_label_from_data_dictionary) #NOTE: add from SAS variable_label_from_data_file)
-  variable_df[ind, 'variable_metadata'] [[1]] <- list(var_df)
+  meta_df <- data.frame(variable_label_from_data_dictionary = variable_df[which(variable_df$variable_id == variable_df$variable_id[ind]),5])
+  variable_df[ind, 'variable_metadata'] [[1]] <- list(unique(meta_df))
 }
+variable_df<- variable_df[,c(1:4,6)]
 ```
+
 
 Group variables into forms
 ```{r}
-form_df <- df3 %>% select(form_name) %>% unique()
+form_df <- variable_df %>% select(form_name) %>% unique()
+
 for(ind in 1:nrow(form_df)){
-  f_df <- variable_df %>%
-    filter(form_name == variable_df[ind, 'form_name']) %>% #,
-           #data_file_name == variable_df[ind, 'data_file_name']) %>%   ##NOTE: uncomment line when sas info is added
-    select(variable_id, variable_name, variable_type, variable_metadata)
-  form_df[ind, 'variable'] [[1]] <- list(f_df)
+  f_df <- variable_df[which(variable_df$form_name == form_df$form_name[ind]),c(2:5)]
+  form_df[ind,'variable'] [[1]] <-list(f_df)
 }
 ```
 
