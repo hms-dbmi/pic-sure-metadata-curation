@@ -86,8 +86,6 @@ variable_df <- data.frame(form_name = df3$form_name,
 
 Start with variable metadata
 ```{r}
-#var_df <- variable_df %>% unique() 
-variable_df <- df3
 
 for(ind in 1:nrow(variable_df)){
   meta_df <- data.frame(variable_label_from_data_dictionary = variable_df[which(variable_df$variable_id == variable_df$variable_id[ind]),5])
