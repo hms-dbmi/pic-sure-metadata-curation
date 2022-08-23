@@ -14,14 +14,17 @@ library(readxl)
 library(dplyr)
 ```
 
+##### DataDict.xlsx
 First, let's see what we can extract from the provided data dictionary.
 This data dictionary contains multiple sheets, so we will use the readxl package
 ```{r}
-dd_path <- '../input/Data Dictionary 2022-01-04.xlsx'
+# dd_path <- '../input/Data Dictionary 2022-01-04.xlsx'
+
+dd_path_a <- '../input/DataDict.xlsx'
 
 # fetch names of all sheets inside data dictionary
-sheets <- excel_sheets(dd_path)
-tibble <- lapply(sheets, function(x) read_excel(dd_path, sheet = x))
+sheets <- excel_sheets(dd_path_a)
+tibble <- lapply(sheets, function(x) read_excel(dd_path_a, sheet = x))
 data_frame <- lapply(tibble, as.data.frame)
     
 # assigning names to data frames
@@ -42,10 +45,72 @@ df2 <- df %>%
          'variable_type' = 'TYPE') %>% # NOTEL currently taken fromd ata dict
   mutate(variable_label_from_data_dictionary = variable_id)
 
-df3 <- df2
+df3_a <- df2
 
 ```
 
+#### Data Dictionary 2022-1-04
+```{r}
+dd_path_b <- '../input/Data Dictionary 2022-01-04.xlsx'
+
+# fetch names of all sheets inside data dictionary
+sheets <- excel_sheets(dd_path_b)
+tibble <- lapply(sheets, function(x) read_excel(dd_path_b, sheet = x))
+data_frame <- lapply(tibble, as.data.frame)
+    
+# assigning names to data frames
+names(data_frame) <- sheets
+
+
+```
+
+```{r}
+# create one single dataframe
+df_b <- bind_rows((data_frame), .id = 'source')
+
+df2_b <- df_b %>% 
+  select(VARNAME, VARDESC, source, TYPE) %>%
+  rename('variable_id' = 'VARNAME',
+         'variable_name' = 'VARDESC',
+         'form_name' = 'source', 
+         'variable_type' = 'TYPE') %>% # NOTEL currently taken fromd ata dict
+  mutate(variable_label_from_data_dictionary = variable_id)
+
+df3_b <- df2_b
+
+```
+
+
+## Merge data dictionary data frames
+```{r}
+
+df3_all <- df3_b
+
+for(i in 1:length(df3_b$variable_id)){
+  #print(df3_b[i,]$variable_id)
+  
+  # index_a <- which(df3_a$variable_id == df3_b[i,1] & df3_a$form_name == df3_b[i,3])
+  
+  # print(index_a)
+  
+  name_a <- df3_a[index_a,2]
+  
+  # print(name_a)
+  
+  name_b <- df3_b[i,2]
+  
+  # print(name_b)
+
+  if(length(name_a) > length(name_b)){
+    df3_all <- df3_all[-i,]
+    df3_all <- rbind(df3_all,df3_a[index_a,])
+  }  
+}
+
+df3_all <- unique(rbind(df3_all,df3_a))
+
+
+```
 
 Read in variable metadata from SAS. (NOTE: to modify)
 ```{r}
@@ -75,12 +140,18 @@ Read in variable metadata from SAS. (NOTE: to modify)
 Reformat df
 ```{r}
 
-variable_df <- data.frame(form_name = df3$form_name,
-                          variable_id = df3$variable_id,
-                          variable_name = df3$variable_name,
-                          variable_type = df3$variable_type,
-                          variable_label_from_data_dictionary = df3$variable_label_from_data_dictionary)
+variable_df <- data.frame(form_name = df3_all$form_name,
+                          variable_id = df3_all$variable_id,
+                          variable_name = df3_all$variable_name,
+                          variable_type = df3_all$variable_type,
+                          variable_label_from_data_dictionary = df3_all$variable_label_from_data_dictionary)
 
+# Change cases for 4 specific variables
+case_issue_vars <- c("crnmbcrit", "crnmbdt", "HT_unit", "WT_unit")
+for(v in case_issue_vars){
+  i <- which(variable_df$variable_id == v)
+  variable_df$variable_id[i] <- toupper(variable_df$variable_id[i])
+}
 ```
 
 Start with variable metadata
