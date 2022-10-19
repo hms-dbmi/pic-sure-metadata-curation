@@ -7,6 +7,12 @@ hct_json <- "~/Documents/pic-sure-metadata-curation/hct_for_scd/output/hct_for_s
 
 hct_df <- as.data.frame(fromJSON(hct_json))
 
+##### Converting Var ids to uppercase
+wide_df <- unnest(unnest(unnest(unnest(hct_df,form_group),form),variable_group),variable)
+
+wide_df <- wide_df %>% mutate(variable_id = toupper(variable_id))
+
+##############
 wide_df <- unnest(hct_df, form)
 
 wide_df <- unnest(wide_df, variable)
