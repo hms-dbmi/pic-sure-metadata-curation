@@ -26,6 +26,10 @@ raw_forms_df <- read.csv("../input/cfs-data-dictionary-0.7.0-forms.csv")
 
 raw_variables_df <- read.csv("../input/cfs-data-dictionary-0.7.0-variables.csv")
 
+dataset_df <- read.csv("../input/cfs-visit5-dataset-0.7.0-censored-for-bdc.csv")
+
+harmonized_df <- read.csv("../input/cfs-visit5-harmonized-dataset-0.7.0-censored-for-bdc.csv")
+
 ```
 
 
@@ -36,7 +40,7 @@ renamed_df <-  data.frame(
                             form_group="All forms within the study",
                             form_name=raw_variables_df$forms,
                             #form_description=,
-                            variable_id=raw_variables_df$id,
+                            variable_id=toupper(raw_variables_df$id),
                             variable_name=raw_variables_df$display_name,
                             variable_type=raw_variables_df$type,
                             variable_group_name=raw_variables_df$folder,
