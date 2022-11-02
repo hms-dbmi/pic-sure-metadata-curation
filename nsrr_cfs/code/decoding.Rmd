@@ -105,6 +105,8 @@ Change column names to uppercase
 names(decoded_df)<-toupper(names(decoded_df))
 names(decoded_harmonized_df)<-toupper(names(decoded_harmonized_df))
 
+names(decoded_df)[names(decoded_df)=="FUNCTION."] <- "FUNCTION"
+
 ```
 
 
