@@ -1,0 +1,118 @@
+---
+title: "Curate Metadata for NSRR CFS"
+author: "Michael Corace"
+date: "7/6/2022"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+```
+
+
+Load in csv data
+```{r}
+dataset_df <- read.csv("../input/cfs-visit5-dataset-0.7.0-censored-for-bdc.csv")
+
+harmonized_df <- read.csv("../input/cfs-visit5-harmonized-dataset-0.7.0-censored-for-bdc.csv")
+
+codebook_df <- read.csv("../input/cfs-data-dictionary-0.7.0-domains.csv")
+
+raw_variables_df <- read.csv("../input/cfs-data-dictionary-0.7.0-variables.csv")
+
+```
+
+
+Merge and trim unnecessary columns in codebook
+```{r}
+for(i in c(1:nrow(codebook_df))){
+  if(codebook_df[i,]$description != ""){
+    codebook_df[i,]$display_name <- paste0(codebook_df[i,]$display_name, "; ", codebook_df[i,]$descriptio)
+  }
+}
+
+codebook_df<- codebook_df %>% select(domain_id, value, display_name)
+```
+
+Identify which variables require decoding
+```{r}
+coded_vars_df <- raw_variables_df %>% filter(domain!="") %>% select(id,domain)
+
+```
+
+
+Decode dataset variables using codebook
+```{r}
+decoded_df <- dataset_df
+
+for(i in c(1:length(colnames(dataset_df)))){
+  var_id <- colnames(dataset_df)[i]
+  
+  if(var_id %in% coded_vars_df$id){
+    var_domain <- coded_vars_df %>% filter(id==var_id)
+    domain_df <- codebook_df %>% filter(domain_id==var_domain$domain)
+    #print(var_id)
+    #print(domain_df$domain_id[1])
+    
+    for (q in c(1:nrow(domain_df))) {
+      decoded_df[[var_id]][which(decoded_df[[var_id]]==domain_df[q,]$value)] <- domain_df[q,]$display_name
+    }
+  }
+  
+}
+
+```
+
+Decode harmonized variables using codebook
+```{r}
+decoded_harmonized_df <- harmonized_df
+
+for(i in c(1:length(colnames(harmonized_df)))){
+  var_id <- colnames(harmonized_df)[i]
+  
+  if(var_id %in% coded_vars_df$id){
+    var_domain <- coded_vars_df %>% filter(id==var_id)
+    domain_df <- codebook_df %>% filter(domain_id==var_domain$domain)
+    #print(var_id)
+    #print(domain_df$domain_id[1])
+    
+    for (q in c(1:nrow(domain_df))) {
+      decoded_harmonized_df[[var_id]][which(decoded_harmonized_df[[var_id]]==domain_df[q,]$value)] <- domain_df[q,]$display_name
+    }
+  }
+  
+}
+
+```
+
+
+Replce all NAs with blank spaces
+```{r}
+decoded_df[is.na(decoded_df)] <- ""
+decoded_harmonized_df[is.na(decoded_harmonized_df)] <- ""
+```
+
+
+Change column names to uppercase
+```{r}
+names(decoded_df)<-toupper(names(decoded_df))
+names(decoded_harmonized_df)<-toupper(names(decoded_harmonized_df))
+
+names(decoded_df)[names(decoded_df)=="FUNCTION."] <- "FUNCTION"
+
+```
+
+
+Export to csv
+```{r}
+write.csv(decoded_df, "../output/decoded_cfs-visit5-dataset-0.7.0-censored-for-bdc.csv", row.names = F)
+write.csv(decoded_harmonized_df, "../output/decoded_cfs-visit5-harmonized-dataset-0.7.0-censored-for-bdc.csv", row.names = F)
+
+```
