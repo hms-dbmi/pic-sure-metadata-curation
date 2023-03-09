@@ -1,0 +1,29 @@
+﻿Variable ,Type,Len Format ,Label ,Code
+TX,Char 4,,Treatment group,
+TG,Char 1,,Treatment group,A=bud;B=ned;C=plbo
+id,Num 8,,Randomized participant ID,
+age_rz,Num 8,,Age in years at Randomization ,
+GENDER,Char 1,,Gender,m=male;f=female
+ETHNIC,Char 1,,Ethnicity,w=white;b=black;h=hispanic;o=other
+hemog,Num 8,,Hemoglobin (g/dl),
+PREFEV,Num 8,BEST12.,PreBD FEV1,
+PREFVC,Num 8,BEST12.,PreBD FVC,
+PREFF,Num 8,BEST12.,PreBD FEV1/FVC ratio %,
+PREPF,Num 8,BEST12.,PreBD peak flow,
+POSFEV,Num 8,BEST12.,PostBD FEV1,
+POSFVC,Num 8,BEST12.,PostBD FVC,
+POSFF,Num 8,BEST12.,PostBD FEV1/FVC ratio %,
+POSPF,Num 8,BEST12.,PostBD peak flow,
+PREFEVPP,Num 8,BEST12.,PreBD FEV1 %pred,
+PREFVCPP,Num 8,BEST12.,PreBD FVC %pred,
+POSFEVPP,Num 8,BEST12.,PostBD FEV1 %pred,
+POSFVCPP,Num 8,BEST12.,PostBD FVC %pred,
+wbc,Num 8,,White Blood Cell count (1000 cells/ul),
+agehome,Num 8,,Age of current home (years),
+anypet,Num 8,,Any pets,1=Yes;2=No
+woodstove,Num 8,,Used wood stove for heating/cooking,1=Yes;2=No
+dehumid,Num 8,,Use a dehumidifier,1=Yes;2=No;3=DK
+parent_smokes,Num 8,,Either Parent/partner smokes in home,1=Yes;2=No
+any_smokes,Num 8,,Anyone (including visitors) smokes in home,1=Yes;2=No
+visitc,Char 3,,Followup Visit (mos),
+fdays ,Num 8,,Days since randomization ,
