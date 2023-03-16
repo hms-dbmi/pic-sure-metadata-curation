@@ -1,0 +1,125 @@
+---
+title: "Decode CSV data for MUSIC"
+author: "Michael Corace"
+date: "3/9/2022"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+```
+
+First, let's see what we can extract from the provided data dictionary.
+```{r}
+dd_path <- '~/Documents/pic-sure-metadata-curation/music/input/MUSIC_DataDictionary_2022-07-12.csv'
+
+# read in the csv to a data frame
+data_dictionary_df <- read.csv(dd_path)
+
+data_dictionary_df <- data.frame(Variable=data_dictionary_df$Variable...Field.Name, Code=data_dictionary_df$Choices..Calculations..OR.Slider.Labels)
+```
+
+Now we read in the csv and decode the data
+
+```{r}
+#test_data_2022_10_24_df <- read.csv("~/Documents/pic-sure-metadata-curation/music/input/MUSIC_DATA_2022-10-24.csv")
+
+decoded_df <- test_data_2022_10_24_df
+
+coded_vars_df <- data_dictionary_df[which(data_dictionary_df$Code!=""),]
+
+vars_to_ignore <- c("aefu_meddracd","anc","alc","nl_ratio","fss_total","ae_meddracd")
+
+coded_vars_df <- coded_vars_df[-which(coded_vars_df$Variable%in%vars_to_ignore),]
+
+
+#code_df <- data.frame(ID = NA, Code = NA, Value = NA)
+
+for (i in c(1:length(coded_vars_df$Variable))) {
+  var = coded_vars_df[i,]$Variable
+  
+  #print(var)
+  
+  codes_sep <- str_split(coded_vars_df[i,]$Code,"\\|")
+  
+  #codes_sep <- str_trim(codes_sep)
+  
+  for(code in codes_sep[[1]]){
+    #print(code)
+    #if(str_detect(code,",",negate = TRUE)){
+    #        print(code)
+    #}
+    
+    trim_code <- str_trim(code)
+    
+    coded_val = str_trim(str_split(code,",")[[1]][1])
+    #print(coded_val)
+    
+    if(substring(code,1,5)==substring(code,8,12)){
+      true_val <- str_trim(substring(code,14))
+    }else if(substring(code,1,6)==substring(code,9,14)){
+      true_val <- str_trim(substring(code,17))
+      #print(coded_val)
+      #print(true_val)
+    }else{
+      true_val = str_trim(str_split(code,",",)[[1]][2])
+    }
+    
+    #print(true_val)
+    
+    if(var %in% colnames(decoded_df)){
+      decoded_df[[var]] <- replace(decoded_df[[var]], which(decoded_df[[var]]==coded_val), true_val)
+    }
+  }
+}
+
+decoded_df[is.na(decoded_df)] <- ""
+
+```
+
+```{r}
+
+write.csv(decoded_df, "../output/decoded_test.csv", row.names = F)
+
+```
+
+
+
+```{r}
+dataset_df <- read.csv("~/Documents/pic-sure-metadata-curation/CAMP/inputs/camp_teach.csv")
+
+
+
+
+for(form in form_files_list){
+  form_raw <- read.table(paste0("../input/",form), head = TRUE, sep=",")
+  
+  for(v in colnames(form_raw)){
+    if (v %in% data_dictionary_df$varname){
+      #print(v)
+      var_code_df <- data_dictionary_df[which(data_dictionary_df$varname == v),3:4]
+      
+      for (i in c(1:length(var_code_df$start))) {
+        form_raw[v][form_raw[v] == var_code_df$start[i]] <- var_code_df$label[i]
+        form_raw[v][is.na(form_raw[v])] <- ""
+      }
+      
+    }else if(v %in% special_vars){
+      for (variable in special_vars) {
+        form_raw[variable][form_raw[variable] == 0] <- "No"
+        form_raw[variable][form_raw[variable] == 1] <- "Yes"
+      }
+    }
+  }
+  
+  
+  write.csv(form_raw, paste0("../output/decoded_",form), row.names = F)
+}
+```
