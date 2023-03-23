@@ -29,9 +29,9 @@ data_dictionary_df <- data.frame(Variable=data_dictionary_df$Variable...Field.Na
 Now we read in the csv and decode the data
 
 ```{r}
-#test_data_2022_10_24_df <- read.csv("~/Documents/pic-sure-metadata-curation/music/input/MUSIC_DATA_2022-10-24.csv")
+test_data_2022_6_15_df <- read_xlsx("~/Documents/pic-sure-metadata-curation/music/input/MUSIC_DATA_2022-06-15.xlsx")
 
-decoded_df <- test_data_2022_10_24_df
+decoded_df <- test_data_2022_6_15_df
 
 coded_vars_df <- data_dictionary_df[which(data_dictionary_df$Code!=""),]
 
@@ -80,46 +80,16 @@ for (i in c(1:length(coded_vars_df$Variable))) {
   }
 }
 
-decoded_df[is.na(decoded_df)] <- ""
+
+decoded_char_df <- data.frame(lapply(decoded_df, as.character),stringsAsFactors = FALSE)
+#decoded_char_df[is.na(decoded_char_df)] <- ""
+decoded_char_df %>% mutate_all(funs(str_replace(.,"NA","")))
+
 
 ```
 
 ```{r}
 
-write.csv(decoded_df, "../output/decoded_test.csv", row.names = F)
+write.csv(decoded_char_df, "../output/decoded_data.csv", row.names = F)
 
-```
-
-
-
-```{r}
-dataset_df <- read.csv("~/Documents/pic-sure-metadata-curation/CAMP/inputs/camp_teach.csv")
-
-
-
-
-for(form in form_files_list){
-  form_raw <- read.table(paste0("../input/",form), head = TRUE, sep=",")
-  
-  for(v in colnames(form_raw)){
-    if (v %in% data_dictionary_df$varname){
-      #print(v)
-      var_code_df <- data_dictionary_df[which(data_dictionary_df$varname == v),3:4]
-      
-      for (i in c(1:length(var_code_df$start))) {
-        form_raw[v][form_raw[v] == var_code_df$start[i]] <- var_code_df$label[i]
-        form_raw[v][is.na(form_raw[v])] <- ""
-      }
-      
-    }else if(v %in% special_vars){
-      for (variable in special_vars) {
-        form_raw[variable][form_raw[variable] == 0] <- "No"
-        form_raw[variable][form_raw[variable] == 1] <- "Yes"
-      }
-    }
-  }
-  
-  
-  write.csv(form_raw, paste0("../output/decoded_",form), row.names = F)
-}
 ```
