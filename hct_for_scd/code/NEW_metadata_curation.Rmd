@@ -1,0 +1,226 @@
+---
+title: "HCT for SCD Metadata Curation"
+author: "Michael Corace"
+date: "N/A"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+```
+
+To-Do
+******
+include form info in the form level
+
+Bring relevant csv files into R data frames
+```{r}
+
+raw_variables_df <- readRDS("~/Documents/pic-sure-metadata-curation/hct_for_scd/intermediates/full_df.rds")
+
+form_names_df <- read_csv("~/Documents/pic-sure-metadata-curation/hct_for_scd/intermediates/form_mapping.csv")
+
+```
+
+
+Filter variable csv to useful information, and renaming columns to match
+```{r}
+raw_variables_df$form_id <- replace(raw_variables_df$form_id,raw_variables_df$form_id=="2400 preTED V5","2400 v5")
+raw_variables_df$form_id <- replace(raw_variables_df$form_id,raw_variables_df$form_id=="2402 PreTED V3","2402 v3")
+raw_variables_df$form_id <- replace(raw_variables_df$form_id,raw_variables_df$form_id=="2005 Confirmation of HLA typing V6","2006 v6")
+raw_variables_df$form_id <- replace(raw_variables_df$form_id,raw_variables_df$form_id=="2450 postTED V4","2450 v4")
+raw_variables_df$form_id <- replace(raw_variables_df$form_id,raw_variables_df$form_id=="2100 FU 100 days V4","2100 v4")
+raw_variables_df$form_id <- replace(raw_variables_df$form_id,raw_variables_df$form_id=="2000 Baseline V4","2000 v4")
+raw_variables_df$form_id <- replace(raw_variables_df$form_id,raw_variables_df$form_id=="2030 Sickle cell anemia PreHCT V1","2030 v1")
+raw_variables_df$form_id <- replace(raw_variables_df$form_id,raw_variables_df$form_id=="2130 Sickle cell anemia PostHCT V1","2130 v1")
+
+
+
+
+for (i in c(1:length(raw_variables_df))) {
+  form_index <- match(raw_variables_df$form_id[i],form_names_df$form_id, nomatch = -1)
+  if(form_index > 0){
+    #raw_variables_df$form_id[i] <- form_names_df$form_id[form_index]
+    raw_variables_df$form_description[i] <- form_names_df$form_description[form_index]
+    raw_variables_df$form_name[i] <- form_names_df$form_name[form_index]
+  }
+}
+
+
+
+
+
+
+renamed_df <-  data.frame(
+                            form_group="All forms within the study",
+                            form=raw_variables_df$form_id,
+                            form_name= raw_variables_df$form_name,
+                            form_description= raw_variables_df$form_description,
+                            variable_id=toupper(raw_variables_df$variable_id),
+                            variable_name=raw_variables_df$variable_name,
+                            variable_type=raw_variables_df$variable_type,
+                            variable_group_name=raw_variables_df$form_group,
+                            variable_group_description="All variables within the group",
+                            variable_description=raw_variables_df$variable_name,
+                            computed_variable=raw_variables_df$`"Computed Variable?"`,
+                            hct_status=raw_variables_df$`"HCT status"`,
+                            form_number=raw_variables_df$`"CIBMTR Form number; (question numbers)"`
+                            )
+
+
+```
+
+
+Build Hierarchy tree
+```{r}
+trees_vector <- vector(mode = "character",length = length(renamed_df$variable_id))
+
+for (i in c(1:length(renamed_df$variable_id))) {
+  study <- "HCT for SCD"
+  #form_group <- 
+  form <- str_replace_all(renamed_df$form_name[i],"/","-")
+  #variable_group <- 
+  variable <- str_replace_all(renamed_df$variable_name[i],"/","-")
+  
+  if(form =="Form Name Not Provided"){
+    tree <- paste0(study, "/",variable)
+  }else{
+    tree <- paste0(study, "/",form, "/",variable)
+  }
+  trees_vector[i] <- tree
+}  
+
+
+full_df <- cbind(renamed_df, trees_vector)
+names(full_df)[names(full_df) == 'trees_vector'] <- 'data_hierarchy'
+
+```
+
+
+
+Variable information
+```{r}
+renamed_df<-full_df
+
+variable_info_df <- data.frame(renamed_df %>%
+                         select(form_group,form,form_description,form_name,variable_group_name, variable_group_description, variable_id,variable_name,variable_type, computed_variable, hct_status,form_number, data_hierarchy ) %>%
+                         unique())
+rownames(variable_info_df) <- NULL
+
+
+
+for (ind in c(1:nrow(variable_info_df))) {
+  temp_df <- data.frame(renamed_df[ind,] %>% #$variable_description
+                          select(variable_description,
+                            data_hierarchy,
+                            computed_variable,
+                            hct_status,
+                            form_number
+                           )
+                        )
+  
+  temp_df<-temp_df %>% mutate_all(na_if,"")
+  
+  variable_info_df[ind, "derived_variable_level_data"][[1]] <- list(temp_df)
+}
+```
+
+
+Variable
+```{r}
+variable_df <- data.frame(variable_info_df %>%
+                         select(form_group,form,form_description,form_name,variable_group_name, variable_group_description) %>%
+                         unique())
+rownames(variable_df) <- NULL
+
+
+for (ind in c(1:nrow(variable_df))) {
+  temp_df <- variable_info_df %>%
+    filter(form == variable_df[ind, "form"], variable_group_name == variable_df[ind, "variable_group_name"]) %>%
+    select(variable_id, variable_name, variable_type, derived_variable_level_data)
+  variable_df[ind, "variable"][[1]] <- list(temp_df)
+}
+```
+
+
+Variable Group
+```{r}
+variable_group_df <- data.frame(variable_df %>%
+                         select(form_group,form,form_name,form_description) %>%
+                         unique())
+rownames(variable_group_df) <- NULL
+
+
+for (ind in c(1:nrow(variable_group_df))) {
+  temp_df <- variable_df %>%
+    filter(form == variable_group_df[ind, "form"]) %>%
+    select(variable_group_name, variable_group_description, variable)
+  variable_group_df[ind, "variable_group"][[1]] <- list(temp_df)
+}
+```
+
+
+Form
+```{r}
+
+#variable_group_df[variable_group_df==""] <- "Form name not provided"
+
+#form_descriptions_df <- data.frame(form=raw_forms_df$id, form_description=raw_forms_df$display_name)
+
+#variable_group_df <- merge(variable_group_df,form_descriptions_df, by="form", all = TRUE)
+
+form_df <- data.frame(variable_group_df %>%
+                         select(form_group) %>%
+                         unique())
+rownames(form_df) <- NULL
+
+
+for (ind in c(1:nrow(form_df))) {
+  temp_df <- variable_group_df %>%
+    #filter(form_group == variable_df[ind, "form_group"]) %>%
+    select(form,form_description,form_name, variable_group)
+  form_df[ind, "form"][[1]] <- list(temp_df)
+}
+```
+
+Study
+```{r}
+complete_df <- data.frame('study_name' = 'Hematopoietic Cell Transplant for Sickle Cell Disease',
+                       'study' = 'HCT for SCD',
+                       'study_phs_number' = 'phs002385',
+                       'study_url' = 'https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002385.v1.p1')
+
+complete_df$form_group <- list(form_df)
+```
+
+To json
+```{r}
+my_json <- toJSON(complete_df, pretty=FALSE)
+json_string <- as.character(my_json) # Convert to character/string
+
+# Rename special fields
+json_string <- gsub("computed_variable" , 'Computed Variable?', json_string)
+json_string <- gsub("hct_status" , 'HCT status', json_string)
+json_string <- gsub("form_number" , 'CIBMTR Form number; (question numbers)', json_string)
+
+
+#names(wide_df)[names(wide_df) == 'variable_was_computed'] <- '\"Computed Variable?\"'
+#names(wide_df)[names(wide_df) == 'variable_hct_status'] <- '\"HCT status\"'
+#names(wide_df)[names(wide_df) == 'variable_question_number_inform'] <- '\"CIBMTR Form number; (question numbers)\"'
+```
+
+
+Write File
+```{r}
+fileConn <- file("../output/hct_for_scd_metadata.json")
+writeLines(json_string, fileConn)
+close(fileConn)
+```
+
