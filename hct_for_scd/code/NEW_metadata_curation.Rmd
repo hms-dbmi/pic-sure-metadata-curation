@@ -18,7 +18,6 @@ library(jsonlite)
 
 To-Do
 ******
-include form info in the form level
 
 Bring relevant csv files into R data frames
 ```{r}
