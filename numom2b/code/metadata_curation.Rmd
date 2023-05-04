@@ -25,12 +25,12 @@ To-Do
 Bring relevant csv files into R data frames
 ```{r}
 
-files=list.files(path = "/Users/michael/Documents/pic-sure-metadata-curation/numom2b/inputs/", pattern = "*.xlsx")
+files=list.files(path = "/Users/michael/Documents/pic-sure-metadata-curation/numom2b/inputs/data_dictionaries/", pattern = "*.xlsx")
 
-raw_master_df <- read_xlsx(paste0("/Users/michael/Documents/pic-sure-metadata-curation/numom2b/inputs/",files[1]), col_names = FALSE)
+raw_master_df <- read_xlsx(paste0("/Users/michael/Documents/pic-sure-metadata-curation/numom2b/inputs/data_dictionaries/",files[1]), col_names = FALSE)
 
 for (df_file in files) {
-  tmp_df <- read_xlsx(paste0("/Users/michael/Documents/pic-sure-metadata-curation/numom2b/inputs/",df_file),col_names = FALSE)
+  tmp_df <- read_xlsx(paste0("/Users/michael/Documents/pic-sure-metadata-curation/numom2b/inputs/data_dictionaries/",df_file),col_names = FALSE)
   
   raw_master_df <- unique(rbind.fill(raw_master_df,tmp_df))
   
@@ -163,7 +163,7 @@ Study
 complete_df <- data.frame('study_name' = 'Nulliparous Pregnancy Outcomes Study (nuMoM2b)',
                        'study' = 'nuMoM2b',
                        'study_phs_number' = 'phs002808',
-                       'study_url' = 'fix')
+                       'study_url' = 'https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002808.v1.p1')
 
 complete_df$form_group <- list(form_df)
 ```

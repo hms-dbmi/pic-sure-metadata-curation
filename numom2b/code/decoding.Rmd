@@ -28,25 +28,20 @@ ds_list <- list.files("~/Documents/pic-sure-metadata-curation/numom2b/inputs/dat
 
 ```{r}
 
-dd_test <- read_xlsx(paste0("~/Documents/pic-sure-metadata-curation/numom2b/inputs/data_dictionaries/", dd_list[1])) 
-ds_test <- read.csv(paste0("~/Documents/pic-sure-metadata-curation/numom2b/inputs/datasets/", ds_list[1]), sep = "\t")
+for(file_i in c(1:length(ds_list))){
 
-```
-
-```{r}
-
-varname_list <- c()
-raw_val_list <- c()
-decoded_val_list <- c()
-
-decoded_df <- ds_test
+dd_df <- read_xlsx(paste0("~/Documents/pic-sure-metadata-curation/numom2b/inputs/data_dictionaries/", dd_list[file_i])) 
+ds_df <- read.csv(paste0("~/Documents/pic-sure-metadata-curation/numom2b/inputs/datasets/", ds_list[file_i]), sep = "\t")
 
 
-for(i in c(1:length(dd_test$VARNAME))){
-  varname <- dd_test$VARNAME[i]
+decoded_df <- ds_df
+
+
+for(i in c(1:length(dd_df$VARNAME))){
+  varname <- dd_df$VARNAME[i]
   
-  for (q in c(6:length(dd_test[i,]))) {
-    val=dd_test[[i,q]]
+  for (q in c(6:length(dd_df[i,]))) {
+    val=dd_df[[i,q]]
     if(!is.na(val)) {
        if(val!="=Missing"){
         #print(val)
@@ -56,7 +51,7 @@ for(i in c(1:length(dd_test$VARNAME))){
       
         decoded_df[[varname]] <- replace(decoded_df[[varname]],decoded_df[[varname]]==raw_val,decoded_val)
       
-        #varname_list <- append(varname_list,dd_test$VARNAME[i])
+        #varname_list <- append(varname_list,dd_df$VARNAME[i])
         #raw_val_list <- append(raw_val_list,raw_val)
         #decoded_val_list <- append(decoded_val_list,decoded_val)
       
@@ -66,18 +61,9 @@ for(i in c(1:length(dd_test$VARNAME))){
     }
   }
 }
-
+decoded_df <- replace(decoded_df,is.na(decoded_df),"")
 names(decoded_df)<- toupper(names(decoded_df))
-```
 
-
-
-```{r}
-for (varname in dd_test$VARNAME) {
-  print(varname)
-  #print(ds_test[[varname]])
-  
-  
+write_csv(decoded_df,paste0("~/Documents/pic-sure-metadata-curation/numom2b/outputs/decoded_data/",str_remove(ds_list[file_i],".txt"), ".csv"))
 }
-
 ```
