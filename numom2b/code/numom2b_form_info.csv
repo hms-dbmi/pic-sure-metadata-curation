@@ -1,0 +1,53 @@
+DOCFILE,Description,Group
+AFC.pdf,No Future Contact,Administrative Data Forms
+BDR.pdf,Brief Participant Death Review,Cardiovascular Event Chart Abstraction
+CRM.pdf,Review of Cardiovascular-Related Events/Conditions Section M (Morbidity Review/Adjudication),Cardiovascular Event Chart Abstraction
+CRX.pdf,Review of Cardiovascular-Related Events/Conditions,Cardiovascular Event Chart Abstraction
+Drugs_in_Pregnancy.pdf,Medications Used During Pregnancy,Ancillary Forms
+H02.pdf,Elements of Consent at the 2-7 Year Postpartum Visit,Administrative Data Forms
+H05.pdf,Heart Health Study Withdrawal,Administrative Data Forms
+H06.pdf,(H06) Accounting for Missing and Mistimed Data,Administrative Data Forms
+H07.pdf,(H07) Accounting for Missing and Mistimed Data,Administrative Data Forms
+HHS1_Analytes.pdf,CVD-related Analytes from Visit 5 Maternal Blood and Urine in a Subset of Participants,HHS1 Ancillary Forms
+HHS1_Contact_History.pdf,Eligibility and Contact Status Across Waves,HHS1 Ancillary Forms
+HHS1_Demographics.pdf,Selected Demographics at HHS1,HHS1 Ancillary Forms
+HHS1_Derived.pdf,Cardiovascular Risk Score and Other Derived Variables,HHS1 Ancillary Forms
+Food_Frequency_Analysis.pdf,,HHS1 Ancillary Forms
+HHS1_Mental_Health.pdf,Mental Health Summary Score Variables,HHS1 Ancillary Forms
+HHS1_Physical_Activity.pdf,,HHS1 Ancillary Forms
+HHS1_Pregnancy_History.pdf,,HHS1 Ancillary Forms
+Sleep_Disordered_Breathing.pdf,Level 3 Portable Sleep Test Results,HHS1 Ancillary Forms
+HHS1_Vital_Status_History.pdf,Vital Status of Child from nuMoM2b Index Pregnancy Across Waves,HHS1 Ancillary Forms
+HP2.pdf,Elements of Consent at the 2-7 Year Postpartum Visit: Pregnant,Administrative Data Forms
+nbhd_byperson_public.pdf,Neighborhood characteristics at participant level,HHS1 Ancillary Forms
+nbhd_byvisit_public.pdf,Neighborhood characteristics at participant-by-visit level,HHS1 Ancillary Forms
+nbhd_pollutants_public.pdf,Air pollution,HHS1 Ancillary Forms
+P5A.pdf,Subsequent Pregnancy - Outcome Summary,Subsequent Pregnancy Chart Abstraction Forms
+P5B.pdf,"Subsequent Pregnancy - Labor, Delivery, and Postpartum ",Subsequent Pregnancy Chart Abstraction Forms
+P5C.pdf,Subsequent Pregnancy - Maternal Hypertensive Disorders,Subsequent Pregnancy Chart Abstraction Forms
+P5D.pdf,Subsequent Pregnancy - Loss <200 Weeks EGA,Subsequent Pregnancy Chart Abstraction Forms
+P5E.pdf,Subsequent Pregnancy - Stillborn Workup,Subsequent Pregnancy Chart Abstraction Forms
+P5F.pdf,Subsequent Pregnancy - Record of Adjudication for Maternal Hypertensive Disorder,Subsequent Pregnancy Chart Abstraction Forms
+Physical_Activity.pdf,Leisure Physical Activities Reported at Study Visits,Ancillary Forms
+placental_analytes.pdf,Placental Analytes Measured on Sample Biospecimens,Ancillary Forms
+Pregnancy_Outcomes.pdf,Primary Pregnancy Outcome Data,Ancillary Forms
+sample_selection.pdf,Subject Case/Control Status for Placental Analyte Samples,Ancillary Forms
+T01.pdf,Interval Contact Form (Wave 1),Interval Contact Forms
+T02.pdf,Interval Contact Form (Wave 2),Interval Contact Forms
+T03.pdf,Interval Contact Form (Wave 3),Interval Contact Forms
+T04.pdf,Interval Contact Form (Wave 4),Interval Contact Forms
+T05.pdf,Interval Contact Form (Wave 5),Interval Contact Forms
+T06.pdf,Interval Contact Form (Wave 6),Interval Contact Forms
+T07.pdf,Interval Contact Form (Wave 7),Interval Contact Forms
+T08.pdf,Interval Contact Form (Wave 8),Interval Contact Forms
+v01_analytes.pdf,CVD-related Analytes from Visit 1 Maternal Blood and Urine in a Subset of Participants,Ancillary Forms
+V5A.pdf,Maternal Interview 2-7 Years Postpartum,In-Person Visit Forms
+V5B.pdf,Clinical Measurements 2-7 Years Postpartum,In-Person Visit Forms
+V5C.pdf,Edinburgh Postnatal Depression Scale 2-7 Years Postpartum,In-Person Visit Forms
+V5D.pdf,Food Frequency at 2-3.5 Years Postpartum (FFQ),In-Person Visit Forms
+V5N.pdf,Sleep Assessment After 2-7 Years Postpartum Visit,Sleep Assesment Forms
+V5O.pdf,Sleep Questionnaire 2-7 Years Postpartum,In-Person Visit Forms
+V5P.pdf,Eating Habits and Weight Intentions 2-7 Years Postpartum,In-Person Visit Forms
+V5Q.pdf,Activity Questionnaire 2-7 Years Postpartum,In-Person Visit Forms
+V5R.pdf,Perceived Stress Scale 2-7 Years Postpartum,In-Person Visit Forms
+V5S.pdf,Reproductive Health Questionnaire 2-7 Years Postpartum,In-Person Visit Forms
