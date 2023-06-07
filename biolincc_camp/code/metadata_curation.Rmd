@@ -1,0 +1,155 @@
+---
+title: "CAMP Metadata Curation"
+author: "Michael Corace"
+date: "3/9/2023"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+```
+
+To-Do
+******
+
+Bring relevant csv files into R data frames
+```{r}
+
+raw_dictionary_df <- read.csv("~/Documents/pic-sure-metadata-curation/CAMP/inputs/Codebook.csv")
+
+raw_data_df <- read.csv("~/Documents/pic-sure-metadata-curation/CAMP/inputs/camp_teach.csv")
+
+```
+
+
+Filter variable csv to useful information, and renaming columns to match
+```{r}
+
+renamed_df <-  data.frame(
+                            form_group="All forms within the study",
+                            form="Form Unspecified",
+                            variable_id=toupper(raw_dictionary_df$Variable),
+                            variable_name=raw_dictionary_df$Label,
+                            variable_type=raw_dictionary_df$Type,
+                            variable_group_name="All variables",
+                            variable_group_description="All variables within the group",
+                            variable_description=raw_dictionary_df$Label
+                            )
+
+renamed_df$variable_type <- replace(renamed_df$variable_type, renamed_df$variable_type=="Num 8", "continuous")
+renamed_df$variable_type <- replace(renamed_df$variable_type, renamed_df$variable_type=="Char 4", "categorical")
+renamed_df$variable_type <- replace(renamed_df$variable_type, renamed_df$variable_type=="Char 1", "categorical")
+renamed_df$variable_type <- replace(renamed_df$variable_type, renamed_df$variable_type=="Char 3", "categorical")
+
+```
+
+Variable information
+```{r}
+variable_info_df <- data.frame(renamed_df %>%
+                         select(form_group,form,variable_group_name, variable_group_description, variable_id,variable_name,variable_type) %>%
+                         unique())
+rownames(variable_info_df) <- NULL
+
+
+
+
+
+for (ind in c(1:nrow(variable_info_df))) {
+  temp_df <- data.frame(renamed_df[ind,] %>% #$variable_description
+                          select(variable_description #,
+                            # ADDITIONAL_INFORMATION_1,
+                            # ADDITIONAL_INFORMATION_2,
+                            # ADDITIONAL_INFORMATION_3
+                           )
+                        )
+  
+  temp_df<-temp_df %>% mutate_all(na_if,"")
+  
+  variable_info_df[ind, "variable_information"][[1]] <- list(temp_df)
+}
+```
+
+
+Variable
+```{r}
+variable_df <- data.frame(variable_info_df %>%
+                         select(form_group,form,variable_group_name, variable_group_description) %>%
+                         unique())
+rownames(variable_df) <- NULL
+
+
+for (ind in c(1:nrow(variable_df))) {
+  temp_df <- variable_info_df %>%
+    filter(form == variable_df[ind, "form"], variable_group_name == variable_df[ind, "variable_group_name"]) %>%
+    select(variable_id, variable_name, variable_type, variable_information)
+  variable_df[ind, "variable"][[1]] <- list(temp_df)
+}
+```
+
+
+Variable Group
+```{r}
+variable_group_df <- data.frame(variable_df %>%
+                         select(form_group,form) %>%
+                         unique())
+rownames(variable_group_df) <- NULL
+
+
+for (ind in c(1:nrow(variable_group_df))) {
+  temp_df <- variable_df %>%
+    filter(form == variable_group_df[ind, "form"]) %>%
+    select(variable_group_name, variable_group_description, variable)
+  variable_group_df[ind, "variable_group"][[1]] <- list(temp_df)
+}
+```
+
+
+Form
+```{r}
+
+#variable_group_df[variable_group_df==""] <- "Form name not provided"
+
+#form_descriptions_df <- data.frame(form=raw_forms_df$id, form_description=raw_forms_df$display_name)
+
+#variable_group_df <- merge(variable_group_df,form_descriptions_df, by="form", all = TRUE)
+
+form_df <- data.frame(variable_group_df %>%
+                         select(form_group) %>%
+                         unique())
+rownames(form_df) <- NULL
+
+
+for (ind in c(1:nrow(form_df))) {
+  temp_df <- variable_group_df %>%
+    #filter(form_group == variable_df[ind, "form_group"]) %>%
+    select(form, variable_group)
+  form_df[ind, "form"][[1]] <- list(temp_df)
+}
+```
+
+Study
+```{r}
+complete_df <- data.frame('study_name' = 'Childhood Asthma Management Program (CAMP): Dataset for Teaching Purposes',
+                       'study' = 'CAMP',
+                       'study_phs_number' = 'n/a',
+                       'study_url' = 'https://biolincc.nhlbi.nih.gov/studies/camp/')
+
+complete_df$form_group <- list(form_df)
+```
+
+To json
+```{r}
+my_json <- toJSON(complete_df, pretty=FALSE)
+json_string <- as.character(my_json) # Convert to character/string
+fileConn <- file("../output/camp_metadata.json")
+writeLines(json_string, fileConn)
+close(fileConn)
+```
+

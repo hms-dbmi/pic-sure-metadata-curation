@@ -1,0 +1,102 @@
+---
+title: "Decode CSV data for CAMP"
+author: "Michael Corace"
+date: "3/9/2022"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+```
+
+First, let's see what we can extract from the provided data dictionary.
+```{r}
+dd_path <- '~/Documents/pic-sure-metadata-curation/biolincc_camp/inputs/Codebook.csv'
+
+# read in the csv to a data frame
+data_dictionary_df <- read.csv(dd_path)
+```
+
+Now we read in the csv and decode the data
+
+```{r}
+dataset_df <- read.csv("~/Documents/pic-sure-metadata-curation/biolincc_camp/inputs/camp_teach.csv")
+
+decoded_df <- dataset_df
+
+coded_vars_df <- data_dictionary_df[which(data_dictionary_df$Code!=""),]
+
+#code_df <- data.frame(ID = NA, Code = NA, Value = NA)
+
+for (i in c(1:length(coded_vars_df$Variable))) {
+  var = coded_vars_df[i,]$Variable
+  
+  codes_sep <- str_split(coded_vars_df[i,]$Code,";")
+  
+  for(code in codes_sep[[1]]){
+    #print(code)
+    coded_val = str_split(code,"=")[[1]][1]
+    #print(coded_val)
+    true_val = str_split(code,"=",)[[1]][2]
+    #print(true_val)
+    
+    decoded_df[[var]] <- replace(decoded_df[[var]], which(decoded_df[[var]]==coded_val), true_val)
+  }
+}
+
+decoded_df[is.na(decoded_df)] <- ""
+
+```
+
+
+
+
+```{r}
+dataset_df <- read.csv("~/Documents/pic-sure-metadata-curation/biolincc_camp/inputs/camp_teach.csv")
+
+
+
+
+for(form in form_files_list){
+  form_raw <- read.table(paste0("~/Documents/pic-sure-metadata-curation/biolincc_camp/inputs/",form), head = TRUE, sep=",")
+  
+  for(v in colnames(form_raw)){
+    if (v %in% data_dictionary_df$varname){
+      #print(v)
+      var_code_df <- data_dictionary_df[which(data_dictionary_df$varname == v),3:4]
+      
+      for (i in c(1:length(var_code_df$start))) {
+        form_raw[v][form_raw[v] == var_code_df$start[i]] <- var_code_df$label[i]
+        form_raw[v][is.na(form_raw[v])] <- ""
+      }
+      
+    }else if(v %in% special_vars){
+      for (variable in special_vars) {
+        form_raw[variable][form_raw[variable] == 0] <- "No"
+        form_raw[variable][form_raw[variable] == 1] <- "Yes"
+      }
+    }
+  }
+  
+  
+  write.csv(form_raw, paste0("~/Documents/pic-sure-metadata-curation/biolincc_camp/output/decoded_",form), row.names = F)
+}
+```
+
+```{r}
+decoded_dataset_df <- read.csv("~/Documents/pic-sure-metadata-curation/biolincc_camp/output/decoded_dataset.csv")
+
+decoded_dataset_df <- relocate(decoded_dataset_df, id)
+
+colnames(decoded_dataset_df) <- toupper(colnames(decoded_dataset_df))
+
+write.csv(decoded_dataset_df, "~/Documents/pic-sure-metadata-curation/biolincc_camp/output/decoded_dataset.csv", row.names = F)
+
+```
