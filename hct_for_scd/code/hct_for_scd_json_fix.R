@@ -3,7 +3,7 @@ library(tidyr)
 library(tidyverse)
 library(jsonlite)
 
-hct_json <- "~/Documents/pic-sure-metadata-curation/hct_for_scd/output/hct_for_scd_metadata.json"
+hct_json <- "~/Documents/pic-sure-metadata-curation/hct_for_scd/output/OLD_hct_for_scd_metadata.json"
 
 hct_df <- as.data.frame(fromJSON(hct_json))
 
