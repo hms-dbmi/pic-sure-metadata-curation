@@ -1,0 +1,56 @@
+---
+title: "ACTIV4a Metadata Curation"
+author: "Michael Corace"
+date: "N/A"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+```
+
+To-Do
+******
+
+Bring relevant csv files into R data frames
+```{r}
+
+codebook_df <- read.csv("~/Documents/pic-sure-metadata-curation/biolincc_digitalis/input/decoding_data.csv")
+
+raw_data_df <- read.csv("~/Documents/pic-sure-metadata-curation/biolincc_digitalis/input/xfer_dig_teaching_v2021_07_15.csv")
+
+
+```
+
+
+```{r}
+
+decoded_df <- raw_data_df
+
+for (i in c(1:length(codebook_df$id))) {
+  varid <- codebook_df$id[i]
+  
+  print(varid)
+  
+  decoded_df[[varid]][decoded_df[[varid]]==codebook_df$encoded[i]]<-codebook_df$decoded[i]
+  
+}
+
+
+write_csv(decoded_df,"~/Documents/pic-sure-metadata-curation/biolincc_digitalis/output/decoded_data.csv")
+
+```
+
+
+
+
+
+
+
