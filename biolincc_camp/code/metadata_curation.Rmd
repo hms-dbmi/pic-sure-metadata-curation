@@ -32,13 +32,16 @@ raw_data_df <- read.csv("~/Documents/pic-sure-metadata-curation/CAMP/inputs/camp
 Filter variable csv to useful information, and renaming columns to match
 ```{r}
 
+
 renamed_df <-  data.frame(
                             form_group="All forms within the study",
-                            form="Form Unspecified",
+                            form="Form Name Not Provided",
+                            form_name= "Form Name Not Provided",
+                            form_description= "Form Name Not Provided",
                             variable_id=toupper(raw_dictionary_df$Variable),
                             variable_name=raw_dictionary_df$Label,
                             variable_type=raw_dictionary_df$Type,
-                            variable_group_name="All variables",
+                            variable_group_name="All Variables",
                             variable_group_description="All variables within the group",
                             variable_description=raw_dictionary_df$Label
                             )
@@ -50,29 +53,55 @@ renamed_df$variable_type <- replace(renamed_df$variable_type, renamed_df$variabl
 
 ```
 
+
+Build Hierarchy tree
+```{r}
+trees_vector <- vector(mode = "character",length = length(renamed_df$variable_id))
+
+for (i in c(1:length(renamed_df$variable_id))) {
+  study <- "biolincc_camp"
+  #form_group <- 
+  form <- str_replace_all(renamed_df$form_name[i],"/","-")
+  #variable_group <- 
+  variable <- str_replace_all(renamed_df$variable_name[i],"/","-")
+  
+  if(form =="Form Name Not Provided"){
+    tree <- paste0(study, "/",variable)
+  }else{
+    tree <- paste0(study, "/",form, "/",variable)
+  }
+  trees_vector[i] <- tree
+}  
+
+
+full_df <- cbind(renamed_df, trees_vector)
+names(full_df)[names(full_df) == 'trees_vector'] <- 'data_hierarchy'
+
+```
+
+
+
 Variable information
 ```{r}
+renamed_df<-full_df
+
 variable_info_df <- data.frame(renamed_df %>%
-                         select(form_group,form,variable_group_name, variable_group_description, variable_id,variable_name,variable_type) %>%
+                         select(form_group,form,form_description,form_name,variable_group_name, variable_group_description, variable_id,variable_name,variable_type, data_hierarchy,variable_description ) %>%
                          unique())
 rownames(variable_info_df) <- NULL
 
 
 
-
-
 for (ind in c(1:nrow(variable_info_df))) {
   temp_df <- data.frame(renamed_df[ind,] %>% #$variable_description
-                          select(variable_description #,
-                            # ADDITIONAL_INFORMATION_1,
-                            # ADDITIONAL_INFORMATION_2,
-                            # ADDITIONAL_INFORMATION_3
+                          select(#variable_description,
+                            #data_hierarchy,
                            )
                         )
   
   temp_df<-temp_df %>% mutate_all(na_if,"")
   
-  variable_info_df[ind, "variable_information"][[1]] <- list(temp_df)
+  variable_info_df[ind, "derived_variable_level_data"][[1]] <- list(temp_df)
 }
 ```
 
@@ -80,7 +109,7 @@ for (ind in c(1:nrow(variable_info_df))) {
 Variable
 ```{r}
 variable_df <- data.frame(variable_info_df %>%
-                         select(form_group,form,variable_group_name, variable_group_description) %>%
+                         select(form_group,form,form_description,form_name,variable_group_name, variable_group_description) %>%
                          unique())
 rownames(variable_df) <- NULL
 
@@ -88,7 +117,12 @@ rownames(variable_df) <- NULL
 for (ind in c(1:nrow(variable_df))) {
   temp_df <- variable_info_df %>%
     filter(form == variable_df[ind, "form"], variable_group_name == variable_df[ind, "variable_group_name"]) %>%
-    select(variable_id, variable_name, variable_type, variable_information)
+    select(variable_id, 
+          variable_name, 
+          variable_type,
+          variable_description,
+          data_hierarchy, 
+          derived_variable_level_data)
   variable_df[ind, "variable"][[1]] <- list(temp_df)
 }
 ```
@@ -97,7 +131,7 @@ for (ind in c(1:nrow(variable_df))) {
 Variable Group
 ```{r}
 variable_group_df <- data.frame(variable_df %>%
-                         select(form_group,form) %>%
+                         select(form_group,form,form_name,form_description) %>%
                          unique())
 rownames(variable_group_df) <- NULL
 
@@ -129,17 +163,17 @@ rownames(form_df) <- NULL
 for (ind in c(1:nrow(form_df))) {
   temp_df <- variable_group_df %>%
     #filter(form_group == variable_df[ind, "form_group"]) %>%
-    select(form, variable_group)
+    select(form,form_description,form_name, variable_group)
   form_df[ind, "form"][[1]] <- list(temp_df)
 }
 ```
 
 Study
 ```{r}
-complete_df <- data.frame('study_name' = 'Childhood Asthma Management Program (CAMP): Dataset for Teaching Purposes',
-                       'study' = 'CAMP',
-                       'study_phs_number' = 'n/a',
-                       'study_url' = 'https://biolincc.nhlbi.nih.gov/studies/camp/')
+complete_df <- data.frame('study_name' = 'Hematopoietic Cell Transplant for Sickle Cell Disease',
+                       'study' = 'HCT for SCD',
+                       'study_phs_number' = 'phs002385',
+                       'study_url' = 'https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002385.v1.p1')
 
 complete_df$form_group <- list(form_df)
 ```
@@ -148,8 +182,22 @@ To json
 ```{r}
 my_json <- toJSON(complete_df, pretty=FALSE)
 json_string <- as.character(my_json) # Convert to character/string
-fileConn <- file("../output/camp_metadata.json")
+
+# Rename special fields
+#json_string <- gsub("computed_variable" , 'Computed Variable?', json_string)
+#json_string <- gsub("hct_status" , 'HCT status', json_string)
+#json_string <- gsub("form_number" , 'CIBMTR Form number; (question numbers)', json_string)
+
+
+#names(wide_df)[names(wide_df) == 'variable_was_computed'] <- '\"Computed Variable?\"'
+#names(wide_df)[names(wide_df) == 'variable_hct_status'] <- '\"HCT status\"'
+#names(wide_df)[names(wide_df) == 'variable_question_number_inform'] <- '\"CIBMTR Form number; (question numbers)\"'
+```
+
+
+Write File
+```{r}
+fileConn <- file("../output/biolincc_camp_metadata.json")
 writeLines(json_string, fileConn)
 close(fileConn)
 ```
-
