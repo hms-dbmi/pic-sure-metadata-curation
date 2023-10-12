@@ -1,0 +1,59 @@
+---
+title: "Biolincc Framingham Metadata Curation"
+author: "Michael Corace"
+date: "N/A"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+#install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+```
+
+To-Do
+******
+
+Bring relevant csv files into R data frames
+```{r}
+
+codebook_df <- read.csv("~/Documents/pic-sure-metadata-curation/biolincc_framingham/input/Decoding.csv")
+
+varlist <- read_tsv("~/Documents/pic-sure-metadata-curation/biolincc_framingham/input/Decoding_Help.tsv")
+
+raw_data_df <- read.csv("~/Documents/pic-sure-metadata-curation/biolincc_framingham/input/FRAMINGHAM_teaching_2019a/csv/frmgham2.csv")
+
+
+```
+
+
+```{r}
+
+decoded_df <- raw_data_df
+
+for (i in c(1:length(codebook_df$varid))) {
+  varid <- codebook_df$varid[i]
+  
+  print(varid)
+  
+  decoded_df[[varid]][decoded_df[[varid]]==codebook_df$encoded[i]]<-codebook_df$decoded[i]
+  
+}
+
+decoded_df[is.na(decoded_df)] <- ""
+
+write_csv(decoded_df,"~/Documents/pic-sure-metadata-curation/biolincc_framingham/output/decoded_data.csv")
+
+```
+
+
+
+
+
+
+

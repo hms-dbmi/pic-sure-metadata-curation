@@ -1,0 +1,56 @@
+varid,encoded,decoded
+SEX,1,Men
+SEX,2,Women
+PERIOD,1,Period 1
+PERIOD,2,Period 2
+PERIOD,3,Period 3
+BPMEDS,0,Not currently used
+BPMEDS,1,Current Use
+CURSMOKE,0,Not current smoker
+CURSMOKE,1,Current smoker
+CIGPDAY,0,Not current smoker
+CIGPDAY,1,1-90 cigarettes per day
+DIABETES,0,Not a diabetic
+DIABETES,1,Diabetic
+PREVAP,0,Free of disease
+PREVAP,1,Prevalent disease
+PREVCHD,0,Free of disease
+PREVCHD,1,Prevalent disease
+PREVMI,0,Free of disease
+PREVMI,1,Prevalent disease
+PREVSTRK,0,Free of disease
+PREVSTRK,1,Prevalent disease
+PREVHYP,0,Free of disease
+PREVHYP,1,Prevalent disease
+ANGINA,0,Event did not occur during followup
+ANGINA,1,Event did occur during followup
+HOSPMI,0,Event did not occur during followup
+HOSPMI,1,Event did occur during followup
+MI_FCHD,0,Event did not occur during followup
+MI_FCHD,1,Event did occur during followup
+ANYCHD,0,Event did not occur during followup
+ANYCHD,1,Event did occur during followup
+STROKE,0,Event did not occur during followup
+STROKE,1,Event did occur during followup
+CVD,0,Event did not occur during followup
+CVD,1,Event did occur during followup
+HYPERTEN,0,Event did not occur during followup
+HYPERTEN,1,Event did occur during followup
+DEATH,0,Event did not occur during followup
+DEATH,1,Event did occur during followup
+TIMEAP,0,Event did not occur during followup
+TIMEAP,1,Event did occur during followup
+TIMEMI,0,Event did not occur during followup
+TIMEMI,1,Event did occur during followup
+TIMEMIFC,0,Event did not occur during followup
+TIMEMIFC,1,Event did occur during followup
+TIMECHD,0,Event did not occur during followup
+TIMECHD,1,Event did occur during followup
+TIMESTRK,0,Event did not occur during followup
+TIMESTRK,1,Event did occur during followup
+TIMECVD,0,Event did not occur during followup
+TIMECVD,1,Event did occur during followup
+TIMEHYP,0,Event did not occur during followup
+TIMEHYP,1,Event did occur during followup
+TIMEDTH,0,Event did not occur during followup
+TIMEDTH,1,Event did occur during followup

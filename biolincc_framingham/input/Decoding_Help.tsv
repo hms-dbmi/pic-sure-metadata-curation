@@ -1,0 +1,39 @@
+Variable	Description	Encoded	Decoding	Units	Additional
+RANDID	Unique identification number for each participant	N			
+SEX	Participant sex	Y	1=Men;2=Women		
+PERIOD	Examination Cycle	Y	1=Period 1;2=Period 2;3=Period 3		
+TIME	Number of days since baseline exam	N			
+AGE	Age at exam (years)	N		years	
+SYSBP	Systolic Blood Pressure (mean of last two of three measurements) (mmHg)	N		mmHg	
+DIABP	Diastolic Blood Pressure (mean of last two of three measurements) (mmHg)	N		mmHg	
+BPMEDS	Use of Anti-hypertensive medication at exam	Y	0=Not currently used;1=Current Use		
+CURSMOKE	Current cigarette smoking at exam	Y	0=Not current smoker;1=Current smoker		
+CIGPDAY	Number of cigarettes smoked each day	Y	0=Not current smoker;1=90 cigarettes per day		
+TOTCHOL	Serum Total Cholesterol (mg/dL)	N		mg/dL	
+HDLC	High Density Lipoprotein Cholesterol (mg/dL)	N		mg/dL	available for period 3 only
+LDLC	Low Density Lipoprotein Cholesterol (mg/dL)	N		mg/dL	available for period 3 only
+BMI	"Body Mass Index, weight in kilograms/height meters squared"	N		kilograms/height meters squared	
+GLUCOSE	Casual serum glucose (mg/dL)	N		mg/dL	
+DIABETES	Diabetic according to criteria of first exam treated or first exam with casual glucose of 200 mg/dL or more	Y	0=Not a diabetic;1=Diabetic		
+HEARTRTE	Heart rate (Ventricular rate) in beats/min	N			
+PREVAP	Prevalent Angina Pectoris at exam	Y	0=Free of disease;1=Prevalent disease		
+PREVCHD	"Prevalent Coronary Heart Disease defined as pre-existing Angina Pectoris, Myocardial Infarction (hospitalized, silent or unrecognized), or Coronary Insufficiency (unstable angina)"	Y	0=Free of disease;1=Prevalent disease		
+PREVMI	Prevalent Myocardial Infarction	Y	0=Free of disease;1=Prevalent disease		
+PREVSTRK	Prevalent Stroke	Y	0=Free of disease;1=Prevalent disease		
+PREVHYP	Prevalent Hypertensive. Subject was defined as hypertensive if treated or if second exam at which mean systolic was >=140 mmHg or mean Diastolic >=90 mmHg		0=Free of disease;1=Prevalent disease		
+ANGINA	Angina Pectoris	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+HOSPMI	Hospitalized Myocardial Infarction	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+MI_FCHD 	Hospitalized Myocardial Infarction or Fatal Coronary Heart Disease 	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+ANYCHD 	"Angina Pectoris, Myocardial infarction (Hospitalized and silent or unrecognized), Coronary Insufficiency (Unstable Angina), or Fatal Coronary Heart Disease "	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+STROKE 	"Atherothrombotic infarction, Cerebral Embolism, Intracerebral Hemorrhage, or Subarachnoid Hemorrhage or Fatal Cerebrovascular Disease "	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+CVD 	"Myocardial infarction (Hospitalized and silent or unrecognized), Fatal Coronary Heart Disease, Atherothrombotic infarction, Cerebral Embolism, Intracerebral Hemorrhage, or Subarachnoid Hemorrhage or Fatal Cerebrovascular Disease "	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+HYPERTEN 	Hypertensive. Defined as the first exam treated for high blood pressure or second exam in which either Systolic is 6 140 mmHg or Diastolic 6 90mmHg 	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+DEATH 	Death from any cause 	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+TIMEAP 	"Number of days from Baseline exam to first Angina during the followup or Number of days from Baseline to censor date. Censor date may be end of followup, death or last known contact date if subject is lost to followup "	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+TIMEMI	Defined as above for the first HOSPMI event during followup	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+TIMEMIFC	Defined as above for the first MI_FCHD event during followup	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+TIMECHD	Defined as above for the first ANYCHD event during followup	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+TIMESTRK	Defined as above for the first STROKE event during followup	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+TIMECVD	Defined as above for the first CVD event during followup	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+TIMEHYP	Defined as above for the first HYPERTEN event during followup 	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided 
+TIMEDTH 	"Number of days from Baseline exam to death if occurring during followup or Number of days from Baseline to censor date. Censor date may be end of followup, or last known contact date if subject is lost to followup "	Y	0=Event did not occur during followup;1=Event did occur during followup		Only the first event occurring during the interval of baseline (PERIOD=1) to end of followup is provided
