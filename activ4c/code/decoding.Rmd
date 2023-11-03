@@ -1,0 +1,155 @@
+---
+title: "decoding ACTIV4c"
+author: "michael corace"
+date: "2023-06"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+#install.packages("readxl")
+library(readxl)
+library(plyr)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+#install.packages("plyr")
+
+```
+
+
+```{r}
+dd_raw <- read_xlsx("~/pic-sure-metadata-curation/activ4c/input/Data Dictionary Updated.xlsx")
+dd_raw <- dd_raw[!dd_raw$DATASET == "DTLOG_ADMINUSERS", ]
+dd_raw <- dd_raw[dd_raw$TYPE == "encoded value", ]
+dd_raw <- dd_raw[!dd_raw$DATASET == "MH", ]
+```
+
+```{r}
+for (dtid in unique(dd_raw$DATASET)) {
+  dt_df <- read.csv(paste0("~/pic-sure-metadata-curation/activ4c/input/",dtid,".csv"))
+  
+  #print(dtid)
+  
+  decoded_df<- dt_df
+  
+  for (varid in dd_raw[dd_raw$DATASET==dtid,]$VARNAME) {
+    #print(varid)
+    decoding_string <- dd_raw[dd_raw$DATASET==dtid & dd_raw$VARNAME==varid,]$VALUES
+    decoded_list <- str_split(decoding_string,"\\|")
+    for (decoding_char in decoded_list[[1]]) {
+      encoded_val <- str_trim(gsub('[\']', '',strsplit(decoding_char,"=")[[1]][1]))
+      decoded_val <- str_trim(gsub('[\']', '', strsplit(decoding_char,"=")[[1]][2]))
+      
+      
+      decoded_df[[varid]] <- replace(decoded_df[[varid]], which(decoded_df[[varid]]==encoded_val), decoded_val)
+    }
+  }
+  
+  decoded_final_df <- decoded_df %>% select(PATID,everything())
+  
+  write.csv(decoded_final_df,paste0("~/pic-sure-metadata-curation/activ4c/output/",dtid,".csv"),row.names = FALSE)
+  
+}
+
+
+```
+
+
+
+
+
+
+```{r}
+
+path <- "~/Documents/pic-sure-metadata-curation/activ4a/input/updated/Data Dictionary 2023-03-08.xlsx"
+
+#getting info about all excel sheets
+sheets <- readxl::excel_sheets(path)
+tibble <- lapply(sheets, function(x) readxl::read_excel(path, sheet = x))
+dd_df <- lapply(tibble, as.data.frame)
+    
+# assigning names to data frames
+names(dd_df) <- sheets
+
+dd_df <- head(dd_df, -1)
+
+decoding_df <- data.frame("var"=c(),"form"=c(),"coded"=c(),"decoded"=c())
+
+for(form_name in names(dd_df)){
+  tmp_df <- dd_df[[form_name]]
+  
+  tmp_df <- tmp_df[which(tmp_df$code!=""),c("VARNAME", "code")]
+  
+  tmp_df <-cbind(tmp_df,data.frame("form_id"=rep(domain_names_df$Domain[which(domain_names_df$Domain==form_name)], each=length(tmp_df[[1]]))))
+  
+  
+  for (i in c(1:length(tmp_df$VARNAME))) {
+    #print(tmp_df$code[i])
+    full_field <- unlist(str_split(tmp_df$code[i],"\\|"))
+    decoded = c()
+    coded = c()
+    for(p in full_field){
+      coded<-append(coded,unlist(str_split(str_trim(p),"="))[1])
+      trimmed_str <- str_trim(p)
+      decoded<-append(decoded,str_remove_all(unlist(regmatches(trimmed_str, regexpr("=", trimmed_str), invert = TRUE))[2],"'"))
+    }
+    decoding_df <- na.omit(rbind(decoding_df,data.frame(
+                                    "var"=rep(tmp_df$VARNAME[i],each=length(coded)),
+                                    "form"=rep(tmp_df$form_id[i],each=length(coded)),
+                                    "coded"=coded,
+                                    "decoded"=decoded
+    )))
+  }
+  
+  
+  
+  
+  dd_df[[form_name]] <- tmp_df
+  
+  
+}
+```
+
+
+```{r}
+for (form_name in names(dd_df)) {
+  print(form_name)
+  
+  original_df_raw <- read.csv(paste0("~/Documents/pic-sure-metadata-curation/activ4a/input/updated/raw/BDC RAW ", form_name,".csv"))
+  
+  if(form_name!="PROB"){
+    new_df_raw <- read.csv(paste0("~/Documents/pic-sure-metadata-curation/activ4a/input/updated/raw/BDC RAW ", form_name," (1).csv"))
+    
+    original_df_raw <-rbind.fill(original_df_raw,new_df_raw)
+  }
+  
+  for(i in c(1:length(dd_df[[form_name]]$VARNAME))){
+    varname <- dd_df[[form_name]]$VARNAME[i]
+    code_df <- decoding_df[which(decoding_df$var==varname),]
+    
+    #print(table(original_df_raw[[varname]]))
+
+    
+    for(c in c(1:length(code_df$var))){
+      #print("code")
+      #print(code_df$coded[c])
+      original_df_raw[[varname]][(gsub('[\"]', '', original_df_raw[[varname]]))==gsub("'",'',code_df$coded[c])] <- code_df$decoded[c]
+    }
+  }
+  
+  original_df_raw[is.na(original_df_raw)] = ""
+  names(original_df_raw) <- toupper(names(original_df_raw))
+  
+  write.csv(original_df_raw,paste0("~/Documents/pic-sure-metadata-curation/activ4a/output/decoded_data/",form_name,".csv"),row.names = FALSE)
+  
+}
+
+
+
+
+
+```
+
