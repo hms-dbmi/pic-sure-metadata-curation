@@ -1,0 +1,145 @@
+---
+title: "Decode CSV data for C3PO"
+author: "Michael Corace"
+date: "7/19/2022"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+#install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+```
+
+First, let's see what we can extract from the provided data dictionary.
+Bring relevant csv files into R data frames
+```{r}
+dd_raw <- read.csv("~/pic-sure-metadata-curation/c3po/input/Codebook_updated.csv")
+
+cl_raw <- read.csv("~/pic-sure-metadata-curation/c3po/input/Codelist.csv")
+
+
+```
+
+
+```{r}
+dd_df <- dd_raw
+
+for(i in c(1:length(cl_raw$label_list))){
+  varid=strsplit(cl_raw$label_list[i],"=")[[1]][1]
+  varname=strsplit(cl_raw$label_list[i],"=")[[1]][2]
+  
+  if(!(varid%in%dd_raw$varid)){
+    dd_df<- rbind(dd_df,data.frame(
+      "table_name"=cl_raw$table_name[i],
+      "varid"=varid,
+      "varname"=noquote(varname),
+      "encoded"="N",
+      "encoded_val"=NA,
+      "decoded_val"=NA
+    ))
+  }else{
+    dd_df[dd_df$varid==varid,]$varname <- noquote(varname)
+  }
+}
+
+dd_df <- dd_df[dd_df$encoded=="Y",]
+
+dd_df <- data.frame(lapply(dd_df, function(x) {
+  gsub("\"", "", x)        
+  }))
+
+```
+
+
+```{r}
+
+for (form_name in unique(dd_df$table_name)) {
+  print(form_name)
+  form_num <- substr(form_name,5,7)
+  
+  df_raw <- read.csv(paste0("../input/CONNECTS_", form_num,"_unmapped.csv"))
+  
+  decoded_df <- df_raw
+  
+  for (i in which(dd_df$table_name==form_name)) {
+    varid<- dd_df$varid[i]
+    encoded_val <- dd_df$encoded_val[i]
+    decoded_val <- dd_df$decoded_val[i]
+    
+    #print(varid)
+    
+    decoded_df[[varid]][decoded_df[[varid]]==encoded_val] <- decoded_val
+  }
+  
+  decoded_df[is.na(decoded_df)] = ""
+  names(decoded_df) <- toupper(names(decoded_df))
+  
+  write.csv(decoded_df,paste0("../output/decoded_data/CONNECTS_", form_num,"_unmapped.csv"),row.names = FALSE)
+}
+
+```
+
+
+
+
+
+
+
+
+
+This codelist has the coded variable ids and decoded names in the same field.
+So now we separate those into different columns to be used more easily.
+
+```{r}
+
+codelist_df$label_name_list <- vector(mode="character",length = length(codelist_df$label_list))
+
+for (i in 1:length(codelist_df$label_list)) {
+  #print(codelist_df$label_list[i])
+  label_name <- strsplit(codelist_df$label_list[i], "=")
+  
+  codelist_df$label_list[i] <- gsub('\"','',label_name[[1]][1])
+  codelist_df$label_name_list[i] <- gsub('\\\\','', gsub('\"','',label_name[[1]][2]))
+}
+
+```
+
+Now we read in each csv and decode the data
+
+```{r}
+special_vars <- c("zRaceM1","zRaceM2","zRaceM3","zRaceM4","zRaceM5","zRaceM98")
+
+
+form_files_list <- list.files('../input/',pattern = 'unmapped')
+
+for(form in form_files_list){
+  form_raw <- read.table(paste0("../input/",form), head = TRUE, sep=",")
+  
+  for(v in colnames(form_raw)){
+    if (v %in% data_dictionary_df$varname){
+      #print(v)
+      var_code_df <- data_dictionary_df[which(data_dictionary_df$varname == v),3:4]
+      
+      for (i in c(1:length(var_code_df$start))) {
+        form_raw[v][form_raw[v] == var_code_df$start[i]] <- var_code_df$label[i]
+        form_raw[v][is.na(form_raw[v])] <- ""
+      }
+      
+    }else if(v %in% special_vars){
+      for (variable in special_vars) {
+        form_raw[variable][form_raw[variable] == 0] <- "No"
+        form_raw[variable][form_raw[variable] == 1] <- "Yes"
+      }
+    }
+  }
+  
+  
+  write.csv(form_raw, paste0("../output/decoded_",form), row.names = F)
+}
+```
