@@ -1,0 +1,55 @@
+---
+title: "Biolincc_BlueCoral"
+author: "Michael Corace"
+date: "7/19/2022"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+#install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+```
+
+```{r}
+file_list <- list.files(path="../input/",pattern = "*_dd.csv")
+
+for (dd_file in file_list[2:length(file_list)]) {
+  print(dd_file)
+  file_name <- str_remove(dd_file,"_dd.csv")
+  
+  dd_df <- read.csv(paste0("../input/",dd_file))
+  
+  data_raw <- read.csv(paste0("../input/",file_name,".csv"))
+  
+  decoded_df <- data_raw
+  
+  for(i in which(dd_df$Encoding!='N')){
+    var_id <- dd_df$Variable[i]
+    
+    if(dd_df$Encoding[i]=='Y/N'){
+      decoded_df[[var_id]][decoded_df[[var_id]]==0] <- "No"
+      decoded_df[[var_id]][decoded_df[[var_id]]==1] <- "Yes"
+    }else{
+      decoding_list <- str_split(dd_df$Encoding[i],"\\/")
+      for (q in decoding_list[[1]]) {
+        encoded_val <- str_split(q,"=")[[1]][1]
+        decoded_val <- str_split(q,"=")[[1]][2]
+        
+        decoded_df[[var_id]][decoded_df[[var_id]]==encoded_val] <- decoded_val
+      }
+    }
+  }
+  
+  decoded_df[is.na(decoded_df)] = ""
+  names(decoded_df) <- toupper(names(decoded_df))
+  
+  write.csv(decoded_df,paste0("../output/",file_name,".csv"),row.names = F)
+}
+
+```
