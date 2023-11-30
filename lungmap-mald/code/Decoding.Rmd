@@ -1,0 +1,103 @@
+---
+title: "lungMAP decoding"
+author: "Michael Corace"
+date: "N/A"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+#install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+```
+
+```{r}
+subject_raw <- read.table(file='../input/Subject.tsv',sep="\t",header=T)
+sample_raw <- read.table(file='../input/Sample.tsv',sep="\t",header=T)
+aliquot_raw <- read.table(file='../input/Aliquot.tsv',sep="\t",header=T)
+rg_raw <- read.table(file='../input/Read Group.tsv',sep="\t",header=T)
+demo_raw <- read.table(file='../input/Demographics.tsv',sep="\t",header=T)
+sur_raw <- read.table(file='../input/submitted_unaligned_reads.tsv',sep="\t",header=T)
+
+```
+
+
+Subject
+```{r}
+subject_final <- subject_raw
+
+subject_final <- subject_final[,c(3,6)]
+
+names(subject_final) <- list("long_id","short_id")
+```
+
+Sample
+```{r}
+sample_final <- sample_raw
+
+sample_final <- sample_final[,c(1:4,8:11,19,26,27)]
+
+sample_final$SUBJECT_ID <- ""
+
+for (i in c(1:length(sample_final$type))) {
+  #print(sample_final$subjects.submitter_id[i])
+  
+  sample_final$SUBJECT_ID[i] <- subject_final$short_id[which(subject_final$long_id==sample_final$subjects.submitter_id[i])]
+  
+}
+
+sample_final <- sample_final %>%
+  select(SUBJECT_ID, everything())
+
+names(sample_final) <- toupper(names(sample_final))
+
+sample_final <- data.frame(lapply(sample_final, function(x) {
+                  gsub(",", ";", x)
+              }))
+
+write.csv(sample_final,"../output/Sample.csv",row.names=F)
+```
+
+Demographics
+```{r}
+aliquot_final <- demo_raw
+
+aliquot_final <- aliquot_final[,c(1:4,9:13,21,25:27)]
+
+aliquot_final$SUBJECT_ID <- ""
+
+for (i in c(1:length(aliquot_final$type))) {
+  #print(sample_final$subjects.submitter_id[i])
+  
+  aliquot_final$SUBJECT_ID[i] <- subject_final$short_id[which(subject_final$long_id==aliquot_final$subjects.submitter_id[i])]
+  
+}
+
+aliquot_final <- aliquot_final %>%
+  select(SUBJECT_ID, everything())
+
+names(aliquot_final) <- toupper(names(aliquot_final))
+
+aliquot_final <- data.frame(lapply(aliquot_final, function(x) {
+                  gsub(",", ";", x)
+              }))
+
+aliquot_final[is.na(aliquot_final)] = ""
+
+write.csv(aliquot_final,"../output/Demographics.csv",row.names=F)
+```
+
+
+
+
+
+
+
+
+
+
