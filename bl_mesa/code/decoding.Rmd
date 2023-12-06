@@ -1,0 +1,100 @@
+---
+title: "Biolincc_BlueCoral"
+author: "Michael Corace"
+date: "7/19/2022"
+output: html_document
+---
+
+Libraries
+```{r}
+library(jsonlite)
+library(tidyverse)
+#install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+```
+
+```{r}
+c2_data_raw <- read_csv("~/pic-sure-metadata-curation/bl_mesa/input/C2/c2_dataset.csv",show_col_types = FALSE)
+
+c2_decoding_raw <- read_csv("~/pic-sure-metadata-curation/bl_mesa/input/C2/c2_ensemble_MESA_c_dictionary.csv",show_col_types = FALSE)
+
+#dd_raw <- read_csv("~/pic-sure-metadata-curation/bl_mesa/input/Data_dictionary.csv",show_col_types = FALSE)
+
+```
+
+```{r}
+c2_decode <- c2_decoding_raw[,c(1,2,4)]
+```
+
+```{r}
+c2_decoded_df <- c2_data_raw
+
+for (varid in names(c2_decoded_df)) {
+  if(varid%in%c2_decode$FMTNAME){
+    
+    decode_df <- c2_decode[which(c2_decode$FMTNAME==varid),]
+    
+    for (i in c(1:length(decode_df$START))) {
+          c2_decoded_df[[varid]][c2_decoded_df[[varid]]==decode_df$START[i]] <- decode_df$LABEL[i]
+    }
+  }
+}
+
+```
+
+```{r}
+c2_decoded_df <- sapply(c2_decoded_df,as.character)
+c2_decoded_df[is.na(c2_decoded_df)] = ""
+names(c2_decoded_df) <- toupper(names(c2_decoded_df))
+
+```
+
+
+
+
+
+```{r}
+c1_data_raw <- read_csv("~/pic-sure-metadata-curation/bl_mesa/input/C1/c1_dataset.csv",show_col_types = FALSE)
+
+c1_decoding_raw <- read_csv("~/pic-sure-metadata-curation/bl_mesa/input/C1/c1_ensemble_MESA_a_dictionary.csv",show_col_types = FALSE)
+
+#dd_raw <- read_csv("~/pic-sure-metadata-curation/bl_mesa/input/Data_dictionary.csv",show_col_types = FALSE)
+
+```
+
+```{r}
+c1_decode <- c1_decoding_raw[,c(1,2,4)]
+```
+
+```{r}
+c1_decoded_df <- c1_data_raw
+
+for (varid in names(c1_decoded_df)) {
+  if(varid%in%c1_decode$FMTNAME){
+    
+    decode_df <- c1_decode[which(c1_decode$FMTNAME==varid),]
+    
+    for (i in c(1:length(decode_df$START))) {
+          c1_decoded_df[[varid]][c1_decoded_df[[varid]]==decode_df$START[i]] <- decode_df$LABEL[i]
+    }
+  }
+}
+
+```
+
+```{r}
+c1_decoded_df <- sapply(c1_decoded_df,as.character)
+c1_decoded_df[is.na(c1_decoded_df)] = ""
+names(c1_decoded_df) <- toupper(names(c1_decoded_df))
+
+```
+
+
+```{r}
+write.csv(c1_decoded_df,"../output/C1/c1_dataset.csv",row.names=F)
+write.csv(c2_decoded_df,"../output/C2/c2_dataset.csv",row.names=F)
+
+```
