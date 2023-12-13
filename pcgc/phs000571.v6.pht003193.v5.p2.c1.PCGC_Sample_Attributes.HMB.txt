@@ -8,7 +8,7 @@
 # 2) you may cite a variable as phv#.v5.p2.c2.							
 							
 ##		subject_id	phv00181091.v5.p2.c1	phv00181092.v5.p2.c1	phv00181093.v5.p2.c1	phv00181094.v5.p2.c1	phv00181095.v5.p2.c1
-dbGaP_Subject_ID	dbGaP_Sample_ID	subject_id	SAMPID	BODY_SITE	IS_TUMOR	ANALYTE_TYPE	DNA_QC_STATUS
+dbGaP_Subject_ID	dbGaP_Sample_ID	SUBJID	SAMPID	BODY_SITE	IS_TUMOR	ANALYTE_TYPE	DNA_QC_STATUS
 2809059	3372536	32783	60022967	None	N	DNA	None
 711796	921536	3435	CG0003-3133	Whole Blood	N	DNA	QC completed
 1775772	3375683	23395	CG0019-8892	Whole Blood	N	DNA	QC completed
