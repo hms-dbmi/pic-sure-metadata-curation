@@ -2,12 +2,12 @@
 # Table accession: pht003193.v5.p2.c1							
 # Consent group: Health/Medical/Biomedical							
 # Citation instructions: The study accession (phs000571.v6.p2) is used to cite the study and its data tables and documents. The data in this file should be cited using the accession pht003193.v5.p2.c1.							
-# To cite columns of data within this file, please use the variable (phv#) accessions below:							
+"# To cite columns of data within this file, please use the variable (phv#) accessions below:"							
 #							
 # 1) the table name and the variable (phv#) accessions below; or							
 # 2) you may cite a variable as phv#.v5.p2.c1.							
 							
-##	dbGaP_Subject_ID	subject_id	phv00181091.v5.p2.c1	phv00181092.v5.p2.c1	phv00181093.v5.p2.c1	phv00181094.v5.p2.c1	phv00181095.v5.p2.c1
+##		subject_id	phv00181091.v5.p2.c1	phv00181092.v5.p2.c1	phv00181093.v5.p2.c1	phv00181094.v5.p2.c1	phv00181095.v5.p2.c1
 dbGaP_Sample_ID	dbGaP_Subject_ID	subject_id	SAMPID	BODY_SITE	IS_TUMOR	ANALYTE_TYPE	DNA_QC_STATUS
 3372536	2809059	32783	60022967	None	N	DNA	None
 921536	711796	3435	CG0003-3133	Whole Blood	N	DNA	QC completed

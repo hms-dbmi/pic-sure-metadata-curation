@@ -1,3 +1,11 @@
+# Study accession: phs000571.v6.p2		
+# Table accession: subjects		
+# Consent group: All		
+# Citation instructions: The study accession (phs000571.v6.p2) is used to cite the study and its data tables and documents. The data in this file should be cited using the accession subjects.v6.p2.		
+"# To cite columns of data within this file, please use the variable (phv#) accessions below:"		
+#		
+# 1) the table name and the variable (phv#) accessions below; or		
+# 2) you may cite a variable as id.v6.p2		
 ##	subject_id	consent
 dbGaP_Subject_ID	SUBJID	CONSENT
 1333691	1000	1
