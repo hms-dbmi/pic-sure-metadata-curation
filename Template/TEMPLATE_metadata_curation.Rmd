@@ -16,175 +16,179 @@ library(stringr)
 library(jsonlite)
 ```
 
-To-Do
-******
-
-Bring relevant csv files into R data frames
+Fill out inputs for the study
 ```{r}
-
-raw_dictionary_df <- read.csv("{Data Dictionary file(s)}")
-
-raw_data_df <- read.csv("{Data file(s)}")
-
+phs=''
+v=1
+p=1
+shortname=''
+fullname=''
+dd_filepath=""
+data_files_list=c()
+#variable_level_data_list=c()
+consents_list=c('')
+focus=''
+design=''
+assosciated_studies=' '
+additional_info=' '
+harmonized=''
+study_type=''
+gen3_project_name=''
+new_up=""
+s3_folder=""
+synthetic="Synthetic"
 ```
 
-
-Filter variable csv to useful information, and renaming columns to match rest of process
 ```{r}
+
+dd_raw <- read_csv(dd_filepath, show_col_types = F)
+
 
 renamed_df <-  data.frame(
-                            form_group="{if n/a: All forms within the study}",
-                            form="{if n/a: Form ID not provided}",
-                            form_name="{if n/a: Form name not provided}",
-                            variable_id=toupper(raw_dictionary_df$id), # not the human-readable variable name, should always be capitalized
-                            variable_name=raw_dictionary_df$display_name, # the human-readable variable name
-                            variable_type=raw_dictionary_df$type,
-                            variable_group_name="{if n/a: All variables within the form}",
-                            variable_group_description="{if n/a: All variables within the group/form}",
-                            variable_description="{if n/a: dubplicates variable_name}",
-                            #additional variable information=,
-                              # ex: hct_status=raw_variables_df$`"HCT status"` | Note: the additional variable information fields should have their variable names                                                                                    saved as they will be shown in the UI
+                            form_group="N/A",
+                            form=dd_raw$table,
+                            form_name= dd_raw$table,
+                            form_description= "N/A",
+                            variable_id=toupper(dd_raw$varname),
+                            variable_type=dd_raw$type,
+                            variable_group_name='NA',
+                            variable_group_description="N/A",
+                            variable_description=dd_raw$vardesc,
+                            variable_name=dd_raw$vardesc,
+                            Units=dd_raw$units
                             )
-
 ```
 
-Build Hierarchy tree
-```{r}
-trees_vector <- vector(mode = "character",length = length(renamed_df$variable_id))
 
-for (i in c(1:length(renamed_df$variable_id))) {
-  study <- "{Study Name}"
-  
-  # Replace "/" characters with "-" in all names, to work with data hierarchy UI input
-  
-    #form_group <- str_replace_all(renamed_df$form_group[i],"/","-") | Include if needed
-  
+Json
+```{r}
+# Heirarchy tree
+  trees_vector <- vector(mode = "character",length = length(renamed_df$variable_id))
+
+  for (i in c(1:length(renamed_df$variable_id))) {
+    study <- shortname
+    
     form <- str_replace_all(renamed_df$form[i],"/","-")
-  
-    #form_name <- str_replace_all(renamed_df$form_name[i],"/","-") | Include if needed
-   
+     
     variable <- str_replace_all(renamed_df$variable_name[i],"/","-")
+    
+    tree <- paste0(study, "/",form, "/",variable)
+
+    trees_vector[i] <- tree
+  }  
+
+  full_df <- cbind(renamed_df, trees_vector)
+  names(full_df)[names(full_df) == 'trees_vector'] <- 'data_hierarchy'
+
+# Var information level
+  variable_info_df <- data.frame(
+    full_df %>%
+      select(
+        form_group,
+        form,
+        form_description,
+        form_name,
+        variable_group_name,
+        variable_group_description,
+        variable_id,
+        variable_name,
+        variable_type,
+        data_hierarchy,
+        variable_description,
+        Units
+      ) %>%
+      unique()
+  )
+  rownames(variable_info_df) <- NULL
+
+
+
+  for (ind in c(1:nrow(variable_info_df))) {
+    temp_df <- data.frame(full_df[ind,] %>% #$variable_description
+                  select(
+                    Units
+                   )
+                )
+    
+    temp_df<-temp_df %>% mutate_all(na_if,"")
+    
+    variable_info_df[ind, "derived_variable_level_data"][[1]] <- list(temp_df)
+  }
   
-  tree <- paste0(study, "/",form, "/",variable) #  Include other fields if applicable
+  # Var level
+  variable_df <- data.frame(
+    variable_info_df %>%
+      select(
+        form_group,
+        form,
+        form_description,
+        form_name,
+        variable_group_name,
+        variable_group_description
+      ) %>%
+      unique()
+  )
+  rownames(variable_df) <- NULL
+
+
+  for (ind in c(1:nrow(variable_df))) {
+    temp_df <- variable_info_df %>%
+      filter(form == variable_df[ind, "form"], variable_group_name == variable_df[ind, "variable_group_name"]) %>%
+      select(variable_id, 
+            variable_name, 
+            variable_type,
+            variable_description,
+            data_hierarchy, 
+            derived_variable_level_data)
+    variable_df[ind, "variable"][[1]] <- list(temp_df)
+  }
   
-  trees_vector[i] <- tree
-}  
-
-
-full_df <- cbind(renamed_df, trees_vector)
-names(full_df)[names(full_df) == 'trees_vector'] <- 'data_hierarchy'
-
-```
-
-
-
-
-Variable information
-```{r}
-renamed_df<-full_df
-
-variable_info_df <- data.frame(renamed_df %>%
-                         select(form_group,form,form_description, variable_group_name, variable_group_description, variable_id,variable_name,variable_type, variables_description, data_hierarchy) %>%
-                         unique())
-rownames(variable_info_df) <- NULL
-
-
-
-for (ind in c(1:nrow(variable_info_df))) {
-  temp_df <- data.frame(renamed_df[ind,] %>% #$variable_description
-                          select(
-                            # ADDITIONAL_INFORMATION_1, # Include additonal variable information if applicable
-                            # ADDITIONAL_INFORMATION_2,
-                            # ADDITIONAL_INFORMATION_3
-                           )
-                        )
+  # Var group level
+  variable_group_df <- data.frame(variable_df %>%
+                                    select(form_group, form, form_name, form_description) %>%
+                                    unique())
+  rownames(variable_group_df) <- NULL
   
-  temp_df<-temp_df %>% mutate_all(na_if,"")
+
+  for (ind in c(1:nrow(variable_group_df))) {
+    temp_df <- variable_df %>%
+      filter(form == variable_group_df[ind, "form"]) %>%
+      select(variable_group_name, variable_group_description, variable)
+    variable_group_df[ind, "variable_group"][[1]] <- list(temp_df)
+  }
   
-  variable_info_df[ind, "variable_information"][[1]] <- list(temp_df)
-}
+  # Form level
+  form_df <- data.frame(variable_group_df %>%
+                          select(form_group) %>%
+                          unique())
+  rownames(form_df) <- NULL
+  
+
+  for (ind in c(1:nrow(form_df))) {
+    temp_df <- variable_group_df %>%
+      #filter(form_group == variable_df[ind, "form_group"]) %>%
+      select(form,form_description,form_name, variable_group)
+    form_df[ind, "form"][[1]] <- list(temp_df)
+  }
+ 
+  # Study level
+  complete_df <- data.frame('study_name' = fullname,
+                       'study' = shortname,
+                       'study_phs_number' = phs,
+                       'study_url' = paste0("https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=",phs,".v",v,".p",p))
+
+  complete_df$form_group <- list(form_df)
+  
+  
+  
+  # Save file
+  my_json <- toJSON(complete_df, pretty=FALSE)
+  json_string <- as.character(my_json)
+  
+  # Rename special fields
+  #json_string <- gsub("field_note" , 'Field Note', json_string)
+  
+  fileConn <- file(paste0("../output/",shortname,"_metadata.json"))
+  writeLines(json_string, fileConn)
+  close(fileConn)
 ```
-
-
-Variable
-```{r}
-variable_df <- data.frame(variable_info_df %>%
-                         select(form_group,form,form_description,form_name,variable_group_name, variable_group_description) %>%
-                         unique())
-rownames(variable_df) <- NULL
-
-
-for (ind in c(1:nrow(variable_df))) {
-  temp_df <- variable_info_df %>%
-    filter(form == variable_df[ind, "form"], variable_group_name == variable_df[ind, "variable_group_name"]) %>%
-    select(variable_id, 
-          variable_name, 
-          variable_type,
-          variable_description,
-          data_hierarchy, 
-          derived_variable_level_data)
-  variable_df[ind, "variable"][[1]] <- list(temp_df)
-}
-```
-
-
-Variable Group
-```{r}
-variable_group_df <- data.frame(variable_df %>%
-                         select(form_group,form,form_name,form_description) %>%
-                         unique())
-rownames(variable_group_df) <- NULL
-
-
-for (ind in c(1:nrow(variable_group_df))) {
-  temp_df <- variable_df %>%
-    filter(form == variable_group_df[ind, "form"]) %>%
-    select(variable_group_name, variable_group_description, variable)
-  variable_group_df[ind, "variable_group"][[1]] <- list(temp_df)
-}
-```
-
-
-Form
-```{r}
-
-#variable_group_df[variable_group_df==""] <- "Form name not provided"
-
-#form_descriptions_df <- data.frame(form=raw_forms_df$id, form_description=raw_forms_df$display_name)
-
-#variable_group_df <- merge(variable_group_df,form_descriptions_df, by="form", all = TRUE)
-
-form_df <- data.frame(variable_group_df %>%
-                         select(form_group) %>%
-                         unique())
-rownames(form_df) <- NULL
-
-
-for (ind in c(1:nrow(form_df))) {
-  temp_df <- variable_group_df %>%
-    #filter(form_group == variable_df[ind, "form_group"]) %>%
-    select(form,form_description,form_name, variable_group)
-  form_df[ind, "form"][[1]] <- list(temp_df)
-}
-```
-
-
-Study
-```{r}
-complete_df <- data.frame('study_name' = '{Full Study name}',
-                       'study' = '{Study shortname}',
-                       'study_phs_number' = '{phs number}',
-                       'study_url' = '{link to dbGap page or other relevant site}')
-
-complete_df$form_group <- list(form_df)
-```
-
-To json
-```{r}
-my_json <- toJSON(complete_df, pretty=FALSE)
-json_string <- as.character(my_json) # Convert to character/string
-fileConn <- file("../output/{STUDY}_metadata.json")
-writeLines(json_string, fileConn)
-close(fileConn)
-```
-
