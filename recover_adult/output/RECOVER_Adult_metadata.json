@@ -25399,30 +25399,30 @@
                   },
                   {
                     "variable_id": "PS_GASTRO_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Gastrointestinal (belly) symptoms (feeling full or vomiting after eating, diarrhea, constipation)  (enrollment)",
+                    "variable_name": "Gastrointestinal (belly) symptoms (feeling full or vomiting after eating, diarrhea, constipation) (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Gastrointestinal (belly) symptoms (feeling full or vomiting after eating, diarrhea, constipation)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Gastrointestinal (belly) symptoms (feeling full or vomiting after eating, diarrhea, constipation)  (enrollment)",
+                    "variable_description": "Gastrointestinal (belly) symptoms (feeling full or vomiting after eating, diarrhea, constipation) (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Gastrointestinal (belly) symptoms (feeling full or vomiting after eating, diarrhea, constipation) (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_MENSTRUAL_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Changes to menstrual cycle  (enrollment)",
+                    "variable_name": "Changes to menstrual cycle (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Changes to menstrual cycle  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes to menstrual cycle  (enrollment)",
+                    "variable_description": "Changes to menstrual cycle (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes to menstrual cycle (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "UCLAPROS_4_enrollment_pasc_symptoms",
-                    "variable_name": "How would you describe the usual quality of your erections?  (enrollment)",
+                    "variable_name": "How would you describe the usual quality of your erections? (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "How would you describe the usual quality of your erections?  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/How would you describe the usual quality of your erections?  (enrollment)",
+                    "variable_description": "How would you describe the usual quality of your erections? (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/How would you describe the usual quality of your erections? (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -25439,30 +25439,30 @@
                   },
                   {
                     "variable_id": "PS_GOOFY_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Feeling faint, dizzy, goofy; difficulty thinking soon after standing up from a sitting or lying position  (enrollment)",
+                    "variable_name": "Feeling faint, dizzy, goofy; difficulty thinking soon after standing up from a sitting or lying position (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Feeling faint, dizzy, goofy; difficulty thinking soon after standing up from a sitting or lying position  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Feeling faint, dizzy, goofy; difficulty thinking soon after standing up from a sitting or lying position  (enrollment)",
+                    "variable_description": "Feeling faint, dizzy, goofy; difficulty thinking soon after standing up from a sitting or lying position (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Feeling faint, dizzy, goofy; difficulty thinking soon after standing up from a sitting or lying position (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_HEADACHE_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Headaches  (enrollment)",
+                    "variable_name": "Headaches (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Headaches  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Headaches  (enrollment)",
+                    "variable_description": "Headaches (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Headaches (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_ITCHING_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Episodes of itching and/or hives  (enrollment)",
+                    "variable_name": "Episodes of itching and/or hives (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Episodes of itching and/or hives  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Episodes of itching and-or hives  (enrollment)",
+                    "variable_description": "Episodes of itching and/or hives (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Episodes of itching and-or hives (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -25489,10 +25489,10 @@
                   },
                   {
                     "variable_id": "PS_SENSE_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Loss of or change in smell or taste  (enrollment)",
+                    "variable_name": "Loss of or change in smell or taste (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Loss of or change in smell or taste  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Loss of or change in smell or taste  (enrollment)",
+                    "variable_description": "Loss of or change in smell or taste (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Loss of or change in smell or taste (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -25509,10 +25509,10 @@
                   },
                   {
                     "variable_id": "PS_HEARING_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Problems with hearing (hearing loss, ringing in ears)  (enrollment)",
+                    "variable_name": "Problems with hearing (hearing loss, ringing in ears) (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Problems with hearing (hearing loss, ringing in ears)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems with hearing (hearing loss, ringing in ears)  (enrollment)",
+                    "variable_description": "Problems with hearing (hearing loss, ringing in ears) (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems with hearing (hearing loss, ringing in ears) (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -25559,20 +25559,20 @@
                   },
                   {
                     "variable_id": "PS_MOOD_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Problems with anxiety, depression, stress, or trauma-related symptoms like nightmares or grief  (enrollment)",
+                    "variable_name": "Problems with anxiety, depression, stress, or trauma-related symptoms like nightmares or grief (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Problems with anxiety, depression, stress, or trauma-related symptoms like nightmares or grief  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems with anxiety, depression, stress, or trauma-related symptoms like nightmares or grief  (enrollment)",
+                    "variable_description": "Problems with anxiety, depression, stress, or trauma-related symptoms like nightmares or grief (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems with anxiety, depression, stress, or trauma-related symptoms like nightmares or grief (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_RASH_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Skin rash  (enrollment)",
+                    "variable_name": "Skin rash (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Skin rash  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Skin rash  (enrollment)",
+                    "variable_description": "Skin rash (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Skin rash (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -25609,10 +25609,10 @@
                   },
                   {
                     "variable_id": "PS_SOB_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Shortness of breath  (enrollment)",
+                    "variable_name": "Shortness of breath (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Shortness of breath  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Shortness of breath  (enrollment)",
+                    "variable_description": "Shortness of breath (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Shortness of breath (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -25659,10 +25659,10 @@
                   },
                   {
                     "variable_id": "PS_SORENESS_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Next day soreness or fatigue after non-strenuous, everyday activities  (enrollment)",
+                    "variable_name": "Next day soreness or fatigue after non-strenuous, everyday activities (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Next day soreness or fatigue after non-strenuous, everyday activities  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Next day soreness or fatigue after non-strenuous, everyday activities  (enrollment)",
+                    "variable_description": "Next day soreness or fatigue after non-strenuous, everyday activities (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Next day soreness or fatigue after non-strenuous, everyday activities (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -25699,10 +25699,10 @@
                   },
                   {
                     "variable_id": "PS_HEART_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Palpitations, racing heart, arrhythmia, skipped beats  (enrollment)",
+                    "variable_name": "Palpitations, racing heart, arrhythmia, skipped beats (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Palpitations, racing heart, arrhythmia, skipped beats  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Palpitations, racing heart, arrhythmia, skipped beats  (enrollment)",
+                    "variable_description": "Palpitations, racing heart, arrhythmia, skipped beats (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Palpitations, racing heart, arrhythmia, skipped beats (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -25729,20 +25729,20 @@
                   },
                   {
                     "variable_id": "PS_SENSE_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Loss of or change in smell or taste  (enrollment)",
+                    "variable_name": "Loss of or change in smell or taste (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Loss of or change in smell or taste  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Loss of or change in smell or taste  (enrollment)",
+                    "variable_description": "Loss of or change in smell or taste (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Loss of or change in smell or taste (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_TEMP_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Feeling hot or cold for no reason  (enrollment)",
+                    "variable_name": "Feeling hot or cold for no reason (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Feeling hot or cold for no reason  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Feeling hot or cold for no reason  (enrollment)",
+                    "variable_description": "Feeling hot or cold for no reason (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Feeling hot or cold for no reason (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -25789,10 +25789,10 @@
                   },
                   {
                     "variable_id": "PS_DRYEYES_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Excessively dry eyes  (enrollment)",
+                    "variable_name": "Excessively dry eyes (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Excessively dry eyes  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Excessively dry eyes  (enrollment)",
+                    "variable_description": "Excessively dry eyes (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Excessively dry eyes (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -25889,10 +25889,10 @@
                   },
                   {
                     "variable_id": "PS_SORENESS_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Next day soreness or fatigue after non-strenuous, everyday activities  (enrollment)",
+                    "variable_name": "Next day soreness or fatigue after non-strenuous, everyday activities (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Next day soreness or fatigue after non-strenuous, everyday activities  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Next day soreness or fatigue after non-strenuous, everyday activities  (enrollment)",
+                    "variable_description": "Next day soreness or fatigue after non-strenuous, everyday activities (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Next day soreness or fatigue after non-strenuous, everyday activities (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -25909,10 +25909,10 @@
                   },
                   {
                     "variable_id": "PS_MALAISE_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Post-exertional malaise (Symptoms worse after even minor physical or mental effort)  (enrollment)",
+                    "variable_name": "Post-exertional malaise (Symptoms worse after even minor physical or mental effort) (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Post-exertional malaise (Symptoms worse after even minor physical or mental effort)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Post-exertional malaise (Symptoms worse after even minor physical or mental effort)  (enrollment)",
+                    "variable_description": "Post-exertional malaise (Symptoms worse after even minor physical or mental effort) (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Post-exertional malaise (Symptoms worse after even minor physical or mental effort) (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -25999,10 +25999,10 @@
                   },
                   {
                     "variable_id": "PS_WEAK_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Weakness in arms or legs  (enrollment)",
+                    "variable_name": "Weakness in arms or legs (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Weakness in arms or legs  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Weakness in arms or legs  (enrollment)",
+                    "variable_description": "Weakness in arms or legs (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Weakness in arms or legs (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26029,10 +26029,10 @@
                   },
                   {
                     "variable_id": "PS_PAIN_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Pain in any part of your body  (enrollment)",
+                    "variable_name": "Pain in any part of your body (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Pain in any part of your body  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Pain in any part of your body  (enrollment)",
+                    "variable_description": "Pain in any part of your body (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Pain in any part of your body (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26059,10 +26059,10 @@
                   },
                   {
                     "variable_id": "PS_TEETH_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Problems with teeth  (enrollment)",
+                    "variable_name": "Problems with teeth (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Problems with teeth  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems with teeth  (enrollment)",
+                    "variable_description": "Problems with teeth (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems with teeth (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26189,10 +26189,10 @@
                   },
                   {
                     "variable_id": "PS_MENSTRUAL_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Changes to menstrual cycle  (enrollment)",
+                    "variable_name": "Changes to menstrual cycle (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Changes to menstrual cycle  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes to menstrual cycle  (enrollment)",
+                    "variable_description": "Changes to menstrual cycle (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes to menstrual cycle (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26219,10 +26219,10 @@
                   },
                   {
                     "variable_id": "PS_THINK_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Problems thinking or concentrating (brain fog)  (enrollment)",
+                    "variable_name": "Problems thinking or concentrating (brain fog) (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Problems thinking or concentrating (brain fog)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems thinking or concentrating (brain fog)  (enrollment)",
+                    "variable_description": "Problems thinking or concentrating (brain fog) (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems thinking or concentrating (brain fog) (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26269,10 +26269,10 @@
                   },
                   {
                     "variable_id": "PS_ANAPHYLAXIS_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Episodes of severe allergic reaction (anaphylaxis), with or without any known trigger  (enrollment)",
+                    "variable_name": "Episodes of severe allergic reaction (anaphylaxis), with or without any known trigger (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Episodes of severe allergic reaction (anaphylaxis), with or without any known trigger  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Episodes of severe allergic reaction (anaphylaxis), with or without any known trigger  (enrollment)",
+                    "variable_description": "Episodes of severe allergic reaction (anaphylaxis), with or without any known trigger (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Episodes of severe allergic reaction (anaphylaxis), with or without any known trigger (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26339,20 +26339,20 @@
                   },
                   {
                     "variable_id": "PS_COLD_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Cold limbs (e.g., arms, legs, hands)  (enrollment)",
+                    "variable_name": "Cold limbs (e.g., arms, legs, hands) (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Cold limbs (e.g., arms, legs, hands)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Cold limbs (e.g., arms, legs, hands)  (enrollment)",
+                    "variable_description": "Cold limbs (e.g., arms, legs, hands) (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Cold limbs (e.g., arms, legs, hands) (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_DRYMOUTH_BURDEN_enrollment_pasc_symptoms",
-                    "variable_name": "How much does your excessively dry mouth bother you?  (enrollment)",
+                    "variable_name": "How much does your excessively dry mouth bother you? (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "How much does your excessively dry mouth bother you?  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/How much does your excessively dry mouth bother you?  (enrollment)",
+                    "variable_description": "How much does your excessively dry mouth bother you? (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/How much does your excessively dry mouth bother you? (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26409,10 +26409,10 @@
                   },
                   {
                     "variable_id": "PS_SMELLSICK_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Some smells, foods, medications, or chemicals make you feel sick  (enrollment)",
+                    "variable_name": "Some smells, foods, medications, or chemicals make you feel sick (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Some smells, foods, medications, or chemicals make you feel sick  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Some smells, foods, medications, or chemicals make you feel sick  (enrollment)",
+                    "variable_description": "Some smells, foods, medications, or chemicals make you feel sick (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Some smells, foods, medications, or chemicals make you feel sick (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26499,10 +26499,10 @@
                   },
                   {
                     "variable_id": "PS_DRYMOUTH_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Excessively dry mouth  (enrollment)",
+                    "variable_name": "Excessively dry mouth (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Excessively dry mouth  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Excessively dry mouth  (enrollment)",
+                    "variable_description": "Excessively dry mouth (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Excessively dry mouth (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26549,10 +26549,10 @@
                   },
                   {
                     "variable_id": "PS_BALD_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Hair loss  (enrollment)",
+                    "variable_name": "Hair loss (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Hair loss  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Hair loss  (enrollment)",
+                    "variable_description": "Hair loss (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Hair loss (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26609,10 +26609,10 @@
                   },
                   {
                     "variable_id": "PS_COUGH_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Persistent (chronic) cough  (enrollment)",
+                    "variable_name": "Persistent (chronic) cough (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Persistent (chronic) cough  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Persistent (chronic) cough  (enrollment)",
+                    "variable_description": "Persistent (chronic) cough (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Persistent (chronic) cough (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26649,20 +26649,20 @@
                   },
                   {
                     "variable_id": "PS_COUGH_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Persistent (chronic) cough  (enrollment)",
+                    "variable_name": "Persistent (chronic) cough (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Persistent (chronic) cough  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Persistent (chronic) cough  (enrollment)",
+                    "variable_description": "Persistent (chronic) cough (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Persistent (chronic) cough (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_MENOPAUSE_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Changes to menopause symptoms (such as hot flashes)  (enrollment)",
+                    "variable_name": "Changes to menopause symptoms (such as hot flashes) (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Changes to menopause symptoms (such as hot flashes)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes to menopause symptoms (such as hot flashes)  (enrollment)",
+                    "variable_description": "Changes to menopause symptoms (such as hot flashes) (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes to menopause symptoms (such as hot flashes) (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26769,10 +26769,10 @@
                   },
                   {
                     "variable_id": "PS_FERTILITY_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Changes in fertility or difficulty getting pregnant  (enrollment)",
+                    "variable_name": "Changes in fertility or difficulty getting pregnant (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Changes in fertility or difficulty getting pregnant  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes in fertility or difficulty getting pregnant  (enrollment)",
+                    "variable_description": "Changes in fertility or difficulty getting pregnant (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes in fertility or difficulty getting pregnant (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26839,10 +26839,10 @@
                   },
                   {
                     "variable_id": "PS_HEARING_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Problems with hearing (hearing loss, ringing in ears)  (enrollment)",
+                    "variable_name": "Problems with hearing (hearing loss, ringing in ears) (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Problems with hearing (hearing loss, ringing in ears)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems with hearing (hearing loss, ringing in ears)  (enrollment)",
+                    "variable_description": "Problems with hearing (hearing loss, ringing in ears) (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems with hearing (hearing loss, ringing in ears) (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -26989,10 +26989,10 @@
                   },
                   {
                     "variable_id": "PS_SLEEP_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Stopping breathing during sleep or sleep problems (such as snoring, trouble falling asleep, nighttime awakenings, or trouble staying awake during the day) 3 or more times a week  (enrollment)",
+                    "variable_name": "Stopping breathing during sleep or sleep problems (such as snoring, trouble falling asleep, nighttime awakenings, or trouble staying awake during the day) 3 or more times a week (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Stopping breathing during sleep or sleep problems (such as snoring, trouble falling asleep, nighttime awakenings, or trouble staying awake during the day) 3 or more times a week  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Stopping breathing during sleep or sleep problems (such as snoring, trouble falling asleep, nighttime awakenings, or trouble staying awake during the day) 3 or more times a week  (enrollment)",
+                    "variable_description": "Stopping breathing during sleep or sleep problems (such as snoring, trouble falling asleep, nighttime awakenings, or trouble staying awake during the day) 3 or more times a week (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Stopping breathing during sleep or sleep problems (such as snoring, trouble falling asleep, nighttime awakenings, or trouble staying awake during the day) 3 or more times a week (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27009,10 +27009,10 @@
                   },
                   {
                     "variable_id": "PS_VISION_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Vision problems (blurry, light sensitivity, difficulty reading or focusing, floaters, flashing lights, snow)  (enrollment)",
+                    "variable_name": "Vision problems (blurry, light sensitivity, difficulty reading or focusing, floaters, flashing lights, snow) (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Vision problems (blurry, light sensitivity, difficulty reading or focusing, floaters, flashing lights, snow)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Vision problems (blurry, light sensitivity, difficulty reading or focusing, floaters, flashing lights, snow)  (enrollment)",
+                    "variable_description": "Vision problems (blurry, light sensitivity, difficulty reading or focusing, floaters, flashing lights, snow) (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Vision problems (blurry, light sensitivity, difficulty reading or focusing, floaters, flashing lights, snow) (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27079,10 +27079,10 @@
                   },
                   {
                     "variable_id": "PS_ITCHING_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Episodes of itching and/or hives  (enrollment)",
+                    "variable_name": "Episodes of itching and/or hives (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Episodes of itching and/or hives  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Episodes of itching and-or hives  (enrollment)",
+                    "variable_description": "Episodes of itching and/or hives (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Episodes of itching and-or hives (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27099,10 +27099,10 @@
                   },
                   {
                     "variable_id": "PS_DRYMOUTH_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Excessively dry mouth  (enrollment)",
+                    "variable_name": "Excessively dry mouth (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Excessively dry mouth  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Excessively dry mouth  (enrollment)",
+                    "variable_description": "Excessively dry mouth (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Excessively dry mouth (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27199,50 +27199,50 @@
                   },
                   {
                     "variable_id": "PS_BLADDER_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Bladder problems (incontinence, trouble passing urine or emptying bladder)  (enrollment)",
+                    "variable_name": "Bladder problems (incontinence, trouble passing urine or emptying bladder) (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Bladder problems (incontinence, trouble passing urine or emptying bladder)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Bladder problems (incontinence, trouble passing urine or emptying bladder)  (enrollment)",
+                    "variable_description": "Bladder problems (incontinence, trouble passing urine or emptying bladder) (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Bladder problems (incontinence, trouble passing urine or emptying bladder) (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_COLD_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Cold limbs (e.g., arms, legs, hands)  (enrollment)",
+                    "variable_name": "Cold limbs (e.g., arms, legs, hands) (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Cold limbs (e.g., arms, legs, hands)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Cold limbs (e.g., arms, legs, hands)  (enrollment)",
+                    "variable_description": "Cold limbs (e.g., arms, legs, hands) (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Cold limbs (e.g., arms, legs, hands) (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_FEVER_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Fever, chills, sweats or flushing  (enrollment)",
+                    "variable_name": "Fever, chills, sweats or flushing (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Fever, chills, sweats or flushing  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Fever, chills, sweats or flushing  (enrollment)",
+                    "variable_description": "Fever, chills, sweats or flushing (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Fever, chills, sweats or flushing (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_SWELLLEGS_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Swelling of your legs  (enrollment)",
+                    "variable_name": "Swelling of your legs (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Swelling of your legs  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Swelling of your legs  (enrollment)",
+                    "variable_description": "Swelling of your legs (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Swelling of your legs (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_TEMP_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Feeling hot or cold for no reason  (enrollment)",
+                    "variable_name": "Feeling hot or cold for no reason (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Feeling hot or cold for no reason  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Feeling hot or cold for no reason  (enrollment)",
+                    "variable_description": "Feeling hot or cold for no reason (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Feeling hot or cold for no reason (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27309,10 +27309,10 @@
                   },
                   {
                     "variable_id": "PS_SMELLSICK_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Some smells, foods, medications, or chemicals make you feel sick  (enrollment)",
+                    "variable_name": "Some smells, foods, medications, or chemicals make you feel sick (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Some smells, foods, medications, or chemicals make you feel sick  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Some smells, foods, medications, or chemicals make you feel sick  (enrollment)",
+                    "variable_description": "Some smells, foods, medications, or chemicals make you feel sick (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Some smells, foods, medications, or chemicals make you feel sick (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27389,20 +27389,20 @@
                   },
                   {
                     "variable_id": "PS_ANAPHYLAXIS_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Episodes of severe allergic reaction (anaphylaxis), with or without any known trigger  (enrollment)",
+                    "variable_name": "Episodes of severe allergic reaction (anaphylaxis), with or without any known trigger (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Episodes of severe allergic reaction (anaphylaxis), with or without any known trigger  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Episodes of severe allergic reaction (anaphylaxis), with or without any known trigger  (enrollment)",
+                    "variable_description": "Episodes of severe allergic reaction (anaphylaxis), with or without any known trigger (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Episodes of severe allergic reaction (anaphylaxis), with or without any known trigger (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_SLEEP_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Stopping breathing during sleep or sleep problems (such as snoring, trouble falling asleep, nighttime awakenings, or trouble staying awake during the day) 3 or more times a week  (enrollment)",
+                    "variable_name": "Stopping breathing during sleep or sleep problems (such as snoring, trouble falling asleep, nighttime awakenings, or trouble staying awake during the day) 3 or more times a week (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Stopping breathing during sleep or sleep problems (such as snoring, trouble falling asleep, nighttime awakenings, or trouble staying awake during the day) 3 or more times a week  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Stopping breathing during sleep or sleep problems (such as snoring, trouble falling asleep, nighttime awakenings, or trouble staying awake during the day) 3 or more times a week  (enrollment)",
+                    "variable_description": "Stopping breathing during sleep or sleep problems (such as snoring, trouble falling asleep, nighttime awakenings, or trouble staying awake during the day) 3 or more times a week (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Stopping breathing during sleep or sleep problems (such as snoring, trouble falling asleep, nighttime awakenings, or trouble staying awake during the day) 3 or more times a week (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27429,10 +27429,10 @@
                   },
                   {
                     "variable_id": "PS_HEADACHE_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Headaches  (enrollment)",
+                    "variable_name": "Headaches (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Headaches  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Headaches  (enrollment)",
+                    "variable_description": "Headaches (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Headaches (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27459,10 +27459,10 @@
                   },
                   {
                     "variable_id": "PS_HEART_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Palpitations, racing heart, arrhythmia, skipped beats  (enrollment)",
+                    "variable_name": "Palpitations, racing heart, arrhythmia, skipped beats (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Palpitations, racing heart, arrhythmia, skipped beats  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Palpitations, racing heart, arrhythmia, skipped beats  (enrollment)",
+                    "variable_description": "Palpitations, racing heart, arrhythmia, skipped beats (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Palpitations, racing heart, arrhythmia, skipped beats (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27479,10 +27479,10 @@
                   },
                   {
                     "variable_id": "PS_FERTILITY_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Changes in fertility or difficulty getting pregnant  (enrollment)",
+                    "variable_name": "Changes in fertility or difficulty getting pregnant (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Changes in fertility or difficulty getting pregnant  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes in fertility or difficulty getting pregnant  (enrollment)",
+                    "variable_description": "Changes in fertility or difficulty getting pregnant (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes in fertility or difficulty getting pregnant (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27519,20 +27519,20 @@
                   },
                   {
                     "variable_id": "PS_DRYEYES_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Excessively dry eyes  (enrollment)",
+                    "variable_name": "Excessively dry eyes (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Excessively dry eyes  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Excessively dry eyes  (enrollment)",
+                    "variable_description": "Excessively dry eyes (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Excessively dry eyes (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_SOB_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Shortness of breath  (enrollment)",
+                    "variable_name": "Shortness of breath (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Shortness of breath  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Shortness of breath  (enrollment)",
+                    "variable_description": "Shortness of breath (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Shortness of breath (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27557,20 +27557,20 @@
                   },
                   {
                     "variable_id": "PS_RASH_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Skin rash  (enrollment)",
+                    "variable_name": "Skin rash (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Skin rash  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Skin rash  (enrollment)",
+                    "variable_description": "Skin rash (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Skin rash (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_TEETH_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Problems with teeth  (enrollment)",
+                    "variable_name": "Problems with teeth (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Problems with teeth  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems with teeth  (enrollment)",
+                    "variable_description": "Problems with teeth (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems with teeth (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27617,20 +27617,20 @@
                   },
                   {
                     "variable_id": "PS_NERVE_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Nerve problems (tremor, shaking, abnormal movements, numbness, tingling, burning, can''t move part of body, new seizures)  (enrollment)",
+                    "variable_name": "Nerve problems (tremor, shaking, abnormal movements, numbness, tingling, burning, can''t move part of body, new seizures) (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Nerve problems (tremor, shaking, abnormal movements, numbness, tingling, burning, can''t move part of body, new seizures)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Nerve problems (tremor, shaking, abnormal movements, numbness, tingling, burning, can''t move part of body, new seizures)  (enrollment)",
+                    "variable_description": "Nerve problems (tremor, shaking, abnormal movements, numbness, tingling, burning, can''t move part of body, new seizures) (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Nerve problems (tremor, shaking, abnormal movements, numbness, tingling, burning, can''t move part of body, new seizures) (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_SEX_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Changes in desire for, comfort with or capacity for sex  (enrollment)",
+                    "variable_name": "Changes in desire for, comfort with or capacity for sex (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Changes in desire for, comfort with or capacity for sex  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes in desire for, comfort with or capacity for sex  (enrollment)",
+                    "variable_description": "Changes in desire for, comfort with or capacity for sex (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes in desire for, comfort with or capacity for sex (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27667,10 +27667,10 @@
                   },
                   {
                     "variable_id": "PS_FEVER_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Fever, chills, sweats or flushing  (enrollment)",
+                    "variable_name": "Fever, chills, sweats or flushing (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Fever, chills, sweats or flushing  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Fever, chills, sweats or flushing  (enrollment)",
+                    "variable_description": "Fever, chills, sweats or flushing (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Fever, chills, sweats or flushing (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27727,10 +27727,10 @@
                   },
                   {
                     "variable_id": "PS_COLOR_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Color changes in your skin, such as red, white or purple  (enrollment)",
+                    "variable_name": "Color changes in your skin, such as red, white or purple (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Color changes in your skin, such as red, white or purple  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Color changes in your skin, such as red, white or purple  (enrollment)",
+                    "variable_description": "Color changes in your skin, such as red, white or purple (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Color changes in your skin, such as red, white or purple (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27817,10 +27817,10 @@
                   },
                   {
                     "variable_id": "PS_MENOPAUSE_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Changes to menopause symptoms (such as hot flashes)  (enrollment)",
+                    "variable_name": "Changes to menopause symptoms (such as hot flashes) (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Changes to menopause symptoms (such as hot flashes)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes to menopause symptoms (such as hot flashes)  (enrollment)",
+                    "variable_description": "Changes to menopause symptoms (such as hot flashes) (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes to menopause symptoms (such as hot flashes) (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27837,10 +27837,10 @@
                   },
                   {
                     "variable_id": "PS_WEAK_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Weakness in arms or legs  (enrollment)",
+                    "variable_name": "Weakness in arms or legs (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Weakness in arms or legs  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Weakness in arms or legs  (enrollment)",
+                    "variable_description": "Weakness in arms or legs (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Weakness in arms or legs (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27907,10 +27907,10 @@
                   },
                   {
                     "variable_id": "PS_MOOD_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Problems with anxiety, depression, stress, or trauma-related symptoms like nightmares or grief  (enrollment)",
+                    "variable_name": "Problems with anxiety, depression, stress, or trauma-related symptoms like nightmares or grief (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Problems with anxiety, depression, stress, or trauma-related symptoms like nightmares or grief  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems with anxiety, depression, stress, or trauma-related symptoms like nightmares or grief  (enrollment)",
+                    "variable_description": "Problems with anxiety, depression, stress, or trauma-related symptoms like nightmares or grief  (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems with anxiety, depression, stress, or trauma-related symptoms like nightmares or grief (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27947,10 +27947,10 @@
                   },
                   {
                     "variable_id": "PS_SWELLLEGS_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Swelling of your legs  (enrollment)",
+                    "variable_name": "Swelling of your legs (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Swelling of your legs  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Swelling of your legs  (enrollment)",
+                    "variable_description": "Swelling of your legs (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Swelling of your legs (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -27987,10 +27987,10 @@
                   },
                   {
                     "variable_id": "PS_FATIGUE_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Fatigue (being very tired)  (enrollment)",
+                    "variable_name": "Fatigue (being very tired) (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Fatigue (being very tired)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Fatigue (being very tired)  (enrollment)",
+                    "variable_description": "Fatigue (being very tired) (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Fatigue (being very tired) (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -28047,10 +28047,10 @@
                   },
                   {
                     "variable_id": "PS_PAIN_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Pain in any part of your body  (enrollment)",
+                    "variable_name": "Pain in any part of your body (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Pain in any part of your body  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Pain in any part of your body  (enrollment)",
+                    "variable_description": "Pain in any part of your body (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Pain in any part of your body (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -28157,10 +28157,10 @@
                   },
                   {
                     "variable_id": "PS_SEX_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Changes in desire for, comfort with or capacity for sex  (enrollment)",
+                    "variable_name": "Changes in desire for, comfort with or capacity for sex (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Changes in desire for, comfort with or capacity for sex  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes in desire for, comfort with or capacity for sex  (enrollment)",
+                    "variable_description": "Changes in desire for, comfort with or capacity for sex (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Changes in desire for, comfort with or capacity for sex (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -28267,10 +28267,10 @@
                   },
                   {
                     "variable_id": "PS_GOOFY_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Feeling faint, dizzy, goofy; difficulty thinking soon after standing up from a sitting or lying position  (enrollment)",
+                    "variable_name": "Feeling faint, dizzy, goofy; difficulty thinking soon after standing up from a sitting or lying position (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Feeling faint, dizzy, goofy; difficulty thinking soon after standing up from a sitting or lying position  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Feeling faint, dizzy, goofy; difficulty thinking soon after standing up from a sitting or lying position  (enrollment)",
+                    "variable_description": "Feeling faint, dizzy, goofy; difficulty thinking soon after standing up from a sitting or lying position (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Feeling faint, dizzy, goofy; difficulty thinking soon after standing up from a sitting or lying position (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -28387,10 +28387,10 @@
                   },
                   {
                     "variable_id": "PS_THINK_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Problems thinking or concentrating (brain fog)  (enrollment)",
+                    "variable_name": "Problems thinking or concentrating (brain fog) (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Problems thinking or concentrating (brain fog)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems thinking or concentrating (brain fog)  (enrollment)",
+                    "variable_description": "Problems thinking or concentrating (brain fog) (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Problems thinking or concentrating (brain fog) (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -28437,20 +28437,20 @@
                   },
                   {
                     "variable_id": "PS_THIRST_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Excessive thirst  (enrollment)",
+                    "variable_name": "Excessive thirst (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Excessive thirst  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Excessive thirst  (enrollment)",
+                    "variable_description": "Excessive thirst (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Excessive thirst (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_BALD_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Hair loss  (enrollment)",
+                    "variable_name": "Hair loss (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Hair loss  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Hair loss  (enrollment)",
+                    "variable_description": "Hair loss (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Hair loss (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -28497,10 +28497,10 @@
                   },
                   {
                     "variable_id": "PS_MALAISE_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Post-exertional malaise (Symptoms worse after even minor physical or mental effort)  (enrollment)",
+                    "variable_name": "Post-exertional malaise (Symptoms worse after even minor physical or mental effort) (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Post-exertional malaise (Symptoms worse after even minor physical or mental effort)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Post-exertional malaise (Symptoms worse after even minor physical or mental effort)  (enrollment)",
+                    "variable_description": "Post-exertional malaise (Symptoms worse after even minor physical or mental effort) (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Post-exertional malaise (Symptoms worse after even minor physical or mental effort) (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -28627,10 +28627,10 @@
                   },
                   {
                     "variable_id": "PS_VISION_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Vision problems (blurry, light sensitivity, difficulty reading or focusing, floaters, flashing lights, snow)  (enrollment)",
+                    "variable_name": "Vision problems (blurry, light sensitivity, difficulty reading or focusing, floaters, flashing lights, snow) (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Vision problems (blurry, light sensitivity, difficulty reading or focusing, floaters, flashing lights, snow)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Vision problems (blurry, light sensitivity, difficulty reading or focusing, floaters, flashing lights, snow)  (enrollment)",
+                    "variable_description": "Vision problems (blurry, light sensitivity, difficulty reading or focusing, floaters, flashing lights, snow) (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Vision problems (blurry, light sensitivity, difficulty reading or focusing, floaters, flashing lights, snow) (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -28647,10 +28647,10 @@
                   },
                   {
                     "variable_id": "PS_THIRST_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Excessive thirst  (enrollment)",
+                    "variable_name": "Excessive thirst (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Excessive thirst  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Excessive thirst  (enrollment)",
+                    "variable_description": "Excessive thirst (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Excessive thirst (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -28667,10 +28667,10 @@
                   },
                   {
                     "variable_id": "PS_NERVE_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Nerve problems (tremor, shaking, abnormal movements, numbness, tingling, burning, can''t move part of body, new seizures)  (enrollment)",
+                    "variable_name": "Nerve problems (tremor, shaking, abnormal movements, numbness, tingling, burning, can''t move part of body, new seizures) (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Nerve problems (tremor, shaking, abnormal movements, numbness, tingling, burning, can''t move part of body, new seizures)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Nerve problems (tremor, shaking, abnormal movements, numbness, tingling, burning, can''t move part of body, new seizures)  (enrollment)",
+                    "variable_description": "Nerve problems (tremor, shaking, abnormal movements, numbness, tingling, burning, can''t move part of body, new seizures) (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Nerve problems (tremor, shaking, abnormal movements, numbness, tingling, burning, can''t move part of body, new seizures) (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -28727,10 +28727,10 @@
                   },
                   {
                     "variable_id": "PS_BLADDER_C13_enrollment_pasc_symptoms",
-                    "variable_name": "Bladder problems (incontinence, trouble passing urine or emptying bladder)  (enrollment)",
+                    "variable_name": "Bladder problems (incontinence, trouble passing urine or emptying bladder) (acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Bladder problems (incontinence, trouble passing urine or emptying bladder)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Bladder problems (incontinence, trouble passing urine or emptying bladder)  (enrollment)",
+                    "variable_description": "Bladder problems (incontinence, trouble passing urine or emptying bladder) (acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Bladder problems (incontinence, trouble passing urine or emptying bladder) (acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -28747,10 +28747,10 @@
                   },
                   {
                     "variable_id": "PS_COLOR_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Color changes in your skin, such as red, white or purple  (enrollment)",
+                    "variable_name": "Color changes in your skin, such as red, white or purple (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Color changes in your skin, such as red, white or purple  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Color changes in your skin, such as red, white or purple  (enrollment)",
+                    "variable_description": "Color changes in your skin, such as red, white or purple (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Color changes in your skin, such as red, white or purple (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -28907,20 +28907,20 @@
                   },
                   {
                     "variable_id": "PS_FATIGUE_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Fatigue (being very tired)  (enrollment)",
+                    "variable_name": "Fatigue (being very tired) (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Fatigue (being very tired)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Fatigue (being very tired)  (enrollment)",
+                    "variable_description": "Fatigue (being very tired) (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Fatigue (being very tired) (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
                   },
                   {
                     "variable_id": "PS_GASTRO_C24_enrollment_pasc_symptoms",
-                    "variable_name": "Gastrointestinal (belly) symptoms (feeling full or vomiting after eating, diarrhea, constipation)  (enrollment)",
+                    "variable_name": "Gastrointestinal (belly) symptoms (feeling full or vomiting after eating, diarrhea, constipation) (post-acute) (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Gastrointestinal (belly) symptoms (feeling full or vomiting after eating, diarrhea, constipation)  (enrollment)",
-                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Gastrointestinal (belly) symptoms (feeling full or vomiting after eating, diarrhea, constipation)  (enrollment)",
+                    "variable_description": "Gastrointestinal (belly) symptoms (feeling full or vomiting after eating, diarrhea, constipation) (post-acute) (enrollment)",
+                    "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Gastrointestinal (belly) symptoms (feeling full or vomiting after eating, diarrhea, constipation) (post-acute) (enrollment)",
                     "derived_variable_level_data": [
                       {}
                     ]
