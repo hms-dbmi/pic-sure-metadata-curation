@@ -4263,7 +4263,7 @@
                     "variable_id": "SDOH_COLLDT_enrollment_social_determinants_of_health",
                     "variable_name": "Date of SDOH data collection: (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of SDOH data collection: (enrollment)",
+                    "variable_description": "Date of SDOH data collection. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_social_determinants_of_health/Date of SDOH data collection: (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -7792,7 +7792,7 @@
                     "variable_id": "PS_COLLDT_followup_1_pasc_symptoms",
                     "variable_name": "Date of PASC Symptoms collection: (followup_1)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of PASC Symptoms collection: (followup_1)",
+                    "variable_description": "Date of PASC Symptoms collection. Dates have been shifted to preserve anonymity. (followup_1)",
                     "data_hierarchy": "RECOVER_Adult/followup_1_pasc_symptoms/Date of PASC Symptoms collection: (followup_1)",
                     "derived_variable_level_data": [
                       {}
@@ -9923,7 +9923,7 @@
                     "variable_id": "PS_COLLDT_followup_2_pasc_symptoms",
                     "variable_name": "Date of PASC Symptoms collection: (followup_2)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of PASC Symptoms collection: (followup_2)",
+                    "variable_description": "Date of PASC Symptoms collection. Dates have been shifted to preserve anonymity. (followup_2)",
                     "data_hierarchy": "RECOVER_Adult/followup_2_pasc_symptoms/Date of PASC Symptoms collection: (followup_2)",
                     "derived_variable_level_data": [
                       {}
@@ -11566,7 +11566,7 @@
                     "variable_id": "PS_COLLDT_followup_3_pasc_symptoms",
                     "variable_name": "Date of PASC Symptoms collection: (followup_3)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of PASC Symptoms collection: (followup_3)",
+                    "variable_description": "Date of PASC Symptoms collection. Dates have been shifted to preserve anonymity. (followup_3)",
                     "data_hierarchy": "RECOVER_Adult/followup_3_pasc_symptoms/Date of PASC Symptoms collection: (followup_3)",
                     "derived_variable_level_data": [
                       {}
@@ -15767,7 +15767,7 @@
                     "variable_id": "PS_COLLDT_followup_5_pasc_symptoms",
                     "variable_name": "Date of PASC Symptoms collection: (followup_5)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of PASC Symptoms collection: (followup_5)",
+                    "variable_description": "Date of PASC Symptoms collection. Dates have been shifted to preserve anonymity. (followup_5)",
                     "data_hierarchy": "RECOVER_Adult/followup_5_pasc_symptoms/Date of PASC Symptoms collection: (followup_5)",
                     "derived_variable_level_data": [
                       {}
@@ -20176,7 +20176,7 @@
                     "variable_id": "PS_COLLDT_followup_6_pasc_symptoms",
                     "variable_name": "Date of PASC Symptoms collection: (followup_6)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of PASC Symptoms collection: (followup_6)",
+                    "variable_description": "Date of PASC Symptoms collection. Dates have been shifted to preserve anonymity. (followup_6)",
                     "data_hierarchy": "RECOVER_Adult/followup_6_pasc_symptoms/Date of PASC Symptoms collection: (followup_6)",
                     "derived_variable_level_data": [
                       {}
@@ -24227,7 +24227,7 @@
                     "variable_id": "PS_COLLDT_followup_7_pasc_symptoms",
                     "variable_name": "Date of PASC Symptoms collection: (followup_7)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of PASC Symptoms collection: (followup_7)",
+                    "variable_description": "Date of PASC Symptoms collection. Dates have been shifted to preserve anonymity. (followup_7)",
                     "data_hierarchy": "RECOVER_Adult/followup_7_pasc_symptoms/Date of PASC Symptoms collection: (followup_7)",
                     "derived_variable_level_data": [
                       {}
@@ -24360,7 +24360,7 @@
                     "variable_id": "RX_COENROLLDT_2_enrollment_covid_treatment",
                     "variable_name": "Date enrolled in [rx_coenrollname_2] trial (best estimate): (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Date enrolled in [rx_coenrollname_2] trial (best estimate): (enrollment)",
+                    "variable_description": "Date enrolled in [rx_coenrollname_2] trial (best estimate). Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_covid_treatment/Date enrolled in [rx_coenrollname_2] trial (best estimate): (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -24380,7 +24380,7 @@
                     "variable_id": "RX_INFDT_3_enrollment_covid_treatment",
                     "variable_name": "What was the date of your third COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the date of your third COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
+                    "variable_description": "What was the date of your third COVID infection? If you do not remember the exact date, please give your best guess. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_covid_treatment/What was the date of your third COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -24420,7 +24420,7 @@
                     "variable_id": "RX_INFDT_2_enrollment_covid_treatment",
                     "variable_name": "What was the date of your second COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the date of your second COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
+                    "variable_description": "What was the date of your second COVID infection? If you do not remember the exact date, please give your best guess. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_covid_treatment/What was the date of your second COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -24500,7 +24500,7 @@
                     "variable_id": "RX_COENROLLDT_3_enrollment_covid_treatment",
                     "variable_name": "Date enrolled in [rx_coenrollname_4] trial (best estimate): (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Date enrolled in [rx_coenrollname_4] trial (best estimate): (enrollment)",
+                    "variable_description": "Date enrolled in [rx_coenrollname_4] trial (best estimate). Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_covid_treatment/Date enrolled in [rx_coenrollname_4] trial (best estimate): (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -24680,7 +24680,7 @@
                     "variable_id": "RX_COENROLLDT_enrollment_covid_treatment",
                     "variable_name": "Date enrolled in [rx_coenrollname] trial (best estimate): (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Date enrolled in [rx_coenrollname] trial (best estimate): (enrollment)",
+                    "variable_description": "Date enrolled in [rx_coenrollname] trial (best estimate). Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_covid_treatment/Date enrolled in [rx_coenrollname] trial (best estimate): (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -24860,7 +24860,7 @@
                     "variable_id": "RX_INFDT_4_enrollment_covid_treatment",
                     "variable_name": "What was the date of your fourth COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the date of your fourth COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
+                    "variable_description": "What was the date of your fourth COVID infection? If you do not remember the exact date, please give your best guess. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_covid_treatment/What was the date of your fourth COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -24910,7 +24910,7 @@
                     "variable_id": "RX_INFDT_5_enrollment_covid_treatment",
                     "variable_name": "What was the date of your fifth COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the date of your fifth COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
+                    "variable_description": "What was the date of your fifth COVID infection? If you do not remember the exact date, please give your best guess. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_covid_treatment/What was the date of your fifth COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -24978,7 +24978,7 @@
                     "variable_id": "RX_COLLDT_enrollment_covid_treatment",
                     "variable_name": "Date of COVID Treatment (Enrollment) form collection: (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of COVID Treatment (Enrollment) form collection: (enrollment)",
+                    "variable_description": "Date of COVID Treatment (Enrollment) form collection. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_covid_treatment/Date of COVID Treatment (Enrollment) form collection: (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -25088,7 +25088,7 @@
                     "variable_id": "RX_INFDT_enrollment_covid_treatment",
                     "variable_name": "What was the date of your first COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the date of your first COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
+                    "variable_description": "What was the date of your first COVID infection? If you do not remember the exact date, please give your best guess. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_covid_treatment/What was the date of your first COVID infection? If you do not remember the exact date, please give your best guess. (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -28409,7 +28409,7 @@
                     "variable_id": "PS_COLLDT_enrollment_pasc_symptoms",
                     "variable_name": "Date of PASC Symptoms collection: (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of PASC Symptoms collection: (enrollment)",
+                    "variable_description": "Date of PASC Symptoms collection. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_pasc_symptoms/Date of PASC Symptoms collection: (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -29593,7 +29593,7 @@
                     "variable_id": "PREGFU_DUE_followup_3_pregnancy_followup",
                     "variable_name": "What was the due date for the pregnancy? (followup_3)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the due date for the pregnancy? (followup_3)",
+                    "variable_description": "What was the due date for the pregnancy? Dates have been shifted to preserve anonymity.(followup_3)",
                     "data_hierarchy": "RECOVER_Adult/followup_3_pregnancy_followup/What was the due date for the pregnancy? (followup_3)",
                     "derived_variable_level_data": [
                       {}
@@ -29633,7 +29633,7 @@
                     "variable_id": "PREGFU_DOB_followup_3_pregnancy_followup",
                     "variable_name": "What was the actual date of birth of the baby? (followup_3)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the actual date of birth of the baby? (followup_3)",
+                    "variable_description": "What was the actual date of birth of the baby? Dates have been shifted to preserve anonymity.(followup_3)",
                     "data_hierarchy": "RECOVER_Adult/followup_3_pregnancy_followup/What was the actual date of birth of the baby? (followup_3)",
                     "derived_variable_level_data": [
                       {}
@@ -29721,7 +29721,7 @@
                     "variable_id": "PREGFU_COLLDT_followup_3_pregnancy_followup",
                     "variable_name": "Date of Pregnancy (followup) form collection: (followup_3)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Pregnancy (followup) form collection: (followup_3)",
+                    "variable_description": "Date of Pregnancy (followup) form collection. Dates have been shifted to preserve anonymity. (followup_3)",
                     "data_hierarchy": "RECOVER_Adult/followup_3_pregnancy_followup/Date of Pregnancy (followup) form collection: (followup_3)",
                     "derived_variable_level_data": [
                       {}
@@ -31454,7 +31454,7 @@
                     "variable_id": "PS_COLLDT_followup_4_pasc_symptoms",
                     "variable_name": "Date of PASC Symptoms collection: (followup_4)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of PASC Symptoms collection: (followup_4)",
+                    "variable_description": "Date of PASC Symptoms collection. Dates have been shifted to preserve anonymity. (followup_4)",
                     "data_hierarchy": "RECOVER_Adult/followup_4_pasc_symptoms/Date of PASC Symptoms collection: (followup_4)",
                     "derived_variable_level_data": [
                       {}
@@ -36355,7 +36355,7 @@
                     "variable_id": "PS_COLLDT_followup_8_pasc_symptoms",
                     "variable_name": "Date of PASC Symptoms collection: (followup_8)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of PASC Symptoms collection: (followup_8)",
+                    "variable_description": "Date of PASC Symptoms collection. Dates have been shifted to preserve anonymity. (followup_8)",
                     "data_hierarchy": "RECOVER_Adult/followup_8_pasc_symptoms/Date of PASC Symptoms collection: (followup_8)",
                     "derived_variable_level_data": [
                       {}
@@ -37328,7 +37328,7 @@
                     "variable_id": "RX_COLLDT_followup_1_covid_treatment",
                     "variable_name": "Date of COVID Treatment (Enrollment) form collection: (followup_1)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of COVID Treatment (Enrollment) form collection: (followup_1)",
+                    "variable_description": "Date of COVID Treatment (Enrollment) form collection. Dates have been shifted to preserve anonymity. (followup_1)",
                     "data_hierarchy": "RECOVER_Adult/followup_1_covid_treatment/Date of COVID Treatment (Enrollment) form collection: (followup_1)",
                     "derived_variable_level_data": [
                       {}
@@ -37386,7 +37386,7 @@
                     "variable_id": "RX_COENROLLDT_followup_1_covid_treatment",
                     "variable_name": "Date enrolled in [rx_coenrollname] trial (best estimate): (followup_1)",
                     "variable_type": "categorical",
-                    "variable_description": "Date enrolled in [rx_coenrollname] trial (best estimate): (followup_1)",
+                    "variable_description": "Date enrolled in [rx_coenrollname] trial (best estimate). Dates have been shifted to preserve anonymity. (followup_1)",
                     "data_hierarchy": "RECOVER_Adult/followup_1_covid_treatment/Date enrolled in [rx_coenrollname] trial (best estimate): (followup_1)",
                     "derived_variable_level_data": [
                       {}
@@ -38100,7 +38100,7 @@
                     "variable_id": "ALCOFU_COLLDT_followup_5_alcohol_and_tobacco_followup",
                     "variable_name": "Date of Alcohol and Tobacco followup form collection: (followup_5)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Alcohol and Tobacco followup form collection: (followup_5)",
+                    "variable_description": "Date of Alcohol and Tobacco followup form collection. Dates have been shifted to preserve anonymity. (followup_5)",
                     "data_hierarchy": "RECOVER_Adult/followup_5_alcohol_and_tobacco_followup/Date of Alcohol and Tobacco followup form collection: (followup_5)",
                     "derived_variable_level_data": [
                       {}
@@ -38191,7 +38191,7 @@
                     "variable_id": "ALCOFU_COLLDT_followup_3_alcohol_and_tobacco_followup",
                     "variable_name": "Date of Alcohol and Tobacco followup form collection: (followup_3)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Alcohol and Tobacco followup form collection: (followup_3)",
+                    "variable_description": "Date of Alcohol and Tobacco followup form collection. Dates have been shifted to preserve anonymity. (followup_3)",
                     "data_hierarchy": "RECOVER_Adult/followup_3_alcohol_and_tobacco_followup/Date of Alcohol and Tobacco followup form collection: (followup_3)",
                     "derived_variable_level_data": [
                       {}
@@ -38963,7 +38963,7 @@
                     "variable_id": "ALCOFU_COLLDT_followup_4_alcohol_and_tobacco_followup",
                     "variable_name": "Date of Alcohol and Tobacco followup form collection: (followup_4)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Alcohol and Tobacco followup form collection: (followup_4)",
+                    "variable_description": "Date of Alcohol and Tobacco followup form collection. Dates have been shifted to preserve anonymity. (followup_4)",
                     "data_hierarchy": "RECOVER_Adult/followup_4_alcohol_and_tobacco_followup/Date of Alcohol and Tobacco followup form collection: (followup_4)",
                     "derived_variable_level_data": [
                       {}
@@ -39034,7 +39034,7 @@
                     "variable_id": "DEMO_COLLDT_enrollment_demographics",
                     "variable_name": "(004) Date of Demographic Data Collection(enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "(004) Date of Demographic Data Collection(enrollment)",
+                    "variable_description": "(004) Date of Demographic Data Collection. Dates have been shifted to preserve anonymity.(enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_demographics/(004) Date of Demographic Data Collection(enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -39856,7 +39856,7 @@
                     "variable_id": "ALCO_COLLDT_enrollment_alcohol_and_tobacco",
                     "variable_name": "Date of Alcohol and Tobacco (Enrollment) form collection: (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Alcohol and Tobacco (Enrollment) form collection: (enrollment)",
+                    "variable_description": "Date of Alcohol and Tobacco (Enrollment) form collection. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_alcohol_and_tobacco/Date of Alcohol and Tobacco (Enrollment) form collection: (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -40138,7 +40138,7 @@
                     "variable_id": "PREGFU_DUE_followup_2_pregnancy_followup",
                     "variable_name": "What was the due date for the pregnancy? (followup_2)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the due date for the pregnancy? (followup_2)",
+                    "variable_description": "What was the due date for the pregnancy? Dates have been shifted to preserve anonymity.(followup_2)",
                     "data_hierarchy": "RECOVER_Adult/followup_2_pregnancy_followup/What was the due date for the pregnancy? (followup_2)",
                     "derived_variable_level_data": [
                       {}
@@ -40148,7 +40148,7 @@
                     "variable_id": "PREGFU_COLLDT_followup_2_pregnancy_followup",
                     "variable_name": "Date of Pregnancy (followup) form collection: (followup_2)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Pregnancy (followup) form collection: (followup_2)",
+                    "variable_description": "Date of Pregnancy (followup) form collection. Dates have been shifted to preserve anonymity. (followup_2)",
                     "data_hierarchy": "RECOVER_Adult/followup_2_pregnancy_followup/Date of Pregnancy (followup) form collection: (followup_2)",
                     "derived_variable_level_data": [
                       {}
@@ -40266,7 +40266,7 @@
                     "variable_id": "PREGFU_DOB_followup_2_pregnancy_followup",
                     "variable_name": "What was the actual date of birth of the baby? (followup_2)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the actual date of birth of the baby? (followup_2)",
+                    "variable_description": "What was the actual date of birth of the baby? Dates have been shifted to preserve anonymity.(followup_2)",
                     "data_hierarchy": "RECOVER_Adult/followup_2_pregnancy_followup/What was the actual date of birth of the baby? (followup_2)",
                     "derived_variable_level_data": [
                       {}
@@ -41652,7 +41652,7 @@
                     "variable_id": "SDOHFU_COLLDT_followup_7_social_determinants_of_health",
                     "variable_name": "Date of SDOH Followup form collection: (followup_7)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of SDOH Followup form collection: (followup_7)",
+                    "variable_description": "Date of SDOH Followup form collection. Dates have been shifted to preserve anonymity. (followup_7)",
                     "data_hierarchy": "RECOVER_Adult/followup_7_social_determinants_of_health/Date of SDOH Followup form collection: (followup_7)",
                     "derived_variable_level_data": [
                       {}
@@ -41853,7 +41853,7 @@
                     "variable_id": "PREGFU_COLLDT_followup_6_pregnancy_followup",
                     "variable_name": "Date of Pregnancy (followup) form collection: (followup_6)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Pregnancy (followup) form collection: (followup_6)",
+                    "variable_description": "Date of Pregnancy (followup) form collection. Dates have been shifted to preserve anonymity. (followup_6)",
                     "data_hierarchy": "RECOVER_Adult/followup_6_pregnancy_followup/Date of Pregnancy (followup) form collection: (followup_6)",
                     "derived_variable_level_data": [
                       {}
@@ -41863,7 +41863,7 @@
                     "variable_id": "PREGFU_DUE_followup_6_pregnancy_followup",
                     "variable_name": "What was the due date for the pregnancy? (followup_6)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the due date for the pregnancy? (followup_6)",
+                    "variable_description": "What was the due date for the pregnancy? Dates have been shifted to preserve anonymity.(followup_6)",
                     "data_hierarchy": "RECOVER_Adult/followup_6_pregnancy_followup/What was the due date for the pregnancy? (followup_6)",
                     "derived_variable_level_data": [
                       {}
@@ -41883,7 +41883,7 @@
                     "variable_id": "PREGFU_DOB_followup_6_pregnancy_followup",
                     "variable_name": "What was the actual date of birth of the baby? (followup_6)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the actual date of birth of the baby? (followup_6)",
+                    "variable_description": "What was the actual date of birth of the baby? Dates have been shifted to preserve anonymity.(followup_6)",
                     "data_hierarchy": "RECOVER_Adult/followup_6_pregnancy_followup/What was the actual date of birth of the baby? (followup_6)",
                     "derived_variable_level_data": [
                       {}
@@ -41964,7 +41964,7 @@
                     "variable_id": "LCT_COLLDT_followup_8_long_covid_treatment_trial",
                     "variable_name": "(006) Date of Long COVID Treatment Trial form collection:(followup_8)",
                     "variable_type": "categorical",
-                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection:(followup_8)",
+                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection. Dates have been shifted to preserve anonymity. (followup_8)",
                     "data_hierarchy": "RECOVER_Adult/followup_8_long_covid_treatment_trial/(006) Date of Long COVID Treatment Trial form collection:(followup_8)",
                     "derived_variable_level_data": [
                       {}
@@ -42046,7 +42046,7 @@
                     "variable_id": "PREGFU_DUE_followup_1_pregnancy_followup",
                     "variable_name": "What was the due date for the pregnancy? (followup_1)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the due date for the pregnancy? (followup_1)",
+                    "variable_description": "What was the due date for the pregnancy? Dates have been shifted to preserve anonymity.(followup_1)",
                     "data_hierarchy": "RECOVER_Adult/followup_1_pregnancy_followup/What was the due date for the pregnancy? (followup_1)",
                     "derived_variable_level_data": [
                       {}
@@ -42116,7 +42116,7 @@
                     "variable_id": "PREGFU_DOB_followup_1_pregnancy_followup",
                     "variable_name": "What was the actual date of birth of the baby? (followup_1)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the actual date of birth of the baby? (followup_1)",
+                    "variable_description": "What was the actual date of birth of the baby? Dates have been shifted to preserve anonymity.(followup_1)",
                     "data_hierarchy": "RECOVER_Adult/followup_1_pregnancy_followup/What was the actual date of birth of the baby? (followup_1)",
                     "derived_variable_level_data": [
                       {}
@@ -42264,7 +42264,7 @@
                     "variable_id": "PREGFU_COLLDT_followup_1_pregnancy_followup",
                     "variable_name": "Date of Pregnancy (followup) form collection: (followup_1)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Pregnancy (followup) form collection: (followup_1)",
+                    "variable_description": "Date of Pregnancy (followup) form collection. Dates have been shifted to preserve anonymity. (followup_1)",
                     "data_hierarchy": "RECOVER_Adult/followup_1_pregnancy_followup/Date of Pregnancy (followup) form collection: (followup_1)",
                     "derived_variable_level_data": [
                       {}
@@ -42357,7 +42357,7 @@
                     "variable_id": "LCT_COLLDT_followup_2_long_covid_treatment_trial",
                     "variable_name": "(006) Date of Long COVID Treatment Trial form collection:(followup_2)",
                     "variable_type": "categorical",
-                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection:(followup_2)",
+                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection. Dates have been shifted to preserve anonymity. (followup_2)",
                     "data_hierarchy": "RECOVER_Adult/followup_2_long_covid_treatment_trial/(006) Date of Long COVID Treatment Trial form collection:(followup_2)",
                     "derived_variable_level_data": [
                       {}
@@ -42377,7 +42377,7 @@
                     "variable_id": "LCT_COENROLLDT_followup_2_long_covid_treatment_trial",
                     "variable_name": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_2)",
                     "variable_type": "categorical",
-                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_2)",
+                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate). Dates have been shifted to preserve anonymity.(followup_2)",
                     "data_hierarchy": "RECOVER_Adult/followup_2_long_covid_treatment_trial/(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_2)",
                     "derived_variable_level_data": [
                       {}
@@ -42448,7 +42448,7 @@
                     "variable_id": "ALCOFU_COLLDT_followup_6_alcohol_and_tobacco_followup",
                     "variable_name": "Date of Alcohol and Tobacco followup form collection: (followup_6)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Alcohol and Tobacco followup form collection: (followup_6)",
+                    "variable_description": "Date of Alcohol and Tobacco followup form collection. Dates have been shifted to preserve anonymity. (followup_6)",
                     "data_hierarchy": "RECOVER_Adult/followup_6_alcohol_and_tobacco_followup/Date of Alcohol and Tobacco followup form collection: (followup_6)",
                     "derived_variable_level_data": [
                       {}
@@ -42667,7 +42667,7 @@
                     "variable_id": "SDOHFU_COLLDT_followup_3_social_determinants_of_health",
                     "variable_name": "Date of SDOH Followup form collection: (followup_3)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of SDOH Followup form collection: (followup_3)",
+                    "variable_description": "Date of SDOH Followup form collection. Dates have been shifted to preserve anonymity. (followup_3)",
                     "data_hierarchy": "RECOVER_Adult/followup_3_social_determinants_of_health/Date of SDOH Followup form collection: (followup_3)",
                     "derived_variable_level_data": [
                       {}
@@ -42690,7 +42690,7 @@
                     "variable_id": "DISAB_COLLDT_enrollment_disability",
                     "variable_name": "Date of Disability (Enrollment) form collection: (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Disability (Enrollment) form collection: (enrollment)",
+                    "variable_description": "Date of Disability (Enrollment) form collection. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_disability/Date of Disability (Enrollment) form collection: (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -42781,7 +42781,7 @@
                     "variable_id": "SDOHFU_COLLDT_followup_6_social_determinants_of_health",
                     "variable_name": "Date of SDOH Followup form collection: (followup_6)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of SDOH Followup form collection: (followup_6)",
+                    "variable_description": "Date of SDOH Followup form collection. Dates have been shifted to preserve anonymity. (followup_6)",
                     "data_hierarchy": "RECOVER_Adult/followup_6_social_determinants_of_health/Date of SDOH Followup form collection: (followup_6)",
                     "derived_variable_level_data": [
                       {}
@@ -42942,7 +42942,7 @@
                     "variable_id": "RX2_COLLDT_followup_4_recent_covid_treatment",
                     "variable_name": "Date of COVID Treatment form collection: (followup_4)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of COVID Treatment form collection: (followup_4)",
+                    "variable_description": "Date of COVID Treatment form collection. Dates have been shifted to preserve anonymity. (followup_4)",
                     "data_hierarchy": "RECOVER_Adult/followup_4_recent_covid_treatment/Date of COVID Treatment form collection: (followup_4)",
                     "derived_variable_level_data": [
                       {}
@@ -43794,7 +43794,7 @@
                     "variable_id": "PREGFU_DOB_followup_4_pregnancy_followup",
                     "variable_name": "What was the actual date of birth of the baby? (followup_4)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the actual date of birth of the baby? (followup_4)",
+                    "variable_description": "What was the actual date of birth of the baby? Dates have been shifted to preserve anonymity.(followup_4)",
                     "data_hierarchy": "RECOVER_Adult/followup_4_pregnancy_followup/What was the actual date of birth of the baby? (followup_4)",
                     "derived_variable_level_data": [
                       {}
@@ -43882,7 +43882,7 @@
                     "variable_id": "PREGFU_DUE_followup_4_pregnancy_followup",
                     "variable_name": "What was the due date for the pregnancy? (followup_4)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the due date for the pregnancy? (followup_4)",
+                    "variable_description": "What was the due date for the pregnancy? Dates have been shifted to preserve anonymity.(followup_4)",
                     "data_hierarchy": "RECOVER_Adult/followup_4_pregnancy_followup/What was the due date for the pregnancy? (followup_4)",
                     "derived_variable_level_data": [
                       {}
@@ -43942,7 +43942,7 @@
                     "variable_id": "PREGFU_COLLDT_followup_4_pregnancy_followup",
                     "variable_name": "Date of Pregnancy (followup) form collection: (followup_4)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Pregnancy (followup) form collection: (followup_4)",
+                    "variable_description": "Date of Pregnancy (followup) form collection. Dates have been shifted to preserve anonymity. (followup_4)",
                     "data_hierarchy": "RECOVER_Adult/followup_4_pregnancy_followup/Date of Pregnancy (followup) form collection: (followup_4)",
                     "derived_variable_level_data": [
                       {}
@@ -44043,7 +44043,7 @@
                     "variable_id": "SDOHFU_COLLDT_followup_5_social_determinants_of_health",
                     "variable_name": "Date of SDOH Followup form collection: (followup_5)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of SDOH Followup form collection: (followup_5)",
+                    "variable_description": "Date of SDOH Followup form collection. Dates have been shifted to preserve anonymity. (followup_5)",
                     "data_hierarchy": "RECOVER_Adult/followup_5_social_determinants_of_health/Date of SDOH Followup form collection: (followup_5)",
                     "derived_variable_level_data": [
                       {}
@@ -44156,7 +44156,7 @@
                     "variable_id": "PREG_COVIDDOB_enrollment_pregnancy",
                     "variable_name": "For your pregnancy around [visit_qinfdt], what was the actual date of birth of the baby? (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "For your pregnancy around [visit_qinfdt], what was the actual date of birth of the baby? (enrollment)",
+                    "variable_description": "For your pregnancy around [visit_qinfdt], what was the actual date of birth of the baby? Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_pregnancy/For your pregnancy around [visit_qinfdt], what was the actual date of birth of the baby? (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -44366,7 +44366,7 @@
                     "variable_id": "PREG_COLLDT_enrollment_pregnancy",
                     "variable_name": "Date of Pregnancy (Enrollment) form collection: (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Pregnancy (Enrollment) form collection: (enrollment)",
+                    "variable_description": "Date of Pregnancy (Enrollment) form collection. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_pregnancy/Date of Pregnancy (Enrollment) form collection: (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -44464,7 +44464,7 @@
                     "variable_id": "PREG_90DAYSBEFORE_enrollment_pregnancy",
                     "variable_name": "90 days before survey completion (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "90 days before survey completion (enrollment)",
+                    "variable_description": "90 days before survey completion. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_pregnancy/90 days before survey completion (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -44564,7 +44564,7 @@
                     "variable_id": "PREG_COVIDDUE_enrollment_pregnancy",
                     "variable_name": "For your pregnancy around [visit_qinfdt], what was the due date for the pregnancy? (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "For your pregnancy around [visit_qinfdt], what was the due date for the pregnancy? (enrollment)",
+                    "variable_description": "For your pregnancy around [visit_qinfdt], what was the due date for the pregnancy? Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_pregnancy/For your pregnancy around [visit_qinfdt], what was the due date for the pregnancy? (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -44658,7 +44658,7 @@
                     "variable_id": "SDOHFU_COLLDT_followup_2_social_determinants_of_health",
                     "variable_name": "Date of SDOH Followup form collection: (followup_2)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of SDOH Followup form collection: (followup_2)",
+                    "variable_description": "Date of SDOH Followup form collection. Dates have been shifted to preserve anonymity. (followup_2)",
                     "data_hierarchy": "RECOVER_Adult/followup_2_social_determinants_of_health/Date of SDOH Followup form collection: (followup_2)",
                     "derived_variable_level_data": [
                       {}
@@ -44877,7 +44877,7 @@
                     "variable_id": "RX2_COLLDT_followup_6_recent_covid_treatment",
                     "variable_name": "Date of COVID Treatment form collection: (followup_6)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of COVID Treatment form collection: (followup_6)",
+                    "variable_description": "Date of COVID Treatment form collection. Dates have been shifted to preserve anonymity. (followup_6)",
                     "data_hierarchy": "RECOVER_Adult/followup_6_recent_covid_treatment/Date of COVID Treatment form collection: (followup_6)",
                     "derived_variable_level_data": [
                       {}
@@ -44940,7 +44940,7 @@
                     "variable_id": "LCT_COENROLLDT_followup_5_long_covid_treatment_trial",
                     "variable_name": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_5)",
                     "variable_type": "categorical",
-                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_5)",
+                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate). Dates have been shifted to preserve anonymity.(followup_5)",
                     "data_hierarchy": "RECOVER_Adult/followup_5_long_covid_treatment_trial/(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_5)",
                     "derived_variable_level_data": [
                       {}
@@ -45008,7 +45008,7 @@
                     "variable_id": "LCT_COLLDT_followup_5_long_covid_treatment_trial",
                     "variable_name": "(006) Date of Long COVID Treatment Trial form collection:(followup_5)",
                     "variable_type": "categorical",
-                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection:(followup_5)",
+                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection. Dates have been shifted to preserve anonymity. (followup_5)",
                     "data_hierarchy": "RECOVER_Adult/followup_5_long_covid_treatment_trial/(006) Date of Long COVID Treatment Trial form collection:(followup_5)",
                     "derived_variable_level_data": [
                       {}
@@ -45041,7 +45041,7 @@
                     "variable_id": "RX2_COLLDT_followup_1_recent_covid_treatment",
                     "variable_name": "Date of COVID Treatment form collection: (followup_1)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of COVID Treatment form collection: (followup_1)",
+                    "variable_description": "Date of COVID Treatment form collection. Dates have been shifted to preserve anonymity. (followup_1)",
                     "data_hierarchy": "RECOVER_Adult/followup_1_recent_covid_treatment/Date of COVID Treatment form collection: (followup_1)",
                     "derived_variable_level_data": [
                       {}
@@ -45199,7 +45199,7 @@
                     "variable_id": "RX2_COENROLLDT_followup_1_recent_covid_treatment",
                     "variable_name": "Date enrolled in [rx2_coenrollname] trial (best estimate): (followup_1)",
                     "variable_type": "categorical",
-                    "variable_description": "Date enrolled in [rx2_coenrollname] trial (best estimate): (followup_1)",
+                    "variable_description": "Date enrolled in [rx2_coenrollname] trial (best estimate). Dates have been shifted to preserve anonymity. (followup_1)",
                     "data_hierarchy": "RECOVER_Adult/followup_1_recent_covid_treatment/Date enrolled in [rx2_coenrollname] trial (best estimate): (followup_1)",
                     "derived_variable_level_data": [
                       {}
@@ -45450,7 +45450,7 @@
                     "variable_id": "RX2_COLLDT_followup_3_recent_covid_treatment",
                     "variable_name": "Date of COVID Treatment form collection: (followup_3)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of COVID Treatment form collection: (followup_3)",
+                    "variable_description": "Date of COVID Treatment form collection. Dates have been shifted to preserve anonymity. (followup_3)",
                     "data_hierarchy": "RECOVER_Adult/followup_3_recent_covid_treatment/Date of COVID Treatment form collection: (followup_3)",
                     "derived_variable_level_data": [
                       {}
@@ -45543,7 +45543,7 @@
                     "variable_id": "ALCOFU_COLLDT_followup_7_alcohol_and_tobacco_followup",
                     "variable_name": "Date of Alcohol and Tobacco followup form collection: (followup_7)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Alcohol and Tobacco followup form collection: (followup_7)",
+                    "variable_description": "Date of Alcohol and Tobacco followup form collection. Dates have been shifted to preserve anonymity. (followup_7)",
                     "data_hierarchy": "RECOVER_Adult/followup_7_alcohol_and_tobacco_followup/Date of Alcohol and Tobacco followup form collection: (followup_7)",
                     "derived_variable_level_data": [
                       {}
@@ -45704,7 +45704,7 @@
                     "variable_id": "PREGFU_COLLDT_followup_5_pregnancy_followup",
                     "variable_name": "Date of Pregnancy (followup) form collection: (followup_5)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Pregnancy (followup) form collection: (followup_5)",
+                    "variable_description": "Date of Pregnancy (followup) form collection. Dates have been shifted to preserve anonymity. (followup_5)",
                     "data_hierarchy": "RECOVER_Adult/followup_5_pregnancy_followup/Date of Pregnancy (followup) form collection: (followup_5)",
                     "derived_variable_level_data": [
                       {}
@@ -45734,7 +45734,7 @@
                     "variable_id": "PREGFU_DUE_followup_5_pregnancy_followup",
                     "variable_name": "What was the due date for the pregnancy? (followup_5)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the due date for the pregnancy? (followup_5)",
+                    "variable_description": "What was the due date for the pregnancy? Dates have been shifted to preserve anonymity.(followup_5)",
                     "data_hierarchy": "RECOVER_Adult/followup_5_pregnancy_followup/What was the due date for the pregnancy? (followup_5)",
                     "derived_variable_level_data": [
                       {}
@@ -45792,7 +45792,7 @@
                     "variable_id": "PREGFU_DOB_followup_5_pregnancy_followup",
                     "variable_name": "What was the actual date of birth of the baby? (followup_5)",
                     "variable_type": "categorical",
-                    "variable_description": "What was the actual date of birth of the baby? (followup_5)",
+                    "variable_description": "What was the actual date of birth of the baby? Dates have been shifted to preserve anonymity.(followup_5)",
                     "data_hierarchy": "RECOVER_Adult/followup_5_pregnancy_followup/What was the actual date of birth of the baby? (followup_5)",
                     "derived_variable_level_data": [
                       {}
@@ -45865,7 +45865,7 @@
                     "variable_id": "ALCOFU_COLLDT_followup_8_alcohol_and_tobacco_followup",
                     "variable_name": "Date of Alcohol and Tobacco followup form collection: (followup_8)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Alcohol and Tobacco followup form collection: (followup_8)",
+                    "variable_description": "Date of Alcohol and Tobacco followup form collection. Dates have been shifted to preserve anonymity. (followup_8)",
                     "data_hierarchy": "RECOVER_Adult/followup_8_alcohol_and_tobacco_followup/Date of Alcohol and Tobacco followup form collection: (followup_8)",
                     "derived_variable_level_data": [
                       {}
@@ -46014,7 +46014,7 @@
                     "variable_id": "CONS12_DT_enrollment_tier_12_consent_tracking",
                     "variable_name": "(004) Date of consent:(enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "(004) Date of consent:(enrollment)",
+                    "variable_description": "(004) Date of consent. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_tier_12_consent_tracking/(004) Date of consent:(enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -46225,7 +46225,7 @@
                     "variable_id": "RX2_COLLDT_followup_2_recent_covid_treatment",
                     "variable_name": "Date of COVID Treatment form collection: (followup_2)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of COVID Treatment form collection: (followup_2)",
+                    "variable_description": "Date of COVID Treatment form collection. Dates have been shifted to preserve anonymity. (followup_2)",
                     "data_hierarchy": "RECOVER_Adult/followup_2_recent_covid_treatment/Date of COVID Treatment form collection: (followup_2)",
                     "derived_variable_level_data": [
                       {}
@@ -46308,7 +46308,7 @@
                     "variable_id": "SDOHFU_COLLDT_followup_1_social_determinants_of_health",
                     "variable_name": "Date of SDOH Followup form collection: (followup_1)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of SDOH Followup form collection: (followup_1)",
+                    "variable_description": "Date of SDOH Followup form collection. Dates have been shifted to preserve anonymity. (followup_1)",
                     "data_hierarchy": "RECOVER_Adult/followup_1_social_determinants_of_health/Date of SDOH Followup form collection: (followup_1)",
                     "derived_variable_level_data": [
                       {}
@@ -46449,7 +46449,7 @@
                     "variable_id": "ENRL_REINF90DAYDT_enrollment_enrollment",
                     "variable_name": "(039) 90 days prior to reinfection date(enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "(039) 90 days prior to reinfection date(enrollment)",
+                    "variable_description": "(039) 90 days prior to reinfection date. Dates have been shifted to preserve anonymity.(enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_enrollment/(039) 90 days prior to reinfection date(enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -46479,7 +46479,7 @@
                     "variable_id": "ENRL_INDEXPLUSNINETY_enrollment_enrollment",
                     "variable_name": "(021) Index date plus ninety days; used for minimum date validation on reinfection date.(enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "(021) Index date plus ninety days; used for minimum date validation on reinfection date.(enrollment)",
+                    "variable_description": "(021) Index date plus ninety days; used for minimum date validation on reinfection date. Dates have been shifted to preserve anonymity.(enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_enrollment/(021) Index date plus ninety days; used for minimum date validation on reinfection date.(enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -46509,7 +46509,7 @@
                     "variable_id": "INDEX_DT_enrollment_enrollment",
                     "variable_name": "(019) Index date:The index date for an INFECTED participant:(confirmed) date of first positive test(probable/suspected) date of infection based on self-report or chart reviewThe index date for an UNINFECTED participant:date of negative testSee the protocol and manual of procedures for more information.Reminder: if the participant has had more than one COVID infection, enter their first COVID infection date as their index date.The index date will be locked once the demographics form is saved. To make a change, submit a help ticket to the DRC in -Ivanti.(enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "(019) Index date:The index date for an INFECTED participant:(confirmed) date of first positive test(probable/suspected) date of infection based on self-report or chart reviewThe index date for an UNINFECTED participant:date of negative testSee the protocol and manual of procedures for more information.Reminder: if the participant has had more than one COVID infection, enter their first COVID infection date as their index date.The index date will be locked once the demographics form is saved. To make a change, submit a help ticket to the DRC in -Ivanti.(enrollment)",
+                    "variable_description": "(019) Index date:The index date for an INFECTED participant:(confirmed) date of first positive test(probable/suspected) date of infection based on self-report or chart reviewThe index date for an UNINFECTED participant:date of negative testSee the protocol and manual of procedures for more information.Reminder: if the participant has had more than one COVID infection, enter their first COVID infection date as their index date.The index date will be locked once the demographics form is saved. To make a change, submit a help ticket to the DRC in -Ivanti. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_enrollment/(019) Index date:The index date for an INFECTED participant:(confirmed) date of first positive test(probable-suspected) date of infection based on self-report or chart reviewThe index date for an UNINFECTED participant:date of negative testSee the protocol and manual of procedures for more information.Reminder: if the participant has had more than one COVID infection, enter their first COVID infection date as their index date.The index date will be locked once the demographics form is saved. To make a change, submit a help ticket to the DRC in -Ivanti.(enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -46557,7 +46557,7 @@
                     "variable_id": "ENROLL_DT_enrollment_enrollment",
                     "variable_name": "(015) Date of enrollment: The enrollment date will be locked once the demographics form is saved. To make a change, submit a help ticket to the DRC in -Ivanti.(enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "(015) Date of enrollment: The enrollment date will be locked once the demographics form is saved. To make a change, submit a help ticket to the DRC in -Ivanti.(enrollment)",
+                    "variable_description": "(015) Date of enrollment: The enrollment date will be locked once the demographics form is saved. To make a change, submit a help ticket to the DRC in -Ivanti. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_enrollment/(015) Date of enrollment: The enrollment date will be locked once the demographics form is saved. To make a change, submit a help ticket to the DRC in -Ivanti.(enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -46567,7 +46567,7 @@
                     "variable_id": "ENRL_REINFDT_enrollment_enrollment",
                     "variable_name": "(035) Enter the date of the participant''s most recent COVID reinfection at the time of enrollment. Note this must be at least 90 days after the index date; that is, the date must be after [enrl_indexplusninety]. The reinfection date will be locked once the demographics form is saved. To make a change, submit a help ticket to the DRC in -Ivanti.(enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "(035) Enter the date of the participant''s most recent COVID reinfection at the time of enrollment. Note this must be at least 90 days after the index date; that is, the date must be after [enrl_indexplusninety]. The reinfection date will be locked once the demographics form is saved. To make a change, submit a help ticket to the DRC in -Ivanti.(enrollment)",
+                    "variable_description": "(035) Enter the date of the participant''s most recent COVID reinfection at the time of enrollment. Note this must be at least 90 days after the index date; that is, the date must be after [enrl_indexplusninety]. The reinfection date will be locked once the demographics form is saved. To make a change, submit a help ticket to the DRC in -Ivanti. Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_enrollment/(035) Enter the date of the participant''s most recent COVID reinfection at the time of enrollment. Note this must be at least 90 days after the index date; that is, the date must be after [enrl_indexplusninety]. The reinfection date will be locked once the demographics form is saved. To make a change, submit a help ticket to the DRC in -Ivanti.(enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -46660,7 +46660,7 @@
                     "variable_id": "RX2_COENROLLDT_enrollment_recent_covid_treatment",
                     "variable_name": "Date enrolled in [rx2_coenrollname] trial (best estimate): (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Date enrolled in [rx2_coenrollname] trial (best estimate): (enrollment)",
+                    "variable_description": "Date enrolled in [rx2_coenrollname] trial (best estimate). Dates have been shifted to preserve anonymity. (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_recent_covid_treatment/Date enrolled in [rx2_coenrollname] trial (best estimate): (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -46778,7 +46778,7 @@
                     "variable_id": "RX2_COLLDT_enrollment_recent_covid_treatment",
                     "variable_name": "Date of COVID Treatment form collection: (enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of COVID Treatment form collection: (enrollment)",
+                    "variable_description": "Date of COVID Treatment form collection. Dates have been shifted to preserve anonymity.  (enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_recent_covid_treatment/Date of COVID Treatment form collection: (enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -46861,7 +46861,7 @@
                     "variable_id": "LCT_COLLDT_followup_3_long_covid_treatment_trial",
                     "variable_name": "(006) Date of Long COVID Treatment Trial form collection:(followup_3)",
                     "variable_type": "categorical",
-                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection:(followup_3)",
+                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection. Dates have been shifted to preserve anonymity. (followup_3)",
                     "data_hierarchy": "RECOVER_Adult/followup_3_long_covid_treatment_trial/(006) Date of Long COVID Treatment Trial form collection:(followup_3)",
                     "derived_variable_level_data": [
                       {}
@@ -46881,7 +46881,7 @@
                     "variable_id": "LCT_COENROLLDT_followup_3_long_covid_treatment_trial",
                     "variable_name": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_3)",
                     "variable_type": "categorical",
-                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_3)",
+                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate). Dates have been shifted to preserve anonymity.(followup_3)",
                     "data_hierarchy": "RECOVER_Adult/followup_3_long_covid_treatment_trial/(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_3)",
                     "derived_variable_level_data": [
                       {}
@@ -47010,7 +47010,7 @@
                     "variable_id": "LCT_COLLDT_followup_4_long_covid_treatment_trial",
                     "variable_name": "(006) Date of Long COVID Treatment Trial form collection:(followup_4)",
                     "variable_type": "categorical",
-                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection:(followup_4)",
+                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection. Dates have been shifted to preserve anonymity. (followup_4)",
                     "data_hierarchy": "RECOVER_Adult/followup_4_long_covid_treatment_trial/(006) Date of Long COVID Treatment Trial form collection:(followup_4)",
                     "derived_variable_level_data": [
                       {}
@@ -47020,7 +47020,7 @@
                     "variable_id": "LCT_COENROLLDT_followup_4_long_covid_treatment_trial",
                     "variable_name": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_4)",
                     "variable_type": "categorical",
-                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_4)",
+                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate). Dates have been shifted to preserve anonymity.(followup_4)",
                     "data_hierarchy": "RECOVER_Adult/followup_4_long_covid_treatment_trial/(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_4)",
                     "derived_variable_level_data": [
                       {}
@@ -47093,7 +47093,7 @@
                     "variable_id": "SDOHFU_COLLDT_followup_4_social_determinants_of_health",
                     "variable_name": "Date of SDOH Followup form collection: (followup_4)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of SDOH Followup form collection: (followup_4)",
+                    "variable_description": "Date of SDOH Followup form collection. Dates have been shifted to preserve anonymity. (followup_4)",
                     "data_hierarchy": "RECOVER_Adult/followup_4_social_determinants_of_health/Date of SDOH Followup form collection: (followup_4)",
                     "derived_variable_level_data": [
                       {}
@@ -47184,7 +47184,7 @@
                     "variable_id": "LCT_COENROLLDT_followup_6_long_covid_treatment_trial",
                     "variable_name": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_6)",
                     "variable_type": "categorical",
-                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_6)",
+                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate). Dates have been shifted to preserve anonymity.(followup_6)",
                     "data_hierarchy": "RECOVER_Adult/followup_6_long_covid_treatment_trial/(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_6)",
                     "derived_variable_level_data": [
                       {}
@@ -47204,7 +47204,7 @@
                     "variable_id": "LCT_COLLDT_followup_6_long_covid_treatment_trial",
                     "variable_name": "(006) Date of Long COVID Treatment Trial form collection:(followup_6)",
                     "variable_type": "categorical",
-                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection:(followup_6)",
+                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection. Dates have been shifted to preserve anonymity. (followup_6)",
                     "data_hierarchy": "RECOVER_Adult/followup_6_long_covid_treatment_trial/(006) Date of Long COVID Treatment Trial form collection:(followup_6)",
                     "derived_variable_level_data": [
                       {}
@@ -47403,7 +47403,7 @@
                     "variable_id": "RX2_COLLDT_followup_5_recent_covid_treatment",
                     "variable_name": "Date of COVID Treatment form collection: (followup_5)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of COVID Treatment form collection: (followup_5)",
+                    "variable_description": "Date of COVID Treatment form collection. Dates have been shifted to preserve anonymity. (followup_5)",
                     "data_hierarchy": "RECOVER_Adult/followup_5_recent_covid_treatment/Date of COVID Treatment form collection: (followup_5)",
                     "derived_variable_level_data": [
                       {}
@@ -47444,7 +47444,7 @@
                     "variable_id": "PREGFU_COLLDT_followup_7_pregnancy_followup",
                     "variable_name": "Date of Pregnancy (followup) form collection: (followup_7)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Pregnancy (followup) form collection: (followup_7)",
+                    "variable_description": "Date of Pregnancy (followup) form collection. Dates have been shifted to preserve anonymity. (followup_7)",
                     "data_hierarchy": "RECOVER_Adult/followup_7_pregnancy_followup/Date of Pregnancy (followup) form collection: (followup_7)",
                     "derived_variable_level_data": [
                       {}
@@ -47477,7 +47477,7 @@
                     "variable_id": "LCT_COENROLLDT_followup_7_long_covid_treatment_trial",
                     "variable_name": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_7)",
                     "variable_type": "categorical",
-                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_7)",
+                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate). Dates have been shifted to preserve anonymity.(followup_7)",
                     "data_hierarchy": "RECOVER_Adult/followup_7_long_covid_treatment_trial/(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_7)",
                     "derived_variable_level_data": [
                       {}
@@ -47487,7 +47487,7 @@
                     "variable_id": "LCT_COLLDT_followup_7_long_covid_treatment_trial",
                     "variable_name": "(006) Date of Long COVID Treatment Trial form collection:(followup_7)",
                     "variable_type": "categorical",
-                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection:(followup_7)",
+                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection. Dates have been shifted to preserve anonymity. (followup_7)",
                     "data_hierarchy": "RECOVER_Adult/followup_7_long_covid_treatment_trial/(006) Date of Long COVID Treatment Trial form collection:(followup_7)",
                     "derived_variable_level_data": [
                       {}
@@ -47629,7 +47629,7 @@
                     "variable_id": "RX2_COLLDT_followup_7_recent_covid_treatment",
                     "variable_name": "Date of COVID Treatment form collection: (followup_7)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of COVID Treatment form collection: (followup_7)",
+                    "variable_description": "Date of COVID Treatment form collection. Dates have been shifted to preserve anonymity. (followup_7)",
                     "data_hierarchy": "RECOVER_Adult/followup_7_recent_covid_treatment/Date of COVID Treatment form collection: (followup_7)",
                     "derived_variable_level_data": [
                       {}
@@ -47790,7 +47790,7 @@
                     "variable_id": "RX2_COLLDT_followup_8_recent_covid_treatment",
                     "variable_name": "Date of COVID Treatment form collection: (followup_8)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of COVID Treatment form collection: (followup_8)",
+                    "variable_description": "Date of COVID Treatment form collection. Dates have been shifted to preserve anonymity. (followup_8)",
                     "data_hierarchy": "RECOVER_Adult/followup_8_recent_covid_treatment/Date of COVID Treatment form collection: (followup_8)",
                     "derived_variable_level_data": [
                       {}
@@ -47911,7 +47911,7 @@
                     "variable_id": "PREGFU_COLLDT_followup_8_pregnancy_followup",
                     "variable_name": "Date of Pregnancy (followup) form collection: (followup_8)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Pregnancy (followup) form collection: (followup_8)",
+                    "variable_description": "Date of Pregnancy (followup) form collection. Dates have been shifted to preserve anonymity. (followup_8)",
                     "data_hierarchy": "RECOVER_Adult/followup_8_pregnancy_followup/Date of Pregnancy (followup) form collection: (followup_8)",
                     "derived_variable_level_data": [
                       {}
@@ -48024,7 +48024,7 @@
                     "variable_id": "ALCOFU_COLLDT_followup_2_alcohol_and_tobacco_followup",
                     "variable_name": "Date of Alcohol and Tobacco followup form collection: (followup_2)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Alcohol and Tobacco followup form collection: (followup_2)",
+                    "variable_description": "Date of Alcohol and Tobacco followup form collection. Dates have been shifted to preserve anonymity. (followup_2)",
                     "data_hierarchy": "RECOVER_Adult/followup_2_alcohol_and_tobacco_followup/Date of Alcohol and Tobacco followup form collection: (followup_2)",
                     "derived_variable_level_data": [
                       {}
@@ -48145,7 +48145,7 @@
                     "variable_id": "ALCOFU_COLLDT_followup_1_alcohol_and_tobacco_followup",
                     "variable_name": "Date of Alcohol and Tobacco followup form collection: (followup_1)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of Alcohol and Tobacco followup form collection: (followup_1)",
+                    "variable_description": "Date of Alcohol and Tobacco followup form collection. Dates have been shifted to preserve anonymity. (followup_1)",
                     "data_hierarchy": "RECOVER_Adult/followup_1_alcohol_and_tobacco_followup/Date of Alcohol and Tobacco followup form collection: (followup_1)",
                     "derived_variable_level_data": [
                       {}
@@ -48277,7 +48277,7 @@
                     "variable_id": "EOP_INCARCERATEDDT_miscellaneous_form_end_of_participation",
                     "variable_name": "(002) Date of incarceration:( miscellaneous_form)",
                     "variable_type": "categorical",
-                    "variable_description": "(002) Date of incarceration:( miscellaneous_form)",
+                    "variable_description": "(002) Date of incarceration. Dates have been shifted to preserve anonymity.( miscellaneous_form)",
                     "data_hierarchy": "RECOVER_Adult/miscellaneous_form_end_of_participation/(002) Date of incarceration:( miscellaneous_form)",
                     "derived_variable_level_data": [
                       {}
@@ -48287,7 +48287,7 @@
                     "variable_id": "EOP_INVESTIGATORDT_miscellaneous_form_end_of_participation",
                     "variable_name": "(001) Date investigator withdrew participant:( miscellaneous_form)",
                     "variable_type": "categorical",
-                    "variable_description": "(001) Date investigator withdrew participant:( miscellaneous_form)",
+                    "variable_description": "(001) Date investigator withdrew participant. Dates have been shifted to preserve anonymity.( miscellaneous_form)",
                     "data_hierarchy": "RECOVER_Adult/miscellaneous_form_end_of_participation/(001) Date investigator withdrew participant:( miscellaneous_form)",
                     "derived_variable_level_data": [
                       {}
@@ -48385,7 +48385,7 @@
                     "variable_id": "EOP_DT_miscellaneous_form_end_of_participation",
                     "variable_name": "(004) Date of last visit or contact:( miscellaneous_form)",
                     "variable_type": "categorical",
-                    "variable_description": "(004) Date of last visit or contact:( miscellaneous_form)",
+                    "variable_description": "(004) Date of last visit or contact. Dates have been shifted to preserve anonymity.( miscellaneous_form)",
                     "data_hierarchy": "RECOVER_Adult/miscellaneous_form_end_of_participation/(004) Date of last visit or contact:( miscellaneous_form)",
                     "derived_variable_level_data": [
                       {}
@@ -48435,7 +48435,7 @@
                     "variable_id": "EOP_LETTERDT_miscellaneous_form_end_of_participation",
                     "variable_name": "(012) Date site received written notice of withdrawal of consent from the participant:( miscellaneous_form)",
                     "variable_type": "categorical",
-                    "variable_description": "(012) Date site received written notice of withdrawal of consent from the participant:( miscellaneous_form)",
+                    "variable_description": "(012) Date site received written notice of withdrawal of consent from the participant. Dates have been shifted to preserve anonymity.( miscellaneous_form)",
                     "data_hierarchy": "RECOVER_Adult/miscellaneous_form_end_of_participation/(012) Date site received written notice of withdrawal of consent from the participant:( miscellaneous_form)",
                     "derived_variable_level_data": [
                       {}
@@ -48498,7 +48498,7 @@
                     "variable_id": "SDOHFU_COLLDT_followup_8_social_determinants_of_health",
                     "variable_name": "Date of SDOH Followup form collection: (followup_8)",
                     "variable_type": "categorical",
-                    "variable_description": "Date of SDOH Followup form collection: (followup_8)",
+                    "variable_description": "Date of SDOH Followup form collection. Dates have been shifted to preserve anonymity. (followup_8)",
                     "data_hierarchy": "RECOVER_Adult/followup_8_social_determinants_of_health/Date of SDOH Followup form collection: (followup_8)",
                     "derived_variable_level_data": [
                       {}
@@ -48658,7 +48658,7 @@
                     "variable_id": "WITHDRAW_DT_enrollment_withdrawal",
                     "variable_name": "(005) Date of participant withdrawal from RECOVER:(enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "(005) Date of participant withdrawal from RECOVER:(enrollment)",
+                    "variable_description": "(005) Date of participant withdrawal from RECOVER. Dates have been shifted to preserve anonymity.(enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_withdrawal/(005) Date of participant withdrawal from RECOVER:(enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -48709,7 +48709,7 @@
                     "variable_id": "TERM_DEATHDT_miscellaneous_form_study_termination",
                     "variable_name": "(005) Date of death:( miscellaneous_form)",
                     "variable_type": "categorical",
-                    "variable_description": "(005) Date of death:( miscellaneous_form)",
+                    "variable_description": "(005) Date of death. Dates have been shifted to preserve anonymity.( miscellaneous_form)",
                     "data_hierarchy": "RECOVER_Adult/miscellaneous_form_study_termination/(005) Date of death:( miscellaneous_form)",
                     "derived_variable_level_data": [
                       {}
@@ -48793,7 +48793,7 @@
                     "variable_id": "LCT_COENROLLDT_enrollment_long_covid_treatment_trial",
                     "variable_name": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(enrollment)",
+                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate). Dates have been shifted to preserve anonymity.(enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_long_covid_treatment_trial/(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -48811,7 +48811,7 @@
                     "variable_id": "LCT_COLLDT_enrollment_long_covid_treatment_trial",
                     "variable_name": "(006) Date of Long COVID Treatment Trial form collection:(enrollment)",
                     "variable_type": "categorical",
-                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection:(enrollment)",
+                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection. Dates have been shifted to preserve anonymity.(enrollment)",
                     "data_hierarchy": "RECOVER_Adult/enrollment_long_covid_treatment_trial/(006) Date of Long COVID Treatment Trial form collection:(enrollment)",
                     "derived_variable_level_data": [
                       {}
@@ -48864,7 +48864,7 @@
                     "variable_id": "DOB_demographics",
                     "variable_name": "dob from demographics dataset.",
                     "variable_type": "numeric",
-                    "variable_description": "dob from demographics dataset.",
+                    "variable_description": "dob from demographics dataset. Truncated to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/demographics/dob from demographics dataset.",
                     "derived_variable_level_data": [
                       {}
@@ -48884,7 +48884,7 @@
                     "variable_id": "ENROLL_ZIP_CODE_demographics",
                     "variable_name": "enroll_zip_code from demographics dataset.",
                     "variable_type": "numeric",
-                    "variable_description": "enroll_zip_code from demographics dataset.",
+                    "variable_description": "enroll_zip_code from demographics dataset. Truncated to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/demographics/enroll_zip_code from demographics dataset.",
                     "derived_variable_level_data": [
                       {}
@@ -48934,7 +48934,7 @@
                     "variable_id": "ENROLL_DATE_demographics",
                     "variable_name": "enroll_date from demographics dataset.",
                     "variable_type": "categorical",
-                    "variable_description": "enroll_date from demographics dataset.",
+                    "variable_description": "enroll_date from demographics dataset. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/demographics/enroll_date from demographics dataset.",
                     "derived_variable_level_data": [
                       {}
@@ -48944,7 +48944,7 @@
                     "variable_id": "ENROLL_INDEX_DATE_demographics",
                     "variable_name": "enroll_index_date from demographics dataset.",
                     "variable_type": "categorical",
-                    "variable_description": "enroll_index_date from demographics dataset.",
+                    "variable_description": "enroll_index_date from demographics dataset. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/demographics/enroll_index_date from demographics dataset.",
                     "derived_variable_level_data": [
                       {}
@@ -48964,7 +48964,7 @@
                     "variable_id": "CROSSOVER_INDEX_DATE_demographics",
                     "variable_name": "crossover_index_date from demographics dataset.",
                     "variable_type": "categorical",
-                    "variable_description": "crossover_index_date from demographics dataset.",
+                    "variable_description": "crossover_index_date from demographics dataset. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/demographics/crossover_index_date from demographics dataset.",
                     "derived_variable_level_data": [
                       {}
@@ -49004,7 +49004,7 @@
                     "variable_id": "WITHDRAW_DATE_demographics",
                     "variable_name": "withdraw_date from demographics dataset.",
                     "variable_type": "categorical",
-                    "variable_description": "withdraw_date from demographics dataset.",
+                    "variable_description": "withdraw_date from demographics dataset. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/demographics/withdraw_date from demographics dataset.",
                     "derived_variable_level_data": [
                       {}
@@ -49024,7 +49024,7 @@
                     "variable_id": "DECEASED_DATE_demographics",
                     "variable_name": "deceased_date from demographics dataset.",
                     "variable_type": "categorical",
-                    "variable_description": "deceased_date from demographics dataset.",
+                    "variable_description": "deceased_date from demographics dataset. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/demographics/deceased_date from demographics dataset.",
                     "derived_variable_level_data": [
                       {}
@@ -49075,7 +49075,7 @@
                     "variable_id": "VISIT_START_DATE_followup_4_visit_data",
                     "variable_name": "visit_start_date for visit type followup_4",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type followup_4",
+                    "variable_description": "visit_start_date for visit type followup_4. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/followup_4_visit_data/visit_start_date for visit type followup_4",
                     "derived_variable_level_data": [
                       {}
@@ -49166,7 +49166,7 @@
                     "variable_id": "VISIT_START_DATE_followup_15_visit_data",
                     "variable_name": "visit_start_date for visit type followup_15",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type followup_15",
+                    "variable_description": "visit_start_date for visit type followup_15. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/followup_15_visit_data/visit_start_date for visit type followup_15",
                     "derived_variable_level_data": [
                       {}
@@ -49237,7 +49237,7 @@
                     "variable_id": "VISIT_START_DATE_followup_14_visit_data",
                     "variable_name": "visit_start_date for visit type followup_14",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type followup_14",
+                    "variable_description": "visit_start_date for visit type followup_14. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/followup_14_visit_data/visit_start_date for visit type followup_14",
                     "derived_variable_level_data": [
                       {}
@@ -49308,7 +49308,7 @@
                     "variable_id": "VISIT_START_DATE_followup_10_visit_data",
                     "variable_name": "visit_start_date for visit type followup_10",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type followup_10",
+                    "variable_description": "visit_start_date for visit type followup_10. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/followup_10_visit_data/visit_start_date for visit type followup_10",
                     "derived_variable_level_data": [
                       {}
@@ -49379,7 +49379,7 @@
                     "variable_id": "VISIT_START_DATE_followup_7_visit_data",
                     "variable_name": "visit_start_date for visit type followup_7",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type followup_7",
+                    "variable_description": "visit_start_date for visit type followup_7. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/followup_7_visit_data/visit_start_date for visit type followup_7",
                     "derived_variable_level_data": [
                       {}
@@ -49450,7 +49450,7 @@
                     "variable_id": "VISIT_START_DATE_followup_11_visit_data",
                     "variable_name": "visit_start_date for visit type followup_11",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type followup_11",
+                    "variable_description": "visit_start_date for visit type followup_11. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/followup_11_visit_data/visit_start_date for visit type followup_11",
                     "derived_variable_level_data": [
                       {}
@@ -49521,7 +49521,7 @@
                     "variable_id": "VISIT_START_DATE_miscellaneous_form_visit_data",
                     "variable_name": "visit_start_date for visit type miscellaneous_form",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type miscellaneous_form",
+                    "variable_description": "visit_start_date for visit type miscellaneous_form. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/miscellaneous_form_visit_data/visit_start_date for visit type miscellaneous_form",
                     "derived_variable_level_data": [
                       {}
@@ -49592,7 +49592,7 @@
                     "variable_id": "VISIT_START_DATE_followup_1_visit_data",
                     "variable_name": "visit_start_date for visit type followup_1",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type followup_1",
+                    "variable_description": "visit_start_date for visit type followup_1. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/followup_1_visit_data/visit_start_date for visit type followup_1",
                     "derived_variable_level_data": [
                       {}
@@ -49663,7 +49663,7 @@
                     "variable_id": "VISIT_START_DATE_followup_9_visit_data",
                     "variable_name": "visit_start_date for visit type followup_9",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type followup_9",
+                    "variable_description": "visit_start_date for visit type followup_9. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/followup_9_visit_data/visit_start_date for visit type followup_9",
                     "derived_variable_level_data": [
                       {}
@@ -49734,7 +49734,7 @@
                     "variable_id": "VISIT_START_DATE_followup_5_visit_data",
                     "variable_name": "visit_start_date for visit type followup_5",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type followup_5",
+                    "variable_description": "visit_start_date for visit type followup_5. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/followup_5_visit_data/visit_start_date for visit type followup_5",
                     "derived_variable_level_data": [
                       {}
@@ -49805,7 +49805,7 @@
                     "variable_id": "VISIT_START_DATE_followup_3_visit_data",
                     "variable_name": "visit_start_date for visit type followup_3",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type followup_3",
+                    "variable_description": "visit_start_date for visit type followup_3. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/followup_3_visit_data/visit_start_date for visit type followup_3",
                     "derived_variable_level_data": [
                       {}
@@ -49876,7 +49876,7 @@
                     "variable_id": "VISIT_START_DATE_followup_8_visit_data",
                     "variable_name": "visit_start_date for visit type followup_8",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type followup_8",
+                    "variable_description": "visit_start_date for visit type followup_8. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/followup_8_visit_data/visit_start_date for visit type followup_8",
                     "derived_variable_level_data": [
                       {}
@@ -49947,7 +49947,7 @@
                     "variable_id": "VISIT_START_DATE_followup_2_visit_data",
                     "variable_name": "visit_start_date for visit type followup_2",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type followup_2",
+                    "variable_description": "visit_start_date for visit type followup_2. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/followup_2_visit_data/visit_start_date for visit type followup_2",
                     "derived_variable_level_data": [
                       {}
@@ -50018,7 +50018,7 @@
                     "variable_id": "VISIT_START_DATE_enrollment_visit_data",
                     "variable_name": "visit_start_date for visit type enrollment",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type enrollment",
+                    "variable_description": "visit_start_date for visit type enrollment. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/enrollment_visit_data/visit_start_date for visit type enrollment",
                     "derived_variable_level_data": [
                       {}
@@ -50089,7 +50089,7 @@
                     "variable_id": "VISIT_START_DATE_followup_6_visit_data",
                     "variable_name": "visit_start_date for visit type followup_6",
                     "variable_type": "categorical",
-                    "variable_description": "visit_start_date for visit type followup_6",
+                    "variable_description": "visit_start_date for visit type followup_6. Dates have been shifted to preserve anonymity.",
                     "data_hierarchy": "RECOVER_Adult/followup_6_visit_data/visit_start_date for visit type followup_6",
                     "derived_variable_level_data": [
                       {}
@@ -50188,7 +50188,7 @@
                     "variable_id": "LCT_COENROLLDT_followup_1_long_covid_treatment_trial",
                     "variable_name": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_1)",
                     "variable_type": "categorical",
-                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_1)",
+                    "variable_description": "(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate). Dates have been shifted to preserve anonymity.(followup_1)",
                     "data_hierarchy": "RECOVER_Adult/followup_1_long_covid_treatment_trial/(010) Date enrolled in [Name of the Long COVID experimental treatment trial] trial (best estimate):(followup_1)",
                     "derived_variable_level_data": [
                       {}
@@ -50198,7 +50198,7 @@
                     "variable_id": "LCT_COLLDT_followup_1_long_covid_treatment_trial",
                     "variable_name": "(006) Date of Long COVID Treatment Trial form collection:(followup_1)",
                     "variable_type": "categorical",
-                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection:(followup_1)",
+                    "variable_description": "(006) Date of Long COVID Treatment Trial form collection. Dates have been shifted to preserve anonymity. (followup_1)",
                     "data_hierarchy": "RECOVER_Adult/followup_1_long_covid_treatment_trial/(006) Date of Long COVID Treatment Trial form collection:(followup_1)",
                     "derived_variable_level_data": [
                       {}
