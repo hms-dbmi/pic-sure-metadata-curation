@@ -1,0 +1,40 @@
+```{r}
+library(jsonlite)
+library(tidyverse)
+#install.packages("readxl")
+library(readxl)
+library(dplyr)
+library(stringr)
+library(jsonlite)
+#install.packages("sas7bdat")
+library(sas7bdat)
+library(haven)
+```
+
+Read in files
+```{r}
+dataset_sas_df <- read_sas("../input/ensemble_guideit_a_dataset.sas7bdat")
+mapvars_sas_df <- read_sas("../input/clones_guideit_a_mapvars.sas7bdat")
+var_label_df <- read_csv("../input/clones_GUIDEIT_a_varlabel.csv")
+schema_df <- read_sas("../input/clones_guideit_a_schema.sas7bdat")
+```
+
+Write sas files for eay access in the future
+```{r}
+write.csv(dataset_sas_df,"../input/ensemble_guideit_a_dataset.csv",row.names = F)
+write.csv(mapvars_sas_df,"../input/clones_guideit_a_mapvars.csv",row.names = F)
+```
+
+```{r}
+dictionary_df <- data.frame(varname = var_label_df$Variable, vardesc = var_label_df$Label, type="num",decoding="",units="",table="")
+
+for (vari in c(1:length(dictionary_df$varname))) {
+  varid = dictionary_df$varname[vari]
+  file_path_full <- str_split(mapvars_sas_df$SBpath[which(varid==mapvars_sas_df$Variable)],"/")
+  
+  dictionary_df$table[vari] <- toupper(str_remove(file_path_full[[1]][length(file_path_full[[1]])],".sas7bdat"))
+}
+
+write.csv(dictionary_df,"../input/DataDictionary.csv",row.names = F)
+
+```
