@@ -1,6 +1,7 @@
 */input/*
 *.DS_Store*
 recover_data_dictionary/token.txt
-recover_data_dictionary/recover_export
+recover_data_dictionary/recover.*_export
 *.pdf
-recover_data_dictionary/recover_variable_info
+recover_data_dictionary/recover.*_variable_info
+
