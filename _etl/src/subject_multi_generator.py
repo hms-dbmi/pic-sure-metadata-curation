@@ -4,13 +4,24 @@ import json
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+def get_sstr_summary(study_id):
+    summary_url = f"https://www.ncbi.nlm.nih.gov/gap/sstr/api/v1/study/{study_id}/summary"
+
+    response = requests.get(summary_url)
+    response.raise_for_status()  # Ensure request was successful
+    return response.json()
+
 def fetch_study_data(study_id, output_dir):
+    # Base URL of the API endpoint
     base_url = f'https://www.ncbi.nlm.nih.gov/gap/sstr/api/v1/study/{study_id}/subjects'
+    summary_data = get_sstr_summary(study_id)
+    expected_pat_cnt = summary_data.get('study_stats').get('cnt_subjects').get('loaded')
 
     # Parameters for pagination
-    page_size = 1000
-    max_pages = 100  # Set an upper limit to avoid infinite requests (adjust based on API limits)
-    concurrent_requests = 10  # Number of parallel requests
+    page_size = 50
+    max_pages = math.ceil( (expected_pat_cnt + page_size) / page_size)
+    print(f'Processing Pages: {max_pages}')# Set an upper limit to avoid infinite requests (adjust based on API limits)
+    concurrent_requests = 3  # Number of parallel requests# Number of parallel requests
     all_data = []
     summary = {
         "total_subjects": 0,
