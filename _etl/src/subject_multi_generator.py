@@ -3,6 +3,7 @@ import csv
 import json
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import math
 
 def get_sstr_summary(study_id):
     summary_url = f"https://www.ncbi.nlm.nih.gov/gap/sstr/api/v1/study/{study_id}/summary"
