@@ -1,0 +1,601 @@
+{
+    "$id": "https://www.ncbi.nlm.nih.gov/gap/sstr/schemas/study.0.0.1.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "additionalProperties": false,
+    "definitions": {
+        "def_accession_version": {
+            "additionalProperties": false,
+            "properties": {
+                "accession": {
+                    "type": "string"
+                },
+                "participant_set": {
+                    "type": "integer"
+                },
+                "version": {
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        },
+        "def_consent_group": {
+            "additionalProperties": false,
+            "properties": {
+                "code": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "sample_count": {
+                    "type": "integer"
+                },
+                "short_name": {
+                    "type": "string"
+                },
+                "subject_count": {
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        },
+        "def_diff": {
+            "additionalProperties": false,
+            "properties": {
+                "both": {
+                    "type": "integer"
+                },
+                "curr_only": {
+                    "type": "integer"
+                },
+                "prev_only": {
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        },
+        "def_sample_data": {
+            "additionalProperties": false,
+            "description": "All data required to display one sample",
+            "properties": {
+                "biosample_id": {
+                    "type": "string"
+                },
+                "dbgap_sample_id": {
+                    "type": "integer"
+                },
+                "is_pooled": {
+                    "type": "boolean"
+                },
+                "mol_sample_uses": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "sample_status": {
+                    "type": "string"
+                },
+                "seq_data": {
+                    "items": {
+                        "$ref": "#/definitions/def_seq_data"
+                    },
+                    "type": "array"
+                },
+                "seq_run_data": {
+                    "items": {
+                        "$ref": "#/definitions/def_seq_run_data"
+                    },
+                    "type": "array"
+                },
+                "seq_sample_uses": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "sra_sample_id": {
+                    "type": "string"
+                },
+                "sub_seq_data": {
+                    "items": {
+                        "$ref": "#/definitions/def_sub_seq_data"
+                    },
+                    "type": "array"
+                },
+                "submitted_sample_id": {
+                    "type": "string"
+                },
+                "tax_id": {
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        },
+        "def_seq_data": {
+            "additionalProperties": false,
+            "description": "Processed sequence data summary from sra web API (deprecated, kept for backward compatibility)",
+            "properties": {
+                "bases": {
+                    "type": "string"
+                },
+                "center": {
+                    "type": "string"
+                },
+                "experiment": {
+                    "type": "string"
+                },
+                "experiment_type": {
+                    "type": "string"
+                },
+                "platform": {
+                    "type": "string"
+                },
+                "runs": {
+                    "type": "integer"
+                },
+                "sample_use": {
+                    "type": "string"
+                },
+                "size_gb": {
+                    "type": "integer"
+                },
+                "status": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "def_seq_run_data": {
+            "additionalProperties": false,
+            "description": "A single sequencing run (geneated by SRA process)",
+            "properties": {
+                "center": {
+                    "type": "string"
+                },
+                "experiment": {
+                    "type": "string"
+                },
+                "experiment_type": {
+                    "type": "string"
+                },
+                "platform": {
+                    "type": "string"
+                },
+                "run": {
+                    "type": "string"
+                },
+                "run_id": {
+                    "type": "string"
+                },
+                "sample_use": {
+                    "type": "string"
+                },
+                "size_gb": {
+                    "type": "string"
+                },
+                "status": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "def_study": {
+            "additionalProperties": false,
+            "anyOf": [
+                {},
+                {
+                    "required": [
+                        "parent_study_accver"
+                    ]
+                },
+                {
+                    "required": [
+                        "substudies"
+                    ]
+                }
+            ],
+            "description": "Study level data",
+            "not": {
+                "required": [
+                    "parent_study_accver",
+                    "substudies"
+                ]
+            },
+            "properties": {
+                "accver": {
+                    "$ref": "#/definitions/def_accession_version"
+                },
+                "admin_ic": {
+                    "type": "string"
+                },
+                "bioproject_ids": {
+                    "items": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "consent_groups": {
+                    "description": "All consent groups of this study",
+                    "items": {
+                        "$ref": "#/definitions/def_consent_group"
+                    },
+                    "type": "array"
+                },
+                "handle": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "parent_study_accver": {
+                    "$ref": "#/definitions/def_accession_version"
+                },
+                "repository": {
+                    "description": "dbGaP subject namespace",
+                    "type": "string"
+                },
+                "study_status": {
+                    "type": "string"
+                },
+                "substudies": {
+                    "items": {
+                        "$ref": "#/definitions/def_accession_version"
+                    },
+                    "type": "array"
+                }
+            },
+            "required": [
+                "accver"
+            ],
+            "type": "object"
+        },
+        "def_sub_seq_data": {
+            "additionalProperties": false,
+            "description": "Submitted sequence data info (should be retireved from SRA)",
+            "properties": {
+                "file_name": {
+                    "type": "string"
+                },
+                "file_type": {
+                    "type": "string"
+                },
+                "md5": {
+                    "type": "string"
+                },
+                "platform": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "def_subject_data": {
+            "description": "Data for one subject",
+            "properties": {
+                "aliases": {
+                    "items": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "namespace": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "consent_group": {
+                    "$ref": "#/definitions/def_consent_group"
+                },
+                "dbgap_subject_id": {
+                    "type": "integer"
+                },
+                "has_image": {
+                    "type": "boolean"
+                },
+                "samples": {
+                    "description": "Sample level data; one sample per array element.",
+                    "items": {
+                        "$ref": "#/definitions/def_sample_data"
+                    },
+                    "type": "array"
+                },
+                "sex": {
+                    "type": "string"
+                },
+                "submitted_subject_id": {
+                    "type": "string"
+                },
+                "type": {
+                    "enum": [
+                        "regular",
+                        "technical",
+                        "control"
+                    ],
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "description": "JSON schema for data of a single dbGaP study",
+    "properties": {
+        "error": {
+            "additionalProperties": false,
+            "description": "Error message and code from failed API processing",
+            "properties": {
+                "error_code": {
+                    "type": "integer"
+                },
+                "error_message": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "pagination": {
+            "additionalProperties": false,
+            "desciption": "Data that support pagination",
+            "properties": {
+                "next_link": {
+                    "type": "string"
+                },
+                "page": {
+                    "type": "integer"
+                },
+                "page_size": {
+                    "type": "integer"
+                },
+                "prev_link": {
+                    "type": "string"
+                },
+                "total": {
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        },
+        "study": {
+            "$ref": "#/definitions/def_study",
+            "description": "Study level info, including name, accession, bioproject ID, consent codes and substudiesm etc"
+        },
+        "study_stats": {
+            "description": "Study level stats, including summary counts",
+            "properties": {
+                "cnt_by_consent_and_sample_use": {
+                    "additionalProperties": false,
+                    "items": {
+                        "properties": {
+                            "cnt_samples": {
+                                "type": "integer"
+                            },
+                            "cnt_subjects": {
+                                "type": "integer"
+                            },
+                            "consent_code": {
+                                "type": "integer"
+                            },
+                            "is_sequence": {
+                                "type": "boolean"
+                            },
+                            "participant_set": {
+                                "type": "integer"
+                            },
+                            "phs": {
+                                "type": "integer"
+                            },
+                            "sample_use": {
+                                "type": "string"
+                            },
+                            "version": {
+                                "type": "integer"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "cnt_ea_samples": {
+                    "additionalProperties": false,
+                    "description": "EA (Exchange Area) sample related counts",
+                    "properties": {
+                        "has_seq": {
+                            "type": "integer"
+                        },
+                        "total": {
+                            "type": "integer"
+                        }
+                    },
+                    "type": "object"
+                },
+                "cnt_samples": {
+                    "additionalProperties": false,
+                    "description": "Sample related counts",
+                    "properties": {
+                        "deleted": {
+                            "type": "integer"
+                        },
+                        "has_mol_data": {
+                            "type": "integer"
+                        },
+                        "has_public_ready_seq_data": {
+                            "type": "integer"
+                        },
+                        "has_seq_data": {
+                            "type": "integer"
+                        },
+                        "loaded": {
+                            "type": "integer"
+                        },
+                        "suppressed": {
+                            "type": "integer"
+                        },
+                        "updated": {
+                            "type": "integer"
+                        }
+                    },
+                    "type": "object"
+                },
+                "cnt_seq_samples": {
+                    "additionalProperties": false,
+                    "description": "Sequence/SRA sample related counts",
+                    "properties": {
+                        "deleted": {
+                            "type": "integer"
+                        },
+                        "empty": {
+                            "type": "integer"
+                        },
+                        "error": {
+                            "type": "integer"
+                        },
+                        "processing": {
+                            "type": "integer"
+                        },
+                        "public": {
+                            "type": "integer"
+                        },
+                        "ready": {
+                            "type": "integer"
+                        },
+                        "waiting_for_data": {
+                            "type": "integer"
+                        }
+                    },
+                    "type": "object"
+                },
+                "cnt_seq_subjects": {
+                    "additionalProperties": false,
+                    "description": "Sequence/SRA subjects related counts",
+                    "properties": {
+                        "deleted": {
+                            "type": "integer"
+                        },
+                        "error": {
+                            "type": "integer"
+                        },
+                        "processing": {
+                            "type": "integer"
+                        },
+                        "public": {
+                            "type": "integer"
+                        },
+                        "ready": {
+                            "type": "integer"
+                        },
+                        "waiting_for_data": {
+                            "type": "integer"
+                        }
+                    },
+                    "type": "object"
+                },
+                "cnt_subjects": {
+                    "additionalProperties": false,
+                    "description": "Subject related counts",
+                    "properties": {
+                        "deleted": {
+                            "type": "integer"
+                        },
+                        "has_mol_data": {
+                            "type": "integer"
+                        },
+                        "has_public_ready_seq_data": {
+                            "type": "integer"
+                        },
+                        "has_seq_data": {
+                            "type": "integer"
+                        },
+                        "loaded": {
+                            "type": "integer"
+                        }
+                    },
+                    "type": "object"
+                },
+                "prev_diff": {
+                    "additionalProperties": false,
+                    "description": "Subject/sample diff between the current and the pervious study versions",
+                    "properties": {
+                        "sample": {
+                            "$ref": "#/definitions/def_diff"
+                        },
+                        "subject": {
+                            "$ref": "#/definitions/def_diff"
+                        }
+                    },
+                    "type": "object"
+                },
+                "run_status": {
+                    "additionalProperties": false,
+                    "description": "Sequence/SRA run related counts",
+                    "properties": {
+                        "deleted": {
+                            "type": "integer"
+                        },
+                        "error": {
+                            "type": "integer"
+                        },
+                        "processing": {
+                            "type": "integer"
+                        },
+                        "public": {
+                            "type": "integer"
+                        },
+                        "ready": {
+                            "type": "integer"
+                        },
+                        "waiting_for_data": {
+                            "type": "integer"
+                        }
+                    },
+                    "type": "object"
+                },
+                "studies_with_overlapping_subjects": {
+                    "description": "Other studies that include some or all subjects from the current study",
+                    "items": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "accver": {
+                                "$ref": "#/definitions/def_accession_version"
+                            },
+                            "cnt_overlapping_subjects": {
+                                "type": "integer"
+                            },
+                            "name": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "accver",
+                            "name",
+                            "cnt_overlapping_subjects"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                }
+            },
+            "type": "object"
+        },
+        "subjects": {
+            "description": "Subjects from this study; one subject per element",
+            "items": {
+                "$ref": "#/definitions/def_subject_data"
+            },
+            "type": "array"
+        }
+    },
+    "title": "dbGaP Single Study Data Schema",
+    "type": "object"
+}

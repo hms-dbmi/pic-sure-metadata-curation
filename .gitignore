@@ -1,2 +1,5 @@
 */input/*
 *.DS_Store*
+/_etl/input/*
+/_etl/output/*
+.idea/*
