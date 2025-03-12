@@ -21,7 +21,7 @@ def fetch_study_data(study_id, output_dir):
 
     # Parameters for pagination
     page_size = 50
-    max_pages = math.ceil( (expected_pat_cnt + page_size) / page_size)
+    max_pages = math.ceil( (expected_pat_cnt) / page_size)
     print(f'Processing Pages: {max_pages}')# Set an upper limit to avoid infinite requests (adjust based on API limits)
     concurrent_requests = 3  # Number of parallel requests# Number of parallel requests
     all_data = []
@@ -134,7 +134,7 @@ def fetch_study_data(study_id, output_dir):
 
                 else:
                     failed_pages += 1
-                    print(f"Page {page} failed to process.")
+                    print(f"Page {page} failed to process. No subjects found.")
             except Exception as e:
                 failed_pages += 1
                 print(f"Error processing page {page}: {e}")
