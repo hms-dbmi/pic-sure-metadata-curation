@@ -113,7 +113,6 @@ def fetch_study_data(study_id, output_dir):
     # Run API requests in parallel
     with ThreadPoolExecutor(max_workers=concurrent_requests) as executor:
         future_to_page = {executor.submit(fetch_page, page): page for page in range(1, max_pages + 1)}
-
         for future in as_completed(future_to_page):
             page = future_to_page[future]
             try:
@@ -133,7 +132,6 @@ def fetch_study_data(study_id, output_dir):
                     for key, value in processed_summary["phs_counts"].items():
                         summary["phs_counts"][key] += value
 
-                    print(f"Page {page} processed.")
                 else:
                     failed_pages += 1
                     print(f"Page {page} failed to process.")
