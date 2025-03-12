@@ -4,6 +4,7 @@ import json
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import math
+import time
 
 def get_sstr_summary(study_id):
     summary_url = f"https://www.ncbi.nlm.nih.gov/gap/sstr/api/v1/study/{study_id}/summary"
@@ -36,14 +37,30 @@ def fetch_study_data(study_id, output_dir):
     # Function to fetch a single page of data
     def fetch_page(page):
         url = f'{base_url}?page={page}&page_size={page_size}'
-        response = requests.get(url, headers={'accept': 'application/json'})
+        retries = 3
+        backoff_factor = 2
 
-        if response.status_code != 200:
-            print(f'Failed to retrieve data for page {page}: {response.status_code}')
-            return None
+        for attempt in range(retries):
+            try:
+                response = requests.get(url, headers={'accept': 'application/json'})
+                if response.status_code == 200:
+                    data = response.json()
+                    return data.get('subjects', [])
+                else:
+                    print(f'Failed to retrieve data for page {page}: {response.status_code}')
+                    if attempt < retries - 1:
+                        sleep_time = backoff_factor ** attempt
+                        print(f'Retrying page {page} in {sleep_time} seconds...')
+                        time.sleep(sleep_time)
+            except requests.RequestException as e:
+                print(f'Error fetching page {page}: {e}')
+                if attempt < retries - 1:
+                    sleep_time = backoff_factor ** attempt
+                    print(f'Retrying page {page} in {sleep_time} seconds...')
+                    time.sleep(sleep_time)
 
-        data = response.json()
-        return data.get('subjects', [])
+        print(f'Failed to retrieve data for page {page} after {retries} attempts.')
+        return None
 
     # Function to process subjects from a page
     def process_subjects(subjects):
