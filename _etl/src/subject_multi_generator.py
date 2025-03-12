@@ -34,6 +34,8 @@ def fetch_study_data(study_id, output_dir):
         "phs_counts": defaultdict(int),
     }
 
+    failed_pages = 0  # Initialize counter for failed pages
+
     # Function to fetch a single page of data
     def fetch_page(page):
         url = f'{base_url}?page={page}&page_size={page_size}'
@@ -131,31 +133,18 @@ def fetch_study_data(study_id, output_dir):
                     for key, value in processed_summary["phs_counts"].items():
                         summary["phs_counts"][key] += value
 
-                print(f"Page {page} processed.")
+                    print(f"Page {page} processed.")
+                else:
+                    failed_pages += 1
+                    print(f"Page {page} failed to process.")
             except Exception as e:
+                failed_pages += 1
                 print(f"Error processing page {page}: {e}")
-
-    # Define the exact column order
-    column_order = [
-        'dbgap_subject_id', 'submitted_subject_id', 'consent_code', 'consent_abbreviation',
-        'has_image', 'case_control', 'dbgap_sample_id', 'submitted_sample_id',
-        'biosample_id', 'sra_sample_id', 'phs', 'study_key'
-    ]
-
-    # subject multi writer
-    if all_data:
-        filename = f'{output_dir}/{study_id}.Subject.MULTI.tsv'
-        with open(filename, 'w', newline='', encoding='utf-8') as output_file:
-            dict_writer = csv.DictWriter(output_file, fieldnames=column_order, delimiter='\t')
-            dict_writer.writeheader()
-            dict_writer.writerows(all_data)
-        print(f'Data successfully written to {filename}')
-    else:
-        print('No data to write.')
 
     # Convert defaultdicts to normal dicts for JSON serialization
     summary["consent_code_counts"] = dict(summary["consent_code_counts"])
     summary["phs_counts"] = dict(summary["phs_counts"])
+    summary["failed_pages"] = failed_pages  # Add failed pages count to the summary
 
     # Save summary report as JSON
     summary_filename = f"{output_dir}/{study_id}_file_summary_report.json"
