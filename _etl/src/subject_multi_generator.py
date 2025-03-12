@@ -14,16 +14,14 @@ def get_sstr_summary(study_id):
     return response.json()
 
 def fetch_study_data(study_id, output_dir):
-    # Base URL of the API endpoint
     base_url = f'https://www.ncbi.nlm.nih.gov/gap/sstr/api/v1/study/{study_id}/subjects'
     summary_data = get_sstr_summary(study_id)
     expected_pat_cnt = summary_data.get('study_stats').get('cnt_subjects').get('loaded')
 
-    # Parameters for pagination
     page_size = 50
     max_pages = math.ceil( (expected_pat_cnt) / page_size)
-    print(f'Processing Pages: {max_pages}')# Set an upper limit to avoid infinite requests (adjust based on API limits)
-    concurrent_requests = 3  # Number of parallel requests# Number of parallel requests
+    print(f'Processing Pages: {max_pages}')
+    concurrent_requests = 3
     all_data = []
     summary = {
         "total_subjects": 0,
@@ -138,6 +136,24 @@ def fetch_study_data(study_id, output_dir):
             except Exception as e:
                 failed_pages += 1
                 print(f"Error processing page {page}: {e}")
+
+    # Define the exact column order
+    column_order = [
+        'dbgap_subject_id', 'submitted_subject_id', 'consent_code', 'consent_abbreviation',
+        'has_image', 'case_control', 'dbgap_sample_id', 'submitted_sample_id',
+        'biosample_id', 'sra_sample_id', 'phs', 'study_key'
+    ]
+
+    # subject multi writer
+    if all_data:
+        filename = f'{output_dir}/{study_id}.Subject.MULTI.tsv'
+        with open(filename, 'w', newline='', encoding='utf-8') as output_file:
+            dict_writer = csv.DictWriter(output_file, fieldnames=column_order, delimiter='\t')
+            dict_writer.writeheader()
+            dict_writer.writerows(all_data)
+        print(f'Data successfully written to {filename}')
+    else:
+        print('No data to write.')
 
     # Convert defaultdicts to normal dicts for JSON serialization
     summary["consent_code_counts"] = dict(summary["consent_code_counts"])
