@@ -93,8 +93,8 @@ def build_metadata_json(study_id, abv_name, alt_name, output_dir, input_dir, sch
         "study_name": full_name,
         "study": study,
         "study_phs_number": study_phs_number,
-        "study_url": f"https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id={study_id}",
-        "sstr_url": f"https://www.ncbi.nlm.nih.gov/gap/sstr/api/v1/study/{study_id}/summary",
+        "study_url": f"https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id={study_phs_number}",
+        "sstr_url": f"https://www.ncbi.nlm.nih.gov/gap/sstr/api/v1/study/{study_phs_number}/summary",
         "form_group": [{
             "form_group": "General",
             "form": [{
