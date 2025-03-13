@@ -71,12 +71,12 @@ def build_metadata_json(study_id, abv_name, output_dir, input_dir, schema_path):
 
     data = get_sstr_summary(study_id)
 
-    not_used = data.get('study').get('repository')
-    study = data.get('study').get('handle')
-    admin_ic = data.get('study').get('admin_ic')
+    not_used = data.get('study', {}).get('repository', {})
+    study = data.get('study', {}).get('handle', {})
+    admin_ic = data.get('study', {}).get('admin_ic', {})
     study_status = data.get('study').get('study_status')
-    full_name = data.get('study').get('name')
-    study_phs_number = data.get('study', {}).get('accver', {}).get('accession')
+    full_name = data.get('study', {}).get('name', {})
+    study_phs_number = data.get('study', {}).get('accver', {}).get('accession', {})
 
     variables = [
         {
@@ -110,7 +110,7 @@ def build_metadata_json(study_id, abv_name, output_dir, input_dir, schema_path):
         }]
     }]
 
-    output_filepath = os.path.join(output_dir, f"{study.tolower()}_metadata.json")
+    output_filepath = os.path.join(output_dir, f"{study.lower}_metadata.json")
     os.makedirs(os.path.dirname(output_filepath), exist_ok=True)
 
     with open(output_filepath, "w") as f:
