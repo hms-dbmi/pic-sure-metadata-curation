@@ -110,7 +110,7 @@ def build_metadata_json(study_id, abv_name, output_dir, input_dir, schema_path):
         }]
     }]
 
-    output_filepath = os.path.join(output_dir, f"{study_id}_metadata.json")
+    output_filepath = os.path.join(output_dir, f"{study.tolower()}_metadata.json")
     os.makedirs(os.path.dirname(output_filepath), exist_ok=True)
 
     with open(output_filepath, "w") as f:
