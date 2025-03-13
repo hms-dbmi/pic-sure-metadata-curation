@@ -39,7 +39,7 @@ def validate_metadata(metadata, schema):
         print(f"Invalid value: {e.instance}")
         return False
 
-def build_metadata_json(study_id, abv_name, output_dir, input_dir, schema_path):
+def build_metadata_json(study_id, abv_name, alt_name, output_dir, input_dir, schema_path):
     """Generate metadata JSON based on study list and validate it against a schema."""
     schema = load_json_schema(schema_path)
 
@@ -110,7 +110,7 @@ def build_metadata_json(study_id, abv_name, output_dir, input_dir, schema_path):
         }]
     }]
 
-    output_filepath = os.path.join(output_dir, f"{study.lower}_metadata.json")
+    output_filepath = os.path.join(output_dir, f"{alt_name}_metadata.json")
     os.makedirs(os.path.dirname(output_filepath), exist_ok=True)
 
     with open(output_filepath, "w") as f:
@@ -122,8 +122,8 @@ def build_metadata_json(study_id, abv_name, output_dir, input_dir, schema_path):
 
     print(f"Metadata JSON created and validated for {study_id}: {output_filepath}")
 
-def main(study_id, abv_name, output_dir='./output/', input_dir='./input/', schema_path="./configs/metadata.schema.json"):
-    build_metadata_json(study_id, abv_name, output_dir, input_dir, schema_path)
+def main(study_id, abv_name, alt_name, output_dir='./output/', input_dir='./input/', schema_path="./configs/metadata.schema.json"):
+    build_metadata_json(study_id, abv_name, alt_name, output_dir, input_dir, schema_path)
 
 if __name__ == "__main__":
     main()
