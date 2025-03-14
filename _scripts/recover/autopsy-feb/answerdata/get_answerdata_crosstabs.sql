@@ -14,7 +14,8 @@ CREATE OR REPLACE FUNCTION get_answerdata_crosstabs()
 	    set search_path = input;
 	    --table naming structure is (form_name)_(field_name) - one field can have many concepts
 	    --limiting tables to just form can result in too many columns for one table
-		SELECT array_agg(ARRAY[form_name, field_name]) into table_names from answerdata group by form_name, field_name;
+        select array_agg(formfield) from
+            (SELECT ARRAY[form_name, field_name] as formfield into table_names from answerdata group by form_name, field_name)ini;
      	FOR i IN 1 .. array_upper(table_names, 1)
 
        		LOOP
