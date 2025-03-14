@@ -19,10 +19,10 @@ def fetch_study_data(study_id, output_dir):
     expected_pat_cnt = summary_data.get('study_stats', {}).get('cnt_subjects', {}).get('loaded', {})
     accession = summary_data.get('study', {}).get('accver', {}).get('accession')
     version = summary_data.get('study', {}).get('accver', {}).get('version')
-    part_set = summary_data.get('study', {}).get('accver', {}).get('part_set')
+    part_set = summary_data.get('study', {}).get('accver', {}).get('participant_set')
 
-    accession_version = f"{accession}.{version}"
-    accession_version_ps = f"{accession}.{version}.{part_set}"
+    accession_version = f"{accession}.v{version}"
+    accession_version_ps = f"{accession}.v{version}.p{part_set}"
 
     page_size = 50
     max_pages = math.ceil( (expected_pat_cnt) / page_size)
