@@ -14,11 +14,11 @@ CREATE OR REPLACE FUNCTION get_answerdata_crosstabs()
 	    set search_path = input;
 	    --table naming structure is (form_name)_(field_name) - one field can have many concepts
 	    --limiting tables to just form can result in too many columns for one table
-		SELECT array_agg(distinct(ARRAY[form_name, field_name])) into table_names from answerdata;
+		SELECT array_agg(ARRAY[form_name, field_name]) into table_names from answerdata group by form_name, field_name;
      	FOR i IN 1 .. array_upper(table_names, 1)
 
        		LOOP
-       		--raise notice 'Building table for form % and field %', table_names[i][1], table_names[i][2];
+       		raise notice 'Building table for form % and field %', table_names[i][1], table_names[i][2];
 
 
             --get participant/value pairs for each concept in the given form/field pair
@@ -67,7 +67,7 @@ CREATE OR REPLACE FUNCTION get_answerdata_crosstabs()
 			            ')';
 
 
-			--raise notice '%', create_table_statement;
+			raise notice '%', create_table_statement;
 			EXECUTE create_table_statement;
 			end loop;
 	END
