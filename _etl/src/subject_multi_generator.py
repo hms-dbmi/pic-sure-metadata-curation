@@ -16,7 +16,13 @@ def get_sstr_summary(study_id):
 def fetch_study_data(study_id, output_dir):
     base_url = f'https://www.ncbi.nlm.nih.gov/gap/sstr/api/v1/study/{study_id}/subjects'
     summary_data = get_sstr_summary(study_id)
-    expected_pat_cnt = summary_data.get('study_stats').get('cnt_subjects').get('loaded')
+    expected_pat_cnt = summary_data.get('study_stats', {}).get('cnt_subjects', {}).get('loaded', {})
+    accession = summary_data.get('study', {}).get('accver', {}).get('accession')
+    version = summary_data.get('study', {}).get('accver', {}).get('version')
+    part_set = summary_data.get('study', {}).get('accver', {}).get('part_set')
+
+    accession_version = f"{accession}.{version}"
+    accession_version_ps = f"{accession}.{version}.{part_set}"
 
     page_size = 50
     max_pages = math.ceil( (expected_pat_cnt) / page_size)
@@ -32,9 +38,8 @@ def fetch_study_data(study_id, output_dir):
         "phs_counts": defaultdict(int),
     }
 
-    failed_pages = 0  # Initialize counter for failed pages
+    failed_pages = 0
 
-    # Function to fetch a single page of data
     def fetch_page(page):
         url = f'{base_url}?page={page}&page_size={page_size}'
         retries = 3
@@ -146,7 +151,7 @@ def fetch_study_data(study_id, output_dir):
 
     # subject multi writer
     if all_data:
-        filename = f'{output_dir}/{study_id}.Subject.MULTI.tsv'
+        filename = f'{output_dir}/{accession_version_ps}.Subject.MULTI.tsv'
         with open(filename, 'w', newline='', encoding='utf-8') as output_file:
             dict_writer = csv.DictWriter(output_file, fieldnames=column_order, delimiter='\t')
             dict_writer.writeheader()
@@ -161,7 +166,7 @@ def fetch_study_data(study_id, output_dir):
     summary["failed_pages"] = failed_pages  # Add failed pages count to the summary
 
     # Save summary report as JSON
-    summary_filename = f"{output_dir}/{study_id}_file_summary_report.json"
+    summary_filename = f"{output_dir}/{accession_version_ps}_file_summary_report.json"
     summary_json = json.dumps(summary, indent=4)
     with open(summary_filename, "w", encoding="utf-8") as summary_file:
         summary_file.write(summary_json)

@@ -14,12 +14,17 @@ def convert_sas_to_csv(sas_file_path, csv_file_path, decode_labels=True):
     report = {
         "file": sas_file_path,
         "missing_variable_labels": [],
-        "empty_variable_label_mappings": False
+        "empty_variable_label_mappings": False,
+        "empty_column_label_mappings": False
     }
 
     # Check if value labels exist
     if not meta.variable_value_labels:
         report["empty_variable_label_mappings"] = True
+
+    # Check if value labels exist
+    if not meta.column_names_to_labels:
+        report["empty_column_label_mappings"] = True
 
     if decode_labels:
         new_column_names = {
