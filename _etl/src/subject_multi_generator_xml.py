@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 import os
 
+# examine this against the multi gen sstr should use same return object than do what it needs
 def generate_study_xml(study_id, output_dir="./output"):
 
     summary_url = f"https://www.ncbi.nlm.nih.gov/gap/sstr/api/v1/study/{study_id}/summary"
@@ -63,7 +64,7 @@ def generate_study_xml(study_id, output_dir="./output"):
     os.makedirs(output_dir, exist_ok=True)
 
     # Save to a file
-    xml_filename = os.path.join(output_dir, f"{study_id}.{participant_set}.Subject.MULTI.xml")
+    xml_filename = os.path.join(output_dir, f"{study_id}.{participant_set}.Subject.MULTI.data_dict.xml")
     with open(xml_filename, "w", encoding="utf-8") as xml_file:
         xml_file.write(xml_str)
 
