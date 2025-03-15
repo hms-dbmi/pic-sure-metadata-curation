@@ -16,7 +16,7 @@ DEFAULT_OUTPUT_DIR = "./output"
 XML_ENCODING = "utf-8"
 REQUEST_TIMEOUT = 10  # seconds
 DATE_FORMAT = "%a %b %d %H:%M:%S %Y"
-FILENAME_TEMPLATE = "{study_id}.{participant_set}.subjects.MULTI.data_dict.xml"
+FILENAME_TEMPLATE = "{study_id}.{participant_set}.pht1.subjects.MULTI.data_dict.xml"
 
 def sanitize_filename_component(value):
     """
