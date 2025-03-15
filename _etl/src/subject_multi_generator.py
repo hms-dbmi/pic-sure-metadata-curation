@@ -151,7 +151,7 @@ def fetch_study_data(study_id, output_dir):
 
     # subject multi writer
     if all_data:
-        filename = f'{output_dir}/{accession_version_ps}.Subject.MULTI.tsv'
+        filename = f'{output_dir}/{accession_version_ps}.Subject.MULTI.txt'
         with open(filename, 'w', newline='', encoding='utf-8') as output_file:
             dict_writer = csv.DictWriter(output_file, fieldnames=column_order, delimiter='\t')
             dict_writer.writeheader()
