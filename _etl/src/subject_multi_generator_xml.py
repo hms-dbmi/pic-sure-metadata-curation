@@ -20,7 +20,7 @@ FILENAME_TEMPLATE = "{study_id}.{participant_set}.subjects.MULTI.data_dict.xml"
 
 def sanitize_filename_component(value):
     """
-    Sanitize a string to be safe for filenames by allowing only alphanumeric characters, hyphens, and underscores.
+    Sanitize a string to be safe for filenames by allowing only alphanumeric characters, hyphens, underscores, and periods.
 
     Args:
         value (str): The input string to sanitize.
@@ -28,7 +28,7 @@ def sanitize_filename_component(value):
     Returns:
         str: The sanitized string safe for filenames.
     """
-    return "".join(c for c in value if c.isalnum() or c in ('-', '_')).rstrip()
+    return "".join(c for c in value if c.isalnum() or c in ('-', '_', '.')).rstrip()
 
 def generate_filename(study_id, participant_set, output_dir):
     """
