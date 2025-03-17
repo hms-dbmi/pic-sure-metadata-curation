@@ -1,11 +1,11 @@
 drop table if exists processing_metadata.biospecimens_meta;
 create table processing_metadata.biospecimens_meta as (
     select
-    '' || study_id || '' as dataset_ref,
-    lower(regexp_replace(biospecimens.specimen_concept_cd, ':', '_')) || '_kit_id' as name,
+        meta_utils_id.value as dataset_ref,
+    lower(regexp_replace(biospecimens.specimen_concept_cd, ':', '_')) || '_kit_id' || meta_utils_suffix.value as name,
     specimen_type as display,
     'categorical' as concept_type,
-    '\' || study_id || '\RECOVER_Autopsy\biospecimens\' ||  lower(regexp_replace(biospecimens.specimen_concept_cd, ':', '_')) || '_kit_id' || '\' as concept_path,
+    '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biospecimens\' ||  lower(regexp_replace(biospecimens.specimen_concept_cd, ':', '_')) || '_kit_id' || '\' as concept_path,
     json_build_object(
         --metadata key: description
         'description',
@@ -16,7 +16,7 @@ create table processing_metadata.biospecimens_meta as (
         || ' See biospecimen.tsv file for further specimen information.' ,
         --metadata key: drs_uri
         'drs_uri',
-        '["drs://dg.4503:dg.4503%2F1933aeae-c9ea-472f-8925-5d69d5edccd4"]'
+        drs.uri
     ) as metadata
     from
     (select specimen_concept_cd, specimen_type from input.biospecimens group by specimen_concept_cd, specimen_type)  as biospecimens
@@ -29,4 +29,11 @@ create table processing_metadata.biospecimens_meta as (
         from input.biospecimens
         group by specimen_concept_cd) as ad
     on ad.specimen_concept_cd = biospecimens.specimen_concept_cd
+    left join  (select value from resources.meta_utils where key = 'study_id') as meta_utils_id on true
+    left join (select value from resources.meta_utils where key = 'dataset_name') as meta_utils_name on true
+    left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix on true
+    left join (select array_to_json(array_agg(ga4gh_drs_uri))::text as uri
+               from resources.manifest
+               where (file_name ~* 'biospecimens')
+                 and file_name ~* (select value from resources.meta_utils where key = 'dataset_name')) as drs on true
 );

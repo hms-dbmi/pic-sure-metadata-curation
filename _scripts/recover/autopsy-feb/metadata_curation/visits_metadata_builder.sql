@@ -1,13 +1,13 @@
 drop table if exists processing_metadata.visits_meta;
 create table if not exists processing_metadata.visits_meta as
 
-select 'phs003768' as dataset_ref,
+select '' || study_id || '' as dataset_ref,
 colname|| '_' || visit_id as name,
 colname || ' (' || visit_id || ')' as display,
 (case when data_type = 'numeric' then 'continuous'
     else 'categorical'
     end) as concept_type,
-'\phs003768\RECOVER_Autopsy\visits\' || lower(colname|| '_' || visit_id)|| '\' as concept_path,
+'\' || study_id || '\RECOVER_Autopsy\visits\' || lower(colname|| '_' || visit_id)|| '\' as concept_path,
  json_build_object(
         --metadata key: description
         'description',

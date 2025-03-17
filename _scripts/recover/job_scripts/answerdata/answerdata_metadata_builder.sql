@@ -32,8 +32,8 @@ drop table if exists processing_metadata.answerdata_meta;
 --answerdata
 create table processing_metadata.answerdata_meta as (
     select
-        (select value from resources.meta_utils where key = 'study_id' ) as dataset_ref,
-    lower(concept_code) as name,
+        meta_utils_id.value as dataset_ref,
+    lower(concept_code) || '_' || meta_utils_name.value as name,
     concept_name as display,
     (case when field_type = 'numeric' then 'continuous'
     else 'categorical'
@@ -48,16 +48,19 @@ create table processing_metadata.answerdata_meta as (
         else '' end) ,
         --metadata key: drs_uri
         'drs_uri',
-        (select array_to_json(array_agg(ga4gh_drs_uri))::text
-            from resources.manifest
-            where (file_name ~* 'answerdata' or file_name ~* 'concepts')
-            and file_name ~* (select value from resources.meta_utils where key = 'dataset_name'))
+        drs.uri
     ) as metadata
     from input.concepts left join
     (select concept_cd, min(field_type) as field_type, array_agg(distinct(answer_label)) as answer_label,
     min(answer_numeric_val::numeric) as min_numeric, max(answer_numeric_val::numeric) as max_numeric, array_agg(distinct(answer_text_val)) as text_val
     from input.answerdata
     group by concept_cd) as ad on ad.concept_cd = concepts.concept_code
+                        left join  (select value from resources.meta_utils where key = 'study_id') as meta_utils_id on true
+                        left join (select value from resources.meta_utils where key = 'dataset_name') as meta_utils_name on true
+                        left join (select array_to_json(array_agg(ga4gh_drs_uri))::text as uri
+                                   from resources.manifest
+                                   where (file_name ~* 'answerdata' or file_name ~* 'concepts')
+                                     and file_name ~* (select value from resources.meta_utils where key = 'dataset_name')) as drs on true
 );
 
 delete from processing_metadata.answerdata_meta where name not in

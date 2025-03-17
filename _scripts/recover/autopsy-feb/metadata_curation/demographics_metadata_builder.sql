@@ -1,11 +1,11 @@
 drop table if exists processing_metadata.demographics_meta;
 create table processing_metadata.demographics_meta as
 (
-select 'phs003768' as dataset_ref,
+select '' || study_id || '' as dataset_ref,
 colname as name,
 regexp_replace(colname, '_demo', '') || ' (demographics)' as display,
 'categorical' as concept_type,
-'\phs003768\RECOVER_Autopsy\demographics\' || lower(colname)|| '\' as concept_path,
+'\' || study_id || '\RECOVER_Autopsy\demographics\' || lower(colname)|| '\' as concept_path,
  json_build_object(
         --metadata key: description
         'description',
