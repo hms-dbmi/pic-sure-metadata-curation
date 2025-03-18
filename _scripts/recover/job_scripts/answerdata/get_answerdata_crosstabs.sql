@@ -18,8 +18,7 @@ BEGIN
 select array_agg(formfield) from
     (SELECT ARRAY[form_name, field_name] as formfield into table_names from answerdata group by form_name, field_name)ini;
     select value into dataset_name from resources.meta_utils where key = 'dataset_name';
-FOR i IN 1 .. 1
---array_upper(table_names, 1)
+FOR i IN 1 .. array_upper(table_names, 1)
 
        		LOOP
        		raise notice 'Building table for form % and field %', table_names[i][1], table_names[i][2];
