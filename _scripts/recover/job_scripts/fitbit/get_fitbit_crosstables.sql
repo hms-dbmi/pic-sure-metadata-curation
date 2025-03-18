@@ -1,5 +1,5 @@
 do LANGUAGE Plpgsql $$BEGIN
-raise notice 'starting curation of fitbit data';
+raise INFO 'starting curation of fitbit data';
 END$$;
 CREATE OR REPLACE FUNCTION get_fitbit_crosstabs()
 	returns void as
@@ -24,7 +24,7 @@ CREATE OR REPLACE FUNCTION get_fitbit_crosstabs()
                                    '''select distinct(fitbit_concept_cd) as concept_cd from input.fitbit
                 where fitbit_concept_cd ~ ''''.*weekly.*''''order by 1''
         ) as ct(participant_id varchar, '|| array_to_string(weekly_col_names, ', ')||'));';
-        --raise notice '%', weekly_crosstabs_statement;
+        --raise INFO '%', weekly_crosstabs_statement;
         execute weekly_crosstabs_statement;
 
         select array_agg(quote_ident(concept_cd) || ' varchar') into alltime_col_names from (
@@ -39,12 +39,12 @@ CREATE OR REPLACE FUNCTION get_fitbit_crosstabs()
                                    '''select distinct(fitbit_concept_cd) as concept_cd from input.fitbit
                 where fitbit_concept_cd ~ ''''.*alltime.*'''' order by 1''
        ) as ct(participant_id varchar, '|| array_to_string(weekly_col_names, ', ')||'));';
-         --raise notice '%', alltime_crosstabs_statement;
+         --raise INFO '%', alltime_crosstabs_statement;
         execute alltime_crosstabs_statement;
     END
     $$ LANGUAGE Plpgsql;
 
 select * from get_fitbit_crosstabs();
 do LANGUAGE Plpgsql $$BEGIN
-raise notice 'successfully completed curation of fitbit data';
+raise INFO 'successfully completed curation of fitbit data';
 END$$;

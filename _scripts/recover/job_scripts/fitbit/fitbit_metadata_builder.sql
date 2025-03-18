@@ -1,5 +1,5 @@
 do LANGUAGE Plpgsql $$BEGIN
-raise notice 'starting curation of fitbit metadata';
+raise INFO 'starting curation of fitbit metadata';
 END$$;
 CREATE SCHEMA IF NOT EXISTS processing_metadata;
 DROP TABLE IF EXISTS processing_metadata.fitbit_meta;
@@ -54,5 +54,5 @@ CREATE TABLE processing_metadata.fitbit_meta AS (
                       ) AS drs ON TRUE
                                                 );
 do LANGUAGE Plpgsql $$BEGIN
-raise notice 'successfully completed curation of fitbit metadata';
+raise INFO 'successfully completed curation of fitbit metadata';
 END$$;

@@ -1,5 +1,5 @@
 do LANGUAGE Plpgsql $$BEGIN
-raise notice 'starting curation of derived core proc data';
+raise INFO 'starting curation of derived core proc data';
 END$$;
 CREATE OR REPLACE FUNCTION copy_derived_core_table()
     returns void as
@@ -23,5 +23,5 @@ END
 $$ LANGUAGE Plpgsql;
 select * from copy_derived_core_table();
 do LANGUAGE Plpgsql $$BEGIN
-raise notice 'successfully completed curation of derived core proc data';
+raise INFO 'successfully completed curation of derived core proc data';
 END$$;

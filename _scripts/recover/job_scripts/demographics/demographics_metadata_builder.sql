@@ -1,5 +1,5 @@
 do LANGUAGE Plpgsql $$BEGIN
-raise notice 'starting creation of table for demographics metadata';
+raise INFO 'starting creation of table for demographics metadata';
 END$$;
 drop table if exists processing_metadata.demographics_meta;
 create table processing_metadata.demographics_meta as
@@ -38,5 +38,5 @@ select
 
 );
 do LANGUAGE Plpgsql $$BEGIN
-raise notice 'successfully established table for demographics metadata';
+raise INFO 'successfully established table for demographics metadata';
 END$$

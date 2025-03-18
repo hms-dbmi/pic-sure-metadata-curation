@@ -1,6 +1,6 @@
 DO LANGUAGE Plpgsql $$
     BEGIN
-        RAISE NOTICE 'starting curation of visits metadata';
+        RAISE INFO 'starting curation of visits metadata';
     END
 $$;
 CREATE SCHEMA IF NOT EXISTS processing_metadata;
@@ -56,6 +56,6 @@ CREATE TABLE IF NOT EXISTS processing_metadata.visits_meta AS
 DO LANGUAGE Plpgsql $$
     BEGIN
 
-        RAISE NOTICE 'successfully completed curation of visits metadata';
+        RAISE INFO 'successfully completed curation of visits metadata';
     END
 $$;

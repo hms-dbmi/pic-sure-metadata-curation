@@ -1,5 +1,5 @@
 do LANGUAGE Plpgsql $$BEGIN
-raise notice 'starting curation of derived core proc metadata';
+raise INFO 'starting curation of derived core proc metadata';
 END$$;
 create schema if not exists processing_metadata;
 drop table if exists processing_metadata.derived_core_meta;
@@ -40,6 +40,6 @@ where colname != 'record_id'
 group by colname, data_type, meta_utils_id.value, meta_utils_name.value,meta_utils_suffix.value, drs.uri;
 
 do LANGUAGE Plpgsql $$BEGIN
-raise notice 'successfully completed curation of derived core proc metadata';
+raise INFO 'successfully completed curation of derived core proc metadata';
 END$$;
 

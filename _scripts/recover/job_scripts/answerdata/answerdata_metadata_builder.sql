@@ -1,6 +1,6 @@
 DO LANGUAGE Plpgsql $$
     BEGIN
-        RAISE NOTICE 'starting creation of table for answerdata metadata';
+        RAISE INFO 'starting creation of table for answerdata metadata';
     END
 $$;
 CREATE OR REPLACE FUNCTION clean_path(
@@ -97,6 +97,6 @@ DELETE
                       );
 DO LANGUAGE Plpgsql $$
     BEGIN
-        RAISE NOTICE 'completed creation of table for answerdata metadata';
+        RAISE INFO 'completed creation of table for answerdata metadata';
     END
 $$;

@@ -24,10 +24,10 @@ BEGIN
                 SELECT ARRAY [form_name, field_name] as formfield into table_names from answerdata group by form_name, field_name
             ) ini;
     select value into dataset_name from resources.meta_utils where key = 'dataset_name';
-    raise notice 'Starting creation of % table(s) from form/field pairs in answerdata', array_upper(table_names, 1);
+    raise INFO 'Starting creation of % table(s) from form/field pairs in answerdata', array_upper(table_names, 1);
     FOR i IN 1 .. array_upper(table_names, 1)
         LOOP
-        --raise notice 'Building table for form % and field %', table_names[i][1], table_names[i][2];
+        --raise INFO 'Building table for form % and field %', table_names[i][1], table_names[i][2];
 
 
         --get participant/value pairs for each concept in the given form/field pair
@@ -46,14 +46,14 @@ BEGIN
                 from answerdata
                 where form_name = ' || quote_literal(table_names[i][1]) || ' and ' ||
             'field_name = ' || quote_literal(table_names[i][2]) || ' order by 1,2';
-            --raise notice 'arg1: %', crosstabs_arg_1;
+            --raise INFO 'arg1: %', crosstabs_arg_1;
 
             --sets order of concepts by getting distinct concept list and ordering on it
             crosstabs_arg_2 =
             'select distinct(concept_cd) from answerdata ' ||
             'where form_name = ' || quote_literal(table_names[i][1])
                 || ' and field_name = ' || quote_literal(table_names[i][2]) || ' order by 1';
-            --raise notice 'arg2: %', crosstabs_arg_2;
+            --raise INFO 'arg2: %', crosstabs_arg_2;
 
             --gets the array of columns for the given form and field, and concats it with "varchar"
             --to complete the explicit table declaration
@@ -61,7 +61,7 @@ BEGIN
             'SELECT array_agg(distinct(quote_ident(lower(concept_cd))) || '' varchar'') from answerdata ' ||
             'where form_name = ''' || table_names[i][1] || ''' and field_name = ''' || table_names[i][2]
                 || '''  group by form_name, field_name;';
-            --raise notice 'col array: %', get_cols_statement;
+            --raise INFO 'col array: %', get_cols_statement;
 
             execute get_cols_statement into col_names;
             --piece all the elements together into one statement that performs the crosstab
@@ -76,11 +76,11 @@ BEGIN
             ')';
 
 
-            --raise notice '%', create_table_statement;
+            --raise INFO '%', create_table_statement;
             EXECUTE create_table_statement;
             table_count = table_count + 1;
         end loop;
-    raise notice 'Successfully created % table(s) from form/field pairs in answerdata file', table_count;
+    raise INFO 'Successfully created % table(s) from form/field pairs in answerdata file', table_count;
 END
 $$
     LANGUAGE Plpgsql;
