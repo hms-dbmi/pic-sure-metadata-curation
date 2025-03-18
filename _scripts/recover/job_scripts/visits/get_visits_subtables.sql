@@ -26,7 +26,7 @@ CREATE OR REPLACE FUNCTION get_visits_subtables_with_visit_id()
                     array_to_string(column_names, ', ')
                  ||
                     ' from input.visits where replace(lower(visit_id), '' '', ''_'') = ' || quote_literal(t_name) || ')';
-            raise notice '%', table_statement;
+            --raise notice '%', table_statement;
             execute table_statement;
             table_count = table_count + 1;
         end loop;

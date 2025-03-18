@@ -21,7 +21,7 @@ CREATE OR REPLACE FUNCTION get_biospecimens_subtables()
      	table_statement='create table output_biospecimens."'|| concept_name_norm ||'"
             as (select participant_id, kit_id as "'|| concept_name_norm ||'_kit_id' || dataset_suffix|| '" from input.biospecimens
             where specimen_concept_cd = '''|| concept_name ||''')';
-        raise notice '%', table_statement;
+        --raise notice '%', table_statement;
         execute table_statement;
         table_count = table_count + 1;
         end loop;

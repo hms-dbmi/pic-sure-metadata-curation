@@ -17,7 +17,7 @@ BEGIN
         FROM information_schema.tables
         WHERE table_schema = 'processing_metadata';
 
-    merge_statement = 'create table metadata_output.metadata as (' || ARRAY_TO_STRING(table_statements, 'UNION ALL');
+    merge_statement = 'create table metadata_output.metadata as (' || ARRAY_TO_STRING(table_statements, ' UNION ALL ');
     RAISE NOTICE '%', merge_statement;
 
     EXECUTE merge_statement;
