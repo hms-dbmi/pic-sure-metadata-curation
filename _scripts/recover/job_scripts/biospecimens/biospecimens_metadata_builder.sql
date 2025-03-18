@@ -1,3 +1,6 @@
+do LANGUAGE Plpgsql $$BEGIN
+raise notice 'starting creation of table for biospecimens metadata';
+END$$;
 drop table if exists processing_metadata.biospecimens_meta;
 create table processing_metadata.biospecimens_meta as (
     select
@@ -37,3 +40,6 @@ create table processing_metadata.biospecimens_meta as (
                where (file_name ~* 'biospecimens')
                  and file_name ~* (select value from resources.meta_utils where key = 'dataset_name')) as drs on true
 );
+do LANGUAGE Plpgsql $$BEGIN
+raise notice 'successfully established table for biospecimens metadata';
+END$$

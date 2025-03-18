@@ -1,20 +1,34 @@
-create or replace function merge_metadata_tables()
-	returns void as
-	$$
-	declare table_statements text[];
-	declare merge_statement text;
-    declare dataset_name text;
-	BEGIN
-    create schema if not exists metadata_output;
-    drop table if exists metadata_output.recover_autopsy_metadata;
-    select array_agg(distinct('select * from processing_metadata.' || table_name)) into table_statements from information_schema.tables where table_schema = 'processing_metadata';
+DO LANGUAGE Plpgsql $$
+    BEGIN
+        RAISE NOTICE 'starting merge for all metadata tables in processing_metadata schema';
+    END
+$$;
 
-	merge_statement = 'create table metadata_output.recover_autopsy_metadata as (' || array_to_string(table_statements,
-'
-UNION ALL
-') || ')';
-	raise notice '%', merge_statement;
-    execute merge_statement;
-	END
+CREATE OR REPLACE FUNCTION merge_metadata_tables() RETURNS void AS $$
+DECLARE table_statements text[]; DECLARE merge_statement text; DECLARE dataset_name text;
+BEGIN
+
+    CREATE SCHEMA IF NOT EXISTS metadata_output;
+
+    DROP TABLE IF EXISTS metadata_output.metadata;
+
+    SELECT ARRAY_AGG(DISTINCT ('select * from processing_metadata.' || TABLE_NAME))
+        INTO table_statements
+        FROM information_schema.tables
+        WHERE table_schema = 'processing_metadata';
+
+    merge_statement = 'create table metadata_output.metadata as (' || ARRAY_TO_STRING(table_statements, 'UNION ALL');
+    RAISE NOTICE '%', merge_statement;
+
+    EXECUTE merge_statement;
+
+END
 $$ LANGUAGE Plpgsql;
-select * from merge_metadata_tables();
+
+SELECT * FROM merge_metadata_tables();
+
+DO LANGUAGE Plpgsql $$
+    BEGIN
+        RAISE NOTICE 'completed merge for all metadata tables in processing_metadata schema';
+    END
+$$;

@@ -1,40 +1,61 @@
-create schema if not exists processing_metadata;
-drop table if exists processing_metadata.visits_meta;
-create table if not exists processing_metadata.visits_meta as
+DO LANGUAGE Plpgsql $$
+    BEGIN
+        RAISE NOTICE 'starting curation of visits metadata';
+    END
+$$;
+CREATE SCHEMA IF NOT EXISTS processing_metadata;
+DROP TABLE IF EXISTS processing_metadata.visits_meta;
+CREATE TABLE IF NOT EXISTS processing_metadata.visits_meta AS
+      SELECT meta_utils_id.value AS dataset_ref,
+      colname || '_' || TRIM(visit_id) || meta_utils_suffix.value AS name,
+      colname || ' (' || TRIM(visit_id) || ')' AS display,
+      (CASE WHEN data_type = 'numeric' THEN 'continuous' ELSE 'categorical' END) AS concept_type,
+      '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\visits\'
+      || LOWER(colname || '_' || TRIM(visit_id)) || '\' AS concept_path,
+      JSON_BUILD_OBJECT(
+          --metadata key: description
+      'description', 'Derived from visits.tsv.' || CASE
+                                                       WHEN (colname ~ 'date') OR (colname ~ 'dt')
+                                                           THEN ' Dates have been shifted to protect anonymity.'
+                                                       ELSE ''
+                                                   END,
+          --metadata key: drs_uri
+      'drs_uri', drs.uri) AS metadata
+      FROM input.visits
+          CROSS JOIN LATERAL JSON_EACH_TEXT(ROW_TO_JSON(visits)) AS j(colname, val)
+          LEFT JOIN information_schema.columns
+              ON table_schema = 'input' AND table_name = 'visits' AND column_name = colname
+          LEFT JOIN (
+              SELECT value
+                  FROM resources.meta_utils
+                  WHERE key = 'study_id'
+                    ) AS meta_utils_id ON TRUE
+          LEFT JOIN (
+              SELECT value
+                  FROM resources.meta_utils
+                  WHERE key = 'dataset_name'
+                    ) AS meta_utils_name ON TRUE
+          LEFT JOIN (
+              SELECT value
+                  FROM resources.meta_utils
+                  WHERE key = 'dataset_suffix'
+                    ) AS meta_utils_suffix ON TRUE
+          LEFT JOIN (
+              SELECT ARRAY_TO_JSON(ARRAY_AGG(ga4gh_drs_uri))::text AS uri
+                  FROM resources.manifest
+                  WHERE
+                      (file_name ~* 'visits') AND file_name ~* (
+                      SELECT value
+                          FROM resources.meta_utils
+                          WHERE key = 'dataset_name'
+                                                               )
+                    ) AS drs ON TRUE
+      WHERE colname != 'participant_id'
+      GROUP BY colname, TRIM(visit_id), data_type, meta_utils_id.value,
+          meta_utils_name.value, meta_utils_suffix.value, visit_id, drs.uri;
+DO LANGUAGE Plpgsql $$
+    BEGIN
 
-select
-    meta_utils_id.value as dataset_ref,
-colname|| '_' || trim(visit_id) || meta_utils_suffix.value as name,
-colname || ' (' || trim(visit_id) || ')' as display,
-(case when data_type = 'numeric' then 'continuous'
-    else 'categorical'
-    end) as concept_type,
-        '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\visits\' || lower(colname|| '_' || trim(visit_id))|| '\' as concept_path,
- json_build_object(
-        --metadata key: description
-        'description',
-        'Derived from visits.tsv.' ||
-            case when (colname ~ 'date') or (colname ~ 'dt') then
-                ' Dates have been shifted to protect anonymity.'
-            else ''
-            end
-        ,
-        --metadata key: drs_uri
-        'drs_uri',
-        drs.uri
-    ) as metadata
-from input.visits
-CROSS JOIN LATERAL json_each_text(row_to_json(visits)) AS j(colname,val)
-left join information_schema.columns on table_schema = 'input' and table_name = 'visits' and column_name = colname
-left join  (select value from resources.meta_utils where key = 'study_id') as meta_utils_id on true
-left join (select value from resources.meta_utils where key = 'dataset_name') as meta_utils_name on true
-left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix on true
-left join (select array_to_json(array_agg(ga4gh_drs_uri))::text as uri
-           from resources.manifest
-           where (file_name ~* 'visits')
-             and file_name ~* (select value from resources.meta_utils where key = 'dataset_name')) as drs on true
-where colname != 'participant_id'
-group by colname, trim(visit_id), data_type, meta_utils_id.value, meta_utils_name.value,meta_utils_suffix.value, visit_id, drs.uri;
-
-
-
+        RAISE NOTICE 'successfully completed curation of visits metadata';
+    END
+$$;

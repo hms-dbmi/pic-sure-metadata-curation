@@ -1,3 +1,6 @@
+do LANGUAGE Plpgsql $$BEGIN
+raise notice 'starting curation of fitbit data';
+END$$;
 CREATE OR REPLACE FUNCTION get_fitbit_crosstabs()
 	returns void as
 	$$
@@ -42,3 +45,6 @@ CREATE OR REPLACE FUNCTION get_fitbit_crosstabs()
     $$ LANGUAGE Plpgsql;
 
 select * from get_fitbit_crosstabs();
+do LANGUAGE Plpgsql $$BEGIN
+raise notice 'successfully completed curation of fitbit data';
+END$$;

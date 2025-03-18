@@ -1,3 +1,6 @@
+do LANGUAGE Plpgsql $$BEGIN
+raise notice 'starting creation of table for demographics metadata';
+END$$;
 drop table if exists processing_metadata.demographics_meta;
 create table processing_metadata.demographics_meta as
 (
@@ -33,4 +36,7 @@ select
     where colname != 'participant_id'
     group by colname, meta_utils_id.value, meta_utils_name.value, drs.uri
 
-)
+);
+do LANGUAGE Plpgsql $$BEGIN
+raise notice 'successfully established table for demographics metadata';
+END$$

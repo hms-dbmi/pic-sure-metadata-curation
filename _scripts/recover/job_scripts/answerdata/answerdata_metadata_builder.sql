@@ -1,4 +1,6 @@
-
+do LANGUAGE Plpgsql $$BEGIN
+raise notice 'starting creation of table for answerdata metadata';
+END$$;
 CREATE OR REPLACE FUNCTION clean_path(concept_path text)
 	returns text as
 	$$
@@ -67,3 +69,6 @@ delete from processing_metadata.answerdata_meta where name not in
                                                            (select column_name from information_schema.columns where
                                                                table_schema = 'output_answerdata' and column_name != 'participant_id')
 
+    do LANGUAGE Plpgsql $$BEGIN
+    raise notice 'completed creation of table for answerdata metadata';
+    END$$;
