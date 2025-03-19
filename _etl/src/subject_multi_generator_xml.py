@@ -14,7 +14,7 @@ API_BASE_URL = "https://www.ncbi.nlm.nih.gov/gap/sstr/api/v1/study"
 XML_STYLESHEET = "./datadict_v1.xsl"
 DEFAULT_OUTPUT_DIR = "./output"
 XML_ENCODING = "utf-8"
-REQUEST_TIMEOUT = 10  # seconds
+REQUEST_TIMEOUT = 30  # seconds
 DATE_FORMAT = "%a %b %d %H:%M:%S %Y"
 FILENAME_TEMPLATE = "{study_id}.{participant_set}.pht1.Subject.MULTI.data_dict.xml"
 
