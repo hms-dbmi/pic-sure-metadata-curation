@@ -3,7 +3,7 @@ import glob
 import pyreadstat
 import json
 
-def convert_sas_to_csv(sas_file_path, csv_file_path, decode_labels=True):
+def convert_sas_to_csv(sas_file_path, csv_file_path, decode_labels=False, decode_value_labels=True):
     if not os.path.exists(sas_file_path):
         print(f"File not found: {sas_file_path}")
         return
@@ -33,7 +33,7 @@ def convert_sas_to_csv(sas_file_path, csv_file_path, decode_labels=True):
         }
         df.rename(columns=new_column_names, inplace=True)
 
-        # Decode variable value labels
+    if decode_value_labels:    # Decode variable value labels
         for col, value_labels in meta.variable_value_labels.items():
             if col in df.columns:
                 original_values = df[col].unique().tolist()
