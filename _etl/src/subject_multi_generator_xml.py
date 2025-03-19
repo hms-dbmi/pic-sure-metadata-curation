@@ -134,4 +134,12 @@ def main(study_id, output_dir=DEFAULT_OUTPUT_DIR):
     generate_study_xml(study_id, output_dir)
 
 if __name__ == "__main__":
-    main()
+    import sys
+
+    if len(sys.argv) < 2 or len(sys.argv) > 3:
+        print("Usage: python subject_multi_generator_xml.py <study_id> [<output_dir>]")
+        sys.exit(1)
+
+    study_id = sys.argv[1]
+    output_dir = sys.argv[2] if len(sys.argv) == 3 else DEFAULT_OUTPUT_DIR
+    main(study_id, output_dir) 
