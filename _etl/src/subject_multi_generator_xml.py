@@ -108,7 +108,7 @@ def generate_study_xml(study_id, output_dir=DEFAULT_OUTPUT_DIR):
     consent_var = root.find("./variable[@id='consent_code']")
     for group in consent_groups:
         value = ET.SubElement(consent_var, "value", {"code": str(group["code"])})
-        value.text = f'{group["code"]} = {group["name"]} ({group["short_name"]})'
+        value.text = f'{group["name"]} ({group["short_name"]})'
 
     # Convert the XML tree to a string with an XML declaration and stylesheet
     xml_str = f'<?xml version="1.0"?>\n<?xml-stylesheet type="text/xsl" href="{XML_STYLESHEET}"?>\n'
