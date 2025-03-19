@@ -15,7 +15,7 @@ def get_sstr_summary(study_id):
 def dbgap_source_id_dict(study_id):
     summary_data = get_sstr_summary(study_id)
     total_subjects = summary_data.get('study_stats', {}).get('cnt_subjects', {}).get('loaded', 0)
-    page_size = 50
+    page_size = 20
     total_pages = math.ceil(total_subjects / page_size)
     base_url = f'https://www.ncbi.nlm.nih.gov/gap/sstr/api/v1/study/{study_id}/subjects'
     subject_dict = {}
