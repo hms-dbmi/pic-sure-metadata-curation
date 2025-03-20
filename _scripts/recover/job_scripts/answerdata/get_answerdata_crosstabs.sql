@@ -1,8 +1,6 @@
 drop schema if exists output_answerdata cascade;
 create schema output_answerdata;
 
-set search_path = input;
-create extension if not exists tablefunc;
 CREATE OR REPLACE FUNCTION get_answerdata_crosstabs(
 )
     returns void
@@ -23,7 +21,7 @@ BEGIN
     select array_agg(formfield)
         from
             (
-                SELECT ARRAY [form_name, field_name] as formfield into table_names from answerdata group by form_name, field_name
+                SELECT ARRAY [form_name, field_name] as formfield into table_names from input.answerdata group by form_name, field_name
             ) ini;
     select value into dataset_name from resources.meta_utils where key = 'dataset_name';
     raise INFO 'Starting creation of % table(s) from form/field pairs in answerdata', array_upper(table_names, 1);
@@ -45,14 +43,14 @@ BEGIN
                     else
                         answer_label
                 end
-                from answerdata
+                from input.answerdata
                 where form_name = ' || quote_literal(table_names[i][1]) || ' and ' ||
             'field_name = ' || quote_literal(table_names[i][2]) || ' order by 1,2';
             --raise INFO 'arg1: %', crosstabs_arg_1;
 
             --sets order of concepts by getting distinct concept list and ordering on it
             crosstabs_arg_2 =
-            'select distinct(concept_cd) from answerdata ' ||
+            'select distinct(concept_cd) from input.answerdata ' ||
             'where form_name = ' || quote_literal(table_names[i][1])
                 || ' and field_name = ' || quote_literal(table_names[i][2]) || ' order by 1';
             --raise INFO 'arg2: %', crosstabs_arg_2;
@@ -60,7 +58,7 @@ BEGIN
             --gets the array of columns for the given form and field, and concats it with "varchar"
             --to complete the explicit table declaration
             get_cols_statement =
-            'SELECT array_agg(distinct(quote_ident(lower(concept_cd))) || '' varchar'') from answerdata ' ||
+            'SELECT array_agg(distinct(quote_ident(lower(concept_cd))) || '' varchar'') from input.answerdata ' ||
             'where form_name = ''' || table_names[i][1] || ''' and field_name = ''' || table_names[i][2]
                 || '''  group by form_name, field_name;';
             --raise INFO 'col array: %', get_cols_statement;
