@@ -15,7 +15,6 @@ DECLARE
     DECLARE dataset_name text := '';
     DECLARE table_count int = 0;
 BEGIN
-    set search_path = input;
     --table naming structure is (form_name)_(field_name) - one field can have many concepts
     --limiting tables to just form can result in too many columns for one table
     select array_agg(formfield)
