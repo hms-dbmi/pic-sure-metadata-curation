@@ -7,7 +7,7 @@ CREATE SCHEMA IF NOT EXISTS processing_metadata;
 DROP TABLE IF EXISTS processing_metadata.visits_meta;
 CREATE TABLE IF NOT EXISTS processing_metadata.visits_meta AS
       SELECT meta_utils_id.value AS dataset_ref,
-      colname || '_' || TRIM(visit_id) || meta_utils_suffix.value AS name,
+      colname || '_' || regexp_replace(lower(trim(visit_id)), '[ \-]', '_', 'g') || meta_utils_suffix.value AS name,
       colname || ' (' || TRIM(visit_id) || ')' AS display,
       (CASE WHEN data_type = 'numeric' THEN 'continuous' ELSE 'categorical' END) AS concept_type,
       '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\visits\'

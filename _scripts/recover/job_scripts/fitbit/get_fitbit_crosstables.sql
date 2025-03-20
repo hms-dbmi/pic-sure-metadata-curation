@@ -41,7 +41,7 @@ CREATE OR REPLACE FUNCTION get_fitbit_crosstabs()
                 order by 1,2'',' ||
                                    '''select distinct(fitbit_concept_cd) as concept_cd from input.fitbit
                 where fitbit_concept_cd ~ ''''.*alltime.*'''' order by 1''
-       ) as ct(participant_id varchar, '|| array_to_string(weekly_col_names, ', ')||'));';
+       ) as ct(participant_id varchar, '|| array_to_string(alltime_col_names, ', ')||'));';
         execute alltime_crosstabs_statement;
     END
     $$ LANGUAGE Plpgsql;

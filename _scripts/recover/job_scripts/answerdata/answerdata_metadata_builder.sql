@@ -41,7 +41,7 @@ DROP TABLE IF EXISTS processing_metadata.answerdata_meta;
 CREATE TABLE processing_metadata.answerdata_meta AS (
     SELECT
         meta_utils_id.value AS dataset_ref,
-        LOWER(concept_code) || '_' || meta_utils_name.value AS name,
+        LOWER(concept_code) AS name,
         concept_name AS display,
         (CASE WHEN field_type = 'numeric' THEN 'continuous' ELSE 'categorical' END) AS concept_type,
         clean_path(concept_path) AS concept_path,

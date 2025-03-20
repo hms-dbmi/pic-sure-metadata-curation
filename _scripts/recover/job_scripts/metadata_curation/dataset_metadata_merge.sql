@@ -8,7 +8,6 @@ CREATE OR REPLACE FUNCTION merge_metadata_tables() RETURNS void
 AS $$
 DECLARE table_statements text[];
 DECLARE merge_statement text;
-DECLARE dataset_name text;
 BEGIN
 
     CREATE SCHEMA IF NOT EXISTS metadata_output;
@@ -25,7 +24,6 @@ BEGIN
 
 
     EXECUTE merge_statement;
-
 END
 $$ LANGUAGE Plpgsql;
 

@@ -10,7 +10,7 @@ CREATE OR REPLACE FUNCTION get_visits_subtables_with_visit_id()
 	BEGIN
 	    drop schema if exists output_visits cascade;
 	    create schema output_visits;
-        select array_agg(distinct(replace(lower(trim(visit_id)), ' ', '_'))) into table_names from input.visits;
+        select array_agg(distinct(regexp_replace(lower(trim(visit_id)), '[ \-]', '_', 'g'))) into table_names from input.visits;
         select value into dataset_suffix from resources.meta_utils where key = 'dataset_suffix';
         raise INFO 'Starting creation of % table(s) from visits table', array_upper(table_names, 1);
         FOR i IN 1 .. array_upper(table_names, 1)
@@ -25,7 +25,7 @@ CREATE OR REPLACE FUNCTION get_visits_subtables_with_visit_id()
                 (select participant_id, '||
                     array_to_string(column_names, ', ')
                  ||
-                    ' from input.visits where replace(lower(visit_id), '' '', ''_'') = ' || quote_literal(t_name) || ')';
+                    ' from input.visits where regexp_replace(lower(trim(visit_id)), ''[ \-]'', ''_'', ''g'') = ' || quote_literal(t_name) || ')';
             --raise INFO '%', table_statement;
             execute table_statement;
             table_count = table_count + 1;
