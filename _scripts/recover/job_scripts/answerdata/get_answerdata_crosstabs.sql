@@ -1,5 +1,8 @@
 drop schema if exists output_answerdata cascade;
 create schema output_answerdata;
+
+set search_path = input;
+create extension if not exists tablefunc;
 CREATE OR REPLACE FUNCTION get_answerdata_crosstabs(
 )
     returns void
