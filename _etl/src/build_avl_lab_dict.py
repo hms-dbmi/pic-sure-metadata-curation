@@ -46,21 +46,23 @@ def build_metadata_json(study_id, abv_name, alt_name, output_dir, input_dir, sch
     manifest_pattern = f"{input_dir}/*{study_id.split('.')[0]}*manifest*.tsv"
     dataset_pattern = f"{input_dir}/ensemble_*{abv_name}*_dataset.sas7bdat"
 
-    manifest_files = glob.glob(manifest_pattern)
     dataset_files = glob.glob(dataset_pattern)
+    manifest_files = glob.glob(manifest_pattern)
+    drs_uris = []
 
-    if not manifest_files:
-        print(f"No manifest file found for {study_id}. Skipping metadata generation.")
+    for dataset_file in dataset_files:
+        dataset_filename = os.path.basename(dataset_file)
 
-    manifest_file = manifest_files[0]  # Assuming only one manifest file per phs
-    manifest_df = pd.read_csv(manifest_file, sep='\t')
+        for manifest_file in manifest_files:
+            manifest_df = pd.read_csv(manifest_file, sep='\t', dtype=str)
 
-    manifest_df['filename'] = manifest_df['s3_path'].apply(lambda x: os.path.basename(x))
-    rawdata_files = {os.path.basename(f): f for f in glob.glob(f'{input_dir}*')}
+            # Check if the dataset file is listed in this manifest
+            manifest_df['filename'] = manifest_df['s3_path'].apply(lambda x: os.path.basename(x))
+            matched_rows = manifest_df[manifest_df['filename'] == dataset_filename]
 
-    matched_manifest = manifest_df[manifest_df['filename'].isin(rawdata_files.keys())]
-
-    drs_uris=matched_manifest['ga4gh_drs_uri'].tolist()
+            if not matched_rows.empty:
+                uris = matched_rows['ga4gh_drs_uri'].dropna().tolist()
+                drs_uris.extend(uris)
 
     _, meta = pyreadstat.read_sas7bdat(
        dataset_files[0],
