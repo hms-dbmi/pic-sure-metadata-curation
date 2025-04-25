@@ -10,7 +10,6 @@ CREATE OR REPLACE FUNCTION get_fitbit_crosstabs()
 	DECLARE weekly_crosstabs_statement text := '';
 	DECLARE alltime_crosstabs_statement text := '';
     BEGIN
-        set SEARCH_PATH = input;
         drop schema if exists output_fitbit cascade;
         create schema if not exists output_fitbit;
         select array_agg(quote_ident(concept_cd) || ' varchar')
