@@ -12,7 +12,7 @@ select
     (case when data_type = 'numeric' then 'continuous'
           else 'categorical'
         end) as concept_type,
-    '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived_core_proc\' || lower(colname)|| '\' as concept_path,
+    '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived_core_proc\' || lower(colname)|| meta_utils_suffix.value|| '\' as concept_path,
     json_build_object(
         --metadata key: description
             'description',
@@ -36,7 +36,7 @@ from input.derived_core
                     from resources.manifest
                     where (file_name ~* 'derived_core')
                       and file_name ~* (select value from resources.meta_utils where key = 'dataset_name')) as drs on true
-where colname != 'record_id'
+where colname != 'record_id' and colname != 'participant_id'
 group by colname, data_type, meta_utils_id.value, meta_utils_name.value,meta_utils_suffix.value, drs.uri;
 
 do LANGUAGE Plpgsql $$BEGIN
