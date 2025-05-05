@@ -4,4 +4,6 @@ recover_data_dictionary/token.txt
 recover_data_dictionary/recover.*_export
 *.pdf
 recover_data_dictionary/recover.*_variable_info
-
+/_etl/input/*
+/_etl/output/*
+.idea/*

@@ -192,3 +192,124 @@ Json
   writeLines(json_string, fileConn)
   close(fileConn)
 ```
+Decoding and additional file generation
+```{r}
+
+coding_df <- dd_raw[which(dd_raw$type=="encoded value"),]
+
+coding_df$varname <- toupper(coding_df$varname)
+
+for (filepath in data_files_list) {
+  decoded_df <- read_csv(paste0("../input/",filepath),show_col_types = F)
+  
+  names(decoded_df) <- toupper(names(decoded_df))
+  
+  for (varid in names(decoded_df)[2:length(names(decoded_df))]) {
+    #print(varid)
+
+    if(varid%in%coding_df$varname){
+          code_str=coding_df[which(coding_df$varname==varid),]$decoding
+          
+          #print(varid)
+          
+          codes_sep <- str_split(code_str,"\\|")
+      
+          for(code in codes_sep[[1]]){
+            #print(code)
+            coded_val = str_split(code,":")[[1]][1]
+            #print(coded_val)
+            true_val = str_split(code,":",)[[1]][2]
+            #print(true_val)
+            
+            decoded_df[[varid]] <- replace(decoded_df[[varid]], which(decoded_df[[varid]]==coded_val), true_val)
+          
+        
+      }
+    }
+  }
+  
+  tm_rp <- read_delim(file = paste0("../input/",phs,".v",v,".p",p,".txt") ,delim = "\t", show_col_types = F)
+  
+  tm_trim <- tm_rp[,c(7,1,3)]
+  
+  #names(tm_trim) <- tolower(names(tm_trim))
+  
+  names(tm_trim) <- c("c1","c2","c3")
+
+  
+  data_df <- decoded_df
+  
+  subj_id <- names(data_df)[1]
+  
+  #print(subj_id)
+  
+  data_df$DBGAP_SUBJECT_ID <- ""
+  
+  new_data_df <- data_df %>%
+    select(DBGAP_SUBJECT_ID, everything())
+  
+  if(TRUE%in%(new_data_df[[subj_id]]%in%tm_trim$c2)){
+    for (merge_i in c(1:length(new_data_df[[subj_id]]))) {
+       if(new_data_df[[subj_id]][merge_i]%in%tm_trim$c2){
+         new_data_df$DBGAP_SUBJECT_ID[merge_i] = tm_trim$c1[which(tm_trim$c2==new_data_df[[subj_id]][merge_i])]
+       }else{
+          print(paste0("Omitting subject ", new_data_df[[subj_id]][merge_i], " , no consent information provided"))
+       }
+    }
+    
+    new_data_df <- new_data_df[which(new_data_df$DBGAP_SUBJECT_ID!=""),]
+    
+    new_data_df[] <- lapply(new_data_df, as.character)
+    new_data_df[is.na(new_data_df)] = ""
+    write.csv(new_data_df,paste0("../output/",phs,".decoded_",filepath),row.names = F)
+  
+  header_df <- data.frame("c1"=c(paste0("# Study accession: ",phs,".v",v,".p",p),
+                                        "# Table accession: subjects",
+                                        "# Consent group: All",
+                                        paste0("# Citation instructions: The study accession (",phs,".v",v,".p",p,") is used to cite the study and its data tables and documents. The data in this file should be cited using the accession subjects.v",v,".p",p),
+                                         "# To cite columns of data within this file, please use the variable (phv#) accessions below:",
+                                         "#",
+                                         "# 1) the table name and the variable (phv#) accessions below; or",
+                                         paste0("# 2) you may cite a variable as id.v",v,".p",p),
+                                         "##",
+                                          "dbGaP_Subject_ID"
+                                          ), "c2"=c("","","","","","","","","subject_id",subj_id), "c3"=c("","","","","","","","","consent","CONSENT"))
+  
+  sm_df <- rbind(header_df,tm_trim)
+  
+  
+  write.table(sm_df, file=paste0('../output/',phs,'.v',v,'.subjects.p',p,'.',shortname,'.Subject.MULTI.txt'), quote=FALSE, sep='\t', col.names = F, row.names = F)
+  
+  
+  ### XML File
+ 
+  doc = newXMLDoc()
+  root = newXMLNode("data_table",attrs = c(id=paste0("subjects.v",v), study_id=paste0("phs002988.v",v), participant_set=paste0("p",p), date_created=date()), doc=doc)
+  
+  descNode = newXMLNode("description", "The subject consent data table includes subject IDs and consent group information.", parent = root)
+  
+  var1Node = newXMLNode("variable",attrs = c(id="subject_id"),parent=root)
+  
+  nm1Node = newXMLNode("name",subj_id,parent=var1Node)
+  desc1Node = newXMLNode("description","Subject ID",parent=var1Node)
+  ty1Node = newXMLNode("type","String",parent=var1Node)
+  
+  var2Node = newXMLNode("variable",attrs = c(id="consent"),parent=root)
+  
+  nm2Node = newXMLNode("name","CONSENT",parent=var2Node)
+  desc2Node = newXMLNode("description","Consent group as determined by DAC",parent=var2Node)
+  ty2Node = newXMLNode("type","encoded value",parent=var2Node)
+  
+  for (consent_i in c(1:length(consents_list))) {
+    cval = newXMLNode("value",consents_list[consent_i],attrs = c(code=consent_i),parent = var2Node)
+  }
+  
+  # OUTPUT XML CONTENT TO FILE
+  saveXML(doc, file=paste0('../output/',phs,".v",v,".subjects.p",p,".",shortname,".Subject.data_dict.xml"),prefix = '<?xml-stylesheet type="text/xsl" href="./datadict_v1.xsl"?>')
+    
+  }else{
+    print("Study subject ID does not match dbgap telemetry report")
+    write.csv(decoded_df,paste0("../output/",phs,".decoded_",filepath),row.names = F)
+  }  
+}
+```
