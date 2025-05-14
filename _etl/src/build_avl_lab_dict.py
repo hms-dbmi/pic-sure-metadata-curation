@@ -82,11 +82,11 @@ def build_metadata_json(study_id, abv_name, alt_name, output_dir, input_dir, sch
 
     variables = [
         {
-            "variable_id": (var_label or var_id),
-            "variable_name": var_id,
+            "variable_id": var_id,
+            "variable_name": var_label,
             "variable_type": "num",
             "variable_description": var_label,
-            "data_hierarchy": "\\" + study_phs_number + "\\" + (var_label or var_id) + "\\",
+            "data_hierarchy": "\\" + study_phs_number + "\\" + var_id + "\\",
             "drs_uri": drs_uris
         }
         for var_id, var_label in column_names_to_labels.items()
