@@ -53,7 +53,11 @@ def convert_sas_to_csv(study_id, sas_file_path, csv_file_path, decode_labels=Fal
     first_column = df.columns[0]
 
     # Perform lookup and filter out missing values
-    df.insert(0, "dbgap_subject_id", df[first_column].str.strip().map(dbgap_subject_ids))
+    df.insert(
+        0,
+        "dbgap_subject_id",
+        df[first_column].apply(lambda x: x.strip() if isinstance(x, str) else x).map(dbgap_subject_ids)
+    )
     missing_values = df[df["dbgap_subject_id"].isna()][first_column].tolist()
 
     # Remove rows where lookup failed
