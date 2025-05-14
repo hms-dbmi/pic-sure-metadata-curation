@@ -111,7 +111,7 @@ def convert_sas_to_csv(study_id, sas_file_path, csv_file_path, decode_labels=Fal
         json.dump(report, f)
         f.write("\n")
 
-def convert_all_sas_files(study_id, name, raw_data_dir, output_dir, decode_labels=True):
+def convert_all_sas_files(study_id, name, raw_data_dir, output_dir, decode_labels=False):
     os.makedirs(output_dir, exist_ok=True)
 
     pattern = os.path.join(raw_data_dir, f"ensemble*{name}*.sas7bdat")
