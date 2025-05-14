@@ -24,7 +24,7 @@ def fetch_study_data(study_id, output_dir):
     accession_version = f"{accession}.v{version}"
     accession_version_ps = f"{accession}.v{version}.p{part_set}"
 
-    page_size = 50
+    page_size = 20
     max_pages = math.ceil( (expected_pat_cnt) / page_size)
     print(f'Processing Pages: {max_pages}')
     concurrent_requests = 3
@@ -113,7 +113,6 @@ def fetch_study_data(study_id, output_dir):
 
         return local_data, local_summary
 
-    # Run API requests in parallel
     with ThreadPoolExecutor(max_workers=concurrent_requests) as executor:
         future_to_page = {executor.submit(fetch_page, page): page for page in range(1, max_pages + 1)}
         for future in as_completed(future_to_page):
@@ -138,6 +137,7 @@ def fetch_study_data(study_id, output_dir):
                 else:
                     failed_pages += 1
                     print(f"Page {page} failed to process. No subjects found.")
+
             except Exception as e:
                 failed_pages += 1
                 print(f"Error processing page {page}: {e}")
