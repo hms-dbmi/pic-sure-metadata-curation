@@ -1,1 +1,543 @@
-[{"study_name":"ApoA-1 and Atherosclerosis in Psoriasis","study":"DIR_ApoA1","study_phs_number":"phs003231","study_url":"https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs003231.v1.p1","form_group":[{"form_group":"N/A","form":[{"form":"APOA1_1","form_description":"N/A","form_name":"APOA1_1","variable_group":[{"variable_group_name":"NA","variable_group_description":"N/A","variable":[{"variable_id":"SUBJECT_ID","variable_name":"Subject ID","variable_type":"string","variable_description":"Subject ID","data_hierarchy":"DIR_ApoA1/APOA1_1/Subject ID","derived_variable_level_data":[{}]},{"variable_id":"APOA1","variable_name":"apolipoprotein A1","variable_type":"decimal","variable_description":"apolipoprotein A1","data_hierarchy":"DIR_ApoA1/APOA1_1/apolipoprotein A1","derived_variable_level_data":[{"Units":"mg/dL"}]},{"variable_id":"AGE","variable_name":"age at time of V1 visit","variable_type":"integer","variable_description":"age at time of V1 visit","data_hierarchy":"DIR_ApoA1/APOA1_1/age at time of V1 visit","derived_variable_level_data":[{"Units":"years"}]},{"variable_id":"SEX","variable_name":"sex (0: self-identified as female; 1: self-identified as male)","variable_type":"encoded value","variable_description":"sex (0: self-identified as female; 1: self-identified as male)","data_hierarchy":"DIR_ApoA1/APOA1_1/sex (0: self-identified as female; 1: self-identified as male)","derived_variable_level_data":[{}]},{"variable_id":"CURRENTSMOKER","variable_name":"Current smoker: 1, not: 0","variable_type":"encoded value","variable_description":"Current smoker: 1, not: 0","data_hierarchy":"DIR_ApoA1/APOA1_1/Current smoker: 1, not: 0","derived_variable_level_data":[{}]},{"variable_id":"HTN","variable_name":"hypertension/on medication (1) not (0)","variable_type":"encoded value","variable_description":"hypertension/on medication (1) not (0)","data_hierarchy":"DIR_ApoA1/APOA1_1/hypertension-on medication (1) not (0)","derived_variable_level_data":[{}]},{"variable_id":"HLD","variable_name":"hyperlipidemia (1) not (0)","variable_type":"encoded value","variable_description":"hyperlipidemia (1) not (0)","data_hierarchy":"DIR_ApoA1/APOA1_1/hyperlipidemia (1) not (0)","derived_variable_level_data":[{}]},{"variable_id":"DM","variable_name":"type-2 diabetes mellitus/ on medication (1) not (0)","variable_type":"encoded value","variable_description":"type-2 diabetes mellitus/ on medication (1) not (0)","data_hierarchy":"DIR_ApoA1/APOA1_1/type-2 diabetes mellitus- on medication (1) not (0)","derived_variable_level_data":[{}]},{"variable_id":"METSYN","variable_name":"metabolic syndrome (harmonized IDF criteria) (1) not (0)","variable_type":"encoded value","variable_description":"metabolic syndrome (harmonized IDF criteria) (1) not (0)","data_hierarchy":"DIR_ApoA1/APOA1_1/metabolic syndrome (harmonized IDF criteria) (1) not (0)","derived_variable_level_data":[{}]},{"variable_id":"FRSLDL10YR","variable_name":"Framingham 10 yr risk score  (with ASCVD leave out ppl below 40)","variable_type":"decimal","variable_description":"Framingham 10 yr risk score  (with ASCVD leave out ppl below 40)","data_hierarchy":"DIR_ApoA1/APOA1_1/Framingham 10 yr risk score  (with ASCVD leave out ppl below 40)","derived_variable_level_data":[{}]},{"variable_id":"LIPID_TX","variable_name":"on lipid therapy (1) not (0)","variable_type":"encoded value","variable_description":"on lipid therapy (1) not (0)","data_hierarchy":"DIR_ApoA1/APOA1_1/on lipid therapy (1) not (0)","derived_variable_level_data":[{}]},{"variable_id":"BMI","variable_name":"body mass index","variable_type":"decimal","variable_description":"body mass index","data_hierarchy":"DIR_ApoA1/APOA1_1/body mass index","derived_variable_level_data":[{}]},{"variable_id":"WAISTCIRC","variable_name":"Waist circumference","variable_type":"decimal","variable_description":"Waist circumference","data_hierarchy":"DIR_ApoA1/APOA1_1/Waist circumference","derived_variable_level_data":[{}]},{"variable_id":"WHR","variable_name":"waist-to-hip-ratio","variable_type":"decimal","variable_description":"waist-to-hip-ratio","data_hierarchy":"DIR_ApoA1/APOA1_1/waist-to-hip-ratio","derived_variable_level_data":[{}]},{"variable_id":"VIDEAL","variable_name":"visceral adipose tissue","variable_type":"decimal","variable_description":"visceral adipose tissue","data_hierarchy":"DIR_ApoA1/APOA1_1/visceral adipose tissue","derived_variable_level_data":[{}]},{"variable_id":"SIDEAL","variable_name":"subcutaneous adipose tissue","variable_type":"decimal","variable_description":"subcutaneous adipose tissue","data_hierarchy":"DIR_ApoA1/APOA1_1/subcutaneous adipose tissue","derived_variable_level_data":[{}]},{"variable_id":"SBP","variable_name":"systolic blood pressure","variable_type":"decimal","variable_description":"systolic blood pressure","data_hierarchy":"DIR_ApoA1/APOA1_1/systolic blood pressure","derived_variable_level_data":[{}]},{"variable_id":"DBP","variable_name":"diastolic blood pressure","variable_type":"decimal","variable_description":"diastolic blood pressure","data_hierarchy":"DIR_ApoA1/APOA1_1/diastolic blood pressure","derived_variable_level_data":[{}]},{"variable_id":"PASISCORE","variable_name":"psoriasis area severity index score","variable_type":"decimal","variable_description":"psoriasis area severity index score","data_hierarchy":"DIR_ApoA1/APOA1_1/psoriasis area severity index score","derived_variable_level_data":[{}]},{"variable_id":"BIOLOGIC","variable_name":"current biologic use (1) or past biologic use (2) never (0)","variable_type":"encoded value","variable_description":"current biologic use (1) or past biologic use (2) never (0)","data_hierarchy":"DIR_ApoA1/APOA1_1/current biologic use (1) or past biologic use (2) never (0)","derived_variable_level_data":[{}]},{"variable_id":"INSULIN","variable_name":"insulin","variable_type":"decimal","variable_description":"insulin","data_hierarchy":"DIR_ApoA1/APOA1_1/insulin","derived_variable_level_data":[{"Units":"mcU/mL"}]},{"variable_id":"HOMAIR","variable_name":"HOMA IR calculated by (glucose*insulin/405)","variable_type":"decimal","variable_description":"HOMA IR calculated by (glucose*insulin/405)","data_hierarchy":"DIR_ApoA1/APOA1_1/HOMA IR calculated by (glucose*insulin-405)","derived_variable_level_data":[{}]},{"variable_id":"APOB","variable_name":"apolipoprotein B","variable_type":"decimal","variable_description":"apolipoprotein B","data_hierarchy":"DIR_ApoA1/APOA1_1/apolipoprotein B","derived_variable_level_data":[{"Units":"mg/dL"}]},{"variable_id":"CEC","variable_name":"cholesterol efflux capacity","variable_type":"decimal","variable_description":"cholesterol efflux capacity","data_hierarchy":"DIR_ApoA1/APOA1_1/cholesterol efflux capacity","derived_variable_level_data":[{}]},{"variable_id":"CHOL","variable_name":"cholesterol","variable_type":"decimal","variable_description":"cholesterol","data_hierarchy":"DIR_ApoA1/APOA1_1/cholesterol","derived_variable_level_data":[{"Units":"mg/dL"}]},{"variable_id":"HDL_C","variable_name":"High-density lipoprotein cholesterol","variable_type":"decimal","variable_description":"High-density lipoprotein cholesterol","data_hierarchy":"DIR_ApoA1/APOA1_1/High-density lipoprotein cholesterol","derived_variable_level_data":[{"Units":"mg/dL"}]},{"variable_id":"LDL_C","variable_name":"Low-density lipoprotein cholesterol","variable_type":"decimal","variable_description":"Low-density lipoprotein cholesterol","data_hierarchy":"DIR_ApoA1/APOA1_1/Low-density lipoprotein cholesterol","derived_variable_level_data":[{"Units":"mg/dL"}]},{"variable_id":"VLDL_TG","variable_name":"very low density lipoprotein triglycerides","variable_type":"decimal","variable_description":"very low density lipoprotein triglycerides","data_hierarchy":"DIR_ApoA1/APOA1_1/very low density lipoprotein triglycerides","derived_variable_level_data":[{}]},{"variable_id":"BMMAX","variable_name":"FDG-uptake in the bone marrow","variable_type":"decimal","variable_description":"FDG-uptake in the bone marrow","data_hierarchy":"DIR_ApoA1/APOA1_1/FDG-uptake in the bone marrow","derived_variable_level_data":[{}]},{"variable_id":"SPLEENSUVMAX","variable_name":"max/avg spleen standard uptake volume/volume of the spleen","variable_type":"decimal","variable_description":"max/avg spleen standard uptake volume/volume of the spleen","data_hierarchy":"DIR_ApoA1/APOA1_1/max-avg spleen standard uptake volume-volume of the spleen","derived_variable_level_data":[{}]},{"variable_id":"PTB_MEAN_100","variable_name":"total coronary plaque burden/Sum of ptb for all 3 Major Vessels for each patient","variable_type":"decimal","variable_description":"total coronary plaque burden/Sum of ptb for all 3 Major Vessels for each patient","data_hierarchy":"DIR_ApoA1/APOA1_1/total coronary plaque burden-Sum of ptb for all 3 Major Vessels for each patient","derived_variable_level_data":[{}]},{"variable_id":"PNCB_MEAN_100","variable_name":"non-calcified coronary plaque burden/sum in all three arteries","variable_type":"decimal","variable_description":"non-calcified coronary plaque burden/sum in all three arteries","data_hierarchy":"DIR_ApoA1/APOA1_1/non-calcified coronary plaque burden-sum in all three arteries","derived_variable_level_data":[{}]},{"variable_id":"PDCB_MEAN_100","variable_name":"dense-calcified coronary plaque burden/Sum of pdcb for all 3 Major Vessels for each patient at","variable_type":"decimal","variable_description":"dense-calcified coronary plaque burden/Sum of pdcb for all 3 Major Vessels for each patient at","data_hierarchy":"DIR_ApoA1/APOA1_1/dense-calcified coronary plaque burden-Sum of pdcb for all 3 Major Vessels for each patient at","derived_variable_level_data":[{}]}]}]},{"form":"APOA1_2","form_description":"N/A","form_name":"APOA1_2","variable_group":[{"variable_group_name":"NA","variable_group_description":"N/A","variable":[{"variable_id":"SUBJECT_ID","variable_name":"Subject ID","variable_type":"string","variable_description":"Subject ID","data_hierarchy":"DIR_ApoA1/APOA1_2/Subject ID","derived_variable_level_data":[{}]},{"variable_id":"TIME","variable_name":"Visit","variable_type":"integer","variable_description":"Visit","data_hierarchy":"DIR_ApoA1/APOA1_2/Visit","derived_variable_level_data":[{}]},{"variable_id":"APOA1","variable_name":"Time dependent Apoa1 Measurement","variable_type":"decimal","variable_description":"Time dependent Apoa1 Measurement","data_hierarchy":"DIR_ApoA1/APOA1_2/Time dependent Apoa1 Measurement","derived_variable_level_data":[{"Units":"mg/dL"}]},{"variable_id":"CEC","variable_name":"Time dependent CEC level","variable_type":"decimal","variable_description":"Time dependent CEC level","data_hierarchy":"DIR_ApoA1/APOA1_2/Time dependent CEC level","derived_variable_level_data":[{}]},{"variable_id":"APOA1.B","variable_name":"ApoA1 level at baseline","variable_type":"decimal","variable_description":"ApoA1 level at baseline","data_hierarchy":"DIR_ApoA1/APOA1_2/ApoA1 level at baseline","derived_variable_level_data":[{"Units":"mg/dL"}]},{"variable_id":"APOA1.B.Q","variable_name":"ApoA1 level quartile at baseline","variable_type":"decimal","variable_description":"ApoA1 level quartile at baseline","data_hierarchy":"DIR_ApoA1/APOA1_2/ApoA1 level quartile at baseline","derived_variable_level_data":[{"Units":"mg/dL"}]},{"variable_id":"BIOLOGIC","variable_name":"Time dependent biologic treatment","variable_type":"integer","variable_description":"Time dependent biologic treatment","data_hierarchy":"DIR_ApoA1/APOA1_2/Time dependent biologic treatment","derived_variable_level_data":[{}]},{"variable_id":"BIOLOGIC.B","variable_name":"Biologic treatment at baseline  (yes = 1, no = 0)","variable_type":"encoded value","variable_description":"Biologic treatment at baseline  (yes = 1, no = 0)","data_hierarchy":"DIR_ApoA1/APOA1_2/Biologic treatment at baseline  (yes = 1, no = 0)","derived_variable_level_data":[{}]},{"variable_id":"LIPID","variable_name":"lipid therapy  (yes = 1, no = 0)","variable_type":"encoded value","variable_description":"lipid therapy  (yes = 1, no = 0)","data_hierarchy":"DIR_ApoA1/APOA1_2/lipid therapy  (yes = 1, no = 0)","derived_variable_level_data":[{}]},{"variable_id":"AGE.B","variable_name":"Age at baseline","variable_type":"integer","variable_description":"Age at baseline","data_hierarchy":"DIR_ApoA1/APOA1_2/Age at baseline","derived_variable_level_data":[{"Units":"years"}]},{"variable_id":"SEX.B","variable_name":"sex (0 = self-identified as female; 1 = self-identified as male)","variable_type":"encoded value","variable_description":"sex (0 = self-identified as female; 1 = self-identified as male)","data_hierarchy":"DIR_ApoA1/APOA1_2/sex (0 = self-identified as female; 1 = self-identified as male)","derived_variable_level_data":[{}]},{"variable_id":"WHR.B","variable_name":"Waist-to-hip ratio at baseline","variable_type":"decimal","variable_description":"Waist-to-hip ratio at baseline","data_hierarchy":"DIR_ApoA1/APOA1_2/Waist-to-hip ratio at baseline","derived_variable_level_data":[{}]},{"variable_id":"WHR","variable_name":"Time dependent waist-to-hip ratio","variable_type":"decimal","variable_description":"Time dependent waist-to-hip ratio","data_hierarchy":"DIR_ApoA1/APOA1_2/Time dependent waist-to-hip ratio","derived_variable_level_data":[{}]},{"variable_id":"PNCB_100","variable_name":"Time dependent non-calcified burden *100","variable_type":"decimal","variable_description":"Time dependent non-calcified burden *100","data_hierarchy":"DIR_ApoA1/APOA1_2/Time dependent non-calcified burden *100","derived_variable_level_data":[{}]},{"variable_id":"PDCB_100","variable_name":"Time dependentdense calcified burden *100","variable_type":"decimal","variable_description":"Time dependentdense calcified burden *100","data_hierarchy":"DIR_ApoA1/APOA1_2/Time dependentdense calcified burden *100","derived_variable_level_data":[{}]},{"variable_id":"PASISCORE","variable_name":"Time dependent PACI score","variable_type":"decimal","variable_description":"Time dependent PACI score","data_hierarchy":"DIR_ApoA1/APOA1_2/Time dependent PACI score","derived_variable_level_data":[{}]}]}]}]}]}]
+[
+  {
+    "study_name": "ApoA-1 and Atherosclerosis in Psoriasis",
+    "study": "DIR_ApoA1",
+    "study_phs_number": "phs003231",
+    "study_url": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs003231.v1.p1",
+    "form_group": [
+      {
+        "form_group": "N/A",
+        "form": [
+          {
+            "form": "APOA1_1",
+            "form_description": "N/A",
+            "form_name": "APOA1_1",
+            "variable_group": [
+              {
+                "variable_group_name": "NA",
+                "variable_group_description": "N/A",
+                "variable": [
+                  {
+                    "variable_id": "SUBJECT_ID",
+                    "variable_name": "Subject ID",
+                    "variable_type": "string",
+                    "variable_description": "Subject ID",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/Subject ID",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "APOA1",
+                    "variable_name": "apolipoprotein A1",
+                    "variable_type": "decimal",
+                    "variable_description": "apolipoprotein A1",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/apolipoprotein A1",
+                    "derived_variable_level_data": [
+                      {
+                        "Units": "mg/dL"
+                      }
+                    ]
+                  },
+                  {
+                    "variable_id": "AGE",
+                    "variable_name": "age at time of V1 visit",
+                    "variable_type": "integer",
+                    "variable_description": "age at time of V1 visit",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/age at time of V1 visit",
+                    "derived_variable_level_data": [
+                      {
+                        "Units": "years"
+                      }
+                    ]
+                  },
+                  {
+                    "variable_id": "SEX",
+                    "variable_name": "sex (0: self-identified as female; 1: self-identified as male)",
+                    "variable_type": "encoded value",
+                    "variable_description": "sex (0: self-identified as female; 1: self-identified as male)",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/sex (0: self-identified as female; 1: self-identified as male)",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "CURRENTSMOKER",
+                    "variable_name": "Current smoker: 1, not: 0",
+                    "variable_type": "encoded value",
+                    "variable_description": "Current smoker: 1, not: 0",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/Current smoker: 1, not: 0",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "HTN",
+                    "variable_name": "hypertension/on medication (1) not (0)",
+                    "variable_type": "encoded value",
+                    "variable_description": "hypertension/on medication (1) not (0)",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/hypertension-on medication (1) not (0)",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "HLD",
+                    "variable_name": "hyperlipidemia (1) not (0)",
+                    "variable_type": "encoded value",
+                    "variable_description": "hyperlipidemia (1) not (0)",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/hyperlipidemia (1) not (0)",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "DM",
+                    "variable_name": "type-2 diabetes mellitus/ on medication (1) not (0)",
+                    "variable_type": "encoded value",
+                    "variable_description": "type-2 diabetes mellitus/ on medication (1) not (0)",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/type-2 diabetes mellitus- on medication (1) not (0)",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "METSYN",
+                    "variable_name": "metabolic syndrome (harmonized IDF criteria) (1) not (0)",
+                    "variable_type": "encoded value",
+                    "variable_description": "metabolic syndrome (harmonized IDF criteria) (1) not (0)",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/metabolic syndrome (harmonized IDF criteria) (1) not (0)",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "FRSLDL10YR",
+                    "variable_name": "Framingham 10 yr risk score  (with ASCVD leave out ppl below 40)",
+                    "variable_type": "decimal",
+                    "variable_description": "Framingham 10 yr risk score  (with ASCVD leave out ppl below 40)",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/Framingham 10 yr risk score  (with ASCVD leave out ppl below 40)",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "LIPID_TX",
+                    "variable_name": "on lipid therapy (1) not (0)",
+                    "variable_type": "encoded value",
+                    "variable_description": "on lipid therapy (1) not (0)",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/on lipid therapy (1) not (0)",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "BMI",
+                    "variable_name": "body mass index",
+                    "variable_type": "decimal",
+                    "variable_description": "body mass index",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/body mass index",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "WAISTCIRC",
+                    "variable_name": "Waist circumference",
+                    "variable_type": "decimal",
+                    "variable_description": "Waist circumference",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/Waist circumference",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "WHR",
+                    "variable_name": "waist-to-hip-ratio",
+                    "variable_type": "decimal",
+                    "variable_description": "waist-to-hip-ratio",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/waist-to-hip-ratio",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "VIDEAL",
+                    "variable_name": "visceral adipose tissue",
+                    "variable_type": "decimal",
+                    "variable_description": "visceral adipose tissue",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/visceral adipose tissue",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "SIDEAL",
+                    "variable_name": "subcutaneous adipose tissue",
+                    "variable_type": "decimal",
+                    "variable_description": "subcutaneous adipose tissue",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/subcutaneous adipose tissue",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "SBP",
+                    "variable_name": "systolic blood pressure",
+                    "variable_type": "decimal",
+                    "variable_description": "systolic blood pressure",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/systolic blood pressure",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "DBP",
+                    "variable_name": "diastolic blood pressure",
+                    "variable_type": "decimal",
+                    "variable_description": "diastolic blood pressure",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/diastolic blood pressure",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "PASISCORE",
+                    "variable_name": "psoriasis area severity index score",
+                    "variable_type": "decimal",
+                    "variable_description": "psoriasis area severity index score",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/psoriasis area severity index score",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "BIOLOGIC",
+                    "variable_name": "current biologic use (1) or past biologic use (2) never (0)",
+                    "variable_type": "encoded value",
+                    "variable_description": "current biologic use (1) or past biologic use (2) never (0)",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/current biologic use (1) or past biologic use (2) never (0)",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "INSULIN",
+                    "variable_name": "insulin",
+                    "variable_type": "decimal",
+                    "variable_description": "insulin",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/insulin",
+                    "derived_variable_level_data": [
+                      {
+                        "Units": "mcU/mL"
+                      }
+                    ]
+                  },
+                  {
+                    "variable_id": "HOMAIR",
+                    "variable_name": "HOMA IR calculated by (glucose*insulin/405)",
+                    "variable_type": "decimal",
+                    "variable_description": "HOMA IR calculated by (glucose*insulin/405)",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/HOMA IR calculated by (glucose*insulin-405)",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "APOB",
+                    "variable_name": "apolipoprotein B",
+                    "variable_type": "decimal",
+                    "variable_description": "apolipoprotein B",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/apolipoprotein B",
+                    "derived_variable_level_data": [
+                      {
+                        "Units": "mg/dL"
+                      }
+                    ]
+                  },
+                  {
+                    "variable_id": "CEC",
+                    "variable_name": "cholesterol efflux capacity",
+                    "variable_type": "decimal",
+                    "variable_description": "cholesterol efflux capacity",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/cholesterol efflux capacity",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "CHOL",
+                    "variable_name": "cholesterol",
+                    "variable_type": "decimal",
+                    "variable_description": "cholesterol",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/cholesterol",
+                    "derived_variable_level_data": [
+                      {
+                        "Units": "mg/dL"
+                      }
+                    ]
+                  },
+                  {
+                    "variable_id": "HDL_C",
+                    "variable_name": "High-density lipoprotein cholesterol",
+                    "variable_type": "decimal",
+                    "variable_description": "High-density lipoprotein cholesterol",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/High-density lipoprotein cholesterol",
+                    "derived_variable_level_data": [
+                      {
+                        "Units": "mg/dL"
+                      }
+                    ]
+                  },
+                  {
+                    "variable_id": "LDL_C",
+                    "variable_name": "Low-density lipoprotein cholesterol",
+                    "variable_type": "decimal",
+                    "variable_description": "Low-density lipoprotein cholesterol",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/Low-density lipoprotein cholesterol",
+                    "derived_variable_level_data": [
+                      {
+                        "Units": "mg/dL"
+                      }
+                    ]
+                  },
+                  {
+                    "variable_id": "VLDL_TG",
+                    "variable_name": "very low density lipoprotein triglycerides",
+                    "variable_type": "decimal",
+                    "variable_description": "very low density lipoprotein triglycerides",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/very low density lipoprotein triglycerides",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "BMMAX",
+                    "variable_name": "FDG-uptake in the bone marrow",
+                    "variable_type": "decimal",
+                    "variable_description": "FDG-uptake in the bone marrow",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/FDG-uptake in the bone marrow",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "SPLEENSUVMAX",
+                    "variable_name": "max/avg spleen standard uptake volume/volume of the spleen",
+                    "variable_type": "decimal",
+                    "variable_description": "max/avg spleen standard uptake volume/volume of the spleen",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/max-avg spleen standard uptake volume-volume of the spleen",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "PTB_MEAN_100",
+                    "variable_name": "total coronary plaque burden/Sum of ptb for all 3 Major Vessels for each patient",
+                    "variable_type": "decimal",
+                    "variable_description": "total coronary plaque burden/Sum of ptb for all 3 Major Vessels for each patient",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/total coronary plaque burden-Sum of ptb for all 3 Major Vessels for each patient",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "PNCB_MEAN_100",
+                    "variable_name": "non-calcified coronary plaque burden/sum in all three arteries",
+                    "variable_type": "decimal",
+                    "variable_description": "non-calcified coronary plaque burden/sum in all three arteries",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/non-calcified coronary plaque burden-sum in all three arteries",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "PDCB_MEAN_100",
+                    "variable_name": "dense-calcified coronary plaque burden/Sum of pdcb for all 3 Major Vessels for each patient at",
+                    "variable_type": "decimal",
+                    "variable_description": "dense-calcified coronary plaque burden/Sum of pdcb for all 3 Major Vessels for each patient at",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_1/dense-calcified coronary plaque burden-Sum of pdcb for all 3 Major Vessels for each patient at",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "form": "APOA1_2",
+            "form_description": "N/A",
+            "form_name": "APOA1_2",
+            "variable_group": [
+              {
+                "variable_group_name": "NA",
+                "variable_group_description": "N/A",
+                "variable": [
+                  {
+                    "variable_id": "TIME",
+                    "variable_name": "Visit",
+                    "variable_type": "integer",
+                    "variable_description": "Visit",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/Visit",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "APOA1",
+                    "variable_name": "Time dependent Apoa1 Measurement",
+                    "variable_type": "decimal",
+                    "variable_description": "Time dependent Apoa1 Measurement",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/Time dependent Apoa1 Measurement",
+                    "derived_variable_level_data": [
+                      {
+                        "Units": "mg/dL"
+                      }
+                    ]
+                  },
+                  {
+                    "variable_id": "CEC",
+                    "variable_name": "Time dependent CEC level",
+                    "variable_type": "decimal",
+                    "variable_description": "Time dependent CEC level",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/Time dependent CEC level",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "APOA1.B",
+                    "variable_name": "ApoA1 level at baseline",
+                    "variable_type": "decimal",
+                    "variable_description": "ApoA1 level at baseline",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/ApoA1 level at baseline",
+                    "derived_variable_level_data": [
+                      {
+                        "Units": "mg/dL"
+                      }
+                    ]
+                  },
+                  {
+                    "variable_id": "APOA1.B.Q",
+                    "variable_name": "ApoA1 level quartile at baseline",
+                    "variable_type": "decimal",
+                    "variable_description": "ApoA1 level quartile at baseline",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/ApoA1 level quartile at baseline",
+                    "derived_variable_level_data": [
+                      {
+                        "Units": "mg/dL"
+                      }
+                    ]
+                  },
+                  {
+                    "variable_id": "BIOLOGIC",
+                    "variable_name": "Time dependent biologic treatment",
+                    "variable_type": "integer",
+                    "variable_description": "Time dependent biologic treatment",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/Time dependent biologic treatment",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "BIOLOGIC.B",
+                    "variable_name": "Biologic treatment at baseline  (yes = 1, no = 0)",
+                    "variable_type": "encoded value",
+                    "variable_description": "Biologic treatment at baseline  (yes = 1, no = 0)",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/Biologic treatment at baseline  (yes = 1, no = 0)",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "LIPID",
+                    "variable_name": "lipid therapy  (yes = 1, no = 0)",
+                    "variable_type": "encoded value",
+                    "variable_description": "lipid therapy  (yes = 1, no = 0)",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/lipid therapy  (yes = 1, no = 0)",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "AGE.B",
+                    "variable_name": "Age at baseline",
+                    "variable_type": "integer",
+                    "variable_description": "Age at baseline",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/Age at baseline",
+                    "derived_variable_level_data": [
+                      {
+                        "Units": "years"
+                      }
+                    ]
+                  },
+                  {
+                    "variable_id": "SEX.B",
+                    "variable_name": "sex (0 = self-identified as female; 1 = self-identified as male)",
+                    "variable_type": "encoded value",
+                    "variable_description": "sex (0 = self-identified as female; 1 = self-identified as male)",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/sex (0 = self-identified as female; 1 = self-identified as male)",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "WHR.B",
+                    "variable_name": "Waist-to-hip ratio at baseline",
+                    "variable_type": "decimal",
+                    "variable_description": "Waist-to-hip ratio at baseline",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/Waist-to-hip ratio at baseline",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "WHR",
+                    "variable_name": "Time dependent waist-to-hip ratio",
+                    "variable_type": "decimal",
+                    "variable_description": "Time dependent waist-to-hip ratio",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/Time dependent waist-to-hip ratio",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "PNCB_100",
+                    "variable_name": "Time dependent non-calcified burden *100",
+                    "variable_type": "decimal",
+                    "variable_description": "Time dependent non-calcified burden *100",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/Time dependent non-calcified burden *100",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "PDCB_100",
+                    "variable_name": "Time dependentdense calcified burden *100",
+                    "variable_type": "decimal",
+                    "variable_description": "Time dependentdense calcified burden *100",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/Time dependentdense calcified burden *100",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  },
+                  {
+                    "variable_id": "PASISCORE",
+                    "variable_name": "Time dependent PACI score",
+                    "variable_type": "decimal",
+                    "variable_description": "Time dependent PACI score",
+                    "data_hierarchy": "DIR_ApoA1/APOA1_2/Time dependent PACI score",
+                    "derived_variable_level_data": [
+                      {}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
