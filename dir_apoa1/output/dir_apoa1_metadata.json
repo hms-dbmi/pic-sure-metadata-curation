@@ -385,16 +385,6 @@
                     ]
                   },
                   {
-                    "variable_id": "CEC",
-                    "variable_name": "Time dependent CEC level",
-                    "variable_type": "decimal",
-                    "variable_description": "Time dependent CEC level",
-                    "data_hierarchy": "DIR_ApoA1/APOA1_2/Time dependent CEC level",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
                     "variable_id": "APOA1.B",
                     "variable_name": "ApoA1 level at baseline",
                     "variable_type": "decimal",
