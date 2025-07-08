@@ -28,18 +28,6 @@
                     ]
                   },
                   {
-                    "variable_id": "APOA1",
-                    "variable_name": "apolipoprotein A1",
-                    "variable_type": "decimal",
-                    "variable_description": "apolipoprotein A1",
-                    "data_hierarchy": "DIR_ApoA1/APOA1_1/apolipoprotein A1",
-                    "derived_variable_level_data": [
-                      {
-                        "Units": "mg/dL"
-                      }
-                    ]
-                  },
-                  {
                     "variable_id": "AGE",
                     "variable_name": "age at time of V1 visit",
                     "variable_type": "integer",
