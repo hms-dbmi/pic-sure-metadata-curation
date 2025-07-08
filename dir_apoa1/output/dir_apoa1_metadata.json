@@ -139,16 +139,7 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "WHR",
-                    "variable_name": "waist-to-hip-ratio",
-                    "variable_type": "decimal",
-                    "variable_description": "waist-to-hip-ratio",
-                    "data_hierarchy": "DIR_ApoA1/APOA1_1/waist-to-hip-ratio",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "VIDEAL",
                     "variable_name": "visceral adipose tissue",
@@ -189,16 +180,7 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "PASISCORE",
-                    "variable_name": "psoriasis area severity index score",
-                    "variable_type": "decimal",
-                    "variable_description": "psoriasis area severity index score",
-                    "data_hierarchy": "DIR_ApoA1/APOA1_1/psoriasis area severity index score",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "BIOLOGIC",
                     "variable_name": "current biologic use (1) or past biologic use (2) never (0)",
@@ -406,16 +388,6 @@
                       {
                         "Units": "mg/dL"
                       }
-                    ]
-                  },
-                  {
-                    "variable_id": "BIOLOGIC",
-                    "variable_name": "Time dependent biologic treatment",
-                    "variable_type": "integer",
-                    "variable_description": "Time dependent biologic treatment",
-                    "data_hierarchy": "DIR_ApoA1/APOA1_2/Time dependent biologic treatment",
-                    "derived_variable_level_data": [
-                      {}
                     ]
                   },
                   {
