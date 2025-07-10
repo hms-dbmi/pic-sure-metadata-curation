@@ -16,46 +16,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/OUT.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/OUT.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "SITEID",
-                    "variable_type": "string",
-                    "variable_description": "SITEID",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/OUT.csv/SITEID",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "AGE",
-                    "variable_name": "What is the participant's age?",
-                    "variable_type": "decimal",
-                    "variable_description": "What is the participant's age?",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/OUT.csv/What is the participant's age?",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "AGE_GROUP",
                     "variable_name": "What is the participant's grouped agecategory?",
@@ -147,16 +108,6 @@
                     ]
                   },
                   {
-                    "variable_id": "DSENRLOC",
-                    "variable_name": "What was the participant's location at enrollment?",
-                    "variable_type": "string",
-                    "variable_description": "What was the participant's location at enrollment?",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/OUT.csv/What was the participant's location at enrollment?",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
                     "variable_id": "MHCOPD",
                     "variable_name": "Does the participant have a history of chronic pulmonary disease?",
                     "variable_type": "string",
@@ -166,16 +117,7 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "MHASTH",
-                    "variable_name": "Does the participant have a history of asthma?",
-                    "variable_type": "string",
-                    "variable_description": "Does the participant have a history of asthma?",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/OUT.csv/Does the participant have a history of asthma?",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "MHLD",
                     "variable_name": "Does the participant have interstitial lung disease?",
@@ -226,26 +168,7 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "MHCHF",
-                    "variable_name": "Does the participant have a history of congestive heart failure?",
-                    "variable_type": "string",
-                    "variable_description": "Does the participant have a history of congestive heart failure?",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/OUT.csv/Does the participant have a history of congestive heart failure?",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "MHAFIB",
-                    "variable_name": "Does the participant have atrial fibrillation?",
-                    "variable_type": "string",
-                    "variable_description": "Does the participant have atrial fibrillation?",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/OUT.csv/Does the participant have atrial fibrillation?",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "MHAFLU",
                     "variable_name": "Does the participant have atrial flutter?",
@@ -322,16 +245,6 @@
                     "variable_type": "string",
                     "variable_description": "Is the participant HIV-positive without AIDS?",
                     "data_hierarchy": "ACTIV-4_Host_Tissue/OUT.csv/Is the participant HIV-positive without AIDS?",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "MHAIDS",
-                    "variable_name": "Does the participant have AIDS (including definite or probable AIDS or ARC)?",
-                    "variable_type": "string",
-                    "variable_description": "Does the participant have AIDS (including definite or probable AIDS or ARC)?",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/OUT.csv/Does the participant have AIDS (including definite or probable AIDS or ARC)?",
                     "derived_variable_level_data": [
                       {}
                     ]
@@ -526,16 +439,7 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "MHANTICOAG",
-                    "variable_name": "Is the participant currently (within the last 3 weeks) receiving any anticoagulant medications?",
-                    "variable_type": "string",
-                    "variable_description": "Is the participant currently (within the last 3 weeks) receiving any anticoagulant medications?",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/OUT.csv/Is the participant currently (within the last 3 weeks) receiving any anticoagulant medications?",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "MHCOVIDMED",
                     "variable_name": "Is the participant currently (within the last 3 weeks) receiving any antivirals or other medications against COVID-19?",
@@ -726,16 +630,7 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "RRTSTAT",
-                    "variable_name": "Did the participant require renal replacement therapy on the day of randomization?",
-                    "variable_type": "string",
-                    "variable_description": "Did the participant require renal replacement therapy on the day of randomization?",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/OUT.csv/Did the participant require renal replacement therapy on the day of randomization?",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "IP_ALERGIC_REACT",
                     "variable_name": "Did the participant experience any allergic reactions (including rash and angioedema) on the day of randomization?",
@@ -3296,16 +3191,7 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "SECDTH",
-                    "variable_name": "Secondary cause of death",
-                    "variable_type": "string",
-                    "variable_description": "Secondary cause of death",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/OUT.csv/Secondary cause of death",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "DEATH.AE.FATAL",
                     "variable_name": "Death with fatal AE outcome",
@@ -5159,36 +5045,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/RND.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/RND.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "SITEID",
-                    "variable_type": "string",
-                    "variable_description": "SITEID",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/RND.csv/SITEID",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "RNDDAT",
                     "variable_name": "Date of randomization",
@@ -5355,16 +5212,6 @@
                     ]
                   },
                   {
-                    "variable_id": "ETHNIC",
-                    "variable_name": "Ethnicity",
-                    "variable_type": "string",
-                    "variable_description": "Ethnicity",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/DM.csv/Ethnicity",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
                     "variable_id": "DMAIAN",
                     "variable_name": "Race - AIAN",
                     "variable_type": "string",
@@ -5454,16 +5301,7 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "SEX",
-                    "variable_name": "Sex",
-                    "variable_type": "string",
-                    "variable_description": "Sex",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/DM.csv/Sex",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "GENIDENT",
                     "variable_name": "Gender Identity",
@@ -5701,36 +5539,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/MH.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "StudySite Identifier",
-                    "variable_type": "string",
-                    "variable_description": "StudySite Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/MH.csv/StudySite Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/MH.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "MHDAT",
                     "variable_name": "Medical History Collection Date",
@@ -5741,16 +5550,7 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "MHCOPD",
-                    "variable_name": "COPD†",
-                    "variable_type": "string",
-                    "variable_description": "COPD†",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/MH.csv/COPD†",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "MHASTH",
                     "variable_name": "Asthma†",
@@ -5821,16 +5621,7 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "MHHIV",
-                    "variable_name": "HIV††",
-                    "variable_type": "string",
-                    "variable_description": "HIV††",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/MH.csv/HIV††",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "MHIMMUNOS",
                     "variable_name": "Immunosuppression†",
@@ -5841,26 +5632,8 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "MHLEUK",
-                    "variable_name": "Leukemia†",
-                    "variable_type": "string",
-                    "variable_description": "Leukemia†",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/MH.csv/Leukemia†",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "MHLYMPH",
-                    "variable_name": "Lymphoma†",
-                    "variable_type": "string",
-                    "variable_description": "Lymphoma†",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/MH.csv/Lymphoma†",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
+
                   {
                     "variable_id": "MHMNEOPL",
                     "variable_name": "Malignant Neoplasm†",
@@ -6101,16 +5874,7 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "MHPVD",
-                    "variable_name": "Peripheral vascular disease†",
-                    "variable_type": "string",
-                    "variable_description": "Peripheral vascular disease†",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/MH.csv/Peripheral vascular disease†",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "MHDEMENTIA",
                     "variable_name": "Dementia†",
@@ -6401,16 +6165,7 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "MHANTIPLAT",
-                    "variable_name": "Antiplatelet",
-                    "variable_type": "string",
-                    "variable_description": "Antiplatelet",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/MH.csv/Antiplatelet",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "MHANTICOAG",
                     "variable_name": "Anticoagulant",
@@ -6634,36 +6389,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/ORG.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "StudySite Identifier",
-                    "variable_type": "string",
-                    "variable_description": "StudySite Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/ORG.csv/StudySite Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/ORG.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "ORGCMPDAT",
                     "variable_name": "Organ Support Completion Date",
@@ -6767,36 +6493,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/SYM.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "StudySite Identifier",
-                    "variable_type": "string",
-                    "variable_description": "StudySite Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/SYM.csv/StudySite Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/SYM.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "SYMCMPDAT",
                     "variable_name": "Symptom Collection Date",
@@ -7020,36 +6717,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/AE.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "StudySite Identifier",
-                    "variable_type": "string",
-                    "variable_description": "StudySite Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/AE.csv/StudySite Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/AE.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "AESPID",
                     "variable_name": "AE Sponsor-Defined Identifier",
@@ -7303,36 +6971,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/CM.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "StudySite Identifier",
-                    "variable_type": "string",
-                    "variable_description": "StudySite Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/CM.csv/StudySite Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/CM.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "CMCAT",
                     "variable_name": "Category for Medication",
@@ -7536,36 +7175,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/VS.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "StudySite Identifier",
-                    "variable_type": "string",
-                    "variable_description": "StudySite Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/VS.csv/StudySite Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/VS.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "VSDAT",
                     "variable_name": "Vital Signs Date",
@@ -7659,36 +7269,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/LB.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "StudySite Identifier",
-                    "variable_type": "string",
-                    "variable_description": "StudySite Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/LB.csv/StudySite Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/LB.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "LBDAT",
                     "variable_name": "Specimen Collection Date",
@@ -7832,36 +7413,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/COVID.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "StudySite Identifier",
-                    "variable_type": "string",
-                    "variable_description": "StudySite Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/COVID.csv/StudySite Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/COVID.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "C19TDAT",
                     "variable_name": "COVID-19 Test Date",
@@ -7965,36 +7517,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/VCC.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "StudySite Identifier",
-                    "variable_type": "string",
-                    "variable_description": "StudySite Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/VCC.csv/StudySite Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/VCC.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "VCCTYPE",
                     "variable_name": "Vaccination Type",
@@ -8220,36 +7743,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/DS.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "StudySite Identifier",
-                    "variable_type": "string",
-                    "variable_description": "StudySite Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/DS.csv/StudySite Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/DS.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "DSCNSDAT",
                     "variable_name": "Consent Date",
@@ -8382,16 +7876,7 @@
                       }
                     ]
                   },
-                  {
-                    "variable_id": "PRCDTH",
-                    "variable_name": "Primary Cause of Death",
-                    "variable_type": "string",
-                    "variable_description": "Primary Cause of Death",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/DS.csv/Primary Cause of Death",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "SECDTH",
                     "variable_name": "Secondary Cause of Death",
@@ -8435,56 +7920,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/INT.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "Study Site Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Site Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/INT.csv/Study Site Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/INT.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "INTCAT",
-                    "variable_name": "Name of the study arm",
-                    "variable_type": "string",
-                    "variable_description": "Name of the study arm",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/INT.csv/Name of the study arm",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "INTTRT",
-                    "variable_name": "Name of the treatment",
-                    "variable_type": "string",
-                    "variable_description": "Name of the treatment",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/INT.csv/Name of the treatment",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "INTOCCUR",
                     "variable_name": "Exposure Occurrence",
@@ -8712,36 +8148,7 @@
                 "variable_group_name": "NA",
                 "variable_group_description": "N/A",
                 "variable": [
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/HO.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SITEID",
-                    "variable_name": "StudySite Identifier",
-                    "variable_type": "string",
-                    "variable_description": "StudySite Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/HO.csv/StudySite Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/HO.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
+
                   {
                     "variable_id": "HOTERM",
                     "variable_name": "Reported Term for Healthcare Encounter",
@@ -8816,26 +8223,6 @@
                 "variable_group_description": "N/A",
                 "variable": [
                   {
-                    "variable_id": "SUBJID",
-                    "variable_name": "Subject Identifier for the Study",
-                    "variable_type": "string",
-                    "variable_description": "Subject Identifier for the Study",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/BIO_Files.csv/Subject Identifier for the Study",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
-                    "variable_id": "STUDYID",
-                    "variable_name": "Study Identifier",
-                    "variable_type": "string",
-                    "variable_description": "Study Identifier",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/BIO_Files.csv/Study Identifier",
-                    "derived_variable_level_data": [
-                      {}
-                    ]
-                  },
-                  {
                     "variable_id": "SPECIMEN_ID",
                     "variable_name": "Biospecimen ID",
                     "variable_type": "string",
@@ -8845,18 +8232,7 @@
                       {}
                     ]
                   },
-                  {
-                    "variable_id": "SAMPLE",
-                    "variable_name": "Study day when blood sample was collected",
-                    "variable_type": "integer",
-                    "variable_description": "Study day when blood sample was collected",
-                    "data_hierarchy": "ACTIV-4_Host_Tissue/BIO_Files.csv/Study day when blood sample was collected",
-                    "derived_variable_level_data": [
-                      {
-                        "Units": "days"
-                      }
-                    ]
-                  },
+
                   {
                     "variable_id": "ANG2",
                     "variable_name": "Angiotensin II (pg/mL)",
