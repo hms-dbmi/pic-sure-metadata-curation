@@ -7,12 +7,12 @@ create table if not exists processing_metadata.derived_visits_meta as
 
 select
     meta_utils_id.value as dataset_ref,
-    colname|| '_' || redcap_event_name || meta_utils_suffix.value as name,
+    colname || '_' || redcap_event_name || COALESCE(meta_utils_suffix.value, '') as name,
     colname || ' (biostats derived visits ' || redcap_event_name ||')' as display,
     (case when data_type = 'numeric' then 'continuous'
           else 'categorical'
         end) as concept_type,
-    '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived_visits\' || colname|| '_' || redcap_event_name || meta_utils_suffix.value|| '\' as concept_path,
+    '\' || COALESCE(meta_utils_id.value, '') || '\' || COALESCE(meta_utils_name.value, '') || '\biostats_derived_visits\' || colname|| '_' || redcap_event_name || COALESCE(meta_utils_suffix.value, '')|| '\' as concept_path,
     json_build_object(
         --metadata key: description
             'description',
@@ -36,7 +36,7 @@ from input.derived_visits
                     from resources.manifest
                     where (file_name ~* '.*derived.*visits.*')
                       and (file_name ~* (select value from resources.meta_utils where key = 'dataset_name') OR file_name ~* (select replace(value, '_', '') from resources.meta_utils where key = 'dataset_name'))) as drs on true
-where colname != 'record_id' and colname != 'participant_id'
+where colname != 'record_id' and colname != 'participant_id' and redcap_event_name is not null
 group by colname, data_type, meta_utils_id.value, meta_utils_name.value,meta_utils_suffix.value, drs.uri, redcap_event_name;
 
 do LANGUAGE Plpgsql $$BEGIN
