@@ -36,7 +36,7 @@ from input.derived_symptoms
                     from resources.manifest
                     where (file_name ~* '.*derived.*symptoms.*')
                       and (file_name ~* (select value from resources.meta_utils where key = 'dataset_name') OR file_name ~* (select replace(value, '_', '') from resources.meta_utils where key = 'dataset_name'))) as drs on true
-where colname != 'record_id' and colname != 'participant_id'
+where colname != 'record_id' and colname != 'participant_id' and redcap_event_name is not null
 group by colname, data_type, meta_utils_id.value, meta_utils_name.value,meta_utils_suffix.value, drs.uri, redcap_event_name;
 
 do LANGUAGE Plpgsql $$BEGIN
