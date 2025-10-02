@@ -7,12 +7,12 @@ create table if not exists processing_metadata.derived_symptoms_meta as
 
 select
     meta_utils_id.value as dataset_ref,
-    colname|| '_derived_symptoms' || '_' || redcap_event_name || COALESCE(meta_utils_suffix.value, '') as name,
+    colname|| '_' || redcap_event_name || COALESCE(meta_utils_suffix.value, '') as name,
     colname || ' (biostats derived symptoms ' || redcap_event_name ||')' as display,
     (case when data_type = 'numeric' then 'continuous'
           else 'categorical'
         end) as concept_type,
-    '\' || COALESCE(meta_utils_id.value, '') || '\' || COALESCE(meta_utils_name.value, '') || '\biostats_derived_symptoms\' || colname|| '_derived_symptoms' || '_' || redcap_event_name || COALESCE(meta_utils_suffix.value, '')|| '\' as concept_path,
+    '\' || COALESCE(meta_utils_id.value, '') || '\' || COALESCE(meta_utils_name.value, '') || '\biostats_derived_symptoms\' || colname|| '_' || redcap_event_name || COALESCE(meta_utils_suffix.value, '')|| '\' as concept_path,
     json_build_object(
         --metadata key: description
             'description',
