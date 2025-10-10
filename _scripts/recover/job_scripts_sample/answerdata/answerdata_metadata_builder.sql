@@ -82,10 +82,9 @@ CREATE TABLE processing_metadata.answerdata_meta AS (
                 SELECT ARRAY_TO_JSON(ARRAY_AGG(ga4gh_drs_uri))::text AS uri
                     FROM resources.manifest
                     WHERE
-                        (file_name ~* 'answerdata' OR file_name ~* 'concepts') AND file_name ~* (
-                        SELECT value
-                            FROM resources.meta_utils
-                            WHERE key = 'dataset_name'
+                    where (file_name ~* 'answerdata'OR file_name ~* 'concepts')
+                                          and (file_name ~* (select value from resources.meta_utils where key = 'dataset_name')
+                                          OR file_name ~* (select replace(value, '_', '')||'_' from resources.meta_utils where key = 'dataset_name')))
                                                                                                 )
                       ) AS drs ON TRUE
                                                     );

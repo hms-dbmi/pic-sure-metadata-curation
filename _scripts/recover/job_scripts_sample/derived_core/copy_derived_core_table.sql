@@ -14,7 +14,7 @@ BEGIN
          from information_schema.columns
                   left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix on true
          where
-             table_schema = 'input' and table_name = 'derived_core' and column_name != 'record_id'
+             table_schema = 'sample' and table_name = 'derived_core' and column_name != 'record_id'
         ) as subquery;
     table_statement = 'create table output_biostats_derived_core_proc.derived_core as
         SELECT record_id as participant_id, '|| array_to_string(column_names, ', ') ||' FROM sample.derived_core';

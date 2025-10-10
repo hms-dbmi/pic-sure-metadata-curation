@@ -1,45 +1,67 @@
-do LANGUAGE Plpgsql $$BEGIN
-raise INFO 'starting curation of derived core proc metadata';
-END$$;
-create schema if not exists processing_metadata;
-drop table if exists processing_metadata.derived_core_meta;
-create table if not exists processing_metadata.derived_core_meta as
+DO LANGUAGE Plpgsql $$
+    BEGIN
+        RAISE INFO 'starting curation of derived core proc metadata';
+    END
+$$;
+CREATE SCHEMA IF NOT EXISTS processing_metadata;
+DROP TABLE IF EXISTS processing_metadata.derived_core_meta;
+CREATE TABLE IF NOT EXISTS processing_metadata.derived_core_meta AS SELECT
+                                                                        meta_utils_id.value AS dataset_ref,
+                                                                        colname || '_derived_core' || meta_utils_suffix.value AS name,
+                                                                        colname || ' (biostats derived core proc)' AS display,
+                                                                        (CASE WHEN data_type = 'numeric' THEN 'continuous' ELSE 'categorical' END) AS concept_type,
+                                                                        '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived_core_proc\'
+                                                                        || LOWER(colname) || meta_utils_suffix.value || '\' AS concept_path,
+                                                                        JSON_BUILD_OBJECT(
+                                                                            --metadata key: description
+                                                                        'description', 'Derived from biostats_derived_core_proc source tsv.' || CASE
+                                                                                                                                                WHEN (colname ~ 'date') OR (colname ~ 'dt')
+                                                                                                                                                    THEN ' Dates have been shifted to protect anonymity.'
+                                                                                                                                                ELSE ''
+                                                                                                                                                END,
+                                                                            --metadata key: drs_uri
+                                                                        'drs_uri', drs.uri) AS metadata
+                                                                        FROM sample.derived_core
+                                                                            CROSS JOIN LATERAL JSON_EACH_TEXT(ROW_TO_JSON(derived_core)) AS j(colname, val)
+                                                                            LEFT JOIN information_schema.columns
+                                                                                ON table_schema = 'sample' AND table_name = 'derived_core' AND column_name = colname
+                                                                            LEFT JOIN (
+                                                                                SELECT value
+                                                                                    FROM resources.meta_utils
+                                                                                    WHERE key = 'study_id'
+                                                                                      ) AS meta_utils_id ON TRUE
+                                                                            LEFT JOIN (
+                                                                                SELECT value
+                                                                                    FROM resources.meta_utils
+                                                                                    WHERE key = 'dataset_name'
+                                                                                      ) AS meta_utils_name ON TRUE
+                                                                            LEFT JOIN (
+                                                                                SELECT value
+                                                                                    FROM resources.meta_utils
+                                                                                    WHERE key = 'dataset_suffix'
+                                                                                      ) AS meta_utils_suffix ON TRUE
+                                                                            LEFT JOIN (
+                                                                                SELECT ARRAY_TO_JSON(ARRAY_AGG(ga4gh_drs_uri))::text AS uri
+                                                                                    FROM resources.manifest
+                                                                                    WHERE
+                                                                                        (file_name ~* 'derived_core') AND (file_name ~* (
+                                                                                            SELECT value
+                                                                                                FROM resources.meta_utils
+                                                                                                WHERE key = 'dataset_name'
+                                                                                                                                        )
+                                                                                        OR file_name ~* (
+                                                                                                SELECT REPLACE(value, '_', '') || '_'
+                                                                                                    FROM resources.meta_utils
+                                                                                                    WHERE key = 'dataset_name'
+                                                                                                        ))
+                                                                                      ) AS drs ON TRUE
+                                                                        WHERE colname != 'record_id' AND colname != 'participant_id'
+                                                                        GROUP BY colname, data_type, meta_utils_id.value, meta_utils_name.value,
+                                                                            meta_utils_suffix.value, drs.uri;
 
-select
-    meta_utils_id.value as dataset_ref,
-    colname|| '_derived_core' || meta_utils_suffix.value as name,
-    colname || ' (biostats derived core proc)' as display,
-    (case when data_type = 'numeric' then 'continuous'
-          else 'categorical'
-        end) as concept_type,
-    '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived_core_proc\' || lower(colname)|| meta_utils_suffix.value|| '\' as concept_path,
-    json_build_object(
-        --metadata key: description
-            'description',
-            'Derived from biostats_derived_core_proc source tsv.' ||
-            case when (colname ~ 'date') or (colname ~ 'dt') then
-                     ' Dates have been shifted to protect anonymity.'
-                 else ''
-                end
-        ,
-        --metadata key: drs_uri
-            'drs_uri',
-            drs.uri
-    ) as metadata
-from sample.derived_core
-         CROSS JOIN LATERAL json_each_text(row_to_json(derived_core)) AS j(colname,val)
-         left join information_schema.columns on table_schema = 'input' and table_name = 'derived_core' and column_name = colname
-         left join  (select value from resources.meta_utils where key = 'study_id') as meta_utils_id on true
-         left join (select value from resources.meta_utils where key = 'dataset_name') as meta_utils_name on true
-         left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix on true
-         left join (select array_to_json(array_agg(ga4gh_drs_uri))::text as uri
-                    from resources.manifest
-                    where (file_name ~* 'derived_core')
-                      and file_name ~* (select value from resources.meta_utils where key = 'dataset_name')) as drs on true
-where colname != 'record_id' and colname != 'participant_id'
-group by colname, data_type, meta_utils_id.value, meta_utils_name.value,meta_utils_suffix.value, drs.uri;
-
-do LANGUAGE Plpgsql $$BEGIN
-raise INFO 'successfully completed curation of derived core proc metadata';
-END$$;
+DO LANGUAGE Plpgsql $$
+    BEGIN
+        RAISE INFO 'successfully completed curation of derived core proc metadata';
+    END
+$$;
 

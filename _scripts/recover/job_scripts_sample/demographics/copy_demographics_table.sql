@@ -15,7 +15,7 @@ BEGIN
                     from information_schema.columns
                     left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix on true
                     where
-                        table_schema = 'input' and table_name = 'demographics' and column_name != 'participant_id'
+                        table_schema = 'sample' and table_name = 'demographics' and column_name != 'participant_id'
                 ) as subquery;
     table_statement = 'create table if not exists output_demographics.demographics as
         SELECT participant_id, '|| array_to_string(column_names, ', ') ||' FROM sample.demographics';

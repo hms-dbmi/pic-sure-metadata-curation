@@ -28,14 +28,15 @@ select
     ) as metadata
 from sample.derived_symptoms
          CROSS JOIN LATERAL json_each_text(row_to_json(derived_symptoms)) AS j(colname,val)
-         left join information_schema.columns on table_schema = 'input' and table_name = 'derived_symptoms' and column_name = colname
+         left join information_schema.columns on table_schema = 'sample' and table_name = 'derived_symptoms' and column_name = colname
          left join  (select value from resources.meta_utils where key = 'study_id') as meta_utils_id on true
          left join (select value from resources.meta_utils where key = 'dataset_name') as meta_utils_name on true
          left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix on true
          left join (select array_to_json(array_agg(ga4gh_drs_uri))::text as uri
                     from resources.manifest
-                    where (file_name ~* '.*derived.*symptoms.*')
-                      and (file_name ~* (select value from resources.meta_utils where key = 'dataset_name') OR file_name ~* (select replace(value, '_', '') from resources.meta_utils where key = 'dataset_name'))) as drs on true
+                        where (file_name ~* '.*derived.*visits.*')
+                                              and (file_name ~* (select value from resources.meta_utils where key = 'dataset_name')
+                                              OR file_name ~* (select replace(value, '_', '')||'_' from resources.meta_utils where key = 'dataset_name'))) as drs on true
 where colname != 'record_id' and colname != 'participant_id'
 group by colname, data_type, meta_utils_id.value, meta_utils_name.value,meta_utils_suffix.value, drs.uri, redcap_event_name;
 

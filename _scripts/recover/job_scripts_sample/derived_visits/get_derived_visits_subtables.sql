@@ -25,7 +25,7 @@ CREATE OR REPLACE FUNCTION get_derived_visits_subtables()
                 from information_schema.columns
                     left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix on true
                 where
-                 table_schema = 'input' and table_name = 'derived_visits' and column_name != 'record_id')innie;
+                 table_schema = 'sample' and table_name = 'derived_visits' and column_name != 'record_id')innie;
 
             table_statement = 'drop table if exists '|| quote_ident('derived_visits_' || t_name) || ';
                               create table output_derived_visits.'|| quote_ident('derived_visits_' || t_name) || ' as

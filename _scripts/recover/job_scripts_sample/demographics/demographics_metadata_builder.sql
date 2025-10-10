@@ -32,7 +32,8 @@ select
         left join (select array_to_json(array_agg(ga4gh_drs_uri))::text as uri
         from resources.manifest
         where (file_name ~* 'demographics')
-        and file_name ~* (select value from resources.meta_utils where key = 'dataset_name')) as drs on true
+                          and (file_name ~* (select value from resources.meta_utils where key = 'dataset_name')
+                          OR file_name ~* (select replace(value, '_', '')||'_' from resources.meta_utils where key = 'dataset_name'))) as drs on true
     where colname != 'participant_id'
     group by colname, meta_utils_id.value, meta_utils_name.value, drs.uri
 

@@ -7,11 +7,11 @@ CREATE SCHEMA IF NOT EXISTS processing_metadata;
 DROP TABLE IF EXISTS processing_metadata.visits_meta;
 CREATE TABLE IF NOT EXISTS processing_metadata.visits_meta AS
       SELECT meta_utils_id.value AS dataset_ref,
-      colname || '_' || regexp_replace(lower(trim(visit_id)), '[ \-]', '_', 'g') || meta_utils_suffix.value AS name,
-      colname || ' (' || TRIM(visit_id) || ')' AS display,
+      colname || '_' || regexp_replace(lower(trim(visit_type)), '[ \-]', '_', 'g') || meta_utils_suffix.value AS name,
+      colname || ' (' || TRIM(visit_type) || ')' AS display,
       (CASE WHEN data_type = 'numeric' THEN 'continuous' ELSE 'categorical' END) AS concept_type,
       '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\visits\'
-      || LOWER(colname || '_' || TRIM(visit_id)) || '\' AS concept_path,
+      || LOWER(colname || '_' || TRIM(visit_type)) || '\' AS concept_path,
       JSON_BUILD_OBJECT(
           --metadata key: description
       'description', 'Derived from visits.tsv.' || CASE
@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS processing_metadata.visits_meta AS
       FROM sample.visits
           CROSS JOIN LATERAL JSON_EACH_TEXT(ROW_TO_JSON(visits)) AS j(colname, val)
           LEFT JOIN information_schema.columns
-              ON table_schema = 'input' AND table_name = 'visits' AND column_name = colname
+              ON table_schema = 'sample' AND table_name = 'visits' AND column_name = colname
           LEFT JOIN (
               SELECT value
                   FROM resources.meta_utils
@@ -44,15 +44,13 @@ CREATE TABLE IF NOT EXISTS processing_metadata.visits_meta AS
               SELECT ARRAY_TO_JSON(ARRAY_AGG(ga4gh_drs_uri))::text AS uri
                   FROM resources.manifest
                   WHERE
-                      (file_name ~* 'visits') AND file_name ~* (
-                      SELECT value
-                          FROM resources.meta_utils
-                          WHERE key = 'dataset_name'
-                                                               )
-                    ) AS drs ON TRUE
+                      file_name ~* 'visits' and file_name !~* 'derived'
+                                            and (file_name ~* (select value from resources.meta_utils where key = 'dataset_name')
+                                            OR file_name ~* (select replace(value, '_', '')||'_' from resources.meta_utils where key = 'dataset_name')))
+                     AS drs ON TRUE
       WHERE colname != 'participant_id'
-      GROUP BY colname, TRIM(visit_id), data_type, meta_utils_id.value,
-          meta_utils_name.value, meta_utils_suffix.value, visit_id, drs.uri;
+      GROUP BY colname, TRIM(visit_type), data_type, meta_utils_id.value,
+          meta_utils_name.value, meta_utils_suffix.value, visit_type, drs.uri;
 DO LANGUAGE Plpgsql $$
     BEGIN
 
