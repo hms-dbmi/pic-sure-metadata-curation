@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS processing_metadata.derived_core_meta AS SELECT
                                                                                 SELECT ARRAY_TO_JSON(ARRAY_AGG(ga4gh_drs_uri))::text AS uri
                                                                                     FROM resources.manifest
                                                                                     WHERE
-                                                                                        (file_name ~* 'derived_core') AND (file_name ~* (
+                                                                                        (file_name ~* 'core_proc') AND (file_name ~* (
                                                                                             SELECT value
                                                                                                 FROM resources.meta_utils
                                                                                                 WHERE key = 'dataset_name'
