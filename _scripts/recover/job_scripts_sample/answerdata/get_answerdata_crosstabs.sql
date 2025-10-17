@@ -18,7 +18,7 @@ DECLARE
 BEGIN
     --table naming structure is (form_name)_(field_name) - one field can have many concepts
     --limiting tables to just form can result in too many columns for one table
-    select array_agg(formfield)
+    select array_agg(distinct formfield)
         from
             (
                 SELECT ARRAY [form_name, field_name] as formfield into table_names from sample.answerdata group by form_name, field_name
@@ -34,7 +34,7 @@ BEGIN
             crosstabs_arg_1 =
             'select
                 participant_id,
-                concept_cd,
+                concept_code_rollup,
                 case
                     when (field_type = ''numeric'') then
                         trim_scale(answer_numeric_val::numeric)::text
@@ -50,7 +50,7 @@ BEGIN
 
             --sets order of concepts by getting distinct concept list and ordering on it
             crosstabs_arg_2 =
-            'select distinct(concept_cd) from sample.answerdata ' ||
+            'select distinct(concept_code_rollup) from sample.answerdata ' ||
             'where form_name = ' || quote_literal(table_names[i][1])
                 || ' and field_name = ' || quote_literal(table_names[i][2]) || ' order by 1';
             --raise INFO 'arg2: %', crosstabs_arg_2;
@@ -58,17 +58,17 @@ BEGIN
             --gets the array of columns for the given form and field, and concats it with "varchar"
             --to complete the explicit table declaration
             get_cols_statement =
-            'SELECT array_agg(distinct(quote_ident(lower(concept_cd))) || '' varchar'') from sample.answerdata ' ||
+            'SELECT array_agg(distinct(quote_ident(lower(concept_code_rollup))) || '' varchar'') from sample.answerdata ' ||
             'where form_name = ''' || table_names[i][1] || ''' and field_name = ''' || table_names[i][2]
                 || '''  group by form_name, field_name;';
-            --raise INFO 'col array: %', get_cols_statement;
+            --
 
             execute get_cols_statement into col_names;
             --piece all the elements together into one statement that performs the crosstab
 --and selects it into the new table
             create_table_statement =
             'create table ' ||
-            'output_answerdata.' || quote_ident(table_names[i][2]) ||
+            'output_answerdata.' || quote_ident(table_names[i][1] || '_' || table_names[i][2]) ||
             ' as (select * from ' ||
             'crosstab(' ||
             quote_literal(crosstabs_arg_1) || ', ' || quote_literal(crosstabs_arg_2) ||
@@ -76,12 +76,24 @@ BEGIN
             ')';
 
 
-            --raise INFO '%', create_table_statement;
+
+
             EXECUTE create_table_statement;
+
+
+
             table_count = table_count + 1;
         end loop;
+
     raise INFO 'Successfully created % table(s) from form/field pairs in answerdata file', table_count;
+/*EXCEPTION
+    WHEN OTHERS THEN
+    raise WARNING 'col array: %', get_cols_statement;
+    raise WARNING '%', create_table_statement;*/
+
 END
+
+
 $$
     LANGUAGE Plpgsql;
 select * from get_answerdata_crosstabs();

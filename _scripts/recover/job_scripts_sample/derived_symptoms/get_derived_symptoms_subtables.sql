@@ -12,10 +12,10 @@ CREATE OR REPLACE FUNCTION get_derived_symptoms_subtables()
 	    create schema output_derived_symptoms;
 
         select array_agg(table_prop) into table_names from
-        (select redcap_event_name as table_prop
+        (select infect_yn_curr || '_' || visit_month_curr as table_prop
             from sample.derived_symptoms
-            where redcap_event_name is not null
-            group by redcap_event_name)innie;
+            where infect_yn_curr || '_' || visit_month_curr is not null
+            group by infect_yn_curr || '_' || visit_month_curr)innie;
         FOR i IN 1 .. array_upper(table_names, 1)
         LOOP
             t_name=table_names[i];
@@ -30,7 +30,7 @@ CREATE OR REPLACE FUNCTION get_derived_symptoms_subtables()
             table_statement = 'drop table if exists '|| quote_ident('derived_symptoms_' || t_name) || ';
                               create table output_derived_symptoms.'|| quote_ident('derived_symptoms_' || t_name) || ' as
                 (select record_id as participant_id, ' || array_to_string(column_list, ', ') ||
-                    ' from sample.derived_symptoms where redcap_event_name = ' || quote_literal(t_name) || ')';
+                    ' from sample.derived_symptoms where infect_yn_curr || ''_'' || visit_month_curr = ' || quote_literal(t_name) || ')';
             execute table_statement;
         end loop;
 	END

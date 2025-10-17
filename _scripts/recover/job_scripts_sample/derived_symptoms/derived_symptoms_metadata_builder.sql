@@ -7,12 +7,12 @@ create table if not exists processing_metadata.derived_symptoms_meta as
 
 select
     meta_utils_id.value as dataset_ref,
-    colname|| '_derived_symptoms' || '_' || redcap_event_name || meta_utils_suffix.value as name,
-    colname || ' (biostats derived symptoms ' || redcap_event_name ||')' as display,
+    colname|| '_derived_symptoms' || '_' || infect_yn_curr || '_' || visit_month_curr || meta_utils_suffix.value as name,
+    colname || ' (biostats derived symptoms ' || infect_yn_curr || '_' || visit_month_curr ||')' as display,
     (case when data_type = 'numeric' then 'continuous'
           else 'categorical'
         end) as concept_type,
-    '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived_symptoms\' || colname|| '_derived_symptoms' || '_' || redcap_event_name || meta_utils_suffix.value|| '\' as concept_path,
+    '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived\symptoms\' || colname|| '_' || infect_yn_curr || '_' || visit_month_curr || meta_utils_suffix.value|| '\' as concept_path,
     json_build_object(
         --metadata key: description
             'description',
@@ -38,7 +38,7 @@ from sample.derived_symptoms
                                               and (file_name ~* (select value from resources.meta_utils where key = 'dataset_name')
                                               OR file_name ~* (select replace(value, '_', '')||'_' from resources.meta_utils where key = 'dataset_name'))) as drs on true
 where colname != 'record_id' and colname != 'participant_id'
-group by colname, data_type, meta_utils_id.value, meta_utils_name.value,meta_utils_suffix.value, drs.uri, redcap_event_name;
+group by colname, data_type, meta_utils_id.value, meta_utils_name.value,meta_utils_suffix.value, drs.uri, infect_yn_curr, visit_month_curr;
 
 do LANGUAGE Plpgsql $$BEGIN
 raise INFO 'successfully completed curation of derived symptoms metadata';

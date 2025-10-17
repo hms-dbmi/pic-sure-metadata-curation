@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS processing_metadata.derived_core_meta AS SELECT
                                                                         colname || '_derived_core' || meta_utils_suffix.value AS name,
                                                                         colname || ' (biostats derived core proc)' AS display,
                                                                         (CASE WHEN data_type = 'numeric' THEN 'continuous' ELSE 'categorical' END) AS concept_type,
-                                                                        '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived_core_proc\'
+                                                                        '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived\core_proc\'
                                                                         || LOWER(colname) || meta_utils_suffix.value || '\' AS concept_path,
                                                                         JSON_BUILD_OBJECT(
                                                                             --metadata key: description

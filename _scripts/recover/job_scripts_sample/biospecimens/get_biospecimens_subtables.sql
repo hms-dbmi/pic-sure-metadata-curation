@@ -10,8 +10,8 @@ CREATE OR REPLACE FUNCTION get_biospecimens_subtables()
 	BEGIN
 	    drop schema if exists output_biospecimens cascade;
 	    create schema output_biospecimens;
-		select array_agg(concept_cd) into concept_names from (SELECT distinct(specimen_concept_cd) as concept_cd from sample.biospecimens
-            group by specimen_concept_cd order by specimen_concept_cd)innie;
+		select array_agg(mpi_cd) into concept_names from (SELECT distinct(mpi_cd) as mpi_cd from sample.biospecimens
+            group by mpi_cd order by mpi_cd)innie;
         select value into dataset_suffix from resources.meta_utils where key = 'dataset_suffix';
         raise INFO 'Starting creation of % table(s) of kit ids from biospecimens', array_upper(concept_names, 1);
         FOR i IN 1 .. array_upper(concept_names, 1)
@@ -20,7 +20,7 @@ CREATE OR REPLACE FUNCTION get_biospecimens_subtables()
         concept_name_norm = lower(regexp_replace(concept_name, ':', '_')) ;
      	table_statement='create table output_biospecimens."'|| concept_name_norm ||'"
             as (select participant_id, kit_id as "'|| concept_name_norm ||'_kit_id' || dataset_suffix|| '" from sample.biospecimens
-            where specimen_concept_cd = '''|| concept_name ||''')';
+            where mpi_cd = '''|| concept_name ||''')';
         --raise INFO '%', table_statement;
         execute table_statement;
         table_count = table_count + 1;

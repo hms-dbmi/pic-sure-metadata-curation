@@ -12,8 +12,8 @@ CREATE OR REPLACE FUNCTION get_derived_visits_subtables()
 	    create schema output_derived_visits;
 
         select array_agg(table_prop) into table_names from
-        (select redcap_event_name as table_prop
-            from sample.derived_visits group by redcap_event_name)innie;
+        (select infect_yn_curr || '_' || visit_month_curr as table_prop
+            from sample.derived_visits group by infect_yn_curr || '_' || visit_month_curr)innie;
 
         FOR i IN 1 .. array_upper(table_names, 1)
         LOOP
@@ -30,7 +30,7 @@ CREATE OR REPLACE FUNCTION get_derived_visits_subtables()
             table_statement = 'drop table if exists '|| quote_ident('derived_visits_' || t_name) || ';
                               create table output_derived_visits.'|| quote_ident('derived_visits_' || t_name) || ' as
                 (select record_id as participant_id, ' || array_to_string(column_list, ', ') ||
-                    ' from sample.derived_visits where redcap_event_name = ' || quote_literal(t_name) || ')';
+                    ' from sample.derived_visits where infect_yn_curr || ''_'' || visit_month_curr = ' || quote_literal(t_name) || ')';
             raise notice '%', table_statement;
             execute table_statement;
         end loop;
