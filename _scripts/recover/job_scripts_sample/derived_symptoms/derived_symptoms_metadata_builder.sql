@@ -7,7 +7,7 @@ create table if not exists processing_metadata.derived_symptoms_meta as
 
 select
     meta_utils_id.value as dataset_ref,
-    colname|| '_derived_symptoms' || '_' || infect_yn_curr || '_' || visit_month_curr || meta_utils_suffix.value as name,
+    colname|| '_' || infect_yn_curr || '_' || visit_month_curr || meta_utils_suffix.value as name,
     colname || ' (biostats derived symptoms ' || infect_yn_curr || '_' || visit_month_curr ||')' as display,
     (case when data_type = 'numeric' then 'continuous'
           else 'categorical'
