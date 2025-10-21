@@ -21,10 +21,10 @@ CREATE TABLE IF NOT EXISTS processing_metadata.visits_meta AS
                                                    END,
           --metadata key: drs_uri
       'drs_uri', drs.uri)::TEXT  AS metadata
-      FROM sample.visits
+      FROM input.visits
           CROSS JOIN LATERAL JSON_EACH_TEXT(ROW_TO_JSON(visits)) AS j(colname, val)
           LEFT JOIN information_schema.columns
-              ON table_schema = 'sample' AND table_name = 'visits' AND column_name = colname
+              ON table_schema = 'input' AND table_name = 'visits' AND column_name = colname
           LEFT JOIN (
               SELECT value
                   FROM resources.meta_utils

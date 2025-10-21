@@ -59,7 +59,7 @@ CREATE TABLE processing_metadata.answerdata_meta AS (SELECT meta_utils_id.value 
                                                                 --metadata key: drs_uri
                                                                     'drs_uri',
                                                                     drs.uri)::TEXT                                                            AS metadata
-                                                     FROM sample.concepts
+                                                     FROM input.concepts
                                                               LEFT JOIN (SELECT value
                                                                          FROM resources.meta_utils
                                                                          WHERE key = 'study_id') AS meta_utils_id

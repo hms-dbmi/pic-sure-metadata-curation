@@ -31,10 +31,10 @@ select meta_utils_id.value                                                      
                'drs_uri',
                drs.uri
        )::TEXT                                                                                              as metadata
-from sample.derived_symptoms
+from input.derived_symptoms
          CROSS JOIN LATERAL json_each_text(row_to_json(derived_symptoms)) AS j(colname, val)
          left join information_schema.columns
-                   on table_schema = 'sample' and table_name = 'derived_symptoms' and column_name = colname
+                   on table_schema = 'input' and table_name = 'derived_symptoms' and column_name = colname
          left join (select value from resources.meta_utils where key = 'study_id') as meta_utils_id on true
          left join (select value from resources.meta_utils where key = 'dataset_name') as meta_utils_name on true
          left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix on true

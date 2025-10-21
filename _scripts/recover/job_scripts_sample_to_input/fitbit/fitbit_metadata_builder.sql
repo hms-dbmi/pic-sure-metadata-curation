@@ -25,7 +25,7 @@ CREATE TABLE processing_metadata.fitbit_meta AS (
             --metadata key: drs_uri
         'drs_uri', drs.uri)::TEXT  AS metadata
         FROM (
-            SELECT fitbit_concept_cd, concept_name FROM sample.fitbit GROUP BY fitbit_concept_cd, concept_name
+            SELECT fitbit_concept_cd, concept_name FROM input.fitbit GROUP BY fitbit_concept_cd, concept_name
              ) AS fitbit
             LEFT JOIN (
                 SELECT value

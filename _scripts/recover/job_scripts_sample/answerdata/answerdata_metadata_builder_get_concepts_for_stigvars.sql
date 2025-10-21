@@ -38,10 +38,10 @@ BEGIN
 END
 $$ LANGUAGE Plpgsql;
 
-CREATE SCHEMA IF NOT EXISTS processing_metadata;
-DROP TABLE IF EXISTS processing_metadata.answerdata_meta;
+CREATE SCHEMA IF NOT EXISTS processing_metadata_stigvars;
+DROP TABLE IF EXISTS processing_metadata_stigvars.answerdata_meta;
 --answerdata
-CREATE TABLE processing_metadata.answerdata_meta AS (SELECT meta_utils_id.value                                                         AS dataset_ref,
+CREATE TABLE processing_metadata_stigvars.answerdata_meta AS (SELECT meta_utils_id.value                                                         AS dataset_ref,
                                                             LOWER(concept_code_rollup)                                                         AS name,
                                                             concept_name_rollup                                                         AS display,
                                                             '' AS concept_type,
@@ -79,13 +79,13 @@ CREATE TABLE processing_metadata.answerdata_meta AS (SELECT meta_utils_id.value 
                                                                                  where key = 'dataset_name')))) AS drs
                                                                         ON TRUE);
 --TODO make an output of these vars
-DELETE
+/*DELETE
 FROM processing_metadata.answerdata_meta
 WHERE name NOT IN (SELECT column_name
                    FROM information_schema.columns
                    WHERE table_schema = 'output_answerdata'
                      AND column_name != 'participant_id');
-
+*/
 DO LANGUAGE Plpgsql
 $$
     BEGIN

@@ -22,10 +22,10 @@ SELECT meta_utils_id.value                                                      
            END,
            --metadata key: drs_uri
                'drs_uri', drs.uri)::TEXT                                              AS metadata
-FROM sample.derived_core
+FROM input.derived_core
          CROSS JOIN LATERAL JSON_EACH_TEXT(ROW_TO_JSON(derived_core)) AS j(colname, val)
          LEFT JOIN information_schema.columns
-                   ON table_schema = 'sample' AND table_name = 'derived_core' AND column_name = colname
+                   ON table_schema = 'input' AND table_name = 'derived_core' AND column_name = colname
          LEFT JOIN (SELECT value
                     FROM resources.meta_utils
                     WHERE key = 'study_id') AS meta_utils_id ON TRUE

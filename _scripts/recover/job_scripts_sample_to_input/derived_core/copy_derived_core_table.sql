@@ -13,8 +13,8 @@ DECLARE
     decoder              record;
     update_col_statement text;
 BEGIN
-    drop table if exists sample.derived_core_decoded;
-    create table sample.derived_core_decoded as TABLE sample.derived_core;
+    drop table if exists input.derived_core_decoded;
+    create table input.derived_core_decoded as TABLE input.derived_core;
 
     --Create temporary table for mappings
     DROP TABLE IF EXISTS core_decoding_map;
@@ -28,7 +28,7 @@ BEGIN
     WHERE ds.decoding_values IS NOT NULL
       and ds.variable in (select columns.column_name
                           from information_schema.columns
-                          where table_name = 'derived_core' and table_schema = 'sample');
+                          where table_name = 'derived_core' and table_schema = 'input');
 
 
     CREATE INDEX ON core_decoding_map (variable_name, key_value);
@@ -37,7 +37,7 @@ BEGIN
         FROM core_decoding_map
         LOOP
             update_col_statement := format(
-                    'UPDATE sample.derived_core_decoded
+                    'UPDATE input.derived_core_decoded
                      SET %1$I = tdm.decoded_value
                      FROM core_decoding_map tdm
                      WHERE %1$I = tdm.key_value
@@ -61,11 +61,11 @@ BEGIN
           from information_schema.columns
                    left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix
                              on true
-          where table_schema = 'sample'
+          where table_schema = 'input'
             and table_name = 'derived_core_decoded'
             and column_name != 'record_id') as subquery;
     table_statement = 'create table output_biostats_derived_core_proc.derived_core as
-        SELECT record_id as participant_id, ' || array_to_string(column_names, ', ') || ' FROM sample.derived_core_decoded';
+        SELECT record_id as participant_id, ' || array_to_string(column_names, ', ') || ' FROM input.derived_core_decoded';
     execute table_statement;
 END
 $$ LANGUAGE Plpgsql;

@@ -14,7 +14,7 @@ create table processing_metadata.biospecimens_meta as (
         'description',
         'Kit Ids corresponding to specimen of type "' || mpi_type || '".' ||
             (case when min_volume is not null and max_volume is not null
-                then ' Min volume among samples was ' || min_volume::numeric || ' ' || unit || ' and max volume was ' || max_volume::numeric || ' ' || unit || '. '
+                then ' Min volume among inputs was ' || min_volume::numeric || ' ' || unit || ' and max volume was ' || max_volume::numeric || ' ' || unit || '. '
                 else '' end)
         || ' See biospecimen.tsv file for further specimen information.' ,
         --metadata key: drs_uri
@@ -22,14 +22,14 @@ create table processing_metadata.biospecimens_meta as (
         drs.uri
     )::TEXT as metadata
     from
-    (select mpi_cd, mpi_type from sample.biospecimens group by mpi_cd, mpi_type)  as biospecimens
+    (select mpi_cd, mpi_type from input.biospecimens group by mpi_cd, mpi_type)  as biospecimens
     left join
         (select mpi_cd,
         array_agg(distinct(kit_id)) as text_val,
         min(specimen_volume) as min_volume,
         max(specimen_volume) as max_volume,
         min(specimen_volume_units) as unit
-        from sample.biospecimens
+        from input.biospecimens
         group by mpi_cd) as ad
     on ad.mpi_cd = biospecimens.mpi_cd
     left join  (select value from resources.meta_utils where key = 'study_id') as meta_utils_id on true

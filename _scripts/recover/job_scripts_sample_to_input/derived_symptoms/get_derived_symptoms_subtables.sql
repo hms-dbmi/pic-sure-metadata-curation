@@ -11,8 +11,8 @@ DECLARE
 BEGIN
 
 
-    drop table if exists sample.derived_symptoms_decoded;
-    create table sample.derived_symptoms_decoded as TABLE sample.derived_symptoms;
+    drop table if exists input.derived_symptoms_decoded;
+    create table input.derived_symptoms_decoded as TABLE input.derived_symptoms;
 
     --Create temporary table for mappings
     DROP TABLE IF EXISTS symptom_decoding_map;
@@ -32,7 +32,7 @@ BEGIN
         FROM symptom_decoding_map
         LOOP
             update_col_statement := format(
-                    'UPDATE sample.derived_symptoms_decoded
+                    'UPDATE input.derived_symptoms_decoded
                      SET %1$I = tdm.decoded_value
                      FROM symptom_decoding_map tdm
                      WHERE %1$I = tdm.key_value
@@ -54,7 +54,7 @@ BEGIN
     select array_agg(table_prop)
     into table_names
     from (select lower(infect_yn_curr || '_' || visit_month_curr) as table_prop
-          from sample.derived_symptoms_decoded
+          from input.derived_symptoms_decoded
           where infect_yn_curr || '_' || visit_month_curr is not null
           group by infect_yn_curr || '_' || visit_month_curr) innie;
     FOR i IN 1 .. array_upper(table_names, 1)
@@ -67,7 +67,7 @@ BEGIN
                   from information_schema.columns
                            left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix
                                      on true
-                  where "table_schema" = 'sample'
+                  where "table_schema" = 'input'
                     and "table_name" = 'derived_symptoms'
                     and "column_name" != 'record_id') innie;
             raise notice 'Table: %
@@ -75,7 +75,7 @@ BEGIN
             table_statement = 'drop table if exists ' || quote_ident('derived_symptoms_' || t_name) || ';
                               create table output_derived_symptoms.' || quote_ident('derived_symptoms_' || t_name) || ' as
                 (select record_id as participant_id, ' || array_to_string(column_list, ', ') ||
-                              ' from sample.derived_symptoms_decoded where lower(infect_yn_curr || ''_'' || visit_month_curr) = ' ||
+                              ' from input.derived_symptoms_decoded where lower(infect_yn_curr || ''_'' || visit_month_curr) = ' ||
                               quote_literal(t_name) || ')';
             execute table_statement;
         end loop;
