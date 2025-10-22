@@ -1,6 +1,6 @@
 alter table input.biospecimens
-    drop column mpi_cd,
-    drop column mpi_type,
+   drop column if exists mpi_cd,
+   drop column if exists mpi_type,
     add column mpi_cd text,
     add column mpi_type text;
 update input.biospecimens set (mpi_cd, mpi_type) =(

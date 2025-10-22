@@ -4,7 +4,6 @@ CREATE OR REPLACE FUNCTION get_derived_visits_subtables()
 	DECLARE table_names varchar[];
 	DECLARE column_list varchar[];
 	DECLARE table_statement text;
-	DECLARE event_name text;
 	DECLARE t_name text;
 
 	BEGIN
@@ -16,8 +15,8 @@ CREATE OR REPLACE FUNCTION get_derived_visits_subtables()
 	    create schema output_derived_visits;
 
         select array_agg(table_prop) into table_names from
-        (select lower(infect_yn_curr || '_' || visit_month_curr) as table_prop
-            from input.derived_visits group by infect_yn_curr || '_' || visit_month_curr)innie;
+        (select lower(infect_yn_curr || '_' || replace(visit_month_curr::text, '-','minus')) as table_prop
+            from input.derived_visits group by infect_yn_curr || '_' || replace(visit_month_curr::text, '-','minus'))innie;
 
         FOR i IN 1 .. array_upper(table_names, 1)
         LOOP
@@ -34,7 +33,7 @@ CREATE OR REPLACE FUNCTION get_derived_visits_subtables()
             table_statement = 'drop table if exists '|| quote_ident('derived_visits_' || t_name) || ';
                               create table output_derived_visits.'|| quote_ident('derived_visits_' || t_name) || ' as
                 (select record_id as participant_id, ' || array_to_string(column_list, ', ') ||
-                    ' from input.derived_visits where lower(infect_yn_curr || ''_'' || visit_month_curr) = ' || quote_literal(t_name) || ')';
+                    ' from input.derived_visits where lower(infect_yn_curr || ''_'' || replace(visit_month_curr::text, ''-'',''minus'')) = ' || quote_literal(t_name) || ')';
             raise notice '%', table_statement;
             execute table_statement;
         end loop;

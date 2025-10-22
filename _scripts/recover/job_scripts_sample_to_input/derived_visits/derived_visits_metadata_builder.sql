@@ -7,16 +7,16 @@ create table if not exists processing_metadata.derived_visits_meta as
 
 select
     meta_utils_id.value as dataset_ref,
-    lower(colname|| '_' || infect_yn_curr || '_' || visit_month_curr)|| meta_utils_suffix.value as name,
+    lower(colname|| '_' || infect_yn_curr || '_' || replace(visit_month_curr::text, '-','minus'))|| meta_utils_suffix.value as name,
     colname || ' (Biostats Derived Visits ' || infect_yn_curr || ',' || visit_month_curr || ' Months Post Index)' as display,
     (case when data_type = 'numeric' then 'continuous'
           else 'categorical'
         end) as concept_type,
-    '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived\visits\' || colname || '_' || infect_yn_curr || '_' || visit_month_curr || meta_utils_suffix.value|| '\' as concept_path,
+    '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived\visits\' || colname || '_' || infect_yn_curr || '_' || replace(visit_month_curr::text, '-','minus') || meta_utils_suffix.value|| '\' as concept_path,
     json_build_object(
         --metadata key: description
             'description',
-            coalesce(full_desc || ' ', '') || 'Participants are ' || infect_yn_curr || ' and '||visit_month_curr||' months past index date.' ||
+            coalesce(full_desc || ' ', '') || 'Participants are ' || infect_yn_curr || ' and '||replace(visit_month_curr::text, '-','minus')||' months past index date.' ||
             case when (colname ~ 'date') or (colname ~ 'dt') then
                      ' Dates have been shifted to protect anonymity.'
                  else ''
