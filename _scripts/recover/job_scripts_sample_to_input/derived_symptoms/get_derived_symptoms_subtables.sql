@@ -1,14 +1,12 @@
-CREATE OR REPLACE FUNCTION get_derived_symptoms_subtables()
+
+CREATE OR REPLACE FUNCTION get_derived_symptoms_decoded()
     returns void as
 $$
 DECLARE
-    table_names          varchar[];
-    table_statement      text;
-    t_name               text;
     decoder              record;
 BEGIN
 
-
+    raise INFO 'Started building decoded data table for derived symptoms';
     drop table if exists input.derived_symptoms_decoded;
     CREATE TABLE input.derived_symptoms_decoded AS TABLE input.derived_symptoms;
 
@@ -43,8 +41,21 @@ BEGIN
 
     --Clean up
     DROP TABLE IF EXISTS symptom_decoding_map;
+    raise INFO 'Finished building decoded data table for derived symptoms';
+END
+$$ LANGUAGE Plpgsql;
 
 
+CREATE OR REPLACE FUNCTION get_derived_symptoms_subtables()
+    returns void as
+$$
+DECLARE
+    table_names          varchar[];
+    table_statement      text;
+    t_name               text;
+    decoder              record;
+BEGIN
+    raise INFO 'Building subtables for derived symptoms from decoded data';
     drop schema if exists output_derived_symptoms cascade;
     create schema output_derived_symptoms;
 
@@ -82,8 +93,11 @@ BEGIN
                     t_name
                     );
         END LOOP;
+    raise INFO 'Finished building subtables for derived symptoms from decoded data';
 END
 $$ LANGUAGE Plpgsql;
+select *
+from get_derived_symptoms_decoded();
 select *
 from get_derived_symptoms_subtables();
 

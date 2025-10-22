@@ -55,3 +55,19 @@ group by variable
 )ini
 where ini.variable = derived_symptoms.variable  and type !~ 'REDCap';
 
+CREATE TABLE IF NOT EXISTS dictionary_files.symptom_decoding_lookup AS
+SELECT
+    d.variable,
+    kv.key as original_value,
+    kv.value as decoded_value
+FROM dictionary_files.derived_symptoms d
+CROSS JOIN LATERAL json_array_elements(d.decoding_values) AS elem
+CROSS JOIN LATERAL json_each_text(elem) AS kv
+WHERE d.decoding_values IS NOT NULL;
+
+-- Add indexes for fast lookups
+CREATE INDEX IF NOT EXISTS idx_decoding_lookup_var_val
+ON dictionary_files.symptom_decoding_lookup (variable, original_value);
+
+CREATE INDEX IF NOT EXISTS idx_decoding_lookup_var
+ON dictionary_files.symptom_decoding_lookup (variable);
