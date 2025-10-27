@@ -11,7 +11,7 @@ BEGIN
 	create schema output_demographics;
     raise INFO 'Starting creation of table from demographics file for dataset';
 	select array_agg(column_string) into column_names from
-                (select (column_name || ' as ' || column_name || '_demo' || meta_utils_suffix.value) as column_string
+                (select ('replace(' ||column_name || '::text,''\'',''/'') as ' || column_name || '_demo' || meta_utils_suffix.value) as column_string
                     from information_schema.columns
                     left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix on true
                     where
@@ -27,3 +27,4 @@ select * from copy_demographics_table();
 do LANGUAGE Plpgsql $$BEGIN
 raise INFO 'successfully completed curation of demographics data';
 END$$;
+

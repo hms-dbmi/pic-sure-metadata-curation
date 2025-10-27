@@ -56,7 +56,7 @@ BEGIN
                 'SELECT participant_id, concept_code_rollup, '
                 'CASE '
                     'WHEN field_type = ''numeric'' THEN trim_scale(answer_numeric_val::numeric)::text '
-                    'WHEN field_type = ''text'' THEN answer_text_val '
+                    'WHEN field_type = ''text'' THEN regexp_replace(replace(answer_text_val, ''\'', ''/''), E''[\\n\\r]+'', '' '', ''g'')'
                     'ELSE answer_label '
                 'END '
                 'FROM input.answerdata '
