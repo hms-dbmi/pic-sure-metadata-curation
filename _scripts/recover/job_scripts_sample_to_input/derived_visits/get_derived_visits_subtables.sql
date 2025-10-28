@@ -1,44 +1,101 @@
-CREATE OR REPLACE FUNCTION get_derived_visits_subtables()
-	returns void as
-	$$
-	DECLARE table_names varchar[];
-	DECLARE column_list varchar[];
-	DECLARE table_statement text;
-	DECLARE t_name text;
+CREATE OR REPLACE FUNCTION get_derived_visits_decoded()
+    returns void as
+$$
+DECLARE
+    decoder record;
+BEGIN
 
-	BEGIN
+    raise INFO 'Started building decoded data table for derived visits';
+    drop table if exists input.derived_visits_decoded;
+    CREATE TABLE input.derived_visits_decoded AS TABLE input.derived_visits;
 
-	--decode data
+    -- Create temporary table for mappings
+    DROP TABLE IF EXISTS visits_decoding_map;
+    CREATE TEMP TABLE visits_decoding_map AS
+    SELECT ds.variable as variable_name,
+           kv.key      as key_value,
+           kv.value    as decoded_value
+    FROM dictionary_files.derived_visits ds,
+         LATERAL jsonb_array_elements(ds.decoding_values::jsonb) AS elem,
+         LATERAL jsonb_each_text(elem) AS kv
+    WHERE ds.decoding_values IS NOT NULL;
+
+    -- Create index for better performance
+    CREATE INDEX idx_visits_decoding_map_lookup ON visits_decoding_map (variable_name, key_value);
 
 
-	    drop schema if exists output_derived_visits cascade;
-	    create schema output_derived_visits;
-
-        select array_agg(table_prop) into table_names from
-        (select lower(infect_yn_curr || '_' || replace(visit_month_curr::text, '-','minus')) as table_prop
-            from input.derived_visits group by infect_yn_curr || '_' || replace(visit_month_curr::text, '-','minus'))innie;
-
-        FOR i IN 1 .. array_upper(table_names, 1)
+    FOR decoder IN
+        SELECT DISTINCT variable_name
+        FROM visits_decoding_map
         LOOP
+            EXECUTE format(
+                    'UPDATE input.derived_visits_decoded
+                     SET %1$I = COALESCE(tdm.decoded_value, %1$I)
+                     FROM visits_decoding_map tdm
+                     WHERE %1$I::text = tdm.key_value
+                       AND tdm.variable_name = %2$L',
+                    decoder.variable_name,
+                    decoder.variable_name);
+        END LOOP;
 
-            t_name=table_names[i];
+    --Clean up
+    DROP TABLE IF EXISTS visits_decoding_map;
+    raise INFO 'Finished building decoded data table for derived visits';
+END
+$$ LANGUAGE Plpgsql;
 
-            select array_agg(column_string) into column_list from
-                (select (column_name || ' as ' || column_name || '_' || t_name || meta_utils_suffix.value) as column_string
-                from information_schema.columns
-                    left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix on true
-                where
-                 table_schema = 'input' and table_name = 'derived_visits' and column_name != 'record_id')innie;
 
-            table_statement = 'drop table if exists '|| quote_ident('derived_visits_' || t_name) || ';
-                              create table output_derived_visits.'|| quote_ident('derived_visits_' || t_name) || ' as
-                (select record_id as participant_id, ' || array_to_string(column_list, ', ') ||
-                    ' from input.derived_visits where lower(infect_yn_curr || ''_'' || replace(visit_month_curr::text, ''-'',''minus'')) = ' || quote_literal(t_name) || ')';
-            raise notice '%', table_statement;
-            execute table_statement;
-        end loop;
+CREATE OR REPLACE FUNCTION get_derived_visits_subtables()
+    returns void as
+$$
+DECLARE
+    table_names     varchar[];
+    table_statement text;
+    t_name          text;
+    decoder         record;
+BEGIN
+    raise INFO 'Building subtables for derived visits from decoded data';
+    drop schema if exists output_derived_visits cascade;
+    create schema output_derived_visits;
 
-	END
-	$$ LANGUAGE Plpgsql;
-	select * from get_derived_visits_subtables();
+    SELECT ARRAY_AGG(DISTINCT table_prop)
+    INTO table_names
+    FROM (SELECT LOWER(infect_yn_curr || '_' || REPLACE(visit_month_curr::text, '-', 'minus')) as table_prop
+          FROM input.derived_visits_decoded
+          WHERE infect_yn_curr IS NOT NULL
+            AND visit_month_curr IS NOT NULL) subq;
+
+    WITH column_template AS (SELECT string_agg(
+                                            format('%I as %I_%s',
+                                                   column_name,
+                                                   column_name,(SELECT value FROM resources.meta_utils WHERE key = 'dataset_suffix')
+                                            ), ', '
+                                    ) as template
+                             FROM information_schema.columns
+                             WHERE table_schema = 'input'
+                               AND table_name = 'derived_visits'
+                               AND column_name != 'record_id')
+
+    SELECT template
+    INTO table_statement
+    FROM column_template;
+
+    FOREACH t_name IN ARRAY table_names
+        LOOP
+            EXECUTE format(
+                    'CREATE TABLE output_derived_visits.%I AS
+                     SELECT record_id as participant_id, ' || table_statement || '
+             FROM input.derived_visits_decoded
+             WHERE LOWER(infect_yn_curr || ''_'' || REPLACE(visit_month_curr::text, ''-'',''minus'')) = %L',
+                    'derived_visits_' || t_name,
+                    t_name
+                    );
+        END LOOP;
+    raise INFO 'Finished building subtables for derived visits from decoded data';
+END
+$$ LANGUAGE Plpgsql;
+select *
+from get_derived_visits_decoded();
+select *
+from get_derived_visits_subtables();
 

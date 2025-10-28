@@ -64,8 +64,8 @@ BEGIN
             'drs_uri',
             drs_uri_val
         )::TEXT as metadata
-    FROM input.derived_symptoms
-    CROSS JOIN LATERAL json_each_text(row_to_json(derived_symptoms)) AS j(colname, val)
+    FROM input.derived_symptoms_decoded
+    CROSS JOIN LATERAL json_each_text(row_to_json(derived_symptoms_decoded)) AS j(colname, val)
     LEFT JOIN information_schema.columns
         ON table_schema = 'input' 
         AND table_name = 'derived_symptoms' 

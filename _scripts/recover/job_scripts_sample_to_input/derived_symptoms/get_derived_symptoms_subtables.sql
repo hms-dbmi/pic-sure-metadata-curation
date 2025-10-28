@@ -1,59 +1,49 @@
-
 CREATE OR REPLACE FUNCTION get_derived_symptoms_decoded()
-    returns void as
+RETURNS void AS
 $$
 DECLARE
-    decoder              record;
+    update_sql text := '';
+    col_record record;
 BEGIN
 
-    raise INFO 'Started building decoded data table for derived symptoms';
-    drop table if exists input.derived_symptoms_decoded;
-    CREATE TABLE input.derived_symptoms_decoded AS TABLE input.derived_symptoms;
+    DROP TABLE IF EXISTS input.derived_symptoms_decoded;
+    CREATE TABLE input.derived_symptoms_decoded AS
+    SELECT * FROM input.derived_symptoms;
 
-    -- Create temporary table for mappings
-    DROP TABLE IF EXISTS symptom_decoding_map;
-    CREATE TEMP TABLE symptom_decoding_map AS
-    SELECT ds.variable as variable_name,
-           kv.key as key_value,
-           kv.value as decoded_value
-    FROM dictionary_files.derived_symptoms ds,
-         LATERAL jsonb_array_elements(ds.decoding_values::jsonb) AS elem,
-         LATERAL jsonb_each_text(elem) AS kv
-    WHERE ds.decoding_values IS NOT NULL;
+    FOR col_record IN
+        SELECT DISTINCT variable
+        FROM dictionary_files.symptom_decoding_lookup
+    LOOP
+        IF length(update_sql) > 0 THEN
+            update_sql := update_sql || ', ';
+        END IF;
 
-    -- Create index for better performance
-    CREATE INDEX idx_symptom_decoding_map_lookup ON symptom_decoding_map (variable_name, key_value);
+        update_sql := update_sql || format('
+            %1$I = COALESCE(
+                (SELECT decoded_value
+                 FROM dictionary_files.symptom_decoding_lookup
+                 WHERE variable = %2$L AND original_value = %1$I::text),
+                %1$I::text
+            )',
+            col_record.variable,
+            col_record.variable
+        );
+    END LOOP;
 
+    EXECUTE 'UPDATE input.derived_symptoms_decoded SET ' || update_sql || ';';
 
-    FOR decoder IN
-        SELECT DISTINCT variable_name
-        FROM symptom_decoding_map
-        LOOP
-            EXECUTE format(
-                  'UPDATE input.derived_symptoms_decoded
-                   SET %1$I = COALESCE(tdm.decoded_value, %1$I)
-                   FROM symptom_decoding_map tdm
-                   WHERE %1$I::text = tdm.key_value
-                     AND tdm.variable_name = %2$L',
-                  decoder.variable_name,
-                  decoder.variable_name);
-        END LOOP;
-
-    --Clean up
-    DROP TABLE IF EXISTS symptom_decoding_map;
-    raise INFO 'Finished building decoded data table for derived symptoms';
-END
-$$ LANGUAGE Plpgsql;
+END;
+$$ LANGUAGE plpgsql;
 
 
 CREATE OR REPLACE FUNCTION get_derived_symptoms_subtables()
     returns void as
 $$
 DECLARE
-    table_names          varchar[];
-    table_statement      text;
-    t_name               text;
-    decoder              record;
+    table_names     varchar[];
+    table_statement text;
+    t_name          text;
+    decoder         record;
 BEGIN
     raise INFO 'Building subtables for derived symptoms from decoded data';
     drop schema if exists output_derived_symptoms cascade;
@@ -67,9 +57,9 @@ BEGIN
             AND visit_month_curr IS NOT NULL) subq;
 
     WITH column_template AS (SELECT string_agg(
-                                            format('%I as %I',
+                                            format('%I as %I_%s',
                                                    column_name,
-                                                   column_name || '_' || '%s' ||
+                                                   column_name,
                                                    (SELECT value FROM resources.meta_utils WHERE key = 'dataset_suffix')
                                             ), ', '
                                     ) as template

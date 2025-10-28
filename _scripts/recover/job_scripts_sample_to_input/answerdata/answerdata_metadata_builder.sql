@@ -41,7 +41,7 @@ $$ LANGUAGE Plpgsql;
 CREATE SCHEMA IF NOT EXISTS processing_metadata;
 DROP TABLE IF EXISTS processing_metadata.answerdata_meta;
 --answerdata
-CREATE TABLE processing_metadata.answerdata_meta AS (SELECT meta_utils_id.value                                                         AS dataset_ref,
+CREATE TABLE processing_metadata.answerdata_meta AS (select DISTINCT (SELECT meta_utils_id.value                                                         AS dataset_ref,
                                                             LOWER(concept_code_rollup)                                                         AS name,
                                                             concept_name_rollup                                                         AS display,
                                                             '' AS concept_type,
@@ -77,7 +77,7 @@ CREATE TABLE processing_metadata.answerdata_meta AS (SELECT meta_utils_id.value 
                                                                                 (select (replace(value, '_', '') || '_')
                                                                                  from resources.meta_utils
                                                                                  where key = 'dataset_name')))) AS drs
-                                                                        ON TRUE);
+                                                                        ON TRUE));
 --TODO make an output of these vars
 DELETE
 FROM processing_metadata.answerdata_meta
