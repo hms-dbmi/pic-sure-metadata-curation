@@ -12,7 +12,8 @@ select
     (case when data_type = 'numeric' then 'continuous'
           else 'categorical'
         end) as concept_type,
-    '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived\visits\' || colname || '_' || infect_yn_curr || '_' || replace(visit_month_curr::text, '-','minus') || meta_utils_suffix.value|| '\' as concept_path,
+    '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived\visits\' || colname || '\' ||
+            infect_yn_curr || '\' || replace(visit_month_curr::text, '-','minus') || '\' as concept_path,
     json_build_object(
         --metadata key: description
             'description',
@@ -26,9 +27,9 @@ select
             'drs_uri',
             drs.uri
     )::TEXT  as metadata
-from input.derived_visits
-         CROSS JOIN LATERAL json_each_text(row_to_json(derived_visits)) AS j(colname,val)
-         left join information_schema.columns on table_schema = 'input' and table_name = 'derived_visits' and column_name = colname
+from input.derived_visits_decoded
+         CROSS JOIN LATERAL json_each_text(row_to_json(derived_visits_decoded)) AS j(colname,val)
+         left join information_schema.columns on table_schema = 'input' and table_name = 'derived_visits_decoded' and column_name = colname
          left join  (select value from resources.meta_utils where key = 'study_id') as meta_utils_id on true
          left join (select value from resources.meta_utils where key = 'dataset_name') as meta_utils_name on true
          left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix on true

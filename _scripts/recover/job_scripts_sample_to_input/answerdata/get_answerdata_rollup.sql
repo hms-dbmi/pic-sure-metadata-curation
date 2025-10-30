@@ -21,13 +21,13 @@ $$
 BEGIN
     return coalesce(
             case when data_field_name ~ '_{4}'
-            then '-'
-            else ''
-            end ||
-            regexp_substr(
-                    data_field_name,
-                    '(?<=_{3,4}).*'
-            ),
+                        then '-' || regexp_substr(
+                                            data_field_name, '(?<=_{4}).*')
+                        else
+                        regexp_substr(
+                                data_field_name,
+                                '(?<=_{3,4}).*'
+                        ) end,
             ''
            );
 END

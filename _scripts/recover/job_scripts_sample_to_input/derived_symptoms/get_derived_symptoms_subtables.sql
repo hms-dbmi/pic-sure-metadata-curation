@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION get_derived_symptoms_decoded()
-RETURNS void AS
+    RETURNS void AS
 $$
 DECLARE
     update_sql text := '';
@@ -13,22 +13,22 @@ BEGIN
     FOR col_record IN
         SELECT DISTINCT variable
         FROM dictionary_files.symptom_decoding_lookup
-    LOOP
-        IF length(update_sql) > 0 THEN
-            update_sql := update_sql || ', ';
-        END IF;
+        LOOP
+            IF length(update_sql) > 0 THEN
+                update_sql := update_sql || ', ';
+            END IF;
 
-        update_sql := update_sql || format('
+            update_sql := update_sql || format('
             %1$I = COALESCE(
                 (SELECT decoded_value
                  FROM dictionary_files.symptom_decoding_lookup
                  WHERE variable = %2$L AND original_value = %1$I::text),
                 %1$I::text
             )',
-            col_record.variable,
-            col_record.variable
-        );
-    END LOOP;
+                                               col_record.variable,
+                                               col_record.variable
+                                        );
+        END LOOP;
 
     EXECUTE 'UPDATE input.derived_symptoms_decoded SET ' || update_sql || ';';
 
@@ -43,7 +43,7 @@ DECLARE
     table_names     varchar[];
     table_statement text;
     t_name          text;
-    decoder         record;
+    col_update_statement text;
 BEGIN
     raise INFO 'Building subtables for derived symptoms from decoded data';
     drop schema if exists output_derived_symptoms cascade;
@@ -57,15 +57,17 @@ BEGIN
             AND visit_month_curr IS NOT NULL) subq;
 
     WITH column_template AS (SELECT string_agg(
-                                            format('%I as %I_%s',
+                                            format('%I as %I',
                                                    column_name,
-                                                   column_name,
-                                                   (SELECT value FROM resources.meta_utils WHERE key = 'dataset_suffix')
+                                                   coalesce(column_name || '_' || (SELECT value
+                                                                                   FROM resources.meta_utils
+                                                                                   WHERE key = 'dataset_suffix'
+                                                                                     and value != ''), column_name)
                                             ), ', '
                                     ) as template
                              FROM information_schema.columns
                              WHERE table_schema = 'input'
-                               AND table_name = 'derived_symptoms'
+                               AND table_name = 'derived_symptoms_decoded'
                                AND column_name != 'record_id')
 
     SELECT template
@@ -83,6 +85,11 @@ BEGIN
                     t_name
                     );
         END LOOP;
+
+    select string_agg(('alter table ' ||table_schema || '.' || table_name || ' rename column ' || old_name || ' to ' || new_name), '; ') into col_update_statement from
+                            (select column_name as old_name, column_name || '_' || replace(table_name, 'derived_symptoms_', '') as new_name, table_schema, table_name from information_schema.columns
+                            where table_schema = 'output_derived_symptoms' and column_name != 'participant_id')ini;
+    execute col_update_statement;
     raise INFO 'Finished building subtables for derived symptoms from decoded data';
 END
 $$ LANGUAGE Plpgsql;

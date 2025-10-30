@@ -52,7 +52,7 @@ DECLARE
     table_names     varchar[];
     table_statement text;
     t_name          text;
-    decoder         record;
+    col_update_statement text;
 BEGIN
     raise INFO 'Building subtables for derived visits from decoded data';
     drop schema if exists output_derived_visits cascade;
@@ -66,14 +66,14 @@ BEGIN
             AND visit_month_curr IS NOT NULL) subq;
 
     WITH column_template AS (SELECT string_agg(
-                                            format('%I as %I_%s',
+                                            format('%I as %I',
                                                    column_name,
-                                                   column_name,(SELECT value FROM resources.meta_utils WHERE key = 'dataset_suffix')
+                                                   coalesce(column_name || '_' || (SELECT value FROM resources.meta_utils WHERE key = 'dataset_suffix' and value != ''), column_name)
                                             ), ', '
                                     ) as template
                              FROM information_schema.columns
                              WHERE table_schema = 'input'
-                               AND table_name = 'derived_visits'
+                               AND table_name = 'derived_visits_decoded'
                                AND column_name != 'record_id')
 
     SELECT template
@@ -91,6 +91,10 @@ BEGIN
                     t_name
                     );
         END LOOP;
+        select string_agg(('alter table ' ||table_schema || '.' || table_name || ' rename column ' || old_name || ' to ' || new_name), '; ') into col_update_statement from
+                                (select column_name as old_name, column_name || '_' || replace(table_name, 'derived_visits_', '') as new_name, table_schema, table_name from information_schema.columns
+                                where table_schema = 'output_derived_visits' and column_name != 'participant_id')ini;
+        execute col_update_statement;
     raise INFO 'Finished building subtables for derived visits from decoded data';
 END
 $$ LANGUAGE Plpgsql;

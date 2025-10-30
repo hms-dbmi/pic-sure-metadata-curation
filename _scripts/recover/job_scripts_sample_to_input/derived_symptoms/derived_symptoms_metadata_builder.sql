@@ -51,8 +51,8 @@ BEGIN
             WHEN data_type = 'numeric' THEN 'continuous'
             ELSE 'categorical'
          END) as concept_type,
-        '\' || study_id_val || '\' || dataset_name_val || '\biostats_derived\symptoms\' || colname || '_' ||
-        infect_yn_curr || '_' || replace(visit_month_curr::text, '-','minus') || dataset_suffix_val || '\' as concept_path,
+        '\' || study_id_val || '\' || dataset_name_val || '\biostats_derived\symptoms\' || colname || '\' ||
+        infect_yn_curr || '\' || replace(visit_month_curr::text, '-','minus') || '\' as concept_path,
         json_build_object(
             'description',
             COALESCE(full_desc || ' ', '') || 'Participants are ' || infect_yn_curr || ' and '||visit_month_curr||' months past index date. '|| 'Derived from biostats_derived_symptoms source tsv.' ||
