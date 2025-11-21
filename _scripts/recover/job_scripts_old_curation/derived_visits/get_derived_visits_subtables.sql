@@ -21,7 +21,7 @@ CREATE OR REPLACE FUNCTION get_derived_visits_subtables()
             t_name=table_names[i];
 
             select array_agg(column_string) into column_list from
-                (select (column_name || ' as ' || column_name || '_' || t_name || meta_utils_suffix.value) as column_string
+                (select (column_name || ' as ' || column_name || '_' || t_name || COALESCE(meta_utils_suffix.value, '')) as column_string
                 from information_schema.columns
                     left join (select value from resources.meta_utils where key = 'dataset_suffix') as meta_utils_suffix on true
                 where
