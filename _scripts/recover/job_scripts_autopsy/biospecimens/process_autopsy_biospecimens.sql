@@ -1,5 +1,5 @@
 
-CREATE OR REPLACE FUNCTION get_biospecimens_subtables_peds()
+CREATE OR REPLACE FUNCTION get_biospecimens_subtables_autopsy()
 	returns void as
 	$$
 	DECLARE concept_names varchar[];
@@ -29,7 +29,7 @@ CREATE OR REPLACE FUNCTION get_biospecimens_subtables_peds()
         raise INFO 'Successfully created % table(s) of kit ids from biospecimens', table_count;
 	END
 	$$ LANGUAGE Plpgsql;
-	select * from get_biospecimens_subtables_peds();
+	select * from get_biospecimens_subtables_autopsy();
 
 do LANGUAGE Plpgsql $$BEGIN
 raise INFO 'starting creation of table for biospecimens metadata';
