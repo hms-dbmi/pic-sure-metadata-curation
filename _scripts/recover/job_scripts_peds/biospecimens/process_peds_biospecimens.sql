@@ -1,4 +1,3 @@
-
 CREATE OR REPLACE FUNCTION get_biospecimens_subtables_peds()
 	returns void as
 	$$
