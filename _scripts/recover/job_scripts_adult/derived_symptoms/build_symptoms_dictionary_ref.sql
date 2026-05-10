@@ -4,7 +4,7 @@
 drop column redcap_desc;*/
 
 alter table dictionary_files.derived_symptoms
-add column redcap_desc text;
+add column if not exists redcap_desc text;
 
 update dictionary_files.derived_symptoms set
 redcap_desc =
@@ -20,7 +20,7 @@ redcap_desc =
 drop column decoding_values;*/
 
 alter table dictionary_files.derived_symptoms
-add column decoding_values json;
+add column if not exists decoding_values json;
 
 update dictionary_files.derived_symptoms set
 decoding_values = decoding_vals from
@@ -55,8 +55,10 @@ group by variable
 )ini
 where ini.variable = derived_symptoms.variable  and type !~ 'REDCap';
 
-CREATE TABLE IF NOT EXISTS dictionary_files.symptom_decoding_lookup AS
-SELECT
+DROP TABLE IF EXISTS dictionary_files.symptom_decoding_lookup;
+
+CREATE TABLE dictionary_files.symptom_decoding_lookup AS
+SELECT DISTINCT ON (d.variable, kv.key)
     d.variable,
     kv.key as original_value,
     kv.value as decoded_value
@@ -66,8 +68,8 @@ CROSS JOIN LATERAL json_each_text(elem) AS kv
 WHERE d.decoding_values IS NOT NULL;
 
 -- Add indexes for fast lookups
-CREATE INDEX IF NOT EXISTS idx_decoding_lookup_var_val
+CREATE INDEX idx_decoding_lookup_var_val
 ON dictionary_files.symptom_decoding_lookup (variable, original_value);
 
-CREATE INDEX IF NOT EXISTS idx_decoding_lookup_var
+CREATE INDEX idx_decoding_lookup_var
 ON dictionary_files.symptom_decoding_lookup (variable);
