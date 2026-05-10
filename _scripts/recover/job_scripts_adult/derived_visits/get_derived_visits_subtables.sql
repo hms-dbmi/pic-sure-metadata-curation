@@ -18,7 +18,12 @@ BEGIN
     FROM dictionary_files.derived_visits ds,
          LATERAL jsonb_array_elements(ds.decoding_values::jsonb) AS elem,
          LATERAL jsonb_each_text(elem) AS kv
-    WHERE ds.decoding_values IS NOT NULL;
+    WHERE ds.decoding_values IS NOT NULL
+      AND ds.variable IN (
+          SELECT columns.column_name
+          FROM information_schema.columns
+          WHERE table_name = 'derived_visits' AND table_schema = 'input'
+      );
 
     -- Create index for better performance
     CREATE INDEX idx_visits_decoding_map_lookup ON visits_decoding_map (variable_name, key_value);
