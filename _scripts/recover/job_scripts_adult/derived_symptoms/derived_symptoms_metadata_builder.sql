@@ -45,17 +45,17 @@ BEGIN
     CREATE TABLE processing_metadata.derived_symptoms_meta AS
     SELECT 
         study_id_val as dataset_ref,
-        lower(colname || '_' || CASE infect_yn_curr WHEN 'Has been infected' THEN 'infected' WHEN 'Has not been infected' THEN 'noninfected' ELSE REPLACE(infect_yn_curr, ' ', '_') END || '_' || replace(visit_month_curr::text, '-','minus')) || dataset_suffix_val as name,
-        colname || ' (Biostats Derived Symptoms ' || CASE infect_yn_curr WHEN 'Has been infected' THEN 'infected' WHEN 'Has not been infected' THEN 'noninfected' ELSE REPLACE(infect_yn_curr, ' ', '_') END || ', ' || visit_month_curr || ' Months Post Index)' as display,
+        lower(colname || '_' || CASE infect_yn_curr WHEN 'has been infected' THEN 'infected' WHEN 'has not been infected' THEN 'noninfected' ELSE REPLACE(infect_yn_curr, ' ', '_') END || '_' || replace(visit_month_curr::text, '-','minus')) || dataset_suffix_val as name,
+        colname || ' (Biostats Derived Symptoms ' || CASE infect_yn_curr WHEN 'has been infected' THEN 'infected' WHEN 'has not been infected' THEN 'noninfected' ELSE REPLACE(infect_yn_curr, ' ', '_') END || ', ' || visit_month_curr || ' Months Post Index)' as display,
         (CASE
             WHEN data_type = 'numeric' THEN 'continuous'
             ELSE 'categorical'
          END) as concept_type,
         '\' || study_id_val || '\' || dataset_name_val || '\biostats_derived\symptoms\' || colname || '\' ||
-        CASE infect_yn_curr WHEN 'Has been infected' THEN 'infected' WHEN 'Has not been infected' THEN 'noninfected' ELSE REPLACE(infect_yn_curr, ' ', '_') END || '\' || replace(visit_month_curr::text, '-','minus') || '\' as concept_path,
+        CASE infect_yn_curr WHEN 'has been infected' THEN 'infected' WHEN 'has not been infected' THEN 'noninfected' ELSE REPLACE(infect_yn_curr, ' ', '_') END || '\' || replace(visit_month_curr::text, '-','minus') || '\' as concept_path,
         json_build_object(
             'description',
-            COALESCE(full_desc || ' ', '') || 'Participants are ' || CASE infect_yn_curr WHEN 'Has been infected' THEN 'infected' WHEN 'Has not been infected' THEN 'noninfected' ELSE REPLACE(infect_yn_curr, ' ', '_') END || ' and '||visit_month_curr||' months past index date. '|| 'Derived from biostats_derived_symptoms source tsv.' ||
+            COALESCE(full_desc || ' ', '') || 'Participants are ' || CASE infect_yn_curr WHEN 'has been infected' THEN 'infected' WHEN 'has not been infected' THEN 'noninfected' ELSE REPLACE(infect_yn_curr, ' ', '_') END || ' and '||visit_month_curr||' months past index date. '|| 'Derived from biostats_derived_symptoms source tsv.' ||
             CASE
                 WHEN (colname ~ 'date') OR (colname ~ 'dt') THEN
                     ' Dates have been shifted to protect anonymity.'
