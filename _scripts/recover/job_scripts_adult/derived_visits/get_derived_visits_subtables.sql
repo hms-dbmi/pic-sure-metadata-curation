@@ -65,7 +65,12 @@ BEGIN
 
     SELECT ARRAY_AGG(DISTINCT table_prop)
     INTO table_names
-    FROM (SELECT LOWER(REPLACE(infect_yn_curr, ' ', '_') || '_' || REPLACE(visit_month_curr::text, '-', 'minus')) as table_prop
+    FROM (SELECT LOWER(
+              CASE infect_yn_curr
+                  WHEN 'Has been infected' THEN 'infected'
+                  WHEN 'Has not been infected' THEN 'noninfected'
+                  ELSE REPLACE(infect_yn_curr, ' ', '_')
+              END || '_' || REPLACE(visit_month_curr::text, '-', 'minus')) as table_prop
           FROM input.derived_visits_decoded
           WHERE infect_yn_curr IS NOT NULL
             AND visit_month_curr IS NOT NULL) subq;
@@ -91,7 +96,12 @@ BEGIN
                     'CREATE TABLE output_derived_visits.%I AS
                      SELECT record_id as participant_id, ' || table_statement || '
              FROM input.derived_visits_decoded
-             WHERE LOWER(REPLACE(infect_yn_curr, '' '', ''_'') || ''_'' || REPLACE(visit_month_curr::text, ''-'',''minus'')) = %L',
+             WHERE LOWER(
+                 CASE infect_yn_curr
+                     WHEN ''Has been infected'' THEN ''infected''
+                     WHEN ''Has not been infected'' THEN ''noninfected''
+                     ELSE REPLACE(infect_yn_curr, '' '', ''_'')
+                 END || ''_'' || REPLACE(visit_month_curr::text, ''-'',''minus'')) = %L',
                     'derived_visits_' || t_name,
                     t_name
                     );
