@@ -98,8 +98,8 @@ BEGIN
              FROM input.derived_visits_decoded
              WHERE LOWER(
                  CASE infect_yn_curr
-                     WHEN ''Has been infected'' THEN ''infected''
-                     WHEN ''Has not been infected'' THEN ''noninfected''
+                     WHEN ''has been infected'' THEN ''infected''
+                     WHEN ''has not been infected'' THEN ''noninfected''
                      ELSE REPLACE(infect_yn_curr, '' '', ''_'')
                  END || ''_'' || REPLACE(visit_month_curr::text, ''-'',''minus'')) = %L',
                     'derived_visits_' || t_name,
