@@ -18,20 +18,21 @@ $$
 DECLARE
     form_field_record record;
     table_sql text;
+    table_name_safe text;
     total_tables int := 0;
     column_defs text;
 BEGIN
     RAISE INFO 'Starting table creation';
 
-    SELECT COUNT(DISTINCT substr((form_name || '_' || field_name), 63)) INTO total_tables
+    SELECT COUNT(DISTINCT (form_name, field_name)) INTO total_tables
     FROM input.answerdata;
 
     RAISE INFO 'Creating % answerdata tables', total_tables;
 
     FOR form_field_record IN
-        SELECT DISTINCT substr((form_name || '_' || field_name), 0, 63) as form_field
+        SELECT DISTINCT form_name, field_name
         FROM input.answerdata
-        ORDER BY form_field
+        ORDER BY form_name, field_name
     LOOP
         SELECT string_agg(
             quote_ident(lower(concept_code_rollup)) || ' varchar',
@@ -40,9 +41,18 @@ BEGIN
         FROM (
             SELECT DISTINCT concept_code_rollup
             FROM input.answerdata
-            WHERE substr((form_name || '_' || field_name), 0, 63) = form_field_record.form_field
+            WHERE form_name = form_field_record.form_name
+              AND field_name = form_field_record.field_name
             ORDER BY concept_code_rollup
         ) concepts;
+
+        -- Build safe table name: use hash suffix when > 63 chars to avoid Postgres identifier truncation collisions
+        IF length(form_field_record.form_name || '_' || form_field_record.field_name) > 63 THEN
+            table_name_safe := left(form_field_record.form_name || '_' || form_field_record.field_name, 58)
+                || '_' || left(md5(form_field_record.form_name || '_' || form_field_record.field_name), 4);
+        ELSE
+            table_name_safe := form_field_record.form_name || '_' || form_field_record.field_name;
+        END IF;
 
         table_sql := format(
             'CREATE TABLE output_answerdata.%I AS '
@@ -50,7 +60,7 @@ BEGIN
                 '%L, '
                 '%L'
             ') AS ct(participant_id varchar, %s)',
-            form_field_record.form_field,
+            table_name_safe,
             format(
                 'SELECT participant_id, concept_code_rollup, '
                 'CASE '
@@ -59,14 +69,16 @@ BEGIN
                     'ELSE answer_label '
                 'END '
                 'FROM input.answerdata '
-                'WHERE substr((form_name || ''_'' || field_name), 0, 63) = %L',
-                form_field_record.form_field
+                'WHERE form_name = %L AND field_name = %L',
+                form_field_record.form_name,
+                form_field_record.field_name
             ),
             format(
                 'SELECT DISTINCT concept_code_rollup FROM input.answerdata '
-                'WHERE substr((form_name || ''_'' || field_name), 0, 63) = %L '
+                'WHERE form_name = %L AND field_name = %L '
                 'ORDER BY 1',
-                form_field_record.form_field
+                form_field_record.form_name,
+                form_field_record.field_name
             ),
             column_defs
         );

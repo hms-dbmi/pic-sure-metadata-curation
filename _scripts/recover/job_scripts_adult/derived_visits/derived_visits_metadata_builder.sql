@@ -7,17 +7,17 @@ create table if not exists processing_metadata.derived_visits_meta as
 
 select
     meta_utils_id.value as dataset_ref,
-    lower(colname|| '_' || infect_yn_curr || '_' || replace(visit_month_curr::text, '-','minus'))|| meta_utils_suffix.value as name,
-    colname || ' (Biostats Derived Visits ' || infect_yn_curr || ',' || visit_month_curr || ' Months Post Index)' as display,
+    lower(colname|| '_' || CASE infect_yn_curr WHEN 'has been infected' THEN 'infected' WHEN 'has not been infected' THEN 'noninfected' ELSE REPLACE(infect_yn_curr, ' ', '_') END || '_' || replace(visit_month_curr::text, '-','minus'))|| meta_utils_suffix.value as name,
+    colname || ' (Biostats Derived Visits ' || CASE infect_yn_curr WHEN 'has been infected' THEN 'infected' WHEN 'has not been infected' THEN 'noninfected' ELSE REPLACE(infect_yn_curr, ' ', '_') END || ',' || visit_month_curr || ' Months Post Index)' as display,
     (case when data_type = 'numeric' then 'continuous'
           else 'categorical'
         end) as concept_type,
     '\' || meta_utils_id.value || '\' || meta_utils_name.value || '\biostats_derived\visits\' || colname || '\' ||
-            infect_yn_curr || '\' || replace(visit_month_curr::text, '-','minus') || '\' as concept_path,
+            CASE infect_yn_curr WHEN 'has been infected' THEN 'infected' WHEN 'has not been infected' THEN 'noninfected' ELSE REPLACE(infect_yn_curr, ' ', '_') END || '\' || replace(visit_month_curr::text, '-','minus') || '\' as concept_path,
     json_build_object(
         --metadata key: description
             'description',
-            coalesce(full_desc || ' ', '') || 'Participants are ' || infect_yn_curr || ' and '||replace(visit_month_curr::text, '-','minus')||' months past index date.' ||
+            coalesce(full_desc || ' ', '') || 'Participants are ' || CASE infect_yn_curr WHEN 'has been infected' THEN 'infected' WHEN 'has not been infected' THEN 'noninfected' ELSE REPLACE(infect_yn_curr, ' ', '_') END || ' and '||replace(visit_month_curr::text, '-','minus')||' months past index date.' ||
             case when (colname ~ 'date') or (colname ~ 'dt') then
                      ' Dates have been shifted to protect anonymity.'
                  else ''

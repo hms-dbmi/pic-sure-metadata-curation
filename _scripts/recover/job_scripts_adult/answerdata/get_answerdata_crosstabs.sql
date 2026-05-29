@@ -18,6 +18,7 @@ $$
 DECLARE
     form_field_record record;
     table_sql text;
+    table_name_safe text;
     total_tables int := 0;
     column_defs text;
 BEGIN
@@ -45,13 +46,21 @@ BEGIN
             ORDER BY concept_code_rollup
         ) concepts;
 
+        -- Build safe table name: use hash suffix when > 63 chars to avoid Postgres identifier truncation collisions
+        IF length(form_field_record.form_name || '_' || form_field_record.field_name) > 63 THEN
+            table_name_safe := left(form_field_record.form_name || '_' || form_field_record.field_name, 58)
+                || '_' || left(md5(form_field_record.form_name || '_' || form_field_record.field_name), 4);
+        ELSE
+            table_name_safe := form_field_record.form_name || '_' || form_field_record.field_name;
+        END IF;
+
         table_sql := format(
             'CREATE TABLE output_answerdata.%I AS '
             'SELECT * FROM crosstab('
                 '%L, '
                 '%L'
             ') AS ct(participant_id varchar, %s)',
-            form_field_record.form_name || '_' || form_field_record.field_name,
+            table_name_safe,
             format(
                 'SELECT participant_id, concept_code_rollup, '
                 'CASE '

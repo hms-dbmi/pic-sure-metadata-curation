@@ -13,6 +13,10 @@ BEGIN
     FOR col_record IN
         SELECT DISTINCT variable
         FROM dictionary_files.symptom_decoding_lookup
+        WHERE variable IN (
+            SELECT column_name FROM information_schema.columns
+            WHERE table_name = 'derived_symptoms' AND table_schema = 'input'
+        )
         LOOP
             IF length(update_sql) > 0 THEN
                 update_sql := update_sql || ', ';
@@ -51,7 +55,12 @@ BEGIN
 
     SELECT ARRAY_AGG(DISTINCT table_prop)
     INTO table_names
-    FROM (SELECT LOWER(infect_yn_curr || '_' || REPLACE(visit_month_curr::text, '-', 'minus')) as table_prop
+    FROM (SELECT LOWER(
+              CASE infect_yn_curr
+                  WHEN 'has been infected' THEN 'infected'
+                  WHEN 'has not been infected' THEN 'noninfected'
+                  ELSE REPLACE(infect_yn_curr, ' ', '_')
+              END || '_' || REPLACE(visit_month_curr::text, '-', 'minus')) as table_prop
           FROM input.derived_symptoms_decoded
           WHERE infect_yn_curr IS NOT NULL
             AND visit_month_curr IS NOT NULL) subq;
@@ -80,13 +89,18 @@ BEGIN
                     'CREATE TABLE output_derived_symptoms.%I AS
                      SELECT record_id as participant_id, ' || table_statement || '
              FROM input.derived_symptoms_decoded
-             WHERE LOWER(infect_yn_curr || ''_'' || REPLACE(visit_month_curr::text, ''-'',''minus'')) = %L',
+             WHERE LOWER(
+                 CASE infect_yn_curr
+                     WHEN ''has been infected'' THEN ''infected''
+                     WHEN ''has not been infected'' THEN ''noninfected''
+                     ELSE REPLACE(infect_yn_curr, '' '', ''_'')
+                 END || ''_'' || REPLACE(visit_month_curr::text, ''-'',''minus'')) = %L',
                     'derived_symptoms_' || t_name,
                     t_name
                     );
         END LOOP;
 
-    select string_agg(('alter table ' ||table_schema || '.' || table_name || ' rename column ' || old_name || ' to ' || new_name), '; ') into col_update_statement from
+    select string_agg(format('alter table %I.%I rename column %I to %I', table_schema, table_name, old_name, new_name), '; ') into col_update_statement from
                             (select column_name as old_name, column_name || '_' || replace(table_name, 'derived_symptoms_', '') as new_name, table_schema, table_name from information_schema.columns
                             where table_schema = 'output_derived_symptoms' and column_name != 'participant_id')ini;
     execute col_update_statement;
