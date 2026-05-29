@@ -40,7 +40,7 @@ set (concept_path_rollup, concept_code_rollup, concept_name_rollup) =
                   '\\' || get_val(data_field_name) || '\\',
                   '\\'
           )),
-         (replace(concept_code, data_field_name, field_name)),
+         (replace(concept_code, COALESCE(data_field_name, field_name), field_name)),
          case when data_field_name != field_name
          then
          (regexp_replace(concept_name, ('\(' || get_val(data_field_name) || '\,.*\)'), ''))
